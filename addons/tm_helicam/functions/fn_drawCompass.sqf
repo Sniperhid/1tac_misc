@@ -1,4 +1,4 @@
-#include "\x\tac1\addons\helicam\script_component.hpp"
+#include "\x\tac1\addons\tm_helicam\script_component.hpp"
 
 // Credit KK for proof of concept: http://killzonekid.com/arma-scripting-tutorials-3d-compass/
 
@@ -21,10 +21,10 @@ if (cameraView == "gunner") then {
 		drawIcon3D ["\a3\ui_f\data\IGUI\Cfg\Cursors\iconcomplex_ca.paa",_colour,_offset3,2.5,2.5,0];
 		drawIcon3D ["\a3\ui_f\data\IGUI\Cfg\Cursors\iconcomplex_ca.paa",_colour,_offset4,2.5,2.5,0];
     } forEach [
-        ["\x\tac1\addons\helicam\data\N.paa",[1,1,1,0.9],[0,1*_scale,0],[0,0.25*_scale,0],[0,0.5*_scale,0],[0,0.75*_scale,0]], 
-        ["\x\tac1\addons\helicam\data\S.paa",[1,1,1,0.6],[0,-1*_scale,0],[0,-0.25*_scale,0],[0,-0.5*_scale,0],[0,-0.75*_scale,0]], 
-        ["\x\tac1\addons\helicam\data\E.paa",[1,1,1,0.6],[1*_scale,0,0],[0.25*_scale,0,0],[0.5*_scale,0,0],[0.75*_scale,0,0]], 
-        ["\x\tac1\addons\helicam\data\W.paa",[1,1,1,0.6],[-1*_scale,0,0],[-0.25*_scale,0,0],[-0.5*_scale,0,0],[-0.75*_scale,0,0]]
+        ["\x\tac1\addons\tm_helicam\data\N.paa",[1,1,1,0.9],[0,1*_scale,0],[0,0.25*_scale,0],[0,0.5*_scale,0],[0,0.75*_scale,0]], 
+        ["\x\tac1\addons\tm_helicam\data\S.paa",[1,1,1,0.6],[0,-1*_scale,0],[0,-0.25*_scale,0],[0,-0.5*_scale,0],[0,-0.75*_scale,0]], 
+        ["\x\tac1\addons\tm_helicam\data\E.paa",[1,1,1,0.6],[1*_scale,0,0],[0.25*_scale,0,0],[0.5*_scale,0,0],[0.75*_scale,0,0]], 
+        ["\x\tac1\addons\tm_helicam\data\W.paa",[1,1,1,0.6],[-1*_scale,0,0],[-0.25*_scale,0,0],[-0.5*_scale,0,0],[-0.75*_scale,0,0]]
     ];
 	private _dir = direction (vehicle (call CBA_fnc_currentUnit));
 	private _vehicleOffset = _center vectorAdd [0.375*_scale*(sin _dir),0.375*_scale*(cos _dir),0];

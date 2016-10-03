@@ -1,4 +1,4 @@
-#include "\x\tac1\addons\helicam\script_component.hpp"
+#include "\x\tac1\addons\tm_helicam\script_component.hpp"
 
 params ["_playerUnit"];
 
