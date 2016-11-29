@@ -228,21 +228,4 @@ class CfgWeapons
 			magazines[] = { __40MM_M203_MAGS };
 		};
 	};
-	class delta_L9A1: rhsusf_weap_glock17g4
-	{
-		displayName = "L9A1 Browning High Power";
-		model = "\rhsusf\addons\rhsusf_weapons\pistols\M1911A1\rhs_m1911a1";
-		modelOptics = "-";
-		picture = "\rhsusf\addons\rhsusf_weapons\icons\p_m1911a1_ca.paa";
-		magazines[] = {"delta_mag_13x9mm"};
-		class WeaponSlotsInfo
-		{
-			holsterScale = 0.92;
-			holsterOffset = "holster";
-			mass = 8;
-			class CowsSlot{};
-			class MuzzleSlot{};
-			class PointerSlot{};
-		};
-	};
 };
