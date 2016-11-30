@@ -114,7 +114,7 @@ class CfgWeapons
 	};
 	class hlc_rifle_ak12GL: hlc_rifle_ak12
 	{
-		class hlc_GP30_AK12: UGL_F
+		class hlc_GP30: UGL_F
 		{
 			magazines[] = { __40MM_GP25_MAGS };
 		};
@@ -130,7 +130,7 @@ class CfgWeapons
 	class hlc_rifle_aks74: hlc_rifle_ak74{};
 	class hlc_rifle_aks74_GL: hlc_rifle_aks74
 	{
-		class hlc_GP30_AKS74: UGL_F
+		class hlc_GP30: UGL_F
 		{
 			magazines[] = { __40MM_GP25_MAGS };
 		};
@@ -142,7 +142,7 @@ class CfgWeapons
 	class hlc_rifle_akm: hlc_rifle_ak47{};
 	class hlc_rifle_akmgl: hlc_rifle_akm
 	{
-		class hlc_GP25_AKM: UGL_F
+		class hlc_GP25: UGL_F
 		{
 			magazines[] = { __40MM_GP25_MAGS };
 		};
