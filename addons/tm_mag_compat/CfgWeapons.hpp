@@ -127,7 +127,8 @@ class CfgWeapons
 	{
 		magazines[] = { __545_MAGS };
 	};
-	class hlc_rifle_aks74: hlc_rifle_ak74{};
+	class hlc_rifle_ak74m: hlc_rifle_ak74 {};
+	class hlc_rifle_aks74: hlc_rifle_ak74 {};
 	class hlc_rifle_aks74_GL: hlc_rifle_aks74
 	{
 		class hlc_GP30: UGL_F
@@ -163,19 +164,19 @@ class CfgWeapons
 	{
 		magazines[] = { __762_MAGS };
 	};
-	class hlc_rifle_slr107u_MTK: hlc_ak_base
+	class hlc_rifle_slr107u_MTK: hlc_rifle_slr107u
 	{
 		magazines[] = { __762_MAGS };
 	};
-	class hlc_rifle_ak74_MTK: hlc_ak_base
+	class hlc_rifle_ak74_MTK: hlc_rifle_ak74
 	{
 		magazines[] = { __545_MAGS };
 	};
-	class hlc_rifle_ak74m_MTK: hlc_ak_base
+	class hlc_rifle_ak74m_MTK: hlc_rifle_ak74m
 	{
 		magazines[] = { __545_MAGS };
 	};
-	class hlc_rifle_aks74u_MTK: hlc_ak_base
+	class hlc_rifle_aks74u_MTK: hlc_rifle_aks74u
 	{
 		magazines[] = { __545_MAGS };
 	};
