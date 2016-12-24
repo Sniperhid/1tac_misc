@@ -4,7 +4,10 @@
 
 // Override them using undef/def
 
-#define __556_MAGS __556STANAG_BI_MAGS, __556STANAG_RHS_MAGS, __556STANAG_CUP_MAGS 
+
+#define __TM_556_STANAG_ACE_MAGS "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "ACE_30Rnd_556x45_Stanag_Mk262_mag", "ACE_30Rnd_556x45_Stanag_Mk318_mag", "ACE_30Rnd_556x45_Stanag_Tracer_Dim"
+#define __556_MAGS __556STANAG_BI_MAGS, __556STANAG_RHS_MAGS, __556STANAG_CUP_MAGS, __TM_556_STANAG_ACE_MAGS
+
 #define __556_BELTS __556NATO_BI_BELTS, __556NATO_RHS_BELTS, __556NATO_CUP_BELTS
 //Don't use Toadie's AR15s - __556STANAG_MAGS
 //Don't use Toadies SAW pack - __556NATO_BELTS
@@ -15,9 +18,14 @@
 #define __762_NATO_MAGS __762NATO_RHS_BELTS, __762NATO_CUP_BELTS 
 // Exclude BI mags 150rnd boxes __762NATO_BI_BELTS 
 
+#define __TM_762x51_20x_ACE_MAGS "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer_Dim", "ACE_20Rnd_762x51_Mk316_Mod_0_Mag", "ACE_20Rnd_762x51_M118LR_Mag", "ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD"
+#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS
+
 #define __40MM_M203_MAGS __40MM_M203_BI_GRENADES, __40MM_M203_RHS_GRENADES, __40MM_M203_CUP_GRENADES, "ACE_HuntIR_M203"
 
 #define __40MM_GP25_MAGS __40MM_GP_GRENADES, __40MM_GP_RHS_GRENADES 
+
+#define __RPG7_VANILLACOMPAT_GRENADES "RPG7_F", "CUP_PG7V_M", "CUP_PG7VM_M", "CUP_PG7VL_M", "CUP_PG7VR_M", "CUP_OG7_M", "CUP_TBG7V_M"
 
 class CfgWeapons
 {
@@ -228,5 +236,65 @@ class CfgWeapons
 		{
 			magazines[] = { __40MM_M203_MAGS };
 		};
+	};
+	
+	class arifle_AK12_base_F: Rifle_Base_F 
+	{
+		magazines[] = { __762_MAGS };
+	};
+	class arifle_AK12_F: arifle_AK12_base_F {};
+	class arifle_AK12_GL_base_F: arifle_AK12_base_F 
+	{
+		class EGLM: UGL_F 
+		{
+			magazines[] = { __40MM_GP25_MAGS };
+		};
+	};
+	class arifle_AK12_GL_F: arifle_AK12_GL_base_F {};
+	class arifle_AKM_base_F: Rifle_Base_F 
+	{
+		magazines[] = { __762_MAGS };
+	};
+	class arifle_AKM_F: arifle_AKM_base_F {};
+	class arifle_AKS_base_F: Rifle_Base_F 
+	{
+		magazines[] = { __545_MAGS };
+	};
+	class arifle_AKS_F: arifle_AKS_base_F {};
+	
+	class arifle_SPAR_01_base_F: Rifle_Base_F 
+	{
+		magazines[] = { __556_MAGS };
+	};
+	class arifle_SPAR_01_blk_F: arifle_SPAR_01_base_F {};
+	class arifle_SPAR_01_khk_F: arifle_SPAR_01_base_F {};
+	class arifle_SPAR_01_snd_F: arifle_SPAR_01_base_F {};
+	class arifle_SPAR_01_GL_base_F: arifle_SPAR_01_base_F 
+	{
+		class EGLM: UGL_F 
+		{
+			magazines[] = { __40MM_M203_MAGS };
+		};
+	};
+	class arifle_SPAR_01_GL_blk_F: arifle_SPAR_01_GL_base_F {};
+	class arifle_SPAR_01_GL_khk_F: arifle_SPAR_01_GL_base_F {};
+	class arifle_SPAR_01_GL_snd_F: arifle_SPAR_01_GL_base_F {};
+	class arifle_SPAR_03_base_F: Rifle_Base_F 
+	{
+		magazines[] = { __762_NATO_20_MAGS };
+	};
+	class arifle_SPAR_03_blk_F: arifle_SPAR_03_base_F {};
+	class arifle_SPAR_03_khk_F: arifle_SPAR_03_base_F {};
+	class arifle_SPAR_03_snd_F: arifle_SPAR_03_base_F {};
+	class LMG_03_base_F: Rifle_Long_Base_F 
+	{
+		magazines[] = { __556_BELTS };
+	};
+	class LMG_03_F: LMG_03_base_F {};
+	
+	class Launcher_Base_F;
+	class launch_RPG7_F: Launcher_Base_F 
+	{
+		magazines[] = { __RPG7_VANILLACOMPAT_GRENADES };
 	};
 };
