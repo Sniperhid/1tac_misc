@@ -6,14 +6,14 @@
 
 
 #define __TM_556_STANAG_ACE_MAGS "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "ACE_30Rnd_556x45_Stanag_Mk262_mag", "ACE_30Rnd_556x45_Stanag_Mk318_mag", "ACE_30Rnd_556x45_Stanag_Tracer_Dim"
-#define __556_MAGS __556STANAG_BI_MAGS, __556STANAG_RHS_MAGS, __556STANAG_CUP_MAGS, __TM_556_STANAG_ACE_MAGS
+#define __556_MAGS __556STANAG_BI_MAGS, __556STANAG_RHS_MAGS, __556STANAG_CUP_MAGS, __TM_556_STANAG_ACE_MAGS, "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange"
 
 #define __556_BELTS __556NATO_BI_BELTS, __556NATO_RHS_BELTS, __556NATO_CUP_BELTS
 //Don't use Toadie's AR15s - __556STANAG_MAGS
 //Don't use Toadies SAW pack - __556NATO_BELTS
 
 #define __545_MAGS __545x39_MAGS, __545x39_BI_MAGS, __545x39_RHS_MAGS 
-#define __762_MAGS __762x39_MAGS, __762x39_BI_MAGS, __762x39_RHS_MAGS 
+#define __762_MAGS __762x39_MAGS, __762x39_BI_MAGS, __762x39_RHS_MAGS, "hlc_75Rnd_762x39_m_rpk"
 
 #define __762_NATO_MAGS __762NATO_RHS_BELTS, __762NATO_CUP_BELTS 
 // Exclude BI mags 150rnd boxes __762NATO_BI_BELTS 
@@ -21,7 +21,7 @@
 #define __TM_762x51_20x_ACE_MAGS "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer_Dim", "ACE_20Rnd_762x51_Mk316_Mod_0_Mag", "ACE_20Rnd_762x51_M118LR_Mag", "ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD"
 #define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS
 
-#define __40MM_M203_MAGS __40MM_M203_BI_GRENADES, __40MM_M203_RHS_GRENADES, __40MM_M203_CUP_GRENADES, "ACE_HuntIR_M203"
+#define __40MM_M203_MAGS __40MM_M203_BI_GRENADES, __40MM_M203_RHS_GRENADES, __40MM_M203_CUP_GRENADES, "ACE_HuntIR_M203", "rhs_mag_M781_Practice"
 
 #define __40MM_GP25_MAGS __40MM_GP_GRENADES, __40MM_GP_RHS_GRENADES 
 
@@ -41,6 +41,8 @@ class CfgWeapons
 	};
     class Rifle_Base_F;
 	class arifle_MX_Base_F: Rifle_Base_F{};
+	
+	// RHS USF
 	class rhs_weap_m4_Base: arifle_MX_Base_F
 	{
         magazines[] = { __556_MAGS };
@@ -83,18 +85,12 @@ class CfgWeapons
 	{
 		magazines[] = { __556_BELTS , __556_MAGS };
 	};
-	class rhs_weap_m240_base: rhs_weap_M249_base{};
-	class GM6_base_F;
-	class rhs_weap_M107_Base_F: GM6_base_F{};
-	class hgun_ACPC2_F;
-	class hgun_P07_F;
-	class rhsusf_weap_m1911a1: hgun_ACPC2_F{};
-	class rhsusf_weap_glock17g4: hgun_P07_F{};
-	class rhsusf_weap_m9: rhsusf_weap_glock17g4{};
 	class rhs_weap_m32_Base_F: Rifle_Base_F
 	{
 		magazines[] = { __40MM_M203_MAGS };
 	};
+	
+	// RHS AFRF
 	class rhs_weap_ak74m_Base_F: Rifle_Base_F
 	{
 		magazines[] = { __545_MAGS };
@@ -115,6 +111,19 @@ class CfgWeapons
 	class rhs_weap_ak74m_folded: rhs_weap_ak74m{};
 	class rhs_weap_ak74m_gp25_folded: rhs_weap_ak74m_folded{};
 	class rhs_weap_ak74m_gp25: rhs_weap_ak74m{};
+	
+	// RHS GREF
+	class rhs_weap_m70_base: Rifle_Base_F 
+	{
+		magazines[] = { __762_MAGS };
+	};
+	class rhs_weap_m70ab2: rhs_weap_m70_base {};
+	class rhs_weap_m70ab2_fold: rhs_weap_m70ab2 {};
+	class rhs_weap_m70b1: rhs_weap_m70ab2 {};
+	class rhs_weap_m92: rhs_weap_m70_base {};
+	class rhs_weap_m92_fold: rhs_weap_m92 {};
+	
+	// HLC
 	class hlc_ak_base;
 	class hlc_rifle_ak12: hlc_ak_base
 	{
@@ -188,6 +197,8 @@ class CfgWeapons
 	{
 		magazines[] = { __545_MAGS };
 	};
+	
+	// CUP
 	class CUP_l85a2_base: Rifle_Base_F
 	{
 		magazines[] = { __556_MAGS };
@@ -238,6 +249,7 @@ class CfgWeapons
 		};
 	};
 	
+	// Apex
 	class arifle_AK12_base_F: Rifle_Base_F 
 	{
 		magazines[] = { __762_MAGS };
