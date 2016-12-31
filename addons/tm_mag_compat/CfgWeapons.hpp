@@ -13,7 +13,8 @@
 //Don't use Toadies SAW pack - __556NATO_BELTS
 
 #define __545_MAGS __545x39_MAGS, __545x39_BI_MAGS, __545x39_RHS_MAGS 
-#define __762_MAGS __762x39_MAGS, __762x39_BI_MAGS, __762x39_RHS_MAGS, "hlc_75Rnd_762x39_m_rpk"
+#define __762_MAGS __762x39_MAGS, __762x39_BI_MAGS, __762x39_RHS_MAGS
+#define __762_RPK_MAGS __762_MAGS, "hlc_75Rnd_762x39_m_rpk"
 
 #define __762_NATO_MAGS __762NATO_RHS_BELTS, __762NATO_CUP_BELTS 
 // Exclude BI mags 150rnd boxes __762NATO_BI_BELTS 
@@ -167,7 +168,7 @@ class CfgWeapons
 	};
 	class hlc_rifle_rpk: hlc_ak_base
 	{
-		magazines[] = { __762_MAGS };
+		magazines[] = { __762_RPK_MAGS };
 	};
 	class hlc_rifle_rpk74n: hlc_ak_base
 	{
