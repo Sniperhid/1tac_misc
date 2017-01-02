@@ -45,6 +45,7 @@ class CfgDifficultyPresets {
             scoreTable = 0;
             staminaBar = 0;
             stanceIndicator = 1;
+            tacticalPing = 0;
             thirdPersonView = 0;
             visionAid = 0;
             vonID = 0;
@@ -72,6 +73,7 @@ class CfgDifficultyPresets {
             scoreTable = 0;
             staminaBar = 0;
             stanceIndicator = 1;
+            tacticalPing = 0;
             thirdPersonView = 0;
             visionAid = 0;
             vonID = 0;
@@ -99,6 +101,7 @@ class CfgDifficultyPresets {
             scoreTable = 0;
             staminaBar = 0;
             stanceIndicator = 1;
+            tacticalPing = 0;
             thirdPersonView = 0;
             visionAid = 0;
             vonID = 0;
@@ -126,6 +129,7 @@ class CfgDifficultyPresets {
             scoreTable = 0;
             staminaBar = 0;
             stanceIndicator = 1;
+            tacticalPing = 0;
             thirdPersonView = 0;
             visionAid = 0;
             vonID = 0;
