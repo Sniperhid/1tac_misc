@@ -30,12 +30,6 @@ class CfgWeapons
 	class CUP_arifle_MG36: CUP_arifle_G36C { scope = 1; scopeArsenal = 1; scopeCurator = 1; };
 	class CUP_arifle_MG36_camo: CUP_arifle_MG36 { scope = 1; scopeArsenal = 1; scopeCurator = 1; };*/
 	
-	class CUP_arifle_L85A2_Base: Rifle_Base_F {};
-	class CUP_arifle_L85A2: CUP_arifle_L85A2_Base { scope = 1; scopeArsenal = 1; scopeCurator = 1; };
-	class CUP_arifle_L85A2_GL: CUP_arifle_L85A2_Base { scope = 1; scopeArsenal = 1; scopeCurator = 1; };
-	class CUP_arifle_L86A2_Base: Rifle_Base_F {};
-	class CUP_arifle_L86A2: CUP_arifle_L86A2_Base { scope = 1; scopeArsenal = 1; scopeCurator = 1; };
-	
 	class CUP_arifle_M16_Base: Rifle_Base_F {};
 	class CUP_arifle_M16A4_Base: CUP_arifle_M16_Base { scope = 1; scopeArsenal = 1; scopeCurator = 1; };
 	class CUP_arifle_M16A4_GL: CUP_arifle_M16_Base { scope = 1; scopeArsenal = 1; scopeCurator = 1; };
