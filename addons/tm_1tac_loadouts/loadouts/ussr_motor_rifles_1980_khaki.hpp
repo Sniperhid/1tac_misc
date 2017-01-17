@@ -77,7 +77,7 @@ class g : r
     displayName = "Grenadier";
 	vest[] = {"bear_6sh92_khaki_vog"};
 	backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"hlc_rifle_aks74_GL"};
+    primaryWeapon[] = {"rhs_weap_aks74_gp25"};
     magazines[] +=
     {
         LIST_8("rhs_VOG25"),
@@ -87,7 +87,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"hlc_rifle_aks74"};
+    primaryWeapon[] = {"rhs_weap_aks74"};
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -110,7 +110,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),

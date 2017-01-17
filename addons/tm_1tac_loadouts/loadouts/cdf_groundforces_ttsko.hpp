@@ -80,7 +80,7 @@ class g : r
     displayName = "Grenadier";
 	vest[] = {"rhsgref_6b23_ttsko_mountain_nco"};
 	backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"hlc_rifle_aks74_GL"};
+    primaryWeapon[] = {"rhs_weap_aks74_gp25"};
     magazines[] +=
     {
         LIST_8("rhs_VOG25"),
@@ -90,7 +90,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"hlc_rifle_aks74"};
+    primaryWeapon[] = {"rhs_weap_aks74"};
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -114,7 +114,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
 	silencer[] = {};
     magazines[] =
     {
@@ -479,7 +479,7 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_6b23_ttsko_forest"};
+    vest[] = {"rhs_6b5_ttsko"};
     backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
@@ -489,7 +489,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    vest[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_6b23_ttsko_forest"};
+    vest[] = {"rhs_6b5_ttsko"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};

@@ -50,7 +50,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"bear_ssh68_olive"};
+    headgear[] = {"rhsgref_helmet_M1_bare", "rhsgref_helmet_M1_bare", "rhsgref_helmet_M1_bare_alt01"};
 	vest[] = {"CUP_V_O_TK_Vest_2"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"hlc_rifle_FAL5061"};
@@ -100,7 +100,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
     magazines[] =
     {
         LIST_6("hlc_30Rnd_545x39_B_AK"),
