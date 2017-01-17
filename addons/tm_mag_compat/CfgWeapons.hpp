@@ -4,16 +4,18 @@
 
 // Override them using undef/def
 
-
+#define __TM_556_ADDITIONAL "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange"
 #define __TM_556_STANAG_ACE_MAGS "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "ACE_30Rnd_556x45_Stanag_Mk262_mag", "ACE_30Rnd_556x45_Stanag_Mk318_mag", "ACE_30Rnd_556x45_Stanag_Tracer_Dim"
-#define __556_MAGS __556STANAG_BI_MAGS, __556STANAG_RHS_MAGS, __556STANAG_CUP_MAGS, __TM_556_STANAG_ACE_MAGS, "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange"
+#define __556_MAGS __556STANAG_RHS_MAGS, __TM_556_ADDITIONAL, __TM_556_STANAG_ACE_MAGS, __556STANAG_BI_MAGS, __556STANAG_CUP_MAGS
 
-#define __556_BELTS __556NATO_BI_BELTS, __556NATO_RHS_BELTS, __556NATO_CUP_BELTS
+#define __556_BELTS __556NATO_RHS_BELTS, __556NATO_BI_BELTS, __556NATO_CUP_BELTS
 //Don't use Toadie's AR15s - __556STANAG_MAGS
 //Don't use Toadies SAW pack - __556NATO_BELTS
 
-#define __545_MAGS __545x39_MAGS, __545x39_BI_MAGS, __545x39_RHS_MAGS 
-#define __762_MAGS __762x39_MAGS, __762x39_BI_MAGS, __762x39_RHS_MAGS
+#define __545_ADDITIONAL "rhs_30Rnd_545x39_7N6_AK", "rhs_45Rnd_545X39_7N6_AK"
+#define __545_MAGS __545x39_RHS_MAGS, __545_ADDITIONAL, __545x39_MAGS, __545x39_BI_MAGS
+
+#define __762_MAGS __762x39_RHS_MAGS, __762x39_MAGS, __762x39_BI_MAGS
 #define __762_RPK_MAGS __762_MAGS, "hlc_75Rnd_762x39_m_rpk"
 
 #define __762_NATO_MAGS __762NATO_RHS_BELTS, __762NATO_CUP_BELTS 
@@ -23,11 +25,13 @@
 #define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS
 
 #define __40MM_M203_ADDITIONAL "ACE_HuntIR_M203", "rhs_mag_M781_Practice", "rhs_mag_M397_HET"
-#define __40MM_M203_MAGS __40MM_M203_BI_GRENADES, __40MM_M203_RHS_GRENADES, __40MM_M203_CUP_GRENADES, __40MM_M203_ADDITIONAL
+#define __40MM_M203_MAGS __40MM_M203_RHS_GRENADES, __40MM_M203_ADDITIONAL, __40MM_M203_BI_GRENADES, __40MM_M203_CUP_GRENADES
 
-#define __40MM_GP25_MAGS __40MM_GP_GRENADES, __40MM_GP_RHS_GRENADES 
+#define __40MM_GP25_MAGS __40MM_GP_RHS_GRENADES, __40MM_GP_GRENADES
 
 #define __RPG7_VANILLACOMPAT_GRENADES "RPG7_F", "CUP_PG7V_M", "CUP_PG7VM_M", "CUP_PG7VL_M", "CUP_PG7VR_M", "CUP_OG7_M", "CUP_TBG7V_M"
+
+#define __TM_762x54R_PK_MAGS "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_7N13", "rhs_100Rnd_762x54mmR_7N26", "rhs_100Rnd_762x54mmR_7BZ3", "rhssaf_250Rnd_762x54R"
 
 class CfgWeapons
 {
@@ -89,7 +93,14 @@ class CfgWeapons
 	};
 	class rhs_weap_m32_Base_F: Rifle_Base_F
 	{
-		magazines[] = { __40MM_M203_MAGS };
+		magazines[] =
+		{
+			"rhsusf_mag_6Rnd_M441_HE","rhsusf_mag_6Rnd_M433_HEDP","rhsusf_mag_6Rnd_M397_HET",
+			"rhsusf_mag_6Rnd_M576_Buckshot","rhsusf_mag_6Rnd_M781_Practice","rhsusf_mag_6Rnd_m4009",
+			"rhsusf_mag_6Rnd_M585_white","rhsusf_mag_6Rnd_m661_green","rhsusf_mag_6Rnd_m662_red",
+			"rhsusf_mag_6Rnd_M713_red","rhsusf_mag_6Rnd_M714_white","rhsusf_mag_6Rnd_M715_green",
+			"rhsusf_mag_6Rnd_M716_yellow", __40MM_M203_MAGS
+		};
 	};
 	
 	// RHS AFRF
@@ -108,11 +119,18 @@ class CfgWeapons
 	{
 		magazines[] = { __762_MAGS };
 	};
-	class rhs_weap_ak103_gp25: rhs_weap_ak103_base{};
-	class rhs_weap_ak103_gp25_npz: rhs_weap_ak103_base{};
-	class rhs_weap_ak74m_folded: rhs_weap_ak74m{};
-	class rhs_weap_ak74m_gp25_folded: rhs_weap_ak74m_folded{};
-	class rhs_weap_ak74m_gp25: rhs_weap_ak74m{};
+	class rhs_weap_ak103_gp25: rhs_weap_ak103_base {};
+	class rhs_weap_ak103_gp25_npz: rhs_weap_ak103_base {};
+	class rhs_weap_ak74m_folded: rhs_weap_ak74m {};
+	class rhs_weap_ak74m_gp25_folded: rhs_weap_ak74m_folded {};
+	class rhs_weap_ak74m_gp25: rhs_weap_ak74m {};
+	class Rifle_Long_Base_F: Rifle_Base_F {};
+	class rhs_pkp_base: Rifle_Long_Base_F
+	{
+		magazines[] = { __TM_762x54R_PK_MAGS };
+	};
+	class rhs_weap_pkp: rhs_pkp_base {};
+	class rhs_weap_pkm: rhs_weap_pkp {};
 	
 	// RHS GREF
 	class rhs_weap_m70_base: Rifle_Base_F 
@@ -124,6 +142,18 @@ class CfgWeapons
 	class rhs_weap_m70b1: rhs_weap_m70ab2 {};
 	class rhs_weap_m92: rhs_weap_m70_base {};
 	class rhs_weap_m92_fold: rhs_weap_m92 {};
+	
+	// RHS SAF
+	class PBG40_Base: GP25_Base {
+		magazines[] = { __40MM_GP25_MAGS };
+	};
+	class rhs_weap_ag36_base: UGL_F {
+		magazines[] = { __40MM_M203_MAGS };
+	};
+	class rhs_weap_m84: Rifle_Long_Base_F
+	{
+		magazines[] = { __TM_762x54R_PK_MAGS };
+	};
 	
 	// HLC
 	class hlc_ak_base;
@@ -229,7 +259,6 @@ class CfgWeapons
 	{
 		magazines[] = { __40MM_GP25_MAGS };
 	};
-    class Rifle_Long_Base_F;
 	class CUP_lmg_Mk48_Base: Rifle_Long_Base_F
 	{
 		magazines[] = { __762_NATO_MAGS };
