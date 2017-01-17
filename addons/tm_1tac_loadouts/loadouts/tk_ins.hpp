@@ -47,7 +47,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    primaryWeapon[] = {"hlc_rifle_ak74_dirty2","hlc_rifle_ak74_dirty","hlc_rifle_ak74","hlc_rifle_aks74","hlc_rifle_aks74u","rhs_weap_aks74u","rhs_weap_aks74un"};
+    primaryWeapon[] = {"hlc_rifle_ak74_dirty2","hlc_rifle_ak74_dirty","hlc_rifle_ak74","hlc_rifle_aks74","hlc_rifle_aks74u","rhs_weap_aks74","arifle_AKS_F"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
@@ -63,7 +63,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"hlc_rifle_aks74_GL"};
+    primaryWeapon[] = {"rhs_weap_aks74_gp25"};
     magazines[] =
     {
 		LIST_4("rhs_30Rnd_545x39_AK"),
@@ -94,7 +94,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u","rhs_weap_aks74u","rhs_weap_aks74un"};
+    primaryWeapon[] = {"hlc_rifle_aks74u","arifle_AKS_F"};
     magazines[] =
     {
         LIST_6("hlc_30Rnd_545x39_B_AK"),

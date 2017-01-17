@@ -5,7 +5,7 @@
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
- 	uniform[] = {"bear_uniform_m93_takistani_brush"};
+ 	uniform[] = {"bear_uniform_indep2_olivedrab"};
    	vest[] = {};
    	backpack[] = {"rhs_sidor"};
    	headgear[] = {};
@@ -50,7 +50,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"bear_ssh68_olive"};
+    headgear[] = {"bear_helmet_M1_tan", "bear_helmet_M1_tan", "bear_helmet_M1_tan_alt01"};
 	vest[] = {"CUP_V_O_TK_Vest_2"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"hlc_rifle_FAL5061"};
@@ -100,7 +100,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
     magazines[] =
     {
         LIST_6("hlc_30Rnd_545x39_B_AK"),

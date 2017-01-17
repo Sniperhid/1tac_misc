@@ -78,6 +78,16 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
+    primaryWeapon[] = {"rhs_weap_m21a_pr_pbg40"};
+	magazines[] =
+	{
+		LIST_11("rhsgref_30rnd_556x45_m21"),
+        LIST_2("rhsgref_30rnd_556x45_m21_t"),
+        LIST_2("rhs_mag_rgd5"),
+        LIST_2("rhs_mag_rdg2_white"),
+		LIST_8("rhs_VOG25"),
+		LIST_4("rhs_GRD40_White")
+	};
 	backpack[] = {"rhsusf_falconii"};
 };
 class car : r
@@ -123,34 +133,18 @@ class ftl : r
     {
 		LIST_2("SmokeShellGreen")
     };
-	secondaryWeapon[] = {"rhs_weap_rshg2"};
-    linkedItems[] += {"rhs_pdu4","ItemGPS"};
+    linkedItems[] += {"Binocular"};
 };
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
-	secondaryWeapon[] = {};
-    magazines[] +=
-    {
-        LIST_3("rhs_mag_9x18_12_57N181S")
-    };
 	items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
-    };
 };
 class co : sl
 {
     displayName = "Platoon Leader";
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
-		LIST_3("rhs_mag_9x18_12_57N181S"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellYellow"),
 		LIST_6("rhsgref_30rnd_556x45_m21"),

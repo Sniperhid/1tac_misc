@@ -53,7 +53,7 @@ class r : baseMan
 		"bear_ssh68",
 		"bear_ssh68_olive"
 	};
-	vest[] = {"rhsgref_6b23_khaki"};
+	vest[] = {"rhs_6b5_khaki"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
 	{
@@ -79,9 +79,9 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-	vest[] = {"rhsgref_6b23_khaki"};
+	vest[] = {"rhs_6b5_sniper_khaki"};
 	backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"hlc_rifle_aks74_GL"};
+    primaryWeapon[] = {"rhs_weap_aks74_gp25"};
     magazines[] +=
     {
         LIST_8("rhs_VOG25"),
@@ -91,7 +91,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"hlc_rifle_aks74"};
+    primaryWeapon[] = {"rhs_weap_aks74"};
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -103,6 +103,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+	vest[] = {"rhs_6b5_medic_khaki"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
 		LIST_10("ACE_morphine"),
@@ -114,7 +115,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -136,6 +137,7 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
+	vest[] = {"rhs_6b5_officer_khaki"};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] +=
     {

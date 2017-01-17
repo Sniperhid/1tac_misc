@@ -106,7 +106,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
 	magazines[] =
     {
         LIST_9("rhs_30Rnd_545x39_7N10_AK")
@@ -233,9 +233,9 @@ class aar : r
 class rat : car
 {
     displayName = "Rifleman (AT)";
-	secondaryWeapon[] = {"rhs_weap_rpg7"};
+	secondaryWeapon[] = {"rhs_rpg7_PG7V_mag"};
     backpack[] = {"rhs_rpg"};
-	magazines[] += {"rhs_rpg7_PG7VL_mag"};
+	magazines[] += {"rhs_rpg7_PG7V_mag"};
 };
 class dm : r
 {
@@ -312,7 +312,7 @@ class matg : car
     backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
-		LIST_3("rhs_rpg7_PG7VL_mag")
+		LIST_3("rhs_rpg7_PG7V_mag")
 	};
 };
 class matac : r
@@ -321,7 +321,7 @@ class matac : r
 	backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
-		LIST_3("rhs_rpg7_PG7VL_mag")
+		LIST_3("rhs_rpg7_OG7V_mag")
 	};
 };
 class matag : car
@@ -337,7 +337,7 @@ class matag : car
 	backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
-		LIST_3("rhs_rpg7_PG7VL_mag")
+		LIST_3("rhs_rpg7_PG7V_mag")
 	};
 };
 class hatg : car

@@ -57,7 +57,7 @@ class r : baseMan
 		"bear_ssh68_spots",
 		"bear_ssh68_spots"
 	};
-	vest[] = {"bear_6b23_od_6sh92"};
+	vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
 	{
@@ -83,9 +83,9 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-	vest[] = {"bear_6b23_od_6sh92_vog"};
+	vest[] = {"rhs_6b5_sniper"};
 	backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"hlc_rifle_aks74_GL"};
+    primaryWeapon[] = {"rhs_weap_aks74n_gp25"};
     magazines[] +=
     {
         LIST_8("rhs_VOG25"),
@@ -95,7 +95,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"hlc_rifle_aks74"};
+    primaryWeapon[] = {"rhs_weap_aks74n"};
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -107,7 +107,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
-    vest[] = {"bear_6b23_od_medic"};
+    vest[] = {"rhs_6b5_medic"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
 		LIST_10("ACE_morphine"),
@@ -119,7 +119,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u"};
+    primaryWeapon[] = {"arifle_AKS_F"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -438,7 +438,7 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     uniform[] = {"rhs_uniform_m88_patchless"};
-    vest[] = {"bear_6b23_od_vydra_3m"};
+    vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
@@ -449,7 +449,7 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     uniform[] = {"rhs_uniform_m88_patchless"};
-    vest[] = {"bear_6b23_od_vydra_3m"};
+    vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
