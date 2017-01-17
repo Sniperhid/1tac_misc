@@ -13,7 +13,7 @@ class CfgWeapons
 	class rhs_weap_m249_pip_S: rhs_weap_lmg_minimi_railed {};
 	class rhs_weap_m249_pip_S_para: rhs_weap_m249_pip_S {};
 	class rhs_weap_m249_pip_S_vfg: rhs_weap_m249_pip_S {};
-	class rhs_weap_m249_pip: rhs_weap_m249_pip_S_vfg {};
+	class rhs_weap_m249_pip: rhs_weap_lmg_minimi_railed {};
 	class rhs_weap_m249_pip_L: rhs_weap_lmg_minimi_railed {};
 	class rhs_weap_m249_pip_L_para: rhs_weap_m249_pip_L {};
 	class rhs_weap_m249_pip_L_vfg: rhs_weap_m249_pip_L {};
