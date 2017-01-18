@@ -134,11 +134,10 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_msv_emr.hpp"
 	};
-	class RUS_VMF_FLORA_RATNIK
+	class RUS_VDV_DETACHED_RECON_EMR
 	{
-		displayName = "RU Naval Infantry (Flora, Ratnik)";
-		category = "Russia";
-		#include "loadouts\ru_vmf_flora_ratnik.hpp"
+		displayName = "RU Airborne Troops Detached Reconnaisance (EMR)";
+		#include "loadouts\ru_vdv_detached_recon_emr.hpp"
 	};
 	class RUS_VDV_EMR_RATNIK
 	{
@@ -157,6 +156,17 @@ class CfgLoadouts
 		displayName = "RU Airborne Troops (VSR)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_vsr.hpp"
+	};
+	class RUS_VMF_FLORA_RATNIK
+	{
+		displayName = "RU Naval Infantry (Flora, Ratnik)";
+		category = "Russia";
+		#include "loadouts\ru_vmf_flora_ratnik.hpp"
+	};
+	class RUS_VV_GORKA_R
+	{
+		displayName = "RU Internal Troops (Gorka-R)";
+		#include "loadouts\ru_vv_gorka_r.hpp"
 	};
 	
 	class USSR_MOTOR_RIFLES_1970_KHAKI
