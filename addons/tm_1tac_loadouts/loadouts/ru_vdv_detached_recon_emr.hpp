@@ -13,7 +13,8 @@ class baseMan {// Weaponless baseclass
 		LIST_2("G_Bandanna_blk"),
 		LIST_2("G_Bandanna_oli"),
 		"rhs_balaclava",
-		"rhs_balaclava1_olive"
+		"rhs_balaclava1_olive",
+		LIST_10("")
 	};
    	hmd[] = 
 	{
