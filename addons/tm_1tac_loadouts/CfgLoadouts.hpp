@@ -134,6 +134,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_msv_emr.hpp"
 	};
+	class RUS_MSV_EMR_WINTER
+	{
+		displayName = "RU Ground Forces (EMR-Winter, Ratnik)";
+		category = "Russia";
+		#include "loadouts\ru_msv_emr_winter.hpp"
+	};
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
 		displayName = "RU Airborne Troops Detached Reconnaisance (EMR)";
@@ -156,6 +162,12 @@ class CfgLoadouts
 		displayName = "RU Airborne Troops (VSR)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_vsr.hpp"
+	};
+	class RUS_VMF_EMR_DESERT_RATNIK
+	{
+		displayName = "RU Naval Infantry (EMR-Desert, Ratnik)";
+		category = "Russia";
+		#include "loadouts\ru_vmf_emr_desert_ratnik.hpp"
 	};
 	class RUS_VMF_FLORA_RATNIK
 	{
