@@ -284,6 +284,13 @@ class CfgLoadouts
 		#include "loadouts\gdr_nva_1980_strichtarn.hpp"
 	};
 	
+	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
+	{
+		displayName = "AFGH National Army (Spec4ce Afghan Forest)";
+		category = "Other";
+		#include "loadouts\afgh_national_army_spec4ce_af.hpp"
+	};
+	
 	class AFR_MILITIA
 	{
 		displayName = "African Militia";
