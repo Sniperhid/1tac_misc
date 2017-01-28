@@ -51,7 +51,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman (M14)";
-    headgear[] = {"CUP_H_USArmy_Helmet_M1_Olive"};
+    headgear[] = {"rhsgref_helmet_M1_bare", "rhsgref_helmet_M1_bare_alt01"};
 	vest[] = {"usm_vest_LBE_rm"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
     primaryWeapon[] = {"hlc_rifle_M14"};
@@ -70,7 +70,6 @@ class r : baseMan
 class ra : r
 {
     displayName = "Rifleman (M16)";
-    headgear[] = {"CUP_H_USArmy_Helmet_M1_Olive"};
 	vest[] = {"usm_vest_LBE_rm"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
     primaryWeapon[] = {"mbg_m16a1"};
