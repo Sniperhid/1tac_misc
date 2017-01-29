@@ -82,7 +82,7 @@ class r : baseMan
 	};
     scope[] = 
 	{
-		"rhsusf_acc_SpecterDR_OD"
+		"rhsusf_acc_eotech_552"
 	};
     silencer[] = 
 	{
@@ -270,7 +270,7 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	vest[] = {"rhsusf_spc_mg"};
 	primaryWeapon[] = {"rhs_weap_m240B"};
-	scope[] = {"rhsusf_acc_SpecterDR_A"};
+	scope[] = {"rhsusf_acc_eotech_552"};
 	magazines[] =
 	{
 		LIST_4("rhsusf_100Rnd_762x51"),
@@ -492,7 +492,7 @@ class sp : sn
 {
     displayName = "Spotter";
     vest[] = {"rhsusf_spc_squadleader"};
-    scope[] = {"rhsusf_acc_SpecterDR_OD"};
+    scope[] = {"rhsusf_acc_eotech_552"};
 	primaryWeapon[] = 
 	{
 		"rhs_weap_mk18_wd"
