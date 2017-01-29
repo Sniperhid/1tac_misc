@@ -143,6 +143,7 @@ class CfgLoadouts
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
 		displayName = "RU Airborne Troops Detached Reconnaisance (EMR)";
+		category = "Russia";
 		#include "loadouts\ru_vdv_detached_recon_emr.hpp"
 	};
 	class RUS_VDV_EMR_RATNIK
@@ -178,6 +179,7 @@ class CfgLoadouts
 	class RUS_VV_GORKA_R
 	{
 		displayName = "RU Internal Troops (Gorka-R)";
+		category = "Russia";
 		#include "loadouts\ru_vv_gorka_r.hpp"
 	};
 	
