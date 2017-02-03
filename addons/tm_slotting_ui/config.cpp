@@ -5,7 +5,7 @@ class CfgPatches
     class ADDON
     {
         name = "Slotting UI Improvements";
-        author = "Bear, Snippers";
+        author = "Bear, Snippers, JonBons";
         url = "http://www.teamonetactical.com";
         units[] = {};
         weapons[] = {};
@@ -22,6 +22,7 @@ class CfgScriptPaths
 class RscStandardDisplay;
 class RscText;
 class RscActiveText;
+class RscEdit;
 class RscListBox;
 class RscListNBox;
 class RscButtonMenu;
@@ -147,6 +148,83 @@ class RscDisplayMultiplayerSetup: RscStandardDisplay
 		{
 			text = "    ";
 		};
+        /* Slot Ratio */
+        class TextListedPlayers;
+        class ValueListedPlayers;
+
+        class RatioText: TextListedPlayers {
+            y = "3.1 *           (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) +    (safezoneY)";
+            idc = 2001;
+            text = "";
+        };
+
+        class Ratio1Input: RscEdit {
+            font = "EtelkaMonospacePro";
+            h = "1 *      (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            idc = 2002;
+            shadow = 0;
+            size = 0.2;
+            sizeEx = "0.55 *       (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            w = "1.3 *          (     ((safezoneW / safezoneH) min 1.2) / 40)";
+            x = "33.1 *           (     ((safezoneW / safezoneH) min 1.2) / 40) +     (SafezoneX) + 1*(safezoneW -        ((safezoneW / safezoneH) min 1.2))";
+            y = "3.1 *          (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) +    (safezoneY)";
+            onLoad = "(_this select 0) ctrlShow false";
+        };
+        class Ratio2Input: Ratio1Input {
+            idc = 2003;
+            x = "34.45 *           (     ((safezoneW / safezoneH) min 1.2) / 40) +     (SafezoneX) + 1*(safezoneW -        ((safezoneW / safezoneH) min 1.2))";
+            onLoad = "(_this select 0) ctrlShow false";
+        };
+        class Ratio3Input: Ratio1Input {
+            idc = 2004;
+            x = "35.78 *           (     ((safezoneW / safezoneH) min 1.2) / 40) +     (SafezoneX) + 1*(safezoneW -        ((safezoneW / safezoneH) min 1.2))";
+            onLoad = "(_this select 0) ctrlShow false";
+        };
+
+        class Ratio1Output: RscListBox {
+            idc = 2005;
+            canDrag = 0;
+            rows = 1;
+            size = 0.2;
+            sizeEx = "0.7 *       (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            x = "31.1 *          (     ((safezoneW / safezoneH) min 1.2) / 40) +     (SafezoneX) + 1*(safezoneW -        ((safezoneW / safezoneH) min 1.2))";
+            w = "2.3 *           (     ((safezoneW / safezoneH) min 1.2) / 40)";
+            h = "0.8 *      (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            colorSelectBackground[] = {0,0,0,0.3};
+            colorSelectBackground2[] = {0,0,0,0.3};
+            colorPictureSelected[] = {0,0,0,0.3};
+            y = "4.3 *           (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) +    (safezoneY)";
+        };
+
+        class Ratio2Output: RscListBox {
+            idc = 2006;
+            canDrag = 0;
+            rows = 1;
+            size = 0.2;
+            sizeEx = "0.7 *       (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            x = "33.5 *          (     ((safezoneW / safezoneH) min 1.2) / 40) +     (SafezoneX) + 1*(safezoneW -        ((safezoneW / safezoneH) min 1.2))";
+            w = "2.3 *           (     ((safezoneW / safezoneH) min 1.2) / 40)";
+            h = "0.8 *      (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            colorSelectBackground[] = {0,0,0,0.3};
+            colorSelectBackground2[] = {0,0,0,0.3};
+            colorPictureSelected[] = {0,0,0,0.3};
+            y = "4.3 *           (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) +    (safezoneY)";
+        };
+
+        class Ratio3Output: RscListBox {
+            idc = 2007;
+            canDrag = 0;
+            rows = 1;
+            size = 0.2;
+            sizeEx = "0.7 *       (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            x = "35.9 *          (     ((safezoneW / safezoneH) min 1.2) / 40) +     (SafezoneX) + 1*(safezoneW -        ((safezoneW / safezoneH) min 1.2))";
+            w = "2.3 *           (     ((safezoneW / safezoneH) min 1.2) / 40)";
+            h = "0.8 *      (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+            colorSelectBackground[] = {0,0,0,0.3};
+            colorSelectBackground2[] = {0,0,0,0.3};
+            colorPictureSelected[] = {0,0,0,0.3};
+            y = "4.3 *           (     (     ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) +    (safezoneY)";
+        };
 	};
 };
 class cfgMods
