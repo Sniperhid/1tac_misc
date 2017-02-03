@@ -33,12 +33,26 @@ switch _mode do
 		
 		//Move focus to Roles, since OK button is disabled. We don't want to move focus to Disconnect button on client.
 		ctrlSetFocus (_display displayctrl 109);
+
+        // Setup slot ratio UI
+        if (!hasInterface) exitWith {};
+
+        // Compile funcs here to avoid issues in slotting screen.
+        tm_slotting_ui_fnc_getTextureForSide = compile preprocessfilelinenumbers "\x\tac1\addons\tm_slotting_ui\functions\fn_getTextureForSide.sqf";
+        tm_slotting_ui_fnc_isUpdateRequired = compile preprocessfilelinenumbers "\x\tac1\addons\tm_slotting_ui\functions\fn_isUpdateRequired.sqf";
+        tm_slotting_ui_fnc_updateRatios = compile preprocessfilelinenumbers "\x\tac1\addons\tm_slotting_ui\functions\fn_updateRatios.sqf";
+        tm_slotting_ui_fnc_onLoad = compile preprocessfilelinenumbers "\x\tac1\addons\tm_slotting_ui\functions\fn_onLoad.sqf";
+
+        tm_slotting_screen_active = true;
+        _params call tm_slotting_ui_fnc_onLoad;
+        
 	};
 	
 	case "onUnload": {
 
 		//Hide chat to be sure it's hidden when returning back to Create Game
 		showChat false;
+        tm_slotting_screen_active = false;
 	};
 	
 };
