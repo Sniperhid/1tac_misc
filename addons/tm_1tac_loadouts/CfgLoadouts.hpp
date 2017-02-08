@@ -302,7 +302,7 @@ class CfgLoadouts
 
 	class ADF_2005
 	{
-		displayName = "Australian [ADF] (2005)";
+		displayName = "Australian Defence Force (AUSCAM, 2005)";
 		category = "Other";
 		#include "loadouts\adf_2005.hpp"
 	};
