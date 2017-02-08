@@ -299,4 +299,11 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\afr_militia.hpp"
 	};
+
+	class ADF_2005
+	{
+		displayName = "Australian Defence Force (AUSCAM, 2005)";
+		category = "Other";
+		#include "loadouts\adf_2005.hpp"
+	};
 };
