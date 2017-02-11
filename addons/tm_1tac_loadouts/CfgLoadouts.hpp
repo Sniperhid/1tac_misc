@@ -158,6 +158,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_vdv_mountain_flora_ratnik.hpp"
 	};
+	class RUS_VDV_RECON_CADPAT_ARCTIC
+	{
+		displayName = "RU Airborne Troops Reconnaisance (CADPAT Arctic)";
+		category = "Russia";
+		#include "loadouts\ru_vdv_recon_cadpat_arctic.hpp"
+	};
 	class RUS_VDV_VSR
 	{
 		displayName = "RU Airborne Troops (VSR)";
