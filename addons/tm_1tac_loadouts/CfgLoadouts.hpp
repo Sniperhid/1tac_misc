@@ -56,7 +56,7 @@ class CfgLoadouts
 	};
 	class US_ARMY_AIRBORNE_OCP
 	{
-		displayName = "US Army Airborne (OCP)";
+		displayName = "US Army Airborne (2011-, OCP)";
 		category = "USA";
 		#include "loadouts\us_army_airborne_ocp.hpp"
 	};
@@ -68,13 +68,13 @@ class CfgLoadouts
 	};
 	class US_MARINES_MARPAT_DES
 	{
-		displayName = "US Marines (Desert MARPAT)";
+		displayName = "US Marines (2008-, Desert MARPAT)";
 		category = "USA";
 		#include "loadouts\us_marines_marpat_des.hpp"
 	};
 	class US_MARINES_MARPAT_WDL
 	{
-		displayName = "US Marines (Woodland MARPAT)";
+		displayName = "US Marines (2008-, Woodland MARPAT)";
 		category = "USA";
 		#include "loadouts\us_marines_marpat_wdl.hpp"
 	};
@@ -130,55 +130,61 @@ class CfgLoadouts
 	
 	class RUS_MSV_EMR
 	{
-		displayName = "RU Ground Forces (EMR)";
+		displayName = "RU Ground Forces (2013, EMR)";
 		category = "Russia";
 		#include "loadouts\ru_msv_emr.hpp"
 	};
 	class RUS_MSV_EMR_WINTER
 	{
-		displayName = "RU Ground Forces (EMR-Winter, Ratnik)";
+		displayName = "RU Ground Forces (2015, EMR-Winter)";
 		category = "Russia";
 		#include "loadouts\ru_msv_emr_winter.hpp"
 	};
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
-		displayName = "RU Airborne Troops Detached Reconnaisance (EMR)";
+		displayName = "RU Airborne Troops Detached Recon (2015, EMR)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_detached_recon_emr.hpp"
 	};
 	class RUS_VDV_EMR_RATNIK
 	{
-		displayName = "RU Airborne Troops (EMR, Ratnik)";
+		displayName = "RU Airborne Troops (2015, EMR)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_emr_ratnik.hpp"
 	};
 	class RUS_VDV_MOUNTAIN_FLORA_RATNIK
 	{
-		displayName = "RU Airborne Mountain Troops (Mountain Flora, Ratnik)";
+		displayName = "RU Airborne Mountain Troops (2014, Mountain Flora)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_mountain_flora_ratnik.hpp"
 	};
 	class RUS_VDV_VSR
 	{
-		displayName = "RU Airborne Troops (VSR)";
+		displayName = "RU Airborne Troops (1999, VSR)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_vsr.hpp"
 	};
 	class RUS_VMF_EMR_DESERT_RATNIK
 	{
-		displayName = "RU Naval Infantry (EMR-Desert, Ratnik)";
+		displayName = "RU Naval Infantry (2016, EMR-Desert)";
 		category = "Russia";
 		#include "loadouts\ru_vmf_emr_desert_ratnik.hpp"
 	};
 	class RUS_VMF_FLORA_RATNIK
 	{
-		displayName = "RU Naval Infantry (Flora, Ratnik)";
+		displayName = "RU Naval Infantry (2013, Flora)";
 		category = "Russia";
 		#include "loadouts\ru_vmf_flora_ratnik.hpp"
 	};
+	class RUS_VMF_RECON_CADPAT_ARCTIC
+	{
+		displayName = "RU Naval Infantry Recon (2016, CADPAT Arctic)";
+		category = "Russia";
+		#include "loadouts\ru_vmf_recon_cadpat_arctic.hpp"
+	};
 	class RUS_VV_GORKA_R
 	{
-		displayName = "RU Internal Troops (Gorka-R)";
+		displayName = "RU Internal Troops (2013, Gorka-R)";
 		category = "Russia";
 		#include "loadouts\ru_vv_gorka_r.hpp"
 	};
@@ -203,33 +209,33 @@ class CfgLoadouts
 	};
 	class USSR_VDV_BEREZKA
 	{
-		displayName = "USSR Airborne Troops (Berezka)";
+		displayName = "USSR Airborne Troops (1980, Berezka)";
 		category = "Eastern Factions";
 		#include "loadouts\ussr_vdv_berezka.hpp"
 	};
 	
 	class CDF_AIRBORNE_TTSKO_DIGITAL
 	{
-		displayName = "CDF Airborne Infantry (TTsKO Digital)";
+		displayName = "CDF Airborne Infantry (2014-, TTsKO Digital)";
 		category = "Armaverse Factions";
 		#include "loadouts\cdf_airborne_ttsko_digital.hpp"
 	};
 	class CDF_GROUNDFORCES_TTSKO
 	{
-		displayName = "CDF Ground Forces (TTsKO)";
+		displayName = "CDF Ground Forces (2001-, TTsKO)";
 		category = "Armaverse Factions";
 		#include "loadouts\cdf_groundforces_ttsko.hpp"
 	};
 	class CDF_NATIONALGUARD_TTSKO
 	{
-		displayName = "CDF National Guard (TTsKO)";
+		displayName = "CDF National Guard (1996-, TTsKO)";
 		category = "Armaverse Factions";
 		#include "loadouts\cdf_nationalguard_ttsko.hpp"
 	};
 	
 	class TK_ARMY_BRUSHSTROKE
 	{
-		displayName = "Takistani Army (Brushstroke)";
+		displayName = "Takistani Army (1989-, Brushstroke)";
 		category = "Armaverse Factions";
 		#include "loadouts\tk_army_brushstroke.hpp"
 	};
@@ -242,7 +248,7 @@ class CfgLoadouts
 	
 	class UA_VDV_TTSKO
 	{
-		displayName = "UA Airborne Troops (TTsKO)";
+		displayName = "UA Airborne Troops (2004-, TTsKO)";
 		category = "Eastern Factions";
 		#include "loadouts\ua_vdv_ttsko.hpp"
 	};
@@ -262,19 +268,19 @@ class CfgLoadouts
 	
 	class GENERIC_PARAMILITARY_OLIVE_AKM
 	{
-		displayName = "Generic Paramilitary (Olive, AKMs)";
+		displayName = "Generic Paramilitary (1980-, Olive, AKMs)";
 		category = "Other";
 		#include "loadouts\generic_paramilitary_olive_akm.hpp"
 	};
 	class GENERIC_PARAMILITARY_OLIVE_M16
 	{
-		displayName = "Generic Paramilitary (Olive, M16s)";
+		displayName = "Generic Paramilitary (1980-, Olive, M16s)";
 		category = "Other";
 		#include "loadouts\generic_paramilitary_olive_m16.hpp"
 	};
 	class GENERIC_PARAMILITARY_TIGERSTRIPE_M16
 	{
-		displayName = "Generic Paramilitary (Tigerstripe, M16s)";
+		displayName = "Generic Paramilitary (1980-, Tigerstripe, M16s)";
 		category = "Other";
 		#include "loadouts\generic_paramilitary_tigerstripe_m16.hpp"
 	};
@@ -288,14 +294,14 @@ class CfgLoadouts
 	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
 	{
-		displayName = "AFGH National Army (Spec4ce Afghan Forest)";
+		displayName = "Afghan National Army (2009-, Spec4ce Afghan Forest)";
 		category = "Other";
 		#include "loadouts\afgh_national_army_spec4ce_af.hpp"
 	};
 	
 	class AFR_MILITIA
 	{
-		displayName = "African Militia";
+		displayName = "African Militia (1990-)";
 		category = "Other";
 		#include "loadouts\afr_militia.hpp"
 	};
