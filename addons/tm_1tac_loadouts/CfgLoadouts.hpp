@@ -140,6 +140,18 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_msv_emr_winter.hpp"
 	};
+	class RUS_SSO_ATACS_AU
+	{
+		displayName = "RU Special Operations Forces (2016, A-TACS AU)";
+		category = "Russia";
+		#include "loadouts\ru_sso_atacs_au.hpp"
+	};
+	class RUS_SSO_ATACS_FG
+	{
+		displayName = "RU Special Operations Forces (2016, A-TACS FG)";
+		category = "Russia";
+		#include "loadouts\ru_sso_atacs_fg.hpp"
+	};
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
 		displayName = "RU Airborne Troops Detached Recon (2015, EMR)";
