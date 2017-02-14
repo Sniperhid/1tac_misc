@@ -140,6 +140,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_msv_emr_winter.hpp"
 	};
+	class RUS_MSV_FLORA_2005
+	{
+		displayName = "RU Ground Forces (2005-2010, Flora)";
+		category = "Russia";
+		#include "loadouts\ru_msv_flora.hpp"
+	};
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
 		displayName = "RU Airborne Troops Detached Recon (2015, EMR)";
