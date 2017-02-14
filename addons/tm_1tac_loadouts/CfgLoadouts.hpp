@@ -145,6 +145,18 @@ class CfgLoadouts
 		displayName = "RU Ground Forces (2005-2010, Flora)";
 		category = "Russia";
 		#include "loadouts\ru_msv_flora.hpp"
+  };
+	class RUS_SSO_ATACS_AU
+	{
+		displayName = "RU Special Operations Forces (2016, A-TACS AU)";
+		category = "Russia";
+		#include "loadouts\ru_sso_atacs_au.hpp"
+	};
+	class RUS_SSO_ATACS_FG
+	{
+		displayName = "RU Special Operations Forces (2016, A-TACS FG)";
+		category = "Russia";
+		#include "loadouts\ru_sso_atacs_fg.hpp"
 	};
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
