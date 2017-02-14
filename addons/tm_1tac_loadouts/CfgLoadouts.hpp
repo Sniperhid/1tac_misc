@@ -140,6 +140,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_msv_emr_winter.hpp"
 	};
+	class RUS_MSV_FLORA_2005
+	{
+		displayName = "RU Ground Forces (2005-2010, Flora)";
+		category = "Russia";
+		#include "loadouts\ru_msv_flora.hpp"
+  };
 	class RUS_SSO_ATACS_AU
 	{
 		displayName = "RU Special Operations Forces (2016, A-TACS AU)";
