@@ -1,5 +1,6 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nAssisted by NATO during Operation Enduring Freedom";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

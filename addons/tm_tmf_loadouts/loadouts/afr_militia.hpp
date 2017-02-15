@@ -1,5 +1,7 @@
 // incomplete
 
+tooltip = "Author: Bear";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

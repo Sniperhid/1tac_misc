@@ -1,5 +1,6 @@
-/* assignGear specific macros */
+/* assignGear specific macros */ 
 
+tooltip = "Author: Bear\n\nAirborne forces are 'elite' infantry, and airborne mostly in name.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

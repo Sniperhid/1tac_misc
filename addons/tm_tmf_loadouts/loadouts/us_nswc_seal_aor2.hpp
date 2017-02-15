@@ -1,5 +1,6 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nHigh speed, low drag. Not restricted to amphibious missions.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

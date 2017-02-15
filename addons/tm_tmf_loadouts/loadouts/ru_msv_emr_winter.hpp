@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nOld retexture of EMR into a winter variant.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

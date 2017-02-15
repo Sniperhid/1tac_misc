@@ -2,6 +2,8 @@
 
 // dependencies: RHS: AFRF + GREF, HLC AKs
 
+tooltip = "Author: Bear\n\nAKMs, no body armor.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

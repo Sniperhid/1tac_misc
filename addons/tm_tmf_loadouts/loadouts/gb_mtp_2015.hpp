@@ -1,6 +1,8 @@
 /* assignGear specific macros */
 //Dependencies - ACE3, RHS USAF, CUP
 
+tooltip = "Author: Delta";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

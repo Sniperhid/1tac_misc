@@ -312,7 +312,7 @@ class CfgLoadouts
 	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
 	{
-		displayName = "Afghan National Army (2009-, Spec4ce Afghan Forest)";
+		displayName = "Afghan National Army (2010-, Spec4ce Afghan Forest)";
 		category = "Other";
 		#include "loadouts\afgh_national_army_spec4ce_af.hpp"
 	};

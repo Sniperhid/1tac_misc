@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nLoose interpretation.\n\nA 'Rifleman (AKMS)' role is provided, as seen in Crimea and Syria. Could be assigned to one rifleman in each FT should you want to.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

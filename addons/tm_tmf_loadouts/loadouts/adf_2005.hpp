@@ -2,6 +2,8 @@
 
 // dependencies: RHS USD, CUP, HLC AUGs, Bear skins
 
+tooltip = "Author: Snippers";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

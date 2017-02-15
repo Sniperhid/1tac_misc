@@ -1,6 +1,7 @@
 // in case of fire, tell Bear
 
 // dependencies: RHS: AFRF + GREF, Bearskins, HLC AKs
+tooltip = "Author: Bear\n\nImitates airborne troops in KLMK suits. AK-74s, no body armor.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

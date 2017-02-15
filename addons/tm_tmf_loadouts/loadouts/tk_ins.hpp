@@ -1,3 +1,4 @@
+tooltip = "Author: Morbo";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

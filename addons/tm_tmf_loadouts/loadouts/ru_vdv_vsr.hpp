@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-// dependencies: RHS: AFRF + GREF, HLC AKs
+tooltip = "Author: Bear\n\nFrom around the millennium shift.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
