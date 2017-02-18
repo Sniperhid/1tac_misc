@@ -1,8 +1,8 @@
 /* assignGear specific macros */
 
-// this is now 1986! science!
-// dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, rhs_weap_akm
-// originally by Fingers
+// originally by Fingers // ????
+
+tooltip = "Author: Bear\n\nSuitable for 1980-now, great on Tanoa.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

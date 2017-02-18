@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nThe Chinese army. Apex DLC rifles. Contemporary.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

@@ -1,7 +1,7 @@
 // these loadouts use flora or solid color gear
 // in case of fire, tell Bear
 
-// dependencies: RHS: AFRF, HLC AKs
+tooltip = "Author: Bear\n\nNew gear in older camo, for variety.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

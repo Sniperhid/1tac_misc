@@ -6,6 +6,8 @@
 /* HEAVY BACKPACK - B_Carryall_oli */
 /* LIGHT BACKPACK - CUP_B_AlicePack_Khaki */
 
+//tooltip = "Author: Snippers"; // confirm
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

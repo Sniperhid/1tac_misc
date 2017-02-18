@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-// dependencies: RHS: AFRF + GREF, HLC AKs
+tooltip = "Author: Bear\n\nArma 2 CDF as interpreted by RHS: GREF. 7.62x39 mm Zastava rifles. Equipped with old army equipment, and can be seen as an earlier version of the Ground Forces loadout.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

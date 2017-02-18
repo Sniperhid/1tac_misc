@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\n45th Guards Detached Spetsnaz\n\nHigh variation in loadouts.\nRifleman is equipped with AS Val and thermobaric launcher. AAR is equipped with silenced AKMS, as seen in Crimea and Syria.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

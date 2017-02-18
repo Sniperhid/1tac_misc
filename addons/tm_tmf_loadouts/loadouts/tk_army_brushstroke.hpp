@@ -2,6 +2,8 @@
 
 // dependencies: RHS (all), HLC AKs + FALs + M60, CUP Weapons + Units, Bearskins
 
+tooltip = "Author: Bear\n\nMimics my Takistani faction.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

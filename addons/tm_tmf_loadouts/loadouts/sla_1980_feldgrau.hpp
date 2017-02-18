@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-// dependencies: RHS: AFRF + GREF, HLC AKs
+tooltip = "Author: Bear\n\nMimics my SLA (early) faction. From the northern half of Sahrani. 7.62x39 mm rifles.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

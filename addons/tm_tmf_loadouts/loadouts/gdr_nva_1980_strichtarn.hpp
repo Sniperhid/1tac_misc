@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-// dependencies: RHS: AFRF + GREF, HLC AKs
+tooltip = "Author: Bear\n\nEast Germany. 7.62x39 mm rifles.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-// dependencies: RHS: AFRF + GREF, HLC AKs
+tooltip = "Author: Bear\n\nArma 2 CDF as interpreted by RHS: GREF. 5.45 mm Zastava rifles. Contemporary.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

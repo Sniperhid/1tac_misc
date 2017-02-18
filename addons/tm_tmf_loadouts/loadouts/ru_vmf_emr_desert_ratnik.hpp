@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nNot 1:1 of the forces seen in Syria, but the RHS EMR-Desert uniform is what we've got.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

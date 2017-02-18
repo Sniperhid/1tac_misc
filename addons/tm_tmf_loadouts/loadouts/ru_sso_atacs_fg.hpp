@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-tooltip = "Author: Bear";
+tooltip = "Author: Bear\n\nHigh speed, low drag. Inspired by photos of SSO in Syria and elsewhere.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

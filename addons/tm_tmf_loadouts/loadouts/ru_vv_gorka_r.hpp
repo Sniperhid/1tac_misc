@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nInternal Troops\n\nGorka-R and legendary Altyn helmet. High variation in loadouts.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

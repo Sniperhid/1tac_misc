@@ -1,5 +1,6 @@
 /* assignGear specific macros */
 
+tooltip = "Author: Delta";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

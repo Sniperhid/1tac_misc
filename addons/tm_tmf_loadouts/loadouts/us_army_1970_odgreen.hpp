@@ -3,6 +3,8 @@
 // dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, mbg_m16a2
 /* Originally by Morbo */
 
+//tooltip = "Author: Snippers"; //confirm
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.

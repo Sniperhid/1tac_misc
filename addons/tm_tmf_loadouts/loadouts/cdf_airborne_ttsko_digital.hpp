@@ -1,5 +1,7 @@
 // in case of fire, tell Bear
 
+tooltip = "Author: Bear\n\nArma 2 CDF as interpreted by RHS: GREF. 5.56 mm Zastava rifles, more NATO-like equipment. Airborne forces are 'elite' infantry, and airborne mostly in name.";
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
