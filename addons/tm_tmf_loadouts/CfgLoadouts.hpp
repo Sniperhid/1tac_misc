@@ -240,6 +240,13 @@ class CfgLoadouts
 		#include "loadouts\ussr_vdv_berezka.hpp"
 	};
 	
+	class AAF_LIZARD
+	{
+		displayName = "AAF Ground Forces (2000-, Lizard)";
+		category = "Armaverse Factions";
+		#include "loadouts\aaf_lizard.hpp"
+	};
+	
 	class CDF_AIRBORNE_TTSKO_DIGITAL
 	{
 		displayName = "CDF Airborne Infantry (2014-, TTsKO Digital)";
