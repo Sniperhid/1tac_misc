@@ -142,8 +142,7 @@ class sl : r
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Binocular",
-        "ItemGPS"
+        "Binocular"
     };
 };
 class co : sl

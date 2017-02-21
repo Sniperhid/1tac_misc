@@ -145,21 +145,19 @@ class ftl : g
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Binocular"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : ftl
 {
     displayName = "Squad Leader";
 	vest[] = {"rhs_6b23_digi_6sh92_Spetsnaz", "rhs_6b23_6sh92_radio"};
 	items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular",
-        "ItemGPS"
-    };
 };
 class co : sl
 {

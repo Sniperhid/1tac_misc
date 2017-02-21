@@ -142,7 +142,13 @@ class ftl : g
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"rhs_pdu4","ItemGPS"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : ftl
 {
@@ -158,7 +164,7 @@ class sl : ftl
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "rhs_pdu4",
+        "Binocular",
         "ItemGPS"
     };
 };

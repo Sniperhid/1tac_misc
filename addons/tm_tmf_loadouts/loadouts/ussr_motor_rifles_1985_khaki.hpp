@@ -62,6 +62,8 @@ class r : baseMan
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
 	{
+		"rhs_weap_ak74",
+		"rhs_weap_ak74n",
 		"hlc_rifle_ak74",
 		"hlc_rifle_ak74_dirty",
 		"hlc_rifle_ak74_dirty2"
@@ -86,7 +88,12 @@ class g : r
     displayName = "Grenadier";
 	vest[] = {"rhs_6b5_sniper"};
 	backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"rhs_weap_aks74n_gp25"};
+    primaryWeapon[] = 
+	{
+		"rhs_weap_ak74_gp25",
+		"rhs_weap_ak74n_gp25",
+		"rhs_weap_aks74n_gp25"
+	};
     magazines[] +=
     {
         LIST_8("rhs_VOG25"),
@@ -96,7 +103,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_aks74n"};
+    primaryWeapon[] = {"rhs_weap_aks74", "rhs_weap_aks74n"};
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -137,7 +144,13 @@ class ftl : g
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Binocular"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : ftl
 {
@@ -148,13 +161,6 @@ class sl : ftl
         LIST_3("rhs_mag_9x18_8_57N181S")
     };
 	items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular"
-    };
 };
 class co : sl
 {
@@ -439,6 +445,7 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     uniform[] = {"rhs_uniform_m88_patchless"};
+    primaryWeapon[] = {"rhs_weap_aks74_folded"};
     vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
@@ -450,6 +457,7 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     uniform[] = {"rhs_uniform_m88_patchless"};
+    primaryWeapon[] = {"rhs_weap_aks74_folded"};
     vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
@@ -466,6 +474,7 @@ class pp : smg
 {
     displayName = "Helicopter Pilot";
     uniform[] = {"rhs_uniform_df15"};
+    primaryWeapon[] = {"rhs_weap_aks74un_folded"};
     vest[] = {"rhs_vydra_3m"};
     backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
@@ -479,6 +488,7 @@ class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
     uniform[] = {"rhs_uniform_df15"};
+    primaryWeapon[] = {"rhs_weap_aks74un_folded"};
     vest[] = {"rhs_vydra_3m"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};

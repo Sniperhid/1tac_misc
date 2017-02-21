@@ -136,7 +136,13 @@ class ftl : g
 		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Rangefinder","ItemGPS"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : r
 {
@@ -152,14 +158,6 @@ class sl : r
 		LIST_2("SmokeShellYellow")
     };
 	items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Rangefinder",
-        "ItemGPS"
-    };
 };
 class co : sl
 {
