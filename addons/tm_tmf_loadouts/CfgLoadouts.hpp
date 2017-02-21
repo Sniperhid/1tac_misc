@@ -286,6 +286,13 @@ class CfgLoadouts
 		#include "loadouts\ua_vdv_ttsko.hpp"
 	};
 	
+	class RACS_1990
+	{
+		displayName = "RACS (1990)";
+		category = "Armaverse Factions";
+		#include "loadouts\racs_1990.hpp"
+	};
+	
 	class SLA_1980_FELDGRAU
 	{
 		displayName = "SLA (1980, Feldgrau)";
