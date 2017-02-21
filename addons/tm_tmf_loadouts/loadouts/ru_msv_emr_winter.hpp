@@ -122,20 +122,18 @@ class ftl : g
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Binocular","ItemGPS"};
-};
-class sl : ftl
-{
-    displayName = "Squad Leader";
-	items[] += {"ACE_Maptools"};
     linkedItems[] =
     {
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
+        "Binocular"
     };
+};
+class sl : ftl
+{
+    displayName = "Squad Leader";
+	items[] += {"ACE_Maptools"};
 };
 class co : sl
 {

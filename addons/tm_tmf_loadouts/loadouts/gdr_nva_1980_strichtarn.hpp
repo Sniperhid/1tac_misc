@@ -127,7 +127,13 @@ class ftl : r
     {
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Binocular"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : g
 {

@@ -132,7 +132,13 @@ class ftl : g
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Binocular","ItemGPS"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : ftl
 {
@@ -144,14 +150,6 @@ class sl : ftl
         LIST_3("rhs_mag_9x18_8_57N181S")
     };
 	items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular",
-        "ItemGPS"
-    };
 };
 class co : sl
 {

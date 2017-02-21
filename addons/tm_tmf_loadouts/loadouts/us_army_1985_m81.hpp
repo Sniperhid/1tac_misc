@@ -115,7 +115,13 @@ class smg : r
 class ftl : r
 {
     displayName = "Fireteam Leader";
-    linkedItems[] += {"Binocular"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : ftl
 {
@@ -128,13 +134,6 @@ class sl : ftl
 	magazines[] += {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
 	};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular"
-    };
 };
 class co : sl
 {

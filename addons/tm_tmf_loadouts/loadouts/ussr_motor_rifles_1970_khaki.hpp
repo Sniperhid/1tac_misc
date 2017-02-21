@@ -122,7 +122,6 @@ class ftl : g
     {
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Binocular"};
 };
 class sl : ftl
 {

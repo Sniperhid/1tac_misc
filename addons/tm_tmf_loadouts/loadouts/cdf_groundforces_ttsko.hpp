@@ -56,6 +56,8 @@ class r : baseMan
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
 	{
+		"rhs_weap_ak74",
+		"rhs_weap_ak74n",
 		"hlc_rifle_ak74",
 		"hlc_rifle_ak74_dirty",
 		"hlc_rifle_ak74_dirty2"
@@ -80,7 +82,12 @@ class g : r
     displayName = "Grenadier";
 	vest[] = {"rhsgref_6b23_ttsko_mountain_nco"};
 	backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"rhs_weap_aks74_gp25"};
+    primaryWeapon[] = 
+	{
+		"rhs_weap_ak74_gp25",
+		"rhs_weap_ak74n_gp25",
+		"rhs_weap_aks74n_gp25"
+	};
     magazines[] +=
     {
         LIST_8("rhs_VOG25"),
@@ -90,7 +97,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_aks74"};
+    primaryWeapon[] = {"rhs_weap_aks74", "rhs_weap_aks74n"};
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -132,7 +139,13 @@ class ftl : g
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"rhs_pdu4","ItemGPS"};
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sl : ftl
 {
@@ -143,14 +156,6 @@ class sl : ftl
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
 	items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
-    };
 };
 class co : sl
 {

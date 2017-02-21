@@ -112,13 +112,6 @@ class smg : r
 class ftl : r
 {
     displayName = "Fireteam Leader";
-    linkedItems[] += {"Binocular"};
-};
-class sl : ftl
-{
-    displayName = "Squad Leader";
-	backpack[] = {"usm_pack_st138_prc77"};
-	items[] += {"ACE_Maptools"};
     linkedItems[] =
     {
         "ItemMap",
@@ -126,6 +119,12 @@ class sl : ftl
         "ItemWatch",
         "Binocular"
     };
+};
+class sl : ftl
+{
+    displayName = "Squad Leader";
+	backpack[] = {"usm_pack_st138_prc77"};
+	items[] += {"ACE_Maptools"};
 };
 class co : sl
 {
