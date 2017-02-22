@@ -4,7 +4,7 @@
 // dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, mbg_m16a2
 // originally by Fingers
 
-//tooltip = "Author: Snippers"; //confirm?
+tooltip = "WARNING: MAT role is NOT RHS compatible";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
