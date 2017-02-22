@@ -185,7 +185,30 @@ class fac : co
 		"ACE_Maptools"
 	};
 };
+
 class ar : r
+{
+	displayName = "Automatic Rifleman (M249)";
+	primaryWeapon[] = {"rhs_weap_m249_pip_S_para"};
+	bipod[] = {};
+	vest[] = {"rhsusf_spc_mg"};
+	magazines[] +=
+	{
+		LIST_6("rhsusf_100Rnd_556x45_soft_pouch")
+	};
+};
+class aar : r
+{
+    displayName = "Ass. Automatic Rifleman (M249)";
+   	backpack[] = {"rhsusf_assault_eagleaiii_coy"};
+    backpackItems[] =
+    {
+        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
+    };
+    linkedItems[] += {"Binocular"};
+};
+
+class ar_m27iar : r
 {
 	displayName = "Automatic Rifleman (M27 IAR)";
 	primaryWeapon[] = {"rhs_weap_m27iar"};
@@ -193,19 +216,20 @@ class ar : r
 	vest[] = {"rhsusf_spc_iar"};
 	magazines[] +=
 	{
-		LIST_6("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+		LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
 };
-class aar : r
+class aar_m27iar : r
 {
-    displayName = "Assistant Automatic Rifleman";
+    displayName = "Ass. Automatic Rifleman (M27 IAR)";
    	backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+        LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag")
     };
     linkedItems[] += {"Binocular"};
 };
+
 class rat : car
 {
     displayName = "Rifleman (M72A7 LAW)";
