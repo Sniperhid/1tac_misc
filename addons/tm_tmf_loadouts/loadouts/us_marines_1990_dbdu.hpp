@@ -6,7 +6,7 @@
 /* HEAVY BACKPACK - B_Carryall_oli */
 /* LIGHT BACKPACK - CUP_B_AlicePack_Khaki */
 
-//tooltip = "Author: Snippers"; // confirm
+tooltip = "WARNING: MAT role is NOT RHS compatible";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -173,13 +173,13 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"hlc_lmg_m60"};
+	backpack[] = {"usm_pack_alice"};
+	primaryWeapon[] = {"rhs_weap_m249"};
 	bipod[] = {};
 	vest[] = {"usm_vest_pasgt_lbv_mg"};
-	backpack[] = {"usm_pack_abag_m60"};
 	magazines[] =
 	{
-		LIST_3("hlc_100Rnd_762x51_M_M60E4"),
+		LIST_5("rhsusf_100Rnd_556x45_soft_pouch"),
 		"HandGrenade",
 		"SmokeShell"
 	};
@@ -187,9 +187,10 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
+	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_M_M60E4")
+        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -214,11 +215,12 @@ class dm : r
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
+	backpack[] = {"usm_pack_alice"};
 	primaryWeapon[] = {"rhs_weap_m240G"};
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_3("rhsusf_100Rnd_762x51"),
+		LIST_4("rhsusf_100Rnd_762x51"),
 		"HandGrenade",
 		"SmokeShell"
 	};
@@ -229,31 +231,29 @@ class mmgac : r
 	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_762x51")
+        LIST_6("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
 {
 	displayName = "MMG Assistant Gunner";
+	backpack[] = {"usm_pack_alice"};
+	backpackItems[] =
+	{
+		LIST_6("rhsusf_100Rnd_762x51")
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
-	};
-	backpack[] = {"usm_pack_alice"};
-	backpackItems[] =
-	{
-		LIST_4("rhsusf_100Rnd_762x51")
+		"Binocular"
 	};
 };
 class hmgg : car
 {
     displayName = "HMG Gunner";
     backPack[] = {"RHS_M2_Gun_Bag"};
-
 };
 class hmgac : r
 {
