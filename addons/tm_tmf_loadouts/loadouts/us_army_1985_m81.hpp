@@ -4,7 +4,7 @@
 // dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, mbg_m16a2
 // originally by Fingers
 
-//tooltip = "Author: Snippers"; //confirm?
+tooltip = "WARNING: MAT role is NOT RHS compatible";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -171,23 +171,24 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"hlc_lmg_m60"};
+	backpack[] = {"usm_pack_alice"};
+	primaryWeapon[] = {"rhs_weap_m249"};
 	bipod[] = {};
 	vest[] = {"usm_vest_pasgt_lbe_mg"};
 	magazines[] =
 	{
-		LIST_5("hlc_100Rnd_762x51_M_M60E4"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+		LIST_5("rhsusf_100Rnd_556x45_soft_pouch"),
+        "HandGrenade",
+        "SmokeShell"
 	};
 };
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-	backpack[] = {"usm_pack_762x51_ammobelts"};
+	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_M_M60E4")
+        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -216,7 +217,7 @@ class mmgg : ar
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_6("hlc_100Rnd_762x51_M_M60E4"),
+		LIST_4("hlc_100Rnd_762x51_M_M60E4"),
 		"HandGrenade",
 		"SmokeShell"
 	};
@@ -224,27 +225,19 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-	backpack[] = {"usm_pack_762x51_ammobelts"};
+	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_5("hlc_100Rnd_762x51_M_M60E4")
     };
 };
 class mmgag : aar
 {
 	displayName = "MMG Assistant Gunner";
-	backpack[] = {"usm_pack_762x51_ammobelts"};
-	linkedItems[] =
-	{
-		"ItemMap",
-		"ItemCompass",
-		"ItemWatch",
-		"Binocular",
-		"ItemGPS"
-	};
+	backpack[] = {"usm_pack_alice"};
 	backpackItems[] =
 	{
-		LIST_3("hlc_100Rnd_762x51_M_M60E4")
+		LIST_5("hlc_100Rnd_762x51_M_M60E4")
 	};
 };
 class hmgg : car
@@ -300,37 +293,23 @@ class matag : car
 class hatg : car
 {
     displayName = "HAT Gunner";
-	secondaryWeapon[] = {"rhs_weap_fgm148"};
-	backpack[] = {"B_Carryall_oli"};
-	backpackItems[] =
-	{
-		LIST_2("rhs_fgm148_magazine_AT")
-	};
+	backpack[] = {"rhs_Tow_Gun_Bag"};
 };
 class hatac : r
 {
 	displayName = "HAT Ammo Carrier";
-	backpack[] = {"B_Carryall_oli"};
-	backpackItems[] =
-	{
-		LIST_2("rhs_fgm148_magazine_AT")
-	};
+	backpack[] = {"rhs_TOW_Tripod_Bag"};
 };
 class hatag : car
 {
 	displayName = "HAT Assistant Gunner";
-	backpack[] = {"B_Carryall_oli"};
-	backpackItems[] =
-	{
-		LIST_2("rhs_fgm148_magazine_AT")
-	};
+	backpack[] = {"rhs_TOW_Tripod_Bag"};
 	linkedItems[] =
 	{
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class mtrg : car
