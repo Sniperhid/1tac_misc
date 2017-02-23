@@ -33,4 +33,8 @@ class ACE_Settings {
         typeName = "SCALAR";
         value = 0;
     };
+    class ace_cookoff_enable {
+        typeName = "BOOL";
+        value = 0;
+    };
 };
