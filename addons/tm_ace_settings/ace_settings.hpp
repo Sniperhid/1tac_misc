@@ -37,4 +37,16 @@ class ACE_Settings {
         typeName = "BOOL";
         value = 0;
     };
+    class ace_cookoff_enableAmmobox {
+        typeName = "BOOL";
+        value = 0;
+    };
+    class ace_cookoff_enableAmmoCookoff {
+        typeName = "BOOL";
+        value = 0;
+    };
+    class ace_cookoff_ammoCookoffDuration {
+        typeName = "SCALAR";
+        value = 0;
+    };
 };
