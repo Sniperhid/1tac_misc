@@ -349,7 +349,14 @@ class CfgLoadouts
 	class ADF_2005
 	{
 		displayName = "Australian Defence Force (AUSCAM, 2005)";
-		category = "Other";
+		category = "Western Factions";
 		#include "loadouts\adf_2005.hpp"
+	};
+	
+	class SYRIAN_ARAB_ARMY_WDL
+	{
+		displayName = "Syrian Arab Army (1995-, Woodland)";
+		category = "Other";
+		#include "loadouts\syrian_arab_army_wdl.hpp"
 	};
 };
