@@ -1,9 +1,17 @@
 disableSerialization;
-params ["_magazine"];
-(missionNamespace getVariable format ["bear_fieldManual_rpg7v2_%1", _magazine]) params [["_idc", 834111], ["_reticle", "l"]];
+params [["_magazine", "rhs_rpg7_PG7V_mag"]];
+
+private _data = switch (_magazine) do {
+	case "rhs_rpg7_PG7V_mag": { [834111, "l"] };
+	case "rhs_rpg7_PG7VL_mag": { [834112, "r"] };
+	case "rhs_rpg7_PG7VR_mag": { [834113, "c"] };
+	case "rhs_rpg7_OG7V_mag": { [834114, "cr"] };
+	case "rhs_rpg7_type69_airburst_mag": { [834115, "l"] };
+	case "rhs_rpg7_TBG7V_mag": { [834116, "c"] };
+};
+_data params [["_idc", 834111], ["_reticle", "l"]];
 
 private _display = uiNamespace getVariable ["bear_fieldManual_rpg7v2_display", findDisplay 834100];
-
 (_display displayCtrl 834101) ctrlSetText format ["\x\tac1\addons\tm_bear_fieldmanual_rpg7v2\data\fm_%1_ca.paa", _reticle];
 
 private _button = _display displayCtrl _idc;

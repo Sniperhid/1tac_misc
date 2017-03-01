@@ -6,10 +6,6 @@ class CfgFunctions
 		{
 			file = "x\tac1\addons\tm_bear_fieldmanual_rpg7v2\functions";
 			
-			class init 
-			{
-				postInit = 1;
-			};
 			class open {};
 			class select {};
 		};
