@@ -55,7 +55,7 @@ class RscBear_fieldManual_rpg7v2
 		
 		class button_a2: button_a1 
 		{
-			idc = -1;
+			idc = 834112;
 			onButtonClick = "[_this, 1] call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			x = 0.5 + (((2 * safezoneH) * 0.75) / 2) * (175/1024);
@@ -63,7 +63,7 @@ class RscBear_fieldManual_rpg7v2
 		
 		class button_a3: button_a1 
 		{
-			idc = -1;
+			idc = 834113;
 			onButtonClick = "[_this, 2] call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			x = 0.5 + (((2 * safezoneH) * 0.75) / 2) * (290/1024);
@@ -71,7 +71,7 @@ class RscBear_fieldManual_rpg7v2
 		
 		class button_b1: button_a1 
 		{
-			idc = -1;
+			idc = 834114;
 			onButtonClick = "[_this, 3] call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			y = (780/1024) * safezoneH + safezoneY;
@@ -79,7 +79,7 @@ class RscBear_fieldManual_rpg7v2
 		
 		class button_b2: button_a2 
 		{
-			idc = -1;
+			idc = 834115;
 			onButtonClick = "[_this, 0] call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			y = (780/1024) * safezoneH + safezoneY;
@@ -87,7 +87,7 @@ class RscBear_fieldManual_rpg7v2
 		
 		class button_b3: button_a3 
 		{
-			idc = -1;
+			idc = 834116;
 			onButtonClick = "[_this, 2] call bear_fieldManual_rpg7_fnc_select;";
 			
 			y = (780/1024) * safezoneH + safezoneY;

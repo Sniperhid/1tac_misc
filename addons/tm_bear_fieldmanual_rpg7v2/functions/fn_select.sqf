@@ -1,4 +1,7 @@
 disableSerialization;
+
+systemChat str _this;
+
 params ["_button", "_num"];
 _button = _button param [0];
 
