@@ -1,0 +1,1 @@
+PGO-7V3 reticle and warhead icons are from RHS: AFRF
