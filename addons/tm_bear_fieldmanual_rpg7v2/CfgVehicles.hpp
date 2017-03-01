@@ -5,7 +5,7 @@ class CfgVehicles
 	{
 		class ACE_SelfActions
 		{
-			class ADDON
+			class bear_fieldmanual_rpg7v2
 			{
 				displayName = "RPG-7V2 Field Manual";
 				condition = "(secondaryWeapon player) isEqualTo 'rhs_weap_rpg7'";

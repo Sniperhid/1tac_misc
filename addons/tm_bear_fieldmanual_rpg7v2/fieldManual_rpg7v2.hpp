@@ -16,7 +16,7 @@ class RscBear_fieldManual_rpg7v2
 		{
 			idc = 834111;
 			
-			onButtonClick = "[_this, 0] call bear_fieldManual_rpg7v2_fnc_select;";
+			onButtonClick = "'rhs_rpg7_PG7V_mag' call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1};
@@ -56,7 +56,7 @@ class RscBear_fieldManual_rpg7v2
 		class button_a2: button_a1 
 		{
 			idc = 834112;
-			onButtonClick = "[_this, 1] call bear_fieldManual_rpg7v2_fnc_select;";
+			onButtonClick = "'rhs_rpg7_PG7VL_mag' call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			x = 0.5 + (((2 * safezoneH) * 0.75) / 2) * (175/1024);
 		};
@@ -64,7 +64,7 @@ class RscBear_fieldManual_rpg7v2
 		class button_a3: button_a1 
 		{
 			idc = 834113;
-			onButtonClick = "[_this, 2] call bear_fieldManual_rpg7v2_fnc_select;";
+			onButtonClick = "'rhs_rpg7_PG7VR_mag' call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			x = 0.5 + (((2 * safezoneH) * 0.75) / 2) * (290/1024);
 		};
@@ -72,7 +72,7 @@ class RscBear_fieldManual_rpg7v2
 		class button_b1: button_a1 
 		{
 			idc = 834114;
-			onButtonClick = "[_this, 3] call bear_fieldManual_rpg7v2_fnc_select;";
+			onButtonClick = "'rhs_rpg7_OG7V_mag' call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			y = (780/1024) * safezoneH + safezoneY;
 		};
@@ -80,7 +80,7 @@ class RscBear_fieldManual_rpg7v2
 		class button_b2: button_a2 
 		{
 			idc = 834115;
-			onButtonClick = "[_this, 0] call bear_fieldManual_rpg7v2_fnc_select;";
+			onButtonClick = "'rhs_rpg7_type69_airburst_mag' call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			y = (780/1024) * safezoneH + safezoneY;
 		};
@@ -88,7 +88,7 @@ class RscBear_fieldManual_rpg7v2
 		class button_b3: button_a3 
 		{
 			idc = 834116;
-			onButtonClick = "[_this, 2] call bear_fieldManual_rpg7_fnc_select;";
+			onButtonClick = "'rhs_rpg7_TBG7V_mag' call bear_fieldManual_rpg7v2_fnc_select;";
 			
 			y = (780/1024) * safezoneH + safezoneY;
 		};
@@ -102,13 +102,9 @@ class RscBear_fieldManual_rpg7v2
 			
 			text = "\x\tac1\addons\tm_bear_fieldmanual_rpg7v2\data\fm_l_ca.paa";
 			
-			//x = 0.404852 * safezoneW + safezoneX;
 			x = 0.5 - ((2 * safezoneH) * 0.75) * 0.5;
-			//y = 0.452993 * safezoneH + safezoneY;
 			y = safezoneY;
-			//w = 0.190295 * safezoneW;
 			w = (2 * safezoneH) * 0.75;
-			//h = 0.12221905 * safezoneH;
 			h = safezoneH;
 			
 			type = 0;
@@ -134,7 +130,7 @@ class RscBear_fieldManual_rpg7v2
 			h = safezoneH * (64/1024);
 			
 			type = 0;
-			style = 48 + 2048; // picture keep aspect ratio
+			style = 48 + 2048;
 			
 			font = "RobotoCondensed";
 			sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
