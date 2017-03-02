@@ -41,7 +41,7 @@ class baseMan {// Weaponless baseclass
     // These are put into the backpack
     backpackItems[] = {};
 	
-    //code = "if ((headgear _this) isEqualTo 'rhs_altyn_novisor_bala' || (headgear _this) isEqualTo 'rhs_altyn_novisor_ess_bala' || (headgear _this) isEqualTo 'rhs_altyn_bala') then {removeGoggles _this;};";
+    code = "";
 };
 class r : baseMan
 {
@@ -79,6 +79,7 @@ class r : baseMan
 class r_ak74m : r
 {
     displayName = "Rifleman (AK74M)";
+    secondaryWeapon[] = {};
     primaryWeapon[] = {"rhs_weap_ak74m_npz","rhs_weap_ak74m_npz", "rhs_weap_ak74m_plummag_npz"};
 	attachment[] = {"rhs_acc_2dpZenit"};
     scope[] = {"rhsusf_acc_eotech_552", "rhsusf_acc_compm4"};
