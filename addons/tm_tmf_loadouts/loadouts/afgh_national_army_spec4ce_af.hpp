@@ -292,7 +292,7 @@ class matg : car
 {
 	displayName = "MAT Gunner";
     secondaryWeapon[] = {"rhs_weap_rpg7"};
-    secondaryWeaponItems[] = {"rhs_acc_pgo7v"};
+    secondaryWeaponItems[] = {"rhs_acc_pgo7v3"};
 	backpack[] = {"rhs_rpg_empty"};
 	backpackItems[] = {"rhs_rpg7_PG7VL_mag","rhs_rpg7_PG7VL_mag","rhs_rpg7_OG7V_mag","rhs_rpg7_OG7V_mag"};
 };
