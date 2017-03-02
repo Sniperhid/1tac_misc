@@ -355,7 +355,7 @@ class matg : car
 {
 	displayName = "MAT Gunner";
 	secondaryWeapon[] = {"rhs_weap_rpg7"};
-	secondaryAttachments[] = {"rhs_acc_pgo7v"};
+	secondaryAttachments[] = {"rhs_acc_pgo7v3"};
     backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
