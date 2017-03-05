@@ -177,7 +177,12 @@ class ar : r
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = {"rhs_weap_minimi_para_railed"};
 	bipod[] = {};
-	magazines[] += { LIST_5("rhsusf_100Rnd_556x45_soft_pouch") };
+	magazines[] =
+    {
+		LIST_5("rhsusf_100Rnd_556x45_soft_pouch"),
+		"HandGrenade",
+		"SmokeShell"
+	};
 };
 class aar : r
 {
@@ -210,7 +215,7 @@ class mmgg : ar
 	primaryWeapon[] = {"rhs_weap_m240B"};
 	magazines[] =
 	{
-		LIST_4("rhsusf_100Rnd_762x51"),
+		LIST_3("rhsusf_100Rnd_762x51"),
 		LIST_2("rhsusf_100Rnd_762x51_m80a1epr"),
 		"SmokeShell"
 	};
