@@ -177,13 +177,17 @@ class ar : r
 	primaryWeapon[] = {"JO_MG_MG3"};
    	backpack[] = {"bear_carryall_lizard"};
 	bipod[] = {};
-	magazines[] += { LIST_4("JO_120rnd_MG3") };
+	magazines[] =
+	{
+		LIST_4("JO_120rnd_MG3"),
+		"SmokeShell"
+	};
 };
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
    	backpack[] = {"bear_carryall_lizard"};
-    backpackItems[] = { LIST_4("JO_120rnd_MG3") };
+    backpackItems[] = { LIST_5("JO_120rnd_MG3") };
     linkedItems[] += {"Binocular"};
 };
 class rat : r
