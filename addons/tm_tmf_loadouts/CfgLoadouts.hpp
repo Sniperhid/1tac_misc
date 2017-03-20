@@ -359,4 +359,23 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\syrian_arab_army_wdl.hpp"
 	};
+	
+	class SERBIAN_ARMY_M93_OAKLEAF
+	{
+		displayName = "Serbian Army (1993-, Oakleaf)";
+		category = "Other";
+		#include "loadouts\saf_kov_m93_oakleaf.hpp"
+	};
+	class SERBIAN_ARMY_M10_DIGITAL
+	{
+		displayName = "Serbian Army (2010-, Digital)";
+		category = "Other";
+		#include "loadouts\saf_kov_m10_digital.hpp"
+	};
+	class SERBIAN_ARMY_PARA_M10_DIGITAL
+	{
+		displayName = "Serbian Army Special Brigade (2010-, Digital)";
+		category = "Other";
+		#include "loadouts\saf_kov_para_m10_digital.hpp"
+	};
 };
