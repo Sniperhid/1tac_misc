@@ -4,13 +4,14 @@ class CfgPatches
 {
 	class ADDON
 	{
-        name = "MG3 NIArms sounds";
+        name = "NIArms sounds for JO MG3";
 		author = "Bear, NIArms";
 		url = "http://www.teamonetactical.com";
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {
 			"A3_Weapons_F",
+			"A3_Sounds_F_Mark",
 			"JO_MG_MG3"
 		};
 		requiredVersion = REQUIRED_VERSION;
@@ -18,4 +19,6 @@ class CfgPatches
 	};
 };
 
+#include "niarms\cfgSoundset.hpp"
+#include "niarms\cfgSoundshaders.hpp"
 #include "CfgWeapons.hpp"
