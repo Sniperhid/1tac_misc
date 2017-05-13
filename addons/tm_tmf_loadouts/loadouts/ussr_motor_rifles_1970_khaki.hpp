@@ -120,7 +120,7 @@ class ftl : g
 	vest[] = {"bear_6sh92_khaki"};
     magazines[] +=
     {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
 };
 class sl : ftl
@@ -147,8 +147,7 @@ class co : sl
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
 		LIST_3("rhs_mag_9x18_12_57N181S"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
+		LIST_2("rhs_mag_nspd"),
 		LIST_6("rhs_30Rnd_762x39mm"),
         LIST_2("rhs_30Rnd_762x39mm_tracer"),
         "rhs_mag_rgd5",
@@ -464,7 +463,7 @@ class pp : smg
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -477,7 +476,7 @@ class pcc : smg
     goggles[] = {};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc

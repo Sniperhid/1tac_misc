@@ -54,15 +54,13 @@ class r : baseMan
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
 	{
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_dirty",
-		"hlc_rifle_ak74_dirty2"
+		"rhs_weap_ak74"
 	};
 	scope[] = {};
-    silencer[] = {};
+    silencer[] = {"rhs_acc_dtk1983"};
     magazines[] =
     {
-        LIST_11("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_9("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
@@ -111,7 +109,8 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"arifle_AKS_F"};
+    silencer[] = {"rhs_acc_pgs64_74u"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -126,7 +125,7 @@ class ftl : g
     {
         LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -151,17 +150,13 @@ class co : sl
     displayName = "Platoon Leader";
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_2("rhs_mag_9x18_8_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
-		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
-		LIST_3("rhs_VOG25"),
+		LIST_2("rhs_mag_nspd"),
+		"rhs_VOG25",
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
-        "rhs_mag_rgd5",
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_30Rnd_545x39_AK_green")
 	};
 	backpackItems[] = {};
 };
@@ -219,7 +214,8 @@ class rat : car
 class dm : r
 {
 	displayName = "Designated Marksman";
-	scope[] = {"HLC_Optic_PSO1"};
+	primaryWeapon[] = {"rhs_weap_ak74n"};
+	scope[] = {"rhs_acc_pso1m2"};
 };
 class mmgg : ar
 {
@@ -469,7 +465,7 @@ class pp : smg
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -482,7 +478,7 @@ class pcc : smg
     goggles[] = {};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc

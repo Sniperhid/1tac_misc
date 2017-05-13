@@ -58,16 +58,13 @@ class r : baseMan
     primaryWeapon[] =
 	{
 		"rhs_weap_ak74",
-		"rhs_weap_ak74n",
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_dirty",
-		"hlc_rifle_ak74_dirty2"
+		"rhs_weap_ak74n"
 	};
 	scope[] = {};
-    silencer[] = {};
+    silencer[] = {"rhs_acc_dtk1983"};
     magazines[] =
     {
-        LIST_11("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_9("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
@@ -85,7 +82,6 @@ class g : r
 	backpack[] = {"rhs_sidor"};
     primaryWeapon[] = 
 	{
-		"rhs_weap_ak74_gp25",
 		"rhs_weap_ak74n_gp25",
 		"rhs_weap_aks74n_gp25"
 	};
@@ -122,7 +118,8 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"arifle_AKS_F"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+	silencer[] = {"rhs_acc_pgs64_74u"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -137,7 +134,7 @@ class ftl : g
     {
         LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -151,11 +148,6 @@ class sl : ftl
 {
     displayName = "Squad Leader";
 	vest[] = {"rhs_6b5_officer_khaki"};
-    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
-    magazines[] +=
-    {
-        LIST_3("rhs_mag_9x18_8_57N181S")
-    };
 	items[] += {"ACE_Maptools"};
 };
 class co : sl
@@ -163,13 +155,9 @@ class co : sl
     displayName = "Platoon Leader";
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
-		LIST_3("rhs_mag_9x18_8_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
-		LIST_3("rhs_VOG25"),
-        LIST_2("rhs_GRD40_White"),
+		LIST_2("rhs_VOG25"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         "rhs_mag_rgd5",
@@ -231,7 +219,8 @@ class rat : car
 class dm : r
 {
 	displayName = "Designated Marksman";
-	scope[] = {"HLC_Optic_PSO1"};
+	primaryWeapon[] = {"rhs_weap_ak74n"};
+	scope[] = {"rhs_acc_pso1m2"};
 };
 class mmgg : ar
 {
@@ -243,7 +232,6 @@ class mmgg : ar
 	magazines[] =
 	{
 		LIST_4("rhs_100Rnd_762x54mmR"),
-		LIST_2("rhs_100Rnd_762x54mmR"),
 		"rhs_mag_rgd5",
 		"rhs_mag_rdg2_white"
 	};
@@ -484,7 +472,7 @@ class pp : smg
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -498,7 +486,7 @@ class pcc : smg
     goggles[] = {};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc
