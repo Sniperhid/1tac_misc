@@ -134,7 +134,7 @@ class ftl : g
     {
         LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -148,11 +148,6 @@ class sl : ftl
 {
     displayName = "Squad Leader";
 	vest[] = {"rhs_6b5_officer_ttsko"};
-    sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
-    magazines[] +=
-    {
-        LIST_3("rhs_mag_9x18_12_57N181S")
-    };
 	items[] += {"ACE_Maptools"};
 };
 class co : sl
@@ -160,11 +155,9 @@ class co : sl
     displayName = "Platoon Leader";
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
-		LIST_3("rhs_mag_9x18_12_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
+		LIST_2("rhs_mag_nspd"),
 		LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_762x39mm"),
@@ -184,7 +177,7 @@ class fac : co
 		"ItemCompass",
 		"ItemWatch",
 		"ItemGPS",
-		"rhs_pdu4"
+		"Binocular"
 	};
 	items[] = {
 		LIST_3("ACE_fieldDressing"),
@@ -273,8 +266,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -302,8 +294,7 @@ class hmgag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class matg : car
@@ -338,8 +329,7 @@ class matag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -372,8 +362,7 @@ class hatag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class mtrg : car
@@ -384,8 +373,7 @@ class mtrg : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
-        "ItemGPS"
+        "ItemWatch"
     };
 };
 class mtrac : car
@@ -403,8 +391,7 @@ class mtrag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
+        "Binocular"
     };
 };
 class samg : car
@@ -426,8 +413,7 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
+        "Binocular"
     };
     backpackItems[] =
     {
@@ -452,7 +438,7 @@ class sn : r
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
 	backpack[] = {};
-	linkedItems[] += {"Binocular","ItemGPS"};
+	linkedItems[] += {"Binocular"};
 };
 class sp : sn
 {
@@ -480,7 +466,7 @@ class vc : smg
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
-	linkedItems[] += {"Binocular","ItemGPS"};
+	linkedItems[] += {"Binocular"};
 };
 class vd : smg
 {
@@ -489,7 +475,6 @@ class vd : smg
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
-	linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
 class vg : vd
@@ -509,7 +494,7 @@ class pp : smg
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -520,10 +505,9 @@ class pcc : smg
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
-    linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc

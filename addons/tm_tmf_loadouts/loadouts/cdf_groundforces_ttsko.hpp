@@ -57,16 +57,13 @@ class r : baseMan
     primaryWeapon[] =
 	{
 		"rhs_weap_ak74",
-		"rhs_weap_ak74n",
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_dirty",
-		"hlc_rifle_ak74_dirty2"
+		"rhs_weap_ak74n"
 	};
 	scope[] = {};
-    silencer[] = {};
+    silencer[] = {"rhs_acc_dtk1983"};
     magazines[] =
     {
-        LIST_11("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_9("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
@@ -121,8 +118,8 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"arifle_AKS_F"};
-	silencer[] = {};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+	silencer[] = {"rhs_acc_pgs64_74u"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -137,7 +134,7 @@ class ftl : g
     {
         LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -165,14 +162,11 @@ class co : sl
 		LIST_3("rhs_mag_9x18_12_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
-		LIST_3("rhs_VOG25"),
+		LIST_2("rhs_mag_nspd"),
+		LIST_2("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
-        "rhs_mag_rgd5",
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_30Rnd_545x39_AK_green")
 	};
 	backpackItems[] = {};
 };
@@ -186,7 +180,7 @@ class fac : co
 		"ItemCompass",
 		"ItemWatch",
 		"ItemGPS",
-		"rhs_pdu4"
+		"Binocular"
 	};
 	items[] = {
 		LIST_3("ACE_fieldDressing"),
@@ -279,8 +273,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -308,8 +301,7 @@ class hmgag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class matg : car
@@ -344,8 +336,7 @@ class matag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -378,8 +369,7 @@ class hatag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"rhs_pdu4",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class mtrg : car
@@ -390,8 +380,7 @@ class mtrg : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
-        "ItemGPS"
+        "ItemWatch"
     };
 };
 class mtrac : car
@@ -409,8 +398,7 @@ class mtrag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
+        "Binocular"
     };
 };
 class samg : car
@@ -432,8 +420,7 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "rhs_pdu4",
-        "ItemGPS"
+        "Binocular"
     };
     backpackItems[] =
     {
@@ -458,19 +445,16 @@ class sn : r
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
 	backpack[] = {};
-	linkedItems[] += {"rhs_pdu4","ItemGPS"};
+	linkedItems[] += {"rhs_pdu4"};
 };
 class sp : sn
 {
     displayName = "Spotter";
     vest[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_6b23_ttsko_forest"};
-    scope[] = {"rhs_acc_1p78"};
-	silencer[] = {"rhs_acc_dtk"};
+	silencer[] = {"rhs_acc_dtk1983"};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_dirty",
-		"hlc_rifle_ak74_dirty2"
+		"rhs_weap_ak74"
 	};
     magazines[] =
     {
@@ -499,7 +483,6 @@ class vd : smg
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
-	linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
 class vg : vd
@@ -519,7 +502,7 @@ class pp : smg
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -530,10 +513,9 @@ class pcc : smg
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
-    linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc

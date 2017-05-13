@@ -125,7 +125,7 @@ class ftl : r
     displayName = "Fireteam Leader";
     magazines[] +=
     {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -160,8 +160,7 @@ class co : sl
 		LIST_3("rhs_mag_9x18_12_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
+		LIST_2("rhs_mag_nspd"),
 		LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_762x39mm"),
@@ -482,7 +481,7 @@ class pp : smg
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -495,7 +494,7 @@ class pcc : smg
     goggles[] = {};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc
