@@ -205,7 +205,7 @@ class ar : r_ak74m
 	bipod[] = {};
 	silencer[] = {};
 	vest[] = {"rhs_6b23_digi_6sh92"};
-	backpack[] = {"rhs_assault_umbts"};
+	backpack[] = {"B_Carryall_oli"};
 	sidearmWeapon[] = {};
 	magazines[] =
 	{
@@ -230,7 +230,7 @@ class aar : r_ak74m
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
-	backpack[] = {"rhs_assault_umbts"};
+	backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -276,7 +276,7 @@ class mmgac : r_ak74m
 {
     displayName = "MMG Ammo Carrier";
 	vest[] = {"rhs_6b23_digi_6sh92"};
-	backpack[] = {"rhs_assault_umbts"};
+	backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")

@@ -185,7 +185,7 @@ class ar : r
 	bipod[] = {};
 	silencer[] = {};
 	vest[] = {"rhs_6b23_6sh92"};
-	backpack[] = {"rhs_sidor"};
+    backpack[] = {"B_Carryall_oli"};
 	sidearmWeapon[] = {};
 	magazines[] =
 	{

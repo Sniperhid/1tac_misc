@@ -209,7 +209,7 @@ class ar : r
 	scope[] = {"rhs_acc_pkas"};
 	bipod[] = {};
 	silencer[] = {};
-	backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"B_Carryall_oli"};
 	sidearmWeapon[] = {};
 	magazines[] =
 	{

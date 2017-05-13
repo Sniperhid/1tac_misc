@@ -240,7 +240,7 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	primaryWeapon[] = {"rhs_weap_pkm"};
 	sidearmWeapon[] = {};
-	backpack[] = {"rhs_sidor"};
+    backpack[] = {"B_Carryall_oli"};
 	scope[] = {};
 	magazines[] =
 	{
@@ -254,7 +254,7 @@ class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
 	vest[] = {"rhs_6b5_vsr"};
-	backpack[] = {"rhs_sidor"};
+    backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -263,6 +263,7 @@ class mmgac : r
 class mmgag : aar
 {
 	displayName = "MMG Assistant Gunner";
+    backpack[] = {"B_Carryall_oli"};
 	linkedItems[] =
 	{
 		"ItemMap",
