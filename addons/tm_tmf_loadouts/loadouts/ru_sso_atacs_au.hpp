@@ -92,7 +92,7 @@ class r : baseMan
 	bipod[] = {LIST_2("rhs_acc_grip_ffg2"),LIST_2("rhs_acc_grip_rk6"),"rhsusf_acc_grip2"};
     magazines[] =
     {
-        LIST_11("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_8("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
@@ -110,7 +110,7 @@ class g : r
     magazines[] +=
     {
         LIST_2("rhs_VOG25"),
-        LIST_6("rhs_VOG25P"),
+        LIST_3("rhs_VOG25P"),
         LIST_4("rhs_GDM40")
     };
 };
@@ -135,11 +135,15 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
+	primaryWeapon[] = {"rhs_weap_ak105"};
+	silencer[] = {"rhs_acc_pgs64"};
+	scope[] = {};
+	bipod[] = {};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         "rhs_mag_rgd5",
-        LIST_2("rhs_mag_rdg2_white")
+        "rhs_mag_rdg2_white"
     };
 };
 class ftl : g
@@ -172,12 +176,10 @@ class co : sl
 	magazines[] = {
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
+		LIST_2("rhs_mag_nspd"),
 		LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
 	};
@@ -236,8 +238,8 @@ class aar : r
     {
         LIST_6("rhs_30Rnd_762x39mm"),
         LIST_4("rhs_30Rnd_762x39mm_tracer"),
-        LIST_2("rhs_mag_rgd5"),
-        LIST_2("rhs_mag_rdg2_white")
+        "rhs_mag_rgd5",
+        "rhs_mag_rdg2_white"
     };
 };
 class rat : car
@@ -255,8 +257,8 @@ class dm : r
 	attachment[] = {};
 	magazines[] =
 	{
-		LIST_6("rhs_10rnd_9x39mm_SP5"),
-		LIST_6("rhs_10rnd_9x39mm_SP6"),
+		LIST_4("rhs_10rnd_9x39mm_SP5"),
+		LIST_4("rhs_10rnd_9x39mm_SP6"),
 		"rhs_mag_rgd5",
 		LIST_2("rhs_mag_rdg2_white")
 	};
@@ -269,8 +271,8 @@ class mmgg : ar
 	scope[] = {"rhs_acc_pkas"};
 	magazines[] =
 	{
-		LIST_3("rhs_100Rnd_762x54mmR_7N26"),
-		LIST_2("rhs_100Rnd_762x54mmR_7BZ3"),
+		LIST_2("rhs_100Rnd_762x54mmR_7N26"),
+		LIST_3("rhs_100Rnd_762x54mmR_7BZ3"),
 		"rhs_mag_rgd5",
 		"rhs_mag_rdg2_white"
 	};
@@ -281,7 +283,7 @@ class mmgac : r
 	backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_3("rhs_100Rnd_762x54mmR_7N26"),
+        LIST_2("rhs_100Rnd_762x54mmR_7N26"),
 		LIST_2("rhs_100Rnd_762x54mmR_7BZ3")
     };
 };
@@ -299,7 +301,7 @@ class mmgag : aar
 	};
 	backpackItems[] =
 	{
-		LIST_3("rhs_100Rnd_762x54mmR_7N26"),
+		LIST_2("rhs_100Rnd_762x54mmR_7N26"),
 		LIST_2("rhs_100Rnd_762x54mmR_7BZ3")
 	};
 };
@@ -510,7 +512,7 @@ class pp : smg
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -523,7 +525,7 @@ class pcc : smg
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc
