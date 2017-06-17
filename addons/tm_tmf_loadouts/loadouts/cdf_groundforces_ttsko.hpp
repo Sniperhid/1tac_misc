@@ -159,11 +159,11 @@ class co : sl
     displayName = "Platoon Leader";
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
-		LIST_3("rhs_mag_9x18_12_57N181S"),
+		LIST_2("rhs_mag_9x18_12_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
-		LIST_3("rhs_GRD40_Red"),
+		LIST_2("rhs_GRD40_Red"),
 		LIST_2("rhs_mag_nspd"),
-		LIST_2("rhs_VOG25"),
+		LIST_4("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green")

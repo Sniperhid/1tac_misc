@@ -451,7 +451,6 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
     goggles[] = {};
@@ -460,7 +459,6 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    backpack[] = {"rhsusf_falconii"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
     goggles[] = {};
 	linkedItems[] += {"ItemGPS"};
