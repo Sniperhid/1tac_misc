@@ -93,7 +93,6 @@ class car : r
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_762x39mm"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -154,7 +153,7 @@ class co : sl
 	magazines[] = {
 		LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("rhs_VOG25"),
+		LIST_4("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_762x39mm"),
         LIST_2("rhs_30Rnd_762x39mm_tracer"),
@@ -192,7 +191,7 @@ class ar : r
 	vest[] = {"bear_6sh92_khaki"};
 	magazines[] =
 	{
-		LIST_8("hlc_45Rnd_762x39_m_rpk"),
+		LIST_7("hlc_45Rnd_762x39_m_rpk"),
 		"rhs_mag_rgd5",
 		"rhs_mag_rdg2_white"
 	};
@@ -204,8 +203,7 @@ class aar : r
 	backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_5("hlc_45Rnd_762x39_m_rpk"),
-        LIST_2("rhs_30Rnd_762x39mm")
+        LIST_7("hlc_45Rnd_762x39_m_rpk")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -237,8 +235,7 @@ class mmgg : ar
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_5("rhs_100Rnd_762x54mmR"),
-		"rhs_mag_rgd5",
+		LIST_4("rhs_100Rnd_762x54mmR"),
 		"rhs_mag_rdg2_white"
 	};
 };
@@ -265,7 +262,7 @@ class mmgag : aar
 	};
 	backpackItems[] =
 	{
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_4("rhs_100Rnd_762x54mmR")
 	};
 };
 class hmgg : car
