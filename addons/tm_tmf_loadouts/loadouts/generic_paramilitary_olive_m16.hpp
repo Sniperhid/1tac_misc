@@ -60,10 +60,9 @@ class r : baseMan
     attachment[] = {};
     magazines[] =
     {
-        LIST_9("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+        LIST_8("30Rnd_556x45_Stanag"),
+        "HandGrenade",
+        "SmokeShell"
     };
 	items[] =
 	{
@@ -77,8 +76,8 @@ class g : r
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] +=
     {
-        LIST_10("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell")
+        LIST_4("1Rnd_HE_Grenade_shell"),
+        LIST_2("1Rnd_Smoke_Grenade_shell")
     };
 };
 class car : r
@@ -106,7 +105,7 @@ class smg : r
     {
         LIST_6("CUP_30Rnd_9x19_MP5"),
         "HandGrenade",
-        LIST_2("SmokeShell")
+        "SmokeShell"
     };
 };
 class ftl : r
@@ -123,12 +122,8 @@ class ftl : r
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
 	backpack[] = {"usm_pack_st138_prc77"};
 	items[] += {"ACE_Maptools"};
-	magazines[] += {
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
-	};
 };
 class co : sl
 {
@@ -137,10 +132,8 @@ class co : sl
 	backPack[] = {"usm_pack_st138_prc77"};
 	magazines[] = {
 		LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell"),
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
+        "HandGrenade",
+        "SmokeShell"
 	};
 	backpackItems[] = {};
 };
@@ -165,12 +158,13 @@ class ar : r
 {
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = {"hlc_lmg_m60"};
+	backpack[] = {"B_Carryall_oli"};
 	bipod[] = {};
 	magazines[] =
 	{
 		LIST_5("hlc_100Rnd_762x51_M_M60E4"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+        "HandGrenade",
+        "SmokeShell"
 	};
 };
 class aar : r
@@ -197,13 +191,14 @@ class dm : r
 	magazines[] =
 	{
 		LIST_10("hlc_20Rnd_762x51_B_M14"),
-		LIST_2("HandGrenade"),
-		LIST_2("SmokeShell")
+		"HandGrenade",
+		"SmokeShell"
 	};
 };
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
+	backpack[] = {"B_Carryall_oli"};
 	primaryWeapon[] = {"hlc_lmg_m60"};
 	scope[] = {};
 	magazines[] =
@@ -231,8 +226,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Binocular",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -296,7 +290,7 @@ class hatg : car
 	backpack[] = {"B_Carryall_oli"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_fgm148_magazine_AT")
+		"rhs_fgm148_magazine_AT"
 	};
 };
 class hatac : r
@@ -305,7 +299,7 @@ class hatac : r
 	backpack[] = {"B_Carryall_oli"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_fgm148_magazine_AT")
+		"rhs_fgm148_magazine_AT"
 	};
 };
 class hatag : car
@@ -314,7 +308,7 @@ class hatag : car
 	backpack[] = {"B_Carryall_oli"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_fgm148_magazine_AT")
+		"rhs_fgm148_magazine_AT"
 	};
 	linkedItems[] =
 	{
