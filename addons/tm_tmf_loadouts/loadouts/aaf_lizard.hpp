@@ -227,7 +227,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder"
+		"Binocular"
 	};
 	backpackItems[] = { LIST_5("JO_120rnd_MG3") };
 };
@@ -268,8 +268,7 @@ class hmgag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class matg : car
@@ -304,8 +303,7 @@ class matag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -351,8 +349,7 @@ class hatag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class mtrg : car
@@ -369,8 +366,7 @@ class mtrg : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
-        "ItemGPS"
+        "ItemWatch"
     };
 };
 class mtrac : r
@@ -398,8 +394,7 @@ class mtrag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
-        "ItemGPS"
+        "Binocular"
     };
 };
 class samg : car
@@ -430,8 +425,7 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
-        "ItemGPS"
+        "Binocular"
     };
     backpackItems[] =
     {
@@ -481,7 +475,7 @@ class vc : smg
     headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("SmokeShellGreen")
 	};
 };
 class vd : smg
@@ -507,7 +501,7 @@ class pp : smg
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("SmokeShellGreen")
 	};
 	items[] += {"ACE_DAGR"};
 };
@@ -517,10 +511,9 @@ class pcc : smg
     backpack[] = {"B_AssaultPack_rgr"};
     headgear[] = {"rhsusf_hgu56p"};
     goggles[] = {"default"};
-    linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("SmokeShellGreen")
 	};
 };
 class pc : pcc

@@ -62,7 +62,7 @@ class r : baseMan
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
 	{
-		"rhs_weap_ak74n"
+		"rhs_weap_aks74n"
 	};
 	scope[] = {};
     silencer[] = {"rhs_acc_dtk1983"};
@@ -86,8 +86,6 @@ class g : r
 	backpack[] = {"rhs_sidor"};
     primaryWeapon[] = 
 	{
-		"rhs_weap_ak74_gp25",
-		"rhs_weap_ak74n_gp25",
 		"rhs_weap_aks74n_gp25"
 	};
     magazines[] +=
@@ -222,7 +220,7 @@ class rat : car
 class dm : r
 {
 	displayName = "Designated Marksman";
-	primaryWeapon[] = {"rhs_weap_ak74n"};
+	primaryWeapon[] = {"rhs_weap_aks74n"};
 	scope[] = {"rhs_acc_pso1m2"};
 };
 class mmgg : ar
@@ -418,7 +416,7 @@ class sn : r
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_12("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_8("rhs_10Rnd_762x54mmR_7N1"),
         "rhs_mag_rdg2_white",
         LIST_3("rhs_mag_9x18_8_57N181S")
     };
@@ -434,15 +432,13 @@ class sp : r
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),
-        LIST_4("rhs_VOG25"),
-        LIST_4("rhs_GRD40_White")
     };
+	linkedItems[] += {"Binocular"};
 };
 class vc : smg
 {
     displayName = "Vehicle Commander";
     uniform[] = {"rhs_uniform_m88_patchless"};
-    primaryWeapon[] = {"rhs_weap_aks74_folded"};
     backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
@@ -453,7 +449,6 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     uniform[] = {"rhs_uniform_m88_patchless"};
-    primaryWeapon[] = {"rhs_weap_aks74_folded"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};

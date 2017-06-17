@@ -142,9 +142,9 @@ class co : sl
 	magazines[] = {
 		LIST_2("rhs_mag_m715_Green"),
 		LIST_3("rhs_mag_m713_Red"),
-		LIST_2("rhs_mag_M441_HE"),
-		LIST_5("30Rnd_556x45_Stanag"),
-        LIST_3("30Rnd_556x45_Stanag_Tracer_Red")
+		LIST_4("rhs_mag_M441_HE"),
+		LIST_6("30Rnd_556x45_Stanag"),
+        LIST_2("30Rnd_556x45_Stanag_Tracer_Red")
 	};
 	backpackItems[] = {};
 };
@@ -395,23 +395,23 @@ class sn : r
         LIST_4("rhsusf_mag_7x45acp_MHP")
     };
 	backpack[] = {};
-	linkedItems[] += {"ACE_Vector"};
 	items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
 class sp : sn
 {
     displayName = "Spotter";
-    scope[] = {"rhsusf_acc_ACOG_d"};
+    scope[] = {};
+	bipod[] = {};
 	primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203"};
+    sidearmWeapon[] = {};
+	linkedItems[] += {"ACE_Vector"};
     magazines[] =
     {
 		LIST_7("30Rnd_556x45_Stanag"),
         LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
-        LIST_4("rhs_mag_M441_HE"),
-        LIST_4("rhs_mag_m714_White"),
-		LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_4("rhs_mag_M441_HE")
     };
 };
 class vc : smg
@@ -422,7 +422,7 @@ class vc : smg
     headgear[] = {"usm_helmet_cvc"};
     linkedItems[] += {"Binocular"};
 	magazines[] += {
-		LIST_2("rhs_mag_m715_Green")
+		LIST_2("rhs_mag_m18_green")
 	};
 };
 class vd : smg
@@ -449,7 +449,7 @@ class pp : smg
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("rhs_mag_m715_Green")
+		LIST_2("rhs_mag_m18_green")
 	};
 	items[] += {"ACE_DAGR"};
 };
@@ -463,7 +463,7 @@ class pcc : smg
     goggles[] = {"default"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("rhs_mag_m715_Green")
+		LIST_2("rhs_mag_m18_green")
 	};
 };
 class pc : pcc

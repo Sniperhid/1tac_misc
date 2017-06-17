@@ -60,10 +60,9 @@ class r : baseMan
     attachment[] = {};
     magazines[] =
     {
-        LIST_9("rhs_30Rnd_762x39mm"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+        LIST_8("rhs_30Rnd_762x39mm"),
+        "HandGrenade",
+        "SmokeShell"
     };
 	items[] =
 	{
@@ -77,8 +76,8 @@ class g : r
     primaryWeapon[] = {"rhs_weap_akm_gp25"};
     magazines[] +=
     {
-        LIST_10("rhs_VOG25"),
-        LIST_4("rhs_GRD40_White")
+        LIST_4("rhs_VOG25"),
+        LIST_2("rhs_GRD40_White")
     };
 };
 class car : r
@@ -98,15 +97,15 @@ class m : car
 		LIST_2("SmokeShell")
 	};
 };
-class smg : r
+class smg : car
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_6("CUP_30Rnd_9x19_MP5"),
+        LIST_5("rhs_30Rnd_762x39mm"),
         "HandGrenade",
-        LIST_2("SmokeShell")
+        "SmokeShell"
     };
 };
 class ftl : r
@@ -158,13 +157,14 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
+	backpack[] = {"B_Carryall_oli"};
 	primaryWeapon[] = {"rhs_weap_pkm"};
 	bipod[] = {};
 	magazines[] =
 	{
 		LIST_4("rhs_100Rnd_762x54mmR"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+        "HandGrenade",
+        "SmokeShell"
 	};
 };
 class aar : r
@@ -173,7 +173,7 @@ class aar : r
 	backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_4("rhs_100Rnd_762x54mmR")
+        LIST_3("rhs_100Rnd_762x54mmR")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -190,19 +190,20 @@ class dm : r
 	bipod[] = {};
 	magazines[] =
 	{
-		LIST_10("hlc_20Rnd_762x51_B_M14"),
-		LIST_2("HandGrenade"),
-		LIST_2("SmokeShell")
+		LIST_7("hlc_20Rnd_762x51_B_M14"),
+		"HandGrenade",
+		"SmokeShell"
 	};
 };
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
+	backpack[] = {"B_Carryall_oli"};
 	primaryWeapon[] = {"rhs_weap_pkm"};
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_6("rhs_100Rnd_762x54mmR"),
+		LIST_5("rhs_100Rnd_762x54mmR"),
 		"HandGrenade",
 		"SmokeShell"
 	};
@@ -225,8 +226,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Binocular",
-		"ItemGPS"
+		"Binocular"
 	};
 	backpackItems[] =
 	{
@@ -253,8 +253,7 @@ class hmgag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
+		"Binocular"
 	};
 };
 class matg : car
@@ -264,7 +263,7 @@ class matg : car
     backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
-		LIST_3("rhs_rpg7_PG7VL_mag")
+		LIST_3("rhs_rpg7_PG7V_mag")
 	};
 };
 class matac : r
@@ -273,7 +272,7 @@ class matac : r
 	backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
-		LIST_3("rhs_rpg7_PG7VL_mag")
+		LIST_3("rhs_rpg7_PG7V_mag")
 	};
 };
 class matag : car
@@ -289,7 +288,7 @@ class matag : car
 	backpack[] = {"rhs_rpg"};
 	magazines[] +=
 	{
-		LIST_3("rhs_rpg7_PG7VL_mag")
+		LIST_3("rhs_rpg7_PG7V_mag")
 	};
 };
 class hatg : car
@@ -319,8 +318,7 @@ class mtrg : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
-        "ItemGPS"
+        "ItemWatch"
     };
 };
 class mtrac : r
@@ -337,8 +335,7 @@ class mtrag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
-        "ItemGPS"
+        "Binocular"
     };
 };
 class samg : car
@@ -360,8 +357,7 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
-        "ItemGPS"
+        "Binocular"
     };
     backpackItems[] =
     {
@@ -396,7 +392,6 @@ class sp : sn
     magazines[] =
     {
 		LIST_7("rhs_30Rnd_762x39mm"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -407,9 +402,6 @@ class vc : smg
     displayName = "Vehicle Commander";
     headgear[] = {"usm_helmet_cvc"};
     linkedItems[] += {"Binocular"};
-	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
-	};
 };
 class vd : smg
 {
@@ -431,10 +423,6 @@ class pp : smg
     headgear[] = {"CUP_H_BAF_Helmet_Pilot"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
-	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
-	};
-	items[] += {"ACE_DAGR"};
 };
 class pcc : smg
 {
@@ -444,10 +432,6 @@ class pcc : smg
     backpack[] = {"rhsusf_falconii"};
     headgear[] = {"CUP_H_BAF_Helmet_Pilot"};
     goggles[] = {};
-    linkedItems[] += {"ItemGPS"};
-	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
-	};
 };
 class pc : pcc
 {

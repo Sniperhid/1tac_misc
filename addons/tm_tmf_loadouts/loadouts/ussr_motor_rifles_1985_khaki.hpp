@@ -425,7 +425,7 @@ class sn : r
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_12("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_8("rhs_10Rnd_762x54mmR_7N1"),
         "rhs_mag_rdg2_white",
         LIST_3("rhs_mag_9x18_8_57N181S")
     };
@@ -435,12 +435,12 @@ class sn : r
 class sp : r
 {
     displayName = "Spotter";
+	linkedItems[] += {"Binocular"};
 };
 class vc : smg
 {
     displayName = "Vehicle Commander";
     uniform[] = {"rhs_uniform_m88_patchless"};
-    primaryWeapon[] = {"rhs_weap_aks74_folded"};
     vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
 	radios[] = {"ACRE_PRC117F"};
@@ -452,7 +452,6 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     uniform[] = {"rhs_uniform_m88_patchless"};
-    primaryWeapon[] = {"rhs_weap_aks74_folded"};
     vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};

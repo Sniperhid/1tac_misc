@@ -108,7 +108,8 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"arifle_AKS_F"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+	silencer[] = {"rhs_acc_pgs64_74u"};
 	magazines[] =
     {
         LIST_9("rhs_30Rnd_545x39_7N10_AK")
@@ -235,10 +236,11 @@ class aar : r
 class rat : car
 {
     displayName = "Rifleman (AT)";
-	secondaryWeapon[] = {"rhs_rpg7_PG7V_mag"};
+	secondaryWeapon[] = {"rhs_weap_rpg7"};
     backpack[] = {"rhs_rpg"};
 	magazines[] += {"rhs_rpg7_PG7V_mag"};
 };
+
 class dm : r
 {
 	displayName = "Designated Marksman";

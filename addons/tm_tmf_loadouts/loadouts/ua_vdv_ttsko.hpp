@@ -114,13 +114,13 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"arifle_AKS_F"};
-	silencer[] = {};
+    silencer[] = {"rhs_acc_pgs64_74u"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         "rhs_mag_rgd5",
-        LIST_2("rhs_mag_rdg2_white")
+        "rhs_mag_rdg2_white"
     };
 };
 class ftl : g
@@ -130,7 +130,7 @@ class ftl : g
     {
         LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -158,8 +158,7 @@ class co : sl
 		LIST_3("rhs_mag_9x18_12_57N181S"),
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellYellow"),
+		LIST_4("rhs_mag_nspd"),
 		LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -440,19 +439,17 @@ class sn : r
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
 	backpack[] = {};
-	linkedItems[] += {"rhs_pdu4","ItemGPS"};
+	linkedItems[] += {"Binocular"};
 };
 class sp : sn
 {
     displayName = "Spotter";
     vest[] = {"rhsgref_6b23_ttsko_mountain","rhsgref_6b23_ttsko_forest"};
-    scope[] = {"rhs_acc_1p78"};
+    scope[] = {};
 	silencer[] = {"rhs_acc_dtk"};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_dirty",
-		"hlc_rifle_ak74_dirty2"
+		"rhs_weap_ak74m_fullplum"
 	};
     magazines[] =
     {
@@ -480,7 +477,6 @@ class vd : smg
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
-	linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
 class vg : vd
@@ -500,7 +496,7 @@ class pp : smg
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pcc : smg
@@ -514,7 +510,7 @@ class pcc : smg
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhs_mag_nspd")
 	};
 };
 class pc : pcc

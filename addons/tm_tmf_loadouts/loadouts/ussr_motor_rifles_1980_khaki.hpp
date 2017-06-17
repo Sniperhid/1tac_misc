@@ -410,7 +410,7 @@ class sn : r
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_12("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_8("rhs_10Rnd_762x54mmR_7N1"),
         "rhs_mag_rdg2_white",
         LIST_3("rhs_mag_9x18_8_57N181S")
     };
@@ -425,10 +425,9 @@ class sp : r
 		LIST_7("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
-        LIST_2("rhs_mag_rdg2_white"),
-        LIST_4("rhs_VOG25"),
-        LIST_4("rhs_GRD40_White")
+        LIST_2("rhs_mag_rdg2_white")
     };
+	linkedItems[] += {"Binocular"};
 };
 class vc : smg
 {

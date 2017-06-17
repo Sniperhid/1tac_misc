@@ -98,7 +98,6 @@ class car : r
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -156,12 +155,12 @@ class co : sl
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
 		LIST_2("rhs_GRD40_Green"),
-		LIST_3("rhs_GRD40_Red"),
-		LIST_2("rhs_VOG25"),
+		LIST_2("rhs_GRD40_Red"),
+		LIST_4("rhs_VOG25"),
 		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         "rhs_mag_rgd5",
-        LIST_2("rhs_mag_rdg2_white")
+        "rhs_mag_rdg2_white"
 	};
 	backpackItems[] = {};
 };

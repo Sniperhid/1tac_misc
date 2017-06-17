@@ -104,6 +104,8 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+	silencer[] = {"rhs_acc_pgs64"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
