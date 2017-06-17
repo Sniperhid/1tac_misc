@@ -58,7 +58,7 @@ class r : baseMan
 	vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
     primaryWeapon[] = 
 	{
-		"rhs_weap_m16a4_carryhandle"
+		"mbg_m16a2"
 	};
 	bipod[] = {};
     scope[] = {};
