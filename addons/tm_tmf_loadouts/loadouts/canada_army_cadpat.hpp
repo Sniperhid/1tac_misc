@@ -106,7 +106,7 @@ class m : r
 		LIST_2("SmokeShell")
 	};
 };
-class smg : r
+class smg : car
 {
     displayName = "Submachinegunner";
     magazines[] =
@@ -206,7 +206,7 @@ class dm : r
 	{
 		LIST_10("rhsusf_20Rnd_762x51_m118_special_Mag"),
 		LIST_2("HandGrenade"),
-		LIST_2("SmokeShell")
+		"SmokeShell"
 	};
 };
 class mmgg : ar
@@ -215,8 +215,7 @@ class mmgg : ar
 	primaryWeapon[] = {"rhs_weap_m240B"};
 	magazines[] =
 	{
-		LIST_3("rhsusf_100Rnd_762x51"),
-		LIST_2("rhsusf_100Rnd_762x51_m80a1epr"),
+		LIST_5("rhsusf_100Rnd_762x51"),
 		"SmokeShell"
 	};
 };
@@ -235,7 +234,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder"
+		"Binocular"
 	};
 	backpackItems[] = { LIST_5("rhsusf_100Rnd_762x51") };
 };
@@ -440,7 +439,7 @@ class vc : smg
     headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("rhs_mag_m18_green")
 	};
 };
 class vd : smg
@@ -466,7 +465,7 @@ class pp : smg
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("rhs_mag_m18_green")
 	};
 	items[] += {"ACE_DAGR"};
 };
@@ -479,7 +478,7 @@ class pcc : smg
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("rhs_mag_m18_green")
 	};
 };
 class pc : pcc

@@ -413,7 +413,7 @@ class vc : smg
     headgear[] = {"usm_helmet_cvc"};
     linkedItems[] += {"Binocular"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("rhs_mag_m18_green")
 	};
 };
 class vd : smg
@@ -438,7 +438,7 @@ class pp : smg
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("rhs_mag_m18_green")
 	};
 	items[] += {"ACE_DAGR"};
 };
@@ -452,7 +452,7 @@ class pcc : smg
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+		LIST_2("rhs_mag_m18_green")
 	};
 };
 class pc : pcc
