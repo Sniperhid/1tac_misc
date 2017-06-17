@@ -68,8 +68,8 @@ class r : baseMan
     {
         LIST_8("rhs_30Rnd_762x39mm"),
         LIST_2("rhs_30Rnd_762x39mm_tracer"),
-        LIST_2("rhs_mag_f1"),
-        LIST_2("rhs_mag_rdg2_white")
+        "rhs_mag_f1",
+        "rhs_mag_rdg2_white"
     };
 	items[] =
 	{
@@ -87,8 +87,8 @@ class g : r
         LIST_2("rhs_30Rnd_762x39mm_tracer"),
         LIST_2("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white"),
-        LIST_6("rhs_VOG25"),
-        LIST_4("rhs_GRD40_White")
+        LIST_4("rhs_VOG25"),
+        LIST_2("rhs_GRD40_White")
     };
 };
 class car : r
@@ -98,7 +98,7 @@ class car : r
 	magazines[] =
     {
         LIST_6("rhs_30Rnd_762x39mm"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
+        "rhs_30Rnd_762x39mm_tracer",
         "rhs_mag_f1",
         "rhs_mag_rdg2_white"
     };
@@ -451,22 +451,10 @@ class sn : r
 	backpack[] = {};
 	linkedItems[] += {"Binocular"};
 };
-class sp : sn
+class sp : r
 {
     displayName = "Spotter";
-	backpack[] = {"B_FieldPack_cbr"};
-    scope[] = {};
-	silencer[] = {"rhs_acc_dtk"};
-	primaryWeapon[] = {"rhs_weap_m70ab2"};
-    sidearmWeapon[] = {};
-    magazines[] =
-    {
-		LIST_4("rhs_30Rnd_762x39mm"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
-        LIST_2("rhs_mag_rdg2_white"),
-        LIST_4("rhs_VOG25"),
-        LIST_4("rhs_GRD40_White")
-    };
+	linkedItems[] += {"Binocular"};
 };
 class vc : smg
 {
