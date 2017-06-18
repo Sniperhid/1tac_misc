@@ -14,12 +14,15 @@ class CfgPatches
 			"CUP_Weapons_L85","CUP_Weapons_L110","CUP_Weapons_M16","CUP_Weapons_M60E4",
 			"CUP_Weapons_M107","CUP_Weapons_M136","CUP_Weapons_M240","CUP_Weapons_NLAW",
 			"CUP_Weapons_PK","CUP_Weapons_Saiga12k","CUP_Weapons_SMAW","CUP_Weapons_VSS",
-			"CUP_Weapons_FNFAL"
+			"CUP_Weapons_FNFAL","CUP_Weapons_SCAR"
 		};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;
 	};
 };
+
+#define SHOW scope = 2;
+#define HIDE scope = 1;
 
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
