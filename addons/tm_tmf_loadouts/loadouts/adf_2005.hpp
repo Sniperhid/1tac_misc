@@ -113,7 +113,7 @@ class m : lightcar
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aug"};
+    primaryWeapon[] = {"hlc_rifle_auga1carb"};
     magazines[] =
     {
         LIST_6("hlc_30Rnd_556x45_B_AUG"),
@@ -196,6 +196,7 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"rhs_weap_m249_pip_S"};
+    scope[] = {"rhsusf_acc_ACOG_RMR"};
     bipod[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     vest[] = {"CUP_V_B_Eagle_SPC_AR"};
@@ -471,7 +472,7 @@ class vc : smg
     headgear[] = {"H_HelmetCrew_I"};
     linkedItems[] += {"Binocular","ItemGPS"};
     magazines[] += {
-        LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+        LIST_2("SmokeShellGreen")
     };
 };
 class vd : smg
@@ -498,7 +499,7 @@ class pp : smg
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
     linkedItems[] += {"ItemGPS"};
     magazines[] += {
-        LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+        LIST_2("SmokeShellGreen")
     };
     items[] += {"ACE_DAGR"};
 };
@@ -511,7 +512,7 @@ class pcc : smg
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
     magazines[] += {
-        LIST_2("1Rnd_SmokeGreen_Grenade_shell")
+        LIST_2("SmokeShellGreen")
     };
 };
 class pc : pcc
