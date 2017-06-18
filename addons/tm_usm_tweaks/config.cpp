@@ -4,17 +4,13 @@ class CfgPatches
 {
 	class ADDON
 	{
-        name = "US Military Mod tweaks";
-		author = "Delta, Snippers";
+        name = "[DUMMY MOD] US Military Mod tweaks";
+		author = "Bear";
 		url = "http://www.teamonetactical.com";
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {
-			"us_military_units"
-		};
+		requiredAddons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;
 	};
 };
-
-#include "CfgVehicles.hpp"
