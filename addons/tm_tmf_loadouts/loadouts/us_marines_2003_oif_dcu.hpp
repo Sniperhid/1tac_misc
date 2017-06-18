@@ -335,7 +335,7 @@ class hatg : car
 	backpack[] = {"B_Carryall_khk"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_fgm148_magazine_AT")
+		"rhs_fgm148_magazine_AT"
 	};
 };
 class hatac : r
@@ -344,7 +344,7 @@ class hatac : r
 	backpack[] = {"B_Carryall_khk"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_fgm148_magazine_AT")
+		"rhs_fgm148_magazine_AT"
 	};
 };
 class hatag : car
@@ -353,7 +353,7 @@ class hatag : car
 	backpack[] = {"B_Carryall_khk"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_fgm148_magazine_AT")
+		"rhs_fgm148_magazine_AT"
 	};
 	linkedItems[] =
 	{
