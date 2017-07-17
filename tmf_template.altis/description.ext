@@ -1,0 +1,52 @@
+tmf_version[] = {1,0,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+
+// Use a randomized loading image from TMF. Set your own loading image with e.g. overviewPicture = "image.jpg";
+overviewPicture = __EVAL(selectRandom ['\x\tmf\addons\common\ui\loadscreens\1.jpg','\x\tmf\addons\common\ui\loadscreens\2.jpg','\x\tmf\addons\common\ui\loadscreens\3.jpg','\x\tmf\addons\common\ui\loadscreens\4.jpg','\x\tmf\addons\common\ui\loadscreens\5.jpg','\x\tmf\addons\common\ui\loadscreens\6.jpg','\x\tmf\addons\common\ui\loadscreens\7.jpg','\x\tmf\addons\common\ui\loadscreens\8.jpg','\x\tmf\addons\common\ui\loadscreens\9.jpg','\x\tmf\addons\common\ui\loadscreens\10.jpg']);
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class CustomEnding1
+	{
+		title = "Custom Ending #1";
+		subtitle = "";
+		description = "*** Explanation for the debriefing page ***";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	// If you want to base a loadout on an existing one, this repository contains them all:
+	// https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
+	
+	class EXAMPLE_LOADOUT
+	{
+		displayName = "Example Loadout";
+		#include "loadouts\example_loadout.hpp"
+	};
+};
