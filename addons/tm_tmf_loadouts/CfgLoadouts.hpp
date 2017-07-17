@@ -378,4 +378,11 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\saf_kov_para_m10_digital.hpp"
 	};
+	
+	class EAST_EUROPEAN_INSURGENTS
+	{
+		displayName = "East European Insurgents (2014-, AK-74s)";
+		category = "Eastern Factions";
+		#include "loadouts\east_european_insurgents_2014.hpp"
+	};
 };

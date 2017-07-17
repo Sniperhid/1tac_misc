@@ -17,4 +17,5 @@ class CfgPatches
 
 #include "macros.hpp"
 
+#include "CfgFunctions.hpp"
 #include "CfgLoadouts.hpp"
