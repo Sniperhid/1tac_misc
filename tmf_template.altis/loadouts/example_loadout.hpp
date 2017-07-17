@@ -1,3 +1,6 @@
+// If you want to base a loadout on an existing one, this repository contains them all:
+// https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
