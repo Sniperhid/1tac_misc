@@ -16,12 +16,33 @@ class CfgPatches {
     };
 };
 
+// Global Coefficent.
+
 class CfgAILevelPresets {
     class AILevelLow {
         displayName = "1Tac";
         precisionAI = 0.345;
         skillAI = 1;  
     };
+};
+
+
+// Further Modifiers
+// ACE3 AI skills
+// https://community.bistudio.com/wiki/CfgAISkill
+
+class CfgAISkill {
+    aimingAccuracy[] = {0,0, 1,0.8};  // {0,0,1,1};   v1.26 defaults
+    aimingShake[]    = {0,0, 1,0.6};  // {0,0,1,1};
+    aimingSpeed[]    = {0,0, 1,0.7};  // {0,0.5,1,1};
+    commanding[]     = {0,0, 1,0.8};  // {0,0,1,1};
+    courage[]        = {0,0, 1,0.7};  // {0,0,1,1};
+    endurance[]      = {0,0, 1,0.7};  // {0,0,1,1};
+    general[]        = {0,0, 1,0.9};  // {0,0,1,1};
+    // apparently breaks rapid firing in single fire mode for players
+    //reloadSpeed[]    = {0,0, 1,0.8};  // {0,0,1,1};
+    spotDistance[]   = {0,0, 1,0.9};  // {0,0.2,1,0.4};
+    spotTime[]       = {0,0, 1,0.7};  // {0,0,1,0.7};
 };
 
 class CfgDifficultyPresets {
