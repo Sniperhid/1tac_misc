@@ -40,7 +40,7 @@ private _mission = ["diary", ["Mission","
 
 /* ===============================================
 	EXECUTION
-	 - Provide an outline as to what the commander of the player's command might give.
+	 - If there are further details regarding the intended execution of the mission here is the place to put them.
 */
 
 private _execution = ["diary", ["Execution","
