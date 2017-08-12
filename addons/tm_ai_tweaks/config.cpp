@@ -1,8 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON
-    {
+    class ADDON {
         name = "AI Config Tweaks";
         author = "Snippers";
         authors[] = {"Snippers"};
@@ -11,13 +10,19 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main","a3_data_f","a3data"};
+        requiredAddons[] = {"tac1_tm_main","a3_data_f","a3data","A3_Map_Data"};
         VERSION_CONFIG;
     };
 };
 
-// Global Coefficent.
+// Disable AI prone stance on all(?) surfaces
+class CfgSurfaces {
+    class Default {
+        AIAvoidStance = 2;
+    };
+};
 
+// Global Coefficent.
 class CfgAILevelPresets {
     class AILevelLow {
         displayName = "1Tac";
