@@ -192,10 +192,12 @@ class ar : r
 	primaryWeapon[] = {"rhs_weap_m249_pip_S_para"};
 	bipod[] = {};
 	vest[] = {"rhsusf_spc_mg"};
-	magazines[] +=
-	{
-		LIST_6("rhsusf_100Rnd_556x45_soft_pouch")
-	};
+	magazines[] =
+    {
+        LIST_6("rhsusf_100Rnd_556x45_soft_pouch"),
+        "HandGrenade",
+        LIST_2("SmokeShell")
+    };
 };
 class aar : r
 {
