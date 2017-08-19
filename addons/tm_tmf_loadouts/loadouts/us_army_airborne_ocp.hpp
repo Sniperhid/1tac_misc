@@ -53,7 +53,7 @@ class r : baseMan
     headgear[] = {"rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_ess_ocp","rhsusf_ach_helmet_headset_ocp","rhsusf_ach_helmet_headset_ess_ocp"};
 	vest[] = {"rhsusf_spcs_ocp_rifleman"};
     primaryWeapon[] = {"rhs_weap_m4a1_pmag","rhs_weap_m4a1_mstock","rhs_weap_m4a1"};
-    scope[] = {};
+    scope[] = {"rhsusf_acc_compm4"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =
     {
@@ -228,7 +228,6 @@ class mmgg : ar
 {
 	displayName = "MMG Gunner";
 	primaryWeapon[] = {"rhs_weap_m240B"};
-	scope[] = {};
 	magazines[] =
 	{
 		LIST_4("rhsusf_100Rnd_762x51"),

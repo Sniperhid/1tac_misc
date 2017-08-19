@@ -186,7 +186,7 @@ class ftl : g
 		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
 		LIST_2("SmokeShellGreen")
     };
-    linkedItems[] += {"Rangefinder","ItemGPS"};
+    linkedItems[] += {"ItemGPS"};
 };
 class sl : r
 {
@@ -207,7 +207,7 @@ class sl : r
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
+        "lerca_1200_tan",
         "ItemGPS"
     };
 };
@@ -284,7 +284,8 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	vest[] = {"rhsusf_spc_mg"};
 	primaryWeapon[] = {"rhs_weap_m240B"};
-	scope[] = {};
+	scope[] = {"rhsusf_acc_eotech_552"};
+	silencer[] = {"rhsusf_acc_ARDEC_M240"};
 	magazines[] =
 	{
 		LIST_4("rhsusf_100Rnd_762x51"),
@@ -314,7 +315,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 	backpackItems[] =
@@ -343,7 +344,7 @@ class hmgag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 };
@@ -379,7 +380,7 @@ class matag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 	backpackItems[] =
@@ -421,7 +422,7 @@ class hatag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 };
@@ -451,7 +452,7 @@ class mtrag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
+        "lerca_1200_tan",
         "ItemGPS"
     };
 };
@@ -474,7 +475,7 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
+        "lerca_1200_tan",
         "ItemGPS"
     };
     backpackItems[] =
