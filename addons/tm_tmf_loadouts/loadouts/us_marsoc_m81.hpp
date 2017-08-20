@@ -55,17 +55,22 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
 	{
-		"rhsusf_opscore_coy_cover_pelt",
-		"rhsusf_opscore_coy_cover_pelt",
+		"rhsusf_opscore_mar_fg",
+		"rhsusf_opscore_mar_fg",
+		"rhsusf_opscore_mar_fg",
+		"rhsusf_opscore_mar_fg_pelt",
+		"rhsusf_opscore_mar_fg_pelt",
+		"rhsusf_opscore_mar_fg_pelt",
+		"rhsusf_opscore_mar_ut",
+		"rhsusf_opscore_mar_ut",
+		"rhsusf_opscore_mar_ut",
+		"rhsusf_opscore_mar_ut_pelt",
+		"rhsusf_opscore_mar_ut_pelt",
+		"rhsusf_opscore_mar_ut_pelt",
+		
 		"rhsusf_opscore_coy_cover_pelt",
 		"rhsusf_opscore_coy_cover",
-		"rhsusf_opscore_coy_cover",
-		"rhsusf_opscore_coy_cover",
 		"rhsusf_opscore_rg_cover_pelt",
-		"rhsusf_opscore_rg_cover_pelt",
-		"rhsusf_opscore_rg_cover_pelt",
-		"rhsusf_opscore_rg_cover",
-		"rhsusf_opscore_rg_cover",
 		"rhsusf_opscore_rg_cover",
 		
 		"rhsusf_opscore_fg_pelt_nsw",
@@ -81,10 +86,12 @@ class r : baseMan
 	vest[] = {"rhsusf_spc_rifleman"};
     primaryWeapon[] = 
 	{
-		"rhs_weap_m4a1_d_mstock",
-		"rhs_weap_m4a1_d",
-		"rhs_weap_m4a1_mstock",
-		"rhs_weap_m4a1_pmag"
+		"rhs_weap_mk18_KAC",
+		"rhs_weap_mk18_KAC_bk",
+		"rhs_weap_mk18",
+		"rhs_weap_mk18_bk",
+		"rhs_weap_m4a1_blockII_d",
+		"rhs_weap_m4a1_blockII_KAC_d"
 	};
 	bipod[] = 
 	{
@@ -97,9 +104,10 @@ class r : baseMan
 	};
     scope[] = 
 	{
-		"rhsusf_acc_eotech_552","rhsusf_acc_eotech_552",
-		"rhsusf_acc_eotech_552_d","rhsusf_acc_eotech_552_d",
-		"rhsusf_acc_compm4"
+		"rhsusf_acc_eotech_xps3",
+		"rhsusf_acc_eotech_xps3",
+		"rhsusf_acc_eotech_552",
+		"rhsusf_acc_eotech_552_d"
 	};
     silencer[] = 
 	{
@@ -131,8 +139,11 @@ class g : r
 	vest[] = {"rhsusf_spc_teamleader"};
     primaryWeapon[] = 
 	{
-		"rhs_weap_m4a1_m203s_d",
-		"rhs_weap_m4a1_m203s"
+		"rhs_weap_m4a1_blockII_M203_bk",
+		"rhs_weap_m4a1_blockII_M203_d",
+		"rhs_weap_m4a1_blockII_M203",
+		"rhs_weap_mk18_m320",
+		"rhs_weap_mk18_m320"
 	};
 	bipod[] = {};
     magazines[] +=
@@ -240,9 +251,16 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"rhs_weap_m249_pip_S_vfg"};
+	primaryWeapon[] = {"rhs_weap_m249_pip_S"};
 	bipod[] = {};
 	attachment[] = {"rhsusf_acc_anpeq15side_bk"};
+	scope[] = 
+	{
+		"rhsusf_acc_eotech_552",
+		"rhsusf_acc_eotech_552",
+		"rhsusf_acc_eotech_552_d"
+	};
+    silencer[] = {"rhsusf_acc_SF3P556"};
 	vest[] = {"rhsusf_spc_iar"};
 	magazines[] =
 	{
@@ -283,8 +301,8 @@ class mmgg : ar
 {
 	displayName = "MMG Gunner";
 	vest[] = {"rhsusf_spc_mg"};
-	primaryWeapon[] = {"rhs_weap_m240B"};
-	scope[] = {"rhsusf_acc_eotech_552"};
+	primaryWeapon[] = {"rhs_weap_m240B_CAP"};
+	scope[] = {"rhsusf_acc_ACOG_MDO"};
 	silencer[] = {"rhsusf_acc_ARDEC_M240"};
 	magazines[] =
 	{
