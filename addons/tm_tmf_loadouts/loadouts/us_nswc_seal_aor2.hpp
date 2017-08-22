@@ -83,7 +83,7 @@ class r : baseMan
 	};
     scope[] = 
 	{
-		"rhsusf_acc_eotech_552"
+		"rhsusf_acc_SpecterDR"
 	};
     silencer[] = 
 	{
@@ -227,7 +227,8 @@ class ar : r
 {
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = {"rhs_weap_m249_pip_S_vfg"};
-	bipod[] = {};
+	bipod[] = {"rhsusf_acc_grip4"};
+	scope[] = {"rhsusf_acc_ACOG_RMR"};
 	attachment[] = {"rhsusf_acc_anpeq15side_bk"};
 	vest[] = {"rhsusf_spc_iar"};
 	magazines[] =
@@ -271,7 +272,7 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	vest[] = {"rhsusf_spc_mg"};
 	primaryWeapon[] = {"rhs_weap_m240B"};
-	scope[] = {"rhsusf_acc_eotech_552"};
+	scope[] = {"rhsusf_acc_ACOG_MDO"};
 	silencer[] = {"rhsusf_acc_ARDEC_M240"};
 	magazines[] =
 	{
