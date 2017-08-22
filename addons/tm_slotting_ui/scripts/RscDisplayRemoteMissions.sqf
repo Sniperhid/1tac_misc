@@ -44,6 +44,8 @@ switch _mode do {
 		//(_display displayctrl 1014) ctrlSetText (str _vel);
 		
 		//(_display displayctrl 101) ctrladdeventhandler ["lbselchanged","with uinamespace do {['mapChanged',_this,''] call RscDisplayRemoteMissions_script};"];
+		
+		lbSort (_display displayctrl 101);
 	};
 	
 	//--- Mission Summary button
