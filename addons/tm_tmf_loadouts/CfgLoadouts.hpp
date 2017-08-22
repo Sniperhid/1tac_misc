@@ -86,6 +86,18 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_marines_marpat_wdl.hpp"
 	};
+	class US_MARINES_RECON_MARPAT_DES
+	{
+		displayName = "US Recon Marines (2010-, Desert MARPAT)";
+		category = "USA";
+		#include "loadouts\us_marines_recon_marpat_des.hpp"
+	};
+	class US_MARINES_RECON_MARPAT_WDL
+	{
+		displayName = "US Recon Marines (2010-, Woodland MARPAT)";
+		category = "USA";
+		#include "loadouts\us_marines_recon_marpat_wdl.hpp"
+	};
 	class US_MARSOC_M81
 	{
 		displayName = "US MARSOC (M81)";
