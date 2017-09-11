@@ -67,10 +67,9 @@ class r : baseMan
     attachment[] = {"rhsusf_acc_anpeq15side"};
     magazines[] =
     {
-        LIST_11("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc")
     };
 	items[] =
 	{
@@ -84,10 +83,13 @@ class g : r
 	vest[] = {"rhsusf_spc_teamleader"};
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
 	bipod[] = {};
-    magazines[] +=
+	magazines[] =
     {
-        LIST_8("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell")
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc"),
+		LIST_5("rhs_mag_M441_HE"),
+        LIST_4("rhs_mag_m714_White")
     };
 };
 class car : r
@@ -95,10 +97,9 @@ class car : r
     displayName = "Carabinier";
 	magazines[] =
     {
-        LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc")
     };
     //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
 };
@@ -111,7 +112,7 @@ class m : car
 		LIST_10("ACE_morphine"),
 		LIST_6("ACE_epinephrine"),
 		LIST_2("ACE_bloodIV"),
-		LIST_2("SmokeShell")
+		LIST_2("rhs_mag_an_m8hc")
 	};
 };
 class smg : r
@@ -121,9 +122,9 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
     magazines[] =
     {
-        LIST_6("30Rnd_556x45_Stanag"),
-        "HandGrenade",
-        LIST_2("SmokeShell")
+        LIST_6("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc")
     };
 };
 class ftl : g
@@ -132,31 +133,28 @@ class ftl : g
    	backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     magazines[] +=
     {
-        LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
-		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-		LIST_2("SmokeShellGreen")
+        LIST_2("rhs_mag_m715_Green"),
+		LIST_2("rhs_mag_m713_Red"),
+		LIST_2("rhs_mag_m18_green")
     };
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular"
-    };
+    linkedItems[] += {"Binocular"};
 };
 class sl : r
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
 	vest[] = {"rhsusf_spc_squadleader"};
    	backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     magazines[] +=
     {
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellRed"),
-		LIST_2("SmokeShellYellow")
+		LIST_2("rhs_mag_m18_green"),
+		LIST_2("rhs_mag_m18_red"),
+		LIST_2("rhs_mag_m18_purple")
     };
+	linkedItems[] += 
+	{
+		"ItemGPS",
+		"Binocular"
+	};
 	items[] += {"ACE_Maptools"};
 };
 class co : sl
@@ -195,8 +193,8 @@ class ar : r
 	magazines[] =
     {
         LIST_6("rhsusf_100Rnd_556x45_soft_pouch"),
-        "HandGrenade",
-        LIST_2("SmokeShell")
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc")
     };
 };
 class aar : r
@@ -246,8 +244,8 @@ class dm : r
 	magazines[] =
 	{
 		LIST_10("rhsusf_20Rnd_762x51_m118_special_Mag"),
-		LIST_2("HandGrenade"),
-		LIST_2("SmokeShell")
+		LIST_2("rhs_mag_m67"),
+		LIST_2("rhs_mag_an_m8hc")
 	};
 };
 class mmgg : ar
@@ -260,8 +258,8 @@ class mmgg : ar
 	{
 		LIST_4("rhsusf_100Rnd_762x51"),
 		LIST_2("rhsusf_100Rnd_762x51_m80a1epr"),
-		"HandGrenade",
-		"SmokeShell",
+		"rhs_mag_m67",
+		"rhs_mag_an_m8hc",
 		LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
 	};
 };
@@ -469,7 +467,7 @@ class sn : r
     {
         LIST_2("rhsusf_20Rnd_762x51_m993_Mag"),
         LIST_3("rhsusf_20Rnd_762x51_m118_special_Mag"),
-        LIST_2("HandGrenade"),
+        LIST_2("rhs_mag_m67"),
         LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
     };
 	backpack[] = {};
@@ -486,10 +484,9 @@ class sp : sn
 	sidearmWeapon[] = {};
     magazines[] =
     {
-		LIST_10("30Rnd_556x45_Stanag"),
-        LIST_3("30Rnd_556x45_Stanag_Tracer_Red"),
-        LIST_2("HandGrenade"),
-        LIST_2("SmokeShell")
+		LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc")
     };
 };
 class vc : smg
