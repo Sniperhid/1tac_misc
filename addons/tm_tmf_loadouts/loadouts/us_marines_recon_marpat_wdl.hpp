@@ -75,8 +75,11 @@ class g : r
 	vest[] = {"rhsusf_spc_teamleader"};
     primaryWeapon[] = {"rhs_weap_m4a1_m203s"};
 	bipod[] = {};
-    magazines[] +=
+    magazines[] =
     {
+		LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc"),
         LIST_5("rhs_mag_M441_HE"),
         LIST_4("rhs_mag_m714_White")
     };
@@ -120,27 +123,25 @@ class ftl : g
 		LIST_2("rhs_mag_m713_Red"),
 		LIST_2("rhs_mag_m18_green")
     };
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular"
-    };
+    linkedItems[] += {"Binocular"};
+	items[] += {"ACE_Maptools"};
 };
 class sl : r
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
 	vest[] = {"rhsusf_spc_squadleader"};
    	backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     magazines[] +=
     {
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
 		LIST_2("rhs_mag_m18_green"),
 		LIST_2("rhs_mag_m18_red"),
 		LIST_2("rhs_mag_m18_purple")
     };
+	linkedItems[] += 
+	{
+		"ItemGPS",
+		"Binocular"
+	};
 	items[] += {"ACE_Maptools"};
 };
 class co : sl
