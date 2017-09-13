@@ -283,7 +283,7 @@ class mmgag : aar
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 	backpackItems[] =
@@ -312,7 +312,7 @@ class hmgag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 };
@@ -350,7 +350,7 @@ class matag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 	backpackItems[] =
@@ -392,7 +392,7 @@ class hatag : car
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
+		"lerca_1200_tan",
 		"ItemGPS"
 	};
 };
@@ -422,7 +422,7 @@ class mtrag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
+        "lerca_1200_tan",
         "ItemGPS"
     };
 };
@@ -445,7 +445,7 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
+        "lerca_1200_tan",
         "ItemGPS"
     };
     backpackItems[] =

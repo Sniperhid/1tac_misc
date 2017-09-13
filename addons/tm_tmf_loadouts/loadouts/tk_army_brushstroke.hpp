@@ -60,7 +60,7 @@ class r : baseMan
     attachment[] = {};
     magazines[] =
     {
-        LIST_9("hlc_20Rnd_762x51_B_fal"),
+        LIST_8("hlc_20Rnd_762x51_B_fal"),
         LIST_2("hlc_20Rnd_762x51_t_fal"),
         "rhs_mag_f1",
         LIST_2("rhs_mag_rdg2_white")
@@ -77,10 +77,9 @@ class g : r
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] =
     {
-		LIST_8("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
-        LIST_4("1Rnd_HE_Grenade_shell"),
-        LIST_2("1Rnd_Smoke_Grenade_shell")
+		LIST_9("30Rnd_556x45_Stanag"),
+        LIST_4("rhs_mag_M441_HE"),
+        LIST_2("rhs_mag_m714_White")
     };
 };
 class car : r
@@ -142,8 +141,8 @@ class co : sl
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
 		LIST_3("1Rnd_SmokeRed_Grenade_shell"),
 		LIST_3("rhs_mag_nspd"),
-		LIST_3("1Rnd_HE_Grenade_shell"),
-        LIST_2("1Rnd_Smoke_Grenade_shell"),
+		LIST_3("rhs_mag_M441_HE"),
+        LIST_2("rhs_mag_m714_White"),
 		LIST_7("30Rnd_556x45_Stanag"),
         LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
         "rhs_mag_f1",
@@ -420,8 +419,8 @@ class sp : sn
         LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white"),
-        LIST_4("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell")
+        LIST_4("rhs_mag_M441_HE"),
+        LIST_4("rhs_mag_m714_White")
     };
 };
 class vc : smg
