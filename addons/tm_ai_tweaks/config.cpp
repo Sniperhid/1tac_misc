@@ -3,17 +3,20 @@
 class CfgPatches {
     class ADDON {
         name = "AI Config Tweaks";
-        author = "Snippers";
-        authors[] = {"Snippers"};
+        author = "Snippers, Bear";
+        authors[] = {"Snippers", "Bear"};
         authorUrl = "http://www.teamonetactical.com";
         url = "http://www.teamonetactical.com";
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main","a3_data_f","a3data","A3_Map_Data"};
+        requiredAddons[] = {"tac1_tm_main","a3_data_f","a3data","A3_Map_Data","rhs_c_heavyweapons"};
         VERSION_CONFIG;
     };
 };
+
+#include "CfgAmmo.hpp"
+#include "CfgWeapons.hpp"
 
 // Disable AI prone stance on all(?) surfaces
 class CfgSurfaces {
@@ -26,8 +29,8 @@ class CfgSurfaces {
 class CfgAILevelPresets {
     class AILevelLow {
         displayName = "1Tac";
-        precisionAI = 0.345;
-        skillAI = 1;  
+        precisionAI = 0.3;
+        skillAI = 1;
     };
 };
 
