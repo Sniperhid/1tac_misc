@@ -87,7 +87,7 @@ class r : baseMan
 	};
 	silencer[] = {"rhs_acc_dtk2"};
 	attachment[] = {"rhs_acc_perst3_2dp_light_h"};
-	scope[] = {"rhsusf_acc_eotech_552","rhsusf_acc_compm4"};
+	scope[] = {LIST_4("rhs_acc_1p87"),"rhsusf_acc_eotech_552",LIST_2("rhsusf_acc_compm4")};
 	bipod[] = {LIST_2("rhs_acc_grip_ffg2"),LIST_2("rhs_acc_grip_rk6"),"rhsusf_acc_grip2"};
     magazines[] =
     {
@@ -246,6 +246,13 @@ class rat : car
 {
     displayName = "Rifleman (AT)";
     secondaryWeapon[] = {"rhs_weap_rpg26"};
+	primaryWeapon[] =
+	{
+		"rhs_weap_ak74m_zenitco01",
+		"rhs_weap_ak105_zenitco01"
+	};
+	attachment[] = {"rhs_acc_perst3_2dp_light_h"};
+	scope[] = {"rhsusf_acc_T1_low_fwd_ak"};
 };
 class dm : r
 {
