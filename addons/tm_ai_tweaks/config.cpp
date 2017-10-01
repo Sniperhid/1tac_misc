@@ -26,7 +26,7 @@ class CfgSurfaces {
 class CfgAILevelPresets {
     class AILevelLow {
         displayName = "1Tac";
-        precisionAI = 0.345;
+        precisionAI = 0.295;
         skillAI = 1;  
     };
 };
