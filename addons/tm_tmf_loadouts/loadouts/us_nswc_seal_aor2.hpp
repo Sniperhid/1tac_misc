@@ -524,7 +524,14 @@ class vc : smg
     vest[] = {"rhsusf_spc_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
+    headgear[] = {
+		"rhsusf_cvc_ess",
+		"rhsusf_cvc_alt_helmet",
+		"rhsusf_cvc_helmet",
+		"rhsusf_cvc_green_ess",
+		"rhsusf_cvc_green_alt_helmet",
+		"rhsusf_cvc_green_helmet"
+	};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
 		LIST_2("rhs_mag_m18_green")
@@ -535,7 +542,14 @@ class vd : smg
     displayName = "Vehicle Driver";
     vest[] = {"rhsusf_spc_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
-    headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
+    headgear[] = {
+		"rhsusf_cvc_ess",
+		"rhsusf_cvc_alt_helmet",
+		"rhsusf_cvc_helmet",
+		"rhsusf_cvc_green_ess",
+		"rhsusf_cvc_green_alt_helmet",
+		"rhsusf_cvc_green_helmet"
+	};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
@@ -551,7 +565,14 @@ class pp : smg
     vest[] = {"rhsusf_spc_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhsusf_hgu56p"};
+    headgear[] = {
+		"rhsusf_hgu56p_black",
+		"rhsusf_hgu56p_visor_black",
+		"rhsusf_hgu56p_green",
+		"rhsusf_hgu56p_visor_green",
+		"rhsusf_hgu56p",
+		"rhsusf_hgu56p_visor"
+	};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
@@ -564,7 +585,17 @@ class pcc : smg
     displayName = "Helicopter Crew Chief";
     vest[] = {"rhsusf_spc_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
-    headgear[] = {"rhsusf_hgu56p"};
+    headgear[] = {
+		"rhsusf_hgu56p_visor_mask_black",
+		"rhsusf_hgu56p_visor_mask_Empire_black",
+		"rhsusf_hgu56p_visor_mask_black_skull",
+		"rhsusf_hgu56p_visor_mask_green",
+		"rhsusf_hgu56p_visor_mask_green_mo",
+		"rhsusf_hgu56p_visor_mask",
+		"rhsusf_hgu56p_visor_mask_mo",
+		"rhsusf_hgu56p_visor_mask_skull",
+		"rhsusf_hgu56p_visor_mask_smiley"
+	};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};

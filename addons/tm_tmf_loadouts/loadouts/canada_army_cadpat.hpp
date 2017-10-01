@@ -436,7 +436,11 @@ class vc : smg
     displayName = "Vehicle Commander";
     backpack[] = {"B_AssaultPack_rgr"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
+    headgear[] = {
+		"rhsusf_cvc_green_ess",
+		"rhsusf_cvc_green_alt_helmet",
+		"rhsusf_cvc_green_helmet"
+	};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
 		LIST_2("rhs_mag_m18_green")
@@ -446,7 +450,11 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     backpack[] = {"B_AssaultPack_rgr"};
-    headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
+    headgear[] = {
+		"rhsusf_cvc_green_ess",
+		"rhsusf_cvc_green_alt_helmet",
+		"rhsusf_cvc_green_helmet"
+	};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
@@ -461,7 +469,7 @@ class pp : smg
     displayName = "Helicopter Pilot";
     backpack[] = {"B_AssaultPack_rgr"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhsusf_hgu56p"};
+    headgear[] = {"rhsusf_hgu56p_visor_green"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
@@ -473,7 +481,7 @@ class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
     backpack[] = {"B_AssaultPack_rgr"};
-    headgear[] = {"rhsusf_hgu56p"};
+    headgear[] = {"rhsusf_hgu56p_visor_mask_green"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
