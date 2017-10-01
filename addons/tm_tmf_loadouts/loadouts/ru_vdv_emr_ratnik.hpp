@@ -65,6 +65,7 @@ class r : baseMan
 		"rhs_weap_ak74m_2mag"
 	};
 	silencer[] = {"rhs_acc_dtk"};
+	scope[] = {"rhs_acc_1p78"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_545x39_7N10_AK"),
@@ -83,7 +84,8 @@ class r_akms : r // as seen in crimea and syria
     displayName = "Rifleman (AKMS)";
 	vest[] = {"rhs_6b23_6sh116"};
     primaryWeapon[] = {"rhs_weap_akms"};
-	silencer[] = {};
+	silencer[] = {"rhs_acc_dtkakm"};
+	scope[] = {};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_762x39mm_89"),
@@ -106,7 +108,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    //primaryWeapon[] = {"rhs_weap_ak105"}; -- 105 is for crew etc
 };
 class m : car 
 {
@@ -202,7 +203,7 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"rhs_weap_pkm"};
+	primaryWeapon[] = {"rhs_weap_pkp"};
 	bipod[] = {};
 	silencer[] = {};
     backpack[] = {"B_Carryall_oli"};
@@ -249,7 +250,6 @@ class mmgg : ar
     backpack[] = {"B_Carryall_oli"};
 	primaryWeapon[] = {"rhs_weap_pkp"};
 	sidearmWeapon[] = {};
-	scope[] = {"rhs_acc_pkas"};
 	magazines[] =
 	{
 		LIST_4("rhs_100Rnd_762x54mmR"),

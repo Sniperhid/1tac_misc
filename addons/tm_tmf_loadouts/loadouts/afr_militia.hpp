@@ -69,6 +69,7 @@ class r : baseMan
 	};
     backpack[] = {};
     primaryWeapon[] = {"rhs_weap_akm", "rhs_weap_akms", "rhs_weap_akm", "rhs_weap_akms", "rhs_weap_m92"};
+	silencer[] = {"rhs_acc_dtkakm"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
