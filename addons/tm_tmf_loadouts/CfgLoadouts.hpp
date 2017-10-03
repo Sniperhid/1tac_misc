@@ -80,6 +80,12 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_army_rangers_2007_acu.hpp"
 	};
+	class US_ARMY_RANGERS_2013_MC_MK17
+	{
+		displayName = "US Army Rangers (2013, MCam, SCAR-Hs)";
+		category = "USA";
+		#include "loadouts\us_army_rangers_2013_mc_mk17.hpp"
+	};
 	class US_MARINES_MARPAT_DES
 	{
 		displayName = "US Marines (2008-, Desert MARPAT)";
