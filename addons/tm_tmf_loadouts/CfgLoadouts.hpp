@@ -286,7 +286,7 @@ class CfgLoadouts
 	
 	class TK_ARMY_BRUSHSTROKE
 	{
-		displayName = "Takistani Army (1989-, Brushstroke)";
+		displayName = "Takistani Army (1995-, Brushstroke)";
 		category = "Armaverse Factions";
 		#include "loadouts\tk_army_brushstroke.hpp"
 	};
@@ -322,6 +322,13 @@ class CfgLoadouts
 		displayName = "SLA (1990)";
 		category = "Armaverse Factions";
 		#include "loadouts\sla_1990.hpp"
+	};
+	
+	class US_ARMY_UCP_A2OA
+	{
+		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
+		category = "Armaverse Factions";
+		#include "loadouts\us_army_ucp_a2oa.hpp"
 	};
 	
 	class GENERIC_PARAMILITARY_OLIVE_AKM
