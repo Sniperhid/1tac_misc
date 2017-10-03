@@ -23,7 +23,8 @@
 // Exclude BI mags 150rnd boxes __762NATO_BI_BELTS 
 
 #define __TM_762x51_20x_ACE_MAGS "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer_Dim", "ACE_20Rnd_762x51_Mk316_Mod_0_Mag", "ACE_20Rnd_762x51_M118LR_Mag", "ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD"
-#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS
+#define __TM_762x51_20x_EXTRA_MAGS "tm_20Rnd_762x51_m80_Mag", "tm_20Rnd_762x51_m80a1epr_Mag"
+#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS, __TM_762x51_20x_EXTRA_MAGS
 
 #define __40MM_M203_ADDITIONAL "ACE_HuntIR_M203", "rhs_mag_M781_Practice", "rhs_mag_M397_HET"
 #define __40MM_M203_MAGS __40MM_M203_RHS_GRENADES, __40MM_M203_ADDITIONAL, __40MM_M203_BI_GRENADES, __40MM_M203_CUP_GRENADES
@@ -270,6 +271,15 @@ class CfgWeapons
 		class EGLMMuzzle: UGL_F
 		{
 			magazines[] = { __40MM_M203_MAGS };
+		};
+	};
+	class CUP_arifle_Mk17_Base: CUP_arifle_SCAR_Base
+	{
+		magazines[] = 
+		{
+			__762_NATO_20_MAGS, "CUP_20Rnd_762x51_B_SCAR",
+			"CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR", "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR",
+			"CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR", "CUP_20Rnd_TE1_White_Tracer_762x51_SCAR"
 		};
 	};
 	class CUP_arifle_XM8_Base: Rifle_Base_F
