@@ -62,6 +62,12 @@ class CfgLoadouts
 		category = "UK";
 		#include "loadouts\gb_mtp_2015.hpp"
 	};
+	class GB_MTP_2015_H
+	{
+		displayName = "GB MTP LARGE BACKPACKS (2015)";
+		category = "UK";
+		#include "loadouts\gb_mtp_2015_H.hpp"
+	};
 	class US_ARMY_UCP
 	{
 		displayName = "US Army (2005-, UCP)";
