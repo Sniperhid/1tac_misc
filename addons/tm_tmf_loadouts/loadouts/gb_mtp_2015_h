@@ -2,6 +2,8 @@
 /* assignGear specific macros */
 //Dependencies - ACE3, RHS USAF, CUP, 3CB Equipment
 
+//This loadout uses the larger backpacks that would be used on long range multi day patrols
+
 tooltip = "Author: Sam, Modified Deltas original CUP version";
 
 class baseMan {// Weaponless baseclass
