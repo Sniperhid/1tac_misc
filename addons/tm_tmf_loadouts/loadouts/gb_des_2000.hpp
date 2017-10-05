@@ -180,16 +180,20 @@ class co : sl
 class fac : co
 {
     displayName = "Forward Air Controller";
-	primaryWeapon[] = {"CUP_arifle_L85A2"};
-	backpack[] = {"UK3CB_BAF_B_Bergen_DDPM_JTAC_A"};
 	vest[] = {"UK3CB_BAF_V_Osprey_DDPM4"};
 	radios[] = {"ACRE_PRC117F"};
-	    magazines[] =
+	magazines[] =
     {
         LIST_2("Laserbatteries"),
-		LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("rhs_mag_m715_Green"),
+		LIST_3("rhs_mag_m713_Red"),
+		LIST_2("rhs_mag_m18_green"),
+		LIST_2("SmokeShellPurple"),
+        LIST_2("rhs_mag_m714_White"),
+		LIST_7("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
-        LIST_2("HandGrenade"),
+        "HandGrenade",
         LIST_2("rhs_mag_an_m8hc")
     };
 	linkedItems[] = {
