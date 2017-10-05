@@ -71,8 +71,7 @@ class r : baseMan
 		"UK3CB_BAF_V_Osprey_DDPM8"
 	};
 	backpack[] = {"UK3CB_BAF_B_Bergen_DDPM_Rifleman_A","UK3CB_BAF_B_Bergen_DDPM_Rifleman_B"};
-	primaryWeapon[] = {"CUP_arifle_L85A2"};
-								  
+	primaryWeapon[] = {"CUP_arifle_L85A2"};								  
 	scope[] = {};
 	attachment[] = {};
 	magazines[] =
@@ -334,8 +333,7 @@ class matac : r
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
-	backpack[] = {"UK3CB_BAF_B_Carryall_DDPM"};
-								
+	backpack[] = {"UK3CB_BAF_B_Carryall_DDPM"};							
 	backpackItems[] =
 	{
 		LIST_2("tf47_m3maaws_HEAT"),
@@ -450,7 +448,7 @@ class sn : r
 class sp : sn
 {
 	displayName = "Spotter";
-	primaryWeapon[] = {"CUP_arifle_L85A2_GL"};
+	primaryWeapon[] = {"CUP_arifle_L85A2"};
 	scope[] = {};
 	magazines[] =
 	{
@@ -458,10 +456,9 @@ class sp : sn
 		LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
 		LIST_2("HandGrenade"),
 		LIST_2("rhs_mag_an_m8hc"),
-		LIST_4("rhs_mag_M441_HE"),
-		LIST_4("rhs_mag_m714_White"),
 		LIST_4("rhsusf_mag_7x45acp_MHP")
 	};
+	linkedItems[] += {"Rangefinder"};
 };
 class vc : smg
 {
