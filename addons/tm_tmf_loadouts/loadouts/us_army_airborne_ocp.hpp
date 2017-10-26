@@ -5,7 +5,7 @@ tooltip = "Author: Bear\n\nAirborne forces are 'elite' infantry, and airborne mo
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
- 	uniform[] = {"rhs_uniform_cu_ocp_101st"};
+ 	uniform[] = {"acu_oefcp"};
    	vest[] = {};
    	backpack[] = {"rhsusf_falconii_mc"};
    	headgear[] = {};
