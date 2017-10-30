@@ -5,6 +5,13 @@ enableTargetDebug = 1; // Enable CBA target debugging
 // Use a randomized loading image from TMF. Set your own loading image with e.g. overviewPicture = "image.jpg";
 overviewPicture = __EVAL(selectRandom ['\x\tmf\addons\common\ui\loadscreens\1.jpg','\x\tmf\addons\common\ui\loadscreens\2.jpg','\x\tmf\addons\common\ui\loadscreens\3.jpg','\x\tmf\addons\common\ui\loadscreens\4.jpg','\x\tmf\addons\common\ui\loadscreens\5.jpg','\x\tmf\addons\common\ui\loadscreens\6.jpg','\x\tmf\addons\common\ui\loadscreens\7.jpg','\x\tmf\addons\common\ui\loadscreens\8.jpg','\x\tmf\addons\common\ui\loadscreens\9.jpg','\x\tmf\addons\common\ui\loadscreens\10.jpg']);
 
+class CfgDebriefingSections {
+    class acex_killTracker {
+        title = "Kill Tracker";
+        variable = "acex_killTracker_outputText";
+    };
+};
+
 class CfgDebriefing
 {
 	class Success
