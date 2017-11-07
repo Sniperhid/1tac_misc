@@ -5,7 +5,7 @@ tooltip = "Author: Bear\n\nAirborne forces are 'elite' infantry, and airborne mo
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
- 	uniform[] = {"rhs_uniform_cu_ocp_101st"};
+ 	uniform[] = {"acu_oefcp"};
    	vest[] = {};
    	backpack[] = {"rhsusf_falconii_mc"};
    	headgear[] = {};
@@ -465,7 +465,14 @@ class vc : smg
     vest[] = {"rhsusf_spcs_ocp_rifleman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"H_HelmetCrew_I"};
+    headgear[] = {
+		"rhsusf_cvc_ess",
+		"rhsusf_cvc_alt_helmet",
+		"rhsusf_cvc_helmet",
+		"rhsusf_cvc_green_ess",
+		"rhsusf_cvc_green_alt_helmet",
+		"rhsusf_cvc_green_helmet"
+	};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
 		LIST_2("rhs_mag_m18_green")
@@ -476,7 +483,14 @@ class vd : smg
     displayName = "Vehicle Driver";
     vest[] = {"rhsusf_spcs_ocp_rifleman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
-    headgear[] = {"H_HelmetCrew_I"};
+    headgear[] = {
+		"rhsusf_cvc_ess",
+		"rhsusf_cvc_alt_helmet",
+		"rhsusf_cvc_helmet",
+		"rhsusf_cvc_green_ess",
+		"rhsusf_cvc_green_alt_helmet",
+		"rhsusf_cvc_green_helmet"
+	};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
@@ -492,7 +506,14 @@ class pp : smg
     vest[] = {"rhsusf_spcs_ocp_rifleman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhsusf_hgu56p"};
+    headgear[] = {
+		"rhsusf_hgu56p_black",
+		"rhsusf_hgu56p_visor_black",
+		"rhsusf_hgu56p_green",
+		"rhsusf_hgu56p_visor_green",
+		"rhsusf_hgu56p",
+		"rhsusf_hgu56p_visor"
+	};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
@@ -505,7 +526,17 @@ class pcc : smg
     displayName = "Helicopter Crew Chief";
     vest[] = {"rhsusf_spcs_ocp_rifleman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
-    headgear[] = {"rhsusf_hgu56p"};
+    headgear[] = {
+		"rhsusf_hgu56p_visor_mask_black",
+		"rhsusf_hgu56p_visor_mask_Empire_black",
+		"rhsusf_hgu56p_visor_mask_black_skull",
+		"rhsusf_hgu56p_visor_mask_green",
+		"rhsusf_hgu56p_visor_mask_green_mo",
+		"rhsusf_hgu56p_visor_mask",
+		"rhsusf_hgu56p_visor_mask_mo",
+		"rhsusf_hgu56p_visor_mask_skull",
+		"rhsusf_hgu56p_visor_mask_smiley"
+	};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};

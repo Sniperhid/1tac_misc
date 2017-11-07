@@ -4,11 +4,12 @@
 
 // Override them using undef/def
 
-#define __TM_556_ADDITIONAL "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange"
+#define __TM_556_ADDITIONAL "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow"
 #define __TM_556_STANAG_ACE_MAGS "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "ACE_30Rnd_556x45_Stanag_Mk262_mag", "ACE_30Rnd_556x45_Stanag_Mk318_mag", "ACE_30Rnd_556x45_Stanag_Tracer_Dim"
 #define __556_MAGS __556STANAG_RHS_MAGS, __TM_556_ADDITIONAL, __TM_556_STANAG_ACE_MAGS, __556STANAG_BI_MAGS, __556STANAG_CUP_MAGS
 
-#define __556_BELTS __556NATO_RHS_BELTS, __556NATO_BI_BELTS, __556NATO_CUP_BELTS
+#define __TM_556BELTS_ADDITIONAL "rhsusf_100Rnd_556x45_M855_soft_pouch", "rhsusf_200Rnd_556x45_M855_soft_pouch"
+#define __556_BELTS __556NATO_RHS_BELTS, __556NATO_BI_BELTS, __556NATO_CUP_BELTS, __TM_556BELTS_ADDITIONAL
 //Don't use Toadie's AR15s - __556STANAG_MAGS
 //Don't use Toadies SAW pack - __556NATO_BELTS
 
@@ -22,7 +23,8 @@
 // Exclude BI mags 150rnd boxes __762NATO_BI_BELTS 
 
 #define __TM_762x51_20x_ACE_MAGS "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer_Dim", "ACE_20Rnd_762x51_Mk316_Mod_0_Mag", "ACE_20Rnd_762x51_M118LR_Mag", "ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD"
-#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS
+#define __TM_762x51_20x_EXTRA_MAGS "tm_20Rnd_762x51_m80_Mag", "tm_20Rnd_762x51_m80a1epr_Mag"
+#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS, __TM_762x51_20x_EXTRA_MAGS
 
 #define __40MM_M203_ADDITIONAL "ACE_HuntIR_M203", "rhs_mag_M781_Practice", "rhs_mag_M397_HET"
 #define __40MM_M203_MAGS __40MM_M203_RHS_GRENADES, __40MM_M203_ADDITIONAL, __40MM_M203_BI_GRENADES, __40MM_M203_CUP_GRENADES
@@ -269,6 +271,15 @@ class CfgWeapons
 		class EGLMMuzzle: UGL_F
 		{
 			magazines[] = { __40MM_M203_MAGS };
+		};
+	};
+	class CUP_arifle_Mk17_Base: CUP_arifle_SCAR_Base
+	{
+		magazines[] = 
+		{
+			__762_NATO_20_MAGS, "CUP_20Rnd_762x51_B_SCAR",
+			"CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR", "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR",
+			"CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR", "CUP_20Rnd_TE1_White_Tracer_762x51_SCAR"
 		};
 	};
 	class CUP_arifle_XM8_Base: Rifle_Base_F

@@ -58,7 +58,7 @@ class r : baseMan
 		"rhs_weap_akm"
 	};
 	scope[] = {};
-    silencer[] = {};
+    silencer[] = {"rhs_acc_dtkakm"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_762x39mm"),

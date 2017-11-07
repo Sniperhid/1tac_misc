@@ -63,7 +63,7 @@ class r : baseMan
 	};
     primaryWeapon[] = {"rhs_weap_akm", "rhs_weap_akm", "rhs_weap_akm", "rhs_weap_akms"};
 	scope[] = {};
-    silencer[] = {};
+    silencer[] = {"rhs_acc_dtkakm"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_762x39mm"),

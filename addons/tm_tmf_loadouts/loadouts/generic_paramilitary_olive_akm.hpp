@@ -56,6 +56,7 @@ class r : baseMan
 	vest[] = {"V_TacVest_oli"};
     backpack[] = {};
     primaryWeapon[] = {"rhs_weap_akm"};
+	silencer[] = {"rhs_acc_dtkakm"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
