@@ -10,6 +10,16 @@ class ACE_Settings {
         value = 2;
 		force = 1;
     };
+    class ace_advanced_fatigue_loadFactor {
+        typeName = "SCALAR";
+        value = 0.8;
+        force = 1;
+    };
+    class ace_advanced_fatigue_terrainGradientFactor {
+        typeName = "SCALAR";
+        value = 0.9;
+        force = 1;
+    };
     class ace_map_DefaultChannel {
         typeName = "NUMBER";
         value = 1;
