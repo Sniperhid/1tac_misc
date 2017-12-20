@@ -3,56 +3,56 @@ class Mode_FullAuto;
 
 class CfgWeapons {
     class CannonCore;
-	class cannon_120mm: CannonCore {};
+    class cannon_120mm: CannonCore {};
     class rhs_weap_d81: cannon_120mm {
         aidispersioncoefx = "10*2";
         aidispersioncoefy = "10*2";
     };
     class rhs_weap_2a26: rhs_weap_d81 {
         aidispersioncoefx = "11*2";
-		aidispersioncoefy = "11*2";
+        aidispersioncoefy = "11*2";
     };
     class rhs_weap_2a46_2: rhs_weap_d81 {
         aidispersioncoefx = "7*2";
-		aidispersioncoefy = "7*2";
+        aidispersioncoefy = "7*2";
     };
     class rhs_weap_2a46m_2: rhs_weap_d81 {
         aidispersioncoefx = "4.2*2";
-		aidispersioncoefy = "4.2*2";
+        aidispersioncoefy = "4.2*2";
     };
     class rhs_weap_2a46m: rhs_weap_2a46m_2 {
         aidispersioncoefx = "9.6*2";
-		aidispersioncoefy = "9.6*2";
+        aidispersioncoefy = "9.6*2";
     };
     class rhs_weap_2a46m_4: rhs_weap_2a46m_2 {
         aidispersioncoefx = "4*2";
-		aidispersioncoefy = "4*2";
+        aidispersioncoefy = "4*2";
     };
     class rhs_weap_2a46m_5: rhs_weap_2a46m_2 {
         aidispersioncoefx = "3.8*2";
-		aidispersioncoefy = "3.8*2";
+        aidispersioncoefy = "3.8*2";
     };
     class rhs_weap_d10t2s_2: rhs_weap_d81 {};
     class rhs_weap_d10tg: rhs_weap_d10t2s_2 {};
     class rhs_weap_d10t2s: rhs_weap_d10t2s_2 {};
     class rhs_weap_u5ts: rhs_weap_d81 {};
     class autocannon_30mm_CTWS;
-	class rhs_weap_2a42_base: autocannon_30mm_CTWS {
+    class rhs_weap_2a42_base: autocannon_30mm_CTWS {
         aidispersioncoefx = "6*2";
-		aidispersioncoefy = "6*2";
+        aidispersioncoefy = "6*2";
     };
-	class rhs_weap_2a42: rhs_weap_2a42_base {};
-	class rhs_weap_2a72_base: rhs_weap_2a42 {};
-	class rhs_weap_2a72: rhs_weap_2a72_base {};
-	class rhs_weap_2a70: rhs_weap_d81 {};
-	class rhs_weap_2a75: rhs_weap_d81 {};
-	class rhs_weap_2a28_base: cannon_120mm {};
-	class rhs_weap_2a28: rhs_weap_2a28_base {};
-	class rhs_weap_2a41_base: rhs_weap_2a28_base {};
-	class rhs_weap_2a41: rhs_weap_2a41_base {};
-	class RHS_weap_AZP23: CannonCore {
+    class rhs_weap_2a42: rhs_weap_2a42_base {};
+    class rhs_weap_2a72_base: rhs_weap_2a42 {};
+    class rhs_weap_2a72: rhs_weap_2a72_base {};
+    class rhs_weap_2a70: rhs_weap_d81 {};
+    class rhs_weap_2a75: rhs_weap_d81 {};
+    class rhs_weap_2a28_base: cannon_120mm {};
+    class rhs_weap_2a28: rhs_weap_2a28_base {};
+    class rhs_weap_2a41_base: rhs_weap_2a28_base {};
+    class rhs_weap_2a41: rhs_weap_2a41_base {};
+    class RHS_weap_AZP23: CannonCore {
         aidispersioncoefx = "3*2";
-		aidispersioncoefy = "10*2";
+        aidispersioncoefy = "10*2";
         class manual;
         class close: manual {
             burst = 15;
@@ -67,11 +67,11 @@ class CfgWeapons {
             burst = 10;
         };
     };
-	class RHS_weap_2a14: RHS_weap_AZP23 {};
-	class RocketPods;
+    class RHS_weap_2a14: RHS_weap_AZP23 {};
+    class RocketPods;
     class rhs_weap_SPG9: RocketPods {
         aidispersioncoefx = "5*2";
-		aidispersioncoefy = "8*2";
+        aidispersioncoefy = "8*2";
     };
     
     class Rifle_Base_F;
@@ -86,7 +86,7 @@ class CfgWeapons {
             aiDispersionCoefY = (3 * 1.6);
         };
         class fullauto_medium: FullAuto {
-			burst = 5; // 3
+            burst = 5; // 3
             aiDispersionCoefX = (2 * 1.6);
             aiDispersionCoefY = (3 * 1.6);
         };
@@ -100,7 +100,7 @@ class CfgWeapons {
             aiDispersionCoefY = (1.7 * 2);
         };
         aiDispersionCoefY = (10 * 1.25);
-		aiDispersionCoefX = (8 * 1.25);
+        aiDispersionCoefX = (8 * 1.25);
     };
     class rhs_weap_ak74m: rhs_weap_ak74m_Base_F {};
     class rhs_weap_akm: rhs_weap_ak74m {
@@ -163,7 +163,7 @@ class CfgWeapons {
             aiDispersionCoefY = (3 * 2.5);
         };
         class fullauto_medium: FullAuto {
-			burst = 8; // 3
+            burst = 8; // 3
             aiDispersionCoefX = (2 * 2.5);
             aiDispersionCoefY = (3 * 2.5);
         };
@@ -177,7 +177,7 @@ class CfgWeapons {
             aiDispersionCoefY = (1.7 * 3);
         };
         aiDispersionCoefY = (10 * 1.25);
-		aiDispersionCoefX = (8 * 1.25);
+        aiDispersionCoefX = (8 * 1.25);
     };
     class rhs_pkp_base: Rifle_Long_Base_F {
         class FullAuto: Mode_FullAuto {
@@ -214,7 +214,7 @@ class CfgWeapons {
             aiDispersionCoefY = (3 * 2);
         };
         aiDispersionCoefY = (23 * 1.25);
-		aiDispersionCoefX = (19 * 1.25);
+        aiDispersionCoefX = (19 * 1.25);
     };
     class rhs_weap_pkp: rhs_pkp_base {};
     class rhs_weap_pkm: rhs_weap_pkp {
@@ -271,7 +271,7 @@ class CfgWeapons {
             aiDispersionCoefY = (1.7 * 2);
         };
         aiDispersionCoefY = (10 * 1.25);
-		aiDispersionCoefX = (8 * 1.25);
+        aiDispersionCoefX = (8 * 1.25);
     };
     class rhs_weap_m92: rhs_weap_m70_base {
         class Single: Single {
@@ -314,7 +314,7 @@ class CfgWeapons {
             aiDispersionCoefY = (1.7 * 1.67);
         };
         aiDispersionCoefY = (10 * 1.25);
-		aiDispersionCoefX = (8 * 1.25);
+        aiDispersionCoefX = (8 * 1.25);
     };
     class rhs_weap_m38_Base_F: Rifle_Base_F {
         class Single: Mode_SemiAuto {
@@ -334,6 +334,6 @@ class CfgWeapons {
             aiDispersionCoefY = (1.7 * 1.67);
         };
         aiDispersionCoefY = (10 * 1.25);
-		aiDispersionCoefX = (8 * 1.25);
+        aiDispersionCoefX = (8 * 1.25);
     };
 };
