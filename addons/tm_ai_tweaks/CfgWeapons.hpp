@@ -336,4 +336,108 @@ class CfgWeapons {
         aiDispersionCoefY = (10 * 1.25);
         aiDispersionCoefX = (8 * 1.25);
     };
+    class hlc_ak_base: Rifle_Base_F {
+        class Single: Mode_SemiAuto {};
+        class FullAuto: Mode_FullAuto {};
+    };
+    class hlc_rifle_rpk: hlc_ak_base {
+        class Single: Single {
+            aiDispersionCoefX = (1.4 * 1.67);
+            aiDispersionCoefY = (1.7 * 1.67);
+        };
+        class FullAuto: FullAuto {};
+        class 50m: FullAuto {
+            burst = 20; // ?
+            aiDispersionCoefX = (2 * 3.5);
+            aiDispersionCoefY = (3 * 3.5);
+        };
+        class AI_long: 50m {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        class AI_close: AI_long {
+            burst = 10; // 8
+        };
+        class AI_short: AI_close {
+            burst = 7; // 5
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+        class AI_medium: AI_close {
+            burst = 6; // 4
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+        class AI_far: AI_close {
+            burst = 5; // 4
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+        class AI_toofar: AI_far {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        class AI_far_optic1: AI_far {};
+        class AI_far_optic2: AI_far_optic1 {};
+        class AI_toofar_optic1: AI_far_optic1 {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        class AI_toofar_optic2: AI_toofar_optic1 {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        aiDispersionCoefY = (10 * 1.25);
+        aiDispersionCoefX = (12 * 1.25);
+    };
+    class hlc_rifle_rpk74n: hlc_ak_base {
+        class Single: Single {
+            aiDispersionCoefX = (1.4 * 1.67);
+            aiDispersionCoefY = (1.7 * 1.67);
+        };
+        class FullAuto: FullAuto {};
+        class 50m: FullAuto {
+            burst = 20; // ?
+            aiDispersionCoefX = (2 * 3.5);
+            aiDispersionCoefY = (3 * 3.5);
+        };
+        class AI_long: 50m {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        class AI_close: AI_long {
+            burst = 10; // 8
+        };
+        class AI_short: AI_close {
+            burst = 7; // 5
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+        class AI_medium: AI_close {
+            burst = 6; // 4
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+        class AI_far: AI_close {
+            burst = 5; // 4
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+        class AI_toofar: AI_far {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        class AI_far_optic1: AI_far {};
+        class AI_far_optic2: AI_far_optic1 {};
+        class AI_toofar_optic1: AI_far_optic1 {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        class AI_toofar_optic2: AI_toofar_optic1 {
+            aiDispersionCoefX = (2 * 3);
+            aiDispersionCoefY = (3 * 3);
+        };
+        aiDispersionCoefY = (10 * 1.25);
+        aiDispersionCoefX = (12 * 1.25);
+    };
 };
