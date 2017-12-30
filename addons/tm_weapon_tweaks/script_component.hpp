@@ -1,4 +1,4 @@
-#define COMPONENT tm_recoil_tweaks
+#define COMPONENT tm_weapon_tweaks
 
 #include "\x\tac1\addons\tm_main\script_mod.hpp"
 #include "\x\tac1\addons\tm_main\script_macros.hpp"
