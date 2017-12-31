@@ -381,13 +381,13 @@ class mtrg : car
 class mtrac : r
 {
     displayName = "Mortar Ammo Carrier";
-    backPack[] = {"I_Mortar_01_weapon_F"};
+    backPack[] = {"B_Mortar_01_weapon_F"};
 };
 class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
 	vest[] = {"rhsusf_spcs_ocp_rifleman"};
-    backPack[] = {"B_HMG_01_support_F"};
+    backPack[] = {"B_Mortar_01_support_F"};
     linkedItems[] =
     {
         "ItemMap",
