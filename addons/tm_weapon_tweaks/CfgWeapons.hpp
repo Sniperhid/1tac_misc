@@ -23,16 +23,6 @@ class CfgWeapons {
         recoil = "recoil_mxm"; // from recoil_mk20 to same as m4
     };
     
-    class Launcher_Base_F;
-    class rhs_weap_rpg26: Launcher_Base_F {
-        aiDispersionCoefX = (1 * 2);
-        aiDispersionCoefY = (1 * 2);
-    };
-    class rhs_weap_rpg7: Launcher_Base_F {
-        aiDispersionCoefX = (1 * 2);
-        aiDispersionCoefY = (1 * 2);
-    };
-    
     class hlc_M60e4_base: Rifle_Base_F {
         recoil = "tm_recoil_m240"; // from recoil_default (!) to same as m240
         class FullAuto: Mode_FullAuto {
@@ -40,27 +30,12 @@ class CfgWeapons {
         };
     };
     
-    class hlc_ak_base: Rifle_Base_F {
-        class Single: Mode_SemiAuto {};
-        class FullAuto: Mode_FullAuto {};
-    };
+    class hlc_ak_base: Rifle_Base_F {};
     class hlc_rifle_rpk: hlc_ak_base {
         recoil = "recoil_mxm"; // recoil_mk20
-        class FullAuto: FullAuto {
-            dispersion = 0.001; // 0.000654498
-        };
-        class Single: Single {
-            dispersion = 0.001;
-        };
     };
     class hlc_rifle_rpk74n: hlc_ak_base {
         recoil = "recoil_mxm"; // recoil_mk20
-        class FullAuto: FullAuto {
-            dispersion = 0.001; // 0.000654498
-        };
-        class Single: Single {
-            dispersion = 0.001;
-        };
     };
     
     class hlc_g3_base: Rifle_Base_F {
