@@ -422,4 +422,10 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\east_european_insurgents_2014.hpp"
 	};
+	class NVA
+	{
+		displayName = "North Vietnamese Army (1970)";
+		category = "Other";
+		#include "loadouts\NVA.hpp"
+	};
 };
