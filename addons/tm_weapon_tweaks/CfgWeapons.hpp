@@ -48,4 +48,12 @@ class CfgWeapons {
     class hlc_rifle_SLR: hlc_fal_base {
         recoil = "tm_recoil_battlerifle"; // recoil_ebr
     };
+    
+    class CUP_Vacannon_D10:
+    class CUP_Vacannon_2A28: CUP_Vacannon_D10 {
+        ace_overpressure_angle = 60;
+        ace_overpressure_damage = 0.7;
+        ace_overpressure_range = 10;
+    };
+    class CUP_Vacannon_SPG9_veh: CUP_Vacannon_2A28 {};
 };
