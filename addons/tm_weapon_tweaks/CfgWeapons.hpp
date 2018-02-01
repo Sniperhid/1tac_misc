@@ -49,7 +49,7 @@ class CfgWeapons {
         recoil = "tm_recoil_battlerifle"; // recoil_ebr
     };
     
-    class CUP_Vacannon_D10:
+    class CUP_Vacannon_D10;
     class CUP_Vacannon_2A28: CUP_Vacannon_D10 {
         ace_overpressure_angle = 60;
         ace_overpressure_damage = 0.7;
