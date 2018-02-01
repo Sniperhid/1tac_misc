@@ -429,4 +429,10 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\nva_army_1970.hpp"		
 	};
+	class GREEK_ARMY_2018
+	{
+		displayName = "Greek Army (2018)";
+		category = "Western Factions";
+		#include "loadouts\greek_army_2018.hpp"
+	};
 };
