@@ -1,6 +1,6 @@
 #include "\x\tac1\addons\tm_missiontesting\script_component.hpp"
 
-params ["_toggleOff"];
+params [["_toggleOff", 1 - GVAR(acre_toggle), [0, false]]];
 
 GVAR(acre_toggle) = [0, 1] select _toggleOff;
 
@@ -11,3 +11,7 @@ systemChat format [
     "[MISSION TESTING] ACRE2 %1; any admin can toggle on/off with the '#toggleacre2' chat command.",
     ["enabled", "disabled"] select GVAR(acre_toggle)
 ];
+
+if (getMissionConfigValue ['TMF_AcreBabelEnabled', false]) then {
+    systemChat "[MISSION TESTING] Warning: this mission has Babel enabled for ACRE2.";
+};
