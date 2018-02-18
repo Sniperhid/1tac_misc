@@ -46,7 +46,7 @@ class CfgFactionClasses {
         displayName = "USA (USMC - W) [RHS]";
     };
     class rhs_faction_usmc_d: rhs_faction_usarmy {
-        displayName = "USA (USMC - W) [RHS]";
+        displayName = "USA (USMC - D) [RHS]";
     };
     class rhs_faction_usaf: rhs_faction_usarmy {
         displayName = "USA (USAF) [RHS]";
@@ -78,5 +78,15 @@ class CfgFactionClasses {
     };
     class rhsgref_faction_hidf {
         displayName = "Horizon Islands Defence Force [RHS]";
+    };
+    
+    class rhssaf_faction_army {
+        displayName = "SAF (KOV) [RHS]";
+    };
+    class rhssaf_faction_airforce {
+        displayName = "SAF (RVIPVO) [RHS]";
+    };
+    class rhssaf_faction_un {
+        displayName = "SAF (UN Peackeepers) [RHS]";
     };
 };
