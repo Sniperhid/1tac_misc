@@ -17,11 +17,49 @@ if (isServer) then {
         [1 - GVAR(acre_toggle)] remoteExecCall [QFUNC(toggleACRE2), -2];
     }, "admin"] call CBA_fnc_registerChatCommand;
 
+    GVAR(acre_toggle_fix) = true;
+    ["stopfixacre2", {
+        GVAR(acre_toggle_fix) = !GVAR(acre_toggle_fix);
+    }, "all"] call CBA_fnc_registerChatCommand;
+
     ["CBA_loadingScreenDone", {
         [{
             !isNil QGVAR(acre_toggle) && time > 1
         }, {
             [GVAR(acre_toggle)] call FUNC(toggleACRE2);
         }] call CBA_fnc_waitUntilAndExecute;
+
+        player addEventHandler ["respawn", {
+            [{
+                if ((GVAR(acre_toggle) == 1) && !([player] call acre_api_fnc_isSpectator)) then {
+                    [GVAR(acre_toggle)] call FUNC(toggleACRE2);
+                };
+            }, 1, 1] call CBA_fnc_waitAndExecute;
+        }];
+
+        ["ace_unconscious", {
+            params ["_unit", "_status"];
+            if (local _unit && _status) then {
+                [{
+                    _this getVariable ["acre_sys_core_isDisabled", false]
+                }, {
+                    _this setVariable ["acre_sys_core_isDisabled", false, true];
+                }, _unit, 1] call CBA_fnc_waitUntilAndExecute;
+            };
+        }] call CBA_fnc_addEventHandler;
+
+        [{
+            if !(GVAR(acre_toggle_fix)) exitWith {};
+
+            private _isSpectator = [player] call acre_api_fnc_isSpectator;
+            if !(_isSpectator isEqualTo (GVAR(acre_toggle) == 1)) then {
+                systemChat format [
+                    "[MISSION TESTING] Your ACRE2 toggle state (%1) appears to not match the global value (%2). This has been fixed; you can toggle this by typing '#stopfixacre2'.",
+                    _isSpectator,
+                    !_isSpectator
+                ];
+                [GVAR(acre_toggle)] call FUNC(toggleACRE2);
+            };
+        }, 5] call CBA_fnc_addPerFrameHandler;
     }] call CBA_fnc_addEventHandler;
 };
