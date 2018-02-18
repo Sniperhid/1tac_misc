@@ -35,7 +35,7 @@ class CfgGroups {
             name = "USA (SOCOM) [RHS]";
         };
         
-        class rhsgref_faction_cdf_b_ground {
+        class rhsgref_faction_cdf_b_ground { /* actual faction is rhsgref_faction_cdf_ground_b */
             name = "Chernarus (Ground Forces) [RHS]";
         };
         class rhsgref_faction_hidf {
@@ -55,6 +55,13 @@ class CfgGroups {
         };
         class rhsgref_faction_chdkz_g {
             name = "ChDKZ Insurgents [RHS]";
+        };
+        
+        class rhssaf_faction_army {
+            name = "SAF (KOV) [RHS]";
+        };
+        class rhssaf_faction_un {
+            name = "SAF (UN Peackeepers) [RHS]";
         };
     };
 };
