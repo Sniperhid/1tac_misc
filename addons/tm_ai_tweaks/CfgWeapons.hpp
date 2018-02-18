@@ -53,14 +53,14 @@ class CfgWeapons {
     class rhs_weap_2a41_base: rhs_weap_2a28_base {};
     class rhs_weap_2a41: rhs_weap_2a41_base {};
     class RHS_weap_AZP23: CannonCore {
-        aidispersioncoefx = "3*2";
-        aidispersioncoefy = "10*2";
+        aidispersioncoefx = "3*1.67";
+        aidispersioncoefy = "10*1.33";
         class manual;
         class close: manual {
-            burst = 15;
+            burst = 18;
         };
         class short: close {
-            burst = 10;
+            burst = 15;
         };
         class medium: close {
             burst = 10;
