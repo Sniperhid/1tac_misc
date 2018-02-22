@@ -4,7 +4,7 @@
 
 // Override them using undef/def
 
-#define __TM_556_ADDITIONAL "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow"
+#define __TM_556_ADDITIONAL "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow", "mbg_mag_20Rnd_556x45_M855A1_Stanag"
 #define __TM_556_STANAG_ACE_MAGS "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "ACE_30Rnd_556x45_Stanag_Mk262_mag", "ACE_30Rnd_556x45_Stanag_Mk318_mag", "ACE_30Rnd_556x45_Stanag_Tracer_Dim"
 #define __556_MAGS __556STANAG_RHS_MAGS, __TM_556_ADDITIONAL, __TM_556_STANAG_ACE_MAGS, __556STANAG_BI_MAGS, __556STANAG_CUP_MAGS
 
@@ -351,4 +351,14 @@ class CfgWeapons
 	{
 		magazines[] = { __RPG7_VANILLACOMPAT_GRENADES };
 	};
+
+    // MBG
+    class mbg_m16a1: rhs_weap_m16a4
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class mbg_m16a2: rhs_weap_m16a4
+    {
+        magazines[] = { __556_MAGS };
+    };
 };
