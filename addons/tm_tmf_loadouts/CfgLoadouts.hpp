@@ -80,6 +80,12 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_army_airborne_ocp.hpp"
 	};
+	class US_ARMY_RANGERS_1990_M81
+	{
+		displayName = "US Army Rangers (1990~1995, M81)";
+		category = "USA";
+		#include "loadouts\us_army_rangers_1990_m81"
+	};
 	class US_ARMY_RANGERS_2007_ACU
 	{
 		displayName = "US Army Rangers (2007, ACU)";
