@@ -86,6 +86,12 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_army_rangers_1990_m81"
 	};
+	class US_ARMY_RANGERS_2000_M81
+	{
+		displayName = "US Army Rangers (2000-2005, M81)";
+		category = "USA";
+		#include "loadouts\us_army_rangers_2000_m81";
+	};
 	class US_ARMY_RANGERS_2007_ACU
 	{
 		displayName = "US Army Rangers (2007, ACU)";
