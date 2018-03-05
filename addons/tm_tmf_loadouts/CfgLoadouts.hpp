@@ -172,6 +172,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_msv_emr.hpp"
 	};
+	class RUS_MSV_EMR_RATNIK
+	{
+		displayName = "RU Ground Forces (2018, EMR Ratnik)";
+		category = "Russia";
+		#include "loadouts\ru_msv_emr_ratnik.hpp";
+	};
 	class RUS_MSV_EMR_WINTER
 	{
 		displayName = "RU Ground Forces (2015, EMR-Winter)";
