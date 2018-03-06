@@ -42,7 +42,7 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {"FirstAidKit","ACE_Flashlight_MX991"};
+    items[] = {LIST_3("ACE_fieldDressing"),"ACE_morphine","ACE_Flashlight_MX991"};
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -110,7 +110,7 @@ class ftl : r
 class sl : ftl
 {
     displayName = "Squad Leader";
-    vest[] = {"usm_vest_rba_lbe_rmp"};
+    vest[] = {"usm_vest_rba_lbv_rmp"};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] +=
     {
@@ -253,7 +253,7 @@ class hatg : r
     displayName = "HAT Gunner";
     secondaryWeapon[] = {"rhs_weap_fgm148"};
     backPack[] = {"usm_pack_alice"};
-    backpackItems[] = {LIST_2("rhs_fgm148_magazine_AT")};
+    magazines[] += {"rhs_fgm148_magazine_AT"};
 };
 class hatac : r
 {
@@ -313,7 +313,7 @@ class sn : r
     magazines[] =
     {
         LIST_2("rhsusf_mag_7x45acp_MHP"),
-        LIST_8("rhsusf_10Rnd_762x51_m993_Mag"),
+        LIST_8("rhsusf_5Rnd_762x51_m993_Mag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -334,7 +334,7 @@ class sp : ftl
 class vc : sl
 {
     displayName = "Vehicle Commander";
-    vest[] = {"usm_vest_rba"};
+    vest[] = {"usm_vest_rba_lbe_rm"};
     magazines[] = {
         LIST_3("30Rnd_556x45_Stanag"),
         "Chemlight_green"
@@ -345,13 +345,13 @@ class vc : sl
 class vd : r
 {
     displayName = "Vehicle Driver";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_rba"};
+    vest[] = {"usm_vest_rba_lbe_rm"};
     backpack[] = {"B_FieldPack_oli"};
     headgear[] = {"usm_helmet_cvc"};
     backpackItems[] = {"ToolKit"};
@@ -359,25 +359,26 @@ class vd : r
 class vg : r
 {
     displayName = "Vehicle Gunner";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_rba"};
+    vest[] = {"usm_vest_rba_lbe_rm"};
     headgear[] = {"usm_helmet_cvc"};
 };
 class pp : ftl
 {
     displayName = "Helicopter Pilot";
     uniform[] = {"U_B_HeliPilotCoveralls"};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_rba"};
+    vest[] = {"usm_vest_rba_lbe_rm"};
     backpack[] = {};
     headgear[] = {"rhsusf_hgu56p_visor_green"};
     goggles[] = {"default"};
@@ -386,12 +387,13 @@ class pcc : r
 {
     displayName = "Helicopter Crew Chief";
     uniform[] = {"U_B_HeliPilotCoveralls"};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_rba"};
+    vest[] = {"usm_vest_rba_lbe_rm"};
     backpack[] = {"B_FieldPack_oli"};
     headgear[] = {"rhsusf_hgu56p_visor_green"};
     goggles[] = {"default"};
@@ -401,12 +403,13 @@ class pc : r
 {
     displayName = "Helicopter Crew";
     uniform[] = {"U_B_HeliPilotCoveralls"};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
-        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_rba"};
+    vest[] = {"usm_vest_rba_lbe_rm"};
     backpack[] = {};
     headgear[] = {"rhsusf_hgu56p_visor_green"};
     goggles[] = {"default"};
@@ -465,7 +468,7 @@ class engm : r
         "APERSTripMine_Wire_Mag"
     };
 };
-class p : r
+class jp : r
 {
     displayName = "Jet Pilot";
     primaryWeapon[] = {};

@@ -132,7 +132,7 @@ class ftl : r
         "rhs_mag_an_m8hc",
         "Chemlight_green"
     };
-    Items += {"ACE_mapTools"};
+    Items[] += {"ACE_mapTools"};
     linkedItems[] += {"Binocular"};
 };
 class sl : ftl
@@ -217,7 +217,7 @@ class mmgac : r
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_B_M60E4")
+        LIST_3("hlc_100Rnd_762x51_B_M60E4")
     };
 };
 class mmgag : ftl
@@ -226,7 +226,7 @@ class mmgag : ftl
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_B_M60E4")
+        LIST_3("hlc_100Rnd_762x51_B_M60E4")
     };
 };
 class hmgg : r
@@ -338,7 +338,7 @@ class sn : r
     magazines[] =
     {
         LIST_2("rhsusf_mag_7x45acp_MHP"),
-        LIST_8("rhsusf_10Rnd_762x51_m993_Mag"),
+        LIST_8("rhsusf_5Rnd_762x51_m993_Mag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -359,7 +359,6 @@ class sp : ftl
 class vc : sl
 {
     displayName = "Vehicle Commander";
-    vest[] = {"usm_vest_pasgt"};
     magazines[] = {
         LIST_3("30Rnd_556x45_Stanag"),
         "Chemlight_green"
@@ -370,13 +369,12 @@ class vc : sl
 class vd : r
 {
     displayName = "Vehicle Driver";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_pasgt"};
     backpack[] = {"B_FieldPack_oli"};
     headgear[] = {"usm_helmet_cvc"};
     backpackItems[] = {"ToolKit"};
@@ -384,13 +382,12 @@ class vd : r
 class vg : r
 {
     displayName = "Vehicle Gunner";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
-    vest[] = {"usm_vest_pasgt"};
     headgear[] = {"usm_helmet_cvc"};
 };
 class pp : ftl
@@ -402,8 +399,9 @@ class pp : ftl
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
+    backPack[] = {"usm_pack_alice_prc119"};
+    radios[] = {"ACRE_PRC117F"};
     vest[] = {"usm_vest_pasgt"};
-    backpack[] = {};
     headgear[] = {"rhsusf_hgu56p_visor_green"};
     goggles[] = {"default"};
 };
@@ -478,7 +476,7 @@ class engm : r
         "APERSTripMine_Wire_Mag"
     };
 };
-class p : r
+class jp : r
 {
     displayName = "Jet Pilot";
     primaryWeapon[] = {};

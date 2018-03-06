@@ -73,7 +73,7 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {"FirstAidKit","ACE_MapTools","ACE_CableTie","ACE_Flashlight_KSF1"};
+    items[] = {LIST_3("ACE_fieldDressing"),"ACE_morphine","ACE_MapTools","ACE_CableTie","ACE_Flashlight_KSF1"};
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -235,7 +235,7 @@ class mmgg : ar
     sidearmWeapon[] = {"rhs_weap_pya"};
     magazines[] =
     {
-        LIST_5("rhs_100Rnd_762x54mmR"),
+        LIST_3("rhs_100Rnd_762x54mmR"),
         LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white",
         LIST_2("rhs_mag_9x19_17"),
@@ -247,7 +247,7 @@ class mmgac : r
     displayName = "MMG Ammo Carrier";
     backpackItems[] =
     {
-        LIST_3("rhs_100Rnd_762x54mmR")
+        LIST_2("rhs_100Rnd_762x54mmR")
     };
 };
 class mmgag : r
@@ -256,7 +256,7 @@ class mmgag : r
     linkedItems[] += {"rhs_pdu4"};
     backpackItems[] =
     {
-        LIST_3("rhs_100Rnd_762x54mmR")
+        LIST_2("rhs_100Rnd_762x54mmR")
     };
 };
 class hmgg : car
@@ -353,7 +353,7 @@ class samg : car
     secondaryWeapon[] = {"rhs_weap_igla"};
     magazines[] +=
     {
-        "rhs_mag_9k38"
+        "rhs_mag_9k38_rocket"
     };
 };
 class samag : car
@@ -362,7 +362,7 @@ class samag : car
     linkedItems[] = {"rhs_pdu4"};
     backpackItems[] =
     {
-        "rhs_mag_9k38"
+        "rhs_mag_9k38_rocket"
     };
 };
 class sn : r
@@ -413,8 +413,7 @@ class pp : car
 {
     displayName = "Helicopter Pilot";
     vest[] = {};
-    magazines[] = {LIST_2("hlc_30Rnd_545x39_B_AK")};
-    backpack[] = {};
+    magazines[] = {LIST_3("hlc_30Rnd_545x39_B_AK")};
     headgear[] = {"rhs_zsh7a_mike_green_alt"};
     goggles[] = {"default"};
 };
@@ -424,7 +423,7 @@ class pcc : car
     displayName = "Helicopter Crew Chief";
     vest[] = {};
     headgear[] = {"rhs_zsh7a_mike_green_alt"};
-    magazines[] = {LIST_2("hlc_30Rnd_545x39_B_AK")};
+    magazines[] = {LIST_3("hlc_30Rnd_545x39_B_AK")};
     goggles[] = {"default"};
     backpackItems[] = {"ToolKit"};
 };
@@ -432,7 +431,7 @@ class pc : car
 {
     displayName = "Helicopter Crew";
     vest[] = {};
-    backpack[] = {};
+    magazines[] = {LIST_3("hlc_30Rnd_545x39_B_AK")};
     headgear[] = {"H_Cap_headphones"};
     goggles[] = {"default"};
 };
@@ -471,5 +470,6 @@ class jp : pp
 {
     displayName = "Jet Pilot";
     headgear[] = {"rhs_zsh7a_alt"};
+    magazines[] = {LIST_2("hlc_30Rnd_545x39_B_AK")};
     backPack[] = {"rhs_d6_Parachute_backpack"};
 };

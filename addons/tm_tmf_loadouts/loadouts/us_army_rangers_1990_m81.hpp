@@ -12,7 +12,6 @@
     NIArms M14 Rifles
     US Military Mod
     ACRE2(?)
-    Task Force 47 Launchers
 */
 
 tooltip = "Author: Freddo\n\nRHS compatible\n\nBased of off early 1990s equipment";
@@ -186,7 +185,7 @@ class mmgac : r
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_B_M60E4")
+        LIST_3("hlc_100Rnd_762x51_B_M60E4")
     };
 };
 class mmgag : ftl
@@ -195,7 +194,7 @@ class mmgag : ftl
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_B_M60E4")
+        LIST_3("hlc_100Rnd_762x51_B_M60E4")
     };
 };
 class hmgg : r
@@ -324,7 +323,7 @@ class vc : sl
     displayName = "Vehicle Commander";
     vest[] = {"usm_vest_rba"};
     magazines[] = {
-        LIST_3("30Rnd_556x45_Stanag"),
+        LIST_2("30Rnd_556x45_Stanag"),
         "Chemlight_green"
     };
     headgear[] = {"usm_helmet_cvc"};
@@ -332,7 +331,7 @@ class vc : sl
 class vd : r
 {
     displayName = "Vehicle Driver";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
@@ -346,7 +345,7 @@ class vd : r
 class vg : r
 {
     displayName = "Vehicle Gunner";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
@@ -455,7 +454,7 @@ class engm : r
         "APERSTripMine_Wire_Mag"
     };
 };
-class p : r
+class jp : r
 {
     displayName = "Jet Pilot";
     primaryWeapon[] = {};
