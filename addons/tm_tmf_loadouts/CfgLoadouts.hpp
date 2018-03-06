@@ -90,7 +90,7 @@ class CfgLoadouts
 	{
 		displayName = "US Army Rangers (2000-2005, M81)";
 		category = "USA";
-		#include "loadouts\us_army_rangers_2000_m81";
+		#include "loadouts\us_army_rangers_2000_m81"
 	};
 	class US_ARMY_RANGERS_2007_ACU
 	{
@@ -156,7 +156,7 @@ class CfgLoadouts
 	{
 		displayName = "US Marines (1985, M81)";
 		category = "USA";
-		#include "loadouts\us_marines_1985_m81.hpp";
+		#include "loadouts\us_marines_1985_m81.hpp"
 	};
 	class US_MARINES_1990_DBDU
 	{
@@ -194,7 +194,7 @@ class CfgLoadouts
 	{
 		displayName = "RU Ground Forces (2018, EMR Ratnik)";
 		category = "Russia";
-		#include "loadouts\ru_msv_emr_ratnik.hpp";
+		#include "loadouts\ru_msv_emr_ratnik.hpp"
 	};
 	class RUS_MSV_EMR_WINTER
 	{
@@ -359,7 +359,12 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\sla_1990.hpp"
 	};
-	
+	class HIDF_1990
+	{
+		displayName = "Horizon Island Defence Force (1990)";
+		category = "Armaverse Factions";
+		#include "loadouts\hidf_1990.hpp"
+	}
 	class US_ARMY_UCP_A2OA
 	{
 		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
