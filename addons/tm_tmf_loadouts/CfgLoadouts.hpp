@@ -365,6 +365,12 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\hidf_1990.hpp"
 	}
+	class HIDF_2000
+	{
+		displayName = "Horizon Island Defence Force (2000)";
+		category = "Armaverse Factions";
+		#include "loadouts\hidf_2000"
+	}
 	class US_ARMY_UCP_A2OA
 	{
 		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
