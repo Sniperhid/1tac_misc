@@ -82,7 +82,7 @@ class CfgLoadouts
 	};
 	class US_ARMY_RANGERS_1990_M81
 	{
-		displayName = "US Army Rangers (1990~1995, M81)";
+		displayName = "US Army Rangers (1990-1995, M81)";
 		category = "USA";
 		#include "loadouts\us_army_rangers_1990_m81.hpp"
 	};
