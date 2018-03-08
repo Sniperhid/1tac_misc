@@ -59,7 +59,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    vest[] = {"usm_vest_rba_lbe_rm"};
+    vest[] = {"usm_vest_rba_lbv_rm"};
     headgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_g_w"};
     bipod[] = {"rhsusf_acc_grip2"};
     primaryWeapon[] = {"rhs_weap_m4_carryhandle"};
@@ -133,7 +133,7 @@ class ar : r
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"rhs_weap_m249_pip_S"};
     scope[] = {"rhsusf_acc_elcan"};
-    vest[] = {"usm_vest_rba_lbe_mg"};
+    vest[] = {"usm_vest_rba_lbv_mg"};
     magazines[] =
     {
         LIST_3("200Rnd_556x45_Box_F"),
