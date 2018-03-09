@@ -80,6 +80,18 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_army_airborne_ocp.hpp"
 	};
+	class US_ARMY_RANGERS_1990_M81
+	{
+		displayName = "US Army Rangers (1990-1995, M81)";
+		category = "USA";
+		#include "loadouts\us_army_rangers_1990_m81.hpp"
+	};
+	class US_ARMY_RANGERS_2000_M81
+	{
+		displayName = "US Army Rangers (2000-2005, M81)";
+		category = "USA";
+		#include "loadouts\us_army_rangers_2000_m81.hpp"
+	};
 	class US_ARMY_RANGERS_2007_ACU
 	{
 		displayName = "US Army Rangers (2007, ACU)";
@@ -140,6 +152,12 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_army_1985_m81.hpp"
 	};
+	class US_MARINES_1985_M81
+	{
+		displayName = "US Marines (1985, M81)";
+		category = "USA";
+		#include "loadouts\us_marines_1985_m81.hpp"
+	};
 	class US_MARINES_1990_DBDU
 	{
 		displayName = "US Marines (1990, DBDU)";
@@ -171,6 +189,12 @@ class CfgLoadouts
 		displayName = "RU Ground Forces (2013, EMR)";
 		category = "Russia";
 		#include "loadouts\ru_msv_emr.hpp"
+	};
+	class RUS_MSV_EMR_RATNIK
+	{
+		displayName = "RU Ground Forces (2018, EMR Ratnik, AK-12s)";
+		category = "Russia";
+		#include "loadouts\ru_msv_emr_ratnik.hpp"
 	};
 	class RUS_MSV_EMR_WINTER
 	{
@@ -335,7 +359,24 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\sla_1990.hpp"
 	};
-	
+	class HIDF_1990
+	{
+		displayName = "Horizon Island Defence Force (1990)";
+		category = "Armaverse Factions";
+		#include "loadouts\hidf_1990.hpp"
+	};
+	class HIDF_2000
+	{
+		displayName = "Horizon Island Defence Force (2000)";
+		category = "Armaverse Factions";
+		#include "loadouts\hidf_2000.hpp"
+	};
+	class SYNDIKAT_1990
+	{
+		displayName = "Syndikat (1990-, Bandits)";
+		category = "Armaverse Factions";
+		#include "loadouts\syndikat_1990_bandit.hpp"
+	};
 	class US_ARMY_UCP_A2OA
 	{
 		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
