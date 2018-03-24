@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-if (serverName != "Team One Tactical - EU #2") exitWith {};
+/*if (serverName != "Team One Tactical - EU #2") exitWith {};
 
 if (isServer) then {
     missionNamespace setVariable [QGVAR(acre_toggle), 1, true];
@@ -62,4 +62,4 @@ if (isServer) then {
             };
         }, 5] call CBA_fnc_addPerFrameHandler;
     }] call CBA_fnc_addEventHandler;
-};
+};*/
