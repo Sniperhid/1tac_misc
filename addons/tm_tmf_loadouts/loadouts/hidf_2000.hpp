@@ -16,7 +16,7 @@
     Task Force 47 Launchers
 */
 
-tooltip = "Author: Freddo\n\nRHS compatible\n\nBased on the RHS faction";
+tooltip = "Author: Freddo\n\nRHS compatible\n\nBased on the RHS faction\n\nHas Laws of War equipment on some loadouts";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
