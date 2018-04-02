@@ -17,7 +17,7 @@
     MBG M16 Rifles
 */
 
-tooltip = "Author: Freddo\n\nRHS compatible\n\nContains a healthy mix of both american and russian equipment.";
+tooltip = "Author: Freddo\n\nRHS compatible\n\nContains a healthy mix of both american and russian equipment.\n\nHas Laws of War equipment on some loadouts";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";

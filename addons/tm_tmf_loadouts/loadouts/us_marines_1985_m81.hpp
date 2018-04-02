@@ -46,7 +46,7 @@ HQ Element:
         Driver
 */
 
-tooltip = "Author: Freddo\n\nRHS compatible\n\nExample orbat available in loadout file";
+tooltip = "Author: Freddo\n\nRHS compatible\n\nExample orbat available in loadout file\n\nHas Laws of War equipment on some loadouts";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
