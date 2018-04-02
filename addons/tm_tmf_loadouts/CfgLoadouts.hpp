@@ -82,15 +82,15 @@ class CfgLoadouts
 	};
 	class US_ARMY_RANGERS_1990_M81
 	{
-		displayName = "US Army Rangers (1990~1995, M81)";
+		displayName = "US Army Rangers (1990-1995, M81)";
 		category = "USA";
-		#include "loadouts\us_army_rangers_1990_m81"
+		#include "loadouts\us_army_rangers_1990_m81.hpp"
 	};
 	class US_ARMY_RANGERS_2000_M81
 	{
 		displayName = "US Army Rangers (2000-2005, M81)";
 		category = "USA";
-		#include "loadouts\us_army_rangers_2000_m81"
+		#include "loadouts\us_army_rangers_2000_m81.hpp"
 	};
 	class US_ARMY_RANGERS_2007_ACU
 	{
@@ -192,7 +192,7 @@ class CfgLoadouts
 	};
 	class RUS_MSV_EMR_RATNIK
 	{
-		displayName = "RU Ground Forces (2018, EMR Ratnik)";
+		displayName = "RU Ground Forces (2018, EMR Ratnik, AK-12s)";
 		category = "Russia";
 		#include "loadouts\ru_msv_emr_ratnik.hpp"
 	};
@@ -369,7 +369,7 @@ class CfgLoadouts
 	{
 		displayName = "Horizon Island Defence Force (2000)";
 		category = "Armaverse Factions";
-		#include "loadouts\hidf_2000"
+		#include "loadouts\hidf_2000.hpp"
 	};
 	class SYNDIKAT_1990
 	{
