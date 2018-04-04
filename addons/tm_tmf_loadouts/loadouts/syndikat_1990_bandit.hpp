@@ -17,7 +17,7 @@
     MBG M16 Rifles
 */
 
-tooltip = "Author: Freddo\n\nRHS compatible\n\nContains a healthy mix of both american and russian equipment.";
+tooltip = "Author: Freddo\n\nRHS compatible\n\nContains a healthy mix of both american and russian equipment.\n\nHas Laws of War equipment on some loadouts";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -246,6 +246,7 @@ class aar : r
 class arpk : ar
 {
     displayName = "Automatic Rifleman (RPK)";
+    primaryWeapon[] = {"hlc_rifle_rpk"};
     backPack[] = 
     {
         "B_LegStrapBag_olive_F",
@@ -253,7 +254,7 @@ class arpk : ar
     };
     magazines[] =
     {
-        LIST_5("hlc_75Rnd_762x39_m_rpk"),
+        LIST_4("hlc_75Rnd_762x39_m_rpk"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")

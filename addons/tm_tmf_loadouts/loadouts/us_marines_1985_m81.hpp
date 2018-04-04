@@ -46,7 +46,7 @@ HQ Element:
         Driver
 */
 
-tooltip = "Author: Freddo\n\nRHS compatible\n\nExample orbat available in loadout file";
+tooltip = "Author: Freddo\n\nRHS compatible\n\nExample orbat available in loadout file\n\nHas Laws of War equipment on some loadouts";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -193,7 +193,7 @@ class dm : r
     silencer[] = {"hlc_muzzle_mag58_brake"};
     magazines[] =
     {
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("20Rnd_762x51_Mag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -361,6 +361,7 @@ class vc : sl
     displayName = "Vehicle Commander";
     magazines[] = {
         LIST_3("30Rnd_556x45_Stanag"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
     headgear[] = {"usm_helmet_cvc"};

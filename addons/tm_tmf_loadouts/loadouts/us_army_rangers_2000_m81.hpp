@@ -12,7 +12,7 @@
     Task Force 47 Launchers
 */
 
-tooltip = "Author: Freddo\n\nRHS compatible";
+tooltip = "Author: Freddo\n\nRHS compatible\n\nHas Laws of War equipment on some loadouts";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -78,12 +78,12 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"usm_vest_rba_lbe_gr"};
+    vest[] = {"usm_vest_rba_lbv_gr"};
     primaryWeapon[] = {"rhs_weap_m4_M203"};
     magazines[] +=
     {
-        LIST_20("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell")
+        LIST_4("1Rnd_HE_Grenade_shell"),
+        LIST_2("1Rnd_Smoke_Grenade_shell")
     };
 };
 class m : r
