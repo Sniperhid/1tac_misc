@@ -53,8 +53,8 @@ class CfgWeapons {
     class rhs_weap_2a41_base: rhs_weap_2a28_base {};
     class rhs_weap_2a41: rhs_weap_2a41_base {};
     class RHS_weap_AZP23: CannonCore {
-        aidispersioncoefx = "3*1.67";
-        aidispersioncoefy = "10*1.33";
+        //aidispersioncoefx = "3*1.67";
+        //aidispersioncoefy = "10*1.33";
         class manual;
         class close: manual {
             burst = 18;
@@ -376,7 +376,7 @@ class CfgWeapons {
         aiDispersionCoefY = (10 * 2);
         aiDispersionCoefX = (8 * 2);
     };
-    class rhs_weap_m92: rhs_weap_m70_base {
+    /*class rhs_weap_m92: rhs_weap_m70_base {
         class Single: Single {
             aiDispersionCoefX = (1.4 * 2);
             aiDispersionCoefY = (1.7 * 2);
@@ -398,7 +398,7 @@ class CfgWeapons {
             aiDispersionCoefX = (1.4 * 2.5);
             aiDispersionCoefY = (1.7 * 2.5);
         };
-    };
+    };*/
     class rhs_weap_kar98k_Base_F: Rifle_Base_F {
         class Single: Mode_SemiAuto {
             aiDispersionCoefX = (1.4 * 1.67);

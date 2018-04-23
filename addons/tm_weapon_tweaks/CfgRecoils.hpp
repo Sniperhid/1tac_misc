@@ -8,8 +8,8 @@ class CfgRecoils {
     
     class recoil_zafir;
     class tm_recoil_m240: recoil_zafir {
-        kickBack[] = {"0.02*1.3","0.08*1.4"};
-        muzzleOuter[] = {"0.5*0.2","1*1","0.7*1","0.3*1"};
+        kickBack[] = {"0.02*1.3","0.06*1.4"};
+        muzzleOuter[] = {"0.5*0.2","0.8*1","0.6*1","0.25*1"};
     };
     
     class recoil_mxc;
