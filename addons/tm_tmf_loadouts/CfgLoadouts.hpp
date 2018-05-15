@@ -134,6 +134,12 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_marsoc_m81.hpp"
 	};
+	class US_NSWC_SEAL_AOR1
+	{
+		displayName = "US NSWC SEAL (AOR1)";
+		category = "USA";
+		#include "loadouts\us_nswc_seal_aor1.hpp"
+	};
 	class US_NSWC_SEAL_AOR2
 	{
 		displayName = "US NSWC SEAL (AOR2)";
