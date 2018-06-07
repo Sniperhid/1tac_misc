@@ -12,7 +12,11 @@ if (hasInterface) then {
             };
             
             if (GVAR(is1Tac)) then {
-                [player, QGVAR(insignia)] call BIS_fnc_setUnitInsignia;
+                {
+                    if (_x isEqualTo "insignia") exitWith {
+                        player setObjectTextureGlobal [_forEachIndex, getText (configFile >> "CfgUnitInsignia" >> QGVAR(insignia) >> "texture")];
+                    };
+                } forEach getArray (configFile >> "CfgVehicles" >> getText (configFile >> "CfgWeapons" >> uniform player >> "ItemInfo" >> "uniformClass") >> "hiddenSelections");
             };
         };
     }] call tmf_event_fnc_addEventHandler;
