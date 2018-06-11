@@ -10,7 +10,7 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main","A3_UI_F"};
+        requiredAddons[] = {"tac1_tm_main","A3_Ui_F","A3_Ui_F_Tank","ace_ui"};
         VERSION_CONFIG;
     };
 };
