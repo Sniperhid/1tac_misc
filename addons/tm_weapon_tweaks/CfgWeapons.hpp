@@ -7,9 +7,9 @@ class CfgWeapons {
         class FullAuto;
     };
     class rhs_weap_lmg_minimipara: rhs_weap_saw_base {
-        //recoil = "tm_recoil_m249"; // recoil_SAW
+        recoil = "tm_recoil_m240"; // recoil_SAW
         class FullAuto: FullAuto {
-            dispersion = 0.00131; // 0.00101
+            dispersion = 0.007; // 0.00101
         };
     };
     
@@ -17,7 +17,7 @@ class CfgWeapons {
     class rhs_weap_m240_base: rhs_weap_M249_base {
         recoil = "tm_recoil_m240"; // recoil_zafir
         class manual: Mode_FullAuto {
-            dispersion = 0.0006; // 0.0008
+            dispersion = 0.0004; // 0.0008
         };
     };
     
