@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 if (hasInterface) then {
-    [{
+    [{!isNull player && time > 3}, {
         ((squadParams player) param [0, []]) params [["_squadNick", ""]];
         private _playerUID = getPlayerUID player;
         private _is1Tac = (_squadNick isEqualTo "1Tac") || ((("true" configClasses (configFile >> QGVAR(players))) findIf {(getText (_x >> "uid")) isEqualTo _playerUID}) >= 0);
@@ -24,5 +24,5 @@ if (hasInterface) then {
                 };
             }] call tmf_event_fnc_addEventHandler;
         };
-    }, 3, 3] call CBA_fnc_waitAndExecute;
+    }, 0, 60, {}] call CBA_fnc_waitUntilAndExecute;
 };
