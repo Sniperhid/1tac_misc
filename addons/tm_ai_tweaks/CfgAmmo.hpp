@@ -8,9 +8,9 @@ class CfgAmmo {
         cost = 250;
     };
 	class rhs_ammo_bk_base: rhs_ammo_bm_base {
-        cost = 250;
+        cost = 100;
     };
 	class rhs_ammo_of_base: Sh_125mm_HE {
-        cost = 250;
+        cost = 100;
     };
 };
