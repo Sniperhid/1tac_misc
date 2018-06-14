@@ -1,15 +1,15 @@
 class CfgRecoils {
-    class recoil_mk200;
-    class tm_recoil_m249: recoil_mk200 {
-        muzzleOuter[] = {"0.3", "0.7", "0.4*1", "0.4*1"};
-        kickBack[] = {"0.04", "0.06"};
-        temporary = "0.012";
+    class recoil_default;
+    class recoil_saw: recoil_default {};
+    class tm_recoil_m249: recoil_saw {
+        muzzleOuter[] = {0.4,0.4,0.5,0.2};
+        temporary = 0.015;
     };
     
     class recoil_zafir;
     class tm_recoil_m240: recoil_zafir {
         kickBack[] = {"0.02","0.06*1.2"};
-        muzzleOuter[] = {"0.5*0.2","0.8*1","0.6*1","0.25*1"};
+        muzzleOuter[] = {"0.5*0.2","0.8*1","0.35*1","0.35*1"};
     };
     
     class recoil_mxc;
