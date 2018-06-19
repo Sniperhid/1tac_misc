@@ -199,7 +199,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_556x45_soft_pouch")
@@ -242,7 +242,7 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_762x51")
@@ -251,7 +251,7 @@ class mmgac : r
 class mmgag : aar
 {
 	displayName = "MMG Assistant Gunner";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
 	linkedItems[] =
 	{
 		"ItemMap",

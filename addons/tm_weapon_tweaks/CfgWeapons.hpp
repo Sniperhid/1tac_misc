@@ -34,6 +34,10 @@ class CfgWeapons {
         };
     };
     
+    class rhs_weap_savz58_base: Rifle_Base_F {
+        recoil = "recoil_mxm"; // recoil_mk20
+    };
+    
     class rhs_weap_ak74m_Base_F: Rifle_Base_F {
         recoil = "recoil_mxm"; // from recoil_mk20 to same as m4
     };
