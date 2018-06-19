@@ -78,7 +78,7 @@ class g : r
 {
     displayName = "Grenadier";
 	vest[] = {"rhs_6b5_sniper","rhs_6b5_sniper_ttsko","rhs_6b5_sniper_khaki"};
-	backpack[] = {"rhs_sidor"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     primaryWeapon[] = 
 	{
 		"rhs_weap_ak74_gp25",
@@ -203,7 +203,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-	backpack[] = {"rhs_sidor"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
         LIST_2("rhs_45Rnd_545X39_AK"),
@@ -237,7 +237,7 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	primaryWeapon[] = {"rhs_weap_pkm"};
 	sidearmWeapon[] = {};
-	backpack[] = {"bear_rd54_sand"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
 	scope[] = {};
 	magazines[] =
 	{
@@ -250,7 +250,7 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-	backpack[] = {"bear_rd54_sand"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -259,7 +259,7 @@ class mmgac : r
 class mmgag : aar
 {
 	displayName = "MMG Assistant Gunner";
-	backpack[] = {"bear_rd54_sand"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -393,7 +393,7 @@ class samg : car
 {
     displayName = "AA Missile Specialist";
     secondaryWeapon[] = {"rhs_weap_igla"};
-	backpack[] = {"bear_rd54_sand"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     magazines[] +=
     {
         LIST_2("rhs_mag_9k38_rocket")
@@ -402,7 +402,7 @@ class samg : car
 class samag : car
 {
     displayName = "AA Assistant Missile Specialist";
-	backpack[] = {"bear_rd54_sand"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     linkedItems[] =
     {
         "ItemMap",
@@ -533,7 +533,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -545,7 +545,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     items[] +=
     {
 		"ACE_DefusalKit"

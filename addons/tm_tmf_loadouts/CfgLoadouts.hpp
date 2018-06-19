@@ -319,6 +319,12 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\cdf_groundforces_ttsko.hpp"
 	};
+	class CDF_GROUNDFORCES_VZ58_TTSKO
+	{
+		displayName = "CDF Ground Forces (2001-, TTsKO, vz. 58)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_groundforces_vz58_ttsko.hpp"
+	};
 	class CDF_NATIONALGUARD_TTSKO
 	{
 		displayName = "CDF National Guard (1996-, TTsKO)";
