@@ -471,7 +471,7 @@ class CfgLoadouts
 	
 	class EAST_EUROPEAN_INSURGENTS
 	{
-		displayName = "East European Insurgents (2014-, AK-74s)";
+		displayName = "Donbass Insurgents (2014-)";
 		category = "Eastern Factions";
 		#include "loadouts\east_european_insurgents_2014.hpp"
 	};
