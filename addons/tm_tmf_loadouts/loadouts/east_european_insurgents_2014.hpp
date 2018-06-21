@@ -1,4 +1,4 @@
-tooltip = "Author: Bear\n\nSomething something East European Insurgents with AK-74s. Contemporary.";
+tooltip = "Author: Bear\n\nDonbass Insurgents with AK-74s. Don't use against Russian forces. Contemporary.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -6,27 +6,40 @@ class baseMan {// Weaponless baseclass
  	uniform[] = {
 		"bear_uniform_gorka_r_les",
 		"bear_uniform_gorka_r_les",
-		"bear_uniform_gorka_r_les",
-		"bear_uniform_gorka_r_les",
 		"bear_uniform_gorka_r_berezka",
 		"bear_uniform_gorka_r_berezka",
+		"bear_uniform_gorka_r_berezka",
+		"bear_uniform_gorka_r_mountain_flora",
+		"bear_uniform_gorka_r_mountain_flora",
+		"bear_uniform_gorka_r_emr_summer",
+		"UK3CB_BAF_U_Smock_MTP_DDPM",
+		"UK3CB_BAF_U_Smock_MTP_DPMW",
+		"UK3CB_BAF_U_Smock_DPMW_OLI",
+		"UK3CB_BAF_U_Smock_DPMW_OLI",
 		"rhs_uniform_gorka_r_y",
 		"rhs_uniform_gorka_r_y",
-		"rhs_uniform_flora_patchless",
+		"rhs_uniform_gorka_r_y",
+		"rhs_uniform_gorka_r_g",
+		"rhs_uniform_gorka_r_g",
+		"rhs_uniform_flora_patchless_alt",
+		"rhs_uniform_emr_patchless",
+		"rhs_uniform_mvd_izlom",
 		"rhsgref_uniform_vsr",
-		"rhsgref_uniform_vsr",
-		"rhsgref_uniform_specter",
-		"rhsgref_uniform_specter",
-		"rhsgref_uniform_specter",
-		"rhsgref_uniform_specter",
-		"rhsgref_uniform_specter"
+		"bear_uniform_m88_specters_stgeorge",
+		"bear_uniform_m88_specters_stgeorge",
+		"bear_uniform_m88_specters_stgeorge",
+		"bear_uniform_m88_specters_stgeorge",
+		"bear_uniform_m88_specters_stgeorge",
+		"bear_uniform_m88_specters_stgeorge"
 	};
    	vest[] = {};
    	backpack[] = {
-		"bear_rd54_vsr",
 		"CUP_B_CivPack_WDL",
+		"rhssaf_alice_smb",
+		"rhs_sidor",
 		"rhs_sidor",
 		"B_TacticalPack_mcamo",
+		"rhs_assault_umbts_engineer_empty",
 		"B_TacticalPack_oli"
 	};
    	headgear[] = {};
@@ -69,12 +82,15 @@ class baseMan {// Weaponless baseclass
 		"rhs_balaclava",
 		"bear_balaclava1_black",
 		"rhs_balaclava1_olive",
-		"G_Bandanna_blk",
-		"G_Bandanna_oli",
+		"bear_bandana_multicam",
+		"bear_bandana_atacs_fg",
 		"rhs_googles_black",
 		"rhs_googles_yellow",
 		"rhs_scarf",
-		"G_Aviator"
+		"G_Aviator",
+		"rhsusf_shemagh2_grn",
+		"rhsusf_shemagh_od",
+		"rhsusf_shemagh_od"
 	};
 };
 class r : baseMan
@@ -95,18 +111,19 @@ class r : baseMan
 		"rhs_6b7_1m",
 		"rhs_6b7_1m_bala2_flora",
 		"rhs_altyn_novisor_ess",
-		"rhsgref_bcap_specter",
-		"rhsgref_bcap_specter",
-		"rhsgref_bcap_specter",
-		"rhsgref_bcap_specter",
-		"rhsgref_bcap_specter",
-		"rhsgref_bcap_specter",
-		"rhsgref_bcap_specter",
+		"bear_bcap_specter_stgeorge",
+		"bear_bcap_specter_stgeorge",
+		"bear_bcap_specter_stgeorge",
+		"bear_bcap_specter_stgeorge",
+		"bear_bcap_specter_stgeorge",
+		"bear_bcap_specter_stgeorge",
+		"bear_bcap_specter_stgeorge",
 		"H_Bandanna_sand",
 		"H_Bandanna_sgg",
 		"H_Bandanna_gry",
 		"H_Bandanna_camo",
 		"H_Bandanna_camo",
+		"rhssaf_bandana_oakleaf",
 		"rhs_beanie_green",
 		"rhs_beanie",
 		"bear_beanie_blue",
@@ -114,19 +131,21 @@ class r : baseMan
 		"rhs_Booniehat_ocp",
 		"H_Cap_blk",
 		"CUP_H_PMC_Cap_Grey",
-		"rhs_fieldcap_vsr",
-		"rhs_fieldcap_vsr",
 		"H_MilCap_mcamo",
 		"rhs_ssh68",
 		"rhs_ssh68",
 		"bear_ssh68_spots",
 		"bear_ssh68_spots",
-		"bear_ssh68_c_flora",
 		"rhs_tsh4",
-		"CUP_H_C_Ushanka_03",
-		"CUP_H_ChDKZ_Beanie",
 		"CUP_H_PMC_Cap_Back_Tan",
-		"H_Cap_red",
+		"usm_bdu_boonie_odg",
+		"H_Booniehat_mcamo",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
 		"",
 		"",
 		"",
@@ -139,23 +158,32 @@ class r : baseMan
 		""
 	};
 	vest[] = {
-		"rhs_6sh92",
-		"rhs_6sh92_vog",
-		"bear_6sh92_od",
-		"bear_6sh92_od_vog",
-		"rhs_6sh92_digi",
-		"rhs_6sh92_digi_vog",
-		"bear_6sh92_khaki",
-		"bear_6sh92_khaki_vog",
-		"rhs_6sh92_vsr",
-		"rhs_6sh92_vsr_vog",
-		"rhs_vydra_3m",
-		"rhs_vydra_3m"
+        "UK3CB_BAF_V_PLCE_Webbing_Plate_DDPM",
+        "UK3CB_BAF_V_PLCE_Webbing_Plate_DPMT",
+        "UK3CB_BAF_V_PLCE_Webbing_Plate_MTP",
+        "UK3CB_BAF_V_PLCE_Webbing_Plate_DDPM",
+        "rhs_6b23_digi_vydra_3m",
+        "rhs_6b23_digi_6sh92_spetsnaz2",
+        "rhs_6b23_digi_engineer",
+        "rhs_6b23_rifleman",
+        "rhs_6b23_6sh92",
+        "rhs_6b23_vydra_3m",
+        "bear_6b23_od_engineer",
+        "rhsgref_6b23_khaki_rifleman",
+        "rhsgref_6b23_khaki",
+        "rhs_6b13_Flora_6sh92",
+        "rhs_6b13_6sh92",
+        "rhs_6b5_rifleman_vsr",
+        "rhs_6b5_rifleman_khaki",
+        "rhs_6b5_rifleman"
 	};
     primaryWeapon[] =
 	{
-		"rhs_weap_ak74",
+		"rhs_weap_ak74m_2mag_camo",
 		"rhs_weap_ak74m_fullplum",
+		"bear_weap_ak74m_orange_mag",
+		"rhs_weap_ak74",
+		"rhs_weap_ak74_2",
 		"rhs_weap_ak74_3", // green
 		"rhs_weap_aks74n"
 	};
@@ -350,6 +378,22 @@ class mmgg : ar
 		"CUP_B_CivPack_WDL",
 		"bear_carryall_dpm",
 		"B_Carryall_khk"
+	};
+    vest[] = {
+        "rhs_6b23_digi_vydra_3m",
+        "rhs_6b23_digi_6sh92_spetsnaz2",
+        "rhs_6b23_digi_engineer",
+        "rhs_6b23_rifleman",
+        "rhs_6b23_6sh92",
+        "rhs_6b23_vydra_3m",
+        "bear_6b23_od_engineer",
+        "rhsgref_6b23_khaki_rifleman",
+        "rhsgref_6b23_khaki",
+        "rhs_6b13_Flora_6sh92",
+        "rhs_6b13_6sh92",
+        "rhs_6b5_rifleman_vsr",
+        "rhs_6b5_rifleman_khaki",
+        "rhs_6b5_rifleman"
 	};
 	scope[] = {};
 	magazines[] =
