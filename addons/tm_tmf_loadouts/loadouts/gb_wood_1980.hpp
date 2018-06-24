@@ -340,7 +340,7 @@ class hatac : r
 class hatag : car
 {
 	displayName = "HAT Assistant Gunner";
-	vest[] = {"usm_vest_LBE_rm"};
+	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
 	backpackItems[] =
 	{
 		LIST_2("rhs_fgm148_magazine_AT")
@@ -374,7 +374,7 @@ class mtrac : r
 class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
-	vest[] = {"usm_vest_LBE_rm"};
+	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backPack[] = {"B_Mortar_01_support_F"};
     linkedItems[] =
     {
@@ -414,7 +414,7 @@ class sn : r
 {
     displayName = "Sniper";
     uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
-    vest[] = {"V_Chestrig_rgr"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     headgear[] = {};
     goggles[] = {"default"};
     primaryWeapon[] = {"rhs_weap_XM2010_sa"};
@@ -451,7 +451,7 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     uniform[] = {"bear_uniform_m93_dpm"};
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"CUP_H_USMC_Crew_Helmet"};
@@ -464,7 +464,7 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     uniform[] = {"bear_uniform_m93_dpm"};
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
     headgear[] = {"CUP_H_USMC_Crew_Helmet"};
     linkedItems[] += {"ItemGPS"};
@@ -480,7 +480,7 @@ class pp : smg
 {
     displayName = "Helicopter Pilot";
     uniform[] = {"bear_uniform_m93_dpm"};
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
@@ -495,7 +495,7 @@ class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
     uniform[] = {"bear_uniform_m93_dpm"};
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
     goggles[] = {"default"};
@@ -515,7 +515,7 @@ class jp : baseMan
 {
     displayName = "Jet pilot";
     uniform[] = {"bear_uniform_m93_dpm"};
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"RHS_jetpilot_usaf"};
@@ -535,7 +535,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     magazines[] +=
     {
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
@@ -551,7 +551,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
@@ -569,6 +569,6 @@ class UAV : car
 {
     displayName = "UAV Operator";
     backpack[] = {"B_rhsusf_B_BACKPACK"};
-	vest[] = {"usm_vest_LBE_rm"};
+	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     linkedItems[] += {"B_UavTerminal"};
 };
