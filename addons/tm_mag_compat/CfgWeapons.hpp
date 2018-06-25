@@ -6,10 +6,12 @@
 
 #define __TM_556_ADDITIONAL "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow", "mbg_mag_20Rnd_556x45_M855A1_Stanag"
 #define __TM_556_STANAG_ACE_MAGS "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "ACE_30Rnd_556x45_Stanag_Mk262_mag", "ACE_30Rnd_556x45_Stanag_Mk318_mag", "ACE_30Rnd_556x45_Stanag_Tracer_Dim"
-#define __556_MAGS __556STANAG_RHS_MAGS, __TM_556_ADDITIONAL, __TM_556_STANAG_ACE_MAGS, __556STANAG_BI_MAGS, __556STANAG_CUP_MAGS
+#define __TM_556_STANAG_3CB_MAGS "UK3CB_BAF_556_30Rnd", "UK3CB_BAF_556_30Rnd_Blank", "UK3CB_BAF_556_30Rnd_T"
+#define __556_MAGS __556STANAG_RHS_MAGS, __TM_556_ADDITIONAL, __TM_556_STANAG_ACE_MAGS, __556STANAG_BI_MAGS, __556STANAG_CUP_MAGS, __TM_556_STANAG_3CB_MAGS
 
 #define __TM_556BELTS_ADDITIONAL "rhsusf_100Rnd_556x45_M855_soft_pouch", "rhsusf_200Rnd_556x45_M855_soft_pouch"
-#define __556_BELTS __556NATO_RHS_BELTS, __556NATO_BI_BELTS, __556NATO_CUP_BELTS, __TM_556BELTS_ADDITIONAL
+#define __TM_556BELTS_3CB "UK3CB_BAF_556_100Rnd_T", "UK3CB_BAF_556_100Rnd_Blank", "UK3CB_BAF_556_100Rnd_T", "UK3CB_BAF_556_200Rnd_T", "UK3CB_BAF_556_200Rnd_Blank", "UK3CB_BAF_556_200Rnd_T"
+#define __556_BELTS __556NATO_RHS_BELTS, __556NATO_BI_BELTS, __556NATO_CUP_BELTS, __TM_556BELTS_ADDITIONAL, __TM_556BELTS_3CB
 //Don't use Toadie's AR15s - __556STANAG_MAGS
 //Don't use Toadies SAW pack - __556NATO_BELTS
 
@@ -19,15 +21,18 @@
 #define __762_MAGS __762x39_RHS_MAGS, __762x39_MAGS, __762x39_BI_MAGS
 #define __762_RPK_MAGS __762_MAGS, "hlc_75Rnd_762x39_m_rpk"
 
-#define __762_NATO_MAGS __762NATO_RHS_BELTS, __762NATO_CUP_BELTS 
+#define __TM_762NATO_3CB_BELTS "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T"
+#define __762_NATO_MAGS __762NATO_RHS_BELTS, __762NATO_CUP_BELTS, __TM_762NATO_3CB_BELTS
 // Exclude BI mags 150rnd boxes __762NATO_BI_BELTS 
 
 #define __TM_762x51_20x_ACE_MAGS "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer_Dim", "ACE_20Rnd_762x51_Mk316_Mod_0_Mag", "ACE_20Rnd_762x51_M118LR_Mag", "ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD"
 #define __TM_762x51_20x_EXTRA_MAGS "tm_20Rnd_762x51_m80_Mag", "tm_20Rnd_762x51_m80a1epr_Mag"
-#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS, __TM_762x51_20x_EXTRA_MAGS
+#define __TM_762x51_20x_3CB_MAGS "UK3CB_BAF_762_20Rnd", "UK3CB_BAF_762_20Rnd_Blank", "UK3CB_BAF_762_20Rnd_T"
+#define __762_NATO_20_MAGS __762M14_MAGS, __762M14_BI_MAGS, __762M14_RHS_MAGS, __762M14_CUP_MAGS, __TM_762x51_20x_ACE_MAGS, __TM_762x51_20x_EXTRA_MAGS, __TM_762x51_20x_3CB_MAGS
 
 #define __40MM_M203_ADDITIONAL "ACE_HuntIR_M203", "rhs_mag_M781_Practice", "rhs_mag_M397_HET"
-#define __40MM_M203_MAGS __40MM_M203_RHS_GRENADES, __40MM_M203_ADDITIONAL, __40MM_M203_BI_GRENADES, __40MM_M203_CUP_GRENADES
+#define __TM_40MM_M203_3CB "UK3CB_BAF_1Rnd_HE_Grenade_Shell", "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell", "UK3CB_BAF_1Rnd_Blank_Grenade_Shell", "UK3CB_BAF_UGL_FlareCIR_F"
+#define __40MM_M203_MAGS __40MM_M203_RHS_GRENADES, __40MM_M203_ADDITIONAL, __40MM_M203_BI_GRENADES, __40MM_M203_CUP_GRENADES, __TM_40MM_M203_3CB
 
 #define __40MM_GP25_MAGS __40MM_GP_RHS_GRENADES, __40MM_GP_GRENADES
 
@@ -360,5 +365,80 @@ class CfgWeapons
     class mbg_m16a2: rhs_weap_m16a4
     {
         magazines[] = { __556_MAGS };
+    };
+    
+    // 3CB
+    class mk20_base_F: Rifle_Base_F {};
+    class arifle_Mk20_F: mk20_base_F {};
+    class arifle_Mk20_plain_F: arifle_Mk20_F {};
+    class UK3CB_BAF_L85A2: arifle_Mk20_plain_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class UK3CB_BAF_L85A2_UGL: UK3CB_BAF_L85A2
+    {
+        class UK3CB_BAF_L123A2: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+        class UK3CB_BAF_L123A3_V2: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+    };
+    class UK3CB_BAF_L85A2_UGL_HWS: UK3CB_BAF_L85A2
+    {
+        class UK3CB_BAF_L123A2: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+        class UK3CB_BAF_L123A3_V2: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+    };
+    class UK3CB_BAF_L119_Base: arifle_Mk20_plain_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class UK3CB_BAF_L119A1_UKUGL: UK3CB_BAF_L119_Base
+    {
+        class UK3CB_BAF_L123A2: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+    };
+    /*class UK3CB_BAF_L1A1: Rifle_Base_F
+    {
+        
+    };*/
+    class EBR_base_F: Rifle_Long_Base_F {};
+    class srifle_EBR_F: EBR_base_F {};
+    class UK3CB_BAF_L129A1: srifle_EBR_F
+    {
+        magazines[] = { __762_NATO_20_MAGS };
+    };
+    class UK3CB_BAF_L110_Base: Rifle_Long_Base_F {};
+    class UK3CB_BAF_L110_556_Base: UK3CB_BAF_L110_Base
+    {
+        magazines[] = { __556_BELTS, "UK3CB_BAF_556_30Rnd","UK3CB_BAF_556_30Rnd_Blank","UK3CB_BAF_556_30Rnd_T" };
+    };
+    class UK3CB_BAF_L110_762_Base: UK3CB_BAF_L110_Base
+    {
+        magazines[] = { __762_NATO_MAGS };
+    };
+    class UK3CB_BAF_L7A2: Rifle_Long_Base_F
+    {
+        magazines[] = { __762_NATO_MAGS };
+    };
+    class LMG_RCWS;
+    class UK3CB_BAF_L7A2_veh: LMG_RCWS
+    {
+        magazines[] = { __762_NATO_MAGS };
+    };
+    class LMG_coax: LMG_RCWS {};
+    class UK3CB_BAF_L37A1_veh: LMG_coax
+    {
+        magazines[] = { __762_NATO_MAGS };
     };
 };
