@@ -1,6 +1,6 @@
 /* assignGear specific macros */
 
-tooltip = "Author: Delta";
+tooltip = "Author: Sam, with help from Fingers and Crazy";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
