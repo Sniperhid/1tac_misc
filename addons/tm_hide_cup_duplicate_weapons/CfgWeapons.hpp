@@ -18,9 +18,9 @@ class CfgWeapons
 	class CUP_arifle_AK107_GL: CUP_arifle_AK107_Base { HIDE };
 	class CUP_arifle_RPK74: CUP_arifle_AK74 { HIDE };
 	class CUP_arifle_RPK74_45: CUP_arifle_RPK74 { HIDE };
-	class CUP_arifle_RPK74M: CUP_arifle_RPK74_45 { HIDE };
+	class CUP_arifle_RPK74M: CUP_arifle_RPK74 { HIDE };
 	
-	class CUP_arifle_G36_Base: Rifle_Base_F {};
+	/*class CUP_arifle_G36_Base: Rifle_Base_F {};
 	class CUP_arifle_G36A: CUP_arifle_G36_Base { HIDE };
 	class CUP_arifle_G36A_camo: CUP_arifle_G36A { HIDE };
 	class CUP_arifle_G36K: CUP_arifle_G36A { HIDE };
@@ -28,7 +28,7 @@ class CfgWeapons
 	class CUP_arifle_G36C: Rifle_Base_F { HIDE };
 	class CUP_arifle_G36C_camo: CUP_arifle_G36C { HIDE };
 	class CUP_arifle_MG36: CUP_arifle_G36C { SHOW };
-	class CUP_arifle_MG36_camo: CUP_arifle_MG36 { HIDE };
+	class CUP_arifle_MG36_camo: CUP_arifle_MG36 { HIDE };*/
 	
 	class CUP_arifle_M16_Base: Rifle_Base_F {};
 	class CUP_arifle_M16A4_Base: CUP_arifle_M16_Base { HIDE };
@@ -56,10 +56,8 @@ class CfgWeapons
 	class CUP_hgun_Glock17: Pistol_Base_F { HIDE };
 	
 	class Launcher_Base_F;
-	class CUP_launch_M136: Launcher_Base_F { HIDE };
-	
-	class CUP_launch_Mk153Mod0: Launcher_Base_F { HIDE };
-	
+	//class CUP_launch_M136: Launcher_Base_F { HIDE };
+	//class CUP_launch_Mk153Mod0: Launcher_Base_F { HIDE };
 	class CUP_launch_NLAW: Launcher_Base_F { HIDE };
 	
 	class CUP_arifle_FNFAL: Rifle_Base_F { HIDE };

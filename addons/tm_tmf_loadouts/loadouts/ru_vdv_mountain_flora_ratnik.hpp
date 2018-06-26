@@ -5,7 +5,7 @@ tooltip = "Author: Bear\n\nEnjoys treks in the mountains.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
- 	uniform[] = {"rhs_uniform_vdv_mflora"};
+ 	uniform[] = {"bear_uniform_gorka_r_mountain_flora"};
    	vest[] = {};
    	backpack[] = {"rhs_assault_umbts"};
    	headgear[] = {};
@@ -456,7 +456,7 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_vdv_mflora"};
+    uniform[] = {"bear_uniform_gorka_r_mountain_flora"};
     vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
@@ -466,7 +466,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_vdv_mflora"};
+    uniform[] = {"bear_uniform_gorka_r_mountain_flora"};
     vest[] = {"rhs_6b13_EMR"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};

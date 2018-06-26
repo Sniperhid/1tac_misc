@@ -10,7 +10,7 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main","A3_UI_F"};
+        requiredAddons[] = {"tac1_tm_main","A3_Ui_F","A3_Ui_F_Tank","ace_ui"};
         VERSION_CONFIG;
     };
 };
@@ -227,9 +227,17 @@ class RscDisplayMultiplayerSetup: RscStandardDisplay
         };
 	};
 };
-class cfgMods
-{
-	author = "76561198014669991";
-	timepacked = "1442491890";
+
+class RscDisplayPassword: RscStandardDisplay {
+    class controls {
+        class quickjoin: RscButtonMenu {
+            text = "1TAC Quick Join";
+            colorBackground[] = {0.9,0.43,0.27,0.8};
+            onButtonClick = "((ctrlParent (_this select 0)) displayCtrl 101) ctrlSetText ""candyvan""; ctrlActivate ((ctrlParent (_this select 0)) displayCtrl 1);";
+            x = "1.1 *(((safezoneW / safezoneH) min 1.2) / 40) +(safezoneX) + 6.25 *(((safezoneW / safezoneH) min 1.2) / 40)";
+            y = "23 *((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) +(safezoneY + safezoneH -(((safezoneW / safezoneH) min 1.2) / 1.2))";
+            w = "32.55 *(((safezoneW / safezoneH) min 1.2) / 40) +(safezoneX) - (1 *(((safezoneW / safezoneH) min 1.2) / 40) +(safezoneX) + 6.25 *(((safezoneW / safezoneH) min 1.2) / 40))";
+            h = "1 *((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+        };
+    };
 };
-//};

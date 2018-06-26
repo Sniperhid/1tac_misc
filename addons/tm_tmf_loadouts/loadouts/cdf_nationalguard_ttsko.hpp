@@ -201,7 +201,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
         LIST_7("hlc_45Rnd_762x39_m_rpk")
@@ -232,7 +232,7 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	primaryWeapon[] = {"rhs_weap_pkm"};
 	sidearmWeapon[] = {};
-	backpack[] = {"rhs_sidor"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
 	scope[] = {};
 	magazines[] =
 	{
@@ -244,7 +244,7 @@ class mmgg : ar
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -253,7 +253,7 @@ class mmgac : car
 class mmgag : aar
 {
 	displayName = "MMG Assistant Gunner";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -387,7 +387,7 @@ class samg : car
 {
     displayName = "AA Missile Specialist";
     secondaryWeapon[] = {"rhs_weap_igla"};
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     magazines[] +=
     {
         LIST_2("rhs_mag_9k38_rocket")
@@ -396,7 +396,7 @@ class samg : car
 class samag : car
 {
     displayName = "AA Assistant Missile Specialist";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     linkedItems[] =
     {
         "ItemMap",
@@ -526,7 +526,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -538,7 +538,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-	backpack[] = {"B_Carryall_oli"};
+	backpack[] = {"rhsgref_ttsko_alicepack"};
     items[] +=
     {
 		"ACE_DefusalKit"

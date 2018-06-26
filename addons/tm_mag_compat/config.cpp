@@ -14,7 +14,9 @@ class CfgPatches
 			"A3_Weapons_F","A3_Weapons_F_Exp",
 			"hlcweapons_core","hlcweapons_aks",
 			"rhs_c_weapons","rhsusf_c_weapons","rhsgref_c_weapons","rhssaf_c_weapons",
-			"cup_weapons_grenadelaunchers","cup_weapons_l85","cup_weapons_m249","cup_weapons_mk48","cup_weapons_scar","cup_weapons_xm8"
+			"cup_weapons_grenadelaunchers","cup_weapons_l85","cup_weapons_m249","cup_weapons_mk48","cup_weapons_scar","cup_weapons_xm8",
+            "mbg_m16a2",
+            "UK3CB_BAF_Weapons"
 		};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;
