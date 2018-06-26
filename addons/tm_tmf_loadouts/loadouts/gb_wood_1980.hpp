@@ -1,6 +1,6 @@
 /* assignGear specific macros */
 
-tooltip = "Author: Sam, with help from Fingers and Crazy";
+tooltip = "Author: Sam, modified Deltas original loadout";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -145,12 +145,6 @@ class co : sl
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
 		LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
-		/*LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
-		LIST_3("1Rnd_SmokeRed_Grenade_shell"),*/
-		LIST_2("SmokeShellGreen"),
-		LIST_2("SmokeShellPurple"),
-		/*LIST_3("1Rnd_HE_Grenade_shell"),
-        LIST_2("1Rnd_Smoke_Grenade_shell"),*/
 		LIST_7("UK3CB_BAF_762_20Rnd"),
         LIST_2("UK3CB_BAF_762_20Rnd_T"),
         "HandGrenade",
@@ -253,20 +247,29 @@ class mmgag : aar
 class hmgg : car
 {
     displayName = "HMG Gunner";
-    backPack[] = {"UK3CB_BAF_L111A1"};
-	backpackItems[] =
-	{
-		LIST_2("UK3CB_BAF_127_100Rnd")
-	};
-
+    secondaryWeapon[] = {"UK3CB_BAF_L111A1"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
 };
 class hmgac : r
 {
     displayName = "HMG Ammo Carrier";
     backPack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
 	backpackItems[] =
 		{
-			LIST_5("UK3CB_BAF_127_100Rnd")
+			"UK3CB_BAF_127_100Rnd"
 		};
 };
 class hmgag : car
@@ -274,17 +277,19 @@ class hmgag : car
 	displayName = "HMG Assistant Gunner";
     secondaryWeapon[] = {"UK3CB_BAF_Tripod"};
 	backPack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
 	linkedItems[] =
 	{
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
-		"Rangefinder",
-		"ItemGPS"
-	};
-	backpackItems[] =
-	{
-		LIST_3("UK3CB_BAF_127_100Rnd")
+		"Rangefinder"
 	};
 };
 class matg : car
@@ -327,47 +332,60 @@ class matag : car
 class hatg : car
 {
     displayName = "HAT Gunner";
-	secondaryWeapon[] = {"rhs_weap_fgm148"};
-	backpackItems[] =
-	{
-		LIST_2("rhs_fgm148_magazine_AT")
-	};
+	backPack[] = {"rhs_Tow_Gun_Bag"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
 };
 class hatac : r
 {
 	displayName = "HAT Ammo Carrier";
-	backpackItems[] =
-	{
-		LIST_2("rhs_fgm148_magazine_AT")
-	};
+	backPack[] = {"rhs_Tow_Gun_Bag"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
 };
 class hatag : car
 {
 	displayName = "HAT Assistant Gunner";
 	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
-	backpackItems[] =
-	{
-		LIST_2("rhs_fgm148_magazine_AT")
-	};
+	backPack[] = {"rhs_TOW_Tripod_Bag"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
 	linkedItems[] =
 	{
 		"ItemMap",
 		"ItemCompass",
 		"ItemWatch",
 		"Rangefinder",
-		"ItemGPS"
 	};
 };
 class mtrg : car
 {
     displayName = "Mortar Gunner";
     secondaryWeapon[] = {"UK3CB_BAF_L16"};
+	backpackItems[] =
+	{
+		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells")
+	};
     linkedItems[] =
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
-        "ItemGPS"
+        "ItemWatch"
     };
 };
 class mtrac : r
@@ -375,8 +393,7 @@ class mtrac : r
     displayName = "Mortar Ammo Carrier";
 	backpackItems[] =
 	{
-		LIST_5("UK3CB_BAF_1Rnd_81mm_Mo_Shells"),
-		LIST_5("UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White")
+		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White")
 	};
 };
 class mtrag : car
@@ -384,13 +401,16 @@ class mtrag : car
     displayName = "Mortar Assistant Gunner";
 	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     secondaryWeapon[] = {"UK3CB_BAF_L16_Tripod"};
+	backpackItems[] =
+	{
+		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells")
+	};
     linkedItems[] =
     {
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
         "Rangefinder",
-        "ItemGPS"
     };
 };
 class samg : car
@@ -399,7 +419,7 @@ class samg : car
     secondaryWeapon[] = {"rhs_weap_fim92"};
     magazines[] +=
     {
-        LIST_3("rhs_fim92_mag")
+        "rhs_fim92_mag"
     };
 };
 class samag : car
@@ -410,12 +430,11 @@ class samag : car
         "ItemMap",
         "ItemCompass",
         "ItemWatch",
-        "Rangefinder",
-        "ItemGPS"
+        "Rangefinder"
     };
     backpackItems[] =
     {
-        LIST_2("rhs_fim92_mag")
+        "rhs_fim92_mag"
     };
 };
 class sn : r
@@ -554,5 +573,12 @@ class UAV : car
     displayName = "UAV Operator";
     backpack[] = {"B_rhsusf_B_BACKPACK"};
 	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
+    magazines[] =
+    {
+        LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_2("HandGrenade"),
+        LIST_2("SmokeShell")
+    };
     linkedItems[] += {"B_UavTerminal"};
 };
