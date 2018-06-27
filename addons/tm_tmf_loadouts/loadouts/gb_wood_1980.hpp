@@ -502,7 +502,6 @@ class pp : smg
 {
     displayName = "Helicopter Pilot";
     uniform[] = {"bear_uniform_m93_dpm"};
-    vest[] = {};
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
 	radios[] = {"ACRE_PRC117F"};
