@@ -384,7 +384,7 @@ class mtrg : car
     secondaryWeapon[] = {"UK3CB_BAF_L16"};
 	backpackItems[] =
 	{
-		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells");
+		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells")
 	};
 	linkedItems[] =
 	{
@@ -399,7 +399,7 @@ class mtrac : r
 	displayName = "Mortar Ammo Carrier";
 	backpackItems[] =
 	{
-		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White");
+		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White")
 	};
 };
 class mtrag : car
@@ -408,7 +408,7 @@ class mtrag : car
     secondaryWeapon[] = {"UK3CB_BAF_L16_Tripod"};
 	backpackItems[] =
 	{
-		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells");
+		LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells")
 	};
 	linkedItems[] =
 	{
