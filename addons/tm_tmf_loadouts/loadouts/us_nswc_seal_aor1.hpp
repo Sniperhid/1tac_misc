@@ -10,10 +10,7 @@ class baseMan {// Weaponless baseclass
    	backpack[] = {"rhsusf_falconii_coy"};
    	headgear[] = {};
    	goggles[] = {"default"};
-   	hmd[] = 
-	{
-		// "rhsusf_ANPVS_15"
-	};
+   	hmd[] = {"A3_GPNVG18_F"};
     // Leave empty to remove all. "Default" > leave original item.
 
     // All randomized
