@@ -389,6 +389,12 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\syndikat_1990_bandit.hpp"
 	};
+	class SYNDIKAT_2000_PARAMILITARY
+	{
+		displayName = "Syndikat (2000-, Paramilitary)";
+		category = "Armaverse Factions";
+		#include "loadouts\syndikat_2000_paramilitary.hpp"
+	};
 	class US_ARMY_UCP_A2OA
 	{
 		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
