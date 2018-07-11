@@ -414,6 +414,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\generic_paramilitary_tigerstripe_m16.hpp"
 	};
+	class GENERIC_PARAMILITARY_TIGERSTRIPE_DESERT
+	{
+		displayName = "Generic Paramilitary (2000-, Desert Tigerstripe)";
+		category = "Other";
+		#include "loadouts\generic_paramilitary_tigerstripe_desert.hpp"
+	};
 	
 	class GDR_NVA_1980_STRICHTARN
 	{
