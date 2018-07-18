@@ -52,31 +52,21 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
 	{
-		"rhsusf_opscore_aor2_pelt_nsw",
-		"rhsusf_opscore_aor2_pelt",
-		"rhsusf_opscore_aor2"
+		"rhsusf_opscore_fg_pelt_nsw",
+		"rhsusf_opscore_fg_pelt_cam",
+		"rhsusf_opscore_fg_pelt"
 	};
 	vest[] = {"rhsusf_mbav_rifleman"};
     primaryWeapon[] = 
 	{
-		LIST_3("rhs_weap_mk18_KAC_wd"),
-		LIST_3("rhs_weap_mk18_wd"),
-		LIST_3("rhs_weap_m4a1_blockII_wd"),
-		LIST_3("rhs_weap_m4a1_blockII_KAC_wd"),
-		
-		"rhs_weap_mk18_KAC_bk",
-		"rhs_weap_mk18_bk",
-		"rhs_weap_mk18",
-		"rhs_weap_m4a1_blockII_KAC",
-		"rhs_weap_m4a1_blockII_KAC_bk",
-		"rhs_weap_m4a1_blockII_bk",
-		"rhs_weap_m4a1_blockII"
+		LIST_2("rhs_weap_hk416d10_LMT"),
+		LIST_2("rhs_weap_hk416d10_LMT_wd"),
+		"rhs_weap_hk416d10"
 	};
 	bipod[] = 
 	{
 		"rhsusf_acc_grip2",
-		"rhsusf_acc_grip3",
-		""
+		"rhsusf_acc_grip3"
 	};
     scope[] = 
 	{
@@ -84,10 +74,8 @@ class r : baseMan
 	};
     silencer[] = 
 	{
-		"rhsusf_acc_SF3P556",
-		"rhsusf_acc_SF3P556",
-		"rhsusf_acc_SF3P556",
-		"rhsusf_acc_SFMB556"
+		"rhsusf_acc_nt4_black",
+		"rhsusf_acc_nt4_tan"
 	};
     attachment[] = 
 	{
@@ -112,10 +100,7 @@ class g : r
 	vest[] = {"rhsusf_mbav_grenadier"};
     primaryWeapon[] = 
 	{
-		LIST_3("rhs_weap_m4a1_blockII_M203_wd"),
-		"rhs_weap_mk18_m320",
-		"rhs_weap_m4a1_blockII_M203",
-		"rhs_weap_m4a1_blockII_M203_bk"
+		"rhs_weap_hk416d10_m320"
 	};
 	bipod[] = {};
     magazines[] +=
@@ -148,6 +133,7 @@ class smg : r
 	primaryWeapon[] = {"rhsusf_weap_MP7A1_base_f"};
 	scope[] = {"rhsusf_acc_eotech_xps3"};
 	attachment[] = {"rhsusf_acc_M952V"};
+    silencer[] = {"rhsusf_acc_rotex_mp7"};
 	bipod[] = {};
 	backpackItems[] = {};
     magazines[] =
