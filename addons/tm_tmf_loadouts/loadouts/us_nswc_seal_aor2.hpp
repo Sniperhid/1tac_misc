@@ -52,9 +52,9 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
 	{
-		"rhsusf_opscore_aor2_pelt_nsw",
-		"rhsusf_opscore_aor2_pelt",
-		"rhsusf_opscore_aor2"
+		"rhsusf_opscore_fg_pelt_nsw",
+		"rhsusf_opscore_fg_pelt_cam",
+		"rhsusf_opscore_fg_pelt"
 	};
 	vest[] = {"rhsusf_mbav_rifleman"};
     primaryWeapon[] = 
