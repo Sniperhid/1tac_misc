@@ -279,12 +279,12 @@ class hmgag : ftl
 class matg : car
 {
     displayName = "MAT Gunner";
-    secondaryWeapon[] = {"tf47_m3maaws"};
+    secondaryWeapon[] = {"rhs_weap_maaws"};
     backPack[] = {"rhssaf_alice_md2camo"};
     magazines[] +=
     {
-        LIST_2("tf47_m3maaws_HEAT"),
-        "tf47_m3maaws_HEDP"
+        LIST_2("rhs_mag_maaws_HEAT"),
+        "rhs_mag_maaws_HEDP"
     };
 };
 class matac : r
@@ -293,9 +293,9 @@ class matac : r
     backPack[] = {"rhssaf_alice_md2camo"};
     magazines[] +=
     {
-        "tf47_m3maaws_HEAT",
-        "tf47_m3maaws_HE",
-        "tf47_m3maaws_SMOKE"
+        "rhs_mag_maaws_HEAT",
+        "rhs_mag_maaws_HE",
+        "rhs_mag_maaws_HE"
     };
 };
 class matag : ftl
@@ -304,8 +304,8 @@ class matag : ftl
     backPack[] = {"rhssaf_alice_md2camo"};
     magazines[] +=
     {
-        LIST_2("tf47_m3maaws_HEAT"),
-        "tf47_m3maaws_HEDP"
+        LIST_2("rhs_mag_maaws_HEAT"),
+        "rhs_mag_maaws_HEDP"
     };
 };
 class hatg : car

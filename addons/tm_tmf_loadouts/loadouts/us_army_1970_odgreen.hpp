@@ -291,14 +291,14 @@ class hmgag : car
 class matg : car
 {
 	displayName = "MAT Gunner";
-	secondaryWeapon[] = {"tf47_m3maaws"};
+	secondaryWeapon[] = {"rhs_weap_maaws"};
 	magazines[] +=
 	{
-		"tf47_m3maaws_HEAT"
+		"rhs_mag_maaws_HEAT"
 	};
 	backpackItems[] =
 	{
-		LIST_2("tf47_m3maaws_HEAT")
+		LIST_2("rhs_mag_maaws_HEAT")
 	};
 };
 class matac : ra
@@ -306,7 +306,7 @@ class matac : ra
 	displayName = "MAT Ammo Carrier";
 	backpackItems[] =
 	{
-		LIST_2("tf47_m3maaws_HEAT")
+		LIST_2("rhs_mag_maaws_HEAT")
 	};
 };
 class matag : car
@@ -321,7 +321,7 @@ class matag : car
 	};
 	backpackItems[] =
 	{
-		LIST_2("tf47_m3maaws_HEAT")
+		LIST_2("rhs_mag_maaws_HEAT")
 	};
 };
 class hatg : car

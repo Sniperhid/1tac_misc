@@ -248,14 +248,14 @@ class hmgag : ftl
 class matg : r
 {
     displayName = "MAT Gunner";
-    secondaryWeapon[] = {"tf47_smaw_green"};
-    secondaryAttachments[] = {"tf47_optic_smaw"};
+    secondaryWeapon[] = {"rhs_weap_smaw"};
+    secondaryAttachments[] = {"rhs_weap_optic_smaw"};
     backPack[] = {"usm_pack_alice"};
     magazines[] +=
     {
-        LIST_2("tf47_smaw_SR"),
-        "tf47_smaw_HEAA",
-        "tf47_smaw_HEDP"
+        LIST_2("rhs_mag_smaw_SR"),
+        "rhs_mag_smaw_HEAA",
+        "rhs_mag_smaw_HEDP"
     };
 };
 class matac : r
@@ -264,8 +264,8 @@ class matac : r
     backPack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        "tf47_smaw_HEAA",
-        "tf47_smaw_HEDP"
+        "rhs_mag_smaw_HEAA",
+        "rhs_mag_smaw_HEDP"
     };
 };
 class matag : ftl
@@ -274,7 +274,7 @@ class matag : ftl
     backPack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_2("tf47_smaw_HEAA")
+        LIST_2("rhs_mag_smaw_HEAA")
     };
 };
 class hatg : r

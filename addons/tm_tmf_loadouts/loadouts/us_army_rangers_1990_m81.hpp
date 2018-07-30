@@ -152,7 +152,7 @@ class aar : r
 class rat : r
 {
     displayName = "Rifleman (AT)";
-    secondaryWeapon[] = {"tf47_at4_heat"};
+    secondaryWeapon[] = {"rhs_weap_M136"};
 };
 class dm : r
 {
@@ -216,13 +216,13 @@ class hmgag : ftl
 class matg : r
 {
     displayName = "MAT Gunner";
-    secondaryWeapon[] = {"tf47_m3maaws"};
-    secondaryAttachments[] = {"tf47_optic_m3maaws"};
+    secondaryWeapon[] = {"rhs_weap_maaws"};
+    secondaryAttachments[] = {"rhs_weap_maaws_optic"};
     backPack[] = {"usm_pack_alice"};
     magazines[] +=
     {
-        LIST_2("tf47_m3maaws_HEAT"),
-        "tf47_m3maaws_HEDP"
+        LIST_2("rhs_mag_maaws_HEAT"),
+        "rhs_mag_maaws_HEDP"
     };
 };
 class matac : r
@@ -231,8 +231,8 @@ class matac : r
     backPack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_2("tf47_m3maaws_HEAT"),
-        "tf47_m3maaws_HE"
+        LIST_2("rhs_mag_maaws_HEAT"),
+        "rhs_mag_maaws_HE"
     };
 };
 class matag : ftl
@@ -241,8 +241,8 @@ class matag : ftl
     backPack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_2("tf47_m3maaws_HEAT"),
-        "tf47_m3maaws_HE"
+        LIST_2("rhs_mag_maaws_HEAT"),
+        "rhs_mag_maaws_HE"
     };
 };
 class hatg : r
