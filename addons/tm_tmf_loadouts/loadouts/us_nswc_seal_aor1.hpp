@@ -221,7 +221,7 @@ class ar : r
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = {"rhs_weap_m249_pip_S_vfg"};
 	bipod[] = {"rhsusf_acc_grip4"};
-	scope[] = {"rhsusf_acc_eotech_552"};
+	scope[] = {"rhsusf_acc_elcan"};
 	attachment[] = {"rhsusf_acc_anpeq15side_bk"};
 	vest[] = {"rhsusf_mbav_mg"};
 	magazines[] =

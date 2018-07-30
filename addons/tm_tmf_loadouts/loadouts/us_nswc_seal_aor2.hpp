@@ -70,7 +70,9 @@ class r : baseMan
 	};
     scope[] = 
 	{
-		"rhsusf_acc_SpecterDR"
+		"rhsusf_acc_eotech_552",
+		"rhsusf_acc_eotech_xps3",
+		"rhsusf_acc_T1_high"
 	};
     silencer[] = 
 	{
