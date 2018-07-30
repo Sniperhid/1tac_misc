@@ -54,7 +54,7 @@ class r : baseMan
 	vest[] = {"rhsusf_spc_rifleman"};
     primaryWeapon[] = {"rhs_weap_m4a1"};
 	bipod[] = {"rhsusf_acc_grip3"};
-    scope[] = {"rhsusf_acc_ACOG","rhsusf_acc_ACOG2","rhsusf_acc_ACOG3"};
+    scope[] = {"rhsusf_acc_eotech_552"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_SF3P556","rhsusf_acc_SFMB556"};
     magazines[] =
