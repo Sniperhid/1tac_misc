@@ -226,6 +226,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_sso_atacs_fg.hpp"
 	};
+	class RUS_SPETSNAZ_SS_SUMMER
+	{
+		displayName = "RU Spetsnaz (2005, SS-Summer)";
+		category = "Russia";
+		#include "loadouts\ru_spetsnaz_ss_summer.hpp"
+	};
 	class RUS_VDV_DETACHED_RECON_EMR
 	{
 		displayName = "RU Airborne Troops Detached Recon (2015, EMR)";
