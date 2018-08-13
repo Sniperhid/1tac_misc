@@ -36,3 +36,5 @@ ace_markers_moveRestriction = 2;
 ace_scopes_correctZeroing = true;
 ace_scopes_overwriteZeroRange = false;
 ace_scopes_simplifiedZeroing = true;
+force ace_weather_enabled = false;
+force ace_weather_windSimulation = false;
