@@ -21,7 +21,7 @@ class CfgPatches {
     };
 };
 
-class EventHandlers;
+/*class EventHandlers;
 class CfgVehicles {
     class Plane_Base_F;
     class rhs_mig29s_base: Plane_Base_F {
@@ -82,4 +82,4 @@ class CfgVehicles {
             };
         };
     };
-};
+};*/

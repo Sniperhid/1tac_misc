@@ -428,7 +428,7 @@ class CfgWeapons {
             aiDispersionCoefX = (1.4 * 1.67);
             aiDispersionCoefY = (1.7 * 1.67);
         };
-        class medium_optic2: Single {
+        class medium_optic2: far_optic1 {
             aiDispersionCoefX = (1.4 * 1.67);
             aiDispersionCoefY = (1.7 * 1.67);
         };

@@ -56,7 +56,7 @@ class CfgVehicles {
             class MoveInside: OpenRamp {
                 condition = "false";
             };
-            class VehicleParadrop: MoveInside {
+            class VehicleParadrop: OpenRamp {
                 condition = "(count (attachedObjects this) > 0) AND ('man' countType (attachedObjects this) == 0) AND Alive(this) and !(""cargo"" in assignedVehicleRole (call rhsusf_fnc_findPlayer));";
             };
         };
