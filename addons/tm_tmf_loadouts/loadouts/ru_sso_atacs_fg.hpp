@@ -468,11 +468,12 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_t5000"};
     scope[] = {"rhs_acc_dh520x56"};
 	bipod[] = {"rhs_acc_harris_swivel"};
-    sidearmWeapon[] = {"rhs_weap_pp2000_folded"};
+    sidearmWeapon[] = {"rhs_weap_6p53"};
     magazines[] =
     {
         LIST_6("rhs_5Rnd_338lapua_t5000"),
-        LIST_3("rhs_mag_9x19mm_7n21_20")
+        LIST_2("rhs_18rnd_9x21mm_7N28"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3")
     };
 	backpack[] = {};
 	linkedItems[] += {"rhs_pdu4","ItemGPS"};

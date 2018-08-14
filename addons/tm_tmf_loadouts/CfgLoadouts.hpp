@@ -337,6 +337,12 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\cdf_nationalguard_ttsko.hpp"
 	};
+	class CDF_SOF_VZ58_TTSKO
+	{
+		displayName = "CDF Special Operations Forces (2013-, TTsKO, vz. 58)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_sof_vz58.hpp"
+	};
 	
 	class TK_ARMY_BRUSHSTROKE
 	{
