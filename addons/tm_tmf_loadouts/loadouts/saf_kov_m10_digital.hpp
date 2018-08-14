@@ -221,7 +221,7 @@ class aar : r
 class rat : car
 {
     displayName = "Rifleman (AT)";
-    secondaryWeapon[] = {"rhs_weap_m72a7"};
+    secondaryWeapon[] = {"rhs_weap_m80"};
 };
 class dm : r
 {
