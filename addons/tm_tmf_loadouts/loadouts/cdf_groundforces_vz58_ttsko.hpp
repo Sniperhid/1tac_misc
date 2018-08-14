@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-tooltip = "Author: Bear\n\nArma 2 CDF as interpreted by RHS: GREF. 5.45 mm Zastava rifles. Contemporary.";
+tooltip = "Author: Bear\n\nChernarussian Defence Forces. 7.62x39 mm Vz58 rifles. Contemporary.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
