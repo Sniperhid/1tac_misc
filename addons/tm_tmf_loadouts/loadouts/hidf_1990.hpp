@@ -70,7 +70,8 @@ class r : baseMan
         "rhsgref_helmet_M1_bare",
         "rhsgref_helmet_M1_bare_alt01",
         "rhsgref_helmet_M1_painted",
-        "rhsgref_helmet_M1_painted_alt01"
+        "rhsgref_helmet_M1_painted_alt01",
+        "rhsgref_helmet_M1_liner"
     };
     primaryWeapon[] = {"mbg_m16a2"};
     magazines[] =
@@ -189,7 +190,7 @@ class ar : r
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("200Rnd_556x45_Box_F"),
+        LIST_3("rhsusf_200rnd_556x45_M855_mixed_box"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
@@ -201,7 +202,7 @@ class aar : r
     backPack[] = {"usm_pack_200rnd_556_bandoliers"};
     backpackItems[] =
     {
-        LIST_4("200Rnd_556x45_Box_F")
+        LIST_4("rhsusf_200rnd_556x45_M855_mixed_box")
     };
 };
 class rat : car
