@@ -69,14 +69,15 @@ class r : baseMan
         "rhsgref_helmet_M1_bare",
         "rhsgref_helmet_M1_bare_alt01",
         "rhsgref_helmet_M1_painted",
-        "rhsgref_helmet_M1_painted_alt01"
+        "rhsgref_helmet_M1_painted_alt01",
+        "rhsgref_helmet_M1_liner"
     };
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle"};
     attachment[] = {"rhsusf_acc_wmx_bk"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -87,8 +88,9 @@ class g : r
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] +=
     {
-        LIST_4("1Rnd_HE_Grenade_shell"),
-        LIST_2("1Rnd_Smoke_Grenade_shell")
+        LIST_4("rhs_mag_M433_HEDP"),
+        LIST_2("rhs_mag_m714_White"),
+        LIST_2("rhs_mag_m662_red")
     };
 };
 class car : r
@@ -108,7 +110,7 @@ class m : car
         LIST_6("ACE_bloodIV_500"),
         LIST_2("rhs_mag_an_m8hc"),
         "rhs_mag_m18_green"
-        };
+    };
 };
 class smg : r
 {
@@ -190,7 +192,7 @@ class ar : r
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("200Rnd_556x45_Box_F"),
+        LIST_3("rhsusf_200rnd_556x45_mixed_box"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
@@ -362,8 +364,8 @@ class sn : r
 {
     displayName = "Sniper";
     headgear[] = {"usm_bdu_boonie_erdl"};
-    primaryWeapon[] = {"rhs_weap_m24sws"};
-    scope[] = {"rhsusf_acc_m8541_low_wd"};
+    primaryWeapon[] = {"rhs_weap_m24sws_wd"};
+    scope[] = {"rhsusf_acc_leupoldmk4_wd"};
     bipod[] = {"rhsusf_acc_harris_swivel"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
@@ -376,6 +378,7 @@ class sn : r
 class sp : ftl
 {
     displayName = "Spotter";
+    headgear[] = {"usm_bdu_boonie_erdl"};
     items[] += {"ACE_SpottingScope"};
 };
 class vc : smg
@@ -521,5 +524,5 @@ class jp : smg
         LIST_3("hlc_30Rnd_9x19_B_MP5")
     };
     linkedItems[] = {"ItemGPS"};
-    code = "unitBackpack this additemcargoglobal ['acre_prc117F',1]";
+    code = "unitBackpack _unit additemcargoglobal ['acre_prc117F',1]";
 };
