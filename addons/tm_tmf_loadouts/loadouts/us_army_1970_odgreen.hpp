@@ -56,8 +56,7 @@ class r : baseMan
     headgear[] = 
     {
         "rhsgref_helmet_M1_bare",
-        "rhsgref_helmet_M1_bare_alt01",
-        "rhsgref_helmet_M1_liner"
+        "rhsgref_helmet_M1_bare_alt01"
     };
     vest[] = {"usm_vest_LBE_rm"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
