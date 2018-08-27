@@ -478,6 +478,12 @@ class CfgLoadouts
 		displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
 		category = "Other";
 		#include "loadouts\arvn_1966.hpp"
+	};	
+	class JNA_1992
+	{
+		displayName = "Jugoslav People's Army (1992 OD GREEN)";
+		category = "Other";
+		#include "loadouts\jna_1992.hpp"
 	};
 	class SERBIAN_ARMY_M93_OAKLEAF
 	{
