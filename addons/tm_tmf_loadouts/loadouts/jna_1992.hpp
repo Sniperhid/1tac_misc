@@ -1,5 +1,5 @@
 // in case of fire, tell Bear
-
+tooltip = "Author: Fingers";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
