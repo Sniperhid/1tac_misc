@@ -356,7 +356,6 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\tk_ins.hpp"
 	};
-	
 	class UA_VDV_TTSKO
 	{
 		displayName = "UA Airborne Troops (2004-, TTsKO)";
@@ -522,5 +521,11 @@ class CfgLoadouts
 		displayName = "Greek Army (2018)";
 		category = "Western Factions";
 		#include "loadouts\greek_army_2018.hpp"
+	};
+	class OFP_RESISTANCE
+	{
+		displayName = "Operation Flashpoint Resistance (1982)";
+		category = "Armaverse Factions";
+		#include "loadouts\ofp_resistance.hpp"
 	};
 };
