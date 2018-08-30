@@ -305,7 +305,12 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\ussr_vdv_berezka.hpp"
 	};
-	
+	class AAF_1970
+	{
+		displayName = "Altian Light Infantry (1970, Altis Lizard)";
+		category = "Armaverse Factions";
+		#include "loadouts\aaf_1970.hpp"
+	};
 	class AAF_LIZARD
 	{
 		displayName = "AAF Ground Forces (2000-, Lizard)";
