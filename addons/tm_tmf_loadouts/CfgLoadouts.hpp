@@ -356,7 +356,6 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\tk_ins.hpp"
 	};
-	
 	class UA_VDV_TTSKO
 	{
 		displayName = "UA Airborne Troops (2004-, TTsKO)";
@@ -473,7 +472,18 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\syrian_arab_army_wdl.hpp"
 	};
-	
+	class ARVN_1966
+	{
+		displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
+		category = "Other";
+		#include "loadouts\arvn_1966.hpp"
+	};	
+	class JNA_1992
+	{
+		displayName = "Jugoslav People's Army (1992 OD GREEN)";
+		category = "Other";
+		#include "loadouts\jna_1992.hpp"
+	};
 	class SERBIAN_ARMY_M93_OAKLEAF
 	{
 		displayName = "Serbian Army (1993-, Oakleaf)";
@@ -511,5 +521,11 @@ class CfgLoadouts
 		displayName = "Greek Army (2018)";
 		category = "Western Factions";
 		#include "loadouts\greek_army_2018.hpp"
+	};
+	class OFP_RESISTANCE
+	{
+		displayName = "Operation Flashpoint Resistance (1982)";
+		category = "Armaverse Factions";
+		#include "loadouts\ofp_resistance.hpp"
 	};
 };
