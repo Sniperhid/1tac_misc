@@ -396,7 +396,7 @@ class pcc : pc
 };
 class eng : car
 {
-    displayName = "Combat Engineer (Explosives)";
+    displayName = "Combat Engineer (Explosives/Repair)";
     sidearmWeapon[] = {"ACE_VMM3"};
     backpackItems[] += {
         "ACE_DefusalKit",
@@ -407,20 +407,21 @@ class eng : car
         LIST_2("ClaymoreDirectionalMine_Remote_Mag")
     };
 };
-/*class engm : car
+class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    sidearmWeapon[] = {"ACE_VMM3"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
         LIST_2("APERSTripMine_Wire_Mag")
     };
     backpackItems[] = {
+        "ACE_DefusalKit",
         "MineDetector",
-        "ToolKit",
         "ATMine_Range_Mag"
     };
-};*/
+};
 /*class UAV : car
 {
     displayName = "UAV Operator";
