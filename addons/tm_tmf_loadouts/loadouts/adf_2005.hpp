@@ -230,7 +230,7 @@ class dm : r
     bipod[] = {"rhsusf_acc_harris_bipod"};
     magazines[] =
     {
-        LIST_10("rhsusf_20Rnd_762x51_m118_special_Mag"),
+        LIST_10("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };

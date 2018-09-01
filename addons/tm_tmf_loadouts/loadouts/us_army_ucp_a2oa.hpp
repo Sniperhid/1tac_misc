@@ -232,8 +232,8 @@ class dm : r
 	magazines[] =
 	{
 		LIST_3("rhsusf_mag_7x45acp_MHP"),
-		LIST_3("rhsusf_20Rnd_762x51_m118_special_Mag"),
-		LIST_3("rhsusf_20Rnd_762x51_m993_Mag"),
+		LIST_3("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
+		LIST_3("rhsusf_20Rnd_762x51_SR25_m993_Mag"),
 		"rhs_mag_m67",
 		"rhs_mag_an_m8hc"
 	};

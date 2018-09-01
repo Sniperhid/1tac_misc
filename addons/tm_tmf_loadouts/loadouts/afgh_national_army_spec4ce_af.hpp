@@ -217,7 +217,7 @@ class dm : r
 	bipod[] = {"rhsusf_acc_harris_bipod"};
 	magazines[] =
 	{
-		LIST_10("rhsusf_20Rnd_762x51_m118_special_Mag"),
+		LIST_10("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
 		LIST_2("HandGrenade"),
 		LIST_2("SmokeShell")
 	};
@@ -399,8 +399,8 @@ class sn : r
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_2("rhsusf_20Rnd_762x51_m993_Mag"),
-        LIST_3("rhsusf_20Rnd_762x51_m118_special_Mag"),
+        LIST_2("rhsusf_20Rnd_762x51_SR25_m993_Mag"),
+        LIST_3("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
         LIST_2("HandGrenade"),
         LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
     };
