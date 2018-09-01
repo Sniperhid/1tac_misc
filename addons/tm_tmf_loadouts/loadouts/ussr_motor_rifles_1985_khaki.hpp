@@ -229,8 +229,17 @@ class rat : car
 class dm : r
 {
 	displayName = "Designated Marksman";
-	primaryWeapon[] = {"rhs_weap_ak74n"};
+	primaryWeapon[] = {"rhs_weap_svdp"};
+	silencer[] = {};
 	scope[] = {"rhs_acc_pso1m2"};
+	bipod[] = {};
+    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
+	magazines[] =
+	{
+		LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        "rhs_mag_rdg2_white",
+        LIST_3("rhs_mag_9x18_8_57N181S")
+	};
 };
 class mmgg : ar
 {
