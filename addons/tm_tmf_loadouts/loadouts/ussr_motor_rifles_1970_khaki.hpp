@@ -208,14 +208,16 @@ class dm : r
 {
 	displayName = "Designated Marksman";
 	vest[] = {"bear_6sh92_khaki"};
-	primaryWeapon[] = {"rhs_weap_m76"};
+	primaryWeapon[] = {"rhs_weap_svdp"};
 	silencer[] = {};
-	scope[] = {};
+	scope[] = {"rhs_acc_pso1m2"};
 	bipod[] = {};
+    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
 	magazines[] =
 	{
-		LIST_16("rhsgref_10Rnd_792x57_m76"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        "rhs_mag_rdg2_white",
+        LIST_3("rhs_mag_9x18_8_57N181S")
 	};
 };
 class mmgg : ar
