@@ -1,5 +1,11 @@
 class CfgLoadouts
 {
+	class CRO_ARMY_WD
+	{
+		displayName = "Croatian Ground Army (Modern)";
+		category = "Eastern Factions";
+		#include "loadouts\cro_army_wd.hpp"
+	};
 	class CANADA_ARMY_CADPAT
 	{
 		displayName = "Canadian Army (2005-, CADPAT)";
