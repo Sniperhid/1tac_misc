@@ -1,0 +1,1 @@
+"ArmaDiscordRPC" callExtension "init";
