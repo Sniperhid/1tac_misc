@@ -164,21 +164,32 @@ class r : baseMan
         "UK3CB_BAF_V_PLCE_Webbing_Plate_DDPM",
         "UK3CB_BAF_V_PLCE_Webbing_Plate_DPMT",
         "UK3CB_BAF_V_PLCE_Webbing_Plate_MTP",
-        "UK3CB_BAF_V_PLCE_Webbing_Plate_DDPM",
         "rhs_6b23_digi_vydra_3m",
-        "rhs_6b23_digi_6sh92_spetsnaz2",
+        //"rhs_6b23_digi_6sh92_spetsnaz2",
         "rhs_6b23_digi_engineer",
         "rhs_6b23_rifleman",
-        "rhs_6b23_6sh92",
+        //"rhs_6b23_6sh92",
         "rhs_6b23_vydra_3m",
         "bear_6b23_od_engineer",
         "rhsgref_6b23_khaki_rifleman",
-        "rhsgref_6b23_khaki",
-        "rhs_6b13_Flora_6sh92",
-        "rhs_6b13_6sh92",
+        //"rhsgref_6b23_khaki",
+        //"rhs_6b13_Flora_6sh92",
+        //"rhs_6b13_6sh92",
         "rhs_6b5_rifleman_vsr",
         "rhs_6b5_rifleman_khaki",
-        "rhs_6b5_rifleman"
+        "rhs_6b5_rifleman",
+        "RS_Tarzan",
+        "RS_Tarzan_g",
+        "RS_Tarzan_f",
+        "RS_Tarzan_E",
+        "RS_Tarzan_b",
+        "RPS_Smersh12",
+        "RPS_Smersh12_f",
+        "RPS_Smersh12_d",
+        "RPS_Smersh12_E",
+        "RPS_Smersh12_sh",
+        "RPS_Smersh12_a",
+        "RPS_Smersh12_b"
 	};
     primaryWeapon[] =
 	{
@@ -207,10 +218,64 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
+    /*vest[] = {
+        "UK3CB_BAF_V_PLCE_Webbing_Plate_MTP",
+        "rhs_6b23_digi_engineer",
+        "rhs_6b23_rifleman",
+        "rhs_6b23_vydra_3m",
+        "rhs_6b5_rifleman_khaki",
+        "rhs_6b5_rifleman",
+        "RS_Tarzan_g",
+        "RS_Tarzan_f",
+        "RS_Tarzan_E",
+        "RPS_Smersh10_f",
+        "RPS_Smersh10_d",
+        "RPS_Smersh10_E",
+        "RPS_Smersh10_sh",
+        "RPS_Smersh10_a",
+        "RPS_Smersh10_b"
+	};*/
+    backpack[] = {};
+    vest[] = {
+        "RPS_Smersh1",
+        "RPS_Smersh1_f",
+        "RPS_Smersh1_d",
+        "RPS_Smersh1_E",
+        "RPS_Smersh1_sh",
+        "RPS_Smersh1_a",
+        "RPS_Smersh1_b",
+        "RPS_Smersh2",
+        "RPS_Smersh2_f",
+        "RPS_Smersh2_d",
+        "RPS_Smersh2_E",
+        "RPS_Smersh2_sh",
+        "RPS_Smersh2_b",
+        "RPS_Smersh2_a",
+        "RPS_Smersh4",
+        "RPS_Smersh4_f",
+        "RPS_Smersh4_d",
+        "RPS_Smersh4_E",
+        "RPS_Smersh4_sh",
+        "RPS_Smersh4_a",
+        "RPS_Smersh4_b",
+        "RPS_Smersh7",
+        "RPS_Smersh7_f",
+        "RPS_Smersh7_d",
+        "RPS_Smersh7_E",
+        "RPS_Smersh7_sh",
+        "RPS_Smersh7_a",
+        "RPS_Smersh7_b",
+        "RPS_Smersh9",
+        "RPS_Smersh9_f",
+        "RPS_Smersh9_d",
+        "RPS_Smersh9_E",
+        "RPS_Smersh9_sh",
+        "RPS_Smersh9_a",
+        "RPS_Smersh9_b"
+    };
     primaryWeapon[] = 
 	{
 		"rhs_weap_ak74n_gp25",
-		"bear_weap_ak74m_orange_mag_gp25",
 		"rhs_weap_ak74m_fullplum_gp25",
 		"rhs_weap_aks74n_gp25"
 	};
@@ -288,9 +353,6 @@ class co : sl
 	code = "";
 	goggles[] = {"G_Aviator"};
 	headgear[] = {};
-	vest[] = {"rhs_6b5_officer_ttsko","rhs_6b5_officer_vsr"};
-	
-	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
 		"rhs_mag_9x18_12_57N181S",
 		LIST_2("rhs_GRD40_Green"),
@@ -360,43 +422,55 @@ class rat : car
 class dm : r
 {
 	displayName = "Designated Marksman";
-	primaryWeapon[] = {"rhs_weap_svdp"};
-	silencer[] = {};
-	scope[] = {"rhs_acc_pso1m2"};
+    primaryWeapon[] = {"rhs_weap_svdp"};
+    scope[] = {"rhs_acc_pso1m2"};
 	bipod[] = {};
-	magazines[] =
-	{
-		LIST_12("rhs_10Rnd_762x54mmR_7N1"),
-		"rhs_mag_f1",
-		LIST_2("rhs_mag_rdg2_white")
-	};
+    sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
+    magazines[] =
+    {
+        LIST_6("rhs_10Rnd_762x54mmR_7N1"),
+        "rhs_mag_f1",
+        LIST_3("rhs_mag_9x18_12_57N181S")
+    };
+	backpack[] = {};
+    vest[] = {
+        "RPS_Smersh15",
+        "RPS_Smersh15_f",
+        "RPS_Smersh15_d",
+        "RPS_Smersh15_E",
+        "RPS_Smersh15_sh",
+        "RPS_Smersh15_b",
+        "RPS_Smersh15_a",
+        "RPS_Smersh16",
+        "RPS_Smersh16_f",
+        "RPS_Smersh16_d",
+        "RPS_Smersh16_E",
+        "RPS_Smersh16_sh",
+        "RPS_Smersh16_b",
+        "RPS_Smersh16_a"
+    };
 };
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
 	primaryWeapon[] = {"rhs_weap_pkm"};
 	sidearmWeapon[] = {};
-	backpack[] = {
-		"bear_rd54_vsr",
-		"CUP_B_CivPack_WDL",
-		"bear_carryall_dpm",
-		"B_Carryall_khk"
-	};
+	backpack[] = {};
     vest[] = {
-        "rhs_6b23_digi_vydra_3m",
-        "rhs_6b23_digi_6sh92_spetsnaz2",
-        "rhs_6b23_digi_engineer",
-        "rhs_6b23_rifleman",
-        "rhs_6b23_6sh92",
-        "rhs_6b23_vydra_3m",
-        "bear_6b23_od_engineer",
-        "rhsgref_6b23_khaki_rifleman",
-        "rhsgref_6b23_khaki",
-        "rhs_6b13_Flora_6sh92",
-        "rhs_6b13_6sh92",
-        "rhs_6b5_rifleman_vsr",
-        "rhs_6b5_rifleman_khaki",
-        "rhs_6b5_rifleman"
+        "RPS_Smersh3",
+        "RPS_Smersh3_f",
+        "RPS_Smersh3_d",
+        "RPS_Smersh3_E",
+        "RPS_Smersh3_sh",
+        "RPS_Smersh3_a",
+        "RPS_Smersh3_b",
+        "RPS_Smersh5",
+        "RPS_Smersh5_f",
+        "RPS_Smersh5_d",
+        "RPS_Smersh5_E",
+        "RPS_Smersh5_sh",
+        "RPS_Smersh5_a",
+        "RPS_Smersh5_b"
 	};
 	scope[] = {};
 	magazines[] =
@@ -605,28 +679,32 @@ class sn : r
     sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
     magazines[] =
     {
-        LIST_13("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_6("rhs_10Rnd_762x54mmR_7N1"),
         "rhs_mag_f1",
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
 	backpack[] = {};
-	linkedItems[] += {"rhs_pdu4"};
+    vest[] = {
+        "RPS_Smersh15",
+        "RPS_Smersh15_f",
+        "RPS_Smersh15_d",
+        "RPS_Smersh15_E",
+        "RPS_Smersh15_sh",
+        "RPS_Smersh15_b",
+        "RPS_Smersh15_a",
+        "RPS_Smersh16",
+        "RPS_Smersh16_f",
+        "RPS_Smersh16_d",
+        "RPS_Smersh16_E",
+        "RPS_Smersh16_sh",
+        "RPS_Smersh16_b",
+        "RPS_Smersh16_a"
+    };
 };
-class sp : sn
+class sp : car
 {
     displayName = "Spotter";
-	silencer[] = {"rhs_acc_dtk1983"};
-    sidearmWeapon[] = {};
-	primaryWeapon[] = 
-	{
-		"rhs_weap_ak74"
-	};
-    magazines[] =
-    {
-		LIST_7("rhs_30Rnd_545x39_7N6_AK"),
-        LIST_2("rhs_mag_f1"),
-        LIST_2("rhs_mag_rdg2_white")
-    };
+	linkedItems[] += {"rhs_pdu4"};
 };
 class vc : smg
 {
