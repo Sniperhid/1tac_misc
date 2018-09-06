@@ -53,13 +53,19 @@ class r : baseMan
     headgear[] = {"rhs_booniehat2_marpatwd"};
 	vest[] = {"rhsusf_spc_rifleman"};
     primaryWeapon[] = {"rhs_weap_m4a1"};
-	bipod[] = {"rhsusf_acc_grip3"};
+	bipod[] = {
+        "rhsusf_acc_grip2",
+        "rhsusf_acc_grip3",
+        "rhsusf_acc_rvg_blk",
+		"rhsusf_acc_rvg_de",
+		"rhsusf_acc_tdstubby_blk"
+    };
     scope[] = {"rhsusf_acc_eotech_552"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_SF3P556","rhsusf_acc_SFMB556"};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -77,7 +83,7 @@ class g : r
 	bipod[] = {};
     magazines[] =
     {
-		LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+		LIST_9("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_5("rhs_mag_M441_HE"),
@@ -108,7 +114,7 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
     magazines[] =
     {
-        LIST_6("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -204,7 +210,7 @@ class ar : r
 	vest[] = {"rhsusf_spc_iar"};
 	magazines[] +=
 	{
-		LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag")
+		LIST_8("rhs_mag_30Rnd_556x45_Mk318_PMAG")
 	};
 };
 class aar : r
@@ -213,7 +219,7 @@ class aar : r
    	backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag")
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_PMAG")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -472,7 +478,7 @@ class sp : sn
 	sidearmWeapon[] = {};
     magazines[] =
     {
-		LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+		LIST_9("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };

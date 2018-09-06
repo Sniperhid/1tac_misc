@@ -66,7 +66,10 @@ class r : baseMan
 	bipod[] = 
 	{
 		"rhsusf_acc_grip2",
-		"rhsusf_acc_grip3"
+		"rhsusf_acc_grip3",
+        "rhsusf_acc_rvg_blk",
+		"rhsusf_acc_rvg_de",
+		"rhsusf_acc_tdstubby_blk"
 	};
     scope[] = 
 	{
@@ -85,8 +88,9 @@ class r : baseMan
 	};
     magazines[] =
     {
-        LIST_6("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_4("rhs_mag_30Rnd_556x45_M855A1_PMAG"),
+        LIST_2("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -484,24 +488,9 @@ class sn : r
 	linkedItems[] += {"ACE_Vector","ItemGPS"};
 	items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
-class sp : sn
+class sp : r
 {
     displayName = "Spotter";
-    vest[] = {"rhsusf_mbav_rifleman"};
-    scope[] = {"rhsusf_acc_eotech_552"};
-	primaryWeapon[] = 
-	{
-		"rhs_weap_mk18_wd"
-	};
-	silencer[] = {"rhsusf_acc_SF3P556"};
-	sidearmWeapon[] = {};
-    magazines[] =
-    {
-		LIST_6("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
-    };
 };
 class vc : smg
 {

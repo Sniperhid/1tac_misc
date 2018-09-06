@@ -99,8 +99,9 @@ class r : baseMan
 		"rhsusf_acc_grip2",
 		"rhsusf_acc_grip2_tan",
 		"rhsusf_acc_grip3",
-		"rhsusf_acc_grip3_tan",
-		""
+		"rhsusf_acc_rvg_blk",
+		"rhsusf_acc_rvg_de",
+		"rhsusf_acc_tdstubby_blk"
 	};
     scope[] = 
 	{
@@ -122,8 +123,8 @@ class r : baseMan
 	};
     magazines[] =
     {
-        LIST_6("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_6("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -536,7 +537,7 @@ class sp : sn
 	sidearmWeapon[] = {};
     magazines[] =
     {
-		LIST_7("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+		LIST_7("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
