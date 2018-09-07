@@ -422,9 +422,9 @@ class engm : car
         "ATMine_Range_Mag"
     };
 };
-/*class UAV : car
+class UAV : car
 {
     displayName = "UAV Operator";
     backpack[] = {"I_UAV_01_backpack_F"};
     linkedItems[] += {"I_UavTerminal"};
-};*/
+};
