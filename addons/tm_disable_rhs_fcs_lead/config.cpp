@@ -13,7 +13,7 @@ class CfgPatches {
     };
 };
 
-class Extended_PreStart_EventHandlers {
+class Extended_PostInit_EventHandlers {
     class tm_disable_rhs_fcs_lead {
         init = "profileNamespace setVariable ['rhs_fcsTargetLead', 0]; saveProfileNamespace;";
     };
