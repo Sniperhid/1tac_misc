@@ -337,6 +337,10 @@ class CfgWeapons
             magazines[] = { __40MM_M203_MAGS };
         };
     };
+    class LMG_Zafir_F: Rifle_Long_Base_F
+    {
+        magazines[] = { "150Rnd_762x54_Box", "150Rnd_762x54_Box_Tracer", __762_NATO_MAGS };
+    };
     
 	// Apex
 	class arifle_AK12_base_F: Rifle_Base_F 
