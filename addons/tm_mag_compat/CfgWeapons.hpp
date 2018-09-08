@@ -414,8 +414,6 @@ class CfgWeapons
     };
     
     // 3CB
-    class mk20_base_F: Rifle_Base_F {};
-    class arifle_Mk20_F: mk20_base_F {};
     class arifle_Mk20_plain_F: arifle_Mk20_F {};
     class UK3CB_BAF_L85A2: arifle_Mk20_plain_F
     {
