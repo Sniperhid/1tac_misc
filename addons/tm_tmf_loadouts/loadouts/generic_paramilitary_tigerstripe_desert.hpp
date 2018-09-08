@@ -212,7 +212,7 @@ class mmgg : ar
 	primaryWeapon[] = {"LMG_Zafir_F"};
 	magazines[] =
 	{
-		LIST_4("150Rnd_762x54_Box"),
+		LIST_5("rhsusf_100Rnd_762x51"),
 		"rhs_mag_an_m8hc"
 	};
 };
@@ -222,7 +222,7 @@ class mmgac : r
 	backpack[] = {"rhssaf_alice_smb"};
     backpackItems[] =
     {
-        LIST_4("150Rnd_762x54_Box")
+        LIST_5("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -238,7 +238,7 @@ class mmgag : aar
 	};
 	backpackItems[] =
 	{
-		LIST_3("150Rnd_762x54_Box")
+		LIST_4("rhsusf_100Rnd_762x51")
 	};
 };
 class hmgg : car
