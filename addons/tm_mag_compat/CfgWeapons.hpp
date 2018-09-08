@@ -296,6 +296,48 @@ class CfgWeapons
 		};
 	};
 	
+    // Vanilla
+    class mk20_base_F: Rifle_Base_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class arifle_Mk20_F: mk20_base_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class arifle_Mk20_GL_F: mk20_base_F
+    {
+        magazines[] = { __556_MAGS };
+        class EGLM: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+    };
+    class arifle_Mk20C_F: mk20_base_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class Tavor_Base_F: Rifle_Base_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class arifle_TRG20_F: Tavor_Base_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class arifle_TRG21_F: Tavor_Base_F
+    {
+        magazines[] = { __556_MAGS };
+    };
+    class arifle_TRG21_GL_F: arifle_TRG21_F
+    {
+        magazines[] = { __556_MAGS };
+        class EGLM: UGL_F
+        {
+            magazines[] = { __40MM_M203_MAGS };
+        };
+    };
+    
 	// Apex
 	class arifle_AK12_base_F: Rifle_Base_F 
 	{
