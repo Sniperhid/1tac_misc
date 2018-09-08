@@ -1,7 +1,7 @@
 // If you want to base a loadout on an existing one, this repository contains them all:
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
 
-tooltip = "Author: Freddo\n\nContains a mix of Soviet and German(including leftovers from WW2) weaponry, alongside some american equipment."
+tooltip = "Author: Freddo\n\nContains a mix of Soviet and German(including leftovers from WW2) weaponry, alongside some american equipment.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
