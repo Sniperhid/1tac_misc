@@ -54,11 +54,16 @@ class r : baseMan
     vest[] = {"CUP_V_B_Eagle_SPC_Rifleman", "CUP_V_B_Eagle_SPC_Scout", "CUP_V_B_Eagle_SPC_Patrol"};
     backpack[] = {};
     primaryWeapon[] = {"arifle_TRG21_F"};
-    scope[] = {"rhsusf_acc_t1_low"};
+    scope[] = {
+        "rhsusf_acc_rx01",
+        "rhsusf_acc_rx01_nofilter",
+        "rhsusf_acc_rx01_tan",
+        "rhsusf_acc_rx01_nofilter_tan"
+    };
     attachment[] = {"rhsusf_acc_wmx_bk"};
     magazines[] =
     {
-        LIST_9("30Rnd_556x45_Stanag"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -131,8 +136,8 @@ class co : sl
     vest[] = {"CUP_V_B_Eagle_SPC_Officer"};
 	backPack[] = {"usm_pack_st138_prc77"};
 	magazines[] = {
-		LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
 	};
@@ -162,7 +167,6 @@ class ar : r
     vest[] = {"CUP_V_B_Eagle_SPC_AR"};
 	backpack[] = {"rhssaf_alice_smb"};
 	primaryWeapon[] = {"tac1_tm_negev_ng5_Negev_NG5"};
-    scope[] = {"rhsusf_acc_t1_high"};
 	bipod[] = {};
 	magazines[] =
 	{
@@ -206,10 +210,9 @@ class mmgg : ar
     vest[] = {"CUP_V_B_Eagle_SPC_AR"};
 	backpack[] = {"rhssaf_alice_smb"};
 	primaryWeapon[] = {"LMG_Zafir_F"};
-	scope[] = {};
 	magazines[] =
 	{
-		LIST_4("150Rnd_762x54_Box"),
+		LIST_5("rhsusf_100Rnd_762x51"),
 		"rhs_mag_an_m8hc"
 	};
 };
@@ -219,7 +222,7 @@ class mmgac : r
 	backpack[] = {"rhssaf_alice_smb"};
     backpackItems[] =
     {
-        LIST_4("150Rnd_762x54_Box")
+        LIST_5("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -235,7 +238,7 @@ class mmgag : aar
 	};
 	backpackItems[] =
 	{
-		LIST_3("150Rnd_762x54_Box")
+		LIST_4("rhsusf_100Rnd_762x51")
 	};
 };
 class hmgg : car
