@@ -1,13 +1,18 @@
 #include "script_component.hpp"
 
-[{
-    "ArmaDiscordRPC" callExtension ["mission", [
-        formatText ["%1", briefingName],
-        serverTime,
-        formatText ["%1", toLower worldName],
-        formatText ["%1", getText (configfile >> "CfgWorlds" >> worldName >> "description")]
-    ]];
-}, 15, 0] call CBA_fnc_addPerFrameHandler;
+if (is3DEN) exitWith {};
+
+private _name = briefingName;
+if (missionName isEqualTo "" || ((toLower missionName) find "intro") >= 0) then {
+    _name = "";
+};
+
+"ArmaDiscordRPC" callExtension ["mission", [
+    formatText ["[1Tac] %1", _name],
+    time,
+    parseText toLower worldName,
+    parseText getText (configfile >> "CfgWorlds" >> worldName >> "description")
+]];
 
 addMissionEventHandler ["Ended", {
 	"ArmaDiscordRPC" callExtension "ended";
