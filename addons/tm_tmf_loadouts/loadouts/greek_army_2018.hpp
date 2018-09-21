@@ -225,7 +225,7 @@ class mmgg : ar
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_4("100Rnd_762x51_m80"),
+		LIST_4("tm_rhsgref_mg3_100Rnd_762x51_m80"),
 		"HandGrenade",
 		"SmokeShell"
 	};
@@ -236,7 +236,7 @@ class mmgac : r
 	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_5("100Rnd_762x51_m80")
+        LIST_5("tm_rhsgref_mg3_100Rnd_762x51_m80")
     };
 };
 class mmgag : aar
@@ -245,7 +245,7 @@ class mmgag : aar
 	backpack[] = {"usm_pack_alice"};
 	backpackItems[] =
 	{
-		LIST_5("100Rnd_762x51_m80")
+		LIST_5("tm_rhsgref_mg3_100Rnd_762x51_m80")
 	};
 };
 class hmgg : car
