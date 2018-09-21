@@ -84,6 +84,7 @@ class CfgWeapons
 	VEST_SUPPLY1(rhs_6b5, rhs_6b23, "Supply100")
 	VEST_SUPPLY1(rhsgref_otv_khaki, rhsgref_6b23_khaki_rifleman, "Supply140")
 	VEST_SUPPLY1(rhsgref_TacVest_ERDL, rhsgref_6b23_khaki_rifleman, "Supply140")
+	VEST_SUPPLY1(rhsgref_chestrig, rhs_6b23, "Supply140")
 	
 	// RHS USF
 	VEST_SUPPLY1(rhsusf_iotv_ocp_base, Vest_Camo_Base, "Supply60")
