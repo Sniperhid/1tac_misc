@@ -174,12 +174,12 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"JO_MG_MG3"};
+	primaryWeapon[] = {"tm_rhsgref_mg3"};
    	backpack[] = {"bear_carryall_lizard"};
 	bipod[] = {};
 	magazines[] =
 	{
-		LIST_4("JO_120rnd_MG3"),
+		LIST_4("100Rnd_762x51_m80"),
 		"rhs_mag_an_m8hc"
 	};
 };
@@ -187,7 +187,7 @@ class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
    	backpack[] = {"bear_carryall_lizard"};
-    backpackItems[] = { LIST_5("JO_120rnd_MG3") };
+    backpackItems[] = { LIST_5("100Rnd_762x51_m80") };
     linkedItems[] += {"Binocular"};
 };
 class rat : r
@@ -205,10 +205,10 @@ class dm : r
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
-	primaryWeapon[] = {"JO_MG_MG3"};
+	primaryWeapon[] = {"tm_rhsgref_mg3"};
 	magazines[] =
 	{
-		LIST_4("JO_120rnd_MG3"),
+		LIST_5("100Rnd_762x51_m80"),
 		"rhs_mag_an_m8hc"
 	};
 };
@@ -216,7 +216,7 @@ class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
    	backpack[] = {"bear_carryall_lizard"};
-	backpackItems[] = { LIST_5("JO_120rnd_MG3") };
+	backpackItems[] = { LIST_5("100Rnd_762x51_m80") };
 };
 class mmgag : aar
 {
@@ -229,7 +229,7 @@ class mmgag : aar
 		"ItemWatch",
 		"Binocular"
 	};
-	backpackItems[] = { LIST_5("JO_120rnd_MG3") };
+	backpackItems[] = { LIST_5("100Rnd_762x51_m80") };
 };
 class hmgg : car
 {

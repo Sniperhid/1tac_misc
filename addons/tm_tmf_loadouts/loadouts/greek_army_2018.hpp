@@ -220,12 +220,12 @@ class dm : r
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
-	primaryWeapon[] = {"JO_MG_MG3"};
+	primaryWeapon[] = {"tm_rhsgref_mg3"};
 	vest[] = {"usm_vest_LBE_mg"};
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_4("JO_120rnd_MG3"),
+		LIST_4("100Rnd_762x51_m80"),
 		"HandGrenade",
 		"SmokeShell"
 	};
@@ -236,7 +236,7 @@ class mmgac : r
 	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_5("JO_120rnd_MG3")
+        LIST_5("100Rnd_762x51_m80")
     };
 };
 class mmgag : aar
@@ -245,7 +245,7 @@ class mmgag : aar
 	backpack[] = {"usm_pack_alice"};
 	backpackItems[] =
 	{
-		LIST_5("JO_120rnd_MG3")
+		LIST_5("100Rnd_762x51_m80")
 	};
 };
 class hmgg : car
