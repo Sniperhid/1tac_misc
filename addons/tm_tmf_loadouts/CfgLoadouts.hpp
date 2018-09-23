@@ -6,6 +6,12 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\cro_army_wd.hpp"
 	};
+	class CRO_ARMY_1992
+	{
+		displayName = "Croatian Ground Army (1992)";
+		category = "Eastern Factions";
+		#include "loadouts\cro_army_1992.hpp"
+	};
 	class CANADA_ARMY_CADPAT
 	{
 		displayName = "Canadian Army (2005-, CADPAT)";
