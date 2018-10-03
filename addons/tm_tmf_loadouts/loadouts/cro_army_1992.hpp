@@ -58,13 +58,14 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
+	backpack[] = {"rhs_sidor"};
     magazines[] +=
     {
         LIST_5("rhs_mag_rgd5"),
         LIST_3("rhs_mag_rdg2_white")
     };
 };
-class car : r
+class car
 {
     displayName = "Carabinier";
     primaryWeapon[] = {"rhs_weap_kar98k"};
@@ -84,7 +85,7 @@ class m : car
 		LIST_2("ACE_bloodIV"),
 	};
 };
-class smg : r
+class smg
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_m3a1"};
@@ -215,6 +216,7 @@ class matg : car
 {
     displayName = "MAT Gunner";
     secondaryWeapon[] = {"rhs_weap_rpg7"};
+	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
         LIST_2("rhs_rpg7_PG7V_mag"),
@@ -224,6 +226,7 @@ class matg : car
 class matac : r
 {
     displayName = "MAT Ammo Carrier";
+	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
         LIST_2("rhs_rpg7_PG7V_mag")
@@ -240,6 +243,7 @@ class matag : car
         "ItemWatch",
         "Binocular",
     };
+	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
         LIST_2("rhs_rpg7_PG7V_mag")
@@ -304,6 +308,7 @@ class samg : car
 {
     displayName = "AA Missile Specialist";
     secondaryWeapon[] = {"rhs_weap_fgm148"};
+	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
         LIST_3("rhs_fgm148_magazine_AT")
@@ -320,6 +325,7 @@ class samag : car
         "ItemWatch",
         "Binocular",
     };
+	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
         LIST_2("rhs_fgm148_magazine_AT")
@@ -404,6 +410,7 @@ class pc : smg
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+	backpack[] = {"rhs_sidor"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -414,6 +421,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+	backpack[] = {"rhs_sidor"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
