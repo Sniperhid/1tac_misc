@@ -65,7 +65,7 @@ class g : r
         LIST_3("rhs_mag_rdg2_white")
     };
 };
-class car
+class car : r
 {
     displayName = "Carabinier";
     primaryWeapon[] = {"rhs_weap_kar98k"};
@@ -85,7 +85,7 @@ class m : car
 		LIST_2("ACE_bloodIV"),
 	};
 };
-class smg
+class smg : r
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_m3a1"};
@@ -307,11 +307,11 @@ class mtrag : car
 class samg : car
 {
     displayName = "AA Missile Specialist";
-    secondaryWeapon[] = {"rhs_weap_fgm148"};
+    secondaryWeapon[] = {"rhs_weap_igla"};
 	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_3("rhs_fgm148_magazine_AT")
+        LIST_3("rhs_mag_9k38_rocket")
     };
 };
 class samag : car
@@ -328,7 +328,7 @@ class samag : car
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("rhs_fgm148_magazine_AT")
+        LIST_2("rhs_mag_9k38_rocket ")
     };
 };
 class sn : dm
