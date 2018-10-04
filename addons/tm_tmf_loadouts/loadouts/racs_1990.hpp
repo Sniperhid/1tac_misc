@@ -63,8 +63,8 @@ class r : baseMan
     attachment[] = {};
     magazines[] =
     {
-        LIST_9("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -143,8 +143,8 @@ class co : sl
 		LIST_2("rhs_mag_m715_Green"),
 		LIST_3("rhs_mag_m713_Red"),
 		LIST_4("rhs_mag_M441_HE"),
-		LIST_6("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red")
+		LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red")
 	};
 	backpackItems[] = {};
 };
@@ -178,7 +178,8 @@ class ar : r
 	backpack[] = {"usm_pack_200rnd_556_bandoliers"};
 	magazines[] =
 	{
-		LIST_5("rhsusf_100Rnd_556x45_soft_pouch"),
+		LIST_3("rhsusf_100Rnd_556x45_M855_soft_pouch"),
+		LIST_2("rhsusf_100Rnd_556x45_M855_mixed_soft_pouch"),
 		"rhs_mag_m67",
 		"rhs_mag_an_m8hc"
 	};
@@ -189,7 +190,8 @@ class aar : r
 	backpack[] = {"usm_pack_200rnd_556_bandoliers"};
     backpackItems[] =
     {
-        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_3("rhsusf_100Rnd_556x45_M855_soft_pouch"),
+        LIST_2("rhsusf_100Rnd_556x45_M855_mixed_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -407,8 +409,8 @@ class sp : sn
 	linkedItems[] += {"ACE_Vector"};
     magazines[] =
     {
-		LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_4("rhs_mag_M441_HE")
