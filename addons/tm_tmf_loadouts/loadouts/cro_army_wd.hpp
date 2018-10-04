@@ -240,6 +240,7 @@ class matg : car
 {
     displayName = "MAT Gunner";
     secondaryWeapon[] = {"launch_MRAWS_green_rail_F"};
+	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
         LIST_2("MRAWS_HEAT_F"),
@@ -249,6 +250,7 @@ class matg : car
 class matac : r
 {
     displayName = "MAT Ammo Carrier";
+	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
         LIST_2("MRAWS_HEAT_F")
@@ -257,6 +259,7 @@ class matac : r
 class matag : car
 {
     displayName = "MAT Assistant Gunner";
+	backpack[] = {"rhs_rpg_empty"};
     linkedItems[] =
     {
         "ItemMap",
@@ -330,10 +333,11 @@ class mtrag : car
 class samg : car
 {
     displayName = "AA Missile Specialist";
-    secondaryWeapon[] = {"rhs_weap_fgm148"};
+    secondaryWeapon[] = {"launch_I_Titan_F"};
+	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_3("rhs_fgm148_magazine_AT")
+        LIST_3("Titan_AA")
     };
 };
 class samag : car
@@ -348,9 +352,10 @@ class samag : car
         "Rangefinder",
         "ItemGPS"
     };
+	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("rhs_fgm148_magazine_AT")
+        LIST_2("Titan_AA")
     };
 };
 class sn1 : r
