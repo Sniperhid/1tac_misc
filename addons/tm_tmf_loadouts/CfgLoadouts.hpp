@@ -264,7 +264,7 @@ class CfgLoadouts
 	};
 	class RUS_VMF_FLORA_RATNIK
 	{
-		displayName = "RU Naval Infantry (2013, Flora)";
+		displayName = "RU Naval Infantry (2014, Flora)";
 		category = "Russia";
 		#include "loadouts\ru_vmf_flora_ratnik.hpp"
 	};
