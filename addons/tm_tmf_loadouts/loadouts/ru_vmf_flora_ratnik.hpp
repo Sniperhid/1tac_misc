@@ -68,7 +68,7 @@ class r : baseMan
 		"rhs_weap_ak74m_plummag","rhs_weap_ak74m_plummag","rhs_weap_ak74m_plummag",
 		"rhs_weap_ak74m_2mag"
 	};
-    scope[] = {};
+    scope[] = {"rhs_acc_1p63"};
     silencer[] = {"rhs_acc_dtk"};
     magazines[] =
     {
@@ -243,7 +243,6 @@ class mmgg : ar
 	silencer[] = {};
 	sidearmWeapon[] = {};
     backpack[] = {"B_Carryall_oli"};
-	scope[] = {};
 	magazines[] =
 	{
 		LIST_4("rhs_100Rnd_762x54mmR"),
