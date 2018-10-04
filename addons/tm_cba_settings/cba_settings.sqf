@@ -42,3 +42,6 @@ force acex_volume_enabled = true;
 acex_volume_reduction = 6;
 acex_volume_remindIfLowered = true;
 acex_volume_showNotification = true;
+ace_nametags_showPlayerRanks = false;
+ace_nametags_playerNamesViewDistance = 9;
+ace_nametags_playerNamesMaxAlpha = 1.0;
