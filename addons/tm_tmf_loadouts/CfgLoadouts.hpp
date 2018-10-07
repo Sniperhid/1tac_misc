@@ -478,6 +478,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\arvn_1966.hpp"
 	};	
+	class BUNDESWEHR_1983
+	{
+		displayName = "Bundeswehr (1983 Grauoliv)";
+		category = "Western Factions";
+		#include "loadouts\bundeswehr_1983.hpp"
+	};
 	class JNA_1992
 	{
 		displayName = "Jugoslav People's Army (1992 OD GREEN)";
