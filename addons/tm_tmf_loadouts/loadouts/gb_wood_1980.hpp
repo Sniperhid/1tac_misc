@@ -124,13 +124,13 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
-	headgear[] = {"UK3CB_BAF_H_Beret_GG_PRR"};
+    sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
+    headgear[] = {"UK3CB_BAF_H_Beret_GG_PRR"};
     magazines[] +=
     {
-        LIST_3("rhsusf_mag_7x45acp_MHP")
+        LIST_3("UK3CB_BAF_9_13Rnd")
     };
-	items[] += {"ACE_Maptools"};
+    items[] += {"ACE_Maptools"};
     linkedItems[] =
     {
         "ItemMap",
@@ -144,17 +144,17 @@ class co : sl
     displayName = "Platoon Leader";
 	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
-		LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
-		LIST_7("UK3CB_BAF_762_20Rnd"),
+	LIST_3("UK3CB_BAF_9_13Rnd"),
+	LIST_7("UK3CB_BAF_762_20Rnd"),
         LIST_2("UK3CB_BAF_762_20Rnd_T"),
-        "HandGrenade",
+               "HandGrenade",
         LIST_2("SmokeShell")
-	};
+};
 	backpackItems[] = {};
 };
 class fac : co
 {
-    displayName = "Forward Air Controller";
+    	displayName = "Forward Air Controller";
 	backpackItems[] = {};
 	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
@@ -228,9 +228,9 @@ class mmgac : r
     };
 };
 class mmgag : aar
-{
+	{
 	displayName = "MMG Assistant Gunner";
-    secondaryWeapon[] = {"UK3CB_BAF_Tripod"};
+        secondaryWeapon[] = {"UK3CB_BAF_Tripod"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -274,9 +274,9 @@ class hmgac : r
 };
 class hmgag : car
 {
-	displayName = "HMG Assistant Gunner";
+    displayName = "HMG Assistant Gunner";
     secondaryWeapon[] = {"UK3CB_BAF_Tripod"};
-	backPack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
+    backPack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
     magazines[] =
     {
         LIST_7("UK3CB_BAF_762_20Rnd"),
@@ -355,9 +355,9 @@ class hatac : r
 };
 class hatag : car
 {
-	displayName = "HAT Assistant Gunner";
-	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
-	backPack[] = {"rhs_TOW_Tripod_Bag"};
+    displayName = "HAT Assistant Gunner";
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
+    backPack[] = {"rhs_TOW_Tripod_Bag"};
     magazines[] =
     {
         LIST_7("UK3CB_BAF_762_20Rnd"),
@@ -403,7 +403,7 @@ class mtrac : r
 class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
-	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     secondaryWeapon[] = {"UK3CB_BAF_L16_Tripod"};
 	backpackItems[] =
 	{
@@ -451,12 +451,12 @@ class sn : r
     goggles[] = {"default"};
     primaryWeapon[] = {"CUP_srifle_LeeEnfield_rail"};
     scope[] = {"optic_KHS_old"};
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+    sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     magazines[] =
     {
         LIST_9("CUP_10x_303_M"),
         LIST_2("HandGrenade"),
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_4("UK3CB_BAF_9_13Rnd")
     };
 };
 class sp : sn
@@ -534,10 +534,10 @@ class jp : baseMan
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
-	sidearmWeapon[] = {"rhsusf_weap_m9"};
+	sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     magazines[] =
     {
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_4("UK3CB_BAF_9_13Rnd")
     };
 	items[] =
 	{
