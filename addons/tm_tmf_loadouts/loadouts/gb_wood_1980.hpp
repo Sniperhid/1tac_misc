@@ -451,12 +451,12 @@ class sn : r
     goggles[] = {"default"};
     primaryWeapon[] = {"CUP_srifle_LeeEnfield_rail"};
     scope[] = {"optic_KHS_old"};
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+    sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     magazines[] =
     {
         LIST_9("CUP_10x_303_M"),
         LIST_2("HandGrenade"),
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_4("UK3CB_BAF_9_13Rnd")
     };
 };
 class sp : sn
@@ -534,10 +534,10 @@ class jp : baseMan
 	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
-	sidearmWeapon[] = {"rhsusf_weap_m9"};
+	sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     magazines[] =
     {
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_4("UK3CB_BAF_9_13Rnd")
     };
 	items[] =
 	{
