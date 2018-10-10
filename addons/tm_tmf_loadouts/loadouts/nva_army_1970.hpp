@@ -9,7 +9,7 @@ class baseMan {// Weaponless baseclass
        headgear[] = {"rhssaf_helmet_m59_85_nocamo","H_Booniehat_tan", "H_Hat_Safari_sand_F", "H_Hat_Safari_olive_F"};
        goggles[] = {"default"};
        hmd[] = {};
-    // Leave empty to remove all. "Default" > leave original item.
+    faces[] = {"faceset:asian"};
 
     // All randomized
     primaryWeapon[] = {};

@@ -22,7 +22,7 @@ class baseMan {// Weaponless baseclass
    	headgear[] = {};
    	goggles[] = {};
    	hmd[] = {};
-    // Leave empty to remove all. "Default" > leave original item.
+    faces[] = {"faceset:african", "faceset:tanoan"};
 
     // All randomized
     primaryWeapon[] = {};

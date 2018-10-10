@@ -9,7 +9,7 @@ class baseMan {// Weaponless baseclass
    	headgear[] = {"CUP_H_TK_Lungee","CUP_H_TKI_Lungee_Open_01","CUP_H_TKI_Lungee_Open_02","CUP_H_TKI_Lungee_Open_03","CUP_H_TKI_Lungee_Open_04","CUP_H_TKI_Lungee_Open_05","CUP_H_TKI_Lungee_Open_06","CUP_H_TKI_Lungee_01","CUP_H_TKI_Lungee_02","CUP_H_TKI_Lungee_03","CUP_H_TKI_Lungee_03","CUP_H_TKI_Lungee_04","CUP_H_TKI_Lungee_05","CUP_H_TKI_Lungee_06","CUP_H_TKI_Pakol_1_01","CUP_H_TKI_Pakol_2_03"};
    	goggles[] = {"CUP_FR_NeckScarf2","CUP_FR_NeckScarf","G_Balaclava_blk"};
    	hmd[] = {};
-    // Leave empty to remove all. "Default" > leave original item.
+    faces[] = {"faceset:persian"};
 
     // All randomized
     primaryWeapon[] = {};
