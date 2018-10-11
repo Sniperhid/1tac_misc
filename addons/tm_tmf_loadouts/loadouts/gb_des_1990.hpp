@@ -144,10 +144,10 @@ class ftl : g
 class sl : ftl
 {
 	displayName = "Squad Leader";
-	sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+	sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
 	magazines[] +=
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("UK3CB_BAF_9_13Rnd")
 	};
 	items[] += {"ACE_Maptools"};
 	linkedItems[] =
@@ -163,7 +163,7 @@ class co : sl
 {
 	displayName = "Platoon Leader";
 	magazines[] = {
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("UK3CB_BAF_9_13Rnd"),
 		LIST_2("rhs_mag_m715_Green"),
 		LIST_3("rhs_mag_m713_Red"),
 		LIST_2("rhs_mag_m18_green"),
@@ -192,7 +192,7 @@ class fac : co
 	magazines[] =
 	{
 		LIST_2("Laserbatteries"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("UK3CB_BAF_9_13Rnd"),
 		LIST_2("rhs_mag_m715_Green"),
 		LIST_3("rhs_mag_m713_Red"),
 		LIST_2("rhs_mag_m18_green"),
@@ -450,12 +450,12 @@ class sn : r
 	vest[] = {"UK3CB_BAF_V_Osprey_DDPM1"};
     primaryWeapon[] = {"UK3CB_BAF_L118A1_Covert_DE"};
 	scope[] = {"RKSL_optic_PMII_525_des"};
-	sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+	sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
 	magazines[] =
 	{
 		LIST_9("UK3CB_BAF_762_L42A1_10Rnd"),
 		LIST_2("HandGrenade"),
-		LIST_4("rhsusf_mag_7x45acp_MHP")
+		LIST_4("UK3CB_BAF_9_13Rnd")
 	};
 	backpack[] = {};
 	linkedItems[] += {"ACE_Vector","ItemGPS"};
@@ -471,7 +471,7 @@ class sp : sn
 		LIST_2("UK3CB_BAF_556_30Rnd_T"),
 		LIST_2("HandGrenade"),
 		LIST_2("rhs_mag_an_m8hc"),
-		LIST_4("rhsusf_mag_7x45acp_MHP")
+		LIST_4("UK3CB_BAF_9_13Rnd")
 	};
 	linkedItems[] += {"Rangefinder"};
 };
@@ -539,10 +539,10 @@ class jp : baseMan
 	uniform[] = {"U_I_pilotCoveralls"};
 	headgear[] = {"H_PilotHelmetHeli_O"};
 	goggles[] = {"default"};
-	sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+	sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
 	magazines[] =
 	{
-		LIST_4("rhsusf_mag_7x45acp_MHP")
+		LIST_4("UK3CB_BAF_9_13Rnd")
 	};
 	items[] =
 	{
