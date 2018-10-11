@@ -290,14 +290,14 @@ class rat : car
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
-	primaryWeapon[] = {"UK3CB_BAF_L7A2"};
+	primaryWeapon[] = {"rhs_weap_m240B"};
 	scope[] = {"RKSL_optic_LDS"};
 	vest[] = {"UK3CB_BAF_V_Osprey_MG_B"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_MTP"};
 	magazines[] =
 	{
-		LIST_4("UK3CB_BAF_762_100Rnd"),
-		LIST_2("UK3CB_BAF_762_100Rnd_T"),
+		LIST_4("rhsusf_100Rnd_762x51_m61_ap"),
+		LIST_2("rhsusf_100Rnd_762x51_m62_tracer"),
 		"HandGrenade",
 		"rhs_mag_an_m8hc"
 	};
@@ -309,7 +309,7 @@ class mmgac : r
 	backpack[] = {"UK3CB_BAF_B_Carryall_MTP"};
 	backpackItems[] =
 	{
-		LIST_3("UK3CB_BAF_762_100Rnd")
+		LIST_3("rhsusf_100Rnd_762x51_m61_ap")
 	};
 };
 class mmgag : aar
@@ -318,7 +318,7 @@ class mmgag : aar
 	backpack[] = {"UK3CB_BAF_B_Carryall_MTP"};
 	backpackItems[] =
 	{
-		LIST_3("UK3CB_BAF_762_100Rnd_T")
+		LIST_3("rhsusf_100Rnd_762x51_m62_tracer")
 	};
 	linkedItems[] =
 	{
