@@ -488,6 +488,12 @@ class CfgLoadouts
 		displayName = "Jugoslav People's Army (1992 OD GREEN)";
 		category = "Other";
 		#include "loadouts\jna_1992.hpp"
+	};	
+	class JNA_Para
+	{
+		displayName = "Jugoslav People's Army Airborne (1985)";
+		category = "Other";
+		#include "loadouts\Yugo_Para.hpp"
 	};
 	class SERBIAN_ARMY_M93_OAKLEAF
 	{
