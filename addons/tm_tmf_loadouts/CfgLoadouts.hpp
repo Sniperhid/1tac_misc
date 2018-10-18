@@ -471,6 +471,13 @@ class CfgLoadouts
 		#include "loadouts\adf_2005.hpp"
 	};
 	
+	class IDF_2000s
+	{
+		displayName = "Israeli Defence Forces (Olive drab, 2000s)";
+		category = "Western Factions";
+		#include "loadouts\idf_2000s.hpp"
+	};
+	
 	class SYRIAN_ARAB_ARMY_WDL
 	{
 		displayName = "Syrian Arab Army (1995-, Woodland)";
