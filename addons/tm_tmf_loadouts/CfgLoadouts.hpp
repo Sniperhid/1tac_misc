@@ -497,13 +497,19 @@ class CfgLoadouts
 	};
 	class SERBIAN_ARMY_M10_DIGITAL
 	{
-		displayName = "Serbian Army (2010-, Digital)";
+		displayName = "Serbian Army (2010-, Digital, M21s)";
 		category = "Other";
 		#include "loadouts\saf_kov_m10_digital.hpp"
 	};
+	class SERBIAN_ARMY_M10_DIGITAL_M70
+	{
+		displayName = "Serbian Army (2010-, Digital, M70s)";
+		category = "Other";
+		#include "loadouts\saf_kov_m10_digital_m70.hpp"
+	};
 	class SERBIAN_ARMY_PARA_M10_DIGITAL
 	{
-		displayName = "Serbian Army Special Brigade (2010-, Digital)";
+		displayName = "Serbian Army Special Brigade (2010-, Digital, G36s)";
 		category = "Other";
 		#include "loadouts\saf_kov_para_m10_digital.hpp"
 	};

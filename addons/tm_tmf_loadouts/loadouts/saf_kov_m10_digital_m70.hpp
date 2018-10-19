@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-tooltip = "Author: Bear\n\nSerbian Army (RHS: SAF). 5.56x45 mm Zastava rifles.";
+tooltip = "Author: Bear\n\nSerbian Army (RHS: SAF). 7.62x39 mm Zastava rifles.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -66,15 +66,18 @@ class r : baseMan
 		"rhssaf_helmet_m97_woodland_black_ess",
 		"rhssaf_helmet_m97_woodland_black_ess_bare"
 	};
-	vest[] = {"rhssaf_vest_md12_digital"};
+	vest[] = {"rhssaf_vest_otv_md2camo", "rhssaf_vest_md98_rifleman"};
     backpack[] = {"rhssaf_kitbag_digital", "rhssaf_kitbag_md2camo", "rhssaf_alice_md2camo"};
-    primaryWeapon[] = {"rhs_weap_m21a"};
+    primaryWeapon[] =
+	{
+		"rhs_weap_m70b1"
+	};
 	scope[] = {};
     silencer[] = {};
     magazines[] =
     {
-        LIST_8("rhsgref_30rnd_556x45_m21"),
-        LIST_2("rhsgref_30rnd_556x45_m21_t"),
+        LIST_8("rhs_30Rnd_762x39mm"),
+        LIST_2("rhs_30Rnd_762x39mm_tracer"),
         LIST_2("rhssaf_mag_br_m84"),
         LIST_2("rhssaf_mag_brd_m83_white")
     };
@@ -87,11 +90,11 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_m21a_pbg40"};
+    primaryWeapon[] = {"rhs_weap_m70b3n_pbg40"};
     magazines[] =
     {
-		LIST_6("rhsgref_30rnd_556x45_m21"),
-        LIST_2("rhsgref_30rnd_556x45_m21_t"),
+		LIST_6("rhs_30Rnd_762x39mm"),
+        LIST_2("rhs_30Rnd_762x39mm_tracer"),
         LIST_2("rhssaf_mag_br_m84"),
         LIST_2("rhssaf_mag_brd_m83_white"),
         LIST_4("rhs_VOG25"),
@@ -101,10 +104,10 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_m21s"};
+    primaryWeapon[] = {"rhs_weap_m70ab2"};
 	magazines[] =
     {
-        LIST_6("rhsgref_30rnd_556x45_m21"),
+        LIST_6("rhs_30Rnd_762x39mm"),
         "rhssaf_mag_br_m84",
         "rhssaf_mag_brd_m83_white"
     };
@@ -123,10 +126,11 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
+    primaryWeapon[] = {"rhs_weap_m92"};
 	silencer[] = {};
     magazines[] =
     {
-        LIST_6("rhsgref_30rnd_556x45_m21"),
+        LIST_6("rhs_30Rnd_762x39mm"),
         "rhssaf_mag_br_m84",
         "rhssaf_mag_brd_m83_white"
     };
@@ -134,6 +138,7 @@ class smg : r
 class ftl : g
 {
     displayName = "Fireteam Leader";
+	vest[] = {"rhssaf_vest_md99_woodland_rifleman_radio", "rhssaf_vest_md99_md2camo_rifleman_radio"};
     magazines[] +=
     {
         LIST_2("rhs_GRD40_Green"),
@@ -161,10 +166,10 @@ class co : sl
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
 		LIST_2("rhssaf_mag_brd_m83_green"),
-		LIST_2("rhssaf_mag_brd_m83_yellow"),
+		LIST_2("SmokeShellYellow"),
 		LIST_4("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
-		LIST_6("rhsgref_30rnd_556x45_m21"),
+		LIST_6("rhs_30Rnd_762x39mm"),
         "rhssaf_mag_br_m84",
         "rhssaf_mag_brd_m83_white"
 	};
@@ -223,7 +228,7 @@ class dm : r
 	displayName = "Designated Marksman";
 	primaryWeapon[] = {"rhs_weap_m76"};
 	silencer[] = {};
-	scope[] = {"rhs_acc_pso1m2"};
+	scope[] = {};
 	bipod[] = {};
 	magazines[] =
 	{
