@@ -17,5 +17,8 @@ class CfgPatches
 
 #include "macros.hpp"
 
+#include "CfgEventHandlers.hpp"
 #include "CfgFunctions.hpp"
 #include "CfgLoadouts.hpp"
+
+#include "bear_gear\gearSelector.hpp"
