@@ -442,7 +442,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\generic_paramilitary_tigerstripe_desert.hpp"
 	};
-	
+		class PMC_WINTER
+	{
+		displayName = "Winter PMC(2015-, Arctic Camo)";
+		category = "Other";
+		#include "loadouts\PMC_Winter.hpp"
+	};
 	class GDR_NVA_1980_STRICHTARN
 	{
 		displayName = "GDR Army (1980, Strichtarn)";
