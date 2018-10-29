@@ -70,8 +70,8 @@ class r : baseMan
     {
         LIST_8("rhssaf_30rnd_556x45_EPR_G36"),
         LIST_2("rhssaf_30rnd_556x45_Tracers_G36"),
-        LIST_2("HandGrenade"),
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhssaf_mag_br_m84"),
+        LIST_2("rhssaf_mag_brd_m83_white")
     };
 	items[] =
 	{
@@ -87,8 +87,8 @@ class g : r
     {
 		LIST_6("rhssaf_30rnd_556x45_EPR_G36"),
         LIST_2("rhssaf_30rnd_556x45_Tracers_G36"),
-        LIST_2("HandGrenade"),
-        LIST_2("rhs_mag_rdg2_white"),
+        LIST_2("rhssaf_mag_br_m84"),
+        LIST_2("rhssaf_mag_brd_m83_white"),
         LIST_4("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_M433_HEDP"),
         LIST_4("1Rnd_Smoke_Grenade_shell")
@@ -102,8 +102,8 @@ class car : r
     {
         LIST_6("rhssaf_30rnd_556x45_EPR_G36"),
         LIST_2("rhssaf_30rnd_556x45_Tracers_G36"),
-        "HandGrenade",
-        "rhs_mag_rdg2_white"
+        "rhssaf_mag_br_m84",
+        "rhssaf_mag_brd_m83_white"
     };
 };
 class m : car 
@@ -114,7 +114,7 @@ class m : car
 		LIST_10("ACE_morphine"),
 		LIST_6("ACE_epinephrine"),
 		LIST_2("ACE_bloodIV"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("rhssaf_mag_brd_m83_white")
 	};
 };
 class smg : r
@@ -127,8 +127,8 @@ class smg : r
     magazines[] =
     {
         LIST_6("hlc_30Rnd_9x19_B_MP5"),
-        "HandGrenade",
-        LIST_2("rhs_mag_rdg2_white")
+        "rhssaf_mag_br_m84",
+        LIST_2("rhssaf_mag_brd_m83_white")
     };
 };
 class ftl : g
@@ -139,7 +139,7 @@ class ftl : g
     {
         LIST_2("rhs_GRD40_Green"),
 		LIST_2("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhssaf_mag_brd_m83_green")
     };
     linkedItems[] =
     {
@@ -161,14 +161,14 @@ class co : sl
 	magazines[] = {
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
-		LIST_2("SmokeShellGreen"),
+		LIST_2("rhssaf_mag_brd_m83_green"),
 		LIST_2("SmokeShellYellow"),
 		LIST_3("rhs_mag_M441_HE"),
         LIST_2("1Rnd_Smoke_Grenade_shell"),
 		LIST_6("rhssaf_30rnd_556x45_EPR_G36"),
         LIST_2("rhssaf_30rnd_556x45_Tracers_G36"),
-        "HandGrenade",
-        LIST_2("rhs_mag_rdg2_white")
+        "rhssaf_mag_br_m84",
+        LIST_2("rhssaf_mag_brd_m83_white")
 	};
 	backpackItems[] = {};
 };
@@ -203,8 +203,8 @@ class ar : r
 	magazines[] =
 	{
 		LIST_3("rhs_200rnd_556x45_M_SAW"),
-		"HandGrenade",
-		"rhs_mag_rdg2_white"
+		"rhssaf_mag_br_m84",
+		"rhssaf_mag_brd_m83_white"
 	};
 };
 class aar : r
@@ -232,7 +232,7 @@ class dm : r
 	magazines[] =
 	{
 		LIST_16("rhsgref_10Rnd_792x57_m76"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("rhssaf_mag_brd_m83_white")
 	};
 };
 class mmgg : ar
@@ -245,8 +245,8 @@ class mmgg : ar
 	magazines[] =
 	{
 		LIST_5("rhs_100Rnd_762x54mmR"),
-		"HandGrenade",
-		"rhs_mag_rdg2_white"
+		"rhssaf_mag_br_m84",
+		"rhssaf_mag_brd_m83_white"
 	};
 };
 class mmgac : car
@@ -430,7 +430,7 @@ class sn : r
     magazines[] =
     {
         LIST_6("rhsusf_mag_10Rnd_STD_50BMG_M33"),
-        "HandGrenade",
+        "rhssaf_mag_br_m84",
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
 	linkedItems[] += {"Binocular"};
@@ -448,7 +448,7 @@ class sp : sn
     {
 		LIST_4("rhssaf_30rnd_556x45_EPR_G36"),
         LIST_2("rhssaf_30rnd_556x45_Tracers_G36"),
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhssaf_mag_brd_m83_white")
     };
 };
 class vc : smg
@@ -478,11 +478,11 @@ class pp : smg
     uniform[] = {"rhssaf_uniform_heli_pilot"};
     vest[] = {"rhs_vydra_3m"};
 	radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhssaf_helmet_hgu56p"};
+    headgear[] = {"rhsusf_hgu56p_saf", "rhsusf_hgu56p_visor_saf"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhssaf_mag_brd_m83_green")
 	};
 };
 class pcc : smg
@@ -490,11 +490,11 @@ class pcc : smg
     displayName = "Helicopter Crew Chief";
     uniform[] = {"rhssaf_uniform_heli_pilot"};
     vest[] = {"rhs_vydra_3m"};
-    headgear[] = {"rhssaf_helmet_hgu56p"};
+    headgear[] = {"rhsusf_hgu56p_saf", "rhsusf_hgu56p_visor_saf"};
     goggles[] = {};
     backpackItems[] = {"ToolKit"};
 	magazines[] += {
-		LIST_2("SmokeShellGreen")
+		LIST_2("rhssaf_mag_brd_m83_green")
 	};
 };
 class pc : pcc
