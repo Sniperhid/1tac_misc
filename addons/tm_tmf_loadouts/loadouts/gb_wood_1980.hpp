@@ -458,6 +458,13 @@ class sn : r
         LIST_2("HandGrenade"),
         LIST_4("UK3CB_BAF_9_13Rnd")
     };
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
+    };
 };
 class sp : sn
 {
@@ -471,6 +478,13 @@ class sp : sn
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell"),
 		LIST_4("rhsusf_mag_7x45acp_MHP")
+    };
+        linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "Binocular"
     };
 };
 class vc : smg
