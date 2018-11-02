@@ -418,6 +418,12 @@ class CfgLoadouts
 		#include "loadouts\us_army_ucp_a2oa.hpp"
 	};
 	
+    class PMC_WINTER
+    {
+        displayName = "PMC (2015-, Arctic Camo)";
+        category = "Other";
+        #include "loadouts\pmc_winter.hpp"
+    };
 	class GENERIC_PARAMILITARY_OLIVE_AKM
 	{
 		displayName = "Generic Paramilitary (1980-, Olive, AKMs)";
@@ -502,6 +508,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\jna_1992.hpp"
 	};
+    class JNA_PARA
+    {
+        displayName = "Jugoslav People's Army Airborne (1985)";
+        category = "Other";
+        #include "loadouts\jna_para.hpp"
+    };
 	class SERBIAN_ARMY_M93_OAKLEAF
 	{
 		displayName = "Serbian Army (1993-, Oakleaf)";
