@@ -12,6 +12,18 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\cro_army_1992.hpp"
 	};
+	class BLACK_ARMED_SUITS
+	{
+		displayName = "Armed men in black";
+		category = "Western Factions";
+		#include "loadouts\black_armed_suits.hpp"
+	};
+	class BROWN_ARMED_SUITS
+	{
+		displayName = "Armed men in brown";
+		category = "Eastern Factions";
+		#include "loadouts\brown_armed_suits.hpp"
+	};
 	class CANADA_ARMY_CADPAT
 	{
 		displayName = "Canadian Army (2005-, CADPAT)";
@@ -225,7 +237,7 @@ class CfgLoadouts
 		displayName = "RU Ground Forces (2005-2010, Flora)";
 		category = "Russia";
 		#include "loadouts\ru_msv_flora.hpp"
-  };
+ 	};
 	class RUS_SSO_ATACS_AU
 	{
 		displayName = "RU Special Operations Forces (2016, A-TACS AU)";
