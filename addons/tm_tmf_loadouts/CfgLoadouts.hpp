@@ -477,6 +477,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\syrian_arab_army_wdl.hpp"
 	};
+	class BUNDESWEHR_1983
+	{
+		displayName = "Bundeswehr (1983, OD Grauoliv)";
+		category = "Western Factions";
+		#include "loadouts\bundeswehr_1983.hpp"
+	};	
 	class ARVN_1966
 	{
 		displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
