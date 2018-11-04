@@ -68,7 +68,7 @@ class r : baseMan
     silencer[] = {"rhs_acc_dtk1983"};
     magazines[] =
     {
-        LIST_11("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_11("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
@@ -100,7 +100,7 @@ class car : r
     primaryWeapon[] = {"rhs_weap_aks74n"};
 	magazines[] =
     {
-        LIST_6("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_6("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
@@ -124,7 +124,7 @@ class smg : r
     silencer[] = {"rhs_acc_pgs64_74u"};
     magazines[] =
     {
-        LIST_6("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_6("rhs_30Rnd_545x39_7N6M_AK"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -161,7 +161,7 @@ class co : sl
 		LIST_2("rhs_mag_nspd"),
 		LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
-		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
+		LIST_6("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green")
 	};
 	backpackItems[] = {};
@@ -194,8 +194,7 @@ class ar : r
 	sidearmWeapon[] = {};
 	magazines[] =
 	{
-		LIST_4("rhs_45Rnd_545X39_AK"),
-		LIST_2("rhs_45Rnd_545X39_7N22_AK"),
+		LIST_6("rhs_45Rnd_545X39_AK"),
 		"rhs_mag_rgd5",
 		"rhs_mag_rdg2_white"
 	};
@@ -206,9 +205,8 @@ class aar : r
 	backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_2("rhs_45Rnd_545X39_AK"),
-        LIST_2("rhs_45Rnd_545X39_AK_Green"),
-        LIST_2("rhs_45Rnd_545X39_7N22_AK")
+        LIST_4("rhs_45Rnd_545X39_AK"),
+        LIST_2("rhs_45Rnd_545X39_AK_Green")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -233,7 +231,6 @@ class mmgg : ar
 	magazines[] =
 	{
 		LIST_4("rhs_100Rnd_762x54mmR"),
-		LIST_2("rhs_100Rnd_762x54mmR"),
 		"rhs_mag_rgd5",
 		"rhs_mag_rdg2_white"
 	};
@@ -428,7 +425,7 @@ class sp : r
     displayName = "Spotter";
     magazines[] =
     {
-		LIST_7("rhs_30Rnd_545x39_7N10_AK"),
+		LIST_7("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),

@@ -194,8 +194,7 @@ class ar : r
 	sidearmWeapon[] = {};
 	magazines[] =
 	{
-		LIST_4("rhs_45Rnd_545X39_AK"),
-		LIST_2("rhs_45Rnd_545X39_7N22_AK"),
+		LIST_6("rhs_45Rnd_545X39_7N10_AK"),
 		"rhs_mag_rgd5",
 		"rhs_mag_rdg2_white"
 	};
@@ -206,9 +205,8 @@ class aar : r
 	backpack[] = {"rhsgref_ttsko_alicepack"};
     backpackItems[] =
     {
-        LIST_2("rhs_45Rnd_545X39_AK"),
-        LIST_2("rhs_45Rnd_545X39_AK_Green"),
-        LIST_2("rhs_45Rnd_545X39_7N22_AK")
+        LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_4("rhs_45Rnd_545X39_7N10_AK")
     };
     linkedItems[] += {"Binocular"};
 };

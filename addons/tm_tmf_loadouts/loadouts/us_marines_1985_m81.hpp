@@ -98,7 +98,7 @@ class r : baseMan
     primaryWeapon[] = {"mbg_m16a2"};
     magazines[] =
     {
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -108,7 +108,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_pasgt_lbe_gr_m"};
-    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
+    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] +=
     {
         LIST_20("1Rnd_HE_Grenade_shell"),
@@ -126,8 +126,8 @@ class ftl : r
     displayName = "Fireteam Leader";
     magazines[] =
     {
-        LIST_3("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Yellow"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -360,7 +360,7 @@ class vc : sl
 {
     displayName = "Vehicle Commander";
     magazines[] = {
-        LIST_3("30Rnd_556x45_Stanag"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };

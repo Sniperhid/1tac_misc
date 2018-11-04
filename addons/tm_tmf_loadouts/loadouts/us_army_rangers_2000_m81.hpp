@@ -69,7 +69,7 @@ class r : baseMan
     silencer[] = {"rhsusf_acc_sfmb556"};
     magazines[] =
     {
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -98,8 +98,8 @@ class ftl : r
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle"};
     magazines[] =
     {
-        LIST_3("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Yellow"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -164,7 +164,7 @@ class dm : r
     silencer[] = {"hlc_muzzle_mag58_brake"};
     magazines[] =
     {
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -336,7 +336,7 @@ class vc : sl
     displayName = "Vehicle Commander";
     vest[] = {"usm_vest_rba_lbe_rm"};
     magazines[] = {
-        LIST_3("30Rnd_556x45_Stanag"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "Chemlight_green"
     };
     headgear[] = {"usm_helmet_cvc"};

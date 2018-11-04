@@ -68,7 +68,7 @@ class r : baseMan
     silencer[] = {"rhsusf_acc_sfmb556"};
     magazines[] =
     {
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -78,7 +78,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_rba_lbv_gr"};
-    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
+    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] +=
     {
         LIST_4("1Rnd_HE_Grenade_shell"),
@@ -97,8 +97,8 @@ class ftl : r
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle"};
     magazines[] =
     {
-        LIST_3("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Yellow"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -161,7 +161,7 @@ class dm : r
     scope[] = {"hlc_optic_artel_m14"};
     magazines[] =
     {
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"
@@ -323,7 +323,7 @@ class vc : sl
     displayName = "Vehicle Commander";
     vest[] = {"usm_vest_rba"};
     magazines[] = {
-        LIST_2("30Rnd_556x45_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "Chemlight_green"
     };
     headgear[] = {"usm_helmet_cvc"};

@@ -105,13 +105,14 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"rhs_weap_m92"};
+    sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
+    primaryWeapon[] = {};
 	silencer[] = {};
     magazines[] =
     {
-        LIST_6("rhs_30Rnd_762x39mm"),
+        LIST_4("rhs_mag_9x18_12_57N181S"),
         "rhs_mag_f1",
-        LIST_2("rhs_mag_rdg2_white")
+        "rhs_mag_rdg2_white"
     };
 };
 class ftl : g
@@ -412,13 +413,13 @@ class sn : r
     vest[] = {"bear_6sh92_khaki"};
     headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_m76"};
+    primaryWeapon[] = {"rhs_weap_svdp_wd"};
     scope[] = {"rhs_acc_pso1m2"};
 	bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
     magazines[] =
     {
-        LIST_10("rhsgref_10Rnd_792x57_m76"),
+        LIST_8("rhs_10Rnd_762x54mmR_7N1"),
         "rhs_mag_f1",
         LIST_3("rhs_mag_9x18_12_57N181S")
     };
