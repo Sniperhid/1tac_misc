@@ -85,7 +85,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
+    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] +=
     {
         LIST_4("1Rnd_HE_Grenade_shell"),

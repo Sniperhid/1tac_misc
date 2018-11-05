@@ -64,8 +64,8 @@ class r : baseMan
     attachment[] = {};
     magazines[] =
     {
-        LIST_11("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -109,7 +109,7 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m4_carryhandle"};
     magazines[] =
     {
-        LIST_6("30Rnd_556x45_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -155,8 +155,8 @@ class co : sl
 		LIST_2("SmokeShellPurple"),
 		LIST_3("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-		LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
 	};
@@ -192,7 +192,7 @@ class ar : r
 	backpack[] = {"usm_pack_200rnd_556_bandoliers"};
 	magazines[] =
 	{
-		LIST_6("CUP_100Rnd_TE4_Red_Tracer_556x45_M249"),
+		LIST_3("rhsusf_200rnd_556x45_M855_mixed_box"),
 		"rhs_mag_m67",
 		"rhs_mag_an_m8hc"
 	};
@@ -203,7 +203,7 @@ class aar : r
 	backpack[] = {"usm_pack_200rnd_556_bandoliers"};
     backpackItems[] =
     {
-        LIST_3("CUP_100Rnd_TE4_Red_Tracer_556x45_M249")
+        LIST_2("rhsusf_200rnd_556x45_M855_mixed_box")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -449,8 +449,8 @@ class sp : sn
 	primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203"};
     magazines[] =
     {
-		LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_4("rhs_mag_M441_HE"),
