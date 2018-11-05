@@ -244,6 +244,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_vdv_emr_ratnik.hpp"
 	};
+	class RUS_VDV_EMR_RATNIK_AK74MR
+	{
+		displayName = "RU Airborne Troops (2020, EMR, AK-74MR)";
+		category = "Russia";
+		#include "loadouts\ru_vdv_emr_ratnik_ak74mr.hpp"
+	};
 	class RUS_VDV_MOUNTAIN_FLORA_RATNIK
 	{
 		displayName = "RU Airborne Mountain Troops (2014, Mountain Flora)";
