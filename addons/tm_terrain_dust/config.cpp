@@ -13,7 +13,6 @@ class CfgPatches {
             "CUP_Worlds_DustEffects",
             "A3_Map_IslaDuala3",
             "tem_anizay",
-            "Hellanmaa",
             "pulau",
             "Ruha"
         };
