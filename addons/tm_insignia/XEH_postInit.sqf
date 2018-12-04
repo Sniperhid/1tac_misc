@@ -9,7 +9,11 @@ if (hasInterface) then {
         if (_is1Tac && isNil QGVAR(disable)) then {
             {
                 if (_x isEqualTo "insignia") exitWith {
-                    player setObjectTextureGlobal [_forEachIndex, getText (configFile >> "CfgUnitInsignia" >> QGVAR(insignia) >> "texture")];
+                    private _currentInsignia = player getVariable ["BIS_fnc_setUnitInsignia_class", ""];
+                    if (_currentInsignia isEqualTo "" || _currentInsignia isEqualTo QGVAR(insignia)) then {
+                        player setVariable ["BIS_fnc_setUnitInsignia_class", QGVAR(insignia), true];
+                        player setObjectTextureGlobal [_forEachIndex, getText (configFile >> "CfgUnitInsignia" >> QGVAR(insignia) >> "texture")];
+                    };
                 };
             } forEach getArray (configFile >> "CfgVehicles" >> getText (configFile >> "CfgWeapons" >> uniform player >> "ItemInfo" >> "uniformClass") >> "hiddenSelections");
     
@@ -18,7 +22,11 @@ if (hasInterface) then {
                 if (_unit isEqualTo player && isNil QGVAR(disable)) then {
                     {
                         if (_x isEqualTo "insignia") exitWith {
-                            player setObjectTextureGlobal [_forEachIndex, getText (configFile >> "CfgUnitInsignia" >> QGVAR(insignia) >> "texture")];
+                            private _currentInsignia = player getVariable ["BIS_fnc_setUnitInsignia_class", ""];
+                            if (_currentInsignia isEqualTo "" || _currentInsignia isEqualTo QGVAR(insignia)) then {
+                                player setVariable ["BIS_fnc_setUnitInsignia_class", QGVAR(insignia), true];
+                                player setObjectTextureGlobal [_forEachIndex, getText (configFile >> "CfgUnitInsignia" >> QGVAR(insignia) >> "texture")];
+                            };
                         };
                     } forEach getArray (configFile >> "CfgVehicles" >> getText (configFile >> "CfgWeapons" >> uniform player >> "ItemInfo" >> "uniformClass") >> "hiddenSelections");
                 };
