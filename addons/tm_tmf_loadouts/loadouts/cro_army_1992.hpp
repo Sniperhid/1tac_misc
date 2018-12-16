@@ -9,7 +9,7 @@ class baseMan {// Weaponless baseclass
     uniform[] = {"rhsgref_uniform_woodland"};
     vest[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown"};
     backpack[] = {""};
-    headgear[] = {"rhs_6b26", "H_Bandanna_camo", "usm_bdu_cap_wdl", };
+    headgear[] = {"rhs_6b26", "H_Bandanna_camo", "usm_bdu_cap_wdl"};
     goggles[] = {"default"};
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
@@ -220,7 +220,7 @@ class matg : car
     magazines[] +=
     {
         LIST_2("rhs_rpg7_PG7V_mag"),
-		LIST_1("rhs_rpg7_PG7VL_mag")
+	LIST_1("rhs_rpg7_PG7VL_mag")
     };
 };
 class matac : r
@@ -328,7 +328,7 @@ class samag : car
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("rhs_mag_9k38_rocket ")
+        LIST_2("rhs_mag_9k38_rocket")
     };
 };
 class sn : dm
