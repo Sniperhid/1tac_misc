@@ -15,13 +15,13 @@ class CfgLoadouts
 	class BLACK_ARMED_SUITS
 	{
 		displayName = "Armed men in black";
-		category = "Western Factions";
+		category = "Other";
 		#include "loadouts\black_armed_suits.hpp"
 	};
 	class BROWN_ARMED_SUITS
 	{
 		displayName = "Armed men in brown";
-		category = "Eastern Factions";
+		category = "Other";
 		#include "loadouts\brown_armed_suits.hpp"
 	};
 	class CANADA_ARMY_CADPAT
