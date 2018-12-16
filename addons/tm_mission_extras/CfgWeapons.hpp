@@ -6,7 +6,7 @@ class CfgWeapons {
     class GVAR(xmas_sweater): U_BG_Guerrilla_6_1 {
         displayName = "Ugly Christmas Sweater";
         author = "Greenfist";
-        scope = 1;
+        scope = 2;
         hiddenSelectionsTextures[] = {QPATHTOF(data\guerilla_xmas_sweater_co.paa)};
         class ItemInfo: ItemInfo {
             uniformClass = QGVAR(xmas_sweater_unit);
