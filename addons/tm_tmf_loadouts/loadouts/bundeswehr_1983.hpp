@@ -5,7 +5,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] =
     {
-        "bear_uniform_m88_grauoliv"
+        "bear_uniform_m93_olivegray"
     };
     vest[] = {"usm_vest_LBE_rm"};
     backpack[] = {};
