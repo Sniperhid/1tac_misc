@@ -483,11 +483,11 @@ class CfgLoadouts
 		#include "loadouts\adf_2005.hpp"
 	};
 	
-	class IDF_2000s
+	class IDF
 	{
-		displayName = "Israeli Defence Forces (Olive drab, 2000s)";
+		displayName = "Israeli Defence Forces (Olive drab)";
 		category = "Western Factions";
-		#include "loadouts\idf_2000s.hpp"
+		#include "loadouts\idf.hpp"
 	};
 	
 	class SYRIAN_ARAB_ARMY_WDL
