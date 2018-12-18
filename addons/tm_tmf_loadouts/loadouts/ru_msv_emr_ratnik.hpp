@@ -1,6 +1,6 @@
 // If you want to base a loadout on an existing one, this repository contains them all:
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
-
+//Compatible with ACE Advanced Medical
 //Made by Freddo, using a modfied example loadout
 
 /* Dependencies
@@ -73,7 +73,16 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {LIST_3("ACE_fieldDressing"),"ACE_morphine","ACE_MapTools","ACE_CableTie","ACE_Flashlight_KSF1"};
+    items[] = 
+        {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_MapTools",
+        "ACE_CableTie",
+        "ACE_Flashlight_KSF1"
+        };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -131,12 +140,18 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+    backpack[] = {"bear_rd54_vsr"};
     backpackItems[] = 
     {
         LIST_15("ACE_fieldDressing"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
-        LIST_6("ACE_bloodIV_500")
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit")
     };
 };
 //Not used
@@ -235,7 +250,7 @@ class mmgg : ar
     sidearmWeapon[] = {"rhs_weap_pya"};
     magazines[] =
     {
-        LIST_3("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_100Rnd_762x54mmR"),
         LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white",
         LIST_2("rhs_mag_9x19_17"),
@@ -344,7 +359,7 @@ class mtrag : car
     displayName = "Mortar Assistant Gunner";
     backPack[] = {"I_HMG_01_support_F"};
     linkedItems[] = {"rhs_pdu4"};
-    items[] += {"ACE_RangeTable_82mm","ACE_MapTools"};
+    items[] += {"ACE_MapTools"};
     vest[] = {"rhs_6sh92_digi_radio"};
 };
 class samg : car
@@ -387,7 +402,7 @@ class sp : g
     displayName = "Spotter";
     headgear[] = {"H_Watchcap_camo"};
     goggles[] = {"rhs_scarf"};
-    items[] += {"ACE_SpottingScope","ACE_Kestrel4500","ACE_RangeCard"};
+    items[] += {"ACE_SpottingScope","ACE_Kestrel4500"};
 };
 class vc : car
 {
@@ -470,6 +485,7 @@ class jp : pp
 {
     displayName = "Jet Pilot";
     headgear[] = {"rhs_zsh7a_alt"};
+    vest[] = {"bear_6sh46_high_capacity"};
     magazines[] = {LIST_2("hlc_30Rnd_545x39_B_AK")};
     backPack[] = {"rhs_d6_Parachute_backpack"};
 };

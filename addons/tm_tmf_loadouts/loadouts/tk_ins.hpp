@@ -1,4 +1,5 @@
 tooltip = "Author: Morbo";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -57,8 +58,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -86,9 +89,14 @@ class m : car
     displayName = "Medic";
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("SmokeShell")
 	};
 };
@@ -132,13 +140,11 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-	radios[] = {"ACRE_PRC117F"};
 };
 class fac : smg
 {
     displayName = "Scout";
 	backpackItems[] = {};
-	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -146,8 +152,10 @@ class fac : smg
 		"Binocular"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Maptools"
 	};
 };
@@ -260,7 +268,7 @@ class matg : rat
 	secondaryAttachments[] = {};
 	magazines[] +=
 	{
-		LIST_4("rhs_rpg7_PG7VR_mag")
+		LIST_3("rhs_rpg7_PG7VR_mag")
 	};
 };
 class matac : car
@@ -269,7 +277,7 @@ class matac : car
 	backpack[] = {"rhs_rpg_empty"};
 	backpackItems[] =
 	{
-		LIST_4("rhs_rpg7_PG7VR_mag")
+		LIST_3("rhs_rpg7_PG7VR_mag")
 	};
 };
 class matag : car
@@ -403,7 +411,6 @@ class sp : r
 class vc : smg
 {
     displayName = "Vehicle Commander";
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4"};
     linkedItems[] += {"Binocular"};
 	magazines[] += {
@@ -454,8 +461,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 };

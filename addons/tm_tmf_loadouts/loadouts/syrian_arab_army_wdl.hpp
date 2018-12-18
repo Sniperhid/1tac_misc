@@ -1,4 +1,5 @@
 // in case of fire, tell Bear
+//Compatible with ACE Advanced Medical
 
 tooltip = "Author: Bear\n\nMimics my MEC Woodland faction. Resembles the Syrian Arab Army. 7.62x39 mm rifles.";
 
@@ -73,8 +74,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -103,14 +106,31 @@ class car : r
         "rhs_mag_rdg2_white"
     };
 };
+class car2 : r
+{
+    displayName = "Carabinier";
+    primaryWeapon[] = {"rhs_weap_akms"};
+	magazines[] =
+    {
+        LIST_4("rhs_30Rnd_762x39mm"),
+        "rhs_30Rnd_762x39mm_tracer",
+        "rhs_mag_f1",
+        "rhs_mag_rdg2_white"
+    };
+};
 class m : car 
 {
     displayName = "Medic";
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_rdg2_white")
 	};
 };
@@ -165,7 +185,6 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-	radios[] = {"ACRE_PRC117F"};
 	//headgear[] = {"rhs_fieldcap_khk"};
 	goggles[] = {"G_Aviator"};
 	magazines[] = {
@@ -186,7 +205,6 @@ class fac : co
 {
     displayName = "Forward Air Controller";
 	backpackItems[] = {};
-	radios[] = {"ACRE_PRC117F"};
 	headgear[] = {"rhs_gssh18"};
 	linkedItems[] = {
 		"ItemMap",
@@ -196,8 +214,10 @@ class fac : co
 		"rhs_pdu4"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Kestrel4500",
 		"ACE_microDAGR",
 		"ACE_Maptools"
@@ -293,18 +313,18 @@ class mmgag : aar
 		LIST_4("rhs_100Rnd_762x54mmR")
 	};
 };
-class hmgg : car
+class hmgg : car2
 {
     displayName = "HMG Gunner";
     backPack[] = {"RHS_Kord_Gun_Bag"};
 
 };
-class hmgac : car
+class hmgac : car2
 {
     displayName = "HMG Ammo Carrier";
     backPack[] = {"RHS_Kord_Gun_Bag"};
 };
-class hmgag : car
+class hmgag : car2
 {
 	displayName = "HMG Assistant Gunner";
 	backPack[] = {"RHS_Kord_Tripod_Bag"};
@@ -358,21 +378,21 @@ class matag : car
 		"rhs_rpg7_OG7V_mag"
 	};
 };
-class hatg : car
+class hatg : car2
 {
     displayName = "HAT Gunner";
 	backpack[] = {"RHS_Kornet_Gun_Bag"};
 	secondaryWeapon[] = {};
 	backpackItems[] = {};
 };
-class hatac : car
+class hatac : car2
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"RHS_Kornet_Gun_Bag"};
 	secondaryWeapon[] = {};
 	backpackItems[] = {};
 };
-class hatag : car
+class hatag : car2
 {
 	displayName = "HAT Assistant Gunner";
 	backpack[] = {"RHS_Kornet_Tripod_Bag"};
@@ -385,7 +405,7 @@ class hatag : car
 		"Binocular"
 	};
 };
-class mtrg : car
+class mtrg : car2
 {
     displayName = "Mortar Gunner";
     backPack[] = {"RHS_Podnos_Gun_Bag"};
@@ -396,12 +416,12 @@ class mtrg : car
         "ItemWatch"
     };
 };
-class mtrac : car
+class mtrac : car2
 {
     displayName = "Mortar Ammo Carrier";
     backPack[] = {"RHS_Podnos_Gun_Bag"};
 };
-class mtrag : car
+class mtrag : car2
 {
     displayName = "Mortar Assistant Gunner";
     backPack[] = {"RHS_Podnos_Bipod_Bag"};
@@ -460,7 +480,6 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     backpack[] = {"bear_sidor_tan"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
 	linkedItems[] += {"Binocular","ItemGPS"};
@@ -477,7 +496,7 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
+    backpack[] = {"bear_sidor_tan"};
 	backpackItems[] = {};
 };
 class pp : smg
@@ -486,7 +505,6 @@ class pp : smg
     uniform[] = {"rhs_uniform_df15_tan"};
     vest[] = {"rhs_vydra_3m"};
     backpack[] = {"bear_sidor_tan"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
@@ -518,7 +536,6 @@ class jp : baseMan
     uniform[] = {"rhs_uniform_df15_tan"};
     vest[] = {"rhs_vydra_3m"};
     backpack[] = {"bear_sidor_tan"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
 	sidearmWeapon[] = {"rhs_weap_makarov_pm"};
@@ -528,12 +545,14 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
-class eng : car
+class eng : car2
 {
     displayName = "Combat Engineer (Explosives)";
 	backpack[] = {"B_Carryall_cbr"};
@@ -545,7 +564,7 @@ class eng : car
     };
 	items[] += {"ACE_M26_Clacker","ACE_DefusalKit"};
 };
-class engm : car
+class engm : car2
 {
     displayName = "Combat Engineer (Mines)";
 	backpack[] = {"B_Carryall_cbr"};
@@ -556,8 +575,8 @@ class engm : car
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        LIST_3("rhs_mine_pmn2_mag"),
-        LIST_3("rhs_mine_tm62m_mag")
+        LIST_2("rhs_mine_pmn2_mag"),
+        LIST_2("rhs_mine_tm62m_mag")
     };
 };
 class UAV : car

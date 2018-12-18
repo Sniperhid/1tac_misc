@@ -3,6 +3,7 @@
 // this is now 1986! science!
 // dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, mbg_m16a2
 // originally by Fingers
+//Compatible with ACE Advanced Medical
 
 tooltip = "WARNING: MAT role is NOT RHS compatible";
 
@@ -69,8 +70,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -95,9 +98,14 @@ class m : car
 	backpack[] = {"usm_pack_m5_medic"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_an_m8hc")
 	};
 };
@@ -163,8 +171,10 @@ class fac : co
 		"Binocular"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Maptools"
 	};
 };
@@ -228,7 +238,7 @@ class mmgac : r
 	backpack[] = {"usm_pack_alice"};
     backpackItems[] =
     {
-        LIST_5("hlc_100Rnd_762x51_M_M60E4")
+        LIST_4("hlc_100Rnd_762x51_M_M60E4")
     };
 };
 class mmgag : aar
@@ -237,7 +247,7 @@ class mmgag : aar
 	backpack[] = {"usm_pack_alice"};
 	backpackItems[] =
 	{
-		LIST_5("hlc_100Rnd_762x51_M_M60E4")
+		LIST_4("hlc_100Rnd_762x51_M_M60E4")
 	};
 };
 class hmgg : car
@@ -458,7 +468,6 @@ class pcc : smg
 class pc : pcc
 {
     displayName = "Helicopter Crew";
-	backpack[] = {};
     backpackItems[] = {};
 };
 class jp : baseMan
@@ -475,8 +484,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
@@ -501,6 +512,7 @@ class engm : car
 {
     displayName = "Combat Engineer (Mines)";
     //vest[] = {"rhsusf_iotv_ucp_Repair"};
+	backpack[] = {"B_Carryall_oli"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),

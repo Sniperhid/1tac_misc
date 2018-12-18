@@ -1,6 +1,6 @@
 // If you want to base a loadout on an existing one, this repository contains them all:
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
-
+//Compatible with ACE Advanced Medical
 //Made by Freddo, using a modfied example loadout, based on HIDF loadouts in RHSGREF
 
 /* Dependencies
@@ -46,7 +46,14 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {LIST_3("ACE_fieldDressing"),"ACE_morphine","ACE_Flashlight_MX991"};
+    items[] = 
+        {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_Flashlight_MX991"
+        };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -105,9 +112,14 @@ class m : car
     backpackItems[] = 
     {
         LIST_15("ACE_fieldDressing"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
-        LIST_6("ACE_bloodIV_500"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
         LIST_2("rhs_mag_an_m8hc"),
         "rhs_mag_m18_green"
     };
@@ -173,7 +185,6 @@ class fac : ftl
 {
     displayName = "Forward Air Controller";
     backPack[] = {"usm_pack_alice_prc119"};
-    radios[] = {"ACRE_PRC117F"};
     magazines[] += {"Laserbatteries"};
     linkedItems[] = {
         "ItemMap",
@@ -378,6 +389,7 @@ class sn : r
 class sp : ftl
 {
     displayName = "Spotter";
+    backpack[] = {"B_FieldPack_khk"};
     headgear[] = {"usm_bdu_boonie_erdl"};
     items[] += {"ACE_SpottingScope"};
 };
@@ -423,7 +435,6 @@ class pp : smg
     headgear[] = {"H_Cap_headphones"};
     vest[] = {"V_TacChestrig_cbr_F"};
     backPack[] = {"usm_pack_alice_prc119"};
-    radios[] = {"ACRE_PRC117F"};
     linkedItems[] += {"ItemGPS"};
     primaryWeapon[] = {"hlc_smg_mp5k_PDW"};
     magazines[] =
