@@ -17,7 +17,8 @@ class CfgPatches
 			"cup_weapons_grenadelaunchers","cup_weapons_l85","cup_weapons_m249","cup_weapons_mk48","cup_weapons_scar","cup_weapons_xm8",
             "mbg_m16a2",
             "UK3CB_BAF_Weapons",
-            "ace_ballistics"
+            "ace_ballistics",
+            "idf_x95"
 		};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;
