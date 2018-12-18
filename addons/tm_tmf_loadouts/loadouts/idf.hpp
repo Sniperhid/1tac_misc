@@ -6,7 +6,7 @@ tooltip = "Author: Freddo\n\nCompatible with ACE Advanced medical";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_indep_olivedrab"};
+    uniform[] = {"bear_uniform_indep2_idf"};
     vest[] = {"V_PlateCarrier1_rgr_noflag_F"};
     backpack[] = {"B_Carryall_oli"};
     headgear[] = {};
