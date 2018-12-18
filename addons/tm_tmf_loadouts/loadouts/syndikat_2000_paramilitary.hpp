@@ -1,5 +1,6 @@
 
 tooltip = "Author: Freddo\n\nUses LoW and APEX DLC\n\nBalanced against HIDF 2000s loadout";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -53,7 +54,16 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {"FirstAidKit","ACE_Banana","ACE_Flashlight_KSF1",LIST_2("Chemlight_red")};
+    items[] = 
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_Banana",
+        "ACE_Flashlight_KSF1",
+        LIST_2("Chemlight_red")
+    };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -118,9 +128,14 @@ class m : car
     backpackItems[] = 
     {
         LIST_15("ACE_fieldDressing"),
-        LIST_5("ACE_epinephrine"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
         LIST_10("ACE_morphine"),
-        LIST_6("ACE_bloodIV_500")
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit")
     };
 };
 class smg : r

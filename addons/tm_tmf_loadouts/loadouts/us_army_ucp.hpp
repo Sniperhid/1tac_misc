@@ -1,4 +1,5 @@
 /* assignGear specific macros */ 
+//Compatible with ACE Advanced Medical
 
 tooltip = "Author: Bear\n\nUCP is the gray digital camo from the days of yore.";
 
@@ -65,8 +66,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -97,9 +100,14 @@ class m : car
 	vest[] = {"rhsusf_spcs_ucp_medic"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_an_m8hc")
 	};
 };
@@ -147,7 +155,6 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
 		"rhsusf_mag_15Rnd_9x19_FMJ",
 		LIST_2("rhs_mag_m715_Green"),
@@ -167,7 +174,6 @@ class fac : co
 {
     displayName = "Forward Air Controller";
 	backpackItems[] = {};
-	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -176,8 +182,10 @@ class fac : co
 		"ACE_Vector"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Kestrel4500",
 		"ACE_microDAGR",
 		"ACE_Maptools"
@@ -453,7 +461,6 @@ class vc : smg
     displayName = "Vehicle Commander";
     vest[] = {"rhsusf_spcs_ucp_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {
 		"rhsusf_cvc_ess",
 		"rhsusf_cvc_alt_helmet",
@@ -486,7 +493,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
 	backpackItems[] = {};
 };
 class pp : smg
@@ -494,7 +500,6 @@ class pp : smg
     displayName = "Helicopter Pilot";
     vest[] = {"rhsusf_spcs_ucp_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {
 		"rhsusf_hgu56p_black",
 		"rhsusf_hgu56p_visor_black",
@@ -544,7 +549,6 @@ class jp : baseMan
     displayName = "Jet pilot";
     vest[] = {"rhsusf_spcs_ucp_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
 	sidearmWeapon[] = {"rhsusf_weap_m9"};
@@ -554,8 +558,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };

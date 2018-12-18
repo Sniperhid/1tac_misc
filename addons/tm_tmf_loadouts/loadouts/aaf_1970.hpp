@@ -2,6 +2,7 @@
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
 
 tooltip = "Author: Freddo\n\nContains a mix of Soviet and German(including leftovers from WW2) weaponry, alongside some american equipment.";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -33,7 +34,10 @@ class baseMan {// Weaponless baseclass
     magazines[] = {};
     items[] = 
     {
-        "FirstAidKit",
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
         "ACE_Flashlight_MX991",
         LIST_2("ACE_CableTie")
     };
@@ -60,7 +64,7 @@ class r : baseMan
         LIST_6("hlc_30rnd_556x45_b_HK33"),
         LIST_2("hlc_30rnd_556x45_t_HK33"),
         LIST_2("rhs_mag_f1"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_1("rhs_mag_an_m8hc")
     };
 };
 class g : r
@@ -84,18 +88,30 @@ class car : r
 {
     displayName = "Carabinier";
     primaryWeapon[] = {"hlc_rifle_hk33ka3"};
+    magazines[] =
+    {
+        LIST_6("hlc_30rnd_556x45_b_HK33"),
+        LIST_2("hlc_30rnd_556x45_t_HK33"),
+        LIST_1("rhs_mag_f1"),
+        LIST_1("rhs_mag_an_m8hc")
+    };
 };
 class m : car 
 {
     displayName = "Medic";
-    backpack[] = {"CUP_B_SLA_Medicbag"};
+    backpack[] = {"CUP_B_AlicePack_Khaki"};
     backpackItems[] = 
     {
-        LIST_6("ACE_bloodIV_500"),
         LIST_15("ACE_fieldDressing"),
-        LIST_2("rhs_mag_an_m8hc"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
         LIST_10("ACE_morphine"),
-        LIST_5("ACE_epinephrine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
+        LIST_2("rhs_mag_an_m8hc"),
         LIST_5("ACE_bodyBag")
     };
 };
@@ -114,11 +130,10 @@ class sl : ftl
 {
     displayName = "Squad Leader";
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_SEM70"};
     sidearmWeapon[] = {"rhs_weap_tt33"};
     magazines[] +=
     {
-        LIST_3("rhs_mag_762x25_8"),
+        LIST_2("rhs_mag_762x25_8"),
         "rhs_mag_nspn_red"
     };
 };
@@ -338,7 +353,6 @@ class sp : ftl
         LIST_6("rhsgref_30rnd_1143x23_M1911B_2mag_SMG"),
         LIST_2("rhs_mag_f1")
     };
-    radios[] = {"ACRE_SEM70"};
 };
 class vg : smg
 {
@@ -357,7 +371,6 @@ class vc : vg
 {
     displayName = "Vehicle Commander";
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_SEM70"};
     items[] += {"ACE_MapTools"};
     linkedItems[] += {"rhssaf_zrak_rd7j"};
 };
@@ -384,7 +397,6 @@ class pp : pc
 {
     displayName = "Helicopter Pilot";
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_SEM70"};
     items[] += {"ACE_MapTools"};
 };
 class pcc : pc
@@ -426,5 +438,6 @@ class UAV : car
 {
     displayName = "UAV Operator";
     backpack[] = {"I_UAV_01_backpack_F"};
+    backpackItems[] = {};
     linkedItems[] += {"I_UavTerminal"};
 };

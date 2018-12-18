@@ -1,4 +1,6 @@
 tooltip = "Author: Fingers";
+//Compatible with ACE Advanced Medical
+
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
@@ -63,8 +65,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -81,10 +85,14 @@ class m : car
     backpack[] = {"rhs_medic_bag"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
-		LIST_2("rhssaf_mag_brd_m83_white")
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit")
 	};
 };
 class smg : r
@@ -136,8 +144,10 @@ class fac : co
 		"rhssaf_zrak_rd7j"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class ar : r
@@ -383,6 +393,7 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     vest[] = {"bear_6sh46_high_capacity"};
+    backpack[] = {"bear_rd54_sand"};
     headgear[] = {"rhs_tsh4"};
     goggles[] = {};
     backpackItems[] = {"ToolKit"};
@@ -433,8 +444,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 };
@@ -461,8 +474,8 @@ class engm : car
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        LIST_3("rhs_mine_pmn2_mag"),
-        LIST_3("rhs_mine_tm62m_mag")
+        LIST_2("rhs_mine_pmn2_mag"),
+        LIST_2("rhs_mine_tm62m_mag")
     };
 };
 class UAV : car

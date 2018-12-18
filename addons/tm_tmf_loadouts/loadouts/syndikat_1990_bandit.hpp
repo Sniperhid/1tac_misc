@@ -18,6 +18,7 @@
 */
 
 tooltip = "Author: Freddo\n\nRHS compatible\n\nContains a healthy mix of both american and russian equipment.\n\nHas Laws of War equipment on some loadouts";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -82,7 +83,14 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {LIST_3("ACE_FieldDressing"),"ACE_Morphine","ACE_Flashlight_KSF1"};
+    items[] = 
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_Flashlight_KSF1"
+    };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -149,12 +157,15 @@ class m : car
     backPack[] = {"rhs_medic_bag"};
     backpackItems[] =
     {
-        LIST_15("ACE_FieldDressing"),
-        LIST_10("ACE_Morphine"),
-        LIST_10("ACE_Epinephrine"),
-        LIST_6("ACE_bloodIV_500"),
-        LIST_2("rhs_mag_an_m8hc"),
-        "rhs_mag_m18_green"
+        LIST_15("ACE_fieldDressing"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit")
     };
 };
 class smg : r
@@ -186,6 +197,7 @@ class ftl : r
 {
     displayName = "Fireteam Leader";
     linkedItems[] += {"Binocular"};
+    backpack[] = {"B_AssaultPack_khk"};
     items[] += {"ACE_CableTie","ACE_MapTools"};
 };
 class sl : ftl
@@ -216,7 +228,6 @@ class fac : ftl
 {
     displayName = "Forward Air Controller";
     backPack[] = {"usm_pack_st138_prc77"};
-    Radios[] = {"ACRE_PRC77"};
 };
 class ar : r
 {
@@ -453,7 +464,6 @@ class sn : r
     sidearmWeapon[] = {"rhs_weap_pb_6p9"};
     items[] += 
     {
-        "ACE_RangeCard",
         "ACE_Kestrel4500"
     };
     magazines[] =
@@ -470,7 +480,6 @@ class snam : sn
     scope[] = {"rhs_acc_pso1m2"};
     items[] += 
     {
-        "ACE_RangeCard",
         "ACE_Kestrel4500"
     };
     magazines[] =
@@ -528,7 +537,6 @@ class pp : smg
     backPack[] = {"usm_pack_st138_prc77"};
     vest[] = {"V_Rangemaster_belt"};
     headgear[] = {"H_Cap_headphones"};
-    radios[] = {"ACRE_PRC77"};
     magazines[] = {
         LIST_3("rhsgref_20rnd_765x17_vz61")
     };

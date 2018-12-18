@@ -4,6 +4,7 @@
 /* Originally by Morbo */
 
 //tooltip = "Author: Snippers"; //confirm
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -70,7 +71,10 @@ class r : baseMan
     backpackItems[] = {"ACE_EntrenchingTool"};
     items[] =
     {
-        LIST_3("ACE_fieldDressing")
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
     };
 };
 class ra : r
@@ -82,10 +86,6 @@ class ra : r
         LIST_9("mbg_mag_20Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc"
-    };
-    items[] =
-    {
-        LIST_3("ACE_fieldDressing")
     };
 };
 class rm : r
@@ -129,14 +129,19 @@ class m : ra
     {
         LIST_6("rhsusf_5Rnd_00Buck"),
         LIST_3("rhsusf_5Rnd_Slug"),
-        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhs_mag_an_m8hc")
     };
     backpack[] = {"usm_pack_m5_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
         LIST_10("ACE_morphine"),
-        LIST_6("ACE_epinephrine"),
-        LIST_2("ACE_bloodIV"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
         LIST_3("rhs_mag_an_m8hc")
     };
 };
@@ -193,14 +198,12 @@ class slr : sl
 {
     displayName = "Squad Leader(Radio)";
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_PRC77"};
 };
 class co : sl
 {
     displayName = "Platoon Leader";
     headgear[] = {"rhsgref_hat_M1951"};
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_PRC77"};
     backpackItems[] = {};
 };
 class fac : co
@@ -211,7 +214,6 @@ class fac : co
         LIST_2("rhs_mag_m18_red"),
         LIST_2("rhs_mag_m18_purple")
     };
-    radios[] = {"ACRE_PRC77"};
     linkedItems[] = {
         "ItemMap",
         "ItemCompass",
@@ -219,8 +221,10 @@ class fac : co
         "rhssaf_zrak_rd7j"
     };
     items[] = {
-        LIST_3("ACE_fieldDressing"),
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
         "ACE_morphine",
+        "ACE_tourniquet",
         "ACE_Maptools"
     };
 };
@@ -480,7 +484,6 @@ class vc : vg
 {
     displayName = "Vehicle Commander";
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_PRC77"};
     linkedItems[] += {"rhssaf_zrak_rd7j"};
 };
 class vd : vg
@@ -498,7 +501,6 @@ class pp : pc
 {
     displayName = "Helicopter Pilot";
     backpack[] = {"usm_pack_st138_prc77"};
-    radios[] = {"ACRE_PRC77"};
     magazines[] += {
         LIST_2("rhs_mag_m18_purple")
     };
@@ -524,8 +526,10 @@ class jp : baseMan
     };
     items[] =
     {
-        LIST_3("ACE_fieldDressing"),
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
         "ACE_morphine",
+        "ACE_tourniquet",
         "ACE_MapTools"
     };
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
@@ -550,7 +554,7 @@ class engm : car
     sidearmWeapon[] = {"ACE_VMM3"};
     backpackItems[] = {
         LIST_2("ATMine_Range_Mag"),
-        LIST_20("rhsusf_mine_m14_mag"),
+        LIST_15("rhsusf_mine_m14_mag"),
         LIST_4("ClaymoreDirectionalMine_Remote_Mag"),
         "APERSTripMine_Wire_Mag"
     };
