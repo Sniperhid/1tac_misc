@@ -485,4 +485,8 @@ class CfgWeapons
     {
         magazines[] = { __762_NATO_MAGS };
     };
+    
+    class idf_x95: Rifle_Base_F {
+        magazines[] = { __556_MAGS };
+    };
 };
