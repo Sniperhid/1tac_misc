@@ -1,7 +1,7 @@
 // If you want to base a loadout on an existing one, this repository contains them all:
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
 
-tooltip = "Author: Freddo\n\nCompatible with ACE Advanced medical";
+tooltip = "Author: Freddo";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -76,8 +76,8 @@ class r : baseMan
         "dzn_NVG_IDF_Mitznefet_Cover2",
         "dzn_NVG_IDF_Mitznefet_Cover2_Desert"
     };
-    primaryWeapon[] = {LIST_4("arifle_TRG21_F"), "mbg_m16a2"};
-    scope[] = {"rhsusf_acc_rx01_nofilter_tan"};
+    primaryWeapon[] = {LIST_4("idf_x95m_ng"), LIST_4("idf_x95m"), "mbg_m16a2"};
+    scope[] = {"rhsusf_acc_rx01", "idf_optic_mars"};
     attachment[] = {"rhsusf_acc_m952v"};
     magazines[] =
     {
@@ -90,7 +90,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"V_PlateCarrier2_rgr_noflag_F"};
-    primaryWeapon[] = {LIST_5("arifle_TRG21_GL_F"), "rhs_weap_m4a1_carryhandle_m203"};
+    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203", "rhs_weap_m4a1_carryhandle_m203S"};
     magazines[] +=
     {
         LIST_4("1Rnd_HE_Grenade_shell"),
@@ -100,7 +100,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {LIST_5("arifle_TRG20_F"), "rhs_weap_m4a1_carryhandle"};
+    primaryWeapon[] = {LIST_5("idf_x95m"), LIST_5("idf_x95m_ng"), LIST_3("rhs_weap_m4a1_carryhandle")};
 };
 class m : car 
 {
