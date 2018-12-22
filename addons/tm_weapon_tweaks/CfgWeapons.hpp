@@ -22,7 +22,7 @@ class CfgWeapons {
     class rhs_weap_lmg_minimipara: rhs_weap_saw_base {
         recoil = "tm_recoil_m249"; // recoil_SAW
         class FullAuto: FullAuto {
-            dispersion = 0.003; // 0.00101
+            dispersion = 0.002; // 0.00101
         };
     };
     

@@ -2,7 +2,7 @@ class CfgRecoils {
     class recoil_default;
     class recoil_saw: recoil_default {};
     class tm_recoil_m249: recoil_saw {
-        muzzleOuter[] = {0.4,0.4,0.5,0.2};
+        muzzleOuter[] = {0.3,0.4,0.3,0.2};
         temporary = 0.015;
     };
     
