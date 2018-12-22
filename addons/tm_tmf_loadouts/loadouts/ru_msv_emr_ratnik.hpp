@@ -215,15 +215,16 @@ class ar : r
     };
 };
 //Not used due to RPK magazines able to be loaded into normal rifle
-/*class aar : r
+//dont do the above -bear
+class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
     backpackItems[] =
     {
-        LIST_2("200Rnd_65x39_cased_Box")
+        LIST_2("200Rnd_65x39_cased_Box fix this freddo")
     };
     linkedItems[] += {"Binocular"};
-};*/
+};
 class rat : r
 {
     displayName = "Rifleman (AT)";
@@ -453,14 +454,14 @@ class pc : car
 class eng : car
 {
     displayName = "Combat Engineer";
-    primaryWeapon[] = {"hlc_rifle_saiga12k"};
-    scope[] = {"hlc_optic_kobra"};
+    primaryWeapon[] = {"CUP_sgun_Saiga12K"};
+    scope[] = {"cup_optic_kobra"};
     sidearmWeapon[] = {"ACE_VMM3"};
     items[] += {"ACE_DefusalKit","ACE_M26_Clacker"};
     backPack[] = {"rhs_assault_umbts_engineer_empty"};
     magazines[] =
     {
-        LIST_4("hlc_10rnd_12g_buck_S12"),
+        LIST_4("CUP_8Rnd_B_Saiga12_74Pellets_M"),
         "ACE_M84",
         "ACE_M14"
     };

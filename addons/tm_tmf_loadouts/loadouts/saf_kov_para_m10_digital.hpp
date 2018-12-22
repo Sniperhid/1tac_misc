@@ -128,13 +128,13 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_smg_mp5a2"};
-	attachment[] = {"hlc_acc_Surefiregrip"};
+    primaryWeapon[] = {"CUP_smg_MP5A5"};
+	attachment[] = {};
 	scope[] = {};
 	silencer[] = {};
     magazines[] =
     {
-        LIST_6("hlc_30Rnd_9x19_B_MP5"),
+        LIST_4("CUP_30Rnd_9x19_MP5"),
         "rhssaf_mag_br_m84",
         LIST_2("rhssaf_mag_brd_m83_white")
     };

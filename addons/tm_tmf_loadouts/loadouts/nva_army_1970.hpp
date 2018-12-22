@@ -190,14 +190,14 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"hlc_rifle_rpk_75rnd"};
+    primaryWeapon[] = {"CUP_arifle_RPK74"};
     bipod[] = {};
     silencer[] = {};
     vest[] = {"CUP_V_O_Ins_Carrier_Rig_MG"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_6("hlc_75Rnd_762x39_m_rpk"),
+        LIST_6("rhs_75Rnd_762x39mm"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -209,7 +209,7 @@ class aar : r
     backpack[] = {"bear_rd54_sand"};
     backpackItems[] =
     {
-        LIST_3("hlc_75Rnd_762x39_m_rpk")
+        LIST_3("rhs_75Rnd_762x39mm")
     };
     linkedItems[] += {"Binocular"};
 };

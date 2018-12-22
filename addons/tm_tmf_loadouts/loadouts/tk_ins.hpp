@@ -49,9 +49,10 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    primaryWeapon[] = {"hlc_rifle_ak74_dirty2","hlc_rifle_ak74_dirty","hlc_rifle_ak74","hlc_rifle_aks74","hlc_rifle_aks74u","rhs_weap_aks74","arifle_AKS_F"};
+    primaryWeapon[] = {"rhs_weap_ak74","rhs_weap_aks74","rhs_weap_aks74u"};
     scope[] = {};
     attachment[] = {};
+    silencer[] = {"rhs_acc_dtk1983"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_AK")
@@ -77,7 +78,8 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"hlc_rifle_ak47","hlc_rifle_akm","hlc_rifle_ak47","rhs_weap_akms","rhs_weap_akm"};
+    primaryWeapon[] = {"rhs_weap_pm63","rhs_weap_akms","rhs_weap_akm"};
+    silencer[] = {"rhs_acc_dtkakm"};
 	magazines[] =
     {
         LIST_5("rhs_30Rnd_762x39mm"),
@@ -103,10 +105,10 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_rifle_aks74u","arifle_AKS_F"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
     magazines[] =
     {
-        LIST_6("hlc_30Rnd_545x39_B_AK"),
+        LIST_6("rhs_30Rnd_545x39_AK"),
         "HandGrenade",
         LIST_2("SmokeShell")
     };
@@ -162,7 +164,7 @@ class fac : smg
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"hlc_rifle_rpk74n"};
+	primaryWeapon[] = {"CUP_arifle_RPK74_45"};
 	bipod[] = {};
 	magazines[] =
 	{
@@ -400,7 +402,6 @@ class sn : dm
 class sp : r
 {
     displayName = "Spotter";
-	primaryWeapon[] = {"hlc_rifle_ak74_dirty"};
     scope[] = {"rhs_acc_pso1m2"};
     magazines[] =
     {

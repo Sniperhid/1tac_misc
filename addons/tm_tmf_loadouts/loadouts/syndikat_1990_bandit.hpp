@@ -109,7 +109,6 @@ class r : baseMan
     displayName = "Rifleman";
     primaryWeapon[] = 
     {
-        LIST_2("hlc_rifle_ak47"),
         "rhs_weap_akm",
         "rhs_weap_akms",
         "rhs_weap_akmn"
@@ -257,7 +256,7 @@ class aar : r
 class arpk : ar
 {
     displayName = "Automatic Rifleman (RPK)";
-    primaryWeapon[] = {"hlc_rifle_rpk"};
+    primaryWeapon[] = {"CUP_arifle_RPK74"};
     backPack[] = 
     {
         "B_LegStrapBag_olive_F",
@@ -265,7 +264,7 @@ class arpk : ar
     };
     magazines[] =
     {
-        LIST_4("hlc_75Rnd_762x39_m_rpk"),
+        LIST_4("rhs_75Rnd_762x39mm"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")

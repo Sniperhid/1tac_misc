@@ -198,7 +198,7 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"hlc_rifle_rpk74n"};
+	primaryWeapon[] = {"CUP_arifle_RPK74M"};
 	bipod[] = {};
 	silencer[] = {};
 	sidearmWeapon[] = {};

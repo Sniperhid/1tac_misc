@@ -109,10 +109,10 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"hlc_smg_mp5a2"};
+    primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_6("hlc_30Rnd_9x19_B_MP5"),
+        LIST_6("CUP_30Rnd_9x19_MP5"),
         "HandGrenade",
         LIST_2("SmokeShell")
     };
