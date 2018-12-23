@@ -10,8 +10,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {
-			"rhs_c_weapons",
-			"hlcweapons_aks"
+			"rhs_c_weapons"
 		};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;

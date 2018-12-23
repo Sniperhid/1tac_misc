@@ -21,7 +21,7 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
     };
     
-    class hlc_30Rnd_545x39_B_AK: 30Rnd_556x45_Stanag {
+    /*class hlc_30Rnd_545x39_B_AK: 30Rnd_556x45_Stanag {
         modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l20_30rnd.p3d";
         modelSpecialIsProxy = 1;
     };
@@ -58,5 +58,5 @@ class CfgMagazines {
     class hlc_75Rnd_762x39_m_rpk: hlc_45Rnd_762x39_m_rpk {
         modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steel_75rnd";
         modelSpecialIsProxy = 1;
-    };
+    };*/
 };

@@ -28,9 +28,4 @@ class CfgWeapons {
 	class rhs_acc_2dpZenit: acc_flashlight {
 		displayName = ">2DP";
 	};
-	
-	class HLC_Optic_PSO1;
-	class HLC_Optic_1p29: HLC_Optic_PSO1 {
-		displayname = ">1P29";
-	};
 };

@@ -49,14 +49,6 @@ class CfgWeapons {
         };
     };
     
-    class hlc_ak_base: Rifle_Base_F {};
-    class hlc_rifle_rpk: hlc_ak_base {
-        recoil = "recoil_mxm"; // recoil_mk20
-    };
-    class hlc_rifle_rpk74n: hlc_ak_base {
-        recoil = "recoil_mxm"; // recoil_mk20
-    };
-    
     class hlc_g3_base: Rifle_Base_F {
         recoil = "tm_recoil_battlerifle"; // recoil_dmr_03
     };
