@@ -8,7 +8,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main", "A3_Weapons_F", "rhs_c_weapons", "rhsusf_c_weapons", "hlcweapons_aks"};
+        requiredAddons[] = {"tac1_tm_main", "A3_Weapons_F", "rhs_c_weapons", "rhsusf_c_weapons"};
         VERSION_CONFIG;
     };
 };

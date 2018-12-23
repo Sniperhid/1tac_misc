@@ -449,19 +449,8 @@ class CfgWeapons {
         aiDispersionCoefX = (1 * 3);
         aiDispersionCoefY = (1 * 3);
     };
-
-    class hlc_ak_base: Rifle_Base_F {
-        class Single: Mode_SemiAuto {
-            aiDispersionCoefX = (1.4 * 3);
-            aiDispersionCoefY = (1.7 * 3);
-        };
-        class FullAuto: Mode_FullAuto {
-            aiDispersionCoefX = (2 * 3.5);
-            aiDispersionCoefY = (3 * 3.5);
-        };
-        aiDispersionCoefY = (4 * 4);
-        aiDispersionCoefX = (6 * 4);
-    };
+    
+    
     class hlc_fal_base: Rifle_Base_F {
         class Single: Mode_SemiAuto {
             aiDispersionCoefX = (1.4 * 3);
