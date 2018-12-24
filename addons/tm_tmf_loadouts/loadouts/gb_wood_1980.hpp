@@ -477,15 +477,15 @@ class sn : r
 class sp : sn
 {
     displayName = "Spotter";
-    scope[] = {"rhsusf_acc_ACOG_d"};
-	primaryWeapon[] = {"UK3CB_BAF_L1A1"};
+    primaryWeapon[] = {"UK3CB_BAF_L1A1"};
     magazines[] =
     {
-		LIST_7("UK3CB_BAF_762_20Rnd"),
+	LIST_7("UK3CB_BAF_762_20Rnd"),
         LIST_2("UK3CB_BAF_762_20Rnd_T"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell"),
-		LIST_4("rhsusf_mag_7x45acp_MHP")
+	LIST_4("rhsusf_mag_7x45acp_MHP"),
+	LIST_2("UK3CB_BAF_9_13Rnd")
     };
         linkedItems[] =
     {
