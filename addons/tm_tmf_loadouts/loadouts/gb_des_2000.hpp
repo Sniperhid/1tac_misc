@@ -315,8 +315,14 @@ class hmgag : car
 class matg : car
 {
 	displayName = "MAT Gunner";
-	secondaryWeapon[] = {"UK3CB_BAF_AT4_CS_AP_Launcher"};
+	secondaryWeapon[] = {"rhs_weap_maaws"};
+	secondaryAttachments[] = {"rhs_optic_maaws"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_DDPM"};
+	magazines[] +=
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -327,14 +333,22 @@ class matg : car
 class matac : r
 {
 	displayName = "MAT Ammo Carrier";
-	secondaryWeapon[] = {"UK3CB_BAF_AT4_CS_AT_Launcher"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_DDPM"};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 };
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
-	secondaryWeapon[] = {"UK3CB_BAF_AT4_CS_AP_Launcher"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_DDPM"};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
