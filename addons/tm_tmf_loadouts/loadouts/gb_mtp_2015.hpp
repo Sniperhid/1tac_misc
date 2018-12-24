@@ -404,6 +404,7 @@ class matac : r
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
+	backpack[] = {"UK3CB_BAF_B_Carryall_MTP"};
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_maaws_HEAT"),
