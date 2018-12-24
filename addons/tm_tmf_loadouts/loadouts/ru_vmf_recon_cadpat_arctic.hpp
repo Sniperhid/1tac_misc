@@ -10,7 +10,7 @@ class baseMan {// Weaponless baseclass
    	vest[] = {};
    	backpack[] = {"rhs_assault_umbts"};
    	headgear[] = {};
-   	goggles[] = {"default"};
+   	goggles[] = {};
    	hmd[] = 
 	{
 		//"rhs_1PN138" 
@@ -54,7 +54,12 @@ class r : baseMan
     headgear[] = 
 	{
 		"rhs_6b47_ess_bala",
-		"rhs_6b47_bala"
+		"rhs_6b47_bala",
+        "bear_6b7_1m_white",
+        "bear_6b7_1m_bala1_white",
+        "bear_6b7_1m_bala2_white",
+        "bear_6b7_1m_ess_white",
+        "bear_6b7_1m_ess_bala_white"
 	};
 	vest[] = {"rhs_6b23_6sh116"};
 	primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_2mag"};
