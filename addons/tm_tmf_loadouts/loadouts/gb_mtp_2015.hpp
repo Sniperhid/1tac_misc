@@ -108,8 +108,10 @@ class r : baseMan
 	};
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+       		LIST_5("ACE_fieldDressing"),
+        	LIST_3("ACE_quikclot"),
+        	"ACE_morphine",
+        	"ACE_tourniquet"
 	};
 };
 class g : r
@@ -129,7 +131,7 @@ class g : r
 class mar : r
 {
 	displayName = "Designated Marksman";
-    vest[] = {"UK3CB_BAF_V_Osprey_Marksman_A"};
+    	vest[] = {"UK3CB_BAF_V_Osprey_Marksman_A"};
 	primaryWeapon[] = {"UK3CB_BAF_L129A1"};
 	bipod[] = {"UK3CB_underbarrel_acc_bipod"};
 	attachment[] = {"UK3CB_BAF_TA648"};
@@ -149,10 +151,15 @@ class m : car
 	vest[] = {"UK3CB_BAF_V_Osprey_Medic_C"};
 	backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Medic_L_A"};
 	backpackItems[] = {
-		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        	LIST_15("ACE_fieldDressing"),
+        	LIST_20("ACE_elasticBandage"),
+        	LIST_20("ACE_packingBandage"),
+        	LIST_2("ACE_atropine"),
+        	LIST_10("ACE_morphine"),
+        	LIST_10("ACE_epinephrine"),
+        	LIST_5("ACE_tourniquet"),
+        	LIST_6("ACE_bloodIV"),
+        	LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_an_m8hc")
 	};
 };
@@ -369,8 +376,14 @@ class hmgag : car
 class matg : car
 {
 	displayName = "MAT Gunner";
-	secondaryWeapon[] = {"UK3CB_BAF_NLAW_Launcher"};
+	secondaryWeapon[] = {"rhs_weap_maaws"};
+	secondaryAttachments[] = {"rhs_optic_maaws"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_MTP"};
+	magazines[] +=
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -381,13 +394,21 @@ class matg : car
 class matac : r
 {
 	displayName = "MAT Ammo Carrier";
-	secondaryWeapon[] = {"UK3CB_BAF_NLAW_Launcher"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_MTP"};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 };
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
-	secondaryWeapon[] = {"UK3CB_BAF_NLAW_Launcher"};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
