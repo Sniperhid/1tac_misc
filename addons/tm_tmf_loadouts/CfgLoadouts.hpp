@@ -1,18 +1,126 @@
 class CfgLoadouts
 {
-	class CANADA_ARMY_CADPAT
+	class AAF_1970
 	{
-		displayName = "Canadian Army (2005-, CADPAT)";
-		category = "Western Factions";
-		#include "loadouts\canada_army_cadpat.hpp"
+		displayName = "Altian Light Infantry (1970, Altis Lizard)";
+		category = "Armaverse Factions";
+		#include "loadouts\aaf_1970.hpp"
+	};
+	class AAF_LIZARD
+	{
+		displayName = "AAF Ground Forces (2000-, Lizard)";
+		category = "Armaverse Factions";
+		#include "loadouts\aaf_lizard.hpp"
+	};
+	class CDF_AIRBORNE_TTSKO_DIGITAL
+	{
+		displayName = "CDF Airborne Infantry (2014-, TTsKO Digital)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_airborne_ttsko_digital.hpp"
+	};
+	class CDF_GROUNDFORCES_TTSKO
+	{
+		displayName = "CDF Ground Forces (2001-, TTsKO)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_groundforces_ttsko.hpp"
+	};
+	class CDF_GROUNDFORCES_VZ58_TTSKO
+	{
+		displayName = "CDF Ground Forces (2001-, TTsKO, vz. 58)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_groundforces_vz58_ttsko.hpp"
+	};
+	class CDF_NATIONALGUARD_TTSKO
+	{
+		displayName = "CDF National Guard (1996-, TTsKO)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_nationalguard_ttsko.hpp"
+	};
+	class CDF_SOF_VZ58_TTSKO
+	{
+		displayName = "CDF Special Operations Forces (2013-, TTsKO, vz. 58)";
+		category = "Armaverse Factions";
+		#include "loadouts\cdf_sof_vz58.hpp"
+	};
+	class CHDKZ_2008
+	{
+		displayName = "ChDKZ (2008) Chernarussian Movement of the Red Star";
+		category = "Armaverse Factions";
+		#include "loadouts\chdkz_2008.hpp"
+	};
+	class NAPA_2008
+	{
+		displayName = "NAPA (2008) Chernarussian National Party";
+		category = "Armaverse Factions";
+		#include "loadouts\napa_2008.hpp"
+	};
+	class TK_ARMY_BRUSHSTROKE
+	{
+		displayName = "Takistani Army (1995-, Brushstroke)";
+		category = "Armaverse Factions";
+		#include "loadouts\tk_army_brushstroke.hpp"
+	};
+	class TK_INS
+	{
+		displayName = "Takistani Insurgents";
+		category = "Armaverse Factions";
+		#include "loadouts\tk_locals.hpp"
+	};
+	class RACS_1990
+	{
+		displayName = "RACS (1990)";
+		category = "Armaverse Factions";
+		#include "loadouts\racs_1990.hpp"
+	};
+	class SLA_1980_FELDGRAU
+	{
+		displayName = "SLA (1980, Feldgrau)";
+		category = "Armaverse Factions";
+		#include "loadouts\sla_1980_feldgrau.hpp"
+	};
+	class SLA_1990
+	{
+		displayName = "SLA (1990)";
+		category = "Armaverse Factions";
+		#include "loadouts\sla_1990.hpp"
+	};
+	class HIDF_1990
+	{
+		displayName = "Horizon Island Defence Force (1990)";
+		category = "Armaverse Factions";
+		#include "loadouts\hidf_1990.hpp"
+	};
+	class HIDF_2000
+	{
+		displayName = "Horizon Island Defence Force (2000)";
+		category = "Armaverse Factions";
+		#include "loadouts\hidf_2000.hpp"
+	};
+	class SYNDIKAT_1990
+	{
+		displayName = "Syndikat (1990-, Bandits)";
+		category = "Armaverse Factions";
+		#include "loadouts\syndikat_1990_bandit.hpp"
+	};
+	class SYNDIKAT_2000_PARAMILITARY
+	{
+		displayName = "Syndikat (2000-, Paramilitary)";
+		category = "Armaverse Factions";
+		#include "loadouts\syndikat_2000_paramilitary.hpp"
+	};
+	class US_ARMY_UCP_A2OA
+	{
+		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
+		category = "Armaverse Factions";
+		#include "loadouts\us_army_ucp_a2oa.hpp"
+	};
+	class OFP_RESISTANCE
+	{
+		displayName = "Operation Flashpoint Resistance (1982)";
+		category = "Armaverse Factions";
+		#include "loadouts\ofp_resistance.hpp"
 	};
 	
-	class CN_PLA_TYPE07_WDL
-	{
-		displayName = "CN People's Liberation Army (Type 07 Woodland)";
-		category = "Eastern Factions";
-		#include "loadouts\cn_pla_type07_wdl.hpp"
-	};
 	
 	class GB_WOOD_1980
 	{
@@ -68,6 +176,8 @@ class CfgLoadouts
 		category = "UK";
 		#include "loadouts\gb_mtp_2015_H.hpp"
 	};
+    
+    
 	class US_ARMY_UCP
 	{
 		displayName = "US Army (2005-, UCP)";
@@ -103,6 +213,12 @@ class CfgLoadouts
 		displayName = "US Army Rangers (2013, MCam, SCAR-Hs)";
 		category = "USA";
 		#include "loadouts\us_army_rangers_2013_mc_mk17.hpp"
+	};
+	class US_MACV_SOG
+	{
+		displayName = "US MACV SOG (Tigerstripe)";
+		category = "USA";
+		#include "loadouts\us_macv_sog.hpp"
 	};
 	class US_MARINES_MARPAT_DES
 	{
@@ -176,19 +292,7 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_marines_2003_oif_dcu.hpp"
 	};
-	
-	/*class US_ARMY
-	{
-		displayName = "US Army (UCP)";
-		category = "USA";
-		#include "loadouts\us_army_rhs_1tac.hpp"
-	};
-	class US_ARMY_OCP
-	{
-		displayName = "US Army (OCP)";
-		category = "USA";
-		#include "loadouts\us_army_ocp_rhs_1tac.hpp"
-	};*/
+    
 	
 	class RUS_MSV_EMR
 	{
@@ -213,7 +317,7 @@ class CfgLoadouts
 		displayName = "RU Ground Forces (2005-2010, Flora)";
 		category = "Russia";
 		#include "loadouts\ru_msv_flora.hpp"
-  };
+    };
 	class RUS_SSO_ATACS_AU
 	{
 		displayName = "RU Special Operations Forces (2016, A-TACS AU)";
@@ -287,6 +391,13 @@ class CfgLoadouts
 		#include "loadouts\ru_vv_gorka_r.hpp"
 	};
 	
+    
+    class CN_PLA_TYPE07_WDL
+	{
+		displayName = "CN People's Liberation Army (Type 07 Woodland)";
+		category = "Eastern Factions";
+		#include "loadouts\cn_pla_type07_wdl.hpp"
+	};
 	class USSR_MOTOR_RIFLES_1970_KHAKI
 	{
 		displayName = "USSR Motor Rifles (1970, Khaki)";
@@ -311,61 +422,23 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\ussr_vdv_berezka.hpp"
 	};
-	class AAF_1970
+	class EAST_EUROPEAN_INSURGENTS
 	{
-		displayName = "Altian Light Infantry (1970, Altis Lizard)";
-		category = "Armaverse Factions";
-		#include "loadouts\aaf_1970.hpp"
+		displayName = "Donbass Insurgents (2014-)";
+		category = "Eastern Factions";
+		#include "loadouts\east_european_insurgents_2014.hpp"
 	};
-	class AAF_LIZARD
+	class GDR_NVA_1980_STRICHTARN
 	{
-		displayName = "AAF Ground Forces (2000-, Lizard)";
-		category = "Armaverse Factions";
-		#include "loadouts\aaf_lizard.hpp"
+		displayName = "GDR Army (1980, Strichtarn)";
+		category = "Eastern Factions";
+		#include "loadouts\gdr_nva_1980_strichtarn.hpp"
 	};
-	
-	class CDF_AIRBORNE_TTSKO_DIGITAL
+	class NVA_ARMY
 	{
-		displayName = "CDF Airborne Infantry (2014-, TTsKO Digital)";
-		category = "Armaverse Factions";
-		#include "loadouts\cdf_airborne_ttsko_digital.hpp"
-	};
-	class CDF_GROUNDFORCES_TTSKO
-	{
-		displayName = "CDF Ground Forces (2001-, TTsKO)";
-		category = "Armaverse Factions";
-		#include "loadouts\cdf_groundforces_ttsko.hpp"
-	};
-	class CDF_GROUNDFORCES_VZ58_TTSKO
-	{
-		displayName = "CDF Ground Forces (2001-, TTsKO, vz. 58)";
-		category = "Armaverse Factions";
-		#include "loadouts\cdf_groundforces_vz58_ttsko.hpp"
-	};
-	class CDF_NATIONALGUARD_TTSKO
-	{
-		displayName = "CDF National Guard (1996-, TTsKO)";
-		category = "Armaverse Factions";
-		#include "loadouts\cdf_nationalguard_ttsko.hpp"
-	};
-	class CDF_SOF_VZ58_TTSKO
-	{
-		displayName = "CDF Special Operations Forces (2013-, TTsKO, vz. 58)";
-		category = "Armaverse Factions";
-		#include "loadouts\cdf_sof_vz58.hpp"
-	};
-	
-	class TK_ARMY_BRUSHSTROKE
-	{
-		displayName = "Takistani Army (1995-, Brushstroke)";
-		category = "Armaverse Factions";
-		#include "loadouts\tk_army_brushstroke.hpp"
-	};
-	class TK_INS
-	{
-		displayName = "Takistani Insurgents";
-		category = "Armaverse Factions";
-		#include "loadouts\tk_ins.hpp"
+		displayName = "North Vietnamese Army (1970)";
+		category = "Eastern Factions";
+		#include "loadouts\nva_army_1970.hpp"		
 	};
 	class UA_VDV_TTSKO
 	{
@@ -373,63 +446,81 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\ua_vdv_ttsko.hpp"
 	};
+
+	class ADF_2005
+	{
+		displayName = "Australian Defence Force (AUSCAM, 2005)";
+		category = "Western Factions";
+		#include "loadouts\adf_2005.hpp"
+	};
+	class BUNDESWEHR_1983
+	{
+		displayName = "Bundeswehr (1983, OD Grauoliv)";
+		category = "Western Factions";
+		#include "loadouts\bundeswehr_1983.hpp"
+	};	
+	class CANADA_ARMY_CADPAT
+	{
+		displayName = "Canadian Army (2005-, CADPAT)";
+		category = "Western Factions";
+		#include "loadouts\canada_army_cadpat.hpp"
+	};
+	class DANISH_ARMY_2018
+	{
+		displayName = "Danish Army (2018)";
+		category = "Western Factions";
+		#include "loadouts\danish_army_2018.hpp"
+	};
+	class FRENCH_ARMY_2018_FAMAS
+	{
+		displayName = "French Army (2018, FAMAS)";
+		category = "Western Factions";
+		#include "loadouts\french_army_2018_famas.hpp"
+	};
+	class FRENCH_ARMY_2018_HK416
+	{
+		displayName = "French Army (2018, HK416)";
+		category = "Western Factions";
+		#include "loadouts\french_army_2018_hk416.hpp"
+	};
+	class GREEK_ARMY_2018
+	{
+		displayName = "Greek Army (2018)";
+		category = "Western Factions";
+		#include "loadouts\greek_army_2018.hpp"
+	};
+	class IDF
+	{
+		displayName = "Israeli Defence Forces (Olive drab)";
+		category = "Western Factions";
+		#include "loadouts\idf.hpp"
+	};
+    
 	
-	class RACS_1990
+	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
 	{
-		displayName = "RACS (1990)";
-		category = "Armaverse Factions";
-		#include "loadouts\racs_1990.hpp"
+		displayName = "Afghan National Army (2010-, Spec4ce Afghan Forest)";
+		category = "Other";
+		#include "loadouts\afghan_national_army_spec4ce_af.hpp"
 	};
-	
-	class SLA_1980_FELDGRAU
+	class AFGHAN_NATIONAL_POLICE
 	{
-		displayName = "SLA (1980, Feldgrau)";
-		category = "Armaverse Factions";
-		#include "loadouts\sla_1980_feldgrau.hpp"
+		displayName = "Afghan National Police (2005)";
+		category = "Other";
+		#include "loadouts\afghan_national_police_2005.hpp"
 	};
-	class SLA_1990
+	class AFR_MILITIA
 	{
-		displayName = "SLA (1990)";
-		category = "Armaverse Factions";
-		#include "loadouts\sla_1990.hpp"
+		displayName = "African Militia (1990-)";
+		category = "Other";
+		#include "loadouts\afr_militia.hpp"
 	};
-	class HIDF_1990
+	class ARVN_1966
 	{
-		displayName = "Horizon Island Defence Force (1990)";
-		category = "Armaverse Factions";
-		#include "loadouts\hidf_1990.hpp"
+		displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
+		category = "Other";
+		#include "loadouts\arvn_1966.hpp"
 	};
-	class HIDF_2000
-	{
-		displayName = "Horizon Island Defence Force (2000)";
-		category = "Armaverse Factions";
-		#include "loadouts\hidf_2000.hpp"
-	};
-	class SYNDIKAT_1990
-	{
-		displayName = "Syndikat (1990-, Bandits)";
-		category = "Armaverse Factions";
-		#include "loadouts\syndikat_1990_bandit.hpp"
-	};
-	class SYNDIKAT_2000_PARAMILITARY
-	{
-		displayName = "Syndikat (2000-, Paramilitary)";
-		category = "Armaverse Factions";
-		#include "loadouts\syndikat_2000_paramilitary.hpp"
-	};
-	class US_ARMY_UCP_A2OA
-	{
-		displayName = "US Army (2012, SCAR-Ls) [A2: OA]";
-		category = "Armaverse Factions";
-		#include "loadouts\us_army_ucp_a2oa.hpp"
-	};
-	
-    class PMC_WINTER
-    {
-        displayName = "PMC (2015-, Arctic Camo)";
-        category = "Other";
-        #include "loadouts\pmc_winter.hpp"
-    };
 	class GENERIC_PARAMILITARY_OLIVE_AKM
 	{
 		displayName = "Generic Paramilitary (1980-, Olive, AKMs)";
@@ -454,60 +545,6 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\generic_paramilitary_tigerstripe_desert.hpp"
 	};
-	
-	class GDR_NVA_1980_STRICHTARN
-	{
-		displayName = "GDR Army (1980, Strichtarn)";
-		category = "Eastern Factions";
-		#include "loadouts\gdr_nva_1980_strichtarn.hpp"
-	};
-	
-	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
-	{
-		displayName = "Afghan National Army (2010-, Spec4ce Afghan Forest)";
-		category = "Other";
-		#include "loadouts\afgh_national_army_spec4ce_af.hpp"
-	};
-	
-	class AFR_MILITIA
-	{
-		displayName = "African Militia (1990-)";
-		category = "Other";
-		#include "loadouts\afr_militia.hpp"
-	};
-
-	class ADF_2005
-	{
-		displayName = "Australian Defence Force (AUSCAM, 2005)";
-		category = "Western Factions";
-		#include "loadouts\adf_2005.hpp"
-	};
-	
-	class IDF
-	{
-		displayName = "Israeli Defence Forces (Olive drab)";
-		category = "Western Factions";
-		#include "loadouts\idf.hpp"
-	};
-	
-	class SYRIAN_ARAB_ARMY_WDL
-	{
-		displayName = "Syrian Arab Army (1995-, Woodland)";
-		category = "Other";
-		#include "loadouts\syrian_arab_army_wdl.hpp"
-	};
-	class BUNDESWEHR_1983
-	{
-		displayName = "Bundeswehr (1983, OD Grauoliv)";
-		category = "Western Factions";
-		#include "loadouts\bundeswehr_1983.hpp"
-	};	
-	class ARVN_1966
-	{
-		displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
-		category = "Other";
-		#include "loadouts\arvn_1966.hpp"
-	};	
 	class JNA_1992
 	{
 		displayName = "Jugoslav People's Army (1992 OD GREEN)";
@@ -520,6 +557,18 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\jna_para.hpp"
     };
+    class PMC_WINTER
+    {
+        displayName = "PMC (2015-, Arctic Camo)";
+        category = "Other";
+        #include "loadouts\pmc_winter.hpp"
+    };
+	class SYRIAN_ARAB_ARMY_WDL
+	{
+		displayName = "Syrian Arab Army (1995-, Woodland)";
+		category = "Other";
+		#include "loadouts\syrian_arab_army_wdl.hpp"
+	};
 	class SERBIAN_ARMY_M93_OAKLEAF
 	{
 		displayName = "Serbian Army (1993-, Oakleaf)";
@@ -543,31 +592,5 @@ class CfgLoadouts
 		displayName = "Serbian Army Special Brigade (2010-, Digital, G36s)";
 		category = "Other";
 		#include "loadouts\saf_kov_para_m10_digital.hpp"
-	};
-	
-	class EAST_EUROPEAN_INSURGENTS
-	{
-		displayName = "Donbass Insurgents (2014-)";
-		category = "Eastern Factions";
-		#include "loadouts\east_european_insurgents_2014.hpp"
-	};
-
-	class NVA_ARMY
-	{
-		displayName = "North Vietnamese Army (1970)";
-		category = "Eastern Factions";
-		#include "loadouts\nva_army_1970.hpp"		
-	};
-	class GREEK_ARMY_2018
-	{
-		displayName = "Greek Army (2018)";
-		category = "Western Factions";
-		#include "loadouts\greek_army_2018.hpp"
-	};
-	class OFP_RESISTANCE
-	{
-		displayName = "Operation Flashpoint Resistance (1982)";
-		category = "Armaverse Factions";
-		#include "loadouts\ofp_resistance.hpp"
 	};
 };
