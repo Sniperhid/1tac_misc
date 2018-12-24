@@ -1,6 +1,6 @@
 /* assignGear specific macros */
 
-tooltip = "Author: Sam, modified Deltas original loadout";
+tooltip = "Author: Sam";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -51,7 +51,7 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {"rhs_beanie_green"};
-	vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
     primaryWeapon[] = {"UK3CB_BAF_L1A1"};
     scope[] = {};
@@ -63,11 +63,13 @@ class r : baseMan
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
-	items[] =
-	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
-	};
+    items[] = 
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
+    };
 };
 class g : r
 {
@@ -87,14 +89,20 @@ class car : r
 };
 class m : car
 {
-    displayName = "Medic";
+    	displayName = "Medic";
 	headgear[] = {"H_Booniehat_oli"};
 	backpack[] = {"CUP_B_CivPack_WDL"};
-	backpackItems[] = {
-		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+	backpackItems[] = 
+	{
+        	LIST_15("ACE_fieldDressing"),
+        	LIST_20("ACE_elasticBandage"),
+        	LIST_20("ACE_packingBandage"),
+        	LIST_2("ACE_atropine"),
+        	LIST_10("ACE_morphine"),
+        	LIST_10("ACE_epinephrine"),
+        	LIST_5("ACE_tourniquet"),
+        	LIST_6("ACE_bloodIV"),
+        	LIST_1("ACE_surgicalKit"),
 		LIST_2("SmokeShell")
 	};
 };
@@ -112,7 +120,7 @@ class smg : r
 class ftl : g
 {
     displayName = "Fireteam Leader";
-	headgear[] = {"UK3CB_BAF_H_Beret_GG"};
+    headgear[] = {"UK3CB_BAF_H_Beret_GG"};
     magazines[] +=
     {
         /*LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
