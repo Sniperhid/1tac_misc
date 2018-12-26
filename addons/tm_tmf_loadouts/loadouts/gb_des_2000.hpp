@@ -83,8 +83,10 @@ class r : baseMan
 	};
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+       		LIST_5("ACE_fieldDressing"),
+        	LIST_3("ACE_quikclot"),
+       		"ACE_morphine",
+        	"ACE_tourniquet"
 	};
 };
 class g : r
@@ -110,10 +112,15 @@ class m : car
 	vest[] = {"UK3CB_BAF_V_Osprey_DDPM9"};
 	backpack[] = {"UK3CB_BAF_B_Bergen_DDPM_Rifleman_B"};
 	backpackItems[] = {
-		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        	LIST_15("ACE_fieldDressing"),
+        	LIST_20("ACE_elasticBandage"),
+        	LIST_20("ACE_packingBandage"),
+        	LIST_2("ACE_atropine"),
+        	LIST_10("ACE_morphine"),
+        	LIST_10("ACE_epinephrine"),
+        	LIST_5("ACE_tourniquet"),
+        	LIST_6("ACE_bloodIV"),
+        	LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_an_m8hc")
 	};
 };

@@ -83,8 +83,10 @@ class r : baseMan
 	};
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+        	LIST_5("ACE_fieldDressing"),
+        	LIST_3("ACE_quikclot"),
+        	"ACE_morphine",
+        	"ACE_tourniquet"
 	};
 };
 class g : r
@@ -111,10 +113,15 @@ class m : car
 	backpack[] = {"UK3CB_BAF_B_Bergen_DPMW_Rifleman_B"};
 	backpackItems[] =
 	{
-		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        	LIST_15("ACE_fieldDressing"),
+        	LIST_20("ACE_elasticBandage"),
+        	LIST_20("ACE_packingBandage"),
+        	LIST_2("ACE_atropine"),
+        	LIST_10("ACE_morphine"),
+        	LIST_10("ACE_epinephrine"),
+        	LIST_5("ACE_tourniquet"),
+        	LIST_6("ACE_bloodIV"),
+        	LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_an_m8hc")
 	};
 };
@@ -316,8 +323,14 @@ class hmgag : car
 class matg : car
 {
 	displayName = "MAT Gunner";
-	secondaryWeapon[] = {"UK3CB_BAF_AT4_CS_AP_Launcher"};
+	secondaryWeapon[] = {"rhs_weap_maaws"};
+	secondaryAttachments[] = {"rhs_optic_maaws"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
+	magazines[] +=
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -328,14 +341,22 @@ class matg : car
 class matac : r
 {
 	displayName = "MAT Ammo Carrier";
-	secondaryWeapon[] = {"UK3CB_BAF_AT4_CS_AT_Launcher"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 };
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
-	secondaryWeapon[] = {"UK3CB_BAF_AT4_CS_AP_Launcher"};
 	backpack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HE"
+	};
 	linkedItems[] =
 	{
 		"ItemMap",
