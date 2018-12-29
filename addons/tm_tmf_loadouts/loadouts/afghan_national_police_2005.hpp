@@ -167,10 +167,6 @@ class fac : co
 		"ItemWatch",
 		"Binocular"
 	};
-	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
-	};
 };
 class ar : r
 {
