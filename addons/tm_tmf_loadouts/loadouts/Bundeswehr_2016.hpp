@@ -3,6 +3,7 @@ tooltip = "Author: Toiton\n\nGerman Army 2016";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
+    // All randomized.
  	uniform[] = {"rhsgref_uniform_flecktarn_full"};
    	vest[] = {"CUP_V_CZ_vest02"};
    	backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
@@ -430,7 +431,6 @@ class pp : smg
 {
     displayName = "Helicopter Pilot";
     uniform[] = {"U_I_pilotCoveralls"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
     headgear[] = {"tm_hgu56p_visor_1tac_black"};
     vest[] = {};
     goggles[] = {};
@@ -448,7 +448,6 @@ class jp : baseMan
 {
     displayName = "Jet pilot";
     uniform[] = {"U_I_pilotCoveralls"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
     headgear[] = {"tm_hgu56p_visor_mask_1tac_black"};
     goggles[] = {};
     sidearmWeapon[] = {"CUP_hgun_Duty"};
