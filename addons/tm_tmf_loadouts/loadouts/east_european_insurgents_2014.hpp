@@ -1,4 +1,5 @@
 tooltip = "Author: Bear\n\nDonbass Insurgents with AK-74s. Don't use against Russian forces. Contemporary.";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -211,8 +212,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -291,8 +294,8 @@ class car : r
     primaryWeapon[] = {"rhs_weap_aks74", "rhs_weap_aks74n"};
 	magazines[] =
     {
-        LIST_8("rhs_30Rnd_545x39_7N6_AK"),
-        LIST_2("rhs_mag_f1"),
+        LIST_7("rhs_30Rnd_545x39_7N6_AK"),
+        LIST_1("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white")
     };
 };
@@ -302,10 +305,15 @@ class m : car
 	backpack[] = {"rhs_medic_bag"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
-		LIST_2("rhs_mag_rdg2_white")
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
+		LIST_1("rhs_mag_rdg2_white")
 	};
 };
 class smg : r
@@ -368,7 +376,6 @@ class fac : co
 {
     displayName = "Forward Air Controller";
 	backpackItems[] = {};
-	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -377,8 +384,10 @@ class fac : co
 		"Binocular"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Kestrel4500",
 		"ACE_microDAGR",
 		"ACE_Maptools"
@@ -387,7 +396,7 @@ class fac : co
 class ar : r
 {
 	displayName = "Automatic Rifleman";
-	primaryWeapon[] = {"hlc_rifle_rpk74n"};
+	primaryWeapon[] = {"CUP_arifle_RPK74_45"};
 	bipod[] = {};
 	silencer[] = {};
 	sidearmWeapon[] = {};
@@ -475,7 +484,7 @@ class mmgg : ar
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_5("rhs_100Rnd_762x54mmR"),
+		LIST_4("rhs_100Rnd_762x54mmR"),
 		"rhs_mag_f1",
 		"rhs_mag_rdg2_white"
 	};
@@ -709,7 +718,6 @@ class sp : car
 class vc : smg
 {
     displayName = "Vehicle Commander";
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
 	linkedItems[] += {"Binocular","ItemGPS"};
@@ -732,7 +740,6 @@ class pp : smg
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
     backpack[] = {"rhs_sidor"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
@@ -765,7 +772,6 @@ class jp : baseMan
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
     backpack[] = {"rhs_sidor"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
 	sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
@@ -775,8 +781,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
@@ -803,8 +811,8 @@ class engm : car
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        LIST_3("rhs_mine_pmn2_mag"),
-        LIST_3("rhs_mine_tm62m_mag")
+        LIST_2("rhs_mine_pmn2_mag"),
+        LIST_2("rhs_mine_tm62m_mag")
     };
 };
 class UAV : car

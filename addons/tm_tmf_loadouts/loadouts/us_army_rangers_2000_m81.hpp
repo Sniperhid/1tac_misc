@@ -2,6 +2,7 @@
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
 
 //Made by Freddo, using a modfied example loadout
+//Compatible with ACE Advanced Medical
 
 /* Dependencies
     RHSUSAF
@@ -42,7 +43,14 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {LIST_3("ACE_fieldDressing"),"ACE_morphine","ACE_Flashlight_MX991"};
+    items[] = 
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_Flashlight_MX991"
+    };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -90,7 +98,18 @@ class m : r
 {
     displayName = "Medic";
     backPack[] = {"usm_pack_m5_medic"};
-    backpackItems[] = {LIST_10("FirstAidKit"),"MediKit"};
+    backpackItems[] = 
+    {
+        LIST_15("ACE_fieldDressing"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit")
+    };
 };
 class ftl : r
 {
@@ -126,7 +145,6 @@ class fac : ftl
 {
     displayName = "Forward Air Controller";
     backPack[] = {"usm_pack_alice_prc119"};
-    radios[] = {"ACRE_PRC117F"};
 };
 class ar : r
 {
@@ -280,7 +298,6 @@ class mtrac : r
 class mtrag : sl
 {
     displayName = "Mortar Assistant Gunner";
-    items[] += {"ACE_RangeCard"};
 };
 class samg : r
 {
@@ -461,6 +478,7 @@ class engm : r
         "rhs_mag_an_m8hc",
         "Chemlight_green"
     };
+    backPack[] = {"B_FieldPack_oli"};
     items[] += {"ACE_DefusalKit","ACE_Clacker"};
     backpackItems[] = {
         LIST_2("ATMine_Range_Mag"),

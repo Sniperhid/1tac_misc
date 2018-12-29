@@ -1,5 +1,6 @@
 
 tooltip = "Author: Freddo\n\nUses LoW and APEX DLC\n\nBalanced against HIDF 2000s loadout";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -53,7 +54,16 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = {"FirstAidKit","ACE_Banana","ACE_Flashlight_KSF1",LIST_2("Chemlight_red")};
+    items[] = 
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_Banana",
+        "ACE_Flashlight_KSF1",
+        LIST_2("Chemlight_red")
+    };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -118,9 +128,14 @@ class m : car
     backpackItems[] = 
     {
         LIST_15("ACE_fieldDressing"),
-        LIST_5("ACE_epinephrine"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
         LIST_10("ACE_morphine"),
-        LIST_6("ACE_bloodIV_500")
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit")
     };
 };
 class smg : r
@@ -137,12 +152,12 @@ class smg : r
 class sht : r
 {
     displayName = "Shotgunner";
-    primaryWeapon[] = {"hlc_rifle_saiga12k"};
-    scope[] = {"hlc_optic_kobra"};
+    primaryWeapon[] = {"CUP_sgun_Saiga12K"};
+    scope[] = {"cup_optic_kobra"};
     magazines[] =
     {
-        LIST_4("hlc_10rnd_12g_buck_S12"),
-        LIST_4("hlc_10rnd_12g_slug_S12"),
+        LIST_4("CUP_8Rnd_B_Saiga12_74Pellets_M"),
+        LIST_4("CUP_8Rnd_B_Saiga12_74Slug_M"),
         LIST_2("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -196,13 +211,13 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     backpack[] = {"B_LegStrapBag_olive_F"};
-    primaryWeapon[] = {"hlc_rifle_rpk_75rnd"};
+    primaryWeapon[] = {"CUP_arifle_RPK74"};
     scope[] = {"rhs_acc_1p29"};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
         LIST_2("rhs_mag_9x18_8_57N181S"),
-        LIST_5("hlc_75Rnd_762x39_m_rpk"),
+        LIST_5("rhs_75Rnd_762x39mm"),
         "rhs_mag_f1",
         "rhs_mag_rdg2_white"
     };
@@ -213,7 +228,7 @@ class aar : r
     backpack[] = {"B_Messenger_Olive_F"};
     backpackItems[] =
     {
-        LIST_4("hlc_75Rnd_762x39_m_rpk")
+        LIST_4("rhs_75Rnd_762x39mm")
     };
 };
 class rat : car
@@ -418,7 +433,7 @@ class sn : r
 class sp : ftl
 {
     displayName = "Spotter";
-    silencer[] = {"hlc_muzzle_545sup_ak"};
+    silencer[] = {"rhs_acc_dtk4short"};
     uniform[] = {"U_I_C_Soldier_Para_2_F"};
     vest[] = {"V_TacChestrig_oli_F"};
     headgear[] = {"H_Booniehat_khk_hs"};

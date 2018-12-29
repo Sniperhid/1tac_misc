@@ -1,6 +1,7 @@
 // incomplete
 
 tooltip = "Author: Bear";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -79,8 +80,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -132,9 +135,14 @@ class m : car
 	backpack[] = {"usm_pack_m5_medic"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("SmokeShell")
 	};
 };
@@ -195,8 +203,10 @@ class fac : co
 		"Binocular"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Maptools"
 	};
 };
@@ -230,8 +240,9 @@ class aar : r
 	backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_4("rhs_100Rnd_762x54mmR")
+        LIST_2("rhs_100Rnd_762x54mmR")
     };
+    
     linkedItems[] += {"Binocular"};
 };
 class rat : car
@@ -269,7 +280,7 @@ class mmgac : r
 	backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_3("rhs_100Rnd_762x54mmR")
+        LIST_2("rhs_100Rnd_762x54mmR")
     };
 };
 class mmgag : aar
@@ -285,7 +296,7 @@ class mmgag : aar
 	};
 	backpackItems[] =
 	{
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_2("rhs_100Rnd_762x54mmR")
 	};
 };
 class hmgg : car
@@ -449,6 +460,7 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     headgear[] = {"rhs_tsh4"};
+    backpack[] = {"bear_sidor_tan"};
     linkedItems[] += {"Binocular"};
 	magazines[] += {
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
@@ -512,8 +524,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
@@ -536,6 +550,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+	backpack[] = {"B_Carryall_oli"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),

@@ -1,4 +1,5 @@
 /* assignGear specific macros */
+//Compatible with ACE Advanced Medical
 
 // dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, mbg_m16a2
 // originally by Snippers
@@ -71,8 +72,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -97,9 +100,14 @@ class m : car
 	backpack[] = {"usm_pack_m5_medic"};
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_an_m8hc")
 	};
 };
@@ -120,8 +128,7 @@ class ftl : g
     magazines[] +=
     {
         LIST_2("rhs_mag_m715_Green"),
-		LIST_2("rhs_mag_m713_Red"),
-		LIST_2("rhs_mag_m18_green")
+		LIST_2("rhs_mag_m713_Red")
     };
     linkedItems[] =
     {
@@ -145,7 +152,6 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-	radios[] = {"ACRE_PRC117F"};
 	backpack[] = {"CUP_B_AlicePack_Khaki"};
 	magazines[] = {
 		LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
@@ -167,7 +173,6 @@ class fac : co
     displayName = "Forward Air Controller";
 	backpackItems[] = {};
 	backpack[] = {"usm_pack_alice_prc119"};
-	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -176,8 +181,10 @@ class fac : co
 		"ACE_Vector"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Kestrel4500",
 		"ACE_microDAGR",
 		"ACE_Maptools"
@@ -464,7 +471,6 @@ class vc : smg
     uniform[] = {"usm_bdu_dcu_m"};
     vest[] = {"usm_vest_pasgt_lbe_rmp"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"usm_helmet_cvc"};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
@@ -484,7 +490,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
 	backpackItems[] = {};
 };
 class pp : smg
@@ -493,7 +498,6 @@ class pp : smg
     uniform[] = {"CUP_U_B_USMC_PilotOverall"};
     vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -519,7 +523,6 @@ class pcc : smg
 class pc : pcc
 {
     displayName = "Helicopter Crew";
-	backpack[] = {};
     backpackItems[] = {};
 };
 class jp : baseMan
@@ -528,7 +531,6 @@ class jp : baseMan
     uniform[] = {"CUP_U_B_USMC_PilotOverall"};
     vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
 	sidearmWeapon[] = {"rhsusf_weap_m9"};
@@ -538,8 +540,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };

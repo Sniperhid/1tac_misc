@@ -1,6 +1,7 @@
 // in case of fire, tell Bear
 
 tooltip = "Author: Bear";
+//Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -65,8 +66,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		 LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class g : r
@@ -97,21 +100,33 @@ class car : r
 class m : r
 {
     displayName = "Medic";
+    backpack[] = {"B_FieldPack_oli"};
+    magazines[] =
+    {
+        LIST_7("hlc_20rnd_762x51_b_G3"),
+        LIST_2("hlc_20rnd_762x51_T_G3"),
+        LIST_2("rhs_mag_an_m8hc")
+    };
 	backpackItems[] = {
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
-		LIST_2("rhs_mag_an_m8hc")
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
+		LIST_1("rhs_mag_an_m8hc")
 	};
 };
 class smg : r
 {
     displayName = "Submachinegunner";
-	primaryWeapon[] = {"hlc_smg_mp5a2"};
+	primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_5("hlc_30Rnd_9x19_B_MP5"),
+        LIST_5("CUP_30Rnd_9x19_MP5"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -119,6 +134,7 @@ class smg : r
 class ftl : g
 {
     displayName = "Fireteam Leader";
+    backpack[] = {"B_FieldPack_oli"};
     magazines[] +=
     {
         LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -130,6 +146,7 @@ class ftl : g
 class sl : r
 {
     displayName = "Squad Leader";
+    backpack[] = {"B_FieldPack_oli"}; 
     magazines[] +=
     {
 		LIST_2("rhs_mag_m18_green"),
@@ -148,14 +165,12 @@ class sl : r
 class co : sl
 {
     displayName = "Platoon Leader";
-	radios[] = {"ACRE_PRC117F"};
 	backpackItems[] = {};
 };
 class fac : co
 {
     displayName = "Forward Air Controller";
 	backpackItems[] = {};
-	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -164,8 +179,10 @@ class fac : co
 		"ACE_Vector"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Kestrel4500",
 		"ACE_microDAGR",
 		"ACE_Maptools"
@@ -471,7 +488,6 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     backpack[] = {"B_AssaultPack_rgr"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhsusf_cvc_green_ess","rhsusf_cvc_green_helmet"};
     linkedItems[] += {"Binocular","ItemGPS"};
 	magazines[] += {
@@ -496,7 +512,6 @@ class pp : smg
 {
     displayName = "Helicopter Pilot";
     backpack[] = {"B_AssaultPack_rgr"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhsusf_hgu56p"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -526,7 +541,6 @@ class jp : baseMan
 {
     displayName = "Jet pilot";
     backpack[] = {"B_AssaultPack_rgr"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
 	sidearmWeapon[] = {"rhsusf_weap_m9"};
@@ -536,8 +550,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };

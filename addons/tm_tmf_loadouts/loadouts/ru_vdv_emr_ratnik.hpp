@@ -1,5 +1,5 @@
 // in case of fire, tell Bear
-
+//Compatible with ACE Advanced Medical
 tooltip = "Author: Bear\n\nSimilar to Russian forces seen in Crimea, Syria.";
 
 class baseMan {// Weaponless baseclass
@@ -75,8 +75,10 @@ class r : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
 };
 class r_akms : r // as seen in crimea and syria
@@ -116,9 +118,14 @@ class m : car
 	backpackItems[] =
 	{
 		LIST_15("ACE_fieldDressing"),
-		LIST_10("ACE_morphine"),
-		LIST_6("ACE_epinephrine"),
-		LIST_2("ACE_bloodIV"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
 		LIST_2("rhs_mag_rdg2_white")
 	};
 };
@@ -166,7 +173,6 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-	radios[] = {"ACRE_PRC117F"};
 	magazines[] = {
 		LIST_2("rhs_GRD40_Green"),
 		LIST_3("rhs_GRD40_Red"),
@@ -184,7 +190,6 @@ class fac : co
 {
     displayName = "Forward Air Controller";
 	backpackItems[] = {};
-	radios[] = {"ACRE_PRC117F"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -193,8 +198,10 @@ class fac : co
 		"rhs_pdu4"
 	};
 	items[] = {
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine",
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet",
 		"ACE_Kestrel4500",
 		"ACE_microDAGR",
 		"ACE_Maptools"
@@ -447,11 +454,11 @@ class sp : sn
 	primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_2mag","rhs_weap_ak74m_plummag","rhs_weap_ak74m_camo","rhs_weap_ak74m_2mag_camo"};
     magazines[] =
     {
-		LIST_7("rhs_30Rnd_545x39_7N10_AK"),
+		LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),
-        LIST_4("rhs_VOG25"),
+        LIST_3("rhs_VOG25"),
         LIST_3("rhs_GRD40_White")
     };
 };
@@ -460,7 +467,6 @@ class vc : smg
     displayName = "Vehicle Commander";
     uniform[] = {"rhs_uniform_emr_patchless"};
     vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
     goggles[] = {};
 	linkedItems[] += {"Binocular","ItemGPS"};
@@ -479,7 +485,7 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
 	backpackItems[] = {};
 };
 class pp : smg
@@ -487,7 +493,6 @@ class pp : smg
     displayName = "Helicopter Pilot";
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
@@ -519,7 +524,6 @@ class jp : baseMan
     displayName = "Jet pilot";
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
-	radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
 	sidearmWeapon[] = {"rhs_weap_pya"};
@@ -529,8 +533,10 @@ class jp : baseMan
     };
 	items[] =
 	{
-		LIST_3("ACE_fieldDressing"),
-		"ACE_morphine"
+		LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_morphine",
+        "ACE_tourniquet"
 	};
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
@@ -538,7 +544,7 @@ class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
     vest[] = {"rhs_6b23_digi_vydra_3m"};
-	backpack[] = {"rhs_assault_umbts_engineer_empty"};
+	backpack[] = {"B_Carryall_oli"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -559,8 +565,8 @@ class engm : car
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        LIST_3("rhs_mine_pmn2_mag"),
-        LIST_3("rhs_mine_tm62m_mag")
+        LIST_2("rhs_mine_pmn2_mag"),
+        LIST_2("rhs_mine_tm62m_mag")
     };
 };
 class UAV : car
