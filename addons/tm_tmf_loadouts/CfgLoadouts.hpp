@@ -458,7 +458,13 @@ class CfgLoadouts
 		displayName = "Bundeswehr (1983, OD Grauoliv)";
 		category = "Western Factions";
 		#include "loadouts\bundeswehr_1983.hpp"
-	};	
+	}; 
+	class BUNDESWEHR_2016
+	{
+		displayName = "Bundeswehr (2016)";
+		category = "Western Factions";
+		#include "loadouts\bundeswehr_2016.hpp"
+	};
 	class CANADA_ARMY_CADPAT
 	{
 		displayName = "Canadian Army (2005-, CADPAT)";
