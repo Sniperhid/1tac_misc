@@ -463,7 +463,7 @@ class CfgLoadouts
 	{
 		displayName = "Bundeswehr (2016)";
 		category = "Western Factions";
-		#include "loadouts\Bundeswehr_2016.hpp"
+		#include "loadouts\bundeswehr_2016.hpp"
 	};
 	class CANADA_ARMY_CADPAT
 	{
