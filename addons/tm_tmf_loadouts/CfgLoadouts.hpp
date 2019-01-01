@@ -455,7 +455,7 @@ class CfgLoadouts
 	}; 
 	class BUNDESWEHR_2016
 	{
-		displayName = "Bundeswehr (2016) - Tropentarn (Woodland)";
+		displayName = "Bundeswehr (2016) - Flecktarn (Woodland)";
 		category = "Western Factions";
 		#include "loadouts\bundeswehr_2016.hpp"
 	};
