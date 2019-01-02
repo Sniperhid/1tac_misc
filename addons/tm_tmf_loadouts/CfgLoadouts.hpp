@@ -455,9 +455,15 @@ class CfgLoadouts
 	}; 
 	class BUNDESWEHR_2016
 	{
-		displayName = "Bundeswehr (2016)";
+		displayName = "Bundeswehr (2016, Flecktarn)";
 		category = "Western Factions";
 		#include "loadouts\bundeswehr_2016.hpp"
+	};
+	class BUNDESWEHR_2016_STEP
+	{
+		displayName = "Bundeswehr (2016, Steppentarn (Desert))";
+		category = "Western Factions";
+		#include "loadouts\bundeswehr_2016_steppentarn.hpp"
 	};
 	class CANADA_ARMY_CADPAT
 	{
