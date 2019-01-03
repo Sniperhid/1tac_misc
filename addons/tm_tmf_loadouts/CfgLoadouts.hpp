@@ -501,6 +501,12 @@ class CfgLoadouts
 		category = "Western Factions";
 		#include "loadouts\idf.hpp"
 	};
+	class NORWEGIAN_ARMY_2018
+	{
+		displayName = "Norwegian Army 2018";
+		category = "Western Factions";
+		#include "loadouts\norwegian_army_2018.hpp"
+	};
     
 	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
