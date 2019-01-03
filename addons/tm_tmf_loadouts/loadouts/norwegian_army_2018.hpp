@@ -163,7 +163,8 @@ class sl : ftl
 {
     displayName = "Squad Leader";
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
-	scope[] = {"rhsusf_acc_ACOG3","rhsusf_acc_g33_T1"};
+    scope[] = {"rhsusf_acc_ACOG3","rhsusf_acc_g33_T1"};
+    attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] +=
     {
         LIST_3("rhsusf_mag_17Rnd_9x19_JHP")
@@ -214,6 +215,7 @@ class ar : r
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = {"rhs_weap_m249_pip_L_para"};
 	scope[] = {"rhsusf_acc_ELCAN"};
+        attachment[] = {"rhsusf_acc_anpeq15side_bk"};
 	bipod[] = {};
 	vest[] = {"rhsusf_mbav_mg"};
 	magazines[] =
