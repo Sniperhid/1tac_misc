@@ -503,13 +503,13 @@ class CfgLoadouts
 	};
 	class NORWEGIAN_ARMY_2018
 	{
-		displayName = "Norwegian Army 2018";
+		displayName = "Norwegian Army (2018)";
 		category = "Western Factions";
 		#include "loadouts\norwegian_army_2018.hpp"
 	};
 	class NORWEGIAN_ARMY_2004
 	{
-		displayName = "Norwegian Army 2004";
+		displayName = "Norwegian Army (2004)";
 		category = "Western Factions";
 		#include "loadouts\norwegian_army_2004.hpp"
 	};
