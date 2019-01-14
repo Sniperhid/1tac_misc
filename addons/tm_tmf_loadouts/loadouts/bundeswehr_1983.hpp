@@ -82,8 +82,8 @@ class g : r
 };
 class car : r
 {
-    displayName = "Carabinier";	
-	magazines[] =
+    displayName = "Carabinier";    
+    magazines[] =
     {
         LIST_7("hlc_20rnd_762x51_b_G3"),
         LIST_2("HandGrenade"),
@@ -93,9 +93,9 @@ class car : r
 class m : car 
 {
     displayName = "Medic";    
-	backpack[] = {"rhs_medic_bag"};
-	backpackItems[] = {
-		LIST_15("ACE_fieldDressing"),
+    backpack[] = {"rhs_medic_bag"};
+    backpackItems[] = {
+        LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
         LIST_2("ACE_atropine"),
@@ -104,7 +104,7 @@ class m : car
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
         LIST_1("ACE_surgicalKit")
-	};
+    };
 };
 class smg : r
 {
@@ -153,7 +153,7 @@ class ar : r
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"tac1_tm_rhsgref_mg3"};
     vest[] = {"usm_vest_LBE_mg"};
-	backpack[] = {"usm_pack_762x51_ammobelts"};
+    backpack[] = {"usm_pack_762x51_ammobelts"};
     sidearmWeapon[] = {"UK3CB_BAF_L105A1"};
     magazines[] =
     {
@@ -167,7 +167,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-	backpack[] = {"usm_pack_762x51_ammobelts"};
+    backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
         LIST_3("tac1_tm_rhsgref_mg3_100Rnd_762x51_m80")
@@ -198,7 +198,7 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-	backpack[] = {"usm_pack_762x51_ammobelts"};
+    backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
         LIST_3("tac1_tm_rhsgref_mg3_100Rnd_762x51_m80")
@@ -249,27 +249,27 @@ class matg : car
     displayName = "MAT Gunner";
     secondaryWeapon[] = {"rhs_weap_maaws"};
     secondaryAttachments[] = {"rhs_optic_maaws"};
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     magazines[] +=
     {
         LIST_2("rhs_mag_maaws_HEAT"),
-		LIST_2("rhs_mag_maaws_HE")
+        LIST_2("rhs_mag_maaws_HE")
     };
 };
 class matac : r
 {
     displayName = "MAT Ammo Carrier";
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     backpackItems[] =
     {
         LIST_2("rhs_mag_maaws_HEAT"),
-		LIST_2("rhs_mag_maaws_HE")
+        LIST_2("rhs_mag_maaws_HE")
     };
 };
 class matag : car
 {
     displayName = "MAT Assistant Gunner";
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     linkedItems[] =
     {
         "ItemMap",
@@ -281,7 +281,7 @@ class matag : car
     backpackItems[] =
     {
         LIST_2("rhs_mag_maaws_HEAT"),
-		LIST_2("rhs_mag_maaws_HE")
+        LIST_2("rhs_mag_maaws_HE")
     };
 };
 class hatg : car
@@ -340,7 +340,7 @@ class mtrag : car
 class samg : car
 {
     displayName = "AA Missile Specialist";
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     secondaryWeapon[] = {"rhs_weap_fim92"};
     magazines[] +=
     {
@@ -350,7 +350,7 @@ class samg : car
 class samag : car
 {
     displayName = "AA Assistent Missile Specialist";
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     linkedItems[] =
     {
         "ItemMap",
@@ -415,7 +415,7 @@ class pp : smg
     headgear[] = {"CUP_H_BAF_Helmet_Pilot"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
-	items[] += {"ACE_DAGR"};
+    items[] += {"ACE_DAGR"};
 };
 class pcc : smg
 {
@@ -436,7 +436,7 @@ class pc : pcc
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     magazines[] +=
     {
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
@@ -450,7 +450,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-	backpack[] = {"rhssaf_alice_smb"};
+    backpack[] = {"rhssaf_alice_smb"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
@@ -469,18 +469,18 @@ class engm : car
     backpack[] = {};
     headgear[] = {"CUP_H_BAF_Helmet_Pilot"};
     goggles[] = {""};
-	sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
         LIST_3("rhsusf_mag_7x45acp_MHP")
     };
-	items[] =
-	{
-		LIST_5("ACE_fieldDressing"),
+    items[] =
+    {
+        LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
         "ACE_morphine",
         "ACE_tourniquet"
-	};
+    };
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
 class UAV : car

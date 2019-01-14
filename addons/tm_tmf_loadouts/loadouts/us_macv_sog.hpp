@@ -29,12 +29,12 @@ class baseMan {// Weaponless baseclass
     // These are added to the uniform or vest
     magazines[] = {};
     items[] = 
-	{
-		LIST_5("ACE_fieldDressing"),
-		LIST_3("ACE_quikclot"),
-		"ACE_tourniquet",
-		"ACE_morphine"
-	};
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        "ACE_tourniquet",
+        "ACE_morphine"
+    };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -61,8 +61,8 @@ class r : baseMan
 };
 class r2 : baseMan
 {
-	displayName = "Rifleman AK";
-	primaryWeapon[] = {"CUP_arifle_AK47"};
+    displayName = "Rifleman AK";
+    primaryWeapon[] = {"CUP_arifle_AK47"};
     magazines[] =
     {
         LIST_8("CUP_30Rnd_762x39_AK47_M"),
@@ -88,9 +88,9 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
-	backpackItems[] =
-	{
-		LIST_15("ACE_fieldDressing"),
+    backpackItems[] =
+    {
+        LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
         LIST_2("ACE_atropine"),
@@ -99,13 +99,13 @@ class m : car
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
         LIST_1("ACE_surgicalKit")
-	};
+    };
 };
 class smg : r
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {};
-	sidearmWeapon[] = {"CUP_hgun_MicroUzi"};
+    sidearmWeapon[] = {"CUP_hgun_MicroUzi"};
     magazines[] =
     {
         LIST_8("CUP_30Rnd_9x19_UZI"),
@@ -150,8 +150,8 @@ class fac : co
 };
 class ar : r
 {
-	displayName = "Automatic Rifleman Stoner";
-	primaryWeapon[] = {"hlc_rifle_FAL5000_XMAG"};
+    displayName = "Automatic Rifleman Stoner";
+    primaryWeapon[] = {"hlc_rifle_FAL5000_XMAG"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
@@ -160,10 +160,10 @@ class ar : r
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };
-	backpackItems[] = 
-	{
-		LIST_4("hlc_50rnd_762x51_M_FAL")
-	};
+    backpackItems[] = 
+    {
+        LIST_4("hlc_50rnd_762x51_M_FAL")
+    };
 };
 class ar2 : r
 {
@@ -177,10 +177,10 @@ class ar2 : r
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };
-	backpackItems[] = 
-	{
-		LIST_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
-	};
+    backpackItems[] = 
+    {
+        LIST_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+    };
 };
 class aar : r
 {
@@ -193,8 +193,8 @@ class aar : r
 };
 class aar2 : r2
 {
-	displayName = "Assistant Automatic Rifleman RPK";
-	backpackItems[] =
+    displayName = "Assistant Automatic Rifleman RPK";
+    backpackItems[] =
     {
         LIST_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
@@ -220,7 +220,7 @@ class dm : r
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
-	backpackItems[] =
+    backpackItems[] =
     {
         LIST_3("hlc_20Rnd_762x51_B_M14")
     };
@@ -236,7 +236,7 @@ class mmgg : ar
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };
-	backpackItems[] =
+    backpackItems[] =
     {
         LIST_3("hlc_100Rnd_762x51_M_M60E4")
     };
