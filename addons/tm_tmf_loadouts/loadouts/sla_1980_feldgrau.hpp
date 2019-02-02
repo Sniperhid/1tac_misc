@@ -55,9 +55,8 @@ class r : baseMan
     };
     vest[] = {"bear_6sh92_khaki"};
     backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"rhs_weap_akm"};
+    primaryWeapon[] = {"CUP_arifle_TYPE_56_2"};
     scope[] = {};
-    silencer[] = {"rhs_acc_dtkakm"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_762x39mm"),
@@ -79,6 +78,7 @@ class g : r
     vest[] = {"bear_6sh92_khaki"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"rhs_weap_akm_gp25","rhs_weap_akms_gp25"};
+    silencer[] = {"rhs_acc_dtkakm"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_762x39mm"),
@@ -92,7 +92,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_akms"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_762x39mm"),
@@ -120,11 +119,9 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"rhs_weap_m92"};
-    silencer[] = {};
     magazines[] =
     {
-        LIST_6("rhs_30Rnd_762x39mm"),
+        LIST_3("rhs_30Rnd_762x39mm"),
         "rhs_mag_f1",
         LIST_2("rhs_mag_rdg2_white")
     };
