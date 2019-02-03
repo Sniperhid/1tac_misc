@@ -551,6 +551,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\generic_paramilitary_olive_m16.hpp"
 	};
+	class GENERIC_PARAMILITARY_PORTUGUESE_DPM_AKM
+	{
+		displayName = "Generic Paramilitary (1980-, Portugese DPM, AKMs)";
+		category = "Other";
+		#include "loadouts\generic_paramilitary_portuguese_dpm_akm.hpp"
+	};
 	class GENERIC_PARAMILITARY_TIGERSTRIPE_M16
 	{
 		displayName = "Generic Paramilitary (1980-, Tigerstripe, M16s)";

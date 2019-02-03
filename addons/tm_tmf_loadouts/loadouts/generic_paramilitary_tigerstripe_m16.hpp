@@ -7,7 +7,14 @@ tooltip = "Author: Bear\n\nSuitable for 1985-now, great on Tanoa.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhsgref_uniform_tigerstripe"};
+    uniform[] = {
+        "usm_bdu_srl_tgrstp",
+        "usm_bdu_tgrstp",
+        "usm_bdu_bnu_tgrstp",
+        "usm_bdu_srh_tgrstp",
+        "usm_bdu_bti_tgrstp",
+        "usm_bdu_btisrl_tgrstp"
+    };
     vest[] = {};
     backpack[] = {};
     headgear[] = {"usm_bdu_boonie_tgrstp"};
@@ -53,8 +60,8 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {"usm_bdu_boonie_tgrstp"};
-    vest[] = {"V_TacVest_oli"};
-    backpack[] = {};
+    vest[] = {"rhsgref_alice_webbing"};
+    backpack[] = {"B_simc_USMC65_M41", "B_simc_USMC65_M41_Roll", "B_simc_USMC65_M41_Roll2"};
     primaryWeapon[] = {"mbg_m16a2"};
     scope[] = {};
     attachment[] = {};
@@ -75,7 +82,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
         LIST_4("rhs_mag_M441_HE"),

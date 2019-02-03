@@ -7,7 +7,7 @@ tooltip = "Author: Bear\n\nAK-74s, no body armor.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_m88_patchless"}; // needs the VSR uniform from GREF
+    uniform[] = {"bear_uniform_m88_tan"}; // needs the VSR uniform from GREF
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -101,6 +101,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+    headgear[] = {"ssh68_reg"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -196,8 +197,7 @@ class ar : r
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_4("rhs_45Rnd_545X39_AK"),
-        LIST_2("rhs_45Rnd_545X39_7N22_AK"),
+        LIST_6("rhs_45Rnd_545X39_AK"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -208,9 +208,8 @@ class aar : r
     backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_2("rhs_45Rnd_545X39_AK"),
-        LIST_2("rhs_45Rnd_545X39_AK_Green"),
-        LIST_2("rhs_45Rnd_545X39_7N22_AK")
+        LIST_4("rhs_45Rnd_545X39_AK"),
+        LIST_2("rhs_45Rnd_545X39_AK_Green")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -222,7 +221,7 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"rhs_weap_svdp"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     silencer[] = {};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
@@ -421,7 +420,7 @@ class sn : r
     displayName = "Sniper";
     headgear[] = {"rhs_fieldcap_khk"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_svdp"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};

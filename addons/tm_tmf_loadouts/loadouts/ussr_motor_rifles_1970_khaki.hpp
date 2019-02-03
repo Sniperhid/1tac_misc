@@ -8,7 +8,7 @@ tooltip = "Author: Bear\n\nAKMs, no body armor.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_m88_patchless"};
+    uniform[] = {"bear_uniform_m88_tan"};
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -51,7 +51,13 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"bear_ssh68_olive"};
+    headgear[] = {
+        "rhs_ssh68",
+        "rhs_ssh68",
+        "ssh68_khaki",
+        "ssh68_camo_green",
+        "ssh68_camo_yel"
+    };
     vest[] = {"bear_6sh92_khaki"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
@@ -96,6 +102,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+    headgear[] = {"ssh68_reg"};
     vest[] = {"bear_6sh92_khaki"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -217,7 +224,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     vest[] = {"bear_6sh92_khaki"};
-    primaryWeapon[] = {"rhs_weap_svdp"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     silencer[] = {};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
@@ -421,7 +428,7 @@ class sn : r
     vest[] = {"bear_6sh92_khaki"};
     headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_svdp_wd"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
