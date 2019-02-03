@@ -53,11 +53,9 @@ class r : baseMan
     headgear[] = {
         "rhs_ssh68",
         "rhs_ssh68",
-        "rhs_ssh68",
-        "bear_ssh68",
-        "bear_ssh68_olive",
-        "bear_ssh68_spots",
-        "bear_ssh68_spots"
+        "ssh68_khaki",
+        "ssh68_camo_green",
+        "ssh68_camo_yel"
     };
     vest[] = {"bear_6sh92_khaki"};
     backpack[] = {"rhs_sidor"};
@@ -415,7 +413,7 @@ class sn : r
     displayName = "Sniper";
     headgear[] = {"rhs_fieldcap_khk"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_svdp"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};

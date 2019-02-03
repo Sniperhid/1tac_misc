@@ -7,7 +7,7 @@ tooltip = "Author: Bear\n\nSuitable for 1985-now, great on Tanoa.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_m93_olive"};
+    uniform[] = {"usm_bdu_srl_odg", "usm_bdu_btisrl_odg"};
     vest[] = {};
     backpack[] = {};
     headgear[] = {"usm_bdu_boonie_odg"};
@@ -52,9 +52,9 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"usm_bdu_boonie_odg","usm_bdu_cap_odg"};
+    headgear[] = {"usm_bdu_boonie_odg","usm_bdu_cap_odg","usm_bdu_cap_odg"};
     vest[] = {"V_TacVest_oli"};
-    backpack[] = {};
+    backpack[] = {"B_simc_USMC65_M41", "B_simc_USMC65_M41_Roll", "B_simc_USMC65_M41_Roll2"};
     primaryWeapon[] = {"mbg_m16a2"};
     scope[] = {};
     attachment[] = {};
@@ -75,7 +75,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
         LIST_4("rhs_mag_M441_HE"),
@@ -90,7 +90,6 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    backpack[] = {"usm_pack_m5_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),

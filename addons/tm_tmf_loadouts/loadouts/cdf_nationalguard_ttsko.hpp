@@ -51,7 +51,7 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
     {
-        "rhs_ssh68","bear_ssh68","bear_ssh68_olive"
+        "rhs_ssh68","ssh68_khaki"
     };
     vest[] = {"rhs_6b5","rhs_6b5_ttsko","rhs_6b5_khaki"};
     backpack[] = {"rhs_sidor"};

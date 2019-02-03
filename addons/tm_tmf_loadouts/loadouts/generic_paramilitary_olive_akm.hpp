@@ -7,7 +7,7 @@ tooltip = "Author: Bear\n\nSuitable for 1980-now, great on Tanoa.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_m93_olive"};
+    uniform[] = {"usm_bdu_srl_odg", "usm_bdu_btisrl_odg"};
     vest[] = {};
     backpack[] = {};
     headgear[] = {"usm_bdu_cap_odg"};
@@ -54,7 +54,7 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = {"usm_bdu_cap_odg"};
     vest[] = {"V_TacVest_oli"};
-    backpack[] = {};
+    backpack[] = {"B_simc_USMC65_M41", "B_simc_USMC65_M41_Roll", "B_simc_USMC65_M41_Roll2"};
     primaryWeapon[] = {"rhs_weap_akm"};
     silencer[] = {"rhs_acc_dtkakm"};
     scope[] = {};
@@ -86,12 +86,11 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_m92"};
+    primaryWeapon[] = {"rhs_weap_akms"};
 };
 class m : car
 {
     displayName = "Medic";
-    backpack[] = {"usm_pack_m5_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -108,10 +107,9 @@ class m : car
 class smg : car
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_5("rhs_30Rnd_762x39mm"),
+        LIST_4("rhs_30Rnd_762x39mm"),
         "HandGrenade",
         "SmokeShell"
     };

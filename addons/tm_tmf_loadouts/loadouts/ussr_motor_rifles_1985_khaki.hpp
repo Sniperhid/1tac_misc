@@ -53,11 +53,9 @@ class r : baseMan
     headgear[] = {
         "rhs_ssh68",
         "rhs_ssh68",
-        "rhs_ssh68",
-        "bear_ssh68",
-        "bear_ssh68_olive",
-        "bear_ssh68_spots",
-        "bear_ssh68_spots"
+        "ssh68_khaki",
+        "ssh68_camo_green",
+        "ssh68_camo_yel"
     };
     vest[] = {"rhs_6b5"};
     backpack[] = {"rhs_sidor"};
@@ -112,6 +110,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+    headgear[] = {"ssh68_reg"};
     vest[] = {"rhs_6b5_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -211,8 +210,7 @@ class ar : r
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_4("rhs_45Rnd_545X39_AK"),
-        LIST_2("rhs_45Rnd_545X39_7N22_AK"),
+        LIST_6("rhs_45Rnd_545X39_AK"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -223,9 +221,8 @@ class aar : r
     backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_2("rhs_45Rnd_545X39_AK"),
-        LIST_2("rhs_45Rnd_545X39_AK_Green"),
-        LIST_2("rhs_45Rnd_545X39_7N22_AK")
+        LIST_4("rhs_45Rnd_545X39_AK"),
+        LIST_2("rhs_45Rnd_545X39_AK_Green")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -237,7 +234,7 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"rhs_weap_svdp"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     silencer[] = {};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
@@ -436,7 +433,7 @@ class sn : r
     displayName = "Sniper";
     headgear[] = {"rhs_fieldcap_khk"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_svdp"};
+    primaryWeapon[] = {"40th_weap_svd_wood"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
