@@ -9,12 +9,12 @@
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-     uniform[] = {"usm_bdu_odg"};
-       vest[] = {};
-       backpack[] = {"CUP_B_AlicePack_Khaki"};
-       headgear[] = {};
-       goggles[] = {};
-       hmd[] = {};
+    uniform[] = {"usm_bdu_odg"};
+    vest[] = {};
+    backpack[] = {"CUP_B_AlicePack_Khaki"};
+    headgear[] = {};
+    goggles[] = {};
+    hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
 
     // All randomized
