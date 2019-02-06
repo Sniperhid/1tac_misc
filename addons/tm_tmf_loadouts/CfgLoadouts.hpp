@@ -501,6 +501,18 @@ class CfgLoadouts
 		category = "Western Factions";
 		#include "loadouts\idf.hpp"
 	};
+	class NORWEGIAN_ARMY_2018
+	{
+		displayName = "Norwegian Army (2018)";
+		category = "Western Factions";
+		#include "loadouts\norwegian_army_2018.hpp"
+	};
+	class NORWEGIAN_ARMY_2004
+	{
+		displayName = "Norwegian Army (2004)";
+		category = "Western Factions";
+		#include "loadouts\norwegian_army_2004.hpp"
+	};
     
 	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
@@ -538,6 +550,12 @@ class CfgLoadouts
 		displayName = "Generic Paramilitary (1980-, Olive, M16s)";
 		category = "Other";
 		#include "loadouts\generic_paramilitary_olive_m16.hpp"
+	};
+	class GENERIC_PARAMILITARY_PORTUGUESE_DPM_AKM
+	{
+		displayName = "Generic Paramilitary (1980-, Portugese DPM, AKMs)";
+		category = "Other";
+		#include "loadouts\generic_paramilitary_portuguese_dpm_akm.hpp"
 	};
 	class GENERIC_PARAMILITARY_TIGERSTRIPE_M16
 	{
