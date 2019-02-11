@@ -43,5 +43,5 @@ acex_volume_showNotification = true;
 ace_nametags_showPlayerRanks = false;
 ace_nametags_playerNamesViewDistance = 9;
 ace_nametags_playerNamesMaxAlpha = 1.0;
-force force diwako_dui_compassRange = 35;
+force force diwako_dui_compassRange = 50;
 force force diwako_dui_enable_occlusion = false;
