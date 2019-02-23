@@ -68,8 +68,8 @@ class r : baseMan
     bipod[] = {};
     magazines[] =
     {
-        LIST_5("tm_20Rnd_762x51_m80_Mag"),
-        LIST_3("rhsusf_20Rnd_762x51_m993_Mag"),
+        LIST_5("CUP_20Rnd_762x51_B_SCAR_bkl"),
+        LIST_3("CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR_bkl"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -98,8 +98,8 @@ class car : r
     primaryWeapon[] = {"CUP_arifle_Mk17_CQC_FG"};
     magazines[] =
     {
-        LIST_5("tm_20Rnd_762x51_m80_Mag"),
-        LIST_2("rhsusf_20Rnd_762x51_m993_Mag"),
+        LIST_5("CUP_20Rnd_762x51_B_SCAR_bkl"),
+        LIST_2("CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR_bkl"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -174,8 +174,8 @@ class co : sl
         LIST_2("rhs_mag_m18_purple"),
         LIST_3("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-        LIST_4("tm_20Rnd_762x51_m80_Mag"),
-        LIST_2("rhsusf_20Rnd_762x51_m993_Mag"),
+        LIST_4("CUP_20Rnd_762x51_B_SCAR_bkl"),
+        LIST_2("CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR_bkl"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -247,7 +247,7 @@ class dm : r
     {
         LIST_3("rhsusf_mag_7x45acp_MHP"),
         LIST_4("rhsusf_20Rnd_762x51_m118_special_Mag"),
-        LIST_4("rhsusf_20Rnd_762x51_m993_Mag"),
+        LIST_4("CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR_bkl"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -610,8 +610,8 @@ class eng : car
     backpack[] = {"UK3CB_BAF_B_Carryall_OLI"};
     magazines[] =
     {
-        LIST_5("tm_20Rnd_762x51_m80_Mag"),
-        LIST_2("rhsusf_20Rnd_762x51_m993_Mag"),
+        LIST_5("CUP_20Rnd_762x51_B_SCAR_bkl"),
+        LIST_2("CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR_bkl"),
         LIST_2("rhs_mag_an_m8hc"),        
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
     };
