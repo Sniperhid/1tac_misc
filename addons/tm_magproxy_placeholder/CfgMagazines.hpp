@@ -21,42 +21,20 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
     };
     
-    /*class hlc_30Rnd_545x39_B_AK: 30Rnd_556x45_Stanag {
-        modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l20_30rnd.p3d";
+    class UK3CB_BAF_556_30Rnd: 30Rnd_556x45_Stanag {};
+    class UK3CB_BAF_556_100Rnd: UK3CB_BAF_556_30Rnd {
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
         modelSpecialIsProxy = 1;
     };
-    class hlc_30Rnd_545x39_S_AK: 30Rnd_556x45_Stanag {
-        modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l20_30rnd.p3d";
+    class UK3CB_BAF_556_30Rnd_Blank: UK3CB_BAF_556_30Rnd {};
+    class UK3CB_BAF_556_100Rnd_Blank: UK3CB_BAF_556_30Rnd_Blank {
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
         modelSpecialIsProxy = 1;
     };
-    class hlc_30Rnd_545x39_t_ak: hlc_30Rnd_545x39_B_AK {};
-    class hlc_45Rnd_545x39_t_rpk: hlc_30Rnd_545x39_T_ak {
-        modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l18_45rnd.p3d";
+    class 30Rnd_556x45_Stanag_Tracer_Red: 30Rnd_556x45_Stanag {};
+    class UK3CB_BAF_556_30Rnd_T: 30Rnd_556x45_Stanag_Tracer_Red {};
+    class UK3CB_BAF_556_100Rnd_T: UK3CB_BAF_556_30Rnd_T {
+        modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
         modelSpecialIsProxy = 1;
     };
-    class hlc_45Rnd_545x39_m_rpk: hlc_30Rnd_545x39_T_ak {
-        modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l18_45rnd.p3d";
-        modelSpecialIsProxy = 1;
-    };
-    class hlc_30Rnd_762x39_b_ak: 30Rnd_556x45_Stanag {
-        modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_6l10_30rnd";
-        modelSpecialIsProxy = 1;
-    };
-    class hlc_45Rnd_762x39_AP_rpk: 30Rnd_556x45_Stanag {
-        modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l18_45rnd.p3d";
-        modelSpecialIsProxy = 1;
-    };
-    class hlc_45Rnd_762x39_t_rpk: 30Rnd_556x45_Stanag {
-        modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l18_45rnd.p3d";
-        modelSpecialIsProxy = 1;
-    };
-    class hlc_75Rnd_762x39_AP_rpk: hlc_45Rnd_762x39_AP_rpk {
-        modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steel_75rnd";
-        modelSpecialIsProxy = 1;
-    };
-    class hlc_45Rnd_762x39_m_rpk: hlc_45Rnd_762x39_t_rpk {};
-    class hlc_75Rnd_762x39_m_rpk: hlc_45Rnd_762x39_m_rpk {
-        modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steel_75rnd";
-        modelSpecialIsProxy = 1;
-    };*/
 };
