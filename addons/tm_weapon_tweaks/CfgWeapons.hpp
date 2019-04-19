@@ -22,7 +22,7 @@ class CfgWeapons {
     class rhs_weap_lmg_minimipara: rhs_weap_saw_base {
         recoil = "tm_recoil_m249"; // recoil_SAW
         class FullAuto: FullAuto {
-            dispersion = 0.002; // 0.00101
+            dispersion = 0.0014; // 0.00101
         };
     };
     
@@ -40,6 +40,21 @@ class CfgWeapons {
     
     class rhs_weap_ak74m_Base_F: Rifle_Base_F {
         recoil = "recoil_mxm"; // from recoil_mk20 to same as m4
+    };
+    
+    class Rifle_Long_Base_F: Rifle_Base_F {};
+    class rhs_pkp_base: Rifle_Long_Base_F {
+        recoil = "tm_recoil_m240"; // recoil_zafir
+        class FullAuto: Mode_FullAuto {
+            dispersion = 0.00101; // 0.00101
+        };
+    };
+    class rhs_weap_pkp: rhs_pkp_base {};
+    class rhs_weap_pkm: rhs_weap_pkp {
+        recoil = "tm_recoil_m240"; // recoil_zafir
+        class manual: FullAuto {
+            dispersion = 0.00101; // 0.00093
+        };
     };
     
     class hlc_M60e4_base: Rifle_Base_F {
