@@ -214,6 +214,12 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_army_rangers_2013_mc_mk17.hpp"
 	};
+	class US_ARMY_SF_DELTA_MC_TROPIC
+	{
+		displayName = "US Army SFOD-D (CAG/Delta) (2018-, Multicam Tropic)";
+		category = "USA";
+		#include "loadouts\us_army_sf_delta_mc_tropic.hpp"
+	};
 	class US_MACV_SOG
 	{
 		displayName = "US MACV SOG (Tigerstripe)";
@@ -341,6 +347,12 @@ class CfgLoadouts
 		displayName = "RU Airborne Troops (2015, EMR)";
 		category = "Russia";
 		#include "loadouts\ru_vdv_emr_ratnik.hpp"
+	};
+	class RUS_VDV_EMR_GORKA_R
+	{
+		displayName = "RU Airborne Troops (2015, EMR, Gorka-R)";
+		category = "Russia";
+		#include "loadouts\ru_vdv_emr_gorka_r.hpp"
 	};
 	class RUS_VDV_EMR_RATNIK_AK74MR
 	{
