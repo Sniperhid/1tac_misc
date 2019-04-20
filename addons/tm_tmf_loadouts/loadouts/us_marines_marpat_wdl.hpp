@@ -240,8 +240,8 @@ class aar_m27iar : r
 
 class rat : car
 {
-    displayName = "Rifleman (M72A7 LAW)";
-    secondaryWeapon[] = {"rhs_weap_m72a7"};
+    displayName = "Rifleman (M136)";
+    secondaryWeapon[] = {"rhs_weap_M136"};
 };
 class dm : r
 {

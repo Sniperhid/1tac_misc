@@ -53,7 +53,7 @@ class baseMan {// Weaponless baseclass
 };
 class r : baseMan
 {
-    displayName = "Rifleman";
+    displayName = "Rifleman (M72A7)";
     headgear[] = 
     {
         "rhsusf_opscore_mar_fg",
@@ -94,6 +94,7 @@ class r : baseMan
         "rhs_weap_m4a1_blockII_d",
         "rhs_weap_m4a1_blockII_KAC_d"
     };
+    secondaryWeapon[] = {"rhs_weap_m72a7"};
     bipod[] = 
     {
         "rhsusf_acc_grip1",
@@ -155,11 +156,12 @@ class g : r
         LIST_5("rhs_mag_M441_HE"),
         LIST_4("rhs_mag_m714_White")
     };
+    secondaryWeapon[] = {};
 };
 class car : r
 {
     displayName = "Carabinier";
-    //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
+    secondaryWeapon[] = {};
 };
 class m : car
 {
@@ -195,6 +197,7 @@ class smg : r
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
+    secondaryWeapon[] = {};
 };
 class ftl : g
 {
@@ -230,6 +233,7 @@ class sl : r
         "lerca_1200_tan",
         "ItemGPS"
     };
+    secondaryWeapon[] = {};
 };
 class co : sl
 {
@@ -277,6 +281,7 @@ class ar : r
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
+    secondaryWeapon[] = {};
 };
 class aar : r
 {
@@ -287,11 +292,12 @@ class aar : r
         LIST_4("rhsusf_100Rnd_556x45_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
+    secondaryWeapon[] = {};
 };
 class rat : car
 {
-    displayName = "Rifleman (M72A7 LAW)";
-    secondaryWeapon[] = {"rhs_weap_m72a7"};
+    displayName = "Rifleman (M136)";
+    secondaryWeapon[] = {"rhs_weap_M136"};
 };
 class dm : r
 {
@@ -305,6 +311,7 @@ class dm : r
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
+    secondaryWeapon[] = {};
 };
 class mmgg : ar
 {
@@ -331,6 +338,7 @@ class mmgac : r
     {
         LIST_3("rhsusf_100Rnd_762x51")
     };
+    secondaryWeapon[] = {};
 };
 class mmgag : aar
 {
@@ -360,6 +368,7 @@ class hmgac : r
 {
     displayName = "HMG Ammo Carrier";
     backPack[] = {"RHS_M2_Gun_Bag"};
+    secondaryWeapon[] = {};
 };
 class hmgag : car
 {
@@ -396,6 +405,7 @@ class matac : r
         LIST_2("rhs_mag_smaw_HEDP"),
         "rhs_mag_smaw_SR"
     };
+    secondaryWeapon[] = {};
 };
 class matag : car
 {
@@ -434,6 +444,7 @@ class hatac : r
     {
         "rhs_fgm148_magazine_AT"
     };
+    secondaryWeapon[] = {};
 };
 class hatag : car
 {
@@ -469,6 +480,7 @@ class mtrac : r
 {
     displayName = "Mortar Ammo Carrier";
     backPack[] = {"rhs_M252_Gun_Bag"};
+    secondaryWeapon[] = {};
 };
 class mtrag : car
 {
@@ -530,6 +542,7 @@ class sn : r
     backpack[] = {};
     linkedItems[] += {"ACE_Vector","ItemGPS"};
     items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
+    secondaryWeapon[] = {};
 };
 class sp : sn
 {
