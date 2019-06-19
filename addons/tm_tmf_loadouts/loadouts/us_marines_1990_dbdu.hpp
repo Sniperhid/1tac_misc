@@ -82,7 +82,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_pasgtdes_lbe_gr_m"};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
         LIST_8("1Rnd_HE_Grenade_shell"),
@@ -148,10 +148,6 @@ class co : sl
     displayName = "Platoon Leader";
     backpack[] = {"usm_pack_st138_prc77"};
     sidearmWeapon[] = {};
-    magazines[] = {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red")
-    };
     backpackItems[] = {};
 };
 class fac : co
