@@ -18,7 +18,9 @@ class CfgPatches
 			"rhsgref_c_troops",
 			"rhssaf_c_troops",
 			"rhs_c_weapons",
-			"CUP_Creatures_Military_Taki"
+			"CUP_Creatures_Military_Taki",
+            "hlcweapons_core",
+            "hlcweapons_m60e4"
 		};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;
