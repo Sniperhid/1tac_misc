@@ -483,6 +483,12 @@ class CfgLoadouts
 		category = "Western Factions";
 		#include "loadouts\canada_army_cadpat.hpp"
 	};
+	class CANADA_ARMY_CADPAT_ARID
+	{
+		displayName = "Canadian Army (2005-, CADPAT Arid Regions)";
+		category = "Western Factions";
+		#include "loadouts\canada_army_cadpat_arid.hpp"
+	};
 	class DANISH_ARMY_2018
 	{
 		displayName = "Danish Army (2018)";
