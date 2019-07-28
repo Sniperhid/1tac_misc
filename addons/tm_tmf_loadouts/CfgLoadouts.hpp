@@ -120,6 +120,14 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\ofp_resistance.hpp"
 	};
+	class LDF
+	{
+		displayName = "Livonian Defence Force";
+		category = "Armaverse Factions";
+		#include "loadouts\livonian_defence_force.hpp"
+	};
+	
+	
 	class GB_WOOD_1980
 	{
 		displayName = "GB Woodland DPM (1980)";
@@ -174,6 +182,8 @@ class CfgLoadouts
 		category = "UK";
 		#include "loadouts\gb_mtp_2015_H.hpp"
 	};
+	
+	
 	class US_ARMY_UCP
 	{
 		displayName = "US Army (2005-, UCP)";
@@ -294,6 +304,8 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_marines_2003_oif_dcu.hpp"
 	};
+	
+	
 	class RUS_MSV_EMR
 	{
 		displayName = "RU Ground Forces (2013, EMR)";
@@ -390,6 +402,8 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_vv_gorka_r.hpp"
 	};
+	
+	
         class CN_PLA_TYPE07_WDL
 	{
 		displayName = "CN People's Liberation Army (Type 07 Woodland)";
@@ -444,6 +458,8 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\ua_vdv_ttsko.hpp"
 	};
+	
+	
 	class ADF_2005
 	{
 		displayName = "Australian Defence Force (AUSCAM, 2005)";
@@ -522,6 +538,8 @@ class CfgLoadouts
 		category = "Western Factions";
 		#include "loadouts\norwegian_army_2004.hpp"
 	};
+	
+	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
 	{
 		displayName = "Afghan National Army (2010-, Spec4ce Afghan Forest)";
@@ -623,11 +641,5 @@ class CfgLoadouts
 		displayName = "Serbian Army Special Brigade (2010-, Digital, G36s)";
 		category = "Other";
 		#include "loadouts\saf_kov_para_m10_digital.hpp"
-	};
-	class LDF
-	{
-		displayName = "Livonian Defence Force";
-		category = "Armaverse Factions";
-		#include "loadouts\LDF.hpp"
 	};
 };
