@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nHigh speed, low drag. Not restricted to amphibious mi
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_g3_aor2"};
+    uniform[] = {"rhs_uniform_g3_aor2"};
     vest[] = {};
     backpack[] = {"rhsusf_falconii_coy"};
     headgear[] = {};
@@ -231,16 +231,16 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"rhs_weap_m249_pip_S_vfg"};
-    bipod[] = {"rhsusf_acc_grip4"};
+    primaryWeapon[] = {"rhs_weap_m249_light_S"};
+    bipod[] = {"rhsusf_acc_grip4_bipod"};
     scope[] = {"rhsusf_acc_ACOG_RMR"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     vest[] = {"rhsusf_mbav_mg"};
     magazines[] =
     {
-        LIST_5("rhsusf_100Rnd_556x45_soft_pouch"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc"
     };
 };
 class aar : r
@@ -249,7 +249,7 @@ class aar : r
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_4("rhsusf_100Rnd_556x45_mixed_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -261,13 +261,15 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"rhs_weap_sr25_ec_wd"};
-    scope[] = {"rhsusf_acc_premier_low"};
+    primaryWeapon[] = {"rhs_weap_mk17_LB"};
+    silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
+    scope[] = {"rhsusf_acc_M8541_mrds"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
-    silencer[] = {"rhsusf_acc_SR25S"};
+    attachment[] = {"rhsusf_acc_anpeq15side"};
     magazines[] =
     {
-        LIST_10("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
+        LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
+        LIST_5("rhs_mag_20Rnd_SCAR_762x51_mk316_special"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };

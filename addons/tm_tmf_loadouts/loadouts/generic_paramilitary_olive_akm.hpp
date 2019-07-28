@@ -53,7 +53,7 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {"usm_bdu_cap_odg"};
-    vest[] = {"V_TacVest_oli"};
+    vest[] = {"rhsgref_chicom"};
     backpack[] = {"B_simc_USMC65_M41", "B_simc_USMC65_M41_Roll", "B_simc_USMC65_M41_Roll2"};
     primaryWeapon[] = {"rhs_weap_akm"};
     silencer[] = {"rhs_acc_dtkakm"};

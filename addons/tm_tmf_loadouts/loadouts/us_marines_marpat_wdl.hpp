@@ -55,8 +55,9 @@ class r : baseMan
     vest[] = {"rhsusf_spc_rifleman"};
     primaryWeapon[] = 
     {
-        "rhs_weap_m16a4_carryhandle",
-        "rhs_weap_m16a4_carryhandle_pmag"
+        LIST_2("rhs_weap_m16a4_carryhandle"),
+        LIST_2("rhs_weap_m16a4_carryhandle_pmag"),
+        "rhs_weap_m16a4_imod"
     };
     bipod[] = 
     { /* weighted 4/1/3 */
@@ -84,7 +85,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"rhsusf_spc_teamleader"};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {LIST_3("rhs_weap_m16a4_carryhandle_M203"), "rhs_weap_m16a4_imod_M203"};
     bipod[] = {};
     magazines[] =
     {
@@ -200,7 +201,7 @@ class ar : r
     vest[] = {"rhsusf_spc_mg"};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_soft_pouch"),
+        LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -211,7 +212,7 @@ class aar : r
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -237,7 +238,6 @@ class aar_m27iar : r
     };
     linkedItems[] += {"Binocular"};
 };
-
 class rat : car
 {
     displayName = "Rifleman (M136)";

@@ -53,13 +53,14 @@ class r : baseMan
     headgear[] = {"rhs_beanie_green"};
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
-    primaryWeapon[] = {"UK3CB_BAF_L1A1"};
+    primaryWeapon[] = {"rhs_weap_l1a1"};
+    silencer[] = {"rhsgref_acc_falmuzzle_l1a1"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
     {
-        LIST_11("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_11("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -153,8 +154,8 @@ class co : sl
     radios[] = {"ACRE_PRC117F"};
     magazines[] = {
     LIST_3("UK3CB_BAF_9_13Rnd"),
-    LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+    LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
                "HandGrenade",
         LIST_2("SmokeShell")
 };
@@ -206,10 +207,10 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    scope[] = {"UK3CB_BAF_SUIT"};
+    scope[] = {"rhsgref_acc_l1a1_l2a2"};
     magazines[] =
     {
-        LIST_10("UK3CB_BAF_762_20Rnd"),
+        LIST_10("rhs_mag_20Rnd_762x51_m80_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -258,8 +259,8 @@ class hmgg : car
     secondaryWeapon[] = {"UK3CB_BAF_L111A1"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -270,8 +271,8 @@ class hmgac : r
     backPack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -287,8 +288,8 @@ class hmgag : car
     backPack[] = {"UK3CB_BAF_B_Carryall_DPMW"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -343,8 +344,8 @@ class hatg : car
     backPack[] = {"rhs_Tow_Gun_Bag"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -355,8 +356,8 @@ class hatac : r
     backPack[] = {"rhs_Tow_Gun_Bag"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -368,8 +369,8 @@ class hatag : car
     backPack[] = {"rhs_TOW_Tripod_Bag"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -477,15 +478,15 @@ class sn : r
 class sp : sn
 {
     displayName = "Spotter";
-    primaryWeapon[] = {"UK3CB_BAF_L1A1"};
+    primaryWeapon[] = {"rhs_weap_l1a1"};
+    silencer[] = {"rhsgref_acc_falmuzzle_l1a1"};
     magazines[] =
     {
-    LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell"),
-    LIST_4("rhsusf_mag_7x45acp_MHP"),
-    LIST_2("UK3CB_BAF_9_13Rnd")
+        LIST_2("UK3CB_BAF_9_13Rnd")
     };
         linkedItems[] =
     {
@@ -608,8 +609,8 @@ class UAV : car
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     magazines[] =
     {
-        LIST_7("UK3CB_BAF_762_20Rnd"),
-        LIST_2("UK3CB_BAF_762_20Rnd_T"),
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };

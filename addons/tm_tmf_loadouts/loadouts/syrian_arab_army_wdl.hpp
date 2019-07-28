@@ -57,6 +57,7 @@ class r : baseMan
         "rhssaf_helmet_m97_woodland"
     };
     vest[] = {
+        LIST_5("rhsgref_chicom"),
         LIST_3("rhssaf_vest_md99_woodland_rifleman"),
         LIST_2("V_TacVest_oli"),
         LIST_2("V_TacVest_blk"),
@@ -140,6 +141,7 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m92"};
     silencer[] = {};
     vest[] = {
+        LIST_6("rhsgref_chicom"),
         LIST_2("V_TacVest_oli"),
         LIST_2("V_TacVest_blk"),
         LIST_4("V_TacVest_camo"),
@@ -159,6 +161,7 @@ class ftl : g
 {
     displayName = "Fireteam Leader";
     vest[] = {
+        LIST_2("rhsgref_chicom"),
         LIST_4("rhssaf_vest_md99_woodland_rifleman"),
         LIST_2("V_TacVest_blk"),
         LIST_4("V_TacVest_camo")

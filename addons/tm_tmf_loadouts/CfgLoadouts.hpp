@@ -178,6 +178,12 @@ class CfgLoadouts
 	};
     
     
+	class US_AIRFORCE_SECURITY_FORCES_2010
+	{
+		displayName = "US Air Force Security Forces (2010, ABU)";
+		category = "USA";
+		#include "loadouts\us_airforce_security_forces.hpp"
+	};
 	class US_ARMY_UCP
 	{
 		displayName = "US Army (2005-, UCP)";
@@ -273,6 +279,12 @@ class CfgLoadouts
 		displayName = "US Army (1970, OD GREEN)";
 		category = "USA";
 		#include "loadouts\us_army_1970_odgreen.hpp"
+	};
+	class US_ARMY_1980_ERDL
+	{
+		displayName = "US Army (1980, ERDL)";
+		category = "USA";
+		#include "loadouts\us_army_1980_erdl.hpp"
 	};
 	class US_ARMY_1985_M81
 	{
@@ -372,6 +384,12 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_vdv_vsr.hpp"
 	};
+	class RUS_VDV_1995_BEREZKA
+	{
+		displayName = "RU Airborne Troops (1995, Berezka)";
+		category = "Russia";
+		#include "loadouts\ru_vdv_1995_berezka.hpp"
+	};
 	class RUS_VMF_EMR_DESERT_RATNIK
 	{
 		displayName = "RU Naval Infantry (2016, EMR-Desert)";
@@ -422,9 +440,15 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\ussr_motor_rifles_1985_khaki.hpp"
 	};
+	class USSR_VDV_AFGHANKA
+	{
+		displayName = "USSR Airborne Troops (1985, Afghanka)";
+		category = "Eastern Factions";
+		#include "loadouts\ussr_vdv_1985_afghanka.hpp"
+	};
 	class USSR_VDV_BEREZKA
 	{
-		displayName = "USSR Airborne Troops (1980, Berezka)";
+		displayName = "USSR Airborne Troops (1985, Berezka)";
 		category = "Eastern Factions";
 		#include "loadouts\ussr_vdv_berezka.hpp"
 	};

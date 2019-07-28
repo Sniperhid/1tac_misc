@@ -55,7 +55,8 @@ class r : baseMan
     {
         "rhssaf_helmet_m97_digital",
         "rhssaf_helmet_m97_digital_black_ess",
-        "rhssaf_helmet_m97_digital_black_ess_bare"
+        "rhssaf_helmet_m97_digital_black_ess_bare",
+        "rhssaf_helmet_m97_veil_digital"
     };
     vest[] = {"rhssaf_vest_md98_rifleman"};
     backpack[] = {"rhssaf_kitbag_digital", "rhssaf_kitbag_md2camo"};

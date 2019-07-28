@@ -60,7 +60,7 @@ class r : baseMan
     silencer[] = {"rhsusf_acc_sfmb556","rhsusf_acc_sf3p556"};
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_8("rhs_mag_30Rnd_556x45_Mk262_Stanag_Ranger"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -219,13 +219,15 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    vest[] = {"rhsusf_spcs_ocp_sniper"};
-    primaryWeapon[] = {"rhs_weap_sr25_ec"};
-    scope[] = {"rhsusf_acc_LEUPOLDMK4"};
-    bipod[] = {"rhsusf_acc_harris_bipod"};
+    primaryWeapon[] = {"rhs_weap_mk17_LB"};
+    silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
+    scope[] = {"rhsusf_acc_su230a_c"};
+    bipod[] = {"rhsusf_acc_grip2_tan"};
+    vest[] = {"rhsusf_plateframe_marksman"};
     magazines[] =
     {
-        LIST_10("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
+        LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
+        LIST_5("rhs_mag_20Rnd_SCAR_762x51_mk316_special"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
