@@ -120,8 +120,6 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\ofp_resistance.hpp"
 	};
-	
-	
 	class GB_WOOD_1980
 	{
 		displayName = "GB Woodland DPM (1980)";
@@ -176,8 +174,6 @@ class CfgLoadouts
 		category = "UK";
 		#include "loadouts\gb_mtp_2015_H.hpp"
 	};
-    
-    
 	class US_ARMY_UCP
 	{
 		displayName = "US Army (2005-, UCP)";
@@ -298,8 +294,6 @@ class CfgLoadouts
 		category = "USA";
 		#include "loadouts\us_marines_2003_oif_dcu.hpp"
 	};
-    
-	
 	class RUS_MSV_EMR
 	{
 		displayName = "RU Ground Forces (2013, EMR)";
@@ -317,7 +311,7 @@ class CfgLoadouts
 		displayName = "RU Ground Forces (2005-2010, Flora)";
 		category = "Russia";
 		#include "loadouts\ru_msv_flora.hpp"
-    };
+        };
 	class RUS_SSO_ATACS_AU
 	{
 		displayName = "RU Special Operations Forces (2016, A-TACS AU)";
@@ -396,9 +390,7 @@ class CfgLoadouts
 		category = "Russia";
 		#include "loadouts\ru_vv_gorka_r.hpp"
 	};
-	
-    
-    class CN_PLA_TYPE07_WDL
+        class CN_PLA_TYPE07_WDL
 	{
 		displayName = "CN People's Liberation Army (Type 07 Woodland)";
 		category = "Eastern Factions";
@@ -452,7 +444,6 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\ua_vdv_ttsko.hpp"
 	};
-
 	class ADF_2005
 	{
 		displayName = "Australian Defence Force (AUSCAM, 2005)";
@@ -531,8 +522,6 @@ class CfgLoadouts
 		category = "Western Factions";
 		#include "loadouts\norwegian_army_2004.hpp"
 	};
-    
-	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
 	{
 		displayName = "Afghan National Army (2010-, Spec4ce Afghan Forest)";
@@ -593,18 +582,18 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\jna_1992.hpp"
 	};
-    class JNA_PARA
-    {
-        displayName = "Jugoslav People's Army Airborne (1985)";
-        category = "Other";
-        #include "loadouts\jna_para.hpp"
-    };
-    class PMC_WINTER
-    {
-        displayName = "PMC (2015-, Arctic Camo)";
-        category = "Other";
-        #include "loadouts\pmc_winter.hpp"
-    };
+        class JNA_PARA
+        {
+                displayName = "Jugoslav People's Army Airborne (1985)";
+                category = "Other";
+                #include "loadouts\jna_para.hpp"
+        };
+        class PMC_WINTER
+        {
+                displayName = "PMC (2015-, Arctic Camo)";
+                category = "Other";
+                #include "loadouts\pmc_winter.hpp"
+        };
 	class SYRIAN_ARAB_ARMY_WDL
 	{
 		displayName = "Syrian Arab Army (1995-, Woodland)";
