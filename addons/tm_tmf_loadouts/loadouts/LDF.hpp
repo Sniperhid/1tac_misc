@@ -1,8 +1,9 @@
 // If you want to base a loadout on an existing one, this repository contains them all:
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
 
-//Livonian Defence Force loadout, Made by Toiton
+tooltip = "Livonian Defence Force loadout";
 //Based on LDF Faction provided by BIS
+//Made by Toiton
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
