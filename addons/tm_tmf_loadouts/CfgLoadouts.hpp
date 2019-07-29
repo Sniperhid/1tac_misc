@@ -638,7 +638,6 @@ class CfgLoadouts
 	};
 	
 	
-	
 	class LDF
 	{
 		displayName = "Livonian Defence Force";
