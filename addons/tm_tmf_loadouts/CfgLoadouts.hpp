@@ -120,12 +120,6 @@ class CfgLoadouts
 		category = "Armaverse Factions";
 		#include "loadouts\ofp_resistance.hpp"
 	};
-	class LDF
-	{
-		displayName = "Livonian Defence Force";
-		category = "Armaverse Factions";
-		#include "loadouts\livonian_defence_force.hpp"
-	};
 	
 	
 	class GB_WOOD_1980
@@ -641,5 +635,14 @@ class CfgLoadouts
 		displayName = "Serbian Army Special Brigade (2010-, Digital, G36s)";
 		category = "Other";
 		#include "loadouts\saf_kov_para_m10_digital.hpp"
+	};
+	
+	
+	
+	class LDF
+	{
+		displayName = "Livonian Defence Force";
+		category = "Vanilla";
+		#include "loadouts\livonian_defence_force.hpp"
 	};
 };
