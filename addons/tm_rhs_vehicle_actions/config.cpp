@@ -20,4 +20,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgVehicles.hpp"
+//#include "CfgVehicles.hpp"
