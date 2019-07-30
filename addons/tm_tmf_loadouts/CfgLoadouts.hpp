@@ -635,4 +635,12 @@ class CfgLoadouts
 		category = "Other";
 		#include "loadouts\saf_kov_para_m10_digital.hpp"
 	};
+    
+    
+    class LIVONIAN_DEFENCE_FORCE
+    {
+        displayName = "Livonian Defence Force";
+        category = "Vanilla";
+        #include "loadouts\livonian_defence_force.hpp"
+    };
 };
