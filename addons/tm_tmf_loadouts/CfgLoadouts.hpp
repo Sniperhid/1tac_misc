@@ -640,7 +640,7 @@ class CfgLoadouts
     class LIVONIAN_DEFENCE_FORCE
     {
         displayName = "Livonian Defence Force";
-        catergory = "Vanilla";
+        category = "Vanilla";
         #include "loadouts\livonian_defence_force.hpp"
     };
 };
