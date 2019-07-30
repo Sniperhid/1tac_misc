@@ -20,4 +20,4 @@ class CfgPatches
 #define HIDE_THIS scope = 1; scopeArsenal = 1; scopeCurator = 1; 
 #define SHOW_THIS scope = 2; scopeArsenal = 2; scopeCurator = 2; 
 
-#include "CfgWeapons.hpp"
+//#include "CfgWeapons.hpp"
