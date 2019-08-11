@@ -75,8 +75,7 @@ class r : baseMan
     silencer[] = {"rhsusf_acc_SF3P556","rhsusf_acc_SFMB556"};
     magazines[] =
     {
-        LIST_7("rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan"),
-        LIST_2("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -96,8 +95,7 @@ class g : r
     bipod[] = {};
     magazines[] =
     {
-        LIST_4("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
-        LIST_5("rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_5("rhs_mag_M441_HE"),
@@ -133,7 +131,7 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
     magazines[] =
     {
-        LIST_6("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
+        LIST_6("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -229,7 +227,7 @@ class ar : r
     vest[] = {"rhsusf_spc_iar"};
     magazines[] +=
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk318_PMAG")
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull")
     };
 };
 class aar : r
@@ -238,8 +236,7 @@ class aar : r
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_5("rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan"),
-        LIST_3("rhs_mag_30Rnd_556x45_Mk318_PMAG")
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -498,7 +495,7 @@ class sp : sn
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_Mk318_PMAG"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };

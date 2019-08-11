@@ -88,8 +88,8 @@ class r : baseMan
     };
     magazines[] =
     {
-        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -121,8 +121,8 @@ class car : r
     displayName = "Carabinier";
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -490,8 +490,8 @@ class sp : sn
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };

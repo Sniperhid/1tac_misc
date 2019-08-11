@@ -201,7 +201,7 @@ class ar : r
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_soft_pouch"),
+        LIST_6("rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_ucp"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -212,7 +212,7 @@ class aar : r
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_4("rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_ucp")
     };
     linkedItems[] += {"Binocular"};
 };

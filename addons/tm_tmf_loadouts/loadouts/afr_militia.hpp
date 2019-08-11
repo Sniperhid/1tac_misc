@@ -64,9 +64,7 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = {};
     vest[] = {
-        "V_TacChestrig_cbr_F",
-        "V_TacChestrig_grn_F",
-        "V_TacChestrig_oli_F"
+        "rhsgref_chicom"
     };
     backpack[] = {};
     primaryWeapon[] = {"rhs_weap_akm", "rhs_weap_akms", "rhs_weap_akm", "rhs_weap_akms", "rhs_weap_m92"};

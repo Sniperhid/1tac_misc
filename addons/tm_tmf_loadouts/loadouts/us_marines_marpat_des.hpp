@@ -200,7 +200,7 @@ class ar : r
     vest[] = {"rhsusf_spc_mg"};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_soft_pouch"),
+        LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -211,7 +211,7 @@ class aar : r
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -237,7 +237,6 @@ class aar_m27iar : r
     };
     linkedItems[] += {"Binocular"};
 };
-
 class rat : car
 {
     displayName = "Rifleman (M136)";

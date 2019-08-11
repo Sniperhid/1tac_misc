@@ -124,11 +124,11 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
+    vest[] = {"rhsgref_chicom"};
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
     magazines[] =
     {
-        LIST_6("30Rnd_556x45_Stanag"),
+        LIST_4("30Rnd_556x45_Stanag"),
         "HandGrenade",
         LIST_2("SmokeShell")
     };
@@ -435,7 +435,6 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
     headgear[] = {"rhsusf_cvc_ess","rhsusf_cvc_helmet"};
     linkedItems[] += {"Binocular","ItemGPS"};
     magazines[] += {
@@ -445,7 +444,6 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
     headgear[] = {"rhsusf_cvc_ess","rhsusf_cvc_helmet"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -459,7 +457,6 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
     headgear[] = {"rhsusf_hgu56p"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -468,7 +465,6 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
     headgear[] = {"rhsusf_hgu56p"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};

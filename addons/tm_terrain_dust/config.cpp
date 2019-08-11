@@ -9,15 +9,14 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tac1_tm_main",
+            "tac1_tm_main"/*,
             "CUP_Worlds_DustEffects",
-            "A3_Map_IslaDuala3",
             "tem_anizay",
             "pulau",
-            "Ruha"
+            "Ruha"*/
         };
         VERSION_CONFIG;
     };
 };
 
-#include "CfgVehicles.hpp"
+//#include "CfgVehicles.hpp"
