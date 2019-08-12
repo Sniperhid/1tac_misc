@@ -74,13 +74,11 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_lbe_gr"};
-    primaryWeapon[] = {"rhs_weap_m79"};
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
-        LIST_10("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell"),
-        LIST_5("rhsusf_mag_7x45acp_MHP")
+        LIST_6("1Rnd_HE_Grenade_shell"),
+        LIST_4("1Rnd_Smoke_Grenade_shell")
     };
 };
 class car : r
@@ -110,12 +108,12 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
-        LIST_6("rhsgref_30rnd_1143x23_M1911B_SMG"),
+        LIST_5("rhsgref_30rnd_1143x23_M1911B_SMG"),
         "rhs_mag_m67",
-        LIST_2("rhs_mag_an_m8hc")
+        "rhs_mag_an_m8hc"
     };
 };
-class ftl : r
+class ftl : g
 {
     displayName = "Fireteam Leader";
     linkedItems[] =
@@ -134,7 +132,7 @@ class sl : ftl
     backPack[] = {"usm_pack_st138_prc77"};
     items[] += {"ACE_Maptools"};
     magazines[] += {
-        LIST_3("rhsusf_mag_7x45acp_MHP")
+        "rhsusf_mag_7x45acp_MHP"
     };
 };
 class co : sl
@@ -142,11 +140,13 @@ class co : sl
     displayName = "Platoon Leader";
     backPack[] = {"usm_pack_st138_prc77"};
     magazines[] = {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_4("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc"),
-        LIST_3("rhsusf_mag_7x45acp_MHP")
+        LIST_6("1Rnd_HE_Grenade_shell"),
+        LIST_4("1Rnd_Smoke_Grenade_shell"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc",
+        "rhsusf_mag_7x45acp_MHP"
     };
     backpackItems[] = {};
 };
@@ -266,14 +266,14 @@ class matg : car
 {
     displayName = "MAT Gunner";
     backpack[] = {"rhsgref_hidf_alicepack"};
-    secondaryWeapon[] = {"CUP_launch_MAAWS"};
-    backpackItems[] += {LIST_2("rhs_mag_maaws_HEAT")};
+    secondaryWeapon[] = {"CUP_launch_M47"};
+    backpackItems[] += {"CUP_Dragon_EP1_M"};
 };
 class matac : r
 {
     displayName = "MAT Ammo Carrier";
     backpack[] = {"rhsgref_hidf_alicepack"};
-    backpackItems[] += {LIST_2("rhs_mag_maaws_HEAT")};
+    backpackItems[] += {"CUP_Dragon_EP1_M"};
 };
 class matag : car
 {
@@ -286,7 +286,7 @@ class matag : car
         "ItemWatch",
         "Binocular"
     };
-    backpackItems[] += {LIST_2("rhs_mag_maaws_HEAT")};
+    backpackItems[] += {"CUP_Dragon_EP1_M"};
 };
 class hatg : car
 {

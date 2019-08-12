@@ -1,12 +1,12 @@
 /* assignGear specific macros */ 
 //Compatible with ACE Advanced Medical
 
-tooltip = "Author: Bear\n\nAirborne forces are 'elite' infantry, and airborne mostly in name.";
+tooltip = "Author: Bear\n\nUS Airborne forces are airborne mostly in name";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"acu_oefcp"};
+    uniform[] = {"rhs_uniform_cu_ocp_82nd"};
     vest[] = {};
     backpack[] = {"rhsusf_falconii_mc"};
     headgear[] = {};
@@ -500,12 +500,8 @@ class pp : smg
     vest[] = {"rhsusf_spcs_ocp_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
     headgear[] = {
-        "rhsusf_hgu56p_black",
-        "rhsusf_hgu56p_visor_black",
-        "rhsusf_hgu56p_green",
-        "rhsusf_hgu56p_visor_green",
-        "rhsusf_hgu56p",
-        "rhsusf_hgu56p_visor"
+        "rhsusf_hgu56p_tan",
+        "rhsusf_hgu56p_visor_tan"
     };
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -520,15 +516,8 @@ class pcc : smg
     vest[] = {"rhsusf_spcs_ocp_crewman"};
     backpack[] = {"rhsusf_assault_eagleaiii_ocp"};
     headgear[] = {
-        "rhsusf_hgu56p_visor_mask_black",
-        "rhsusf_hgu56p_visor_mask_Empire_black",
-        "rhsusf_hgu56p_visor_mask_black_skull",
-        "rhsusf_hgu56p_visor_mask_green",
-        "rhsusf_hgu56p_visor_mask_green_mo",
-        "rhsusf_hgu56p_visor_mask",
-        "rhsusf_hgu56p_visor_mask_mo",
-        "rhsusf_hgu56p_visor_mask_skull",
-        "rhsusf_hgu56p_visor_mask_smiley"
+        "rhsusf_hgu56p_mask_tan",
+        "rhsusf_hgu56p_visor_mask_tan"
     };
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
