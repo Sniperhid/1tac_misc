@@ -1,5 +1,5 @@
 /* assignGear specific macros */
-
+//Dependencies - 3CB Weapons, 3CB Equipment, RHS, CUP, USM, HLC M60
 tooltip = "Author: Sam";
 
 class baseMan {// Weaponless baseclass
