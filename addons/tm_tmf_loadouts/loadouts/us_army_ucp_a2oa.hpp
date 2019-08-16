@@ -455,13 +455,14 @@ class sn : r
     vest[] = {"rhsusf_iotv_ucp_Rifleman"};
     headgear[] = {};
     goggles[] = {"default"};
-    primaryWeapon[] = {"rhs_weap_XM2010_sa"};
-    scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
-    bipod[] = {"rhsusf_acc_harris_bipod"};
+    primaryWeapon[] = {"rhs_weap_m24sws_d"};
+    silencer[] = {"rhsusf_acc_m24_muzzlehider_d"};
+    scope[] = {"rhsusf_acc_leupoldmk4_d"};
+    bipod[] = {"rhsusf_acc_harris_swivel"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
-        LIST_9("rhsusf_5Rnd_300winmag_xm2010"),
+        LIST_8("rhsusf_5Rnd_762x51_m118_special_Mag"),
         LIST_2("rhs_mag_m67"),
         LIST_4("rhsusf_mag_7x45acp_MHP")
     };

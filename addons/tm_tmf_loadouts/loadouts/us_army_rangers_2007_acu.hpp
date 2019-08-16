@@ -458,17 +458,17 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"rhsusf_spc_corpsman"};
+    vest[] = {"rhsusf_spc_sniper"};
     headgear[] = {"rhs_Booniehat_m81","rhsusf_bowman_cap","rhsusf_Bowman"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_sr25"};
-    scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
-    bipod[] = {"rhsusf_acc_harris_bipod"};
+    primaryWeapon[] = {"rhs_weap_m24sws_wd"};
+    silencer[] = {"rhsusf_acc_m24_silencer_wd"};
+    scope[] = {"rhsusf_acc_leupoldmk4_wd"};
+    bipod[] = {"rhsusf_acc_harris_swivel"};
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_2("rhsusf_20Rnd_762x51_SR25_m993_Mag"),
-        LIST_3("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
+        LIST_8("rhsusf_5Rnd_762x51_m118_special_Mag"),
         LIST_2("rhs_mag_m67"),
         LIST_4("rhsusf_mag_17Rnd_9x19_FMJ")
     };
