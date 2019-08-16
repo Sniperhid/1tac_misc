@@ -391,11 +391,12 @@ class hatag : car
 class mtrg : car
 {
     displayName = "Mortar Gunner";
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_OLI"};
     backpack[] = {"rhsgref_hidf_alicepack"};
     secondaryWeapon[] = {"UK3CB_BAF_L16"};
     backpackItems[] =
     {
-        LIST_2("UK3CB_BAF_1Rnd_81mm_Mo_Shells")
+        "UK3CB_BAF_1Rnd_81mm_Mo_Shells"
     };
     linkedItems[] =
     {
@@ -407,6 +408,7 @@ class mtrg : car
 class mtrac : r
 {
     displayName = "Mortar Ammo Carrier";
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_OLI"};
     backpack[] = {"rhsgref_hidf_alicepack"};
     backpackItems[] =
     {
@@ -416,6 +418,7 @@ class mtrac : r
 class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
+    vest[] = {"UK3CB_BAF_V_PLCE_Webbing_OLI"};
     backpack[] = {"rhsgref_hidf_alicepack"};
     secondaryWeapon[] = {"UK3CB_BAF_L16_Tripod"};
     backpackItems[] =
@@ -516,7 +519,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
     backpackItems[] = {};
 };
 class pp : smg
