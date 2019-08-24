@@ -555,6 +555,13 @@ class CfgLoadouts
 		category = "Western Factions";
 		#include "loadouts\norwegian_army_2004.hpp"
 	};
+	class AUSTRALIAN_ARMY_1970
+	{
+		displayName = "Australian Army (1970)";
+		category = "Western Factions";
+		#include "loadouts\australian_army_1970.hpp"
+	};
+    
     
 	
 	class AFGH_NATIONAL_ARMY_SPEC4CE_AF
