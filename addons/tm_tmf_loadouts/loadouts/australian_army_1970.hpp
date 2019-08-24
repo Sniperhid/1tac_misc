@@ -524,7 +524,7 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    primaryWeapon[] = {""};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
     goggles[] = {"default"};
