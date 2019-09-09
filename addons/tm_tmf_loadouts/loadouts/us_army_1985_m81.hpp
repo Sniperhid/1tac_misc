@@ -1,7 +1,7 @@
 /* assignGear specific macros */
 
 // this is now 1986! science!
-// dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, mbg_m16a2
+// dependencies: DHI, RHS USF, CUP weapons + units, HLC m60 + m14
 // originally by Fingers
 //Compatible with ACE Advanced Medical
 
@@ -79,8 +79,6 @@ class r : baseMan
     displayName = "Rifleman";
     vest[] = {"usm_vest_pasgt_lbe_rm"};
     primaryWeapon[] = {"CUP_arifle_M16A1"};
-    scope[] = {};
-    attachment[] = {};
     magazines[] =
     {
         LIST_10("rhs_mag_30Rnd_556x45_M855_Stanag"),
