@@ -12,13 +12,14 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tac1_tm_main","a3_data_f","a3data","A3_Map_Data","A3_Weapons_F",
-            "rhs_c_weapons","rhs_c_heavyweapons","rhsusf_c_weapons","rhsusf_c_heavyweapons","rhsgref_c_weapons",
+            "rhs_c_weapons","rhs_c_heavyweapons","rhs_c_airweapons","rhsusf_c_weapons","rhsusf_c_heavyweapons","rhsgref_c_weapons",
             "hlcweapons_falpocalypse","hlcweapons_g3","hlcweapons_m60e4"
         };
         VERSION_CONFIG;
     };
 };
 
+#include "CfgBrains.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgWeapons.hpp"
 
@@ -45,10 +46,10 @@ class CfgAILevelPresets {
 
 class CfgAISkill {
     aimingAccuracy[] = {0,0, 1,0.6};  // {0,0,1,1};   v1.26 defaults
-    aimingShake[]    = {0,0, 1,0.6};  // {0,0,1,1};
-    aimingSpeed[]    = {0,0, 1,0.7};  // {0,0.5,1,1};
+    aimingShake[]    = {0,0, 1,0.9};  // {0,0,1,1};
+    aimingSpeed[]    = {0,0, 1,0.8};  // {0,0.5,1,1};
     commanding[]     = {0,0, 1,0.8};  // {0,0,1,1};
-    courage[]        = {0,0, 1,0.8};  // {0,0,1,1};
+    courage[]        = {0,0, 1,0.9};  // {0,0,1,1};
     endurance[]      = {0,0, 1,0.8};  // {0,0,1,1};
     general[]        = {0,0, 1,0.9};  // {0,0,1,1};
     // apparently breaks rapid firing in single fire mode for players
