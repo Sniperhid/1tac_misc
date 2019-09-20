@@ -4,17 +4,17 @@ class CfgAmmo {
     class Sh_125mm_APFSDS;
 	class Sh_125mm_HE;
 	class rhs_ammo_bm_base: Sh_125mm_APFSDS {
-        cost = 50;
+        cost = 3;
     };
 	class rhs_ammo_bk_base: rhs_ammo_bm_base {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         allowAgainstInfantry = 1;
-        cost = 50;
+        cost = 3;
     };
 	class rhs_ammo_of_base: Sh_125mm_HE {
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 50;
+        cost = 3;
     };
     
     class B_30mm_HE;
@@ -46,7 +46,7 @@ class CfgAmmo {
     
     class bomb_04_f;
     class rhs_ammo_fab100: bomb_04_f {
-        cost = 5;
+        cost = 10;
     };
     
     class rhs_rpg26_rocket;
