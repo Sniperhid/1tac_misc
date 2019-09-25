@@ -5,7 +5,18 @@ class Mode_Burst;
 class CfgWeapons {
     class CannonCore;
     class MGun;
-    class cannon_120mm: CannonCore {};
+    class cannon_120mm: CannonCore {
+        class player;
+        class close: player {
+            minRangeProbab = 0.8;
+        };
+        class short: close {
+            minRangeProbab = 0.8;
+        };
+        class medium: close {
+            minRangeProbab = 0.8;
+        };
+    };
     class rhs_weap_d81: cannon_120mm {
         aidispersioncoefx = "10*4";
         aidispersioncoefy = "10*4";
