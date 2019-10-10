@@ -74,48 +74,34 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    /*vest[] = {"rhsusf_iotv_ocp_Grenadier"};
-    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203"};
-    magazines[] +=
-    {
-        LIST_8("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell")
-    };*/
 };
 class car : r
 {
     displayName = "Carabinier";
-    /*primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};*/
 };
 class m : car
 {
-        displayName = "Medic";
+    displayName = "Medic";
+    traits[] = {"medic"};
     headgear[] = {"H_Booniehat_oli"};
     backpack[] = {"CUP_B_CivPack_WDL"};
     backpackItems[] = 
     {
-            LIST_15("ACE_fieldDressing"),
-            LIST_20("ACE_elasticBandage"),
-            LIST_20("ACE_packingBandage"),
-            LIST_2("ACE_atropine"),
-            LIST_10("ACE_morphine"),
-            LIST_10("ACE_epinephrine"),
-            LIST_5("ACE_tourniquet"),
-            LIST_6("ACE_bloodIV"),
-            LIST_1("ACE_surgicalKit"),
+        LIST_15("ACE_fieldDressing"),
+        LIST_20("ACE_elasticBandage"),
+        LIST_20("ACE_packingBandage"),
+        LIST_2("ACE_atropine"),
+        LIST_10("ACE_morphine"),
+        LIST_10("ACE_epinephrine"),
+        LIST_5("ACE_tourniquet"),
+        LIST_6("ACE_bloodIV"),
+        LIST_1("ACE_surgicalKit"),
         LIST_2("SmokeShell")
     };
 };
 class smg : r
 {
     displayName = "Submachinegunner";
-    /*primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
-    magazines[] =
-    {
-        LIST_6("30Rnd_556x45_Stanag"),
-        "HandGrenade",
-        LIST_2("SmokeShell")
-    };*/
 };
 class ftl : g
 {
@@ -123,8 +109,6 @@ class ftl : g
     headgear[] = {"UK3CB_BAF_H_Beret_GG"};
     magazines[] +=
     {
-        /*LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
-        LIST_2("1Rnd_SmokeRed_Grenade_shell"),*/
         LIST_2("SmokeShellGreen")
     };
     linkedItems[] += {"Binocular"};
@@ -152,17 +136,17 @@ class co : sl
     displayName = "Platoon Leader";
     radios[] = {"ACRE_PRC117F"};
     magazines[] = {
-    LIST_3("UK3CB_BAF_9_13Rnd"),
-    LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_3("UK3CB_BAF_9_13Rnd"),
+        LIST_7("UK3CB_BAF_762_20Rnd"),
         LIST_2("UK3CB_BAF_762_20Rnd_T"),
-               "HandGrenade",
-        LIST_2("SmokeShell")
+        LIST_2("SmokeShell"),
+        "HandGrenade"
 };
     backpackItems[] = {};
 };
 class fac : co
 {
-        displayName = "Forward Air Controller";
+    displayName = "Forward Air Controller";
     backpackItems[] = {};
     radios[] = {"ACRE_PRC117F"};
     linkedItems[] = {
@@ -238,7 +222,7 @@ class mmgac : r
 class mmgag : aar
     {
     displayName = "MMG Assistant Gunner";
-        secondaryWeapon[] = {"UK3CB_BAF_Tripod"};
+    secondaryWeapon[] = {"UK3CB_BAF_Tripod"};
     linkedItems[] =
     {
         "ItemMap",
@@ -480,12 +464,12 @@ class sp : sn
     primaryWeapon[] = {"UK3CB_BAF_L1A1"};
     magazines[] =
     {
-    LIST_7("UK3CB_BAF_762_20Rnd"),
+        LIST_7("UK3CB_BAF_762_20Rnd"),
         LIST_2("UK3CB_BAF_762_20Rnd_T"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell"),
-    LIST_4("rhsusf_mag_7x45acp_MHP"),
-    LIST_2("UK3CB_BAF_9_13Rnd")
+        LIST_4("rhsusf_mag_7x45acp_MHP"),
+        LIST_2("UK3CB_BAF_9_13Rnd")
     };
         linkedItems[] =
     {
@@ -508,6 +492,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
+    traits[] = {"engineer"};
     uniform[] = {"bear_uniform_m93_dpm"};
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
@@ -534,6 +519,7 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
+    traits[] = {"engineer"};
     uniform[] = {"bear_uniform_m93_dpm"};
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     backpack[] = {"B_FieldPack_oli"};
@@ -571,6 +557,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    traits[] = {"explosiveSpecialist"};
     sidearmWeapon[] = {"ACE_VMH3"};
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     magazines[] +=
@@ -587,6 +574,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    traits[] = {"explosiveSpecialist"};
     sidearmWeapon[] = {"ACE_VMH3"};
     vest[] = {"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW"};
     items[] +=
