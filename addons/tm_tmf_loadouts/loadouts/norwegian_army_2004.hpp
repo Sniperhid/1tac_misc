@@ -111,6 +111,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
+    traits[] = {"medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -507,6 +508,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
+    traits[] = {"engineer"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
@@ -532,6 +534,7 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
+    traits[] = {"engineer"};
     uniform[] = {"U_B_HeliPilotCoveralls"};
     vest[] = {"CUP_V_B_PilotVest"};
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
@@ -572,6 +575,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    traits[] = {"explosiveSpecialist"};
     magazines[] +=
     {
         LIST_3("ClaymoreDirectionalMine_Remote_Mag")
@@ -587,6 +591,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    traits[] = {"explosiveSpecialist"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
