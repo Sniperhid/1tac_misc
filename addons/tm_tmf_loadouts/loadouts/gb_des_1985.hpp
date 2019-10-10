@@ -109,6 +109,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
+    traits[] = {"medic"};
     vest[] = {"UK3CB_BAF_V_Osprey_DDPM9"};
     backpack[] = {"UK3CB_BAF_B_Bergen_DDPM_Rifleman_B"};
     backpackItems[] = {
@@ -495,6 +496,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
+    traits[] = {"engineer"};
     backpack[] = {"UK3CB_BAF_B_Kitbag_DDPM"};
     headgear[] = {"UK3CB_BAF_H_CrewHelmet_DDPM_ESS_A"};                                                                                
     backpackItems[] = {"ToolKit"};
@@ -521,6 +523,7 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
+    traits[] = {"engineer"};
     uniform[] = {"UK3CB_BAF_U_HeliPilotCoveralls_Army"};
     vest[] = {"UK3CB_BAF_V_Pilot_DDPM"};
     headgear[] = {"UK3CB_BAF_H_PilotHelmetHeli_A"};
@@ -559,6 +562,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    traits[] = {"explosiveSpecialist"};
     sidearmWeapon[] = {"ACE_VMH3"};
     vest[] = {"UK3CB_BAF_V_Osprey_DDPM4"};
     magazines[] +=
@@ -576,6 +580,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (AP Mines)";
+    traits[] = {"explosiveSpecialist"};
     sidearmWeapon[] = {"ACE_VMH3"};
     vest[] = {"UK3CB_BAF_V_Osprey_DDPM4"};
     items[] +=
