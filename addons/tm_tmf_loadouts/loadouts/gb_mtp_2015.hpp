@@ -148,6 +148,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
+    traits[] = {"medic"};
     vest[] = {"UK3CB_BAF_V_Osprey_Medic_C"};
     backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Medic_L_A"};
     backpackItems[] = {
@@ -560,6 +561,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
+    traits[] = {"engineer"};
     vest[] = {"UK3CB_BAF_V_Osprey_Belt_A"};
     backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Engineer_L_A"};
     headgear[] = {"UK3CB_BAF_H_Mk7_Camo_CESS_A"};
@@ -589,6 +591,7 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
+    traits[] = {"engineer"};
     uniform[] = {"UK3CB_BAF_U_HeliPilotCoveralls_Army"};
     vest[] = {"UK3CB_BAF_V_Pilot_A"};
     headgear[] = {"UK3CB_BAF_H_PilotHelmetHeli_A"};
@@ -639,6 +642,7 @@ class poi : r
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    traits[] = {"explosiveSpecialist"};
     sidearmWeapon[] = {"ACE_VMH3"};
     vest[] = {"UK3CB_BAF_V_Osprey_Rifleman_C"};
     backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Sapper_L_A"};
@@ -656,6 +660,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (AP Mines)";
+    traits[] = {"explosiveSpecialist"};
     sidearmWeapon[] = {"ACE_VMH3"};
     vest[] = {"UK3CB_BAF_V_Osprey_Rifleman_C"};
     backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Sapper_L_A"};
