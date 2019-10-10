@@ -79,6 +79,9 @@ class CfgFactionClasses {
     class rhsgref_faction_hidf {
         displayName = "Horizon Islands Defence Force [RHS]";
     };
+    class rhsgref_faction_tla {
+        displayName = "Tanoan Liberation Army [RHS]";
+    };
     
     class rhssaf_faction_army {
         displayName = "SAF (KOV) [RHS]";

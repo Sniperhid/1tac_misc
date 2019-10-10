@@ -65,9 +65,4 @@ class CfgWeapons {
 		displayName = "HGU-56/P (Nuka Cola/Visor/Mask)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_cola_co.paa"};
 	};
-	
-	class rhsusf_iotv_ocp_base;
-	class rhsusf_plateframe_sapi: rhsusf_iotv_ocp_base {
-		scope = 1;
-	};
 };

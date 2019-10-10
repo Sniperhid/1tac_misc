@@ -58,8 +58,8 @@ class r : baseMan
     attachment[] = {};
     magazines[] =
     {
-        LIST_11("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -91,8 +91,8 @@ class car : r
     scope[] = {};
     magazines[] =
     {
-        LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -118,7 +118,7 @@ class smg : car
     displayName = "Submachinegunner";
     magazines[] =
     {
-        LIST_6("30Rnd_556x45_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -406,7 +406,7 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    headgear[] = {"rhs_booniehat2_marpatwd","rhsusf_bowman_cap","rhsusf_Bowman"};
+    headgear[] = {"usm_bdu_boonie_odg","rhsusf_bowman_cap","rhsusf_Bowman"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_sr25"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
@@ -432,8 +432,8 @@ class sp : sn
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_10("30Rnd_556x45_Stanag"),
-        LIST_3("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_10("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };

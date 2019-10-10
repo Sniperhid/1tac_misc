@@ -55,7 +55,7 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {};
-    vest[] = {"CUP_V_I_Carrier_Belt"};
+    vest[] = {"rhsgref_chicom"};
     backpack[] = {"bear_sidor_tan"};
     primaryWeapon[] = {"rhs_weap_akm"};
     silencer[] = {"rhs_acc_dtkakm"};

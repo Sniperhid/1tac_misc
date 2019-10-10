@@ -5,7 +5,18 @@ class Mode_Burst;
 class CfgWeapons {
     class CannonCore;
     class MGun;
-    class cannon_120mm: CannonCore {};
+    class cannon_120mm: CannonCore {
+        class player;
+        class close: player {
+            minRangeProbab = 0.8;
+        };
+        class short: close {
+            minRangeProbab = 0.8;
+        };
+        class medium: close {
+            minRangeProbab = 0.8;
+        };
+    };
     class rhs_weap_d81: cannon_120mm {
         aidispersioncoefx = "10*4";
         aidispersioncoefy = "10*4";
@@ -145,30 +156,6 @@ class CfgWeapons {
             burst = 5; // 3
             aiDispersionCoefX = (2 * 2);
             aiDispersionCoefY = (3 * 2);
-        };
-        class single_medium_optics1: Single {
-            aiRateOfFire = 5; // 6
-            aiDispersionCoefX = (1.4 * 1.8);
-            aiDispersionCoefY = (1.7 * 1.8);
-        };
-        class single_far_optics2: single_medium_optics1 {
-            aiDispersionCoefX = (1.4 * 2);
-            aiDispersionCoefY = (1.7 * 2);
-        };
-    };
-    class rhs_weap_ak103_base: rhs_weap_akm {
-        class Single: Mode_SemiAuto {
-            aiDispersionCoefX = (2 * 1.6);
-            aiDispersionCoefY = (3 * 1.6);
-        };
-        class FullAuto: Mode_FullAuto {
-            aiDispersionCoefX = (2 * 1.8);
-            aiDispersionCoefY = (3 * 1.8);
-        };
-        class fullauto_medium: FullAuto {
-            burst = 5; // 3
-            aiDispersionCoefX = (2 * 1.6);
-            aiDispersionCoefY = (3 * 1.6);
         };
         class single_medium_optics1: Single {
             aiRateOfFire = 5; // 6

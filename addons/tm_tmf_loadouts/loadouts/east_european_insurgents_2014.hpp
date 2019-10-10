@@ -5,9 +5,12 @@ class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
     uniform[] = {
+        "rhs_uniform_gorka_1_a",
+        "rhs_uniform_gorka_1_b",
+        "rhsgref_uniform_gorka_1_f",
+        "rhsgref_uniform_gorka_1_f",
         "bear_uniform_gorka_r_les",
         "bear_uniform_gorka_r_les",
-        "bear_uniform_gorka_r_berezka",
         "bear_uniform_gorka_r_berezka",
         "bear_uniform_gorka_r_berezka",
         "bear_uniform_gorka_r_mountain_flora",
@@ -19,13 +22,11 @@ class baseMan {// Weaponless baseclass
         "UK3CB_BAF_U_Smock_DPMW_OLI",
         "rhs_uniform_gorka_r_y",
         "rhs_uniform_gorka_r_y",
-        "rhs_uniform_gorka_r_y",
         "rhs_uniform_gorka_r_g",
         "rhs_uniform_gorka_r_g",
         "rhs_uniform_flora_patchless_alt",
         "rhs_uniform_emr_patchless",
         "rhs_uniform_mvd_izlom",
-        "rhsgref_uniform_vsr",
         "bear_uniform_vkbo_spectre_s_novorossiya",
         "bear_uniform_vkbo_spectre_s_novorossiya",
         "bear_uniform_vkbo_spectre_s_novorossiya",

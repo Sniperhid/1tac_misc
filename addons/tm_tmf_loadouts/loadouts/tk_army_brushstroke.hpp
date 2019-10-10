@@ -56,13 +56,14 @@ class r : baseMan
     headgear[] = {"bear_helmet_M1_tan", "bear_helmet_M1_tan", "bear_helmet_M1_tan_alt01"};
     vest[] = {"CUP_V_O_TK_Vest_2"};
     backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"hlc_rifle_FAL5061"};
+    primaryWeapon[] = {"rhs_weap_l1a1_wood"};
+    silencer[] = {"rhsgref_acc_falmuzzle_l1a1"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
     {
-        LIST_8("hlc_20Rnd_762x51_B_fal"),
-        LIST_2("hlc_20Rnd_762x51_t_fal"),
+        LIST_8("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
         "rhs_mag_f1",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -88,7 +89,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"hlc_rifle_FAL5061"};
 };
 class m : car
 {
@@ -202,12 +202,12 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"rhs_weap_svdp_wd"};
-    scope[] = {"rhs_acc_pso1m2"};
+    primaryWeapon[] = {"CUP_srifle_LeeEnfield_rail"};
+    scope[] = {"hlc_optic_VOMZ3d"};
     bipod[] = {};
     magazines[] =
     {
-        LIST_10("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_10("CUP_10x_303_M"),
         LIST_2("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white")
     };

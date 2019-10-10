@@ -7,7 +7,7 @@ tooltip = "Author: Bear\n\nAK-74s, with body armor.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_m88_patchless"}; // needs the VSR uniform from GREF
+    uniform[] = {"bear_uniform_m88_tan"};
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
