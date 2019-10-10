@@ -83,7 +83,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    /*primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};*/
 };
 class sc : car
 {
@@ -101,6 +100,7 @@ class sc : car
 class m : car
 {
     displayName = "Medic";
+    traits[] = {"medic"};
     backpack[] = {"rhsgref_hidf_alicepack"};
     backpackItems[] = 
     {
@@ -512,6 +512,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
+    traits[] = {"engineer"};
     uniform[] = {"bear_uniform_m93_dpm"};
     headgear[] = {"CUP_H_USMC_Crew_Helmet"};
     backpackItems[] = {"ToolKit"};
@@ -537,6 +538,7 @@ class pp : smg
 class pcc : pp
 {
     displayName = "Helicopter Crew Chief";
+    traits[] = {"engineer"};
     headgear[] = {"CUP_H_USMC_Helmet_Pilot"};
     goggles[] = {"default"};
     backpackItems[] = {"ToolKit"};
@@ -569,6 +571,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    traits[] = {"explosiveSpecialist"};
     backpack[] = {"rhsgref_hidf_alicepack"};
     sidearmWeapon[] = {"ACE_VMH3"};
     magazines[] =
@@ -588,6 +591,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    traits[] = {"explosiveSpecialist"};
     backpack[] = {"rhsgref_hidf_alicepack"};
     sidearmWeapon[] = {"ACE_VMH3"};
     items[] +=
