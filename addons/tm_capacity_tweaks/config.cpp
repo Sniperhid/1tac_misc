@@ -18,6 +18,8 @@ class CfgPatches
 			"rhsgref_c_troops",
 			"rhssaf_c_troops",
 			"rhs_c_weapons",
+            "CUP_Weapons_MG3",
+            "CUP_Weapons_Backpacks",
 			"CUP_Creatures_Military_Taki",
             "hlcweapons_core",
             "hlcweapons_m60e4"

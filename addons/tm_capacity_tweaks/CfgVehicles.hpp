@@ -25,7 +25,7 @@ class CfgVehicles
 	};
 	class usm_pack_st138_prc77: Bag_Base
 	{
-		maximumLoad = 160;
+		maximumLoad = 180;
 	};
 	class usm_pack_762x51_bandoliers: Bag_Base
 	{
@@ -72,4 +72,19 @@ class CfgVehicles
 	{
 		maximumLoad = 200;
 	};
+    
+    // CUP
+    class CUP_B_GER_Medic_FLecktarn: Bag_Base {
+        maximumLoad = 200;
+    };
+    class CUP_B_GER_Medic_Tropentarn: Bag_Base {
+        maximumLoad = 200;
+    };
+    class CUP_B_USPack_Base: Bag_Base {};
+    class CUP_B_GER_Pack_Flecktarn: CUP_B_USPack_Base {
+        maximumLoad = 300;
+    };
+    class CUP_B_GER_Pack_Tropentarn: CUP_B_USPack_Base {
+        maximumLoad = 300;
+    };
 };

@@ -495,19 +495,43 @@ class CfgLoadouts
         displayName = "Bundeswehr (1983, OD Grauoliv)";
         category = "Western Factions";
         #include "loadouts\bundeswehr_1983.hpp"
-    }; 
+    };
     class BUNDESWEHR_2016
     {
-        displayName = "Bundeswehr (2016, Flecktarn)";
+        displayName = "Bundeswehr (Flecktarn)";
         category = "Western Factions";
-        #include "loadouts\bundeswehr_2016.hpp"
+        #include "loadouts\bundeswehr_flecktarn.hpp"
     };
     class BUNDESWEHR_2016_STEP
     {
-        displayName = "Bundeswehr (2016, Steppentarn (Desert))";
+        displayName = "Bundeswehr (Steppentarn)";
         category = "Western Factions";
-        #include "loadouts\bundeswehr_2016_steppentarn.hpp"
+        #include "loadouts\bundeswehr_steppentarn.hpp"
     };
+    class BUNDESWEHR_KSK_FLECKTARN
+    {
+        displayName = "Bundeswehr KSK (Flecktarn)";
+        category = "Western Factions";
+        #include "loadouts\bundeswehr_ksk_flecktarn.hpp"
+    };
+    class BUNDESWEHR_KSK_STEPPENTARN
+    {
+        displayName = "Bundeswehr KSK (Steppentarn)";
+        category = "Western Factions";
+        #include "loadouts\bundeswehr_ksk_steppentarn.hpp"
+    };
+    /*class BUNDESWEHR_2016_ALT
+    {
+        displayName = "Bundeswehr (Flecktarn, alt)";
+        category = "Western Factions";
+        #include "loadouts\bundeswehr_flecktarn_alt.hpp"
+    };
+    class BUNDESWEHR_2016_STEP_ALT
+    {
+        displayName = "Bundeswehr (Steppentarn, alt)";
+        category = "Western Factions";
+        #include "loadouts\bundeswehr_steppentarn_alt.hpp"
+    };*/
     class CANADA_ARMY_CADPAT
     {
         displayName = "Canadian Army (2005-, CADPAT)";
