@@ -95,13 +95,16 @@ class g : r
         "RPS_Smersh7", "RPS_Smersh7_sh",
         "RPS_Smersh9", "RPS_Smersh9_sh"
     };
-    silencer[] = {"rhs_acc_dtk"};
-    scope[] = {"rhs_acc_nita"};
-    primaryWeapon[] = {"rhs_weap_ak74m_fullplum_gp25","rhs_weap_aks74n_gp25"};
-    magazines[] +=
+    silencer[] = {};
+    scope[] = {};
+    primaryWeapon[] = {"CUP_arifle_OTS14_GROZA_GL"};
+    magazines[] =
     {
+        LIST_8("CUP_20Rnd_9x39_SP5_GROZA_M"),
+        LIST_2("rhs_mag_rgd5"),
+        LIST_2("rhs_mag_rdg2_white"),
         LIST_6("rhs_VOG25"),
-        LIST_6("rhs_VG40OP_white")
+        LIST_4("rhs_VG40OP_white")
     };
 };
 class car : r
@@ -146,7 +149,7 @@ class ftl : g
     {
         LIST_2("rhs_VG40OP_green"),
         LIST_2("rhs_GRD40_Red"),
-        LIST_2("SmokeShellGreen")
+        LIST_2("rhs_mag_nspd")
     };
     linkedItems[] =
     {
@@ -174,11 +177,10 @@ class co : sl
         LIST_3("rhs_mag_9x18_8_57N181S"),
         LIST_2("rhs_VG40OP_green"),
         LIST_3("rhs_GRD40_Red"),
-        "SmokeShellGreen",
+        "rhs_mag_nspd",
         LIST_3("rhs_VOG25"),
         LIST_2("rhs_VG40OP_white"),
-        LIST_6("rhs_30Rnd_545x39_7N10_plum_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_6("CUP_20Rnd_9x39_SP5_GROZA_M"),
         "rhs_mag_rdg2_white"
     };
     backpackItems[] = {};
@@ -207,7 +209,8 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"CUP_arifle_RPK74_45"};
+    primaryWeapon[] = {"CUP_arifle_RPK74M"};
+    scope[] = {"rhs_acc_ekp8_02"};
     bipod[] = {};
     silencer[] = {};
     sidearmWeapon[] = {};
@@ -236,6 +239,15 @@ class rat : car
 {
     displayName = "Rifleman (AT)";
     secondaryWeapon[] = {"rhs_weap_rpg26"};
+    primaryWeapon[] = {"CUP_arifle_OTS14_GROZA_762"};
+    scope[] = {};
+    silencer[] = {"CUP_muzzle_snds_groza"};
+    magazines[] =
+    {
+        LIST_8("rhs_30Rnd_762x39mm_polymer_U"),
+        LIST_2("rhs_mag_rgd5"),
+        LIST_2("rhs_mag_rdg2_white")
+    };
 };
 class dm : r
 {

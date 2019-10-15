@@ -278,16 +278,16 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     vest[] = {"rhsusf_mbav_mg"};
-    primaryWeapon[] = {"rhs_weap_m240B"};
+    primaryWeapon[] = {"CUP_lmg_Mk48_nohg_od"};
     scope[] = {"rhsusf_acc_ACOG_MDO"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
+    attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =
     {
         LIST_4("rhsusf_100Rnd_762x51"),
         LIST_2("rhsusf_100Rnd_762x51_m80a1epr"),
         "rhs_mag_m67",
-        "rhs_mag_an_m8hc",
-        LIST_4("rhsusf_mag_17Rnd_9x19_FMJ")
+        "rhs_mag_an_m8hc"
     };
 };
 class mmgac : r

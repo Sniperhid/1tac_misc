@@ -189,9 +189,10 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     backpack[] = {"rhs_assault_umbts"};
-    primaryWeapon[] = {"UK3CB_BAF_L110_762"};
-    scope[] = {"rhsusf_acc_eotech_552"};
-    attachment[] = {"rhsusf_acc_anpeq16a"};
+    primaryWeapon[] = {"CUP_lmg_Mk48_od"};
+    scope[] = {"rhsusf_acc_eotech_552_wd"};
+    attachment[] = {"rhsusf_acc_anpeq15side_bk"};
+    silencer[] = {"rhsusf_acc_ARDEC_M240"};
     bipod[] = {};
     vest[] = {"rhsusf_spcs_ocp_saw", "rhsusf_spcs_ocp_machinegunner"};
     magazines[] =
@@ -235,10 +236,10 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_m240B"};
-    scope[] = {"rhsusf_acc_su230a"};
-    attachment[] = {"rhsusf_acc_anpeq16a"};
-    silencer[] = {"rhsusf_acc_ardec_m240"};
+    primaryWeapon[] = {"CUP_lmg_Mk48_nohg_od"};
+    scope[] = {"rhsusf_acc_ACOG_MDO"};
+    attachment[] = {"rhsusf_acc_anpeq15side_bk"};
+    silencer[] = {"rhsusf_acc_ARDEC_M240"};
     vest[] = {"rhsusf_spcs_ocp_saw", "rhsusf_spcs_ocp_machinegunner"};
     backpack[] = {"rhs_assault_umbts"};
     magazines[] =
