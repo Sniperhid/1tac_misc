@@ -141,13 +141,14 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"rhs_weap_ak105"};
-    silencer[] = {"rhs_acc_pgs64"};
-    scope[] = {};
+    primaryWeapon[] = {"CUP_smg_vityaz_vfg_front_rail"};
+    silencer[] = {};
+    scope[] = {"rhsusf_acc_T1_low"};
     bipod[] = {};
+    attachment[] = {"rhs_acc_2dpZenit_ris"};
     magazines[] =
     {
-        LIST_6("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_5("CUP_30Rnd_9x19AP_Vityaz"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -215,15 +216,14 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     backpack[] = {"B_Carryall_cbr"};
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg_desert"};
     scope[] = {"rhs_acc_pkas"};
     bipod[] = {};
-    silencer[] = {};
+    silencer[] = {"cup_muzzle_mfsup_flashhider_pk_tan"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_2("rhs_100Rnd_762x54mmR_7N26"),
-        LIST_2("rhs_100Rnd_762x54mmR_7BZ3"),
+        LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -234,8 +234,7 @@ class aar : r
     backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_2("rhs_100Rnd_762x54mmR_7N26"),
-        LIST_2("rhs_100Rnd_762x54mmR_7BZ3")
+        LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
     };
     linkedItems[] += {"Binocular"};
     
@@ -279,13 +278,12 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg_desert"};
     sidearmWeapon[] = {};
     scope[] = {"rhs_acc_pkas"};
     magazines[] =
     {
-        LIST_2("rhs_100Rnd_762x54mmR_7N26"),
-        LIST_3("rhs_100Rnd_762x54mmR_7BZ3"),
+        LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -296,8 +294,7 @@ class mmgac : r
     backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_2("rhs_100Rnd_762x54mmR_7N26"),
-        LIST_2("rhs_100Rnd_762x54mmR_7BZ3")
+        LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
     };
 };
 class mmgag : aar
@@ -314,8 +311,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_2("rhs_100Rnd_762x54mmR_7N26"),
-        LIST_2("rhs_100Rnd_762x54mmR_7BZ3")
+        LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
     };
 };
 class hmgg : car
