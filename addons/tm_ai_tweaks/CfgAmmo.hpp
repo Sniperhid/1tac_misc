@@ -4,17 +4,17 @@ class CfgAmmo {
     class Sh_125mm_APFSDS;
 	class Sh_125mm_HE;
 	class rhs_ammo_bm_base: Sh_125mm_APFSDS {
-        cost = 3;
+        cost = 1;
     };
 	class rhs_ammo_bk_base: rhs_ammo_bm_base {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         allowAgainstInfantry = 1;
-        cost = 3;
+        cost = 1;
     };
 	class rhs_ammo_of_base: Sh_125mm_HE {
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 3;
+        cost = 1;
     };
     
     class B_30mm_HE;
@@ -23,7 +23,7 @@ class CfgAmmo {
     };
     class B_30mm_AP;
     class rhs_ammo_30x165mm_base: B_30mm_AP {
-        cost = 5;
+        cost = 1;
     };
     
     class rhs_ammo_rpg15Shell_base: ShellBase {
@@ -53,15 +53,15 @@ class CfgAmmo {
     class rhs_rpg7v2_pg7vl: rhs_rpg26_rocket {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         allowAgainstInfantry = 1;
-        cost = 10;
+        cost = 1;
     };
     class rhs_rpg7v2_tbg7v: rhs_rpg7v2_pg7vl {
-        cost = 50;
+        cost = 40;
     };
     class rhs_rpg7v2_og7v: rhs_rpg7v2_pg7vl {
-        cost = 30;
+        cost = 20;
     };
     class rhs_rpg7v2_type63_airburst: rhs_rpg7v2_og7v {
-        cost = 40;
+        cost = 20;
     };
 };
