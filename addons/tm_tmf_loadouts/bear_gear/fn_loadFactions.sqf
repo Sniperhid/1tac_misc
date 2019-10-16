@@ -15,6 +15,7 @@ private _faction = player getVariable ["tmf_assigngear_faction", "no faction :("
 private _factionIdx = -1;
 {
 	private _index = _factionLB lbAdd (_x select 1);
+	_factionLB lbSetTooltip [_index, getText (configFile >> "CfgLoadouts" >> (_x select 0) >> "tooltip")];
 	_factionLB lbSetData [_index, _x select 0];
 	if (_faction isEqualTo (_x select 0)) then {
 		_factionIdx = _index;

@@ -416,41 +416,43 @@ class CfgLoadouts
     };
     
     
-    class CN_PLA_TYPE07_WDL
-    {
-        displayName = "CN People's Liberation Army (Type 07 Woodland)";
-        category = "Eastern Factions";
-        #include "loadouts\cn_pla_type07_wdl.hpp"
-    };
     class USSR_MOTOR_RIFLES_1970_KHAKI
     {
         displayName = "USSR Motor Rifles (1970, Khaki)";
-        category = "Eastern Factions";
+        category = "USSR";
         #include "loadouts\ussr_motor_rifles_1970_khaki.hpp"
     };
     class USSR_MOTOR_RIFLES_1980_KHAKI
     {
         displayName = "USSR Motor Rifles (1980, Khaki)";
-        category = "Eastern Factions";
+        category = "USSR";
         #include "loadouts\ussr_motor_rifles_1980_khaki.hpp"
     };
     class USSR_MOTOR_RIFLES_1985_KHAKI
     {
         displayName = "USSR Motor Rifles (1985, Khaki)";
-        category = "Eastern Factions";
+        category = "USSR";
         #include "loadouts\ussr_motor_rifles_1985_khaki.hpp"
     };
     class USSR_VDV_AFGHANKA
     {
         displayName = "USSR Airborne Troops (1985, Afghanka)";
-        category = "Eastern Factions";
+        category = "USSR";
         #include "loadouts\ussr_vdv_1985_afghanka.hpp"
     };
     class USSR_VDV_BEREZKA
     {
         displayName = "USSR Airborne Troops (1985, Berezka)";
-        category = "Eastern Factions";
+        category = "USSR";
         #include "loadouts\ussr_vdv_berezka.hpp"
+    };
+    
+    
+    class CN_PLA_TYPE07_WDL
+    {
+        displayName = "CN People's Liberation Army (Type 07 Woodland)";
+        category = "Eastern Factions";
+        #include "loadouts\cn_pla_type07_wdl.hpp"
     };
     class EAST_EUROPEAN_INSURGENTS
     {
@@ -568,12 +570,6 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\greek_army_2018.hpp"
     };
-    class IDF
-    {
-        displayName = "Israeli Defence Forces (Olive drab)";
-        category = "Western Factions";
-        #include "loadouts\idf.hpp"
-    };
     class NORWEGIAN_ARMY_2018
     {
         displayName = "Norwegian Army (2018)";
@@ -641,6 +637,12 @@ class CfgLoadouts
         displayName = "Generic Paramilitary (2000-, Desert Tigerstripe)";
         category = "Other";
         #include "loadouts\generic_paramilitary_tigerstripe_desert.hpp"
+    };
+    class IDF
+    {
+        displayName = "Israeli Defence Forces (Olive Drab)";
+        category = "Other";
+        #include "loadouts\idf.hpp"
     };
     class JNA_1992
     {
