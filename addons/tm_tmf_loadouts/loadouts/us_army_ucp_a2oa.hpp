@@ -47,6 +47,8 @@ class baseMan {// Weaponless baseclass
 
     // These are acre item radios that will be added during the ACRE init. ACRE radios added via any other system will be erased.
     radios[] = {};
+    
+    insignias[] = {"usm_1starmdiv_od"};
 };
 class r : baseMan
 {

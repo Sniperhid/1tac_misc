@@ -44,6 +44,8 @@ class baseMan {// Weaponless baseclass
 
     // This is executed after unit init is complete. argument: _this = _unit.
     code = "";
+    
+    insignias[] = {"40th_VDV"};
 };
 class r : baseMan
 {

@@ -68,6 +68,8 @@ class baseMan {// Weaponless baseclass
     backpackItems[] = {};
     
     code = "";
+    
+    insignias[] = {"Spetsnaz223rdDetachment"};
 };
 class r : baseMan
 {
