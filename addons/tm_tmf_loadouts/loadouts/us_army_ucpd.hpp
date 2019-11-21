@@ -1,12 +1,10 @@
-/* assignGear specific macros */ 
-//Compatible with ACE Advanced Medical
-
-tooltip = "Author: Bear\n\nUCP is the gray digital camo.";
+tooltip = "Author: Bear\n\nUCP-D was trialled briefly by some units of 82nd Abn and 4th ID in Afghanistan in 2009";
+// http://i.imgur.com/oITq1Ea.jpg
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_acu_ucp"};
+    uniform[] = {"rhs_uniform_acu_ucpd"};
     vest[] = {};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {};
@@ -51,7 +49,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"rhsusf_ach_helmet_ucp","rhsusf_ach_helmet_ESS_ucp","rhsusf_ach_helmet_headset_ucp","rhsusf_ach_helmet_headset_ess_ucp"};
+    headgear[] = {"bear_ach_ucpd","bear_ach_ucpd_alt","bear_ach_ucpd_ess","bear_ach_ucpd_ess_alt","bear_ach_ucpd_headset","bear_ach_ucpd_headset_alt"};
     vest[] = {"rhsusf_spcs_ucp_rifleman", "rhsusf_spcs_ucp_rifleman_alt"};
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
     scope[] = {"rhsusf_acc_compm4"};

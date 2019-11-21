@@ -8,7 +8,7 @@ class baseMan {// Weaponless baseclass
     uniform[] = {"rhs_uniform_bdu_erdl"};
     vest[] = {};
     backpack[] = {};
-    headgear[] = {"rhsgref_helmet_M1_bare", "rhsgref_helmet_M1_bare_alt01"};
+    headgear[] = {"usm_helmet_m1_ERDL", "usm_helmet_m1_ERDL", "usm_helmet_m1_ERDL", "usm_helmet_m1_ERDL", "usm_helmet_m1v2_ERDL"};
     goggles[] = {};
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.

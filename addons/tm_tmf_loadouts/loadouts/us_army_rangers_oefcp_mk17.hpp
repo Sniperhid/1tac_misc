@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nRHS compatible\n\nSort of like the 75th Ranger Regime
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_g3_mc"};
+    uniform[] = {"rhs_uniform_acu_oefcp"};
     vest[] = {};
     backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
     headgear[] = {};

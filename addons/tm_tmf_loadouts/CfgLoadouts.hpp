@@ -186,15 +186,27 @@ class CfgLoadouts
     };
     class US_ARMY_UCP
     {
-        displayName = "US Army (2005-, UCP)";
+        displayName = "US Army (2008, UCP)";
         category = "USA";
         #include "loadouts\us_army_ucp.hpp"
     };
+    class US_ARMY_UCPD
+    {
+        displayName = "US Army (2009, UCP-D, Afghanistan)";
+        category = "USA";
+        #include "loadouts\us_army_ucpd.hpp"
+    };
     class US_ARMY_AIRBORNE_OCP
     {
-        displayName = "US Army Airborne (2011-, OCP)";
+        displayName = "US Army Airborne (2015-, OCP)";
         category = "USA";
         #include "loadouts\us_army_airborne_ocp.hpp"
+    };
+    class US_ARMY_AIRBORNE_OEFCP
+    {
+        displayName = "US Army Airborne (2011-, OEFCP)";
+        category = "USA";
+        #include "loadouts\us_army_airborne_oefcp.hpp"
     };
     class US_ARMY_RANGERS_1990_M81
     {
@@ -214,11 +226,17 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_rangers_2007_acu.hpp"
     };
+    class US_ARMY_RANGERS_OEFCP
+    {
+        displayName = "US Army Rangers (OEFCP)";
+        category = "USA";
+        #include "loadouts\us_army_rangers_oefcp.hpp"
+    };
     class US_ARMY_RANGERS_2013_MC_MK17
     {
-        displayName = "US Army Rangers (2013, MCam, SCAR-Hs)";
+        displayName = "US Army Rangers (OEFCP, SCAR-Hs)";
         category = "USA";
-        #include "loadouts\us_army_rangers_2013_mc_mk17.hpp"
+        #include "loadouts\us_army_rangers_oefcp_mk17.hpp"
     };
     class US_ARMY_SF_DELTA_MC_TROPIC
     {
@@ -656,17 +674,17 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\jna_para.hpp"
     };
+    class NORTH_KOREA_2020
+    {
+        displayName = "North Korean People's Army (2020)";
+        category = "Other";
+        #include "loadouts\kpa_2020.hpp"
+    };
     class PMC_WINTER
     {
         displayName = "PMC (2015-, Arctic Camo)";
         category = "Other";
         #include "loadouts\pmc_winter.hpp"
-    };
-    class SYRIAN_ARAB_ARMY_WDL
-    {
-        displayName = "Syrian Arab Army (1995-, Woodland)";
-        category = "Other";
-        #include "loadouts\syrian_arab_army_wdl.hpp"
     };
     class SERBIAN_ARMY_M93_OAKLEAF
     {
@@ -691,6 +709,18 @@ class CfgLoadouts
         displayName = "Serbian Army Special Brigade (2010-, Digital, G36s)";
         category = "Other";
         #include "loadouts\saf_kov_para_m10_digital.hpp"
+    };
+    class SOUTH_KOREA_2020
+    {
+        displayName = "South Korean Army (2020)";
+        category = "Other";
+        #include "loadouts\rok_2020.hpp"
+    };
+    class SYRIAN_ARAB_ARMY_WDL
+    {
+        displayName = "Syrian Arab Army (1995-, Woodland)";
+        category = "Other";
+        #include "loadouts\syrian_arab_army_wdl.hpp"
     };
     
     
