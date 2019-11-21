@@ -1,12 +1,12 @@
 /* assignGear specific macros */ 
 //Compatible with ACE Advanced Medical
 
-tooltip = "Author: Bear\n\nUS Airborne forces are airborne mostly in name";
+tooltip = "Author: Bear";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_cu_ocp_82nd"};
+    uniform[] = {"rhs_uniform_acu_ocp"};
     vest[] = {};
     backpack[] = {"rhsusf_falconii_mc"};
     headgear[] = {};
@@ -54,7 +54,7 @@ class r : baseMan
     headgear[] = {"rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_ess_ocp","rhsusf_ach_helmet_headset_ocp","rhsusf_ach_helmet_headset_ess_ocp"};
     vest[] = {"rhsusf_spcs_ocp_rifleman", "rhsusf_spcs_ocp_rifleman_alt"};
     primaryWeapon[] = {"rhs_weap_m4a1_pmag","rhs_weap_m4a1_mstock","rhs_weap_m4a1"};
-    scope[] = {"rhsusf_acc_compm4"};
+    scope[] = {"rhsusf_acc_acog"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =
     {
