@@ -564,6 +564,18 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\canada_army_cadpat_arid.hpp"
     };
+    class CZECH_ARMY_WD
+    {
+        displayName = "Czech Army (Woodland)";
+        category = "Western Factions";
+        #include "loadouts\czech_army_wd.hpp"
+    };
+    class CZECH_ARMY_SF_WD
+    {
+        displayName = "Czech Army Special Forces (Woodland)";
+        category = "Western Factions";
+        #include "loadouts\czech_army_sf_wd.hpp"
+    };
     class DANISH_ARMY_2018
     {
         displayName = "Danish Army (2018)";
