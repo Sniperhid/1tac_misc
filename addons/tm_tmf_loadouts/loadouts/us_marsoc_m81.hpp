@@ -8,8 +8,8 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = {"rhs_uniform_g3_m81"};
     vest[] = {};
-    backpack[] = {"rhsusf_falconii_coy"};
     headgear[] = {};
+    backpack[] = {};
     goggles[] = {"default"};
     hmd[] = 
     {
@@ -58,33 +58,23 @@ class r : baseMan
     displayName = "Rifleman (M72A7)";
     headgear[] = 
     {
-        "rhsusf_opscore_mar_fg",
-        "rhsusf_opscore_mar_fg",
-        "rhsusf_opscore_mar_fg",
         "rhsusf_opscore_mar_fg_pelt",
         "rhsusf_opscore_mar_fg_pelt",
         "rhsusf_opscore_mar_fg_pelt",
-        "rhsusf_opscore_mar_ut",
-        "rhsusf_opscore_mar_ut",
-        "rhsusf_opscore_mar_ut",
         "rhsusf_opscore_mar_ut_pelt",
         "rhsusf_opscore_mar_ut_pelt",
         "rhsusf_opscore_mar_ut_pelt",
         
         "rhsusf_opscore_coy_cover_pelt",
-        "rhsusf_opscore_coy_cover",
         "rhsusf_opscore_rg_cover_pelt",
-        "rhsusf_opscore_rg_cover",
         
         "rhsusf_opscore_fg_pelt_nsw",
         "rhsusf_opscore_fg_pelt",
-        "rhsusf_opscore_fg",
         "rhsusf_opscore_paint_pelt_nsw",
         "rhsusf_opscore_paint_pelt",
         "rhsusf_opscore_paint",
         "rhsusf_opscore_ut_pelt_nsw",
-        "rhsusf_opscore_ut_pelt",
-        "rhsusf_opscore_ut"
+        "rhsusf_opscore_ut_pelt"
     };
     vest[] = {"rhsusf_plateframe_rifleman"};
     primaryWeapon[] = 
@@ -143,6 +133,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
+    backpack[] = {"rhsusf_falconii_coy"};
     vest[] = {"rhsusf_mbav_grenadier"};
     primaryWeapon[] = 
     {
@@ -169,6 +160,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
+    backpack[] = {"rhsusf_falconii_coy"};
     vest[] = {"rhsusf_plateframe_rifleman"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -274,6 +266,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
+    backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     primaryWeapon[] = {"rhs_weap_m249_light_S"};
     bipod[] = {"rhsusf_acc_kac_grip_saw_bipod"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
@@ -499,6 +492,7 @@ class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
     vest[] = {"rhsusf_mbav_rifleman"};
+    backpack[] = {"rhsusf_falconii_coy"};
     linkedItems[] =
     {
         "ItemMap",

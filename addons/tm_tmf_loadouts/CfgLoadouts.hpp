@@ -238,9 +238,15 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_rangers_oefcp_mk17.hpp"
     };
+    class US_ARMY_SF_DELTA_MC
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (2017-)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_mc.hpp"
+    };
     class US_ARMY_SF_DELTA_MC_TROPIC
     {
-        displayName = "US Army SFOD-D (CAG/Delta) (2018-, Multicam Tropic)";
+        displayName = "US Army SFOD-D (CAG/Delta) (2017-, Multicam Tropic)";
         category = "USA";
         #include "loadouts\us_army_sf_delta_mc_tropic.hpp"
     };
@@ -276,7 +282,7 @@ class CfgLoadouts
     };
     class US_MARSOC_M81
     {
-        displayName = "US MARSOC (M81)";
+        displayName = "US Marine Raiders (MARSOC) (M81)";
         category = "USA";
         #include "loadouts\us_marsoc_m81.hpp"
     };
