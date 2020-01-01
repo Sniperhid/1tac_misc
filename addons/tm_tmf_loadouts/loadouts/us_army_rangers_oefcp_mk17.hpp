@@ -202,7 +202,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"UK3CB_BAF_L110_762"};
+    primaryWeapon[] = {"CUP_lmg_Mk48"};
     backpack[] = {"B_Kitbag_sgg"};
     bipod[] = {};
     scope[] = {"rhsusf_acc_eotech_552"};

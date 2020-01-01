@@ -15,7 +15,7 @@ class CfgPatches {
             "UK3CB_BAF_Weapons",
             "ace_ballistics",
             "bear_ak74m_orange_bakelite",
-            "idf_x95"
+            "CUP_Weapons_Mk48"
         };
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;
