@@ -8,7 +8,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = {"rhs_uniform_acu_oefcp"};
     vest[] = {};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    backpack[] = {"B_Kitbag_sgg"};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = {};
@@ -63,7 +63,7 @@ class r : baseMan
         "rhsusf_mich_bare_norotos_alt_headset",
         "rhsusf_mich_bare_norotos_headset"
     };
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     primaryWeapon[] = {"rhs_weap_mk17_CQC"};
     scope[] = {"rhsusf_acc_eotech_552"};
     attachment[] = {"rhsusf_acc_anpeq15side"};
@@ -86,7 +86,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"mbavr_gl"};
+    vest[] = {"bear_mbav_grenadier_green"};
     primaryWeapon[] = {"rhs_weap_mk17_CQC"};
     sidearmWeapon[] = {"rhs_weap_M320"};
     secondaryWeapon[] = {};
@@ -111,7 +111,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    vest[] = {"mbavr_m"};
+    vest[] = {"bear_mbav_medic_green"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -129,7 +129,7 @@ class smg : r
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_m4_carryhandle"};
-    vest[] = {"mbavr_l"};
+    vest[] = {"bear_mbav_light_green"};
     scope[] = {};
     magazines[] =
     {
@@ -203,10 +203,10 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"UK3CB_BAF_L110_762"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    backpack[] = {"B_Kitbag_sgg"};
     bipod[] = {};
     scope[] = {"rhsusf_acc_eotech_552"};
-    vest[] = {"mbavr_mg"};
+    vest[] = {"bear_mbav_mg_green"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =
     {
@@ -218,8 +218,8 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
-    vest[] = {"mbavr_mg"};
+    backpack[] = {"B_Kitbag_sgg"};
+    vest[] = {"bear_mbav_mg_green"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_762x51"),
@@ -261,8 +261,8 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
-    vest[] = {"mbavr_mg"};
+    backpack[] = {"B_Kitbag_sgg"};
+    vest[] = {"bear_mbav_mg_green"};
     backpackItems[] =
     {
         LIST_3("rhsusf_100Rnd_762x51"),
@@ -272,8 +272,8 @@ class mmgac : r
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
-    vest[] = {"mbavr_mg"};
+    backpack[] = {"B_Kitbag_sgg"};
+    vest[] = {"bear_mbav_mg_green"};
     linkedItems[] =
     {
         "ItemMap",
@@ -303,7 +303,7 @@ class hmgag : car
 {
     displayName = "HMG Assistant Gunner";
     backPack[] = {"RHS_M2_Tripod_Bag"};
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     linkedItems[] =
     {
         "ItemMap",
@@ -341,7 +341,7 @@ class matag : car
 {
     displayName = "MAT Assistant Gunner";
     backpack[] = {"UK3CB_BAF_B_Carryall_OLI"};
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     linkedItems[] =
     {
         "ItemMap",
@@ -379,7 +379,7 @@ class hatac : r
 class hatag : car
 {
     displayName = "HAT Assistant Gunner";
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     backpack[] = {"UK3CB_BAF_B_Carryall_OLI"};
     backpackItems[] =
     {
@@ -414,7 +414,7 @@ class mtrac : car
 class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     backPack[] = {"B_Mortar_01_support_F"};
     linkedItems[] =
     {
@@ -455,7 +455,7 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     headgear[] = {};
     goggles[] = {"default"};
     primaryWeapon[] = {"rhs_weap_XM2010_sa"};
@@ -480,8 +480,8 @@ class sp : r
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"mbavr_r"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    vest[] = {"bear_mbav_rifleman_green"};
+    backpack[] = {"B_Kitbag_sgg"};
     headgear[] = {
         "rhsusf_cvc_ess",
         "rhsusf_cvc_alt_helmet",
@@ -498,8 +498,8 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    vest[] = {"mbavr_r"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    vest[] = {"bear_mbav_rifleman_green"};
+    backpack[] = {"B_Kitbag_sgg"};
     headgear[] = {
         "rhsusf_cvc_ess",
         "rhsusf_cvc_alt_helmet",
@@ -519,8 +519,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    vest[] = {"mbavr_l"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    vest[] = {"bear_mbav_light_green"};
+    backpack[] = {"B_Kitbag_sgg"};
     headgear[] = {
         "rhsusf_hgu56p_black",
         "rhsusf_hgu56p_visor_black",
@@ -539,8 +539,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    vest[] = {"mbavr_l"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    vest[] = {"bear_mbav_light_green"};
+    backpack[] = {"B_Kitbag_sgg"};
     headgear[] = {
         "rhsusf_hgu56p_visor_mask_black",
         "rhsusf_hgu56p_visor_mask_Empire_black",
@@ -568,8 +568,8 @@ class pc : pcc
 class jp : baseMan
 {
     displayName = "Jet pilot";
-    vest[] = {"mbavr_l"};
-    backpack[] = {"UK3CB_BAF_B_Kitbag_OLI"};
+    vest[] = {"bear_mbav_light_green"};
+    backpack[] = {"B_Kitbag_sgg"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
@@ -589,7 +589,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     backpack[] = {"UK3CB_BAF_B_Carryall_OLI"};
     magazines[] =
     {
@@ -608,7 +608,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     backpack[] = {"UK3CB_BAF_B_Carryall_OLI"};
     items[] +=
     {
@@ -627,6 +627,6 @@ class UAV : car
 {
     displayName = "UAV Operator";
     backpack[] = {"B_rhsusf_B_BACKPACK"};
-    vest[] = {"mbavr_r"};
+    vest[] = {"bear_mbav_rifleman_green"};
     linkedItems[] += {"B_UavTerminal"};
 };
