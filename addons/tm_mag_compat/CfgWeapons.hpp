@@ -77,7 +77,10 @@ class CfgWeapons {
         magazineWell[] = {"M240_762x51"};
     };
     
-    class idf_x95: Rifle_Base_F {
-        magazines[] = { __556_MAGS };
+    class CUP_lmg_Mk48_Base: Rifle_Long_Base_F {
+        magazineWell[] = {
+            "CBA_762x51_LINKS",
+            "M240_762x51"
+        };
     };
 };
