@@ -61,7 +61,7 @@ class r : baseMan
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"rhs_weap_asval", "rhs_weap_asval_grip"};
     attachment[] = {"rhs_acc_2dpZenit_ris"};
-    scope[] = {"rhs_acc_1p63"};
+    scope[] = {"rhs_acc_okp7_dovetail"};
     silencer[] = {};
     secondaryWeapon[] = {"rhs_weap_rshg2"};
     magazines[] =
@@ -83,9 +83,8 @@ class r_ak74m : r
 {
     displayName = "Rifleman (AK74M)";
     secondaryWeapon[] = {};
-    primaryWeapon[] = {"rhs_weap_ak74m_npz","rhs_weap_ak74m_npz", "rhs_weap_ak74m_plummag_npz"};
+    primaryWeapon[] = {"rhs_weap_ak74m_camo","rhs_weap_ak74m"};
     attachment[] = {"rhs_acc_2dpZenit"};
-    scope[] = {"rhsusf_acc_eotech_552", "rhsusf_acc_compm4"};
     silencer[] = {"rhs_acc_dtk4short"};
     magazines[] =
     {
@@ -101,7 +100,8 @@ class g : r_ak74m
     displayName = "Grenadier";
     vest[] = {"rhs_6b23_digi_6sh92_vog", "rhs_6b23_6sh92_vog", "rhs_6b23_6sh116_vog_flora"};
     backpack[] = {"rhs_assault_umbts"};
-    primaryWeapon[] = {"rhs_weap_ak74m_gp25_npz"};
+    primaryWeapon[] = {"rhs_weap_ak74m_gp25"};
+    scope[] = {};
     magazines[] +=
     {
         LIST_2("rhs_VOG25"),
@@ -225,14 +225,12 @@ class aar : r_ak74m
 {
     displayName = "Assistant Automatic Rifleman";
     vest[] = {"rhs_6b23_digi_6sh92_radio"};
-    primaryWeapon[] = {"rhs_weap_ak103_zenitco01"};
-    attachment[] = {"rhs_acc_perst3_2dp_light_h"};
-    scope[] = {"rhs_acc_pkas"};
-    silencer[] = {"rhs_acc_dtk4short"};
+    primaryWeapon[] = {"rhs_weap_akms"};
+    attachment[] = {"rhs_acc_2dpzenit"};
+    silencer[] = {"rhs_acc_pbs1"};
     magazines[] =
     {
-        LIST_5("rhs_30Rnd_762x39mm_U"),
-        LIST_3("rhs_30Rnd_762x39mm"),
+        LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };

@@ -244,7 +244,7 @@ class rat : car
     silencer[] = {"CUP_muzzle_snds_groza"};
     magazines[] =
     {
-        LIST_8("rhs_30Rnd_762x39mm_polymer_U"),
+        LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };

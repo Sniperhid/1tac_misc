@@ -68,20 +68,17 @@ class baseMan {// Weaponless baseclass
     backpackItems[] = {};
     
     code = "";
-    
-    insignias[] = {"Spetsnaz223rdDetachment"};
 };
 class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = 
     {
-        "bear_opscore_atacs_fg_ru",
         "bear_opscore_atacs_fg_pelt_ru",
         "bear_opscore_atacs_fg_pelt_ru",
         "bear_opscore_atacs_fg_pelt_nsw_ru"
     };
-    vest[] = {"rhsusf_spcs_ocp_rifleman"};
+    vest[] = {"lbt_operator_od", "lbt_comms_od", "lbt_tl_od"};
     primaryWeapon[] =
     {
         LIST_4("rhs_weap_ak74m_zenitco01_b33"),
@@ -93,8 +90,8 @@ class r : baseMan
     bipod[] = {LIST_2("rhs_acc_grip_ffg2"),LIST_2("rhs_acc_grip_rk6"),"rhsusf_acc_grip2"};
     magazines[] =
     {
-        LIST_8("rhs_30Rnd_545x39_7N10_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_4("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_4("rhs_30Rnd_545x39_7N22_camo_AK"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -109,6 +106,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
+	vest[] = {"lbt_weapons_od"};
     primaryWeapon[] = {"rhs_weap_ak74mr_gp25"};
     magazines[] +=
     {
@@ -125,6 +123,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+	vest[] = {"lbt_medical_od"};
     backpack[] = {"rhs_medic_bag"};
     backpackItems[] =
     {
@@ -142,6 +141,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
+	vest[] = {"lbt_light_od"};
     primaryWeapon[] = {"CUP_smg_vityaz_vfg_front_rail"};
     silencer[] = {};
     scope[] = {"rhsusf_acc_T1_low"};
@@ -186,8 +186,8 @@ class co : sl
         LIST_2("rhs_mag_nspd"),
         LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
-        LIST_6("rhs_30Rnd_545x39_7N10_AK"),
-        "rhs_30Rnd_545x39_AK_green",
+        LIST_4("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_3("rhs_30Rnd_545x39_7N22_camo_AK"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -243,8 +243,8 @@ class aar : r
     primaryWeapon[] = {"rhs_weap_ak104_zenitco01_b33"};
     magazines[] =
     {
-        LIST_6("rhs_30Rnd_762x39mm"),
-        LIST_4("rhs_30Rnd_762x39mm_tracer"),
+        LIST_6("rhs_30Rnd_762x39mm_polymer_89"),
+        LIST_4("rhs_30Rnd_762x39mm_polymer_tracer"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -282,7 +282,7 @@ class mmgg : ar
     displayName = "MMG Gunner";
     primaryWeapon[] = {"CUP_lmg_Pecheneg_woodland"};
     sidearmWeapon[] = {};
-    scope[] = {"rhs_acc_pkas"};
+    scope[] = {"rhs_acc_1p78"};
     magazines[] =
     {
         LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),

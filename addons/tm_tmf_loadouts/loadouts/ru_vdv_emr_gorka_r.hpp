@@ -58,12 +58,7 @@ class r : baseMan
         "rhs_6b47"
     };
     vest[] = {"rhs_6b23_6sh116"};
-    primaryWeapon[] =
-    { /* this is for a 3/3/1 chance of the variants - jungle mag less common */
-        "rhs_weap_ak74m","rhs_weap_ak74m","rhs_weap_ak74m",
-        "rhs_weap_ak74m_plummag","rhs_weap_ak74m_plummag","rhs_weap_ak74m_plummag",
-        "rhs_weap_ak74m_2mag"
-    };
+    primaryWeapon[] = {"rhs_weap_ak74m"};
     silencer[] = {"rhs_acc_dtk"};
     scope[] = {"rhs_acc_1p78"};
     magazines[] =
@@ -90,8 +85,7 @@ class r_akms : r // as seen in crimea and syria
     scope[] = {};
     magazines[] =
     {
-        LIST_8("rhs_30Rnd_762x39mm_89"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
+        LIST_10("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white"
     };
