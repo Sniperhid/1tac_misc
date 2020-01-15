@@ -252,8 +252,7 @@ class aar : r_base
     bipod[] = {};
     magazines[] =
     {
-        LIST_5("rhs_30Rnd_762x39mm_U"),
-        LIST_5("rhs_30Rnd_762x39mm"),
+        LIST_10("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };

@@ -88,7 +88,7 @@ class r_akms : r // as seen in crimea and syria
     silencer[] = {"rhs_acc_dtkakm"};
     magazines[] =
     {
-        LIST_8("rhs_30Rnd_762x39mm_89"),
+        LIST_8("rhs_30Rnd_762x39mm_bakelite_89"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };

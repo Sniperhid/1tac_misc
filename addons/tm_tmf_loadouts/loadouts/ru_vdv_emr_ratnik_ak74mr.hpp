@@ -76,17 +76,16 @@ class r : baseMan
         "ACE_tourniquet"
     };
 };
-class r_akms : r // as seen in crimea and syria
+class r_akms : r
 {
-    displayName = "Rifleman (AKMS)";
+    displayName = "Rifleman (AK103)";
     vest[] = {"rhs_6b23_6sh116"};
-    primaryWeapon[] = {"rhs_weap_akms"};
-    silencer[] = {"rhs_acc_dtkakm"};
-    scope[] = {};
+    primaryWeapon[] = {"rhs_weap_ak103_npz"};
+    silencer[] = {"rhs_acc_dtk3"};
     magazines[] =
     {
-        LIST_8("rhs_30Rnd_762x39mm"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
+        LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
+        LIST_2("rhs_30Rnd_762x39mm_polymer_tracer"),
         "rhs_mag_rgn",
         "rhs_mag_rgo",
         "rhs_mag_rdg2_white"

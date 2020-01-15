@@ -90,8 +90,8 @@ class r_akms : r // as seen in crimea and syria
     scope[] = {};
     magazines[] =
     {
-        LIST_8("rhs_30Rnd_762x39mm_89"),
-        LIST_2("rhs_30Rnd_762x39mm_tracer"),
+        LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
+        LIST_2("rhs_30Rnd_762x39mm_polymer_tracer"),
         LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white"
     };

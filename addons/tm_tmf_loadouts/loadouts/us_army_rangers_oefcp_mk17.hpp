@@ -249,7 +249,7 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     primaryWeapon[] = {"rhs_weap_m240B"};
-    scope[] = {"rhsusf_acc_ELCAN","rhsusf_acc_ELCAN_ard"};
+    scope[] = {"rhsusf_acc_acog_mdo"};
     magazines[] =
     {
         LIST_3("rhsusf_100Rnd_762x51"),

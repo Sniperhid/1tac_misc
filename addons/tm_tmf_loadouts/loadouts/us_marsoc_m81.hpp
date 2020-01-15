@@ -72,7 +72,6 @@ class r : baseMan
         "rhsusf_opscore_fg_pelt",
         "rhsusf_opscore_paint_pelt_nsw",
         "rhsusf_opscore_paint_pelt",
-        "rhsusf_opscore_paint",
         "rhsusf_opscore_ut_pelt_nsw",
         "rhsusf_opscore_ut_pelt"
     };
@@ -268,7 +267,7 @@ class ar : r
     displayName = "Automatic Rifleman";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     primaryWeapon[] = {"rhs_weap_m249_light_S"};
-    bipod[] = {"rhsusf_acc_kac_grip_saw_bipod"};
+    bipod[] = {"rhsusf_acc_grip4_bipod"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     scope[] = 
     {
