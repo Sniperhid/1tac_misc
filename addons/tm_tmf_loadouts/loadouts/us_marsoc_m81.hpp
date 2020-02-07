@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nHigh speed, low drag.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_g3_m81"};
+    uniform[] = {"sad_g3_m81_usa"};
     vest[] = {};
     headgear[] = {};
     backpack[] = {};
@@ -51,7 +51,7 @@ class baseMan {// Weaponless baseclass
     // These are acre item radios that will be added during the ACRE init. ACRE radios added via any other system will be erased.
     radios[] = {};
     
-    insignias[] = {"insignia_block81", "insignia_block82", "insignia_block85"};
+    insignias[] = {};
 };
 class r : baseMan
 {
@@ -66,16 +66,15 @@ class r : baseMan
         "rhsusf_opscore_mar_ut_pelt",
         
         "rhsusf_opscore_coy_cover_pelt",
-        "rhsusf_opscore_rg_cover_pelt",
+		
+        "rhsusf_opscore_cover",
         
-        "rhsusf_opscore_fg_pelt_nsw",
-        "rhsusf_opscore_fg_pelt",
         "rhsusf_opscore_paint_pelt_nsw",
         "rhsusf_opscore_paint_pelt",
         "rhsusf_opscore_ut_pelt_nsw",
         "rhsusf_opscore_ut_pelt"
     };
-    vest[] = {"rhsusf_plateframe_rifleman"};
+    vest[] = {"rhsusf_mbav_rifleman"};
     primaryWeapon[] = 
     {
         "rhs_weap_mk18_KAC",
@@ -154,13 +153,13 @@ class car : r
 {
     displayName = "Carabinier";
     secondaryWeapon[] = {};
-    vest[] = {"rhsusf_plateframe_light"};
+    vest[] = {"rhsusf_mbav_light"};
 };
 class m : car
 {
     displayName = "Medic";
     backpack[] = {"rhsusf_falconii_coy"};
-    vest[] = {"rhsusf_plateframe_rifleman"};
+    vest[] = {"rhsusf_mbav_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -177,7 +176,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    vest[] = {"rhsusf_plateframe_light"};
+    vest[] = {"rhsusf_mbav_light"};
     primaryWeapon[] = {"rhsusf_weap_MP7A1_base_f"};
     scope[] = {"rhsusf_acc_eotech_xps3"};
     attachment[] = {"rhsusf_acc_M952V"};
@@ -213,7 +212,7 @@ class sl : r
     attachment[] = {"rhsusf_acc_anpeq15side"};
     bipod[] = {"rhsusf_acc_tdstubby_tan"};
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
-    vest[] = {"rhsusf_plateframe_marksman"};
+    vest[] = {"rhsusf_mbav_light"};
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     magazines[] =
     {
@@ -308,7 +307,7 @@ class dm : r
     silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
     scope[] = {"rhsusf_acc_su230a_c"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
-    vest[] = {"rhsusf_plateframe_marksman"};
+    vest[] = {"rhsusf_mbav_light"};
     magazines[] =
     {
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
@@ -531,7 +530,7 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"rhsusf_plateframe_marksman"};
+    vest[] = {"rhsusf_mbav_light"};
     headgear[] = {"rhs_Booniehat_m81","rhsusf_bowman_cap","rhsusf_Bowman"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_sr25"};
@@ -553,7 +552,7 @@ class sn : r
 class sp : sn
 {
     displayName = "Spotter";
-    vest[] = {"rhsusf_plateframe_rifleman"};
+    vest[] = {"rhsusf_mbav_light"};
     scope[] = {"rhsusf_acc_ACOG3"};
     primaryWeapon[] = 
     {
