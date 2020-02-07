@@ -176,6 +176,12 @@ class CfgLoadouts
         category = "UK";
         #include "loadouts\gb_mtp_2015_H.hpp"
     };
+    class UK_SAS_MULTICAM
+    {
+        displayName = "UK Special Air Service (Multicam)";
+        category = "UK";
+        #include "loadouts\uk_sas_multicam.hpp"
+    };
     
     
     class US_AIRFORCE_SECURITY_FORCES_2010
@@ -600,6 +606,12 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\french_army_2018_hk416.hpp"
     };
+    class FRENCH_SF_CEC_HK416
+    {
+        displayName = "French Special Forces (CEC, HK416)";
+        category = "Western Factions";
+        #include "loadouts\french_sf_cec_hk416.hpp"
+    };
     class GREEK_ARMY_2018
     {
         displayName = "Greek Army (2018)";
@@ -679,6 +691,12 @@ class CfgLoadouts
         displayName = "Israeli Defence Forces (Olive Drab)";
         category = "Other";
         #include "loadouts\idf.hpp"
+    };
+    class IDF_SF
+    {
+        displayName = "Israeli Special Forces (Green)";
+        category = "Other";
+        #include "loadouts\idf_sf.hpp"
     };
     class JNA_1992
     {

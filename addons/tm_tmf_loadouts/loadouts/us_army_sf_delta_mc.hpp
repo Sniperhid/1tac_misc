@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nI totally made this up\nUS Army SFOD-D/Delta Force/CA
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_g3_mc"};
+    uniform[] = {"sad_g3_mc_usa", "sad_g3_mc_usa", "sad_g3_mc_usa", "sad_g3_dtan_mc_usa"};
     vest[] = {};
     backpack[] = {};
     headgear[] = {};
@@ -48,12 +48,12 @@ class baseMan {// Weaponless baseclass
     // These are acre item radios that will be added during the ACRE init. ACRE radios added via any other system will be erased.
     radios[] = {};
     
-    insignias[] = {"insignia_block82"};
+    insignias[] = {};
 };
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"rhsusf_opscore_mc_cover_pelt_cam","rhsusf_opscore_mc_cover_pelt_nsw","rhsusf_opscore_mc_cover_pelt","rhsusf_opscore_mc_pelt_nsw","rhsusf_opscore_mc_pelt","rhsusf_opscore_coy_cover_pelt","rhsusf_opscore_cover","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_ut_pelt_cam","rhsusf_opscore_ut_pelt_nsw_cam"};
+    headgear[] = {"sad_oc_fast_ocp_pelt","sad_oc_fast_ocp_pelt_cam","sad_oc_fast_ocp_pelt_nsw","sad_oc_fast_ocp_pelt_nsw","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_ut_pelt_cam","rhsusf_opscore_ut_pelt_nsw_cam"};
     vest[] = {"lbt_operator_mc", "lbt_comms_mc", "lbt_tl_mc", "rhsusf_plateframe_rifleman"};
     primaryWeapon[] = {"rhs_weap_mk18_KAC", "rhs_weap_mk18_KAC_bk", "rhs_weap_mk18_KAC_d"};
     scope[] = {"rhsusf_acc_eotech_xps3"};
@@ -77,7 +77,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     vest[] = {"lbt_weapons_mc", "rhsusf_plateframe_grenadier"};
     primaryWeapon[] = {"rhs_weap_mk18_m320"};
     magazines[] +=
@@ -100,7 +100,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    backpack[] = {"B_AssaultPack_cbr"};
+    backpack[] = {"B_AssaultPack_mcamo"};
     vest[] = {"lbt_medical_mc"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -190,7 +190,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_AssaultPack_mcamo"};
     primaryWeapon[] = {"CUP_lmg_Mk48"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
@@ -206,7 +206,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_AssaultPack_mcamo"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_762x51")
@@ -215,8 +215,8 @@ class aar : r
 };
 class rat : car
 {
-    displayName = "Rifleman (M136)";
-    secondaryWeapon[] = {"rhs_weap_M136"};
+    displayName = "Rifleman (M72A7)";
+    secondaryWeapon[] = {"rhs_weap_m72a7"};
 };
 class dm : r
 {
@@ -242,7 +242,7 @@ class mmgg : ar
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
     vest[] = {"rhsusf_plateframe_machinegunner"};
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_AssaultPack_mcamo"};
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51_m80a1epr"),
@@ -253,7 +253,7 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_AssaultPack_mcamo"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_762x51")
@@ -262,7 +262,7 @@ class mmgac : r
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_AssaultPack_mcamo"};
     linkedItems[] =
     {
         "ItemMap",
@@ -462,7 +462,7 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     vest[] = {"rhsusf_spcs_ocp_crewman"};
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {
         "rhsusf_cvc_ess",
         "rhsusf_cvc_alt_helmet",
@@ -480,7 +480,7 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     vest[] = {"rhsusf_spcs_ocp_crewman"};
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {
         "rhsusf_cvc_ess",
         "rhsusf_cvc_alt_helmet",
@@ -502,7 +502,7 @@ class pp : smg
 {
     displayName = "Helicopter Pilot";
     vest[] = {"rhsusf_spcs_ocp_crewman"};
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {
         "rhsusf_hgu56p_black",
         "rhsusf_hgu56p_visor_black",
@@ -522,7 +522,7 @@ class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
     vest[] = {"rhsusf_spcs_ocp_crewman"};
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {
         "rhsusf_hgu56p_visor_mask_black",
         "rhsusf_hgu56p_visor_mask_Empire_black",
@@ -551,7 +551,7 @@ class jp : baseMan
 {
     displayName = "Jet pilot";
     vest[] = {"rhsusf_spcs_ocp_crewman"};
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
@@ -590,7 +590,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    backpack[] = {"B_Kitbag_cbr"};
+    backpack[] = {"B_Kitbag_mcamo"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),

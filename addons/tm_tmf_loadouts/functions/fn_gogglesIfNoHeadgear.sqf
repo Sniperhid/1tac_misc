@@ -26,5 +26,8 @@ call {
 };
 
 if (count _goggles > 0) then {
-	_unit addGoggles selectRandom _goggles;
+	[{
+		params ["_unit", "_goggle"];
+		_unit addGoggles _goggle;
+	}, [_unit, selectRandom _goggles], 2] call CBA_fnc_waitAndExecute;
 };
