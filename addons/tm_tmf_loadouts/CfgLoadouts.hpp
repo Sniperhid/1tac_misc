@@ -522,6 +522,12 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\adf_2005.hpp"
     };
+    class AUS_SF_AUSMC
+    {
+        displayName = "Australian Special Forces (AusMC)";
+        category = "Western Factions";
+        #include "loadouts\aus_sf_ausmc.hpp"
+    };
     class BUNDESWEHR_1983
     {
         displayName = "Bundeswehr (1983, OD Grauoliv)";
@@ -576,6 +582,12 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\canada_army_cadpat_arid.hpp"
     };
+	class CANADA_SF_CADPAT
+    {
+        displayName = "Canadian Special Forces (CADPAT)";
+        category = "Western Factions";
+        #include "loadouts\canada_sf_cadpat.hpp"
+    };
     class CZECH_ARMY_WD
     {
         displayName = "Czech Army (Woodland)";
@@ -629,6 +641,12 @@ class CfgLoadouts
         displayName = "Norwegian Army (2004)";
         category = "Western Factions";
         #include "loadouts\norwegian_army_2004.hpp"
+    };
+    class POLISH_SF_ATACS_FG
+    {
+        displayName = "Polish Special Forces (A-TACS FG)";
+        category = "Western Factions";
+        #include "loadouts\polish_sf_atacs_fg.hpp"
     };
     
     
@@ -688,7 +706,7 @@ class CfgLoadouts
     };
     class IDF
     {
-        displayName = "Israeli Defence Forces (Olive Drab)";
+        displayName = "Israeli Defence Forces (Olive)";
         category = "Other";
         #include "loadouts\idf.hpp"
     };
@@ -700,7 +718,7 @@ class CfgLoadouts
     };
     class JNA_1992
     {
-        displayName = "Jugoslav People's Army (1992 OD GREEN)";
+        displayName = "Jugoslav People's Army (1992 OD Green)";
         category = "Other";
         #include "loadouts\jna_1992.hpp"
     };

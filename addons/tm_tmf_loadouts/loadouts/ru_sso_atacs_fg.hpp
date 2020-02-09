@@ -5,7 +5,7 @@ tooltip = "Author: Bear\n\nHigh speed, low drag. Inspired by photos of SSO in Sy
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_g3_atacs_fg"};
+    uniform[] = {"sad_g3_atacs_fg_ru"};
     vest[] = {};
     backpack[] = 
     {

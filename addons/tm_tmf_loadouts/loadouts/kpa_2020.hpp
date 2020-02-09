@@ -201,7 +201,7 @@ class rat : r
 };
 class dm : r
 {
-	displayName = "Designated Marksman"
+	displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_aks74n"};
 	scope[] = {"rhs_acc_pso1m2"};
 };
