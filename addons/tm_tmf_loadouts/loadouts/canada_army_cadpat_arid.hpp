@@ -54,7 +54,7 @@ class r : baseMan
     vest[] = {"bear_otv_tan"};
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_pmag"};
     bipod[] = {"rhsusf_acc_grip3"};
-    scope[] = {"rhsusf_acc_compm4"};
+    scope[] = {"rhsusf_acc_elcan"};
     attachment[] = {};
     magazines[] =
     {

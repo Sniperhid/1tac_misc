@@ -39,7 +39,7 @@ class CfgWeapons
 	VEST_SUPPLY1(V_TacChestrig_cbr_F, V_TacChestrig_grn_F, "Supply160")
 	
 	// RHS AFRF
-	VEST_SUPPLY1(rhs_6b23, Vest_Camo_Base, "Supply60")
+	VEST_SUPPLY1(rhs_6b23, Vest_Camo_Base, "Supply80")
 	VEST_SUPPLY1(rhs_6b23_crew, rhs_6b23, "Supply130")
 	VEST_SUPPLY1(rhs_6b23_engineer, rhs_6b23, "Supply130")
 	VEST_SUPPLY1(rhs_6b23_medic, rhs_6b23, "Supply160")
@@ -58,9 +58,9 @@ class CfgWeapons
 	VEST_SUPPLY1(rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz, rhs_6b23_6sh92_radio, "Supply150")
 	VEST_SUPPLY1(rhs_6b23_digi_6sh92_Vog_Spetsnaz, rhs_6b23_6sh92_radio, "Supply150")
 	
-	VEST_SUPPLY1(rhs_6sh46, Vest_Camo_Base, "Supply60")
+	VEST_SUPPLY1(rhs_6sh46, Vest_Camo_Base, "Supply80")
 	VEST_SUPPLY1(rhs_vest_commander, Vest_Camo_Base, "Supply80")
-	VEST_SUPPLY1(rhs_vest_pistol_holster, rhs_vest_commander, "Supply60")
+	VEST_SUPPLY1(rhs_vest_pistol_holster, rhs_vest_commander, "Supply80")
 	
 	VEST_SUPPLY1(rhs_vydra_3m, Vest_Camo_Base, "Supply110")
 	VEST_SUPPLY1(rhs_6b23_vydra_3m, rhs_6b23_6sh92, "Supply130")
@@ -88,9 +88,9 @@ class CfgWeapons
 	VEST_SUPPLY1(rhsgref_chicom, rhsgref_chestrig, "Supply180")
 	
 	// RHS USF
-	VEST_SUPPLY1(rhsusf_iotv_ocp_base, Vest_Camo_Base, "Supply60")
+	VEST_SUPPLY1(rhsusf_iotv_ocp_base, Vest_Camo_Base, "Supply100")
 	VEST_SUPPLY1(rhsusf_spcs_ocp, rhsusf_iotv_ocp_base, "Supply180")
-	VEST_SUPPLY1(rhsusf_plateframe_sapi, rhsusf_iotv_ocp_base, "Supply60")
+	VEST_SUPPLY1(rhsusf_plateframe_sapi, rhsusf_iotv_ocp_base, "Supply100")
 	VEST_SUPPLY1(rhsusf_plateframe_light, rhsusf_plateframe_sapi, "Supply120")
 	VEST_SUPPLY1(rhsusf_plateframe_rifleman, rhsusf_plateframe_sapi, "Supply180")
 	
@@ -101,4 +101,20 @@ class CfgWeapons
 	};
 	VEST_SUPPLY1(CUP_V_O_TK_Vest_1, CUP_Vest_TK_Camo_Base, "Supply200")
 	VEST_SUPPLY1(CUP_V_O_TK_Vest_2, CUP_Vest_TK_Camo_Base, "Supply200")
+	
+	// SPEC4 // what is even going on here
+	VEST_SUPPLY2(lbt_pouchless_coy, Vest_Camo_Base, "Supply160") 
+	VEST_SUPPLY2(lbt_tl_mc, Vest_Camo_Base, "Supply160")
+	VEST_SUPPLY1(lbt_weapons_coy, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_weapons_od, lbt_weapons_coy, "Supply160")
+	VEST_SUPPLY1(lbt_weapons_aor1, lbt_weapons_coy, "Supply160")
+	VEST_SUPPLY1(lbt_comms_coy, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_comms_od, lbt_comms_coy, "Supply160")
+	VEST_SUPPLY1(lbt_comms_aor2, lbt_comms_coy, "Supply160")
+	VEST_SUPPLY1(lbt_light_od, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_light_mc, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_light_aor1, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_light_aor2, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_light_coy, lbt_pouchless_coy, "Supply160")
+	VEST_SUPPLY1(lbt_fast_coy, lbt_pouchless_coy, "Supply160")
 };

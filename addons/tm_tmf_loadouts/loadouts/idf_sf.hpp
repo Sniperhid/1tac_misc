@@ -74,10 +74,10 @@ class r : baseMan
 		"G_Bandanna_blk",
 		"rhs_scarf"
 	};
-    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_grip"};
+    primaryWeapon[] = {"CUP_arifle_X95_Grippod"};
+	attachment[] = {"rhsusf_acc_anpeq16a_light_top"};
     scope[] = {"CUP_optic_MARS"};
-    attachment[] = {"rhsusf_acc_anpeq15_bk_light"};
-    bipod[] = {"rhsusf_acc_grip1"};
+    bipod[] = {};
     silencer[] = {};
     magazines[] =
     {
@@ -99,6 +99,7 @@ class g : r
     backpack[] = {"B_AssaultPack_sgg"};
     vest[] = {"bear_mbav_grenadier_green"};
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203S"};
+	attachment[] = {"rhsusf_acc_anpeq16a_light"};
     magazines[] +=
     {
         LIST_5("rhs_mag_M441_HE"),
@@ -108,8 +109,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-	primaryWeapon[] = {"CUP_arifle_X95_Grippod"};
-	attachment[] = {"rhsusf_acc_anpeq16a_light_top"};
     magazines[] =
     {
         LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag"),

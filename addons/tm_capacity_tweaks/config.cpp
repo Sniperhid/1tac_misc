@@ -22,7 +22,8 @@ class CfgPatches
             "CUP_Weapons_Backpacks",
 			"CUP_Creatures_Military_Taki",
             "hlcweapons_core",
-            "hlcweapons_m60e4"
+            "hlcweapons_m60e4",
+			"lbtt_Vest_config"
 		};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;

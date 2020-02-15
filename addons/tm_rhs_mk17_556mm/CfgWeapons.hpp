@@ -1,8 +1,8 @@
 class rhs_western_rifle_muzzle_slot;
 
 class CfgWeapons {
-    class arifle_MX_Base_F;
-    class rhs_weap_SCAR_H_Base: arifle_MX_Base_F {
+    class rhs_weap_SCAR_Base;
+    class rhs_weap_SCAR_H_Base: rhs_weap_SCAR_Base {
         class WeaponSlotsInfo;
     };
     class rhs_weap_SCAR_H_CQC_Base: rhs_weap_SCAR_H_Base {};
