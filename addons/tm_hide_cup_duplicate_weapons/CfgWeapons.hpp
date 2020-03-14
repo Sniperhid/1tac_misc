@@ -36,9 +36,9 @@ class CfgWeapons
 	
 	class Rifle_Long_Base_F: Rifle_Base_F {};
 	/*class CUP_M60E4_base: Rifle_Long_Base_F {};
-	class CUP_lmg_M60E4: CUP_M60E4_base { HIDE };*/
+	class CUP_lmg_M60E4: CUP_M60E4_base { HIDE };
 	
-	class CUP_srifle_VSSVintorez: Rifle_Base_F { HIDE };
+	class CUP_srifle_VSSVintorez: Rifle_Base_F { HIDE };*/
 	
 	/*class CUP_lmg_PKM: Rifle_Long_Base_F { HIDE };
 	class CUP_lmg_Pecheneg: CUP_lmg_PKM { HIDE };
@@ -55,16 +55,16 @@ class CfgWeapons
 	class Pistol_Base_F;
 	class CUP_hgun_Glock17: Pistol_Base_F { HIDE };
 	
-	class Launcher_Base_F;
-	//class CUP_launch_M136: Launcher_Base_F { HIDE };
-	//class CUP_launch_Mk153Mod0: Launcher_Base_F { HIDE };
-	/*class CUP_launch_NLAW: Launcher_Base_F { HIDE };*/
+	/*class Launcher_Base_F;
+	class CUP_launch_M136: Launcher_Base_F { HIDE };
+	class CUP_launch_Mk153Mod0: Launcher_Base_F { HIDE };
+	class CUP_launch_NLAW: Launcher_Base_F { HIDE };
 	
 	class CUP_arifle_FNFAL: Rifle_Base_F { HIDE };
 	class CUP_arifle_FNFAL5061: CUP_arifle_FNFAL { HIDE };
 	class CUP_arifle_FNFAL5062: CUP_arifle_FNFAL { HIDE };
 	class CUP_arifle_FNFAL_OSW: CUP_arifle_FNFAL { HIDE };
-	class CUP_arifle_FNFAL_railed: CUP_arifle_FNFAL { HIDE };
+	class CUP_arifle_FNFAL_railed: CUP_arifle_FNFAL { HIDE };*/
 	
 	class CUP_arifle_SCAR_Base: Rifle_Base_F {};
 	class CUP_arifle_SCAR_L_Base: CUP_arifle_SCAR_Base {};
