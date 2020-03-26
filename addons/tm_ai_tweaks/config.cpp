@@ -25,11 +25,11 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 
 // Disable AI prone stance on all(?) surfaces
-/*class CfgSurfaces {
+class CfgSurfaces {
     class Default {
         AIAvoidStance = 2;
     };
-};*/
+};
 
 // Global Coefficent.
 class CfgAILevelPresets {
