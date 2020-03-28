@@ -426,6 +426,20 @@ class CfgWeapons {
         aiDispersionCoefY = (10 * 2);
         aiDispersionCoefX = (8 * 2);
     };
+	class rhs_weap_fnfal_base: Rifle_Base_F {
+		class Single: Mode_SemiAuto {
+			aiDispersionCoefX = (1.4 * 3);
+            aiDispersionCoefY = (1.7 * 3);
+		};
+		class Single_AI: Single {
+			aiDispersionCoefX = (1.4 * 3);
+            aiDispersionCoefY = (1.7 * 3);
+		};
+		class single_medium_optics1: Single {};
+		class single_far_optics2: single_medium_optics1 {};
+		aiDispersionCoefX = (6 * 3);
+		aiDispersionCoefY = (8 * 3);
+	};
 
     class Launcher_Base_F;
     class rhs_weap_rpg26: Launcher_Base_F {
@@ -494,4 +508,189 @@ class CfgWeapons {
         aiDispersionCoefX = (10 * 3);
     	aiDispersionCoefY = (12 * 3);
     };
+	
+	
+	class CUP_arifle_AK_Base: Rifle_Base_F {
+		class Single: Mode_SemiAuto {
+			aiDispersionCoefX = (1.4 * 2);
+            aiDispersionCoefY = (1.7 * 2);
+		};
+		class Burst: Mode_Burst {
+			burst = 6;
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class FullAuto: Mode_FullAuto {
+			aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class FullAuto_medium: FullAuto {
+			burst = 5; // 3
+			aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		aiDispersionCoefY = (10 * 2.5);
+        aiDispersionCoefX = (8 * 2.5);
+	};
+	class CUP_arifle_AK74: CUP_arifle_AK_Base {
+		class Single: Mode_SemiAuto {
+			aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+		};
+		class Burst: Mode_Burst {
+			burst = 6;
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class FullAuto: Mode_FullAuto {
+			aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+		};
+		class fullauto_medium: FullAuto {
+			burst = 5; // 3
+			aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+		};
+	};
+	class CUP_arifle_AKS_Base: CUP_arifle_AK_Base {};
+	class CUP_arifle_AKS74U: CUP_arifle_AKS_Base {
+		class Single: Mode_SemiAuto {
+			aiDispersionCoefX = (2 * 2.5);
+            aiDispersionCoefY = (3 * 2.5);
+		};
+		class Burst: Mode_Burst {
+			burst = 6;
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class FullAuto: Mode_FullAuto {
+			aiDispersionCoefX = (2 * 2.5);
+            aiDispersionCoefY = (3 * 2.5);
+		};
+		class fullauto_medium: FullAuto {
+			burst = 10; // 3
+			aiDispersionCoefX = (2 * 2.5);
+            aiDispersionCoefY = (3 * 2.5);
+		};
+		aiDispersionCoefY = (10 * 2);
+        aiDispersionCoefX = (8 * 2);
+	};
+	class CUP_arifle_RPK74: CUP_arifle_AK_Base {
+		class FullAuto: Mode_FullAuto {
+			aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class manual: Mode_FullAuto {
+			aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class close: manual {};
+		class short: close {
+			burst = 10; // 8
+		};
+		class medium: close {
+			burst = 15; // 12
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class far_optic1: medium {
+			burst = 5; // 3
+			aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+		};
+		class far_optic2: far_optic1 {
+			burst = 5; // 3
+		};
+		class Single: Mode_SemiAuto {
+			aiDispersionCoefX = (1.4 * 2);
+            aiDispersionCoefY = (1.7 * 2);
+		};
+		aiDispersionCoefY = (10 * 2);
+        aiDispersionCoefX = (8 * 2);
+	};
+	
+	class CUP_arifle_FNFAL: Rifle_Base_F {
+        class Single: Mode_SemiAuto {
+            aiDispersionCoefX = (1.4 * 3);
+            aiDispersionCoefY = (1.7 * 3);
+        };
+        class FullAuto: Mode_FullAuto {
+            aiDispersionCoefX = (2 * 4);
+            aiDispersionCoefY = (3 * 4);
+        };
+        aiDispersionCoefX = (6 * 3);
+		aiDispersionCoefY = (8 * 3);
+    };
+	
+	class CUP_SKS: Rifle_Base_F {
+		class Single: Mode_SemiAuto {
+            aiDispersionCoefX = (1.4 * 3);
+            aiDispersionCoefY = (1.7 * 3);
+        };
+        aiDispersionCoefX = (6 * 3);
+		aiDispersionCoefY = (8 * 3);
+	};
+	
+	class CUP_srifle_LeeEnfield: Rifle_Long_Base_F {
+		class Single: Mode_SemiAuto {
+			
+		};
+		class single_close_optics1: Single {};
+		class single_medium_optics1: single_close_optics1 {};
+		class single_far_optics1: single_medium_optics1 {};
+		aiDispersionCoefY = 3; // 3
+		aiDispersionCoefX = 2; // 2
+	};
+	
+	class CUP_srifle_Mosin_Nagant: Rifle_Long_Base_F {
+		class Single: Mode_SemiAuto {
+			
+		};
+		class single_close_optics1: Single {};
+		class single_medium_optics1: single_close_optics1 {};
+		class single_far_optics1: single_medium_optics1 {};
+		aiDispersionCoefY = 3; // 3
+		aiDispersionCoefX = 2; // 2
+	};
+	
+	class CUP_arifle_GALIL_BASE: Rifle_Base_F {
+		class Single: Mode_SemiAuto {
+			aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+		};
+		class FullAuto: Mode_FullAuto {
+			aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+		};
+		class single_close_optics1: Single {};
+		class single_medium_optics1: single_close_optics1 {};
+		class single_far_optics1: single_medium_optics1 {};
+		class fullauto_medium: FullAuto {
+			burst = 6; // 3
+		};
+	};
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

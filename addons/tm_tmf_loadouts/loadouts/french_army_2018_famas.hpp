@@ -5,7 +5,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = {"bear_uniform_indep_m81"};
     vest[] = {"rhssaf_vest_otv_md2camo"};
-    backpack[] = {};
+    backpack[] = {"rhssaf_kitbag_md2camo"};
     headgear[] = {"rhssaf_helmet_m97_woodland","rhssaf_helmet_m97_woodland_black_ess","rhssaf_helmet_m97_woodland_black_ess_bare"};
     goggles[] = {};
     hmd[] = {};
@@ -51,14 +51,14 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman (300m)";
-    primaryWeapon[] = {"rhs_weap_vhsd2"};
-    scope[] = {"rhsusf_acc_eotech_552"};
-    attachment[] = {"rhsusf_acc_anpeq15side_bk"};
-    bipod[] = {"rhsusf_acc_rvg_blk"};
+    primaryWeapon[] = {"CUP_Famas_F1_Rail"};
+    scope[] = {"cup_optic_compm2_low"};
+    attachment[] = {};
+    bipod[] = {};
     magazines[] =
     {
-        LIST_8("rhsgref_30rnd_556x45_vhs2"),
-        LIST_2("rhsgref_30rnd_556x45_vhs2_t"),
+        LIST_8("CUP_25Rnd_556x45_Famas"),
+        LIST_2("CUP_25Rnd_556x45_Famas_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -66,16 +66,16 @@ class r : baseMan
 class r600 : r
 {
     displayName = "Rifleman (600m)";
-    scope[] = {"optic_MRCO"};
+    scope[] = {"rhsusf_acc_acog"};
 };
-class g : r600
+class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_vhsd2_bg"};
+    sidearmWeapon[] = {"rhs_weap_M320"};
     magazines[] =
     {
-        LIST_8("rhsgref_30rnd_556x45_vhs2"),
-        LIST_2("rhsgref_30rnd_556x45_vhs2_t"),
+        LIST_8("CUP_25Rnd_556x45_Famas"),
+        LIST_2("CUP_25Rnd_556x45_Famas_Tracer_Red"),
         LIST_3("rhs_mag_M433_HEDP"),
         LIST_3("rhs_mag_m714_White")
     };
@@ -83,11 +83,10 @@ class g : r600
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_vhsk2"};
     magazines[] =
     {
-        LIST_8("rhsgref_30rnd_556x45_vhs2"),
-        LIST_2("rhsgref_30rnd_556x45_vhs2_t"),
+        LIST_8("CUP_25Rnd_556x45_Famas"),
+        LIST_2("CUP_25Rnd_556x45_Famas_Tracer_Red"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -134,11 +133,6 @@ class sl : ftl
 {
     displayName = "Squad Leader";
     vest[] = {"V_PlateCarrier1_rgr_noflag_F"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
-    magazines[] +=
-    {
-        LIST_2("rhsusf_mag_15Rnd_9x19_JHP")
-    };
     linkedItems[] =
     {
         "ItemMap",

@@ -86,7 +86,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_rba_lbv_gr"};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
         LIST_4("1Rnd_HE_Grenade_shell"),
