@@ -56,14 +56,14 @@ class r : baseMan
     headgear[] = {"bear_helmet_M1_tan", "bear_helmet_M1_tan", "bear_helmet_M1_tan_alt01"};
     vest[] = {"CUP_V_O_TK_Vest_2"};
     backpack[] = {"rhs_sidor"};
-    primaryWeapon[] = {"rhs_weap_l1a1_wood"};
-    silencer[] = {"rhsgref_acc_falmuzzle_l1a1"};
+    primaryWeapon[] = {"CUP_arifle_FNFAL5061"};
+    silencer[] = {};
     scope[] = {};
     attachment[] = {};
     magazines[] =
     {
-        LIST_8("rhs_mag_20Rnd_762x51_m80_fnfal"),
-        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
+        LIST_8("CUP_20Rnd_762x51_FNFAL_M"),
+        LIST_2("CUP_20Rnd_TE1_Yellow_Tracer_762x51_FNFAL_M"),
         "rhs_mag_f1",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -78,10 +78,10 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] =
     {
-        LIST_9("30Rnd_556x45_Stanag"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_4("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White")
     };
@@ -93,6 +93,12 @@ class car : r
 class m : car
 {
     displayName = "Medic";
+	primaryWeapon[] = {"CUP_SKS"};
+    magazines[] =
+    {
+        LIST_13("CUP_10Rnd_762x39_SKS_M"),
+        LIST_3("rhs_mag_rdg2_white")
+    };
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -150,8 +156,8 @@ class co : sl
         LIST_3("rhs_mag_nspd"),
         LIST_3("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-        LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         "rhs_mag_f1",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -202,12 +208,14 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"CUP_srifle_LeeEnfield_rail"};
-    scope[] = {"hlc_optic_VOMZ3d"};
+    primaryWeapon[] = {"CUP_srifle_LeeEnfield"};
+    scope[] = {};
     bipod[] = {};
+	sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_10("CUP_10x_303_M"),
+        LIST_12("CUP_10x_303_M"),
+		LIST_4("rhs_mag_9x18_8_57N181S"),
         LIST_2("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -401,13 +409,13 @@ class sn : r
     vest[] = {"CUP_V_O_TK_Vest_1"};
     headgear[] = {"CUP_H_TKI_Lungee_05"};
     goggles[] = {};
-    primaryWeapon[] = {"rhs_weap_svdp_wd"};
-    scope[] = {"rhs_acc_pso1m2"};
+    primaryWeapon[] = {"CUP_srifle_LeeEnfield"};
+    scope[] = {"cup_optic_no23mk2"};
     bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_9("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_10("CUP_10x_303_M"),
         LIST_4("rhs_mag_9x18_8_57N181S")
     };
     backpack[] = {};
@@ -419,12 +427,12 @@ class sp : sn
     vest[] = {"CUP_V_O_TK_Vest_1"};
     headgear[] = {"CUP_H_TKI_Lungee_05"};
     scope[] = {};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_f1"),
         LIST_2("rhs_mag_rdg2_white"),
         LIST_4("rhs_mag_M441_HE"),

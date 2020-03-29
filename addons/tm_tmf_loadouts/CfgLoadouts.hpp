@@ -444,6 +444,12 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_vv_gorka_r.hpp"
     };
+	class RUS_VV_IZLOM
+    {
+        displayName = "RU Internal Troops (2013, Izlom)";
+        category = "Russia";
+        #include "loadouts\ru_vv_izlom.hpp"
+    };
     
     
     class USSR_MOTOR_RIFLES_1970_KHAKI
@@ -680,7 +686,13 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\generic_paramilitary_olive_akm.hpp"
     };
-    class GENERIC_PARAMILITARY_OLIVE_M16
+    class GENERIC_PARAMILITARY_OLIVE_GALIL
+    {
+        displayName = "Generic Paramilitary (1980-, Olive, Galils)";
+        category = "Other";
+        #include "loadouts\generic_paramilitary_olive_galil.hpp"
+    };
+	class GENERIC_PARAMILITARY_OLIVE_M16
     {
         displayName = "Generic Paramilitary (1980-, Olive, M16s)";
         category = "Other";
