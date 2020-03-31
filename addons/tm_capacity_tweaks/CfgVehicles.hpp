@@ -59,7 +59,7 @@ class CfgVehicles
 	};
 	class rhs_medic_bag: B_AssaultPack_Base
 	{
-		maximumLoad = 160;
+		maximumLoad = 200;
 	};
 	
 	// RHS USF

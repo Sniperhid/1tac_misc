@@ -674,6 +674,12 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\afr_militia.hpp"
     };
+    class ARAB_INSURGENTS
+    {
+        displayName = "Arab Insurgents (2010-, mixed AKs)";
+        category = "Other";
+        #include "loadouts\arab_insurgents.hpp"
+    };
     class ARVN_1966
     {
         displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
