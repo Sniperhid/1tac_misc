@@ -315,13 +315,13 @@ class rat : r_545
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"CUP_srifle_SVD"};
+    primaryWeapon[] = {"CUP_srifle_LeeEnfield"};
     silencer[] = {};
-    scope[] = {"cup_optic_pso_1_open"};
+    scope[] = {"cup_optic_no23mk2"};
     bipod[] = {};
     magazines[] =
     {
-        LIST_10("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_10("CUP_10x_303_M"),
         LIST_2("rhs_mag_rdg2_white")
     };
 };
