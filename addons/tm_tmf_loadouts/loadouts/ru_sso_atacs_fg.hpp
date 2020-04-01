@@ -86,7 +86,7 @@ class r : baseMan
     };
     silencer[] = {"rhs_acc_dtk2"};
     attachment[] = {"rhs_acc_perst3_2dp_light_h"};
-    scope[] = {"rhsusf_acc_su230"};
+    scope[] = {"cup_optic_elcan_specterdr_black", "cup_optic_elcan_specterdr_kf_black"};
     bipod[] = {LIST_2("rhs_acc_grip_ffg2"),LIST_2("rhs_acc_grip_rk6"),"rhsusf_acc_grip2"};
     magazines[] =
     {

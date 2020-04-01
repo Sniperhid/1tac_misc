@@ -77,7 +77,8 @@ class r : baseMan
     };
     scope[] = 
     {
-        "rhsusf_acc_su230_c"
+		"cup_optic_elcan_specterdr_rmr_coyote",
+        "cup_optic_elcan_specterdr_kf_rmr_coyote"
     };
     silencer[] = 
     {
