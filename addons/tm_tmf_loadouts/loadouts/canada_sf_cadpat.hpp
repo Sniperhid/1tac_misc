@@ -58,7 +58,7 @@ class r : baseMan
 	};
     primaryWeapon[] = {"rhs_weap_mk18_bk"};
     bipod[] = {"rhsusf_acc_grip2_wd"};
-    scope[] = {"rhsusf_acc_su230"};
+    scope[] = {"cup_optic_elcan_specterdr_black", "cup_optic_elcan_specterdr_kf_black"};
     attachment[] = {"rhsusf_acc_anpeq15_light"};
     silencer[] = {};
     magazines[] =

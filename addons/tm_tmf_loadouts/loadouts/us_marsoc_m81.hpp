@@ -95,13 +95,7 @@ class r : baseMan
         "rhsusf_acc_rvg_de",
         "rhsusf_acc_tdstubby_blk"
     };
-    scope[] = 
-    {
-        "rhsusf_acc_eotech_xps3",
-        "rhsusf_acc_eotech_xps3",
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_552_d"
-    };
+    scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
     silencer[] = 
     {
         "rhsusf_acc_SF3P556",
@@ -268,12 +262,6 @@ class ar : r
     primaryWeapon[] = {"rhs_weap_m249_light_S"};
     bipod[] = {"rhsusf_acc_grip4_bipod"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
-    scope[] = 
-    {
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_552_d"
-    };
     silencer[] = {"rhsusf_acc_SF3P556"};
     vest[] = {"rhsusf_mbav_mg"};
     magazines[] =
@@ -305,7 +293,7 @@ class dm : r
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_mk17_LB"};
     silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
-    scope[] = {"rhsusf_acc_su230a_c"};
+    scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
     vest[] = {"rhsusf_mbav_light"};
     magazines[] =
