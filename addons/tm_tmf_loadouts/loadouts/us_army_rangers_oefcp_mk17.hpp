@@ -65,7 +65,7 @@ class r : baseMan
     };
     vest[] = {"bear_mbav_rifleman_green"};
     primaryWeapon[] = {"rhs_weap_mk17_CQC"};
-    scope[] = {"rhsusf_acc_eotech_552"};
+    scope[] = {"rhsusf_acc_su230a_c"};
     attachment[] = {"rhsusf_acc_anpeq15side"};
     bipod[] = {};
     magazines[] =
@@ -205,7 +205,7 @@ class ar : r
     primaryWeapon[] = {"CUP_lmg_Mk48"};
     backpack[] = {"B_Kitbag_sgg"};
     bipod[] = {};
-    scope[] = {"rhsusf_acc_eotech_552"};
+    scope[] = {"rhsusf_acc_acog_rmr"};
     vest[] = {"bear_mbav_mg_green"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =

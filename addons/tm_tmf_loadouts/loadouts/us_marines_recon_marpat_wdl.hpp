@@ -63,7 +63,7 @@ class r : baseMan
         "rhsusf_acc_rvg_de",
         "rhsusf_acc_tdstubby_blk"
     };
-    scope[] = {"rhsusf_acc_eotech_552"};
+    scope[] = {"rhsusf_acc_acog", "rhsusf_acc_acog2", "rhsusf_acc_acog3"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_SF3P556","rhsusf_acc_SFMB556"};
     magazines[] =
@@ -187,11 +187,11 @@ class fac : co
     };
 };
 
-class ar_m249 : r
+class ar : r
 {
     displayName = "Automatic Rifleman (M249)";
     primaryWeapon[] = {"rhs_weap_m249_pip_S_para"};
-    scope[] = {"rhsusf_acc_ELCAN_ard"};
+    scope[] = {"rhsusf_acc_elcan", "rhsusf_acc_ELCAN_ard"};
     bipod[] = {};
     vest[] = {"rhsusf_spc_mg"};
     magazines[] =
@@ -201,7 +201,7 @@ class ar_m249 : r
         LIST_2("rhs_mag_an_m8hc")
     };
 };
-class aar_m249 : r
+class aar : r
 {
     displayName = "Ass. Automatic Rifleman (M249)";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
@@ -212,7 +212,7 @@ class aar_m249 : r
     linkedItems[] += {"Binocular"};
 };
 
-class ar : r
+class ar_m27 : r
 {
     displayName = "Automatic Rifleman (M27 IAR)";
     primaryWeapon[] = {"rhs_weap_m27iar_grip"};
@@ -223,7 +223,7 @@ class ar : r
         LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull")
     };
 };
-class aar : r
+class aar_m27 : r
 {
     displayName = "Ass. Automatic Rifleman (M27 IAR)";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};

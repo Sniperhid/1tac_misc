@@ -87,7 +87,7 @@ class r : baseMan
     };
     silencer[] = {"rhs_acc_dtk2"};
     attachment[] = {"rhs_acc_perst3_2dp_light_h"};
-    scope[] = {LIST_4("rhs_acc_1p87"),"rhsusf_acc_eotech_552",LIST_2("rhsusf_acc_compm4")};
+    scope[] = {"rhsusf_acc_su230"};
     bipod[] = {LIST_2("rhs_acc_grip_ffg2"),LIST_2("rhs_acc_grip_rk6"),"rhsusf_acc_grip2"};
     magazines[] =
     {
@@ -220,13 +220,13 @@ class ar : r
     displayName = "Automatic Rifleman";
     backpack[] = {"B_Carryall_cbr"};
     primaryWeapon[] = {"CUP_lmg_Pecheneg_desert"};
-    scope[] = {"rhs_acc_pkas"};
+    scope[] = {"rhs_acc_1p78"};
     bipod[] = {};
     silencer[] = {"cup_muzzle_mfsup_flashhider_pk_tan"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
+        LIST_4("rhs_100Rnd_762x54mmR_7N26"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -237,7 +237,7 @@ class aar : r
     backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
+        LIST_4("rhs_100Rnd_762x54mmR_7N26")
     };
     linkedItems[] += {"Binocular"};
     
@@ -256,11 +256,10 @@ class rat : car
     secondaryWeapon[] = {"rhs_weap_rpg26"};
     primaryWeapon[] =
     {
-        "rhs_weap_ak74m_zenitco01",
-        "rhs_weap_ak105_zenitco01"
+        "rhs_weap_ak74m_zenitco01_b33",
+        "rhs_weap_ak105_zenitco01_b33"
     };
     attachment[] = {"rhs_acc_perst3_2dp_light_h"};
-    scope[] = {"rhsusf_acc_T1_low_fwd_ak"};
 };
 class dm : r
 {
@@ -286,7 +285,7 @@ class mmgg : ar
     scope[] = {"rhs_acc_1p78"};
     magazines[] =
     {
-        LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
+        LIST_5("rhs_100Rnd_762x54mmR_7N26"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -297,7 +296,7 @@ class mmgac : r
     backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
+        LIST_5("rhs_100Rnd_762x54mmR_7N26"),
     };
 };
 class mmgag : aar
@@ -314,7 +313,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
+        LIST_5("rhs_100Rnd_762x54mmR_7N26")
     };
 };
 class hmgg : car

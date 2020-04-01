@@ -97,10 +97,7 @@ class r : baseMan
     };
     scope[] = 
     {
-        "rhsusf_acc_eotech_xps3",
-        "rhsusf_acc_eotech_xps3",
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_552_d"
+        "rhsusf_acc_su230_c"
     };
     silencer[] = 
     {
@@ -270,9 +267,7 @@ class ar : r
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     scope[] = 
     {
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_552_d"
+        "rhsusf_acc_su230_c"
     };
     silencer[] = {"rhsusf_acc_SF3P556"};
     vest[] = {"rhsusf_mbav_mg"};

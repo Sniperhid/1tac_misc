@@ -100,7 +100,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    primaryWeapon[] = {"rhs_weap_akm", "rhs_weap_akm", "rhs_weap_akms", "rhs_weap_akms", "rhs_weap_pm63", "CUP_arifle_AKMN_railed_afg_desert"};
+    primaryWeapon[] = {"rhs_weap_akm", "rhs_weap_akm", "rhs_weap_akm", "rhs_weap_akms", "rhs_weap_akms", "rhs_weap_akms", "rhs_weap_pm63", "rhs_weap_pm63", "CUP_arifle_AKMN_railed_afg_desert", "CUP_arifle_AKMN_railed"};
     scope[] = {};
     silencer[] = {"rhs_acc_dtkakm"};
     magazines[] =

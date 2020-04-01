@@ -79,9 +79,7 @@ class r : baseMan
     };
     scope[] = 
     {
-        "rhsusf_acc_eotech_552",
-        "rhsusf_acc_eotech_xps3",
-        "rhsusf_acc_T1_high"
+        "rhsusf_acc_su230"
     };
     silencer[] = 
     {
@@ -226,7 +224,7 @@ class ar : r
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     primaryWeapon[] = {"rhs_weap_m249_light_S"};
     bipod[] = {"rhsusf_acc_grip4_bipod"};
-    scope[] = {"rhsusf_acc_elcan"};
+    scope[] = {"rhsusf_acc_acog_mdo"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     vest[] = {"rhsusf_mbav_mg"};
     magazines[] =
