@@ -752,6 +752,12 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\kpa_2020.hpp"
     };
+    class PMC_FAL
+    {
+        displayName = "PMC (SA58 OSW/FAL)";
+        category = "Other";
+        #include "loadouts\pmc_fal.hpp"
+    };
     class PMC_WINTER
     {
         displayName = "PMC (2015-, Arctic Camo)";
