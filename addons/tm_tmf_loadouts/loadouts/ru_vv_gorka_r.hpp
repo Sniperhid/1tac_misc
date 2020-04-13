@@ -266,7 +266,7 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     backpack[] = {"B_Carryall_oli"};
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     sidearmWeapon[] = {};
     scope[] = {"rhs_acc_pkas"};
     magazines[] =

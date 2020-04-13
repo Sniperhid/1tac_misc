@@ -209,7 +209,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     scope[] = {"rhs_acc_pkas"};
     bipod[] = {};
     silencer[] = {};
@@ -254,7 +254,7 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     backpack[] = {"B_Carryall_oli"};
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),

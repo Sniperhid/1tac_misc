@@ -204,7 +204,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     bipod[] = {};
     silencer[] = {};
     backpack[] = {"B_Carryall_oli"};
@@ -249,7 +249,7 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     backpack[] = {"B_Carryall_oli"};
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     sidearmWeapon[] = {};
     magazines[] =
     {
