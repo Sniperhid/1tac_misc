@@ -234,7 +234,7 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     sidearmWeapon[] = {};
     scope[] = {"rhs_acc_pkas"};
     magazines[] =
