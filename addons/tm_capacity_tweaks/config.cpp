@@ -7,7 +7,7 @@ class CfgPatches
         name = "Gear capacity tweaks";
 		author = "Bear";
 		url = "http://www.teamonetactical.com";
-		units[] = {};
+		units[] = {"B_Battle_Belt_F"};
 		weapons[] = {};
 		requiredAddons[] = {
 			"A3_Weapons_F",

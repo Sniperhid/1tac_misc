@@ -5,6 +5,13 @@ class CfgVehicles
 	{
 		maximumLoad = 180;
 	};
+	class B_Battle_Belt_F: B_AssaultPack_Base {
+		scope = 2;
+		picture = "\A3\Characters_F\data\ui\icon_V_Belt_CA.paa";
+		displayName = "Battle Belt";
+		model = "\A3\weapons_f\empty";
+		maximumLoad = 200;
+	};
 	
 	// USM
 	class usm_pack_alice: Bag_Base
@@ -59,7 +66,7 @@ class CfgVehicles
 	};
 	class rhs_medic_bag: B_AssaultPack_Base
 	{
-		maximumLoad = 160;
+		maximumLoad = 200;
 	};
 	
 	// RHS USF

@@ -444,6 +444,12 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_vv_gorka_r.hpp"
     };
+	class RUS_VV_IZLOM
+    {
+        displayName = "RU Internal Troops (2013, Izlom)";
+        category = "Russia";
+        #include "loadouts\ru_vv_izlom.hpp"
+    };
     
     
     class USSR_MOTOR_RIFLES_1970_KHAKI
@@ -668,6 +674,12 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\afr_militia.hpp"
     };
+    class ARAB_INSURGENTS
+    {
+        displayName = "Arab Insurgents (2010-, mixed AKs)";
+        category = "Other";
+        #include "loadouts\arab_insurgents.hpp"
+    };
     class ARVN_1966
     {
         displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
@@ -680,7 +692,13 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\generic_paramilitary_olive_akm.hpp"
     };
-    class GENERIC_PARAMILITARY_OLIVE_M16
+    class GENERIC_PARAMILITARY_OLIVE_GALIL
+    {
+        displayName = "Generic Paramilitary (1980-, Olive, Galils)";
+        category = "Other";
+        #include "loadouts\generic_paramilitary_olive_galil.hpp"
+    };
+	class GENERIC_PARAMILITARY_OLIVE_M16
     {
         displayName = "Generic Paramilitary (1980-, Olive, M16s)";
         category = "Other";
@@ -733,6 +751,12 @@ class CfgLoadouts
         displayName = "North Korean People's Army (2020)";
         category = "Other";
         #include "loadouts\kpa_2020.hpp"
+    };
+    class PMC_FAL
+    {
+        displayName = "PMC (SA58 OSW/FAL)";
+        category = "Other";
+        #include "loadouts\pmc_fal.hpp"
     };
     class PMC_WINTER
     {

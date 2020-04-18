@@ -243,7 +243,7 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_pkp"};
+    primaryWeapon[] = {"CUP_lmg_PKMN"};
     sidearmWeapon[] = {};
     scope[] = {"rhs_acc_pkas"};
     backpack[] = {"B_Carryall_oli"};

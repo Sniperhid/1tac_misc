@@ -61,7 +61,7 @@ class r : baseMan
         "rhs_weap_ak74m","rhs_weap_ak74m","rhs_weap_ak74m",
         "rhs_weap_ak74m_2mag"
     };
-    scope[] = {};
+    scope[] = {"rhs_acc_1p78"};
     silencer[] = {"rhs_acc_dtk"};
     magazines[] =
     {
@@ -120,6 +120,7 @@ class smg : r
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_aks74u"};
     silencer[] = {"rhs_acc_pgs64"};
+	scope[] = {};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -188,13 +189,13 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"CUP_arifle_RPK74_45"};
+    primaryWeapon[] = {"CUP_arifle_RPK74M"};
     bipod[] = {};
     silencer[] = {};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_6("rhs_45Rnd_545X39_AK"),
+        LIST_9("rhs_45Rnd_545X39_AK"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -205,7 +206,7 @@ class aar : r
     backpack[] = {"rhs_assault_umbts"};
     backpackItems[] =
     {
-        LIST_6("rhs_45Rnd_545X39_AK")
+        LIST_9("rhs_45Rnd_545X39_AK")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -237,12 +238,11 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_pkm"};
+    primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     bipod[] = {};
     silencer[] = {};
     sidearmWeapon[] = {};
     backpack[] = {"B_Carryall_oli"};
-    scope[] = {};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
