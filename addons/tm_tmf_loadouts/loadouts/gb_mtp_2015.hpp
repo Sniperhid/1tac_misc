@@ -108,8 +108,9 @@ class r : baseMan
     };
     items[] =
     {
-               LIST_5("ACE_fieldDressing"),
+            LIST_5("ACE_fieldDressing"),
             LIST_3("ACE_quikclot"),
+            LIST_2("ACE_Splint"),
             "ACE_morphine",
             "ACE_tourniquet"
     };
@@ -155,11 +156,12 @@ class m : car
             LIST_15("ACE_fieldDressing"),
             LIST_20("ACE_elasticBandage"),
             LIST_20("ACE_packingBandage"),
-            LIST_2("ACE_atropine"),
+            LIST_2("ACE_adenosine"),
             LIST_10("ACE_morphine"),
             LIST_10("ACE_epinephrine"),
             LIST_5("ACE_tourniquet"),
             LIST_6("ACE_bloodIV"),
+            LIST_6("ACE_Splint"),
             LIST_1("ACE_surgicalKit"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -255,6 +257,7 @@ class fac : co
     };
     items[] = {
         LIST_3("ACE_fieldDressing"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_Kestrel4500",
         "ACE_microDAGR",
@@ -542,7 +545,7 @@ class sp : sn
         LIST_2("UK3CB_BAF_556_30Rnd_T"),
         LIST_2("HandGrenade"),
         LIST_2("rhs_mag_an_m8hc"),
-        LIST_4("UK3CB_BAF_9_17Rnd")
+        LIST_3("UK3CB_BAF_9_17Rnd")
     };
     linkedItems[] += {"Rangefinder"};
 };
@@ -624,6 +627,7 @@ class jp : baseMan
     items[] =
     {
         LIST_3("ACE_fieldDressing"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine"
     };
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};

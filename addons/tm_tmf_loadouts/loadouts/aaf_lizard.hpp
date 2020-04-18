@@ -66,8 +66,9 @@ class r : baseMan
     };
     items[] =
     {
-         LIST_5("ACE_fieldDressing"),
+        LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -111,11 +112,12 @@ class m : r
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_splint"),
         LIST_1("ACE_surgicalKit"),
         LIST_1("rhs_mag_an_m8hc")
     };
@@ -181,6 +183,7 @@ class fac : co
     items[] = {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Kestrel4500",
@@ -552,6 +555,7 @@ class jp : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -595,4 +599,10 @@ class UAV : car
     displayName = "UAV Operator";
     backpack[] = {"B_rhsusf_B_BACKPACK"};
     linkedItems[] += {"B_UavTerminal"};
+    magazines[] =
+    {
+        LIST_6("hlc_20rnd_762x51_b_G3"),
+        LIST_2("hlc_20rnd_762x51_T_G3"),
+        "rhs_mag_an_m8hc"
+    };
 };

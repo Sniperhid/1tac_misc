@@ -104,11 +104,12 @@ class m : r
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_splint"),
         LIST_1("ACE_surgicalKit"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -117,6 +118,7 @@ class smg : car
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"CUP_smg_MP7"};
+    vest[] = {"CUP_V_B_GER_Armatus_Fleck"};
     scope[] = {"CUP_optic_ZeissZPoint"};
     magazines[] =
     {
@@ -174,6 +176,7 @@ class fac : co
     items[] = {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Kestrel4500",
@@ -452,7 +455,6 @@ class pp : smg
     uniform[] = {"CUP_U_B_GER_Fleck_Overalls_Pilot"};
     backpack[] = {"B_Battle_Belt_F"};
     headgear[] = {"rhsusf_hgu56p_visor_green"};
-    vest[] = {};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
     magazines[] += {
@@ -466,7 +468,6 @@ class pcc : smg
     uniform[] = {"CUP_U_B_GER_Fleck_Overalls_Pilot"};
     backpack[] = {"B_Battle_Belt_F"};
     headgear[] = {"rhsusf_hgu56p_visor_mask_green"};
-    vest[] = {};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -496,6 +497,7 @@ class jp : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };

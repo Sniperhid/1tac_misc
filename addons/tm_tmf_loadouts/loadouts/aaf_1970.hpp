@@ -36,6 +36,7 @@ class baseMan {// Weaponless baseclass
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Flashlight_MX991",
@@ -90,7 +91,7 @@ class car : r
     primaryWeapon[] = {"hlc_rifle_hk33ka3"};
     magazines[] =
     {
-        LIST_6("hlc_30rnd_556x45_b_HK33"),
+        LIST_5("hlc_30rnd_556x45_b_HK33"),
         LIST_2("hlc_30rnd_556x45_t_HK33"),
         LIST_1("rhs_mag_f1"),
         LIST_1("rhs_mag_an_m8hc")
@@ -105,13 +106,14 @@ class m : car
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
         LIST_1("ACE_surgicalKit"),
         LIST_2("rhs_mag_an_m8hc"),
+        LIST_6("ACE_splint"),
         LIST_5("ACE_bodyBag")
     };
 };
@@ -219,7 +221,7 @@ class hmgg : car
     backPack[] = {"RHS_DShkM_Gun_Bag"};
 
 };
-class hmgac : r
+class hmgac : car
 {
     displayName = "HMG Ammo Carrier";
     backpackItems[] = {};
@@ -268,7 +270,7 @@ class hatg : car
     backpackItems[] = {};
     backPack[] = {"RHS_SPG9_Gun_Bag"};
 };
-class hatac : r
+class hatac : car
 {
     displayName = "HAT Ammo Carrier";
     backpackItems[] = {};
@@ -401,7 +403,6 @@ class pp : pc
 };
 class pcc : pc
 {
-
     displayName = "Helicopter Crew Chief";
     backpack[] = {"B_LegStrapBag_olive_F"};
     backpackItems[] = {"ToolKit"};
@@ -433,6 +434,13 @@ class engm : car
         "MineDetector",
         "ATMine_Range_Mag"
     };
+};
+class jp : pp
+{
+    displayname = "Jet Pilot";
+    headgear[] = {"H_PilotHelmetFighter_I"};
+    uniform[] = {"U_I_pilotCoveralls"};
+    backpack[] = {};
 };
 class UAV : car
 {

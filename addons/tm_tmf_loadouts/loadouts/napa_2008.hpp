@@ -63,6 +63,7 @@ class r : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -100,11 +101,12 @@ class m : car
         LIST_10("ACE_fieldDressing"),
         LIST_15("ACE_elasticBandage"),
         LIST_15("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_8("ACE_morphine"),
         LIST_8("ACE_epinephrine"),
         LIST_2("ACE_tourniquet"),
         LIST_5("ACE_bloodIV"),
+        LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
@@ -496,8 +498,11 @@ class jp : baseMan
     };
     items[] =
     {
-        LIST_3("ACE_fieldDressing"),
-        "ACE_morphine"
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
+        "ACE_morphine",
+        "ACE_tourniquet"
     };
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 };
