@@ -81,6 +81,7 @@ class baseMan {// Weaponless baseclass
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Flashlight_MX991"
@@ -132,11 +133,12 @@ class m : r
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
@@ -365,6 +367,14 @@ class sp : ftl
     displayName = "Spotter";
     headgear[] = {"usm_bdu_boonie_erdl"};
     items[] += {"ACE_SpottingScope"};
+    magazines[] =
+    {
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc",
+        "Chemlight_green"
+    };
     linkedItems[] =
     {
         "ItemMap",
@@ -411,6 +421,7 @@ class pp : ftl
 {
     displayName = "Helicopter Pilot";
     uniform[] = {"U_B_HeliPilotCoveralls"};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
@@ -425,6 +436,7 @@ class pcc : r
 {
     displayName = "Helicopter Crew Chief";
     uniform[] = {"U_B_HeliPilotCoveralls"};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
@@ -440,13 +452,14 @@ class pc : r
 {
     displayName = "Helicopter Crew";
     uniform[] = {"U_B_HeliPilotCoveralls"};
+    primaryWeapon[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "Chemlight_green"
     };
     vest[] = {"usm_vest_pasgt"};
-    backpack[] = {};
+    backpack[] = {"B_FieldPack_oli"};
     headgear[] = {"rhsusf_hgu56p_visor_green"};
     goggles[] = {"default"};
 };

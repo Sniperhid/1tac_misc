@@ -70,6 +70,7 @@ class r : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -104,19 +105,21 @@ class m : car
     backpack[] = {"rhs_medic_bag"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
-        LIST_20("ACE_elasticBandage"),
-        LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_15("ACE_elasticBandage"),
+        LIST_15("ACE_packingBandage"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
 class smg : r
 {
     displayName = "Submachinegunner";
+    backpack[] = {"CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki","CUP_B_AlicePack_OD"};
     primaryWeapon[] = {"rhs_weap_aks74u"};
     silencer[] = {"rhs_acc_pgs64_74u"};
     magazines[] =
@@ -517,8 +520,11 @@ class jp : baseMan
     };
     items[] =
     {
-        LIST_3("ACE_fieldDressing"),
-        "ACE_morphine"
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
+        "ACE_morphine",
+        "ACE_tourniquet"
     };
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 };

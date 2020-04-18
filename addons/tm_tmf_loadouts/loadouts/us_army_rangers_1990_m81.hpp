@@ -49,6 +49,7 @@ class baseMan {// Weaponless baseclass
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Flashlight_MX991"
@@ -102,11 +103,12 @@ class m : r
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
@@ -323,7 +325,7 @@ class sn : r
     magazines[] =
     {
         LIST_2("rhsusf_mag_7x45acp_MHP"),
-        LIST_8("rhsusf_10Rnd_762x51_m993_Mag"),
+        LIST_8("rhsusf_5Rnd_762x51_m993_Mag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc",
         "Chemlight_green"

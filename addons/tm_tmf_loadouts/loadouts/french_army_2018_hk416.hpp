@@ -32,6 +32,7 @@ class baseMan {// Weaponless baseclass
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -51,6 +52,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman (300m)";
+    backpack[] = {"rhssaf_kitbag_md2camo"};
     primaryWeapon[] = {"rhs_weap_hk416d145_grip3"};
     scope[] = {"rhsusf_acc_eotech_552"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
@@ -86,7 +88,7 @@ class car : r
     primaryWeapon[] = {"rhs_weap_hk416d10"};
     magazines[] =
     {
-        LIST_6("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
@@ -101,11 +103,12 @@ class m : car
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
@@ -257,7 +260,7 @@ class hmgg : car
     displayName = "HMG Gunner";
     backPack[] = {"RHS_M2_Gun_Bag"};
 };
-class hmgac : r
+class hmgac : car
 {
     displayName = "HMG Ammo Carrier";
     backPack[] = {"RHS_M2_Gun_Bag"};
@@ -318,7 +321,7 @@ class hatg : car
     displayName = "HAT Gunner";
     backPack[] = {"rhs_Tow_Gun_Bag"};
 };
-class hatac : r
+class hatac : car
 {
     displayName = "HAT Ammo Carrier";
     backPack[] = {"rhs_Tow_Gun_Bag"};
@@ -350,7 +353,7 @@ class mtrg : car
         "ItemGPS"
     };
 };
-class mtrac : r
+class mtrac : car
 {
     displayName = "Mortar Ammo Carrier";
     backPack[] = {"rhs_M252_Gun_Bag"};

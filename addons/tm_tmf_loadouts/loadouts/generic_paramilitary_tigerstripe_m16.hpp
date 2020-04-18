@@ -75,6 +75,7 @@ class r : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -102,11 +103,12 @@ class m : car
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -147,6 +149,7 @@ class co : sl
     magazines[] = {
         LIST_7("30Rnd_556x45_Stanag"),
         LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -166,6 +169,7 @@ class fac : co
     items[] = {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Maptools"
@@ -402,7 +406,7 @@ class sn : r
     {
         LIST_8("hlc_20Rnd_762x51_mk316_M14"),
         LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
     };
     backpack[] = {};
     items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
@@ -478,6 +482,7 @@ class jp : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };

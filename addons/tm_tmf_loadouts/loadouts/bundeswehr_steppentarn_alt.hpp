@@ -60,6 +60,7 @@ class r : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -80,6 +81,13 @@ class car : r
 {
     displayName = "Carabinier";
     primaryWeapon[] = {"CUP_arifle_G36K_camo"};
+    magazines[] =
+    {
+        LIST_8("CUP_30Rnd_556x45_G36_camo"),
+        LIST_2("CUP_30Rnd_TE1_Red_Tracer_556x45_G36_camo"),
+        "HandGrenade",
+        "SmokeShell"
+    };
 };
 class m : car 
 {
@@ -90,11 +98,12 @@ class m : car
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
@@ -337,6 +346,13 @@ class mtrag : car
 {
     displayName = "Mortar Assistant Gunner";
     backPack[] = {"I_Mortar_01_support_F"};
+    magazines[] =
+    {
+        LIST_7("CUP_30Rnd_556x45_G36_camo"),
+        LIST_2("CUP_30Rnd_TE1_Red_Tracer_556x45_G36_camo"),
+        "HandGrenade",
+        "SmokeShell"
+    };
     items[] += 
     {
         "ACE_RangeTable_82mm",
@@ -459,6 +475,7 @@ class jp : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };

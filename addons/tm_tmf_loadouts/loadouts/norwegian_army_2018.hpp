@@ -90,6 +90,7 @@ class r : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -121,11 +122,12 @@ class m : car
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_2("ACE_Splint"),
         LIST_1("ACE_surgicalKit"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -204,6 +206,7 @@ class fac : co
     items[] = {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Kestrel4500",
@@ -299,7 +302,7 @@ class hmgg : car
     {
         LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
+        "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
 };
@@ -311,7 +314,7 @@ class hmgac : r
     {
         LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
+        "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
 };
@@ -329,9 +332,9 @@ class hmgag : car
     };
     magazines[] =
     {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
+        "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
 };
@@ -340,8 +343,12 @@ class matg : car
     displayName = "MAT Gunner";
     secondaryWeapon[] = {"rhs_weap_maaws"};
     secondaryAttachments[] = {"rhs_optic_maaws"};
-    magazines[] +=
+    magazines[] =
     {
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc"),
         LIST_2("rhs_mag_maaws_HEAT"),
         "rhs_mag_maaws_HEDP"
     };
@@ -349,6 +356,13 @@ class matg : car
 class matac : r
 {
     displayName = "MAT Ammo Carrier";
+    magazines[] =
+    {
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc")
+    };
     backpackItems[] =
     {
         LIST_2("rhs_mag_maaws_HEAT"),
@@ -365,6 +379,13 @@ class matag : car
         "ItemWatch",
         "lerca_1200_tan",
         "ItemGPS"
+    };
+    magazines[] =
+    {
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc")
     };
     backpackItems[] =
     {
@@ -413,7 +434,7 @@ class mtrg : car
     {
         LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
+        "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
     linkedItems[] =
@@ -430,9 +451,9 @@ class mtrac : r
     backPack[] = {"B_Mortar_01_weapon_F"};
     magazines[] =
     {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
+        "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
 };
@@ -442,9 +463,9 @@ class mtrag : car
     backPack[] = {"B_Mortar_01_support_F"};
     magazines[] =
     {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
+        "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
     linkedItems[] =
@@ -460,8 +481,12 @@ class samg : car
 {
     displayName = "AA Missile Specialist";
     secondaryWeapon[] = {"rhs_weap_fim92"};
-    magazines[] +=
+    magazines[] =
     {
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc"),
         LIST_2("rhs_fim92_mag")
     };
 };
@@ -475,6 +500,13 @@ class samag : car
         "ItemWatch",
         "lerca_1200_tan",
         "ItemGPS"
+    };
+    magazines[] =
+    {
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        "rhs_mag_m67",
+        LIST_2("rhs_mag_an_m8hc")
     };
     backpackItems[] =
     {
@@ -587,6 +619,7 @@ class jp : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -635,7 +668,6 @@ class UAV : car
     {
         LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
     linkedItems[] += {"B_UavTerminal"};

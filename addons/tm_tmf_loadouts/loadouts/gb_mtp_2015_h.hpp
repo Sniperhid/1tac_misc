@@ -110,6 +110,7 @@ class r : baseMan
     {
             LIST_5("ACE_fieldDressing"),
             LIST_3("ACE_quikclot"),
+            LIST_2("ACE_Splint"),
             "ACE_morphine",
             "ACE_tourniquet"
     };
@@ -160,8 +161,9 @@ class m : car
             LIST_10("ACE_epinephrine"),
             LIST_5("ACE_tourniquet"),
             LIST_6("ACE_bloodIV"),
+            LIST_6("ACE_Splint"),
             LIST_1("ACE_surgicalKit"),
-        LIST_2("rhs_mag_an_m8hc")
+            LIST_2("rhs_mag_an_m8hc")
     };
 };
 class smg : r
@@ -255,6 +257,7 @@ class fac : co
     };
     items[] = {
         LIST_3("ACE_fieldDressing"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_Kestrel4500",
         "ACE_microDAGR",
@@ -444,7 +447,46 @@ class hatag : car
         "ItemGPS"
     };
 };
-
+class mtrg : car
+{
+    displayName = "Mortar Gunner";
+    secondaryWeapon[] = {"UK3CB_BAF_L16"};
+    backpackItems[] =
+    {
+        "UK3CB_BAF_1Rnd_81mm_Mo_Shells"
+    };
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "ItemGPS"
+    };
+};
+class mtrac : r
+{
+    displayName = "Mortar Ammo Carrier";
+    backpackItems[] =
+    {
+        "UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White"
+    };
+};
+class mtrag : car
+{
+    displayName = "Mortar Assistant Gunner";                                                                                      
+    secondaryWeapon[] = {"UK3CB_BAF_L16_Tripod"};
+    backpackItems[] =
+    {
+        "UK3CB_BAF_1Rnd_81mm_Mo_Shells"
+    };
+    linkedItems[] =
+    {
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "ItemGPS"
+    };
+};
 class samg : car
 {
     displayName = "AA Missile Specialist";
@@ -504,7 +546,7 @@ class sp : sn
         LIST_2("UK3CB_BAF_556_30Rnd_T"),
         LIST_2("HandGrenade"),
         LIST_2("rhs_mag_an_m8hc"),
-        LIST_4("UK3CB_BAF_9_17Rnd")
+        LIST_3("UK3CB_BAF_9_17Rnd")
     };
     linkedItems[] += {"Rangefinder"};
 };
@@ -586,6 +628,7 @@ class jp : baseMan
     items[] =
     {
         LIST_3("ACE_fieldDressing"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine"
     };
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};

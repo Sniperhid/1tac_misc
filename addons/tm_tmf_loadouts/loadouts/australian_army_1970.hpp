@@ -66,6 +66,7 @@ class r : baseMan
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
         "ACE_tourniquet"
     };
@@ -83,6 +84,13 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
+    magazines[] =
+    {
+        LIST_10("rhs_mag_20Rnd_762x51_m80_fnfal"),
+        LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
+        LIST_2("rhs_grenade_mkii_mag"),
+        LIST_2("SmokeShell")
+    };
 };
 class sc : car
 {
@@ -112,6 +120,7 @@ class m : car
             LIST_10("ACE_epinephrine"),
             LIST_5("ACE_tourniquet"),
             LIST_6("ACE_bloodIV"),
+            LIST_6("ACE_splint"),
             LIST_1("ACE_surgicalKit"),
 			LIST_2("SmokeShell")
     };
@@ -175,9 +184,13 @@ class fac : co
         "ItemCompass",
         "ItemWatch"
     };
-    items[] = {
-        LIST_3("ACE_fieldDressing"),
+    items[] = 
+    {
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
         "ACE_morphine",
+        "ACE_tourniquet",
         "ACE_Maptools"
     };
 };
@@ -196,7 +209,7 @@ class ar : r
         "SmokeShell"
 	};
 };
-class aar : r
+class aar : car
 {
     displayName = "Assistant Automatic Rifleman";
     backpack[] = {"rhsgref_hidf_alicepack"};
@@ -561,10 +574,14 @@ class jp : baseMan
 		LIST_2("SmokeShell"),
         LIST_4("UK3CB_BAF_9_13Rnd")
     };
-    items[] =
+    items[] = 
     {
-        LIST_3("ACE_fieldDressing"),
-        "ACE_morphine"
+        LIST_5("ACE_fieldDressing"),
+        LIST_3("ACE_quikclot"),
+        LIST_2("ACE_splint"),
+        "ACE_morphine",
+        "ACE_tourniquet",
+        "ACE_Maptools"
     };
     linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 };
@@ -614,7 +631,7 @@ class UAV : car
     {
         LIST_5("rhs_mag_20Rnd_762x51_m80_fnfal"),
         "rhs_grenade_mkii_mag",
-        LIST_2("SmokeShell")
+        "SmokeShell"
     };
     linkedItems[] += {"B_UavTerminal"};
 };

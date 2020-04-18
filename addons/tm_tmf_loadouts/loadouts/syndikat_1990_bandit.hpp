@@ -87,6 +87,7 @@ class baseMan {// Weaponless baseclass
     {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
+        LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Flashlight_KSF1"
@@ -107,6 +108,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
+    backpack[] = {"B_AssaultPack_khk"};
     primaryWeapon[] = 
     {
         "rhs_weap_akm",
@@ -159,11 +161,12 @@ class m : car
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
         LIST_20("ACE_packingBandage"),
-        LIST_2("ACE_atropine"),
+        LIST_2("ACE_adenosine"),
         LIST_10("ACE_morphine"),
         LIST_10("ACE_epinephrine"),
         LIST_5("ACE_tourniquet"),
         LIST_6("ACE_bloodIV"),
+        LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit")
     };
 };
@@ -196,7 +199,6 @@ class ftl : r
 {
     displayName = "Fireteam Leader";
     linkedItems[] += {"Binocular"};
-    backpack[] = {"B_AssaultPack_khk"};
     items[] += {"ACE_CableTie","ACE_MapTools"};
 };
 class sl : ftl
@@ -335,7 +337,7 @@ class hmgg : car
     displayName = "HMG Gunner";
     backPack[] = {"RHS_DShkM_Gun_Bag"};
 };
-class hmgac : r
+class hmgac : car
 {
     displayName = "HMG Ammo Carrier";
     backPack[] = {"RHS_DShkM_Gun_Bag"};
@@ -348,7 +350,6 @@ class hmgag : ftl
     {
         "ACE_HandFlare_White",
         LIST_4("rhs_30Rnd_762x39mm"),
-        "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
 };
@@ -391,7 +392,6 @@ class matag : ftl
     {
         "ACE_HandFlare_White",
         LIST_4("rhs_30Rnd_762x39mm"),
-        "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
 };
@@ -400,7 +400,7 @@ class hatg : car
     displayName = "HAT Gunner";
     backPack[] = {"bear_ussr_metis1_gun_bag"};
 };
-class hatac : r
+class hatac : car
 {
     displayName = "HAT Ammo Carrier";
     backPack[] = {"bear_ussr_metis1_gun_bag"};
@@ -413,7 +413,6 @@ class hatag : ftl
     {
         "ACE_HandFlare_White",
         LIST_4("rhs_30Rnd_762x39mm"),
-        "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
 };
@@ -422,7 +421,7 @@ class mtrg : car
     displayName = "Mortar Gunner";
     backPack[] = {"I_Mortar_01_weapon_F"};
 };
-class mtrac : r
+class mtrac : car
 {
     displayName = "Mortar Ammo Carrier";
     backPack[] = {"I_Mortar_01_weapon_F"};
@@ -436,7 +435,6 @@ class mtrag : ftl
     {
         "ACE_HandFlare_White",
         LIST_4("rhs_30Rnd_762x39mm"),
-        "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
 };
