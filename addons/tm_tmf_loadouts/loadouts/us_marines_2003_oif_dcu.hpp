@@ -86,8 +86,8 @@ class g : r
     primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
-        LIST_5("rhs_mag_M441_HE"),
-        LIST_4("rhs_mag_m714_White")
+        LIST_7("CUP_1Rnd_HE_M203"),
+        LIST_4("CUP_1Rnd_Smoke_M203")
     };
 };
 class car : r
@@ -129,8 +129,8 @@ class ftl : g
     displayName = "Fireteam Leader";
     magazines[] +=
     {
-        LIST_2("rhs_mag_m715_Green"),
-        LIST_2("rhs_mag_m713_Red")
+        LIST_2("CUP_1Rnd_SmokeGreen_M203"),
+        LIST_2("CUP_1Rnd_SmokeRed_M203")
     };
     linkedItems[] =
     {
@@ -157,12 +157,12 @@ class co : sl
     backpack[] = {"CUP_B_AlicePack_Khaki"};
     magazines[] = {
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ"),
-        LIST_2("rhs_mag_m715_Green"),
-        LIST_3("rhs_mag_m713_Red"),
+        LIST_2("CUP_1Rnd_SmokeGreen_M203"),
+        LIST_3("CUP_1Rnd_SmokeRed_M203"),
         LIST_2("rhs_mag_m18_green"),
         LIST_2("SmokeShellPurple"),
-        LIST_3("rhs_mag_M441_HE"),
-        LIST_2("rhs_mag_m714_White"),
+        LIST_3("CUP_1Rnd_HE_M203"),
+        LIST_2("CUP_1Rnd_Smoke_M203"),
         LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         "rhs_mag_m67",
@@ -463,8 +463,8 @@ class sp : sn
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
-        LIST_4("rhs_mag_M441_HE"),
-        LIST_4("rhs_mag_m714_White"),
+        LIST_4("CUP_1Rnd_HE_M203"),
+        LIST_4("CUP_1Rnd_Smoke_M203"),
         LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
     };
 };
