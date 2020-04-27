@@ -98,7 +98,6 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    backpack[] = {"usm_pack_m5_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
