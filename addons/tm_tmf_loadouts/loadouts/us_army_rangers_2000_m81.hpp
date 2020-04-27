@@ -98,7 +98,7 @@ class g : r
 class m : r
 {
     displayName = "Medic";
-    backPack[] = {"usm_pack_m5_medic"};
+    backPack[] = {"usm_pack_alice"};
     backpackItems[] = 
     {
         LIST_15("ACE_fieldDressing"),

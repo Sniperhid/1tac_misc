@@ -132,7 +132,7 @@ class m : ra
         LIST_3("rhsusf_5Rnd_Slug"),
         LIST_2("rhs_mag_an_m8hc")
     };
-    backpack[] = {"usm_pack_m5_medic"};
+    backpack[] = {"usm_pack_alice"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
