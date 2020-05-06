@@ -244,9 +244,15 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_rangers_oefcp_mk17.hpp"
     };
+    class US_ARMY_SF_DELTA_1993_DCU
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (1993, DCU)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_1993_dcu.hpp"
+    };
     class US_ARMY_SF_DELTA_MC
     {
-        displayName = "US Army SFOD-D (CAG/Delta) (2017-)";
+        displayName = "US Army SFOD-D (CAG/Delta) (2017-, Multicam)";
         category = "USA";
         #include "loadouts\us_army_sf_delta_mc.hpp"
     };
