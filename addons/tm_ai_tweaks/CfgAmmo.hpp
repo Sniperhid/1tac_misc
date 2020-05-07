@@ -1,4 +1,4 @@
-class CfgAmmo {
+/*class CfgAmmo {
     class ShellBase;
     
     class Sh_125mm_APFSDS;
@@ -64,4 +64,4 @@ class CfgAmmo {
     class rhs_rpg7v2_type63_airburst: rhs_rpg7v2_og7v {
         cost = 20;
     };
-};
+};*/
