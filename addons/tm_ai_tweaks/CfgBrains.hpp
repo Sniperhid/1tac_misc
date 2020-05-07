@@ -1,4 +1,4 @@
-class CfgBrains {
+/*class CfgBrains {
     class DefaultSoldierBrain  { // https://forums.bohemia.net/forums/topic/150499-ai-discussion-dev-branch/?page=205&tab=comments#comment-3367671
         class Components {
             class AIBrainSuppressionComponent  {
@@ -13,4 +13,4 @@ class CfgBrains {
             };
         };
     };
-};
+};*/
