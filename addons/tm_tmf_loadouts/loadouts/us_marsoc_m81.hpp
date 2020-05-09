@@ -152,7 +152,7 @@ class car : r
 };
 class m : car
 {
-    displayName = "Medic";
+    displayName = "Corpsman";
     backpack[] = {"rhsusf_falconii_coy"};
     vest[] = {"rhsusf_mbav_medic"};
     backpackItems[] = {

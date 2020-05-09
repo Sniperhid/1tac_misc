@@ -126,7 +126,7 @@ class g : r
 };
 class m : r
 {
-    displayName = "Medic";
+    displayName = "Corpsman";
     backPack[] = {"usm_pack_m5_medic"};
     backpackItems[] = 
     {
