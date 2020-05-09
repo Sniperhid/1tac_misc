@@ -36,7 +36,7 @@ class baseMan {// Weaponless baseclass
     linkedItems[] = {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch"
+        "ACE_Altimeter"
     };
 
     // These are put into the backpack
@@ -179,7 +179,7 @@ class ftl : g
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -205,7 +205,7 @@ class fac : co
     linkedItems[] = {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "ItemGPS",
         "ACE_Vector"
     };
@@ -302,7 +302,7 @@ class mmgag : aar
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -331,7 +331,7 @@ class hmgag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -369,7 +369,7 @@ class matag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -412,7 +412,7 @@ class hatag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -425,7 +425,7 @@ class mtrg : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "ItemGPS"
     };
 };
@@ -442,7 +442,7 @@ class mtrag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -465,7 +465,7 @@ class samag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -606,7 +606,7 @@ class jp : baseMan
         "ACE_morphine",
         "ACE_tourniquet"
     };
-    linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+    linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ACE_Altimeter"};
 };
 class eng : car
 {
