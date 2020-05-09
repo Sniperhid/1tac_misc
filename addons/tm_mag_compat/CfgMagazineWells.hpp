@@ -7,7 +7,7 @@ class CfgMagazineWells {
         };
     };
     
-    class CBA_556x45_AK {
+    class CBA_545x39_AK {
         ADDON[] = {
             QGVAR(60Rnd_556x45_545x39_7N10),
             QGVAR(60Rnd_556x45_545x39_7N22),
