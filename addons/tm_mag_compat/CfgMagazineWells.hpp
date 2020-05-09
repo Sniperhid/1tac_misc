@@ -6,4 +6,12 @@ class CfgMagazineWells {
             QGVAR(60Rnd_556x45_Mk318_Surefire)
         };
     };
+    
+    class CBA_556x45_AK {
+        ADDON[] = {
+            QGVAR(60Rnd_556x45_545x39_7N10),
+            QGVAR(60Rnd_556x45_545x39_7N22),
+            QGVAR(60Rnd_556x45_545x39_7T3M)
+        };
+    };
 };
