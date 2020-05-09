@@ -1,6 +1,6 @@
 // in case of fire, tell Bear
 
-tooltip = "Author: Bear";
+tooltip = "Author: Bear\n\nNo body armor!";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -49,7 +49,6 @@ class baseMan {// Weaponless baseclass
 		"usm_headwrap_tan",
 		"usm_headwrap_odg1",
 		"usm_headwrap_dcu",
-		"usm_helmet_pasgt_ce_des",
 		"CUP_H_US_patrol_cap_OD",
 		"CUP_H_SLA_Helmet_OD_worn",
 		"bear_ssh68_sand",

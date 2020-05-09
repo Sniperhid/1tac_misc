@@ -237,6 +237,7 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     backpack[] = {"B_Kitbag_mcamo"};
+    primaryWeapon[] = {"CUP_arifle_DSA_SA58_DMR"};
     bipod[] = {"cup_bipod_vltor_modpod_black"};
 	magazines[] =
     {
