@@ -102,7 +102,7 @@ class m : car
 {
     displayName = "Medic";
     backpack[] = {"rhsusf_falconii"};
-    vest[] = {"lbt_medical_mc"};
+    vest[] = {"lbt_medical_mc", "rhsusf_plateframe_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),

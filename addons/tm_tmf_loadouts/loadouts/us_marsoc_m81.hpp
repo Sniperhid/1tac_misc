@@ -319,7 +319,7 @@ class dm : r
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_mk17_LB"};
     silencer[] = {"rhsusf_acc_aac_scarh_silencer"};
-    scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
+    scope[] = {"cup_optic_sb_11_4x20_pm"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
     vest[] = {"rhsusf_mbav_light"};
     magazines[] =

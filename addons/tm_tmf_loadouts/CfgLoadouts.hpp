@@ -760,7 +760,7 @@ class CfgLoadouts
     };
     class PMC_FAL
     {
-        displayName = "PMC (SA58 OSW/FAL)";
+        displayName = "PMC (SA58 OSW/M1A)";
         category = "Other";
         #include "loadouts\pmc_fal.hpp"
     };

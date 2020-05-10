@@ -1,9 +1,9 @@
-tooltip = "Inspired by Black Hawk Down\nAuthor: Bear";
+tooltip = "Inspired by Black Hawk Down (but M81 Woodland)\nAuthor: Bear";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"usm_bdu_btisrl_dcu_m", "usm_bdu_btisrl_dcu_m", "usm_bdu_srh_dcu"};
+    uniform[] = {"usm_bdu_bti_wdl"};
     vest[] = {};
     backpack[] = {};
     headgear[] = {"rhsusf_protech_helmet_rhino_ess", "rhsusf_protech_helmet_rhino", "rhsusf_protech_helmet_ess", "rhsusf_protech_helmet"};
@@ -180,7 +180,7 @@ class rat : r
 class dm : ar
 {
     displayName = "Designated Marksman";
-    silencer[] = {"rhsusf_acc_aac_m14dcqd_silencer"};
+    silencer[] = {"rhsusf_acc_aac_m14dcqd_silencer_wd"};
 };
 class mmgg : r
 {

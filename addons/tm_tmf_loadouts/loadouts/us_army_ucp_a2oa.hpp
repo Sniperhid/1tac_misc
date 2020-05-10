@@ -213,6 +213,15 @@ class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
+    primaryWeapon[] = {"rhs_weap_m14_rail_d"};
+    bipod[] = {};
+    magazines[] =
+    {
+        LIST_7("rhsusf_20Rnd_762x51_m80_Mag"),
+        LIST_5("rhsusf_20Rnd_762x51_m62_Mag"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc"
+    };
     backpackItems[] =
     {
         LIST_4("rhsusf_200Rnd_556x45_M855_soft_pouch_ucp")
@@ -258,7 +267,7 @@ class mmgac : r
         LIST_5("rhsusf_100Rnd_762x51")
     };
 };
-class mmgag : aar
+class mmgag : r
 {
     displayName = "MMG Assistant Gunner";
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};

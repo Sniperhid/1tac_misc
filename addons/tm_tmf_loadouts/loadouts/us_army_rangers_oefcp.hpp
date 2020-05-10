@@ -234,7 +234,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_mk17_LB"};
-    scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
+    scope[] = {"cup_optic_sb_11_4x20_pm"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
     magazines[] =
     {
