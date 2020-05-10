@@ -180,12 +180,12 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     backPack[] = {"usm_pack_762x51_ammobelts"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
-        LIST_4("hlc_100Rnd_762x51_M_M60E4"),
+        LIST_4("rhsusf_100Rnd_762x51"),
         "HandGrenade",
         "SmokeShell",
         LIST_2("rhsusf_mag_7x45acp_MHP")
@@ -197,7 +197,7 @@ class aar : r
     backPack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
     linkedItems[] += {"rhssaf_zrak_rd7j"};
 };
@@ -209,11 +209,12 @@ class rat : r
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"hlc_rifle_M14_Bipod"};
-    scope[] = {"hlc_optic_artel_m14"};
+    primaryWeapon[] = {"rhs_weap_m14_rail"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
+    scope[] = {"optic_khs_old"};
     magazines[] =
     {
-        LIST_10("hlc_20Rnd_762x51_B_M14"),
+        LIST_10("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -221,12 +222,12 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     backPack[] = {"usm_pack_762x51_ammobelts"};
     scope[] = {};
     magazines[] =
     {
-        LIST_5("hlc_100Rnd_762x51_M_M60E4"),
+        LIST_5("rhsusf_100Rnd_762x51"),
         "HandGrenade",
         "SmokeShell",
         LIST_1("rhsusf_mag_7x45acp_MHP")
@@ -238,7 +239,7 @@ class mmgac : r
     backPack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -253,7 +254,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : r
@@ -414,12 +415,13 @@ class sn : r
     vest[] = {"rhsgref_alice_webbing"};
     headgear[] = {"usm_bdu_boonie_tgrstp"};
     goggles[] = {""};
-    primaryWeapon[] = {"hlc_rifle_M14_Bipod"};
-    scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
+    primaryWeapon[] = {"rhs_weap_m14_rail"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
+    scope[] = {"optic_khs_old"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
-        LIST_7("hlc_20Rnd_762x51_B_M14"),
+        LIST_7("rhsusf_20Rnd_762x51_m80_Mag"),
         "HandGrenade",
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };

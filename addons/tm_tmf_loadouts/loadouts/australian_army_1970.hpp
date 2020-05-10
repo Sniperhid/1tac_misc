@@ -1,5 +1,5 @@
 /* assignGear specific macros */
-//Dependencies - 3CB Weapons, 3CB Equipment, RHS, CUP, USM, HLC M60
+//Dependencies - 3CB Weapons, 3CB Equipment, RHS, CUP, USM
 tooltip = "Author: Sam";
 
 class baseMan {// Weaponless baseclass
@@ -198,12 +198,12 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
 	backpack[] = {"usm_pack_762x51_ammobelts"};
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     bipod[] = {};
     magazines[] = {
-        LIST_4("hlc_100Rnd_762x51_M_M60E4"),
-        LIST_2("hlc_100Rnd_762x51_T_M60E4"),
+        LIST_4("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_100Rnd_762x51_m62_tracer"),
 		LIST_3("UK3CB_BAF_9_13Rnd"),
         "rhs_grenade_mkii_mag",
         "SmokeShell"
@@ -215,8 +215,8 @@ class aar : car
     backpack[] = {"rhsgref_hidf_alicepack"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4"),
-        LIST_2("hlc_100Rnd_762x51_T_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_100Rnd_762x51_m62_tracer")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -239,12 +239,12 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     scope[] = {};
     magazines[] =
     {
-        LIST_4("hlc_100Rnd_762x51_T_M60E4"),
-        LIST_2("hlc_100Rnd_762x51_M_M60E4"),
+        LIST_4("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_100Rnd_762x51_m62_tracer"),
         "rhs_grenade_mkii_mag",
         "SmokeShell",
 		LIST_3("UK3CB_BAF_9_13Rnd")
@@ -255,7 +255,7 @@ class mmgac : r
     displayName = "MMG Ammo Carrier";
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_T_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -271,7 +271,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_T_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : car

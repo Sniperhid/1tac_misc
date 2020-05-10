@@ -196,12 +196,12 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
+    primaryWeapon[] = {"CUP_srifle_SVD"};
+    scope[] = {"cup_optic_pso_1"};
     bipod[] = {};
     magazines[] =
     {
-        LIST_7("hlc_20Rnd_762x51_B_M14"),
+        LIST_7("rhs_10Rnd_762x54mmR_7N1"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -381,13 +381,13 @@ class sn : r
     uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
     headgear[] = {};
     goggles[] = {"default"};
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
+    primaryWeapon[] = {"CUP_srifle_SVD"};
+    scope[] = {"cup_optic_pso_1"};
     bipod[] = {};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_8("hlc_20Rnd_762x51_mk316_M14"),
+        LIST_8("CUP_srifle_SVD"),
         LIST_2("HandGrenade"),
         LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
     };

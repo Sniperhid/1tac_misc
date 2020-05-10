@@ -119,16 +119,17 @@ class co : car
 class ar : r
 {
     displayName = "Automatic Rifleman (M14/BAR near enough)";
-    primaryWeapon[] = {"hlc_rifle_M14"};
+    primaryWeapon[] = {"rhs_weap_m14"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
-        LIST_4("hlc_20Rnd_762x51_B_M14"),
+        LIST_4("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 	backpackItems[] =
 	{
-		LIST_8("hlc_20Rnd_762x51_B_M14")
+		LIST_8("rhsusf_20Rnd_762x51_m80_Mag")
 	};
 };
 class aar : r
@@ -140,7 +141,7 @@ class aar : r
     };
     backpackItems[] =
 	{
-		LIST_8("hlc_20Rnd_762x51_B_M14")
+		LIST_8("rhsusf_20Rnd_762x51_m80_Mag")
 	};
     linkedItems[] += {"Binocular"};
 };
@@ -153,7 +154,7 @@ class ab : r
     };
     backpackItems[] =
 	{
-		LIST_8("hlc_20Rnd_762x51_B_M14")
+		LIST_8("rhsusf_20Rnd_762x51_m80_Mag")
 	};
 };
 class eng : car

@@ -226,7 +226,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_mk17_LB"};
-    silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
+    silencer[] = {"rhsusf_acc_aac_scarh_silencer"};
     scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
     vest[] = {"rhsusf_plateframe_marksman"};

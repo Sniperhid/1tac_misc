@@ -153,18 +153,18 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman Stoner";
-    primaryWeapon[] = {"hlc_rifle_FAL5000_XMAG"};
+    primaryWeapon[] = {"CUP_arifle_M16A1"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
-        LIST_2("hlc_50rnd_762x51_M_FAL"),
+        "rhs_mag_100Rnd_556x45_M855_cmag",
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };
     backpackItems[] = 
     {
-        LIST_4("hlc_50rnd_762x51_M_FAL")
+        LIST_2("rhs_mag_100Rnd_556x45_M855_cmag")
     };
 };
 class ar2 : r
@@ -189,7 +189,7 @@ class aar : r
     displayName = "Assistant Automatic Rifleman Stoner";
     backpackItems[] =
     {
-        LIST_4("hlc_50rnd_762x51_M_FAL")
+        LIST_2("rhs_mag_100Rnd_556x45_M855_cmag")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -214,33 +214,34 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"hlc_rifle_M14_Bipod"};
-    scope[] = {"hlc_optic_artel_m14"};
+    primaryWeapon[] = {"rhs_weap_m14_rail"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     magazines[] =
     {
-        LIST_5("hlc_20Rnd_762x51_B_M14"),
+        LIST_5("rhsusf_20Rnd_762x51_m80_Mag"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
     backpackItems[] =
     {
-        LIST_3("hlc_20Rnd_762x51_B_M14")
+        LIST_3("rhsusf_20Rnd_762x51_m80_Mag")
     };
 };
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     magazines[] =
     {
-        "hlc_100Rnd_762x51_M_M60E4",
+        "rhsusf_100Rnd_762x51",
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
     };
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgac : r
@@ -248,7 +249,7 @@ class mmgac : r
     displayName = "MMG Ammo Carrier";
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -265,7 +266,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : car
