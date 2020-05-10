@@ -80,11 +80,14 @@ class r : baseMan
     attachment[] = {"rhsusf_acc_anpeq16a"};
     bipod[] = {};
     silencer[] = {"UK3CB_BAF_SFFH"};
+    sidearmWeapon[] = {"UK3CB_BAF_L131A1"};
+    sidearmAttachments[] = {"rhsusf_acc_omega9k", "uk3cb_baf_laser_l131a1"};
     magazines[] =
     {
         LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ")
     };
     items[] =
     {
@@ -114,7 +117,8 @@ class car : r
     {
         LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ")
     };
     //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
 };
@@ -143,6 +147,7 @@ class smg : r
     primaryWeapon[] = {"UK3CB_BAF_L119A1_CQB"};
 	scope[] = {"rhsusf_acc_g33_t1"};
     vest[] = {"lbt_light_coy"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_4("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
@@ -185,6 +190,7 @@ class co : sl
         LIST_2("rhs_mag_m714_White"),
         LIST_5("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -224,6 +230,7 @@ class ar : r
     magazines[] =
     {
         LIST_10("rhsusf_50Rnd_762x51"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -255,6 +262,7 @@ class dm : r
     magazines[] =
     {
         LIST_7("rhsusf_20Rnd_762x51_m993_Mag"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -267,6 +275,7 @@ class mmgg : ar
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51_m80a1epr"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -463,12 +472,11 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_XM2010_sa"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
         LIST_9("rhsusf_5Rnd_300winmag_xm2010"),
         LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_4("rhsusf_mag_17Rnd_9x19_FMJ")
     };
     backpack[] = {};
     linkedItems[] += {"ACE_Vector","ItemGPS"};

@@ -72,10 +72,12 @@ class r : baseMan
     };
     scope[] = {};
     silencer[] = {"rhs_acc_dtk1983"};
+    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
         LIST_9("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x18_8_57N181S"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -111,6 +113,7 @@ class car : r
     {
         LIST_6("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x18_8_57N181S"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -139,6 +142,7 @@ class smg : r
     displayName = "Submachinegunner";
     silencer[] = {"rhs_acc_pgs64_74u"};
     primaryWeapon[] = {"rhs_weap_aks74u"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N6M_AK"),
@@ -166,18 +170,13 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
-    magazines[] +=
-    {
-        LIST_3("rhs_mag_9x18_8_57N181S")
-    };
     items[] += {"ACE_Maptools"};
 };
 class co : sl
 {
     displayName = "Platoon Leader";
     magazines[] = {
-        LIST_3("rhs_mag_9x18_8_57N181S"),
+        LIST_2("rhs_mag_9x18_8_57N181S"),
         LIST_2("rhs_GRD40_Green"),
         LIST_3("rhs_GRD40_Red"),
         LIST_2("rhs_mag_nspd"),
@@ -217,10 +216,10 @@ class ar : r
     primaryWeapon[] = {"CUP_arifle_RPK74_45"};
     bipod[] = {};
     silencer[] = {};
-    sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_6("rhs_45Rnd_545X39_AK"),
+        LIST_8("rhs_45Rnd_545X39_AK"),
+        LIST_2("rhs_mag_9x18_8_57N181S"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -248,7 +247,6 @@ class dm : r
     silencer[] = {};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
-    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
         LIST_8("rhs_10Rnd_762x54mmR_7N1"),
@@ -260,13 +258,12 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     primaryWeapon[] = {"rhs_weap_pkm"};
-    sidearmWeapon[] = {};
     backpack[] = {"bear_rd54_green"};
     scope[] = {};
     magazines[] =
     {
-        LIST_3("rhs_100Rnd_762x54mmR"),
-        LIST_2("rhs_100Rnd_762x54mmR"),
+        LIST_5("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_mag_9x18_8_57N181S"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -288,6 +285,7 @@ class mmgag : aar
     {
         LIST_6("rhs_30Rnd_545x39_7N6M_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x18_8_57N181S"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -453,7 +451,6 @@ class sn : r
     primaryWeapon[] = {"40th_weap_svd_wood"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
-    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
         LIST_8("rhs_10Rnd_762x54mmR_7N1"),
@@ -533,7 +530,6 @@ class jp : baseMan
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
-    sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
         LIST_4("rhs_mag_9x18_8_57N181S")

@@ -73,10 +73,11 @@ class r : baseMan
     scope[] = {"rhsusf_acc_compm4"};
     attachment[] = {"rhsusf_acc_anpeq15_wmx"};
     bipod[] = {"rhsusf_acc_grip3"};
+    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_5("rhs_mag_30Rnd_556x45_Mk318_SCAR"),
-        LIST_4("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -94,8 +95,11 @@ class g : r
     displayName = "Grenadier";
     vest[] = {"rhsusf_iotv_ucp_Grenadier"};
     sidearmWeapon[] = {"rhs_weap_M320"};
-    magazines[] +=
+    magazines[] =
     {
+        LIST_9("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc"),
         LIST_6("rhs_mag_M441_HE"),
         LIST_4("rhs_mag_m714_White")
     };
@@ -105,10 +109,10 @@ class car : r
     displayName = "Carabinier";
     magazines[] =
     {
-        LIST_4("rhs_mag_30Rnd_556x45_Mk318_SCAR"),
-        LIST_4("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
-        LIST_2("rhs_mag_an_m8hc")
+        "rhs_mag_an_m8hc"
     };
     //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
 };
@@ -135,6 +139,7 @@ class smg : r
     displayName = "Submachinegunner";
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     scope[] = {};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_4("CUP_30Rnd_9x19_MP5"),
@@ -205,6 +210,7 @@ class ar : r
     magazines[] =
     {
         LIST_4("rhsusf_200Rnd_556x45_M855_soft_pouch_ucp"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -219,6 +225,7 @@ class aar : r
     {
         LIST_7("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_5("rhsusf_20Rnd_762x51_m62_Mag"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -242,6 +249,7 @@ class dm : r
     magazines[] =
     {
         LIST_6("rhs_mag_20Rnd_SCAR_762x51_m80_ball"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -253,7 +261,8 @@ class mmgg : ar
     scope[] = {"rhsusf_acc_ELCAN","rhsusf_acc_ELCAN_ard"};
     magazines[] =
     {
-        LIST_5("rhsusf_100Rnd_762x51_m80a1epr"),
+        LIST_5("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -459,12 +468,11 @@ class sn : r
     silencer[] = {"rhsusf_acc_m24_muzzlehider_d"};
     scope[] = {"rhsusf_acc_leupoldmk4_d"};
     bipod[] = {"rhsusf_acc_harris_swivel"};
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
         LIST_8("rhsusf_5Rnd_762x51_m118_special_Mag"),
         LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ")
     };
     backpack[] = {};
 };
@@ -570,10 +578,9 @@ class jp : baseMan
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
     };
     items[] =
     {
@@ -593,6 +600,7 @@ class eng : car
     magazines[] =
     {
         LIST_7("rhs_mag_30Rnd_556x45_Mk318_SCAR"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_an_m8hc"),        
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
     };

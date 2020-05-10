@@ -60,10 +60,12 @@ class r : baseMan
     bipod[] = {"rhs_acc_grip_ffg2", "rhs_acc_grip_rk6"};
     attachment[] = {"rhs_acc_perst3"};
     scope[] = {"rhs_acc_1p87"};
+    sidearmWeapon[] = {"rhs_weap_6p53"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_545x39_7N22_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_plum_green"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgn",
         "rhs_mag_rgo",
         "rhs_mag_rdg2_white"
@@ -87,6 +89,7 @@ class r_akms : r
     {
         LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_30Rnd_762x39mm_polymer_tracer"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgn",
         "rhs_mag_rgo",
         "rhs_mag_rdg2_white"
@@ -133,8 +136,9 @@ class smg : r
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_ak105"};
     silencer[] = {"rhs_acc_pgs64"};
-       attachment[] = {"rhs_acc_perst1ik"};
-       scope[] = {"rhs_acc_1p63"};
+    attachment[] = {"rhs_acc_perst1ik"};
+    scope[] = {"rhs_acc_1p63"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_5("rhs_30Rnd_545x39_7N22_AK"),
@@ -182,6 +186,7 @@ class co : sl
         LIST_2("rhs_GRD40_White"),
         LIST_6("rhs_30Rnd_545x39_7N22_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_plum_green"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgn",
         "rhs_mag_rdg2_white"
     };
@@ -220,6 +225,7 @@ class ar : r
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgn",
         "rhs_mag_rdg2_white"
     };
@@ -249,6 +255,7 @@ class dm : r
     magazines[] =
     {
         LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgn",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -261,6 +268,7 @@ class mmgg : ar
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgn",
         "rhs_mag_rdg2_white"
     };
@@ -440,7 +448,7 @@ class sn : r
     {
         LIST_6("rhs_5Rnd_338lapua_t5000"),
         "rhs_mag_rgn",
-        LIST_3("rhs_18rnd_9x21mm_7N29")
+        LIST_3("rhs_18rnd_9x21mm_7BT3")
     };
     backpack[] = {};
     linkedItems[] += {"rhs_pdu4","ItemGPS"};
@@ -517,7 +525,7 @@ class jp : baseMan
     sidearmWeapon[] = {"rhs_weap_6p53"};
     magazines[] =
     {
-        LIST_4("rhs_18rnd_9x21mm_7N29")
+        LIST_4("rhs_18rnd_9x21mm_7BT3")
     };
     items[] =
     {

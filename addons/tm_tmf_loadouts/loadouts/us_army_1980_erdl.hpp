@@ -53,10 +53,12 @@ class r : baseMan
     primaryWeapon[] = {"CUP_arifle_M16A1"};
     scope[] = {};
     attachment[] = {};
+    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
         LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        LIST_2("rhsusf_mag_7x45acp_MHP"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -106,6 +108,7 @@ class smg : r
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_m3a1"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_5("rhsgref_30rnd_1143x23_M1911B_SMG"),
@@ -127,13 +130,9 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     vest[] = {"usm_vest_lbe_rmp"};
     backPack[] = {"usm_pack_st138_prc77"};
     items[] += {"ACE_Maptools"};
-    magazines[] += {
-        "rhsusf_mag_7x45acp_MHP"
-    };
 };
 class co : sl
 {
@@ -146,7 +145,7 @@ class co : sl
         LIST_4("1Rnd_Smoke_Grenade_shell"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
-        "rhsusf_mag_7x45acp_MHP"
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
     backpackItems[] = {};
 };
@@ -180,6 +179,7 @@ class ar : r
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_mag_7x45acp_MHP"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -208,6 +208,7 @@ class dm : r
     magazines[] =
     {
         LIST_10("rhsusf_20Rnd_762x51_m80_Mag"),
+        LIST_2("rhsusf_mag_7x45acp_MHP"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -221,6 +222,7 @@ class mmgg : ar
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_mag_7x45acp_MHP"),
         "rhs_mag_an_m8hc"
     };
 };
@@ -375,7 +377,6 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_m14_rail"};
     scope[] = {"optic_khs_old"};
     bipod[] = {"rhsusf_acc_m14_bipod"};
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
         LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),

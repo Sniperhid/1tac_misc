@@ -60,9 +60,12 @@ class r : baseMan
     attachment[] = {"rhsusf_acc_anpeq15_bk"};
     bipod[] = {"rhsusf_acc_rvg_blk","rhsusf_acc_rvg_de","rhsusf_acc_tdstubby_blk","rhsusf_acc_grip3","rhsusf_acc_grip2"};
     silencer[] = {"rhsusf_acc_sfmb556","rhsusf_acc_sf3p556"};
+    sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
+    sidearmAttachments[] = {"acc_flashlight_pistol"};
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -93,8 +96,9 @@ class car : r
     magazines[] =
     {
         LIST_8("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc"
     };
     //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
 };
@@ -121,6 +125,7 @@ class smg : r
 {
     displayName = "Submachinegunner";
     vest[] = {"lbt_light_mc"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_4("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
@@ -163,6 +168,7 @@ class co : sl
         LIST_2("rhs_mag_m714_White"),
         LIST_5("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -202,6 +208,7 @@ class ar : r
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -233,6 +240,7 @@ class dm : r
     {
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_mk316_special"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -249,6 +257,7 @@ class mmgg : ar
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51_m80a1epr"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -259,7 +268,7 @@ class mmgac : r
     backpack[] = {"B_AssaultPack_mcamo"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_762x51")
+        LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
     };
 };
 class mmgag : aar
@@ -276,7 +285,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_762x51")
+        LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
     };
 };
 class hmgg : car
@@ -444,12 +453,11 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_XM2010_sa"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
         LIST_9("rhsusf_5Rnd_300winmag_xm2010"),
         LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ")
     };
     backpack[] = {};
     linkedItems[] += {"ACE_Vector","ItemGPS"};
@@ -556,10 +564,9 @@ class jp : baseMan
     backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_4("rhsusf_mag_17Rnd_9x19_FMJ")
     };
     items[] =
     {
@@ -579,6 +586,7 @@ class eng : car
     {
         LIST_5("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_an_m8hc"),        
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
     };

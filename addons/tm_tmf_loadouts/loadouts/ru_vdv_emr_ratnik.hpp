@@ -66,10 +66,12 @@ class r : baseMan
     };
     silencer[] = {"rhs_acc_dtk"};
     scope[] = {"rhs_acc_1p78"};
+    sidearmWeapon[] = {"rhs_weap_pya"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -93,6 +95,7 @@ class r_akms : r // as seen in crimea and syria
     {
         LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_30Rnd_762x39mm_polymer_tracer"),
+        LIST_2("rhs_mag_9x19_17"),
         LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white"
     };
@@ -136,6 +139,7 @@ class smg : r
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_ak105"};
     silencer[] = {"rhs_acc_pgs64"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -183,6 +187,7 @@ class co : sl
         LIST_2("rhs_GRD40_White"),
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -217,10 +222,10 @@ class ar : r
     bipod[] = {};
     silencer[] = {};
     backpack[] = {"B_Carryall_oli"};
-    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -250,6 +255,7 @@ class dm : r
     magazines[] =
     {
         LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -259,10 +265,10 @@ class mmgg : ar
     displayName = "MMG Gunner";
     backpack[] = {"B_Carryall_oli"};
     primaryWeapon[] = {"CUP_lmg_Pecheneg"};
-    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -451,7 +457,6 @@ class sp : sn
 {
     displayName = "Spotter";
     vest[] = {"rhs_6sh92_radio"};
-    sidearmWeapon[] = {};
     scope[] = {"rhs_acc_1p78"};
     silencer[] = {"rhs_acc_dtk"};
     primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_2mag","rhs_weap_ak74m_plummag","rhs_weap_ak74m_camo","rhs_weap_ak74m_2mag_camo"};
@@ -459,6 +464,7 @@ class sp : sn
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white"),
         LIST_3("rhs_VOG25"),

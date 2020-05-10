@@ -66,11 +66,13 @@ class r : baseMan
     scope[] = {"rhsusf_acc_acog", "rhsusf_acc_acog2", "rhsusf_acc_acog3"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_SF3P556","rhsusf_acc_SFMB556"};
+    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
         LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
         LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
     items[] =
     {
@@ -93,7 +95,8 @@ class g : r
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_5("rhs_mag_M441_HE"),
-        LIST_4("rhs_mag_m714_White")
+        LIST_4("rhs_mag_m714_White"),
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 };
 class car : r
@@ -124,6 +127,7 @@ class smg : r
     vest[] = {"rhsusf_spc_light"};
     scope[] = {};
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_6("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
@@ -201,7 +205,8 @@ class ar_m249 : r
     {
         LIST_6("rhsusf_100Rnd_556x45_soft_pouch"),
         "rhs_mag_m67",
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 };
 class aar_m249 : r
@@ -225,7 +230,8 @@ class ar : r
     {
         LIST_9("tac1_tm_mag_compat_60Rnd_556x45_Mk318_Surefire"),
         "rhs_mag_m67",
-        "rhs_mag_an_m8hc"
+        "rhs_mag_an_m8hc",
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 };
 class aar : r
@@ -254,7 +260,8 @@ class dm : r
     {
         LIST_10("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
         LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 };
 class mmgg : ar
@@ -269,7 +276,7 @@ class mmgg : ar
         LIST_2("rhsusf_100Rnd_762x51_m80a1epr"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 };
 class mmgac : r
@@ -471,12 +478,11 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_m40a5_wd"};
     scope[] = {"rhsusf_acc_m8541_low_wd"};
     bipod[] = {"rhsusf_acc_harris_swivel"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
         LIST_8("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
         LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_4("rhsusf_mag_7x45acp_MHP")
     };
     backpack[] = {};
     linkedItems[] += {"ACE_Vector","ItemGPS"};
@@ -489,12 +495,12 @@ class sp : sn
     scope[] = {"rhsusf_acc_ACOG3"};
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_pmag"};
     silencer[] = {"rhsusf_acc_SF3P556"};
-    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_9("rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull"),
         LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc")
+        LIST_2("rhs_mag_an_m8hc"),
+        LIST_2("rhsusf_mag_7x45acp_MHP")
     };
 };
 class vc : smg
