@@ -250,6 +250,12 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_sf_delta_1993_dcu.hpp"
     };
+    class US_ARMY_SF_DELTA_1993_M81
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (1993, M81)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_1993_m81.hpp"
+    };
     class US_ARMY_SF_DELTA_MC
     {
         displayName = "US Army SFOD-D (CAG/Delta) (2017-, Multicam)";
