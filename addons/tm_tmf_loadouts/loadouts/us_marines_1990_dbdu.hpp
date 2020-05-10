@@ -1,7 +1,7 @@
 /* assignGear specific macros */
 //Compatible with ACE Advanced Medical
 
-// dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14
+// dependencies: US military mod, RHS USF, CUP weapons + units
 // originally by Snippers
 
 /* HEAVY BACKPACK - B_Carryall_oli */
@@ -97,7 +97,7 @@ class car : r
 };
 class m : car
 {
-    displayName = "Medic";
+    displayName = "Corpsman";
     backpack[] = {"usm_pack_m5_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -207,12 +207,12 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"hlc_rifle_m14dmr"};
-    scope[] = {"hlc_optic_artel_m14"};
-    bipod[] = {};
+    primaryWeapon[] = {"rhs_weap_m14_rail"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     magazines[] =
     {
-        LIST_10("hlc_20Rnd_762x51_B_M14"),
+        LIST_10("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };

@@ -40,3 +40,4 @@ force force diwako_dui_compassRange = 50;
 force force diwako_dui_enable_occlusion = false;
 force force diwako_dui_indicators_show = false;
 acex_sitting_enable = true;
+force ace_parachute_hideAltimeter = true;

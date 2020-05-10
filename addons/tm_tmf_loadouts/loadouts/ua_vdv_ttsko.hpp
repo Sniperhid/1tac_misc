@@ -1,7 +1,7 @@
 // in case of fire, tell Bear
 //Compatible with ACE Advanced Medical
 
-// dependencies: RHS: AFRF + GREF, HLC AKs, bearskins otv, bear reinf ukraine
+// dependencies: RHS: AFRF + GREF, bearskins otv, bear reinf ukraine
 
 tooltip = "Author: Bear\n\n5.45mm rifles. Suitable for the Ukrainian conflict.";
 

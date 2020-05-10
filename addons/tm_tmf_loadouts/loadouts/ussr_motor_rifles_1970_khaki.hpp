@@ -1,7 +1,7 @@
 // in case of fire, tell Bear
 //Compatible with ACE Advanced Medical
 
-// dependencies: RHS: AFRF + GREF, HLC AKs
+// dependencies: RHS: AFRF + GREF
 
 tooltip = "Author: Bear\n\nAKMs, no body armor.";
 

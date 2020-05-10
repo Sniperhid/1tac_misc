@@ -112,7 +112,7 @@ class car : r
 };
 class m : car
 {
-    displayName = "Medic";
+    displayName = "Corpsman";
     vest[] = {"rhsusf_spc_corpsman"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -198,7 +198,7 @@ class fac : co
     };
 };
 
-class ar : r
+class ar_m249 : r
 {
     displayName = "Automatic Rifleman (M249)";
     primaryWeapon[] = {"rhs_weap_m249_pip_S_para"};
@@ -211,7 +211,7 @@ class ar : r
         LIST_2("rhs_mag_an_m8hc")
     };
 };
-class aar : r
+class aar_m249 : r
 {
     displayName = "Ass. Automatic Rifleman (M249)";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
@@ -222,24 +222,26 @@ class aar : r
     linkedItems[] += {"Binocular"};
 };
 
-class ar_m27iar : r
+class ar : r
 {
     displayName = "Automatic Rifleman (M27 IAR)";
-    primaryWeapon[] = {"rhs_weap_m27iar"};
-    bipod[] = {"rhsusf_acc_harris_bipod", "rhsusf_acc_grip3"};
+    primaryWeapon[] = {"rhs_weap_m27iar_grip"};
+    bipod[] = {"rhsusf_acc_harris_bipod"};
     vest[] = {"rhsusf_spc_iar"};
-    magazines[] +=
+    magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+        LIST_9("tac1_tm_mag_compat_60Rnd_556x45_Mk318_Surefire"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc"
     };
 };
-class aar_m27iar : r
+class aar : r
 {
     displayName = "Ass. Automatic Rifleman (M27 IAR)";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+        LIST_6("tac1_tm_mag_compat_60Rnd_556x45_Mk318_Surefire")
     };
     linkedItems[] += {"Binocular"};
 };

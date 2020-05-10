@@ -179,11 +179,11 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     backpack[] = {"B_Carryall_oli"};
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60E4_norail"};
     bipod[] = {};
     magazines[] =
     {
-        LIST_4("hlc_100Rnd_762x51_M_M60E4"),
+        LIST_4("rhsusf_100Rnd_762x51"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -194,7 +194,7 @@ class aar : r
     backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -206,12 +206,12 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
-    bipod[] = {};
+    primaryWeapon[] = {"rhs_weap_m14_rail_wd"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     magazines[] =
     {
-        LIST_8("hlc_20Rnd_762x51_B_M14"),
+        LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -220,11 +220,11 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     backpack[] = {"B_Carryall_oli"};
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60E4_norail"};
     scope[] = {};
     magazines[] =
     {
-        LIST_6("hlc_100Rnd_762x51_M_M60E4"),
+        LIST_6("rhsusf_100Rnd_762x51"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -235,7 +235,7 @@ class mmgac : r
     backpack[] = {"usm_pack_762x51_ammobelts"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -251,7 +251,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : car
@@ -398,13 +398,13 @@ class sn : r
     uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
     headgear[] = {};
     goggles[] = {"default"};
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
-    bipod[] = {};
+    primaryWeapon[] = {"rhs_weap_m14_rail_wd"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_8("hlc_20Rnd_762x51_mk316_M14"),
+        LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_2("rhs_mag_m67"),
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
     };

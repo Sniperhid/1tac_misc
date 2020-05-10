@@ -2,7 +2,7 @@
 //Compatible with ACE Advanced Medical
 
 // this is now 1986! science!
-// dependencies: US military mod, RHS USF, CUP weapons + units, HLC m60 + m14, hlc_rifle_g3a3v
+// dependencies: US military mod, RHS USF, CUP weapons + units, hlc_rifle_g3a3v
 // originally by Fingers, adapted by CyDoN
 
 tooltip = "WARNING: MAT role is NOT RHS compatible (By CyDoN)";
@@ -225,7 +225,7 @@ class dm : r
     bipod[] = {};
     magazines[] =
     {
-        LIST_10("hlc_20Rnd_762x51_B_M14"),
+        LIST_10("hlc_20rnd_762x51_MDim_G3"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };

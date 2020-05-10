@@ -327,8 +327,8 @@ class hmgag : car
 class matg : car
 {
     displayName = "MAT Gunner";
-    secondaryWeapon[] = {"rhs_weap_maaws"};
-    secondaryAttachments[] = {"rhs_optic_maaws"};
+    secondaryWeapon[] = {"launch_MRAWS_green_rail_F"};
+    secondaryAttachments[] = {"rhsusf_acc_anpeq15side"};
     backpack[] = {"UK3CB_BAF_B_Carryall_OLI"};
     magazines[] +=
     {

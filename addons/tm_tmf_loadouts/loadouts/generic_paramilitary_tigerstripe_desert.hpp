@@ -206,12 +206,12 @@ class dm : r
 {
     displayName = "Designated Marksman";
     vest[] = {"CUP_V_B_Eagle_SPC_DMR"};
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
-    bipod[] = {};
+    primaryWeapon[] = {"rhs_weap_m14_ris_d"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     magazines[] =
     {
-        LIST_8("hlc_20Rnd_762x51_B_M14"),
+        LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -384,13 +384,13 @@ class sn : r
     uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
     headgear[] = {};
     goggles[] = {"default"};
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
-    bipod[] = {};
+    primaryWeapon[] = {"rhs_weap_m14_ris_d"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_8("hlc_20Rnd_762x51_mk316_M14"),
+        LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_2("rhs_mag_m67"),
         LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
     };

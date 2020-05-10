@@ -213,7 +213,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_sr25"};
-    scope[] = {"hlc_optic_leupoldm3a"};
+    scope[] = {"optic_khs_old"};
     magazines[] =
     {
         LIST_6("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),

@@ -1,7 +1,7 @@
 // in case of fire, tell Bear
 //Compatible with ACE Advanced Medical
 
-// dependencies: RHS: AFRF + GREF, Bearskins, HLC AKs
+// dependencies: RHS: AFRF + GREF, Bearskins
 tooltip = "Author: Bear\n\nAK-74s, 6B5 body armor.";
 
 class baseMan {// Weaponless baseclass

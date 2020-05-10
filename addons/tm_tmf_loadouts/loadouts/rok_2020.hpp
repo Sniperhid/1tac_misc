@@ -178,12 +178,12 @@ class dm : r
 class mmgg : ar
 {
 	displayName = "MMG Gunner";
-	primaryWeapon[] = {"hlc_lmg_M60E4"};
+	primaryWeapon[] = {"CUP_lmg_M60E4"};
     backPack[] = {"rhssaf_alice_smb"};
 	scope[] = {};
 	magazines[] =
 	{
-		LIST_4("hlc_100Rnd_762x51_M_M60E4"),
+		LIST_4("rhsusf_100Rnd_762x51"),
 		"HandGrenade",
 		"SmokeShell",
 		LIST_2("UK3CB_BAF_9_15Rnd")
@@ -195,7 +195,7 @@ class mmgac : r
     backPack[] = {"rhssaf_alice_smb"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -212,7 +212,7 @@ class mmgag : aar
 	};
 	backpackItems[] =
 	{
-		LIST_3("hlc_100Rnd_762x51_M_M60E4")
+		LIST_3("rhsusf_100Rnd_762x51")
 	};
 };
 class hmgg : car
@@ -377,7 +377,7 @@ class sn : r
     displayName = "Sniper";
     headgear[] = {};
     primaryWeapon[] = {"rhs_weap_XM2010"};
-    scope[] = {"hlc_optic_ZF95Base"};
+    scope[] = {"optic_khs_old"};
 	bipod[] = {"rhsusf_acc_harris_bipod"};
     magazines[] =
     {

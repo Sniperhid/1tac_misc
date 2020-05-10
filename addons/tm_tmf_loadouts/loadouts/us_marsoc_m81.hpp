@@ -152,7 +152,7 @@ class car : r
 };
 class m : car
 {
-    displayName = "Medic";
+    displayName = "Corpsman";
     backpack[] = {"rhsusf_falconii_coy"};
     vest[] = {"rhsusf_mbav_medic"};
     backpackItems[] = {
@@ -260,7 +260,30 @@ class fac : co
 };
 class ar : r
 {
-    displayName = "Automatic Rifleman";
+    displayName = "Automatic Rifleman (M27 IAR)";
+    backpack[] = {"rhsusf_assault_eagleaiii_coy"};
+    primaryWeapon[] = {"rhs_weap_m27iar_grip"};
+    bipod[] = {"rhsusf_acc_harris_bipod"};
+    magazines[] =
+    {
+        LIST_9("tac1_tm_mag_compat_60Rnd_556x45_Mk318_Surefire"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m8hc"
+    };
+};
+class aar : r
+{
+    displayName = "Ass. Automatic Rifleman (M27 IAR)";
+    backpack[] = {"rhsusf_assault_eagleaiii_coy"};
+    backpackItems[] =
+    {
+        LIST_6("tac1_tm_mag_compat_60Rnd_556x45_Mk318_Surefire")
+    };
+    linkedItems[] += {"Binocular"};
+};
+class ar_m249 : r
+{
+    displayName = "Automatic Rifleman (M249)";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     primaryWeapon[] = {"rhs_weap_m249_light_S"};
     bipod[] = {"rhsusf_acc_grip4_bipod"};
@@ -275,9 +298,9 @@ class ar : r
     };
     secondaryWeapon[] = {};
 };
-class aar : r
+class aar_m249 : r
 {
-    displayName = "Assistant Automatic Rifleman";
+    displayName = "Assistant Automatic Rifleman (M249)";
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     backpackItems[] =
     {
@@ -295,7 +318,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_mk17_LB"};
-    silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
+    silencer[] = {"rhsusf_acc_aac_scarh_silencer"};
     scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
     vest[] = {"rhsusf_mbav_light"};

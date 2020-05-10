@@ -229,12 +229,13 @@ class rhe : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"hlc_rifle_M21"};
-    scope[] = {"hlc_optic_artel_m14"};
+    primaryWeapon[] = {"rhs_weap_m14_rail_wd"};
+    scope[] = {"optic_khs_old"};
+    bipod[] = {"rhsusf_acc_m14_bipod"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_5("20Rnd_762x51_Mag"),
+        LIST_5("rhsusf_20Rnd_762x51_m80_Mag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -242,12 +243,12 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60E4_norail"};
     backPack[] = {"usm_pack_762x51_ammobelts"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_4("hlc_100Rnd_762x51_B_M60E4"),
+        LIST_4("rhsusf_100Rnd_762x51"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         LIST_2("rhsusf_mag_7x45acp_MHP")
@@ -259,7 +260,7 @@ class mmgac : r
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_B_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : ftl
@@ -268,7 +269,7 @@ class mmgag : ftl
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_B_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : car

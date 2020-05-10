@@ -1,6 +1,6 @@
 /* assignGear specific macros */
 
-// dependencies: US military mod, RHS USF, CUP units, HLC m60 + m14, mbg_m16a2, RHS SAF, RHS GREF, 3CB Weapons, ACE
+// dependencies: US military mod, RHS USF, CUP units, mbg_m16a2, RHS SAF, RHS GREF, 3CB Weapons, ACE
 /* Originally by Morbo */
 
 //tooltip = "Author: Snippers"; //confirm
@@ -61,10 +61,10 @@ class r : baseMan
     };
     vest[] = {"usm_vest_LBE_rm"};
     backpack[] = {"CUP_B_AlicePack_Khaki"};
-    primaryWeapon[] = {"hlc_rifle_M14"};
+    primaryWeapon[] = {"rhs_weap_m14"};
     magazines[] =
     {
-        LIST_7("hlc_20Rnd_762x51_B_M14"),
+        LIST_7("rhsusf_20Rnd_762x51_m80_Mag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -234,12 +234,12 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     backPack[] = {"usm_pack_762x51_ammobelts"};
     vest[] = {"usm_vest_LBE_mg"};
     magazines[] =
     {
-        LIST_4("hlc_100Rnd_762x51_M_M60E4"),
+        LIST_4("rhsusf_100Rnd_762x51"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -250,7 +250,7 @@ class aar : ra
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
     linkedItems[] += {"rhssaf_zrak_rd7j"};
 };
@@ -266,7 +266,8 @@ class rat : car
 class dm : r
 {
     displayName = "Designated Marksman";
-    scope[] = {"hlc_optic_artel_m14"};
+    primaryWeapon[] = {"rhs_weap_m14_rail"};
+    scope[] = {"optic_khs_old"};
 };
 class mmgg : ar
 {
@@ -278,7 +279,7 @@ class mmgac : ra
     backPack[] = {"usm_pack_762x51_bandoliers"};
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : r
@@ -294,7 +295,7 @@ class mmgag : r
     };
     backpackItems[] =
     {
-        LIST_3("hlc_100Rnd_762x51_M_M60E4")
+        LIST_3("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : smg
@@ -465,7 +466,6 @@ class sn : dm
 {
     displayName = "Sniper";
     headgear[] = {"usm_bdu_boonie_odg"};
-    primaryWeapon[] = {"hlc_rifle_M21"};
 };
 class sp : rm
 {

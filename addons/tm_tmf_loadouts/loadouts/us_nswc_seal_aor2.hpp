@@ -36,7 +36,7 @@ class baseMan {// Weaponless baseclass
     linkedItems[] = {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch"
+        "ACE_Altimeter"
     };
 
     // These are put into the backpack
@@ -179,7 +179,7 @@ class ftl : g
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -205,7 +205,7 @@ class fac : co
     linkedItems[] = {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "ItemGPS",
         "ACE_Vector"
     };
@@ -255,7 +255,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_mk17_LB"};
-    silencer[] = {"rhsusf_acc_aac_762sd_silencer"};
+    silencer[] = {"rhsusf_acc_aac_scarh_silencer"};
     scope[] = {"rhsusf_acc_M8541_mrds"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
     attachment[] = {"rhsusf_acc_anpeq15side"};
@@ -302,7 +302,7 @@ class mmgag : aar
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -331,7 +331,7 @@ class hmgag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -339,13 +339,14 @@ class hmgag : car
 class matg : car
 {
     displayName = "MAT Gunner";
-    secondaryWeapon[] = {"rhs_weap_smaw_green"};
-    secondaryAttachments[] = {"rhs_weap_optic_smaw"};
+    secondaryWeapon[] = {"launch_MRAWS_green_rail_F"};
+    secondaryAttachments[] = {"rhsusf_acc_anpeq15side"};
     backpack[] = {"B_Carryall_oli"};
     magazines[] +=
     {
-        LIST_2("rhs_mag_smaw_HEDP"),
-        LIST_3("rhs_mag_smaw_SR")
+        "rhs_mag_maaws_HEAT",
+        "rhs_mag_maaws_HEDP",
+        "rhs_mag_maaws_HE"
     };
 };
 class matac : r
@@ -354,8 +355,9 @@ class matac : r
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
-        LIST_2("rhs_mag_smaw_HEDP"),
-        "rhs_mag_smaw_SR"
+        "rhs_mag_maaws_HEAT",
+        "rhs_mag_maaws_HEDP",
+        "rhs_mag_maaws_HE"
     };
 };
 class matag : car
@@ -367,14 +369,15 @@ class matag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
     backpackItems[] =
     {
-        LIST_2("rhs_mag_smaw_HEDP"),
-        "rhs_mag_smaw_SR"
+        "rhs_mag_maaws_HEAT",
+        "rhs_mag_maaws_HEDP",
+        "rhs_mag_maaws_HE"
     };
 };
 class hatg : car
@@ -409,7 +412,7 @@ class hatag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -422,7 +425,7 @@ class mtrg : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "ItemGPS"
     };
 };
@@ -439,7 +442,7 @@ class mtrag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -462,7 +465,7 @@ class samag : car
     {
         "ItemMap",
         "ItemCompass",
-        "ItemWatch",
+        "ACE_Altimeter",
         "lerca_1200_tan",
         "ItemGPS"
     };
@@ -603,7 +606,7 @@ class jp : baseMan
         "ACE_morphine",
         "ACE_tourniquet"
     };
-    linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+    linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ACE_Altimeter"};
 };
 class eng : car
 {

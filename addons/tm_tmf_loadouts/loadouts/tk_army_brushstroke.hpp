@@ -1,7 +1,7 @@
 // in case of fire, tell Bear
 //Compatible with ACE Advanced Medical
 
-// dependencies: RHS (all), HLC AKs + FALs + M60, CUP Weapons + Units, Bearskins
+// dependencies: RHS (all), CUP Weapons + Units, Bearskins
 
 tooltip = "Author: Bear\n\nMimics my Takistani faction.";
 
@@ -182,11 +182,11 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     backpack[] = {"B_Carryall_cbr"};
-    primaryWeapon[] = {"hlc_lmg_M60E4"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     bipod[] = {};
     magazines[] =
     {
-        LIST_5("hlc_100Rnd_762x51_B_M60E4"),
+        LIST_5("rhsusf_100Rnd_762x51"),
         "rhs_mag_f1",
         "rhs_mag_rdg2_white"
     };
@@ -197,7 +197,7 @@ class aar : r
     backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_5("hlc_100Rnd_762x51_B_M60E4")
+        LIST_5("rhsusf_100Rnd_762x51")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -227,11 +227,11 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     backpack[] = {"B_Carryall_cbr"};
-    primaryWeapon[] = {"hlc_lmg_m60"};
+    primaryWeapon[] = {"CUP_lmg_M60"};
     scope[] = {};
     magazines[] =
     {
-        LIST_5("hlc_100Rnd_762x51_B_M60E4"),
+        LIST_5("rhsusf_100Rnd_762x51"),
         "rhs_mag_f1",
         "rhs_mag_rdg2_white"
     };
@@ -242,7 +242,7 @@ class mmgac : r
     backpack[] = {"B_Carryall_cbr"};
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_B_M60E4")
+        LIST_4("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -257,7 +257,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_4("hlc_100Rnd_762x51_B_M60E4")
+        LIST_4("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : car

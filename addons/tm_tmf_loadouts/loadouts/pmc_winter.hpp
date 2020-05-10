@@ -396,7 +396,7 @@ class sn : r
     displayName = "Sniper";
     headgear[] = {};
     primaryWeapon[] = {"hlc_rifle_psg1"};
-    bipod[] = {"HLC_bipod_UTGShooters"};
+    bipod[] = {"rhsusf_acc_harris_bipod"};
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
