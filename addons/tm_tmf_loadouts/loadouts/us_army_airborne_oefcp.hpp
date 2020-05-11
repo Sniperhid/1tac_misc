@@ -56,10 +56,12 @@ class r : baseMan
     primaryWeapon[] = {"rhs_weap_m4a1_pmag","rhs_weap_m4a1_mstock","rhs_weap_m4a1"};
     scope[] = {"rhsusf_acc_compm4"};
     attachment[] = {};
+    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
         LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -89,6 +91,7 @@ class car : r
     magazines[] =
     {
         LIST_8("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -116,6 +119,7 @@ class smg : r
 {
     displayName = "Submachinegunner";
     //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_6("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
@@ -138,11 +142,6 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
-    magazines[] +=
-    {
-        "rhsusf_mag_15Rnd_9x19_FMJ"
-    };
     items[] += {"ACE_Maptools"};
     linkedItems[] =
     {
@@ -157,7 +156,7 @@ class co : sl
 {
     displayName = "Platoon Leader";
     magazines[] = {
-        "rhsusf_mag_15Rnd_9x19_FMJ",
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m715_Green"),
         LIST_3("rhs_mag_m713_Red"),
         LIST_2("rhs_mag_m18_green"),
@@ -202,6 +201,7 @@ class ar : r
     magazines[] =
     {
         LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -231,6 +231,7 @@ class dm : r
     magazines[] =
     {
         LIST_10("rhsusf_20Rnd_762x51_SR25_m118_special_Mag"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -242,11 +243,10 @@ class mmgg : ar
     vest[] = {"rhsusf_spcs_ocp_saw", "rhsusf_spcs_ocp_machinegunner"};
     magazines[] =
     {
-        LIST_4("rhsusf_100Rnd_762x51"),
-        LIST_2("rhsusf_100Rnd_762x51_m80a1epr"),
+        LIST_6("rhsusf_100Rnd_762x51"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ")
     };
 };
 class mmgac : r
@@ -441,7 +441,6 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_XM2010_sa"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
         LIST_9("rhsusf_5Rnd_300winmag_xm2010"),
@@ -565,6 +564,7 @@ class eng : car
     {
         LIST_5("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_an_m8hc"),        
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
     };

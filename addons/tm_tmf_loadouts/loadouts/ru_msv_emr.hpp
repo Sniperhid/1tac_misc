@@ -57,12 +57,14 @@ class r : baseMan
     primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m_2mag"};
     scope[] = {};
     silencer[] = {"rhs_acc_dtk"};
+    sidearmWeapon[] = {"rhs_weap_pya"};
     magazines[] =
     {
         LIST_11("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
         LIST_2("rhs_mag_rgd5"),
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_mag_rdg2_white"),
+        LIST_2("rhs_mag_9x19_17")
     };
     items[] =
     {
@@ -92,6 +94,7 @@ class car : r
     {
         LIST_9("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x19_17"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -120,6 +123,7 @@ class smg : r
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_aks74u"};
     silencer[] = {"rhs_acc_pgs64"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -147,19 +151,14 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhs_weap_pya"};
     vest[] = {"rhs_6b23_digi_6sh92_headset_mapcase"};
-    magazines[] +=
-    {
-        LIST_3("rhs_mag_9x19_17")
-    };
     items[] += {"ACE_Maptools"};
 };
 class co : sl
 {
     displayName = "Platoon Leader";
     magazines[] = {
-        LIST_3("rhs_mag_9x19_17"),
+        LIST_2("rhs_mag_9x19_17"),
         LIST_2("rhs_GRD40_Green"),
         LIST_3("rhs_GRD40_Red"),
         LIST_2("SmokeShellGreen"),
@@ -207,6 +206,7 @@ class ar : r
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -237,6 +237,7 @@ class dm : r
     magazines[] =
     {
         LIST_12("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -250,8 +251,8 @@ class mmgg : ar
     scope[] = {"rhs_acc_1p29"};
     magazines[] =
     {
-        LIST_4("rhs_100Rnd_762x54mmR"),
-        LIST_2("rhs_100Rnd_762x54mmR"),
+        LIST_5("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -471,7 +472,7 @@ class sp : sn
         LIST_2("rhs_mag_rdg2_white"),
         LIST_4("rhs_VOG25"),
         LIST_4("rhs_GRD40_White"),
-        LIST_4("rhs_mag_9x19_17")
+        LIST_2("rhs_mag_9x19_17")
     };
 };
 class vc : smg

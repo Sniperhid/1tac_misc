@@ -89,10 +89,12 @@ class r : baseMan
     attachment[] = {"rhs_acc_perst3_2dp_light_h"};
     scope[] = {"cup_optic_elcan_specterdr_black", "cup_optic_elcan_specterdr_kf_black"};
     bipod[] = {LIST_2("rhs_acc_grip_ffg2"),LIST_2("rhs_acc_grip_rk6"),"rhsusf_acc_grip2"};
+    sidearmWeapon[] = {"rhs_weap_6p53"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_7N22_desert_AK"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -150,6 +152,7 @@ class smg : r
     scope[] = {"rhsusf_acc_T1_low"};
     bipod[] = {};
     attachment[] = {"rhs_acc_2dpZenit_ris"};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_5("CUP_30Rnd_9x19AP_Vityaz"),
@@ -191,6 +194,7 @@ class co : sl
         LIST_2("rhs_GRD40_White"),
         LIST_4("rhs_30Rnd_545x39_7N10_AK"),
         LIST_3("rhs_30Rnd_545x39_7N22_desert_AK"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -226,10 +230,10 @@ class ar : r
     scope[] = {"rhs_acc_1p78"};
     bipod[] = {};
     silencer[] = {"cup_muzzle_mfsup_flashhider_pk_tan"};
-    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR_7N26"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -243,12 +247,12 @@ class aar : r
         LIST_4("rhs_100Rnd_762x54mmR_7N26")
     };
     linkedItems[] += {"Binocular"};
-    
     primaryWeapon[] = {"rhs_weap_ak104_zenitco01_b33"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_4("rhs_30Rnd_762x39mm_polymer_tracer"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -276,6 +280,7 @@ class dm : r
     {
         LIST_4("rhs_10rnd_9x39mm_SP5"),
         LIST_4("rhs_10rnd_9x39mm_SP6"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -284,11 +289,11 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     primaryWeapon[] = {"CUP_lmg_Pecheneg_desert"};
-    sidearmWeapon[] = {};
     scope[] = {"rhs_acc_1p78"};
     magazines[] =
     {
         LIST_5("rhs_100Rnd_762x54mmR_7N26"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -478,9 +483,8 @@ class sn : r
     sidearmWeapon[] = {"rhs_weap_6p53"};
     magazines[] =
     {
-        LIST_6("rhs_5Rnd_338lapua_t5000"),
-        LIST_2("rhs_18rnd_9x21mm_7N28"),
-        LIST_2("rhs_18rnd_9x21mm_7BT3")
+        LIST_10("rhs_5Rnd_338lapua_t5000"),
+        LIST_4("rhs_18rnd_9x21mm_7BT3")
     };
     backpack[] = {};
     linkedItems[] += {"rhs_pdu4","ItemGPS"};

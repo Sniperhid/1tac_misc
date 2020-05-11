@@ -109,7 +109,7 @@ class r : baseMan
     displayName = "Rifleman";
     primaryWeapon[] = {"CUP_arifle_DSA_SA58_OSW_VFG"};
     bipod[] = {};
-    scope[] = {"cup_optic_compm2_low_od"};
+    scope[] = {"rhsusf_acc_compm4"};
     attachment[] = {"CUP_acc_LLM_od"};
     silencer[] = {"CUP_muzzle_mfsup_SCAR_H"};
     magazines[] =
@@ -247,11 +247,22 @@ class ar : r
         "rhs_mag_an_m14_th3",
         "rhs_mag_an_m8hc"
     };
-    backpackItems[] = { LIST_10("CUP_30Rnd_762x51_FNFAL_M") };
+    backpackItems[] = { LIST_6("CUP_30Rnd_762x51_FNFAL_M") };
 };
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
+    primaryWeapon[] = {"rhs_weap_m14_socom_rail"};
+    silencer[] = {"rhsusf_acc_m14_flashsuppresor"};
+    magazines[] =
+    {
+        LIST_6("rhsusf_20Rnd_762x51_m118_special_Mag"),
+        LIST_3("rhsusf_20Rnd_762x51_m993_Mag"),
+        "rhs_mag_m67",
+        "rhs_mag_an_m14_th3",
+        "rhs_mag_an_m8hc"
+    };
+    backpackItems[] = { LIST_10("CUP_30Rnd_762x51_FNFAL_M") };
     linkedItems[] += {"ACE_Vector"};
 };
 class rat : r
@@ -262,12 +273,14 @@ class rat : r
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"CUP_arifle_DSA_SA58_DMR"};
+    primaryWeapon[] = {"rhs_weap_m14_socom_rail"};
     scope[] = {"uk3cb_baf_specterlds"};
-    bipod[] = {"cup_bipod_vltor_modpod_black"};
+    bipod[] = {"rhsusf_acc_harris_swivel"};
+    silencer[] = {"rhsusf_acc_m14_flashsuppresor"};
     magazines[] =
     {
-        LIST_15("CUP_10Rnd_762x51_FNFAL_M"),
+        LIST_5("rhsusf_20Rnd_762x51_m118_special_Mag"),
+        LIST_3("rhsusf_20Rnd_762x51_m993_Mag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };

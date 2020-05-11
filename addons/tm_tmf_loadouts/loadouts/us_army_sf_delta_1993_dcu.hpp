@@ -54,7 +54,7 @@ class r : baseMan
     backpack[] = {"B_Battle_Belt_F"};
     primaryWeapon[] = {"CUP_arifle_Colt727"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
-    scope[] = {"CUP_optic_ZDDot"};
+    scope[] = {"rhsusf_acc_t1_low"};
     attachment[] = {"CUP_acc_Flashlight"};
     magazines[] =
     {
@@ -88,7 +88,7 @@ class car : r
     displayName = "Carabinier";
     scope[] = {};
 };
-class m : car
+class m : r
 {
     displayName = "Medic";
     backpack[] = {"usm_pack_m5_medic"};
@@ -132,7 +132,6 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    backPack[] = {"usm_pack_st138_prc77"};
     items[] += {"ACE_Maptools"};
 };
 class co : sl
@@ -153,33 +152,17 @@ class co : sl
 class fac : co
 {
     displayName = "Forward Air Controller";
-    backPack[] = {"usm_pack_alice_prc77"};
-    backpackItems[] = {};
-    linkedItems[] = {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular"
-    };
-    items[] = {
-        LIST_5("ACE_fieldDressing"),
-        LIST_3("ACE_quikclot"),
-        LIST_2("ACE_Splint"),
-        "ACE_morphine",
-        "ACE_tourniquet",
-        "ACE_Maptools"
-    };
 };
 class ar : r
 {
     displayName = "Marksman";
-    primaryWeapon[] = {"CUP_srifle_M14"};
+    primaryWeapon[] = {"rhs_weap_m14_rail"};
     bipod[] = {};
-    scope[] = {"cup_optic_compm2_low"};
+    scope[] = {"rhsusf_acc_compm4"};
     magazines[] =
     {
-        LIST_11("CUP_20Rnd_762x51_DMR"),
-        LIST_3("CUP_20Rnd_TE1_Red_Tracer_762x51_DMR"),
+        LIST_11("rhsusf_20Rnd_762x51_m80_Mag"),
+        LIST_3("rhsusf_20Rnd_762x51_m993_Mag"),
         LIST_2("rhsusf_mag_7x45acp_MHP"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
@@ -189,7 +172,7 @@ class aar : g
 {
     displayName = "Grenadier";
 };
-class rat : car
+class rat : r
 {
     displayName = "Rifleman (M72A7)";
     secondaryWeapon[] = {"rhs_weap_m72a7"};
@@ -197,11 +180,12 @@ class rat : car
 class dm : ar
 {
     displayName = "Designated Marksman";
+    silencer[] = {"rhsusf_acc_aac_m14dcqd_silencer"};
 };
 class mmgg : r
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"CUP_lmg_M60"};
+    primaryWeapon[] = {"CUP_lmg_M60E4_norail"};
     scope[] = {};
     magazines[] =
     {
@@ -360,6 +344,7 @@ class sn : dm
     primaryWeapon[] = {"CUP_srifle_M14_DMR"};
     scope[] = {"optic_sos"};
     bipod[] = {"cup_bipod_harris_1a2_l_blk"};
+    silencer[] = {};
     magazines[] =
     {
         LIST_8("CUP_20Rnd_762x51_DMR"),

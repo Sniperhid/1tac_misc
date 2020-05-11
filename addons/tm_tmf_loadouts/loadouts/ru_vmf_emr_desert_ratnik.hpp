@@ -63,10 +63,12 @@ class r : baseMan
     };
     scope[] = {"rhs_acc_1p78"};
     silencer[] = {"rhs_acc_dtk"};
+    sidearmWeapon[] = {"rhs_weap_pya"};
     magazines[] =
     {
         LIST_8("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_mag_9x19_17"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -123,6 +125,7 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_aks74u"};
     silencer[] = {"rhs_acc_pgs64"};
 	scope[] = {};
+    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N10_AK"),
@@ -162,6 +165,7 @@ class co : sl
         LIST_3("rhs_VOG25"),
         LIST_2("rhs_GRD40_White"),
         LIST_7("rhs_30Rnd_545x39_7N10_AK"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -195,10 +199,10 @@ class ar : r
     primaryWeapon[] = {"CUP_arifle_RPK74M"};
     bipod[] = {};
     silencer[] = {};
-    sidearmWeapon[] = {};
     magazines[] =
     {
         LIST_9("rhs_45Rnd_545X39_AK"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -234,6 +238,7 @@ class dm : r
     magazines[] =
     {
         LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -244,11 +249,11 @@ class mmgg : ar
     primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     bipod[] = {};
     silencer[] = {};
-    sidearmWeapon[] = {};
     backpack[] = {"B_Carryall_oli"};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
+        LIST_2("rhs_mag_9x19_17"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -451,7 +456,8 @@ class sp : sn
     {
         LIST_7("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_mag_rgd5"),
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_mag_rdg2_white"),
+        LIST_3("rhs_mag_9x18_12_57N181S")
     };
     linkedItems[] += {"Binocular","ItemGPS"};
 };
