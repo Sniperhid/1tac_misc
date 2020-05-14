@@ -800,6 +800,12 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\saf_kov_para_m10_digital.hpp"
     };
+    class SOUTH_AFRICAN_NDF_S2000
+    {
+        displayName = "South African National Defense Force (Soldier 2000)";
+        category = "Other";
+        #include "loadouts\south_african_ndf_s2000.hpp"
+    };
     class SOUTH_KOREA_2020
     {
         displayName = "South Korean Army (2020)";
