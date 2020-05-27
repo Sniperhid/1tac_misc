@@ -1,9 +1,11 @@
 class CfgWeapons {
     class ItemCore;
-    class VestItem: ItemCore {
-        class ItemInfo;
+    class InventoryItem_Base_F;
+    class VestItem: InventoryItem_Base_F {};
+    class Vest_Camo_Base: ItemCore {
+        class ItemInfo: VestItem {};
     };
-    class Vest_Camo_Base;
+    
     class lbt_pouchless_coy: Vest_Camo_Base {
         class ItemInfo: VestItem {
             class HitpointsProtectionInfo { // new values from rhsusf_spcs_ocp
@@ -42,6 +44,33 @@ class CfgWeapons {
                 };
                 class Body {
                     passThrough = 0.4;
+                };
+            };
+        };
+    };
+    
+    class V_SmershVest_01_base_F: Vest_Camo_Base {
+        descriptionShort = "Armor Level III";
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo { // values from LDF modular vest
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.3;
                 };
             };
         };

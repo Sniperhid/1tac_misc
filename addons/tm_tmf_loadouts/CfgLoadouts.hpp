@@ -96,6 +96,12 @@ class CfgLoadouts
         category = "Armaverse Factions";
         #include "loadouts\hidf_2000.hpp"
     };
+    class RU_SPETSNAZ_CONTACT
+    {
+        displayName = "RU Spetsnaz [Contact DLC]";
+        category = "Vanilla";
+        #include "loadouts\ru_spetsnaz_contact.hpp"
+    };
     class SYNDIKAT_1990
     {
         displayName = "Syndikat (1990-, Bandits)";
