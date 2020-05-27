@@ -452,21 +452,6 @@ class CfgWeapons {
     };
     
     
-    class hlc_fal_base: Rifle_Base_F {
-        class Single: Mode_SemiAuto {
-            aiDispersionCoefX = (1.4 * 3);
-            aiDispersionCoefY = (1.7 * 3);
-        };
-        class FullAuto: Mode_FullAuto {
-            aiDispersionCoefX = (2 * 4);
-            aiDispersionCoefY = (3 * 4);
-        };
-        class fullauto_medium: FullAuto {
-            burst = 20; // 4
-        };
-        aiDispersionCoefX = (6 * 3);
-		aiDispersionCoefY = (8 * 3);
-    };
     class hlc_g3_base: Rifle_Base_F {
         class Single: Mode_SemiAuto {
             aiDispersionCoefX = (1.4 * 3);
@@ -481,32 +466,6 @@ class CfgWeapons {
         };
         aiDispersionCoefX = (6 * 3);
     	aiDispersionCoefY = (8 * 3);
-    };
-    class hlc_M60e4_base: Rifle_Base_F {
-        class FullAuto: Mode_FullAuto {
-            aiDispersionCoefX = (2 * 4);
-            aiDispersionCoefY = (3 * 4);
-        };
-        class close: FullAuto {
-            burst = 25; // 10
-        };
-        class short: close {
-            burst = 15; // 8
-        };
-        class medium: close {
-            burst = 10; // 5
-        };
-        class medium_burst: close {
-            burst = 10; // 4
-        };
-        class far: close {
-            burst = 10; // 4
-        };
-        class veryfar: close {
-            burst = 8; // 5
-        };
-        aiDispersionCoefX = (10 * 3);
-    	aiDispersionCoefY = (12 * 3);
     };
 	
 	

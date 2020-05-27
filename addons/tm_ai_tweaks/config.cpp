@@ -13,7 +13,7 @@ class CfgPatches {
         requiredAddons[] = {
             "tac1_tm_main","a3_data_f","a3data","A3_Map_Data","A3_Weapons_F",
             "rhs_c_weapons","rhs_c_heavyweapons","rhs_c_airweapons","rhsusf_c_weapons","rhsusf_c_heavyweapons","rhsgref_c_weapons",
-            "hlcweapons_falpocalypse","hlcweapons_g3","hlcweapons_m60e4",
+            "hlcweapons_g3",
 			"CUP_Weapons_AK",
 			"CUP_Weapons_FNFAL",
 			"CUP_Weapons_Galil",
