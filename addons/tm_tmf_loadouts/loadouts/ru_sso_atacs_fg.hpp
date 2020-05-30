@@ -167,20 +167,12 @@ class ftl : g
         LIST_2("rhs_GRD40_Green"),
         LIST_2("rhs_GRD40_Red")
     };
-    linkedItems[] += {"Binocular"};
+    linkedItems[] += {"rhs_pdu4", "ItemGPS"};
 };
 class sl : ftl
 {
     displayName = "Squad Leader";
     items[] += {"ACE_Maptools"};
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "Binocular",
-        "ItemGPS"
-    };
 };
 class co : sl
 {
@@ -203,13 +195,6 @@ class fac : co
 {
     displayName = "Forward Air Controller";
     backpackItems[] = {};
-    linkedItems[] = {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch",
-        "ItemGPS",
-        "rhs_pdu4"
-    };
     items[] = {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
@@ -245,7 +230,7 @@ class aar : r
     {
         LIST_4("rhs_100Rnd_762x54mmR_7N26")
     };
-    linkedItems[] += {"Binocular"};
+    linkedItems[] += {"rhs_pdu4"};
     primaryWeapon[] = {"rhs_weap_ak104_zenitco01_b33"};
     magazines[] =
     {
