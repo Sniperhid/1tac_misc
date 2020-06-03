@@ -57,31 +57,9 @@ class CfgWeapons {
         };
     };
     
-    class hlc_M60e4_base: Rifle_Base_F {
-        recoil = "tm_recoil_m240"; // from recoil_default (!) to same as m240
-        class FullAuto: Mode_FullAuto {
-            dispersion = 0.003; // 0.000261799
-        };
-    };
-    
     class hlc_g3_base: Rifle_Base_F {
         recoil = "tm_recoil_battlerifle"; // recoil_dmr_03
     };
-    
-    class hlc_fal_base: Rifle_Base_F {
-        recoil = "tm_recoil_battlerifle"; // recoil_ebr
-    };
-    class hlc_rifle_SLR: hlc_fal_base {
-        recoil = "tm_recoil_battlerifle"; // recoil_ebr
-    };
-    
-    class CUP_Vacannon_D10;
-    class CUP_Vacannon_2A28: CUP_Vacannon_D10 {
-        ace_overpressure_angle = 60;
-        ace_overpressure_damage = 0.7;
-        ace_overpressure_range = 10;
-    };
-    class CUP_Vacannon_SPG9_veh: CUP_Vacannon_2A28 {};
     
     class Pistol_Base_F;
     class CUP_hgun_TEC9: Pistol_Base_F {
