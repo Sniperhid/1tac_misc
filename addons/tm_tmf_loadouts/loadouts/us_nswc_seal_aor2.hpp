@@ -60,7 +60,7 @@ class r : baseMan
         "rhsusf_opscore_mar_fg_pelt",
         "rhsusf_opscore_rg_cover_pelt"
     };
-    vest[] = {"lbt_operator_aor2", "lbt_comms_aor2", "lbt_tl_aor2"};
+    vest[] = {"lbt_operator_aor2", "lbt_comms_aor2", "lbt_tl_aor2", "tac1_tm_rhs_extra_content_plateframe_aor2_rifleman", "tac1_tm_rhs_extra_content_plateframe_black_rifleman"};
     primaryWeapon[] = 
     {
         LIST_2("rhs_weap_hk416d10_LMT"),
@@ -105,7 +105,8 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "bear_bdu_booniehat_aor2"
     };
 };
 class g : r
@@ -193,7 +194,6 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-    backpackItems[] = {};
 };
 class fac : co
 {
@@ -225,7 +225,7 @@ class ar : r
     bipod[] = {"rhsusf_acc_grip4_bipod"};
     scope[] = {"rhsusf_acc_ACOG_RMR"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
-    vest[] = {"bear_mbav_mg_green"};
+    vest[] = {"bear_mbav_mg_green", "tac1_tm_rhs_extra_content_plateframe_aor2_machinegunner", "tac1_tm_rhs_extra_content_plateframe_black_machinegunner"};
     magazines[] =
     {
         LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
@@ -257,6 +257,7 @@ class dm : r
     scope[] = {"cup_optic_sb_11_4x20_pm"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
     attachment[] = {"rhsusf_acc_anpeq15side"};
+    vest[] = {"tac1_tm_rhs_extra_content_plateframe_aor2_marksman", "tac1_tm_rhs_extra_content_plateframe_black_marksman"};
     magazines[] =
     {
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
@@ -269,7 +270,6 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    vest[] = {"bear_mbav_mg_green"};
     primaryWeapon[] = {"CUP_lmg_Mk48_nohg_od"};
     scope[] = {"rhsusf_acc_ACOG_MDO"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
@@ -476,7 +476,7 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"bear_mbav_rifleman_green"};
+    vest[] = {"tac1_tm_rhs_extra_content_plateframe_aor2_marksman", "tac1_tm_rhs_extra_content_plateframe_black_marksman"};
     backpack[] = {"rhs_assault_umbts"};
     headgear[] = {"rhsusf_Bowman"};
     goggles[] = {};

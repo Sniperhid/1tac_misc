@@ -54,7 +54,7 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {"sad_oc_fast_ocp_pelt","sad_oc_fast_ocp_pelt_cam","sad_oc_fast_ocp_pelt_nsw","sad_oc_fast_ocp_pelt_nsw","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_ut_pelt_cam","rhsusf_opscore_ut_pelt_nsw_cam"};
-    vest[] = {"lbt_operator_mc", "lbt_comms_mc", "lbt_tl_mc", "rhsusf_plateframe_rifleman"};
+    vest[] = {"lbt_operator_mc", "lbt_comms_mc", "lbt_tl_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_rifleman"};
     primaryWeapon[] = {"rhs_weap_mk18_KAC", "rhs_weap_mk18_KAC_bk", "rhs_weap_mk18_KAC_d"};
     scope[] = {"rhsusf_acc_eotech_xps3"};
     attachment[] = {"rhsusf_acc_anpeq15_bk"};
@@ -82,7 +82,7 @@ class g : r
 {
     displayName = "Grenadier";
     backpack[] = {"B_Kitbag_mcamo"};
-    vest[] = {"lbt_weapons_mc", "rhsusf_plateframe_grenadier"};
+    vest[] = {"lbt_weapons_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_grenadier"};
     primaryWeapon[] = {"rhs_weap_mk18_m320"};
     magazines[] +=
     {
@@ -106,7 +106,7 @@ class m : car
 {
     displayName = "Medic";
     backpack[] = {"B_AssaultPack_mcamo"};
-    vest[] = {"lbt_medical_mc", "rhsusf_plateframe_medic"};
+    vest[] = {"lbt_medical_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -124,7 +124,7 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    vest[] = {"lbt_light_mc"};
+    vest[] = {"lbt_light_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_light"};
     sidearmWeapon[] = {};
     magazines[] =
     {
@@ -204,7 +204,7 @@ class ar : r
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
     bipod[] = {};
-    vest[] = {"rhsusf_plateframe_machinegunner"};
+    vest[] = {"rhsusf_plateframe_machinegunner", "tac1_tm_rhs_extra_content_plateframe_multicam_machinegunner"};
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51"),
@@ -235,7 +235,7 @@ class dm : r
     silencer[] = {"rhsusf_acc_aac_scarh_silencer"};
     scope[] = {"cup_optic_elcan_specterdr_kf_coyote", "cup_optic_elcan_specterdr_coyote"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
-    vest[] = {"rhsusf_plateframe_marksman"};
+    vest[] = {"rhsusf_plateframe_marksman", "tac1_tm_rhs_extra_content_plateframe_multicam_marksman"};
     magazines[] =
     {
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
@@ -252,7 +252,6 @@ class mmgg : ar
     scope[] = {"rhsusf_acc_ACOG_MDO"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
-    vest[] = {"rhsusf_plateframe_machinegunner"};
     backpack[] = {"B_AssaultPack_mcamo"};
     magazines[] =
     {

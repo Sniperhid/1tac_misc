@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nHigh speed, low drag.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"sad_g3_m81_usa"};
+    uniform[] = {"bear_uniform_g3_m81_us"};
     vest[] = {};
     headgear[] = {};
     backpack[] = {};
@@ -65,16 +65,16 @@ class r : baseMan
         "rhsusf_opscore_mar_ut_pelt",
         "rhsusf_opscore_mar_ut_pelt",
         
-        "rhsusf_opscore_coy_cover_pelt",
-		
-        "rhsusf_opscore_cover",
-        
         "rhsusf_opscore_paint_pelt_nsw",
         "rhsusf_opscore_paint_pelt",
         "rhsusf_opscore_ut_pelt_nsw",
         "rhsusf_opscore_ut_pelt"
     };
-    vest[] = {"rhsusf_mbav_rifleman"};
+    vest[] = {
+        "lbt_operator_coy",
+        "lbt_comms_coy",
+        "lbt_tl_coy"
+    };
     primaryWeapon[] = 
     {
         "rhs_weap_mk18_KAC",
@@ -122,14 +122,15 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "bear_bdu_booniehat_m81"
     };
 };
 class g : r
 {
     displayName = "Grenadier";
     backpack[] = {"rhsusf_falconii_coy"};
-    vest[] = {"rhsusf_mbav_grenadier"};
+    vest[] = {"lbt_weapons_coy"};
     primaryWeapon[] = 
     {
         "rhs_weap_m4a1_blockII_M203_bk",
@@ -150,13 +151,12 @@ class car : r
 {
     displayName = "Carabinier";
     secondaryWeapon[] = {};
-    vest[] = {"rhsusf_mbav_light"};
 };
 class m : car
 {
     displayName = "Corpsman";
     backpack[] = {"rhsusf_falconii_coy"};
-    vest[] = {"rhsusf_mbav_medic"};
+    vest[] = {"lbt_medical_coy"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -209,7 +209,6 @@ class sl : r
     silencer[] = {};
     attachment[] = {"rhsusf_acc_anpeq15side"};
     bipod[] = {"rhsusf_acc_tdstubby_tan"};
-    vest[] = {"rhsusf_mbav_light"};
     backpack[] = {"rhsusf_assault_eagleaiii_coy"};
     magazines[] =
     {
@@ -324,7 +323,6 @@ class dm : r
     silencer[] = {"rhsusf_acc_aac_scarh_silencer"};
     scope[] = {"cup_optic_sb_11_4x20_pm"};
     bipod[] = {"rhsusf_acc_grip2_tan"};
-    vest[] = {"rhsusf_mbav_light"};
     magazines[] =
     {
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
@@ -549,7 +547,6 @@ class sn : r
 {
     displayName = "Sniper";
     vest[] = {"rhsusf_mbav_light"};
-    headgear[] = {"rhs_Booniehat_m81","rhsusf_bowman_cap","rhsusf_Bowman"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_sr25"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
