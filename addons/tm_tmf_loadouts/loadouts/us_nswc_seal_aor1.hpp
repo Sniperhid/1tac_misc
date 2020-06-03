@@ -61,7 +61,7 @@ class r : baseMan
         "rhsusf_opscore_ut_pelt_nsw",
         "rhsusf_opscore_mar_ut_pelt"
     };
-    vest[] = {"lbt_operator_aor1", "lbt_comms_aor1", "lbt_tl_aor1"};
+    vest[] = {"lbt_operator_aor1", "lbt_comms_aor1", "lbt_tl_aor1", "tac1_tm_rhs_extra_content_plateframe_aor1_rifleman"};
     primaryWeapon[] = 
     {
         LIST_2("rhs_weap_hk416d10_LMT"),
@@ -195,7 +195,6 @@ class sl : ftl
 class co : sl
 {
     displayName = "Platoon Leader";
-    backpackItems[] = {};
 };
 class fac : co
 {
@@ -227,7 +226,7 @@ class ar : r
     bipod[] = {"rhsusf_acc_grip4_bipod"};
     scope[] = {"rhsusf_acc_acog_mdo"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
-    vest[] = {"rhsusf_mbav_mg"};
+    vest[] = {"rhsusf_mbav_mg", "tac1_tm_rhs_extra_content_plateframe_aor1_machinegunner"};
     magazines[] =
     {
         LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
@@ -259,6 +258,7 @@ class dm : r
     scope[] = {"cup_optic_sb_11_4x20_pm"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
     attachment[] = {"rhsusf_acc_anpeq15side"};
+    vest[] = {"rhsusf_plateframe_marksman", "tac1_tm_rhs_extra_content_plateframe_aor1_marksman"};
     magazines[] =
     {
         LIST_5("rhs_mag_20Rnd_SCAR_762x51_m118_special"),
@@ -271,7 +271,6 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    vest[] = {"rhsusf_mbav_mg"};
     primaryWeapon[] = {"CUP_lmg_Mk48"};
     scope[] = {"rhsusf_acc_ACOG_MDO"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
@@ -477,7 +476,7 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"rhsusf_plateframe_marksman"};
+    vest[] = {"rhsusf_plateframe_marksman", "tac1_tm_rhs_extra_content_plateframe_aor1_marksman"};
     headgear[] = {"rhsusf_Bowman"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_M107_w"};
