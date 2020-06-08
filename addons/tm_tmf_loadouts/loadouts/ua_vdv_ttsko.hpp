@@ -3,7 +3,7 @@
 
 // dependencies: RHS: AFRF + GREF, bearskins otv, bear reinf ukraine
 
-tooltip = "Author: Bear\n\n5.45mm rifles. Suitable for the Ukrainian conflict.";
+tooltip = "Author: Bear\n\n5.45mm rifles.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
