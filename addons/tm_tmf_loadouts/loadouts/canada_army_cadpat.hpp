@@ -52,13 +52,13 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = {"bear_lwh_cadpat","bear_lwh_cadpat_ess","bear_lwh_cadpat_headset"};
     vest[] = {"rhsgref_otv_khaki"};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_pmag"};
-    bipod[] = {"rhsusf_acc_grip3"};
+    primaryWeapon[] = {"bear_diemaco_c8"};
+    bipod[] = {};
     scope[] = {"rhsusf_acc_elcan"};
-    attachment[] = {};
+    attachment[] = {"cup_acc_flashlight"};
     magazines[] =
     {
-        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
@@ -75,7 +75,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"bear_diemaco_c8_m203"};
     bipod[] = {};
     backpack[] = {"B_Carryall_oli"};
     magazines[] +=
@@ -87,12 +87,10 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"rhs_weap_m4_carryhandle"};
     bipod[] = {};
-    scope[] = {};
     magazines[] =
     {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
@@ -118,9 +116,10 @@ class m : r
 class smg : car
 {
     displayName = "Submachinegunner";
+    scope[] = {};
     magazines[] =
     {
-        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_6("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -429,13 +428,13 @@ class sn : r
 class sp : sn
 {
     displayName = "Spotter";
-    scope[] = {"rhsusf_acc_ACOG3"};
-    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_pmag"};
-    silencer[] = {"rhsusf_acc_SF3P556"};
+    scope[] = {"rhsusf_acc_elcan"};
+    primaryWeapon[] = {"bear_diemaco_c8"};
+    silencer[] = {};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
