@@ -94,6 +94,7 @@ class baseMan {// Weaponless baseclass
         "rhsusf_shemagh_od",
         "rhsusf_shemagh_od"
     };
+    faces[] = {"faceset:russian"};
 };
 class r : baseMan
 {

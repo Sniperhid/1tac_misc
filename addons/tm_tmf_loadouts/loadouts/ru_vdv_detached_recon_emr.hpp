@@ -58,6 +58,8 @@ class baseMan {// Weaponless baseclass
     // LOOK
     code = "if ((goggles _this) isEqualTo 'rhs_balaclava' || (goggles _this) isEqualTo 'rhs_balaclava1_olive') then {removeHeadgear _this;};";
     //! ------------------------------ ------------------------------ SEE ABOVE CODE
+    
+    faces[] = {"faceset:russian"};
 };
 class r : baseMan
 {

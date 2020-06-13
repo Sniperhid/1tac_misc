@@ -46,6 +46,7 @@ class baseMan {// Weaponless baseclass
 
     // This is executed after unit init is complete. argument: _this = _unit.
     code = "[{if ((goggles _this) isEqualTo '' && (random 1) > 0.8) then {_this addGoggles 'rhs_scarf';};}, _this, 0.1] call CBA_fnc_waitAndExecute;";
+    faces[] = {"faceset:russian"};
 };
 class r : baseMan
 {
