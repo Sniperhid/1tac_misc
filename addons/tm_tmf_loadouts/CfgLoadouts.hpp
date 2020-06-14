@@ -56,9 +56,15 @@ class CfgLoadouts
     };
     class TK_ARMY_BRUSHSTROKE
     {
-        displayName = "Takistani Army (1995-, Brushstroke)";
+        displayName = "Takistani Army (1995-)";
         category = "Armaverse Factions";
-        #include "loadouts\tk_army_brushstroke.hpp"
+        #include "loadouts\tk_army.hpp"
+    };
+    class TK_ARMY_NIGHT
+    {
+        displayName = "Takistani Army (1995-, Night Fighting)";
+        category = "Armaverse Factions";
+        #include "loadouts\tk_army_night.hpp"
     };
     class TK_INS
     {

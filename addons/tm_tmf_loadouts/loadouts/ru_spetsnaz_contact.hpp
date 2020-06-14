@@ -63,7 +63,7 @@ class baseMan {// Weaponless baseclass
     
     code = "";
     
-    faces[] = {"faceset:caucasian"};
+    faces[] = {"faceset:russian"};
     insignias[] = {"Spetsnaz223rdDetachment"};
 };
 class r : baseMan

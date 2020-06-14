@@ -49,6 +49,7 @@ class baseMan {// Weaponless baseclass
     radios[] = {};
     
     insignias[] = {"usm_1starmdiv_od"};
+    faces[] = {"faceset:american"};
 };
 class r : baseMan
 {

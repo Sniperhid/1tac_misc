@@ -46,6 +46,7 @@ class baseMan {// Weaponless baseclass
     code = "";
     
     insignias[] = {"40th_VDV"};
+    faces[] = {"faceset:russian"};
 };
 class r : baseMan
 {

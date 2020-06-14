@@ -49,6 +49,7 @@ class baseMan {// Weaponless baseclass
     radios[] = {};
     
     insignias[] = {"insignia_block77"};
+    faces[] = {"faceset:american"};
 };
 class r : baseMan
 {

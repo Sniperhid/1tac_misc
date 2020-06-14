@@ -69,6 +69,7 @@ class baseMan {// Weaponless baseclass
     backpackItems[] = {};
     
     code = "";
+    faces[] = {"faceset:russian"};
 };
 class r : baseMan
 {

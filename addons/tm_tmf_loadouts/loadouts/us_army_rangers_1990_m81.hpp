@@ -66,6 +66,7 @@ class baseMan {// Weaponless baseclass
 
     // This is executed after unit init is complete. argument: _this = _unit.
     code = "";
+    faces[] = {"faceset:american"};
 };
 class r : baseMan
 {
