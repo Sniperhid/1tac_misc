@@ -12,4 +12,18 @@ class CfgUnitInsignia {
         texture = QPATHTOF(data\1tac_insignia_arid_ca.paa);
         textureVehicle = "";
     };
+    
+    class GVAR(fng) {
+        displayName = "FNG";
+        author = "1Tac";
+        texture = QPATHTOF(data\fng_ca.paa);
+        textureVehicle = "";
+    };
+    
+    class GVAR(fng_dark) {
+        displayName = "FNG";
+        author = "1Tac";
+        texture = QPATHTOF(data\fng_dark_ca.paa);
+        textureVehicle = "";
+    };
 };
