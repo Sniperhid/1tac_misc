@@ -716,9 +716,9 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\afr_militia.hpp"
     };
-    class AFR_AR
+    class AFR_ARMY
     {
-        displayName = "Generic African Conventional Army (1990-)";
+        displayName = "African Army (1990-)";
         category = "Other";
         #include "loadouts\afr_army.hpp"
     };
