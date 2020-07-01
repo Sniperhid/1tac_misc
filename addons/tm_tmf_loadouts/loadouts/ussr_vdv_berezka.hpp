@@ -7,7 +7,7 @@ tooltip = "Author: Bear\n\nImitates airborne troops in KLMK suits. AK-74s, no bo
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_gorka_r_berezka"}; // needs the VSR uniform from GREF
+    uniform[] = {"bear_uniform_gorka_1_berezka"};
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -55,10 +55,9 @@ class r : baseMan
         "rhs_ssh68",
         "rhs_ssh68",
         "ssh68_khaki",
-        "ssh68_camo_green",
-        "ssh68_camo_yel"
+        "CUP_H_RUS_SSH68_olive"
     };
-    vest[] = {"bear_6sh92_khaki"};
+    vest[] = {"rhsgref_chicom_m88"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
     {
@@ -85,7 +84,6 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"bear_6sh92_khaki_vog"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = 
     {

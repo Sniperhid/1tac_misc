@@ -2,12 +2,12 @@
 //Compatible with ACE Advanced Medical
 
 // dependencies: RHS: AFRF + GREF, Bearskins
-tooltip = "Author: Bear\n\nAK-74Ms, 6B5 body armor.";
+tooltip = "Author: Bear\n\nAK-74Ms, 6B5 body armor. Green-dominant Berezka with yellow leaf.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_gorka_1_b"}; // needs the VSR uniform from GREF
+    uniform[] = {"bear_uniform_gorka_1_berezka_y"}; // needs the VSR uniform from GREF
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -57,10 +57,9 @@ class r : baseMan
         "ssh68_khaki",
         "ssh68_camo_green",
         "ssh68_camo_yel",
-        "rhssaf_bandana_smb",
-        "rhsgref_fieldcap_ttsko_forest"
+        "rhssaf_bandana_smb"
     };
-    vest[] = {"rhs_6b5_khaki"};
+    vest[] = {"rhs_6b5", "bear_6b5_berezka_y"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] =
     {
@@ -86,7 +85,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"rhs_6b5_rifleman_khaki"};
+    vest[] = {"rhs_6b5_rifleman", "bear_6b5_berezka_y_rifleman"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = 
     {
@@ -117,7 +116,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
-    vest[] = {"rhs_6b5_medic_khaki"};
+    vest[] = {"rhs_6b5_medic", "bear_6b5_berezka_y_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -164,7 +163,7 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    vest[] = {"rhs_6b5_officer_khaki"};
+    vest[] = {"rhs_6b5_officer", "bear_6b5_berezka_y_officer"};
     items[] += {"ACE_Maptools"};
 };
 class co : sl
@@ -205,6 +204,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
+    vest[] = {"rhs_6b5_rifleman", "bear_6b5_berezka_y_rifleman"};
     primaryWeapon[] = {"CUP_arifle_RPK74M"};
     bipod[] = {};
     silencer[] = {};
