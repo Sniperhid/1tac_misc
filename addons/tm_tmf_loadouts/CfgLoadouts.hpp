@@ -378,11 +378,23 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_msv_emr_winter.hpp"
     };
+    class RUS_MSV_FLORA_2000
+    {
+        displayName = "RU Ground Forces (2000, Flora)";
+        category = "Russia";
+        #include "loadouts\ru_msv_flora_2000.hpp"
+    };
     class RUS_MSV_FLORA_2005
     {
-        displayName = "RU Ground Forces (2005-2010, Flora)";
+        displayName = "RU Ground Forces (2005, Flora)";
         category = "Russia";
-        #include "loadouts\ru_msv_flora.hpp"
+        #include "loadouts\ru_msv_flora_2005.hpp"
+    };
+    class RUS_MSV_FLORA_2010
+    {
+        displayName = "RU Ground Forces (2010, Flora)";
+        category = "Russia";
+        #include "loadouts\ru_msv_flora_2010.hpp"
     };
     class RUS_SSO_ATACS_AU
     {
@@ -438,11 +450,17 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_vdv_vsr.hpp"
     };
-    class RUS_VDV_1995_BEREZKA
+    class RUS_VDV_2000_BEREZKA
     {
-        displayName = "RU Airborne Troops (1995, Berezka)";
+        displayName = "RU Airborne Troops (2000, Berezka)";
         category = "Russia";
-        #include "loadouts\ru_vdv_1995_berezka.hpp"
+        #include "loadouts\ru_vdv_2000_berezka.hpp"
+    };
+    class RUS_VDV_2000_BEREZKA_YELLOW
+    {
+        displayName = "RU Airborne Troops (2000, Berezka Yellow)";
+        category = "Russia";
+        #include "loadouts\ru_vdv_2000_berezka_yellow.hpp"
     };
     class RUS_VMF_EMR_DESERT_RATNIK
     {
@@ -505,6 +523,18 @@ class CfgLoadouts
         displayName = "USSR Airborne Troops (1985, Berezka)";
         category = "USSR";
         #include "loadouts\ussr_vdv_berezka.hpp"
+    };
+    class USSR_VDV_BEREZKA_ALT
+    {
+        displayName = "USSR Airborne Troops (1985, Berezka alt.)";
+        category = "USSR";
+        #include "loadouts\ussr_vdv_berezka_alt.hpp"
+    };
+    class USSR_VDV_BEREZKA_ARMOR
+    {
+        displayName = "USSR Airborne Troops (1985, Berezka, body armor)";
+        category = "USSR";
+        #include "loadouts\ussr_vdv_berezka_armor.hpp"
     };
     
     
