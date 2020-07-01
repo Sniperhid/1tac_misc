@@ -716,6 +716,12 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\afr_militia.hpp"
     };
+    class AFR_ARMY
+    {
+        displayName = "African Army (1990-)";
+        category = "Other";
+        #include "loadouts\afr_army.hpp"
+    };
     class ARAB_INSURGENTS
     {
         displayName = "Arab Insurgents (2010-, mixed AKs)";
