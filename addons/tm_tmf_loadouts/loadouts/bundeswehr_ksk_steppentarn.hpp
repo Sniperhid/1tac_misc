@@ -10,7 +10,7 @@ class baseMan {// Weaponless baseclass
     backpack[] = {"CUP_B_GER_Medic_Tropentarn"};
     headgear[] = {};
     goggles[] = {"default"};
-    hmd[] = {"CUP_NVG_GPNVG_black"};
+    hmd[] = {"rhsusf_ANPVS_15"};
     // Leave empty to remove all. "Default" > leave original item.
 
     // All randomized
@@ -50,12 +50,20 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"CUP_H_OpsCore_Tan_SF", "CUP_H_OpsCore_Grey_SF", "CUP_H_OpsCore_Covered_Tropen_SF"};
+    headgear[] = {
+        "bear_opscore_paint3_pelt_nsw",
+        "bear_opscore_paint3_pelt_nsw_cam"
+    };
     vest[] = {"CUP_V_B_GER_Armatus_Trop", "CUP_V_B_GER_Armatus_BB_Trop", "CUP_V_B_GER_Carrier_Vest_2"};
-    primaryWeapon[] = {"CUP_arifle_G36K_KSK_VFG_camo"};
+    primaryWeapon[] = {
+        "CUP_arifle_G36CA3_grip_camo",
+        "CUP_arifle_G36K_KSK_camo",
+        "CUP_arifle_G36K_KSK_VFG_camo"
+    };
+    silencer[] = {"cup_muzzle_snds_m16", "cup_muzzle_snds_m16_coyote"};
     bipod[] = {};
-    scope[] = {"rhsusf_acc_g33_xps3_tan"};
-    attachment[] = {"CUP_acc_ANPEQ_15"};
+    scope[] = {"rhsusf_acc_mrds"};
+    attachment[] = {"cup_acc_llm01_l", "cup_acc_llm01_desert_l", "cup_acc_llm01_coyote_l"};
     magazines[] =
     {
         LIST_7("rhssaf_30rnd_556x45_TDIM_G36"),
@@ -75,7 +83,10 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"CUP_arifle_G36K_RIS_AG36_camo"};
+    primaryWeapon[] = {
+        "CUP_arifle_G36A3_AG36_camo",
+        "CUP_arifle_G36K_RIS_AG36_camo"
+    };
     bipod[] = {};
     magazines[] +=
     {

@@ -5,7 +5,7 @@ tooltip = "Author: Bear\n\nSerbian Army (RHS: SAF). 5.56x45 mm Zastava rifles.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhssaf_uniform_m10_digital_tan_boots", "rhssaf_uniform_m10_digital_summer"};
+    uniform[] = {"rhssaf_uniform_m10_digital_tan_boots", "rhssaf_uniform_m10_digital_summer", "rhssaf_uniform_m10_digital"};
     vest[] = {};
     backpack[] = {"rhssaf_kitbag_md2camo"};
     headgear[] = {};

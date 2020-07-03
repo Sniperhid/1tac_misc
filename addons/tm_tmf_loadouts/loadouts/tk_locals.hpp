@@ -53,8 +53,8 @@ class r : baseMan
     silencer[] = {"rhs_acc_dtkakm"};
 	magazines[] =
     {
-        LIST_5("rhs_30Rnd_762x39mm"),
-        LIST_2("CUP_30Rnd_762x39_AK47_TK_M"),
+        LIST_5("tac1_tm_mag_compat_30Rnd_762x39_Takistani"),
+        LIST_2("tac1_tm_mag_compat_30Rnd_762x39_Takistani_tracer"),
         "rhs_mag_f1",
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -73,8 +73,8 @@ class g : r
     primaryWeapon[] = {"rhs_weap_akms_gp25","rhs_weap_akm_gp25"};
     magazines[] =
     {
-        LIST_5("rhs_30Rnd_762x39mm"),
-        LIST_2("CUP_30Rnd_762x39_AK47_TK_M"),
+        LIST_5("tac1_tm_mag_compat_30Rnd_762x39_Takistani"),
+        LIST_2("tac1_tm_mag_compat_30Rnd_762x39_Takistani_tracer"),
         "rhs_mag_f1",
         LIST_3("rhs_VOG25"),
         LIST_2("rhs_mag_rdg2_white")
@@ -180,7 +180,7 @@ class ar : r
 	magazines[] =
 	{
 		"rhs_75Rnd_762x39mm",
-		LIST_6("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
+		LIST_6("tac1_tm_mag_compat_40Rnd_762x39"),
 		"rhs_mag_f1",
 		LIST_2("rhs_mag_rdg2_white")
 	};
@@ -190,7 +190,7 @@ class aar : car
     displayName = "Assistant Automatic Rifleman";
     backpackItems[] =
     {
-        LIST_6("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_6("tac1_tm_mag_compat_40Rnd_762x39")
     };
 };
 class rat : r

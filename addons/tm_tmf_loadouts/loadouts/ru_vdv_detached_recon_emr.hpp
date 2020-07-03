@@ -7,7 +7,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = {"rhs_uniform_vdv_emr"};
     vest[] = {};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_assault_umbts", "rhs_assault_umbts", "CUP_O_RUS_Patrol_bag_Summer"};
     headgear[] = {};
     goggles[] = 
     {
@@ -78,8 +78,8 @@ class r : baseMan
     scope[] = {"rhs_acc_pkas"};
     magazines[] =
     {
-        LIST_4("rhs_20rnd_9x39mm_SP5"),
-        LIST_4("rhs_20rnd_9x39mm_SP6"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_9x39mm_SP5"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_9x39mm_SP6"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };
@@ -109,7 +109,7 @@ class r_base : r
     magazines[] =
     {
         LIST_8("rhs_30Rnd_545x39_7N10_AK"),
-        LIST_2("rhs_30Rnd_545x39_AK_green"),
+        LIST_2("rhs_30Rnd_545x39_AK_plum_green"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white")
     };

@@ -82,10 +82,10 @@ class r : baseMan
 class ra : r
 {
     displayName = "Rifleman (M16)";
-    primaryWeapon[] = {"mbg_m16a1"};
+    primaryWeapon[] = {"CUP_arifle_M16A1"};
     magazines[] =
     {
-        LIST_9("mbg_mag_20Rnd_556x45_M855A1_Stanag"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
         LIST_2("rhs_mag_m67"),
         "rhs_mag_an_m8hc"
     };
@@ -104,7 +104,7 @@ class rm : r
 class car : ra
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"mbg_m16a1"};
+    primaryWeapon[] = {"CUP_arifle_M16A1"};
 };
 class g : car
 {

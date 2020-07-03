@@ -61,7 +61,7 @@ class r : baseMan
     headgear[] = {"usm_helmet_pasgt_dcu","usm_helmet_pasgt_g_dcu"};
     vest[] = {"usm_vest_pasgt_lbv_rmp"};
     backpack[] = {};
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
@@ -94,7 +94,7 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
 };
 class m : car
 {
@@ -435,39 +435,23 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
-    vest[] = {"V_Chestrig_rgr"};
-    headgear[] = {};
-    goggles[] = {"default"};
-    primaryWeapon[] = {"CUP_srifle_M40A3"};
-    scope[] = {"CUP_optic_LeupoldMk4"};
-    bipod[] = {"bipod_03_F_blk"};
+    primaryWeapon[] = {"rhs_weap_m40a5", "rhs_weap_m40a5_d"};
+    scope[] = {"cup_optic_leupoldm3lr"};
+    bipod[] = {"rhsusf_acc_harris_swivel"};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
-        LIST_8("CUP_5Rnd_762x51_M24"),
-        LIST_2("rhs_mag_m67"),
+        LIST_8("rhsusf_10Rnd_762x51_m993_Mag"),
+        "rhs_mag_m67",
         LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
     };
     backpack[] = {};
-    linkedItems[] += {"ACE_Vector","ItemGPS"};
-    items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
-class sp : sn
+class sp : r
 {
     displayName = "Spotter";
-    scope[] = {"rhsusf_acc_ACOG_d"};
-    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203"};
-    magazines[] =
-    {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc"),
-        LIST_4("CUP_1Rnd_HE_M203"),
-        LIST_4("CUP_1Rnd_Smoke_M203"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
-    };
+    linkedItems[] += {"Binocular"};
+    items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
 class vc : smg
 {

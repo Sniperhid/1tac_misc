@@ -59,7 +59,7 @@ class r : baseMan
     headgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_g_w"};
     vest[] = {"usm_vest_pasgt_lbe_rm"};
     backpack[] = {};
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
@@ -92,7 +92,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"mbg_m16a2"};
 };
 class m : car
 {
@@ -118,7 +117,7 @@ class smg : r
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_6("CUP_30Rnd_9x19_MP5"),
+        LIST_6("tac1_tm_mag_compat_30Rnd_9x19mm_MP5_FMJ"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -386,39 +385,22 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
-    vest[] = {"V_Chestrig_rgr"};
-    headgear[] = {};
-    goggles[] = {"default"};
-    primaryWeapon[] = {"rhs_weap_m14_rail"};
-    scope[] = {"optic_khs_old"};
-    bipod[] = {"rhsusf_acc_m14_bipod"};
+    primaryWeapon[] = {"CUP_srifle_M21"};
+    scope[] = {"cup_optic_artel_m14"};
+    bipod[] = {"cup_bipod_harris_1a2_l_blk"};
     sidearmWeapon[] = {"rhsusf_weap_m9"};
     magazines[] =
     {
         LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
-        LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
+        "rhs_mag_m67",
+        LIST_3("rhsusf_mag_15Rnd_9x19_FMJ")
     };
     backpack[] = {};
-    linkedItems[] += {"ACE_Vector","ItemGPS"};
-    items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
-class sp : sn
+class sp : r
 {
     displayName = "Spotter";
-    scope[] = {};
-    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203"};
-    magazines[] =
-    {
-        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhs_mag_an_m8hc"),
-        LIST_4("1Rnd_HE_Grenade_shell"),
-        LIST_4("1Rnd_Smoke_Grenade_shell"),
-        LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")
-    };
+    linkedItems[] += {"Binocular"};
 };
 class vc : smg
 {

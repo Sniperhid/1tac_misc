@@ -3,7 +3,7 @@ tooltip = "Author: Bear";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_indep_nzmcu"};
+    uniform[] = {"bear_uniform_m10_nzmcu"};
     vest[] = {"CUP_V_B_Eagle_SPC_Empty"};
     backpack[] = {"B_Kitbag_cbr"};
     headgear[] = {"bear_mich_nzmcu"};
@@ -431,7 +431,6 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"CUP_U_B_USMC_Ghillie_WDL"};
     vest[] = {"V_Chestrig_rgr"};
     headgear[] = {};
     goggles[] = {"default"};

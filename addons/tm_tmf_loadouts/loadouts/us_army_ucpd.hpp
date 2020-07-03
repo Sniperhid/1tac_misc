@@ -45,6 +45,8 @@ class baseMan {// Weaponless baseclass
 
     // These are acre item radios that will be added during the ACRE init. ACRE radios added via any other system will be erased.
     radios[] = {};
+    
+    insignias[] = {"usm_82nd_od"};
     faces[] = {"faceset:american"};
 };
 class r : baseMan
@@ -138,7 +140,8 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
+    sidearmWeapon[] = {"CUP_hgun_M9A1"};
+    sidearmAttachments[] = {"hlc_acc_tlr1"};
     magazines[] +=
     {
         "rhsusf_mag_15Rnd_9x19_FMJ"
@@ -197,13 +200,13 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"rhs_weap_m249_pip_S_para"};
-    bipod[] = {};
+    bipod[] = {"rhsusf_acc_saw_lw_bipod"};
     scope[] = {"rhsusf_acc_ELCAN","rhsusf_acc_ELCAN_ard"};
     vest[] = {"rhsusf_spcs_ucp_machinegunner", "rhsusf_spcs_ucp_saw"};
     attachment[] = {};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_ucp"),
+        LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -214,7 +217,7 @@ class aar : r
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_ucp")
+        LIST_4("rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -443,7 +446,8 @@ class sn : r
     silencer[] = {"rhsusf_acc_m24_muzzlehider_black"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4"};
     bipod[] = {"rhsusf_acc_harris_swivel"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
+    sidearmWeapon[] = {"CUP_hgun_M9A1"};
+    sidearmAttachments[] = {"hlc_acc_tlr1"};
     magazines[] =
     {
         LIST_8("rhsusf_5Rnd_762x51_m118_special_Mag"),
@@ -501,7 +505,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    vest[] = {"rhsusf_spcs_ucp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {
         "rhsusf_hgu56p_black",
@@ -521,7 +526,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    vest[] = {"rhsusf_spcs_ucp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {
         "rhsusf_hgu56p_visor_mask_black",
@@ -550,11 +556,13 @@ class pc : pcc
 class jp : baseMan
 {
     displayName = "Jet pilot";
-    vest[] = {"rhsusf_spcs_ucp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
+    sidearmWeapon[] = {"CUP_hgun_M9A1"};
+    sidearmAttachments[] = {"hlc_acc_tlr1"};
     magazines[] =
     {
         LIST_4("rhsusf_mag_15Rnd_9x19_FMJ")

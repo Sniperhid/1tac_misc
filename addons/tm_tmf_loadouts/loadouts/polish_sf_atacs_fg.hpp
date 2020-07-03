@@ -6,7 +6,7 @@ tooltip = "Author: Bear";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"sad_g3_atacs_fg_pl"};
+    uniform[] = {"bear_uniform_g3_atacs_fg_pl"};
     vest[] = {};
     backpack[] = {"B_AssaultPack_khk"};
     headgear[] = {};
@@ -54,9 +54,10 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {
-        "sad_oc_fast_atacsfg_pelt",
-        "sad_oc_fast_atacsfg_pelt_cam",
-        "sad_oc_fast_atacsfg_pelt_nsw"
+        "bear_opscore_atacs_fg_cover_pelt",
+        "bear_opscore_atacs_fg_cover_pelt_cam",
+        "bear_opscore_atacs_fg_cover_pelt_nsw",
+        "bear_opscore_atacs_fg_cover_pelt_nsw_cam"
     };
     vest[] = {"lbt_operator_od", "lbt_comms_od", "lbt_tl_od"};
     primaryWeapon[] = {"rhs_weap_hk416d10"};
@@ -104,7 +105,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    vest[] = {"lbt_medical_od"};
+    vest[] = {"bear_lbt_medical_od_patch"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),

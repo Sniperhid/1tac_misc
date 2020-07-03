@@ -1,16 +1,69 @@
 /* assignGear specific macros */ 
 //Compatible with ACE Advanced Medical
 
-tooltip = "Author: Bear\n\nI totally made this up\nUS Army SFOD-D/Delta Force/CAG in Multicam Tropic";
+tooltip = "Author: Bear\n\nHigh speed, low drag, giga operator\nUS Army SFOD-D/Delta Force/CAG in Multicam";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"sad_g3_mc_usa", "sad_g3_mc_usa", "sad_g3_mc_usa", "sad_g3_dtan_mc_usa"};
+    uniform[] = {
+        "bear_uniform_g3_multicam_us",
+        "bear_uniform_g3_multicam_us2",
+        "bear_uniform_g3_multicam_alt_us",
+        "bear_uniform_g3_multicam_alt_us2",
+        "bear_uniform_g3_multicam_alt2_us",
+        "bear_uniform_g3_multicam_alt2_us2",
+        "bear_uniform_g3_tan_multicam_us",
+        "bear_uniform_g3_tan_multicam_us2"
+    };
     vest[] = {};
     backpack[] = {};
     headgear[] = {};
-    goggles[] = {"default"};
+    goggles[] = {
+        "CUP_Beard_Black",
+        "CUP_Beard_Black",
+        "CUP_Beard_Black",
+        "CUP_G_Grn_Scarf_GPS_Beard",
+        "CUP_G_Tan_Scarf_GPS_Beard",
+        "CUP_G_White_Scarf_GPS_Beard",
+        "CUP_G_Beard_Shades_Black",
+        "rhs_googles_clear",
+        "rhs_googles_black",
+        "rhs_googles_orange",
+        "G_Bandanna_blk",
+        "bear_bandana_m81",
+        "bear_bandana_multicam",
+        "CUP_PMC_Facewrap_Black",
+        "CUP_PMC_Facewrap_Tropical",
+        "CUP_G_GPS",
+        "CUP_G_Scarf_Face_Grn",
+        "CUP_G_Scarf_Face_Tan",
+        "G_Shades_Black",
+        "CUP_FR_NeckScarf2",
+        "CUP_FR_NeckScarf5",
+        "G_Sport_Blackred",
+        "CUP_G_WatchGPSCombo",
+        "CUP_G_Grn_Scarf_GPS",
+        "CUP_G_Tan_Scarf_GPS",
+        "UK3CB_BAF_G_Tactical_Black",
+        "UK3CB_BAF_G_Tactical_Black",
+        "UK3CB_BAF_G_Tactical_Clear",
+        "UK3CB_BAF_G_Tactical_Grey",
+        "UK3CB_BAF_G_Tactical_Grey",
+        "UK3CB_BAF_G_Tactical_Orange",
+        "UK3CB_BAF_G_Tactical_Orange",
+        "UK3CB_BAF_G_Tactical_Yellow",
+        "G_Spectacles_Tinted",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    };
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
 
@@ -48,15 +101,64 @@ class baseMan {// Weaponless baseclass
     // These are acre item radios that will be added during the ACRE init. ACRE radios added via any other system will be erased.
     radios[] = {};
     
-    insignias[] = {};
+    insignias[] = {"tac1_tm_insignia_usasoc"};
     faces[] = {"faceset:american"};
 };
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"sad_oc_fast_ocp_pelt","sad_oc_fast_ocp_pelt_cam","sad_oc_fast_ocp_pelt_nsw","sad_oc_fast_ocp_pelt_nsw","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_ut_pelt_cam","rhsusf_opscore_ut_pelt_nsw_cam"};
-    vest[] = {"lbt_operator_mc", "lbt_comms_mc", "lbt_tl_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_rifleman"};
-    primaryWeapon[] = {"rhs_weap_mk18_KAC", "rhs_weap_mk18_KAC_bk", "rhs_weap_mk18_KAC_d"};
+    headgear[] = {
+        "bear_opscore_multicam_cover_pelt",
+        "bear_opscore_multicam2_cover_pelt",
+        "bear_opscore_multicam3_cover_pelt",
+        "bear_opscore_multicam4_cover_pelt",
+        "bear_opscore_multicam5_cover_pelt",
+        "bear_opscore_multicam6_cover_pelt",
+        
+        "bear_opscore_multicam_cover_pelt_cam",
+        "bear_opscore_multicam2_cover_pelt_cam",
+        "bear_opscore_multicam3_cover_pelt_cam",
+        "bear_opscore_multicam4_cover_pelt_cam",
+        "bear_opscore_multicam5_cover_pelt_cam",
+        "bear_opscore_multicam6_cover_pelt_cam",
+        
+        "bear_opscore_multicam_cover_pelt_nsw_cam",
+        "bear_opscore_multicam2_cover_pelt_nsw_cam",
+        "bear_opscore_multicam3_cover_pelt_nsw_cam",
+        "bear_opscore_multicam4_cover_pelt_nsw_cam",
+        "bear_opscore_multicam5_cover_pelt_nsw_cam",
+        "bear_opscore_multicam6_cover_pelt_nsw_cam",
+        
+        "rhsusf_opscore_paint_pelt_nsw", "rhsusf_opscore_paint_pelt_nsw",
+        "rhsusf_opscore_paint_pelt_nsw_cam", "rhsusf_opscore_paint_pelt_nsw_cam",
+        "rhsusf_opscore_ut_pelt_cam", "rhsusf_opscore_ut_pelt_cam",
+        "rhsusf_opscore_ut_pelt_nsw_cam", "rhsusf_opscore_ut_pelt_nsw_cam",
+        
+        "bear_opscore_tan_pelt", "bear_opscore_tan_pelt",
+        "bear_opscore_tan_pelt_cam", "bear_opscore_tan_pelt_cam",
+        "bear_opscore_tan_pelt_nsw", "bear_opscore_tan_pelt_nsw",
+        "bear_opscore_tan_pelt_nsw_cam", "bear_opscore_tan_pelt_nsw_cam"
+    };
+    vest[] = {
+        "CUP_V_B_LBT_LBV_US_MCam",
+        "CUP_V_B_LBT_LBV_US_MCam",
+        "lbt_operator_mc",
+        "lbt_comms_mc",
+        "lbt_tl_mc",
+        "lbt_operator_aor1",
+        "lbt_comms_aor1",
+        "lbt_tl_aor1",
+        "tac1_tm_rhs_extra_content_plateframe_multicam_rifleman",
+        "tac1_tm_rhs_extra_content_plateframe_aor1_rifleman"
+    };
+    primaryWeapon[] = {
+        "rhs_weap_mk18_KAC",
+        "rhs_weap_mk18_KAC_bk",
+        "bear_weap_mk18_desert",
+        "bear_weap_mk18_KAC_desert",
+        "bear_weap_mk18_tan",
+        "bear_weap_mk18_KAC_tan"
+    };
     scope[] = {"rhsusf_acc_eotech_xps3"};
     attachment[] = {"rhsusf_acc_anpeq15_bk"};
     bipod[] = {"rhsusf_acc_rvg_blk","rhsusf_acc_rvg_de","rhsusf_acc_tdstubby_blk","rhsusf_acc_grip3","rhsusf_acc_grip2"};
@@ -65,7 +167,7 @@ class r : baseMan
     sidearmAttachments[] = {"acc_flashlight_pistol"};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_9("rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
@@ -82,9 +184,17 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    backpack[] = {"B_Kitbag_mcamo"};
-    vest[] = {"lbt_weapons_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_grenadier"};
-    primaryWeapon[] = {"rhs_weap_mk18_m320"};
+    backpack[] = {"B_Kitbag_mcamo", "bear_eagleaiii_multicam"};
+    vest[] = {
+        "lbt_weapons_mc",
+        "lbt_weapons_aor1",
+        "tac1_tm_rhs_extra_content_plateframe_multicam_grenadier"
+    };
+    primaryWeapon[] = {
+        "rhs_weap_mk18_m320",
+        "bear_weap_mk18_m320_desert",
+        "bear_weap_mk18_m320_tan"
+    };
     magazines[] +=
     {
         LIST_5("rhs_mag_M441_HE"),
@@ -96,7 +206,7 @@ class car : r
     displayName = "Carabinier";
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_8("rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
@@ -106,8 +216,18 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    backpack[] = {"B_AssaultPack_mcamo"};
-    vest[] = {"lbt_medical_mc", "tac1_tm_rhs_extra_content_plateframe_multicam_medic"};
+    uniform[] = {
+        "bear_uniform_g3_multicam_med",
+        "bear_uniform_g3_multicam_medic",
+        "bear_uniform_g3_multicam_alt_med",
+        "bear_uniform_g3_multicam_alt_medic",
+        "bear_uniform_g3_multicam_alt2_med",
+        "bear_uniform_g3_multicam_alt2_medic",
+        "bear_uniform_g3_tan_multicam_med",
+        "bear_uniform_g3_tan_multicam_medic"
+    };
+    backpack[] = {"B_AssaultPack_mcamo", "bear_eagleaiii_multicam"};
+    vest[] = {"bear_lbt_medical_mc_patch", "tac1_tm_rhs_extra_content_plateframe_multicam_medic"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_20("ACE_elasticBandage"),
@@ -129,7 +249,7 @@ class smg : r
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_4("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_4("rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan"),
         "rhs_mag_m67"
     };
 };
@@ -167,8 +287,8 @@ class co : sl
         LIST_2("rhs_mag_m18_purple"),
         LIST_3("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-        LIST_5("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_5("rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
@@ -178,6 +298,12 @@ class co : sl
 class fac : co
 {
     displayName = "Forward Air Controller";
+    uniform[] = {
+        "bear_uniform_g3_multicam_cct",
+        "bear_uniform_g3_multicam_alt_cct",
+        "bear_uniform_g3_multicam_alt2_cct",
+        "bear_uniform_g3_tan_multicam_cct"
+    };
     backpackItems[] = {};
     linkedItems[] = {
         "ItemMap",
@@ -200,7 +326,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    backpack[] = {"B_AssaultPack_mcamo"};
+    backpack[] = {"B_AssaultPack_mcamo", "bear_eagleaiii_multicam"};
     primaryWeapon[] = {"CUP_lmg_Mk48"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
@@ -217,7 +343,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-    backpack[] = {"B_AssaultPack_mcamo"};
+    backpack[] = {"B_AssaultPack_mcamo", "bear_eagleaiii_multicam"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_762x51")
@@ -228,6 +354,8 @@ class rat : car
 {
     displayName = "Rifleman (M72A7)";
     secondaryWeapon[] = {"rhs_weap_m72a7"};
+    backpack[] = {"B_AssaultPack_mcamo"};
+    backpackItems[] = {"tm_weap_m72e10"};
 };
 class dm : r
 {
@@ -253,7 +381,7 @@ class mmgg : ar
     scope[] = {"rhsusf_acc_ACOG_MDO"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     silencer[] = {"rhsusf_acc_ARDEC_M240"};
-    backpack[] = {"B_AssaultPack_mcamo"};
+    backpack[] = {"B_AssaultPack_mcamo", "bear_eagleaiii_multicam", "B_Kitbag_mcamo"};
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51_m80a1epr"),
@@ -265,7 +393,7 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"B_AssaultPack_mcamo"};
+    backpack[] = {"B_AssaultPack_mcamo", "bear_eagleaiii_multicam", "B_Kitbag_mcamo"};
     backpackItems[] =
     {
         LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
@@ -274,7 +402,7 @@ class mmgac : r
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"B_AssaultPack_mcamo"};
+    backpack[] = {"B_AssaultPack_mcamo", "bear_eagleaiii_multicam", "B_Kitbag_mcamo"};
     linkedItems[] =
     {
         "ItemMap",
@@ -447,26 +575,26 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"rhsusf_spcs_ocp_sniper"};
-    headgear[] = {};
-    goggles[] = {"default"};
-    primaryWeapon[] = {"rhs_weap_XM2010_sa"};
-    scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
-    bipod[] = {"rhsusf_acc_harris_bipod"};
+    primaryWeapon[] = {
+        "UK3CB_BAF_L118A1_Covert",
+        "UK3CB_BAF_L118A1_Covert_BL"
+    };
+    scope[] = {"rksl_optic_pmii_312"};
+    bipod[] = {};
     magazines[] =
     {
-        LIST_9("rhsusf_5Rnd_300winmag_xm2010"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("rhsusf_mag_17Rnd_9x19_FMJ")
+        LIST_5("UK3CB_BAF_762_L42A1_10Rnd"),
+        LIST_5("UK3CB_BAF_762_L42A1_10Rnd_T"),
+        "rhs_mag_m67",
+        LIST_4("rhsusf_mag_17Rnd_9x19_FMJ")
     };
     backpack[] = {};
-    linkedItems[] += {"ACE_Vector","ItemGPS"};
-    items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
 class sp : g
 {
     displayName = "Spotter";
-    scope[] = {"rhsusf_acc_ACOG_d"};
+    linkedItems[] += {"ACE_Vector","ItemGPS"};
+    items[] += {"ACE_Kestrel4500", "ACE_microDAGR"};
 };
 class vc : smg
 {
@@ -511,7 +639,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    vest[] = {"rhsusf_spcs_ocp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {
         "rhsusf_hgu56p_black",
@@ -531,7 +660,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    vest[] = {"rhsusf_spcs_ocp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {
         "rhsusf_hgu56p_visor_mask_black",
@@ -560,7 +690,8 @@ class pc : pcc
 class jp : baseMan
 {
     displayName = "Jet pilot";
-    vest[] = {"rhsusf_spcs_ocp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_Kitbag_mcamo"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};
@@ -581,11 +712,17 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    uniform[] = {
+        "bear_uniform_g3_multicam_eod",
+        "bear_uniform_g3_multicam_alt_eod",
+        "bear_uniform_g3_multicam_alt2_eod",
+        "bear_uniform_g3_tan_multicam_eod"
+    };
     backpack[] = {"B_Carryall_oli"};
     magazines[] =
     {
         LIST_5("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_an_m8hc"),        
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
@@ -601,6 +738,12 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    uniform[] = {
+        "bear_uniform_g3_multicam_eod",
+        "bear_uniform_g3_multicam_alt_eod",
+        "bear_uniform_g3_multicam_alt2_eod",
+        "bear_uniform_g3_tan_multicam_eod"
+    };
     backpack[] = {"B_Kitbag_mcamo"};
     items[] +=
     {

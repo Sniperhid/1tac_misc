@@ -23,13 +23,13 @@ tooltip = "Author: Freddo\n\nRHS compatible\n\nBased on the RHS faction\n\nHas L
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhsgref_uniform_ERDL"};
+    uniform[] = {"rhs_uniform_bdu_erdl"};
     vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = {};
-    faces[] = {"faceset:african", "faceset:tanoan"};
+    faces[] = {"faceset:tanoan"};
 
     // All randomized
     primaryWeapon[] = {};
@@ -48,15 +48,14 @@ class baseMan {// Weaponless baseclass
 
     // These are added to the uniform or vest
     magazines[] = {};
-    items[] = 
-        {
+    items[] = {
         LIST_5("ACE_fieldDressing"),
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
         "ACE_Flashlight_MX991"
-        };
+    };
     // These are added directly into their respective slots
     linkedItems[] = {
         "ItemMap",
@@ -79,13 +78,14 @@ class r : baseMan
         "rhsgref_helmet_M1_bare_alt01",
         "rhsgref_helmet_M1_painted",
         "rhsgref_helmet_M1_painted_alt01",
-        "rhsgref_helmet_M1_liner"
+        "rhsgref_helmet_M1_erdl",
+        "rhsgref_helmet_M1_mit"
     };
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M193_Stanag"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -93,7 +93,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A1GL"};
     magazines[] +=
     {
         LIST_4("1Rnd_HE_Grenade_shell"),
@@ -103,10 +103,10 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"mbg_m16a1"};
+    primaryWeapon[] = {"CUP_arifle_M16A1"};
     magazines[] =
     {
-        LIST_5("mbg_mag_20Rnd_556x45_M855A1_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M193_Stanag"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -133,11 +133,11 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_5("CUP_30Rnd_9x19_MP5"),
+        LIST_5("rhsgref_30rnd_1143x23_M1911B_SMG"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -160,7 +160,7 @@ class ftl : r
     displayName = "Fireteam Leader";
     magazines[] +=
     {
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Green")
+        LIST_2("rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red")
     };
     items[] += {"ACE_mapTools","ACE_CableTie"};
     linkedItems[] += {"Binocular"};
@@ -396,11 +396,11 @@ class vc : smg
     backPack[] = {"usm_pack_st138_prc77"};
     headgear[] = {"H_MilCap_tna_F"};
     linkedItems[] += {"Binocular"};
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("CUP_30Rnd_9x19_MP5")
+        LIST_3("rhsgref_30rnd_1143x23_M1911B_SMG")
     };
 };
 class vd : sht
@@ -419,11 +419,11 @@ class vg : smg
 {
     displayName = "Vehicle Gunner";
     headgear[] = {"H_Cap_headphones"};
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("CUP_30Rnd_9x19_MP5")
+        LIST_3("rhsgref_30rnd_1143x23_M1911B_SMG")
     };
 };
 class pp : smg
@@ -434,11 +434,11 @@ class pp : smg
     vest[] = {"V_TacChestrig_cbr_F"};
     backPack[] = {"usm_pack_alice_prc119"};
     linkedItems[] += {"ItemGPS"};
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("CUP_30Rnd_9x19_MP5")
+        LIST_3("rhsgref_30rnd_1143x23_M1911B_SMG")
     };
 };
 class pcc : smg
@@ -450,11 +450,11 @@ class pcc : smg
     backPack[] = {"B_FieldPack_khk"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("CUP_30Rnd_9x19_MP5")
+        LIST_3("rhsgref_30rnd_1143x23_M1911B_SMG")
     };
 };
 class pc : smg
@@ -463,11 +463,11 @@ class pc : smg
     uniform[] = {"U_BG_Guerilla2_2","U_BG_Guerilla2_1","U_BG_Guerilla2_3"};
     headgear[] = {"H_Cap_headphones"};
     vest[] = {"V_TacChestrig_cbr_F"};
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("CUP_30Rnd_9x19_MP5")
+        LIST_3("rhsgref_30rnd_1143x23_M1911B_SMG")
     };
 };
 class engr : sht
@@ -526,11 +526,11 @@ class jp : smg
     vest[] = {"V_Pocketed_coyote_F"};
     uniform[] = {"CUP_U_B_USMC_PilotOverall"};
     backPack[] = {"ACE_NonSteerableParachute"};
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
         LIST_2("Chemlight_green"),
-        LIST_3("CUP_30Rnd_9x19_MP5")
+        LIST_3("rhsgref_30rnd_1143x23_M1911B_SMG")
     };
     linkedItems[] = {"ItemGPS"};
     code = "unitBackpack _unit additemcargoglobal ['acre_prc117F',1]";

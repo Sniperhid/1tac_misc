@@ -95,11 +95,11 @@ class car : r
 class sc : car
 {
 	displayName = "Scout";
-	primaryWeapon[] = {"mbg_m16a1"};
+	primaryWeapon[] = {"CUP_arifle_M16A1"};
     magazines[] =
     {
         LIST_10("rhs_mag_20Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_20Rnd_556x45_M855A1_Stanag"),
+        LIST_2("rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red"),
 		LIST_2("rhs_grenade_mkii_mag"),
 		LIST_2("SmokeShell")
 	};
@@ -149,12 +149,12 @@ class ftl : r
 class sl : ftl
 {
     displayName = "Squad Leader";
-	primaryWeapon[] = {"mbg_m16a1"};
+	primaryWeapon[] = {"CUP_arifle_M16A1"};
     sidearmWeapon[] = {"UK3CB_BAF_L9A1"};
     magazines[] =
     {
 		LIST_10("rhs_mag_20Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_20Rnd_556x45_M855A1_Stanag"),
+        LIST_2("rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red"),
         LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellOrange"),
 		LIST_2("rhs_grenade_mkii_mag"),

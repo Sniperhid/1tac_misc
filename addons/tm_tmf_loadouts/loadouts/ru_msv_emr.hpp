@@ -7,7 +7,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = {"rhs_uniform_msv_emr"};
     vest[] = {};
-    backpack[] = {"rhs_sidor"};
+    backpack[] = {"rhs_assault_umbts"};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = {};
@@ -54,7 +54,6 @@ class r : baseMan
         "rhs_6b28","rhs_6b28_bala","rhs_6b28_ess","rhs_6b28_ess_bala"
     };
     vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m_2mag"};
     scope[] = {};
     silencer[] = {"rhs_acc_dtk"};
@@ -80,7 +79,6 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"rhs_6b23_digi_6sh92_vog"};
-    backpack[] = {"rhs_assault_umbts"};
     primaryWeapon[] = {"rhs_weap_ak74m_gp25"};
     magazines[] +=
     {

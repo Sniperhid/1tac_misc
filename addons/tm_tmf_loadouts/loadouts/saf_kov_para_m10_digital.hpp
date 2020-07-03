@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nSerbian Army, 63rd Parachute Battalion (RHS: SAF). 5.
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhssaf_uniform_m10_digital"};
+    uniform[] = {"rhssaf_uniform_m10_digital", "rhssaf_uniform_m10_digital_summer", "rhssaf_uniform_m10_digital_tan_boots"};
     vest[] = {};
     backpack[] = {"rhssaf_kitbag_digital"};
     headgear[] = {};
@@ -58,7 +58,7 @@ class r : baseMan
         "rhssaf_helmet_m97_digital_black_ess_bare",
         "rhssaf_helmet_m97_veil_digital"
     };
-    vest[] = {"rhssaf_vest_md98_rifleman"};
+    vest[] = {"rhssaf_vest_md12_digital"};
     backpack[] = {"rhssaf_kitbag_digital", "rhssaf_kitbag_md2camo"};
     primaryWeapon[] =
     {
@@ -137,7 +137,7 @@ class smg : r
     silencer[] = {};
     magazines[] =
     {
-        LIST_4("CUP_30Rnd_9x19_MP5"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_9x19mm_MP5_FMJ"),
         "rhssaf_mag_br_m84",
         LIST_2("rhssaf_mag_brd_m83_white")
     };

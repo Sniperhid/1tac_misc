@@ -3,10 +3,22 @@ tooltip = "Author: Chris";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_indep_m81"};
-    vest[] = {"rhssaf_vest_otv_md2camo"};
-    backpack[] = {};
-    headgear[] = {"rhssaf_helmet_m97_woodland","rhssaf_helmet_m97_woodland_black_ess","rhssaf_helmet_m97_woodland_black_ess_bare"};
+    uniform[] = {
+        "CUP_U_B_HIL_ACU_CCE",
+        "CUP_U_B_HIL_ACU_Gloves_CCE",
+        "CUP_U_B_HIL_ACU_Kneepad_CCE",
+        "CUP_U_B_HIL_ACU_Kneepad_Gloves_CCE"
+    };
+    vest[] = {"rhsgref_otv_khaki"};
+    backpack[] = {"B_Kitbag_sgg"};
+    headgear[] = {
+        "CUP_H_HIL_HelmetACH_CCE",
+        "CUP_H_HIL_HelmetACH_ESS_CCE",
+        "CUP_H_HIL_HelmetACH_ESS_Headset_CCE",
+        "CUP_H_HIL_HelmetACH_ESS_CCE",
+        "CUP_H_HIL_HelmetACH_ESS_Headset_CCE",
+        "CUP_H_HIL_HelmetACH_Headset_CCE"
+    };
     goggles[] = {};
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
@@ -46,6 +58,8 @@ class baseMan {// Weaponless baseclass
     // These are put into the backpack
     backpackItems[] = {};
 
+    insignias[] = {"insignia_block28"};
+    
     // This is executed after unit init is complete. argument: _this = _unit.
     code = "";
 };

@@ -16,25 +16,33 @@ class baseMan {// Weaponless baseclass
 		"CUP_I_B_PMC_Unit_41",
 		"CUP_I_B_PMC_Unit_39",
 		"CUP_I_B_PMC_Unit_36",
-		"CUP_I_B_PARA_Unit_3",
 		"CUP_I_B_PARA_Unit_1",
-		"CUP_I_B_PARA_Unit_8",
 		"CUP_I_B_PARA_Unit_2",
+		"CUP_I_B_PARA_Unit_3",
+		"CUP_I_B_PARA_Unit_4",
 		"CUP_I_B_PARA_Unit_5",
 		"CUP_I_B_PARA_Unit_6",
-		"U_BG_Guerilla2_3",
-		"U_BG_Guerilla2_1",
-		"U_BG_Guerrilla_6_1",
-		"UK3CB_BAF_U_JumperUniform_MTP",
-		"UK3CB_BAF_U_JumperUniform_Plain",
+		"CUP_I_B_PARA_Unit_7",
+		"CUP_I_B_PARA_Unit_8",
+		"CUP_I_B_PARA_Unit_10",
+		"CUP_I_B_PARA_Unit_11",
+		"CUP_I_B_PARA_Unit_12",
+		"CUP_I_B_PARA_Unit_14",
 		"UK3CB_BAF_U_CombatUniform_MTP_TShirt",
-		"usm_bdu_bnu_dcu"
+		"usm_bdu_bnu_dcu",
+		"usm_bdu_bnu_odg",
+		"usm_bdu_bnu_ERDL",
+		"usm_bdu_bnu_des_m",
+		"usm_bdu_bnu_portliz",
+		"usm_bdu_bnu_tan"
 	};
     headgear[] = {
+		"UK3CB_BAF_H_Wool_Hat",
 		"CUP_H_PMC_Cap_Back_PRR_Tan",
+		"CUP_H_PMC_Cap_Back_EP_Tan",
 		"CUP_H_PMC_Cap_Back_PRR_Grey",
-		"CUP_H_PMC_Cap_Back_PRR_Grey",
-		"CUP_H_CZ_Hat04",
+		"CUP_H_PMC_Cap_Back_EP_Grey",
+		"CUP_H_FR_Cap_Headset_Green",
 		"CUP_H_CZ_Hat04",
 		"CUP_H_PMC_Cap_EP_Tan",
 		"CUP_H_PMC_Cap_EP_Grey",
@@ -45,11 +53,19 @@ class baseMan {// Weaponless baseclass
 		"rhsusf_bowman_cap",
 		"rhsusf_Bowman",
 		"H_Cap_headphones",
+		"CUP_H_PMC_Beanie_Black",
 		"CUP_H_PMC_Beanie_Headphones_Black",
+		"CUP_H_PMC_Beanie_Khaki",
 		"CUP_H_PMC_Beanie_Headphones_Khaki",
 		"H_Bandanna_khk_hs",
 		"CUP_H_FR_Bandana_Headset",
-		"CUP_H_CZ_Pakol_headset_f_brown"
+		"CUP_H_CZ_Pakol_headset_f_brown",
+		"CUP_H_RUS_Balaclava_Ratnik_Headphones",
+		"CUP_H_RUS_Balaclava_Ratnik_Headphones_v2",
+		"CUP_H_RUS_Bandana_GSSh_Headphones",
+		"CUP_H_USA_Cap_NY_DEF",
+		"CUP_H_USA_Cap_MCAM",
+        "CUP_H_USA_Cap_M81"
 	};
     vest[] = {
 		"CUP_V_MBSS_PACA_Black",
@@ -107,15 +123,21 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    primaryWeapon[] = {"CUP_arifle_DSA_SA58_OSW_VFG"};
+    primaryWeapon[] = {
+        "CUP_arifle_DSA_SA58_OSW_VFG",
+        "CUP_arifle_DSA_SA58_OSW_VFG",
+        "CUP_arifle_DSA_SA58_OSW_VFG_Desert",
+        "CUP_arifle_DSA_SA58_OSW_VFG_Sand",
+        "CUP_arifle_DSA_SA58_OSW_VFG_Woodland"
+    };
     bipod[] = {};
-    scope[] = {"rhsusf_acc_compm4"};
-    attachment[] = {"CUP_acc_LLM_od"};
+    scope[] = {"cup_optic_vortexrazor_uh1_black"};
+    attachment[] = {"ace_acc_pointer_green"};
     silencer[] = {"CUP_muzzle_mfsup_SCAR_H"};
     magazines[] =
     {
-        LIST_7("CUP_20Rnd_762x51_FNFAL_M"),
-        LIST_2("CUP_20Rnd_TE1_Yellow_Tracer_762x51_FNFAL_Desert_M"),
+        LIST_7("tac1_tm_mag_compat_20Rnd_762x51_FNFAL_M80"),
+        LIST_2("tac1_tm_mag_compat_20Rnd_762x51_FNFAL_M62_Tracer"),
         "rhs_mag_m67",
         "rhs_mag_an_m14_th3",
         "rhs_mag_an_m8hc"
@@ -241,13 +263,13 @@ class ar : r
     bipod[] = {"cup_bipod_vltor_modpod_black"};
 	magazines[] =
     {
-        LIST_7("CUP_30Rnd_762x51_FNFAL_M"),
-        LIST_2("CUP_30Rnd_TE1_Yellow_Tracer_762x51_FNFAL_M"),
+        LIST_7("tac1_tm_mag_compat_30Rnd_762x51_FNFAL_M80"),
+        LIST_2("tac1_tm_mag_compat_30Rnd_762x51_FNFAL_M62_Tracer"),
         "rhs_mag_m67",
         "rhs_mag_an_m14_th3",
         "rhs_mag_an_m8hc"
     };
-    backpackItems[] = { LIST_6("CUP_30Rnd_762x51_FNFAL_M") };
+    backpackItems[] = { LIST_6("tac1_tm_mag_compat_30Rnd_762x51_FNFAL_M80") };
 };
 class aar : r
 {
@@ -262,7 +284,7 @@ class aar : r
         "rhs_mag_an_m14_th3",
         "rhs_mag_an_m8hc"
     };
-    backpackItems[] = { LIST_10("CUP_30Rnd_762x51_FNFAL_M") };
+    backpackItems[] = { LIST_10("tac1_tm_mag_compat_30Rnd_762x51_FNFAL_M80") };
     linkedItems[] += {"ACE_Vector"};
 };
 class rat : r
@@ -524,7 +546,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
     backpackItems[] = {};
 };
 class pp : smg
@@ -554,7 +575,6 @@ class pcc : smg
 class pc : pcc
 {
     displayName = "Helicopter Crew";
-    backpack[] = {};
     backpackItems[] = {};
 };
 class jp : baseMan

@@ -57,17 +57,14 @@ class r : baseMan
         "rhssaf_helmet_m97_olive_nocamo_black_ess_bare"
     };
     vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
-    primaryWeapon[] = 
-    {
-        "mbg_m16a2"
-    };
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
     bipod[] = {};
     scope[] = {};
     attachment[] = {};
     magazines[] =
     {
-        LIST_11("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_11("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -84,7 +81,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     bipod[] = {};
     magazines[] +=
     {
@@ -97,8 +94,8 @@ class car : r
     displayName = "Carabinier";
     magazines[] =
     {
-        LIST_7("30Rnd_556x45_Stanag"),
-        LIST_2("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };
@@ -126,10 +123,10 @@ class smg : r
 {
     displayName = "Submachinegunner";
     vest[] = {"rhsgref_chicom"};
-    primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
+    primaryWeapon[] = {"CUP_arifle_Colt727"};
     magazines[] =
     {
-        LIST_4("30Rnd_556x45_Stanag"),
+        LIST_4("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "HandGrenade",
         LIST_2("SmokeShell")
     };
@@ -401,8 +398,6 @@ class sn : r
 {
     displayName = "Sniper";
     vest[] = {"CUP_V_B_Eagle_SPC_Rifleman"};
-    headgear[] = {"rhs_booniehat2_marpatwd","rhsusf_bowman_cap","rhsusf_Bowman"};
-    goggles[] = {};
     primaryWeapon[] = {"rhs_weap_sr25"};
     scope[] = {"rhsusf_acc_LEUPOLDMK4_2"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
@@ -428,8 +423,8 @@ class sp : sn
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_9("30Rnd_556x45_Stanag"),
-        LIST_3("30Rnd_556x45_Stanag_Tracer_Red"),
+        LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
+        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_2("HandGrenade"),
         LIST_2("SmokeShell")
     };

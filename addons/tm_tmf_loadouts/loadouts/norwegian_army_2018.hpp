@@ -217,7 +217,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"rhs_weap_m249_pip_L_para"};
+    primaryWeapon[] = {"bear_weap_m249_pip_S_para_fde"};
     scope[] = {"rhsusf_acc_ELCAN"};
         attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     bipod[] = {};

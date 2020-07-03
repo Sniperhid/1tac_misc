@@ -38,7 +38,7 @@ class baseMan {// Weaponless baseclass
     // Only *Weapons[] arrays are randomized
     secondaryWeapon[] = {};
     secondaryAttachments[] = {};
-    sidearmWeapon[] = {};
+    sidearmWeapon[] = {"ACE_Flashlight_Maglite_ML300L"};
     sidearmAttachments[] = {};
     // Leave empty to remove all. "Default" for secondaryWeapon or sidearmWeapon > leave original weapon.
 
@@ -74,6 +74,7 @@ class r : baseMan
         LIST_5("rhs_mag_20Rnd_762x51_m80_fnfal"),
         LIST_5("rhs_mag_20Rnd_762x51_m62_fnfal"),
         "rhs_mag_f1",
+        LIST_4("ACE_HandFlare_Yellow"),
         LIST_2("rhs_mag_rdg2_white")
     };
     items[] =
@@ -82,7 +83,8 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "ACE_Flashlight_MX991"
     };
 };
 class g : r
@@ -97,7 +99,8 @@ class g : r
         LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
         LIST_5("CUP_1Rnd_HE_M203"),
         LIST_5("CUP_1Rnd_StarFlare_White_M203"),
-        LIST_2("CUP_1Rnd_Smoke_M203")
+        LIST_2("CUP_1Rnd_Smoke_M203"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
 };
 class car : r
@@ -114,9 +117,10 @@ class smg : r
     magazines[] =
     {
         LIST_3("bear_orange_30Rnd_545x39_7N6M_AK"),
-        LIST_2("bear_orange_30Rnd_545x39_AK_green"),
+        LIST_3("bear_orange_30Rnd_545x39_AK_green"),
         "rhs_mag_f1",
-        "rhs_mag_rdg2_white"
+        "rhs_mag_rdg2_white",
+        LIST_3("ACE_HandFlare_Yellow")
     };
 };
 class smg_moreammo : smg
@@ -127,7 +131,8 @@ class smg_moreammo : smg
         LIST_4("bear_orange_30Rnd_545x39_7N6M_AK"),
         LIST_4("bear_orange_30Rnd_545x39_AK_green"),
         "rhs_mag_f1",
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_mag_rdg2_white"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
 };
 class m : smg_moreammo
@@ -186,7 +191,8 @@ class co : sl
         LIST_3("rhs_mag_762x25_8"),
         LIST_3("rhs_mag_nspd"),
         LIST_5("rhs_mag_f1"),
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_mag_rdg2_white"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
     backpackItems[] = {};
 };
@@ -200,7 +206,8 @@ class fac : sl
         LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet",
-        "ACE_Maptools"
+        "ACE_Maptools",
+        "ACE_Flashlight_MX991"
     };
 };
 class ar : r
@@ -216,7 +223,8 @@ class ar : r
         LIST_3("rhsusf_100Rnd_762x51"),
         LIST_3("rhsusf_100Rnd_762x51_m62_tracer"),
         "rhs_mag_f1",
-        "rhs_mag_rdg2_white"
+        "rhs_mag_rdg2_white",
+        LIST_4("ACE_HandFlare_Yellow")
     };
 };
 class aar : r
@@ -251,7 +259,8 @@ class dm : r
         LIST_12("CUP_10x_303_M"),
 		LIST_4("rhs_mag_9x18_8_57N181S"),
         LIST_2("rhs_mag_f1"),
-        LIST_2("rhs_mag_rdg2_white")
+        LIST_2("rhs_mag_rdg2_white"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
 };
 class mmgg : ar
@@ -262,7 +271,8 @@ class mmgg : ar
         LIST_3("rhsusf_100Rnd_762x51"),
         LIST_3("rhsusf_100Rnd_762x51_m62_tracer"),
         "rhs_mag_f1",
-        "rhs_mag_rdg2_white"
+        "rhs_mag_rdg2_white",
+        LIST_4("ACE_HandFlare_Yellow")
     };
 };
 class mmgac : smg_moreammo
@@ -449,7 +459,8 @@ class sn : r
     magazines[] =
     {
         LIST_10("CUP_10x_303_M"),
-        LIST_4("rhs_mag_9x18_8_57N181S")
+        LIST_4("rhs_mag_9x18_8_57N181S"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
 };
 class sp : sn
@@ -466,7 +477,8 @@ class sp : sn
         "rhs_mag_rdg2_white",
         LIST_5("CUP_1Rnd_HE_M203"),
         LIST_5("CUP_1Rnd_StarFlare_White_M203"),
-        LIST_2("CUP_1Rnd_Smoke_M203")
+        LIST_2("CUP_1Rnd_Smoke_M203"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -529,7 +541,8 @@ class jp : baseMan
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_4("rhs_mag_9x18_8_57N181S")
+        LIST_4("rhs_mag_9x18_8_57N181S"),
+        LIST_4("ACE_HandFlare_Yellow")
     };
     items[] =
     {
@@ -537,7 +550,8 @@ class jp : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "ACE_Flashlight_MX991"
     };
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
