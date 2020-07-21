@@ -8,10 +8,12 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main", "tac1_tm_insignia"};
+        requiredAddons[] = {"tac1_tm_main", "tac1_tm_insignia", "tmf_adminmenu"};
         VERSION_CONFIG;
     };
 };
+
+#include "admins.hpp"
 
 #include "players.hpp"
 
