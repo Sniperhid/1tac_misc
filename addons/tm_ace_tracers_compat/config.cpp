@@ -15,7 +15,9 @@ class CfgPatches {
             "rhsusf_c_weapons",
             "rhsusf_c_heavyweapons",
             "CUP_Weapons_Ammunition",
-            "ace_tracers"
+            "ace_tracers",
+            "UK3CB_BAF_Vehicles_Weapons",
+            "UK3CB_BAF_Weapons_Ammo"
         };
         VERSION_CONFIG;
     };

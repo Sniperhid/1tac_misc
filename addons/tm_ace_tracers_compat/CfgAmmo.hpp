@@ -404,4 +404,41 @@ class CfgAmmo {
     class CUP_B_127x108_AP_Green_Tracer: B_127x108_Ball {
         model = "\z\ace\addons\tracers\ace_TracerGreen2.p3d";
     };
+    
+    class UK3CB_BAF_556_Ball: B_556x45_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class B_556x45_Ball_Tracer_Red: B_556x45_Ball {};
+    class UK3CB_BAF_556_Ball_Tracer_Red: B_556x45_Ball_Tracer_Red {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_762_Ball: B_762x51_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_762_Ball_B416: B_762x51_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_762_Ball_L42A1: B_762x51_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class B_762x51_Tracer_Red: B_762x51_Ball {};
+    class UK3CB_BAF_762_Ball_L42A1_Tracer_Red: B_762x51_Tracer_Red {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_762_Ball_Tracer_Red: B_762x51_Tracer_Red {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_B_127x99_AP: B_127x99_SLAP {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_B_127x99_Ball: B_127x99_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class B_408_Ball;
+    class UK3CB_BAF_338_Ball: B_408_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
+    class UK3CB_BAF_338_Ball_Tracer_Red: B_408_Ball {
+        model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
+    };
 };
