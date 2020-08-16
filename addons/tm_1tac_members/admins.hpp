@@ -14,4 +14,7 @@ class tmf_adminmenu_authorized_players {
     class Titan {
         uid = "76561198002666327";
     };
+    class Head {
+        uid = "76561197975149309";
+    }
 };
