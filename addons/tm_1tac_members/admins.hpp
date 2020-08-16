@@ -16,5 +16,5 @@ class tmf_adminmenu_authorized_players {
     };
     class Head {
         uid = "76561197975149309";
-    }
+    };
 };
