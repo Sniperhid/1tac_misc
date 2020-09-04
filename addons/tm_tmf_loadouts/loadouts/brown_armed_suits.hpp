@@ -56,9 +56,9 @@ class r : baseMan
 	flashlight[] = {"UK3CB_BAF_LLM_Flashlight_Black"};
     magazines[] =
     {
-        LIST_6("rhs_30Rnd_545x39_7N22_AK"),
-        LIST_2("rhs_mag_m67"),
-        LIST_1("SmokeShell"),
+        LIST_5("rhs_30Rnd_545x39_7N22_AK"),
+        "rhs_mag_m67",
+        "SmokeShell",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -105,9 +105,9 @@ class smg : r
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_10("CUP_30Rnd_9x19_MP5"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("SmokeShell"),
+        LIST_5("CUP_30Rnd_9x19_MP5"),
+        "rhs_mag_m67",
+        "SmokeShell",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -130,7 +130,7 @@ class sl : ftl
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] +=
     {
-        LIST_4("rhsusf_mag_17Rnd_9x19_JHP")
+        LIST_2("rhsusf_mag_17Rnd_9x19_JHP")
     };
     linkedItems[] =
     {
@@ -161,7 +161,7 @@ class ar : r
         "rhsusf_100Rnd_556x45_mixed_soft_pouch",
         "rhs_mag_m67",
         "SmokeShell",
-        LIST_4("rhsusf_mag_17Rnd_9x19_JHP"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -191,9 +191,9 @@ class dm : r
     scope[] = {"rhs_acc_dh520x56"};
     magazines[] =
     {
-        LIST_6("rhs_10Rnd_762x54mmR_7N1"),
-        LIST_2("rhs_mag_m67"),
-        LIST_2("SmokeShell"),
+        LIST_5("rhs_10Rnd_762x54mmR_7N1"),
+        "rhs_mag_m67",
+        "SmokeShell",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -207,10 +207,10 @@ class mmgg : ar
     primaryWeapon[] = {"rhs_weap_m240B"};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_762x51"),
+        LIST_3("rhsusf_100Rnd_762x51"),
         "rhs_mag_m67",
         "SmokeShell",
-        LIST_4("rhsusf_mag_17Rnd_9x19_JHP"),
+        LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -402,9 +402,9 @@ class sn : r
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_7("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
-        LIST_2("rhs_mag_m67"),
-        LIST_4("16Rnd_9x21_Mag"),
+        LIST_5("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
+        "rhs_mag_m67",
+        LIST_2("rhsusf_mag_17Rnd_9x19_JHP",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -429,7 +429,6 @@ class sp : g
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
     backpack[] = {};
     headgear[] = {"rhs_tsh4"};
     linkedItems[] += {"Binocular","ItemGPS"};
@@ -437,7 +436,6 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
     backpack[] = {"B_AssaultPack_khk"};
     headgear[] = {"rhs_tsh4"};
     linkedItems[] += {"ItemGPS"};
@@ -446,15 +444,11 @@ class vd : smg
 class vg : smg
 {
     displayName = "Vehicle Gunner";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
-    backpack[] = {};
     headgear[] = {"rhs_tsh4"};
 };
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
-    backpack[] = {};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -462,8 +456,6 @@ class pp : smg
 class jp : smg
 {
     displayName = "Jet Pilot";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
-    backpack[] = {};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -472,7 +464,6 @@ class pcc : smg
 {
 
     displayName = "Helicopter Crew Chief";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
     backpack[] = {"B_AssaultPack_khk"};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {"default"};
@@ -482,8 +473,6 @@ class pcc : smg
 class pc : smg
 {
     displayName = "Helicopter Crew";
-    //vest[] = {"V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"};
-    backpack[] = {};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -493,13 +482,13 @@ class eng : car
     displayName = "Combat Engineer (Explosives)";
     magazines[] +=
     {
-        LIST_4("ClaymoreDirectionalMine_Remote_Mag")
+        LIST_2("ClaymoreDirectionalMine_Remote_Mag")
     };
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        LIST_2("DemoCharge_Remote_Mag"),
-        LIST_2("SLAMDirectionalMine_Wire_Mag")
+        "DemoCharge_Remote_Mag",
+        "SLAMDirectionalMine_Wire_Mag"
     };
 };
 class engm : car
@@ -507,8 +496,8 @@ class engm : car
     displayName = "Combat Engineer (Mines)";
     items[] +=
     {
-        LIST_2("APERSBoundingMine_Range_Mag"),
-        LIST_2("APERSTripMine_Wire_Mag")
+        "APERSBoundingMine_Range_Mag",
+        "APERSTripMine_Wire_Mag"
     };
     backpackItems[] = {
         "MineDetector",

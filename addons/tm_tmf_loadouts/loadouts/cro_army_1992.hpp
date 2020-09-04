@@ -49,10 +49,10 @@ class r : baseMan
 {
     displayName = "Rifleman";
     primaryWeapon[] = {"rhs_weap_m70b3n"};
-    scope[] = {""};
+    scope[] = {};
     magazines[] =
     {
-        LIST_3("bear_orange_30rnd_545x39_7N22_AK"),
+        LIST_3("rhssaf_30Rnd_762x39mm_M67"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -147,10 +147,11 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"hlc_rifle_rpk"};
+    primaryWeapon[] = {"CUP_arifle_RPK74"};
+	backpack[] = {"rhs_sidor"};
     magazines[] =
     {
-        LIST_2("rhs_45rnd_545x39_7N22_AK"),
+        LIST_2("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -161,9 +162,10 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
+	backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_3("rhs_45rnd_545x39_7N22_AK")
+        LIST_3("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -192,15 +194,16 @@ class mmgg : ar
     displayName = "MMG Gunner";
     magazines[] +=
     {
-        LIST_2("rhs_45rnd_545x39_7N22_AK"),
+        LIST_2("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
     };
 };
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
+	backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_2("rhs_45rnd_545x39_7N22_AK")
+        LIST_2("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
 };
 class mmgag : aar
@@ -216,7 +219,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_3("rhs_45rnd_545x39_7N22_AK")
+        LIST_3("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
 };
 class hmgg : car
@@ -342,7 +345,7 @@ class samg : car
 	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_3("rhs_mag_9k38_rocket")
+        LIST_2("rhs_mag_9k38_rocket")
     };
 };
 class samag : car
@@ -445,8 +448,8 @@ class eng : car
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        LIST_2("DemoCharge_Remote_Mag"),
-        LIST_2("SLAMDirectionalMine_Wire_Mag")
+        "DemoCharge_Remote_Mag",
+        "SLAMDirectionalMine_Wire_Mag"
     };
 };
 class engm : car
@@ -455,8 +458,8 @@ class engm : car
 	backpack[] = {"rhs_sidor"};
     items[] +=
     {
-        LIST_2("APERSBoundingMine_Range_Mag"),
-        LIST_2("APERSTripMine_Wire_Mag")
+        "APERSBoundingMine_Range_Mag",
+        "APERSTripMine_Wire_Mag"
     };
     backpackItems[] = {
         "MineDetector",
