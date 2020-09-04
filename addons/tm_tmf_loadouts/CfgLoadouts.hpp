@@ -6,6 +6,12 @@ class CfgLoadouts
 		category = "Eastern Factions";
 		#include "loadouts\cro_army_wd.hpp"
 	};
+	class CRO_SF
+	{
+		displayName = "Croatian Special Forces (Modern)";
+		category = "Eastern Factions";
+		#include "loadouts\cro_sf.hpp"
+	};
 	class CRO_ARMY_1992
 	{
 		displayName = "Croatian Ground Army (1992)";
