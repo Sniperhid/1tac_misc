@@ -76,7 +76,11 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_lbe_gr"};
-    primaryWeapon[] = {"CUP_arifle_M16A1GL"};
+    primaryWeapon[] = {
+        LIST_18("CUP_arifle_M16A1GL"),
+        "CUP_arifle_M16A1GL_FS",
+        "CUP_arifle_M16A1GL_USA"
+    };
     magazines[] +=
     {
         LIST_6("1Rnd_HE_Grenade_shell"),
@@ -373,23 +377,21 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    vest[] = {"usm_vest_lbe_rmp"};
     headgear[] = {"usm_bdu_boonie_erdl"};
-    primaryWeapon[] = {"rhs_weap_m14_rail"};
-    scope[] = {"optic_khs_old"};
-    bipod[] = {"rhsusf_acc_m14_bipod"};
+    primaryWeapon[] = {"CUP_srifle_M21"};
+    scope[] = {"cup_optic_artel_m14"};
+    bipod[] = {"cup_bipod_harris_1a2_l_blk"};
     magazines[] =
     {
         LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
-        LIST_2("rhs_mag_m67"),
-        LIST_4("rhsusf_mag_7x45acp_MHP")
+        "rhs_mag_m67",
+        LIST_3("rhsusf_mag_7x45acp_MHP")
     };
     backpack[] = {};
 };
 class sp : r
 {
     displayName = "Spotter";
-    vest[] = {"usm_vest_lbe_rm"};
     headgear[] = {"usm_bdu_boonie_erdl"};
     linkedItems[] += {"Binocular"};
 };
@@ -418,6 +420,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_simc_USMC65_M41"};
     headgear[] = {"tm_hgu56p_visor_cav"};
     goggles[] = {};
@@ -430,6 +434,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_simc_USMC65_M41"};
     headgear[] = {"tm_hgu56p_visor_cav"};
     goggles[] = {};

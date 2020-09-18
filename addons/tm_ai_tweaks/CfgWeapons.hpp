@@ -628,28 +628,37 @@ class CfgWeapons {
 			burst = 6; // 3
 		};
 	};
+    
+    class CUP_arifle_M16_Base: Rifle_Base_f {
+        class Single: Mode_SemiAuto {
+            aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+        };
+        class Burst: Mode_Burst {
+            aiDispersionCoefX = (2 * 2);
+            aiDispersionCoefY = (3 * 2);
+        };
+    };
+    class CUP_arifle_M4_Base: CUP_arifle_M16_Base {
+        class Single: Mode_SemiAuto {
+            aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+        };
+        class FullAuto: Mode_FullAuto {
+            aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+        };
+    };
+    class CUP_arifle_XM16E1: CUP_arifle_M16_Base {
+        class FullAuto: Mode_FullAuto {
+            aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+        };
+    };
+    class CUP_arifle_Colt727: CUP_arifle_M16_Base {
+        class FullAuto: Mode_FullAuto {
+            aiDispersionCoefX = (2 * 1.6);
+            aiDispersionCoefY = (3 * 1.6);
+        };
+    };
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

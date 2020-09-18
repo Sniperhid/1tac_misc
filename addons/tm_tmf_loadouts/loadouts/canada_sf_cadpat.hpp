@@ -5,7 +5,7 @@ tooltip = "Author: Bear";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"sad_g3_cadpat"};
+    uniform[] = {"bear_uniform_g3_cadpat_ca"};
     vest[] = {};
     backpack[] = {"B_AssaultPack_rgr"};
     headgear[] = {};
@@ -52,7 +52,16 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {
-		"rhsusf_opscore_fg_pelt_nsw"
+		"rhsusf_opscore_fg_pelt",
+		"rhsusf_opscore_fg_pelt",
+		"rhsusf_opscore_fg_pelt_cam",
+		"rhsusf_opscore_fg_pelt_cam",
+		"rhsusf_opscore_fg_pelt_nsw",
+		"rhsusf_opscore_fg_pelt_nsw",
+		"bear_opscore_ranger_green_cover_pelt",
+		"bear_opscore_ranger_green_cover_pelt_cam",
+		"bear_opscore_ranger_green_cover_pelt_nsw",
+		"bear_opscore_ranger_green_cover_pelt_nsw_cam"
 	};
     vest[] = {
 		"lbt_comms_coy"
@@ -192,7 +201,7 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"rhs_weap_m249_pip_S_para"};
-    scope[] = {"rhsusf_acc_elcan"};
+    scope[] = {"tm_c79"};
     attachment[] = {"rhsusf_acc_anpeq16a_light"};
     bipod[] = {"rhsusf_acc_grip4"};
     magazines[] =

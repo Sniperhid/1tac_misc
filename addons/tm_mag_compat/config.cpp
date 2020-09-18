@@ -15,8 +15,11 @@ class CfgPatches {
             "UK3CB_BAF_Weapons",
             "ace_ballistics",
             "bear_ak74m_orange_bakelite",
+            "CUP_Weapons_Ammunition",
             "CUP_Weapons_Mk48",
-            "CUP_Weapons_Ammunition"
+            "CUP_Weapons_GROZA",
+            "CUP_Weapons_Galil",
+            "hlcweapons_g3"
         };
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;

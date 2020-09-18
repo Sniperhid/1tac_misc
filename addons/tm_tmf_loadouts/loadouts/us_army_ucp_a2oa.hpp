@@ -56,6 +56,9 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
     {
+        "bear_mich_bare_gray",
+        "bear_mich_bare_gray_alt",
+        "bear_mich_bare_gray_headset",
         "rhsusf_mich_bare_tan_headset",
         "rhsusf_mich_bare_alt_tan",
         "rhsusf_mich_bare_tan",
@@ -70,14 +73,16 @@ class r : baseMan
         "rhsusf_mich_bare_norotos_arc_alt_semi"
     };
     vest[] = {"rhsusf_iotv_ucp_Rifleman"};
-    primaryWeapon[] = {"tac1_tm_rhs_mk17_556mm_cqc"};
+    primaryWeapon[] = {"tac1_tm_rhs_mk17_556mm_std"};
     scope[] = {"rhsusf_acc_compm4"};
-    attachment[] = {"rhsusf_acc_anpeq15_wmx"};
+    attachment[] = {"cup_acc_anpeq_15_flashlight_tan_l"};
     bipod[] = {"rhsusf_acc_grip3"};
-    sidearmWeapon[] = {"rhsusf_weap_m9"};
+    sidearmWeapon[] = {"CUP_hgun_M9A1"};
+    sidearmAttachments[] = {"hlc_acc_tlr1"};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red"),
         LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
@@ -94,11 +99,14 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
+    primaryWeapon[] = {"CUP_arifle_Mk16_CQC_EGLM"};
+    attachment[] = {"cup_acc_anpeq_15_top_flashlight_tan_l"};
     vest[] = {"rhsusf_iotv_ucp_Grenadier"};
-    sidearmWeapon[] = {"rhs_weap_M320"};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red"),
+        LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_6("rhs_mag_M441_HE"),
@@ -108,14 +116,15 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
+    primaryWeapon[] = {"tac1_tm_rhs_mk17_556mm_cqc"};
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_6("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red"),
         LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
-    //primaryWeapon[] = {"rhs_weap_m4a1_carryhandle"};
 };
 class m : car
 {
@@ -143,7 +152,7 @@ class smg : r
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_4("CUP_30Rnd_9x19_MP5"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_9x19mm_MP5_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -173,7 +182,8 @@ class co : sl
         LIST_2("rhs_mag_m18_purple"),
         LIST_4("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-        LIST_7("rhs_mag_30Rnd_556x45_Mk318_SCAR"),
+        LIST_6("rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -210,7 +220,7 @@ class ar : r
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =
     {
-        LIST_4("rhsusf_200Rnd_556x45_M855_soft_pouch_ucp"),
+        LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch_ucp"),
         LIST_2("rhsusf_mag_15Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
@@ -232,7 +242,7 @@ class aar : r
     };
     backpackItems[] =
     {
-        LIST_4("rhsusf_200Rnd_556x45_M855_soft_pouch_ucp")
+        LIST_3("rhsusf_200Rnd_556x45_mixed_soft_pouch_ucp")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -526,7 +536,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    vest[] = {"rhsusf_iotv_ucp_Repair"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {
         "rhsusf_hgu56p_black",
@@ -546,7 +557,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    vest[] = {"rhsusf_iotv_ucp_Repair"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {
         "rhsusf_hgu56p_visor_mask_black",
@@ -575,7 +587,8 @@ class pc : pcc
 class jp : baseMan
 {
     displayName = "Jet pilot";
-    vest[] = {"rhsusf_iotv_ucp_Repair"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};

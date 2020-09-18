@@ -9,8 +9,11 @@ class CfgPatches
 		url = "http://www.teamonetactical.com";
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {};
+		requiredAddons[] = {"us_military_units"};
 		requiredVersion = REQUIRED_VERSION;
 		VERSION_CONFIG;
 	};
 };
+
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

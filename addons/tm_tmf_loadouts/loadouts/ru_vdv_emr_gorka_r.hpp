@@ -7,7 +7,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = {"bear_uniform_gorka_r_emr_summer"};
     vest[] = {};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_assault_umbts", "rhs_assault_umbts", "CUP_O_RUS_Patrol_bag_Summer"};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = 
@@ -76,20 +76,6 @@ class r : baseMan
         LIST_2("ACE_Splint"),
         "ACE_morphine",
         "ACE_tourniquet"
-    };
-};
-class r_akms : r // as seen in crimea and syria
-{
-    displayName = "Rifleman (AKMS)";
-    vest[] = {"rhs_6b23_6sh116"};
-    primaryWeapon[] = {"rhs_weap_akms"};
-    silencer[] = {"rhs_acc_dtkakm"};
-    scope[] = {};
-    magazines[] =
-    {
-        LIST_10("rhs_30Rnd_762x39mm_polymer_89"),
-        LIST_2("rhs_mag_rgd5"),
-        "rhs_mag_rdg2_white"
     };
 };
 class g : r

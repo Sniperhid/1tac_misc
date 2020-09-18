@@ -8,9 +8,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac1_tm_main", "UK3CB_BAF_Weapons_L110", "CUP_Weapons_M249", "rhsusf_c_weapons"};
+        requiredAddons[] = {"tac1_tm_main", "UK3CB_BAF_Weapons_Ammo", "UK3CB_BAF_Weapons_L110", "CUP_Weapons_M249", "rhsusf_c_weapons"};
         VERSION_CONFIG;
     };
 };
 
+#include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"

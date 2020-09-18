@@ -83,4 +83,119 @@ class CfgWeapons {
             "M240_762x51"
         };
     };
+    
+    class CUP_arifle_OTS14_GROZA_Base: Rifle_Base_F {
+        magazines[] = {
+            "CUP_20Rnd_9x39_SP5_GROZA_M",
+            QGVAR(20Rnd_9x39mm_Groza_SP5),
+            QGVAR(20Rnd_9x39mm_Groza_SP6)
+        };
+    };
+    
+    class CUP_arifle_GALIL_BASE;
+    class CUP_arifle_Galil_black: CUP_arifle_GALIL_BASE {
+        magazines[] = {
+            "CUP_25Rnd_762x51_Galil_Mag",
+            "CUP_25Rnd_762x51_Red_Tracers_Galil_Mag",
+            "CUP_25Rnd_762x51_Green_Tracers_Galil_Mag",
+            QGVAR(25Rnd_762x51_Galil_M80)
+        };
+    };
+    class CUP_arifle_Galil_556_black: CUP_arifle_GALIL_BASE {
+        magazines[] = {
+            "CUP_35Rnd_556x45_Galil_Mag",
+            "CUP_35Rnd_556x45_Red_Tracer_Galil_Mag",
+            "CUP_35Rnd_556x45_Green_Tracer_Galil_Mag",
+            "CUP_50Rnd_556x45_Galil_Mag",
+            "CUP_50Rnd_556x45_Red_Tracer_Galil_Mag",
+            "CUP_50Rnd_556x45_Green_Tracer_Galil_Mag",
+            QGVAR(35Rnd_556x45_Galil_M855),
+            QGVAR(35Rnd_556x45_Galil_M856_Tracer),
+            QGVAR(35Rnd_556x45_Galil_M855A1)
+        };
+    };
+    class CUP_arifle_Galil_SAR_black: CUP_arifle_GALIL_BASE {
+        magazines[] = {
+            "CUP_35Rnd_556x45_Galil_Mag",
+            "CUP_35Rnd_556x45_Red_Tracer_Galil_Mag",
+            "CUP_35Rnd_556x45_Green_Tracer_Galil_Mag",
+            "CUP_50Rnd_556x45_Galil_Mag",
+            "CUP_50Rnd_556x45_Red_Tracer_Galil_Mag",
+            "CUP_50Rnd_556x45_Green_Tracer_Galil_Mag",
+            QGVAR(35Rnd_556x45_Galil_M855),
+            QGVAR(35Rnd_556x45_Galil_M856_Tracer),
+            QGVAR(35Rnd_556x45_Galil_M855A1)
+        };
+    };
+    
+    class hlc_g3_base;
+    class hlc_rifle_hk53: hlc_g3_base {
+        magazines[] = {
+            "hlc_30rnd_556x45_b_hk33",
+            "hlc_30rnd_556x45_t_hk33",
+            "hlc_30rnd_556x45_epr_hk33",
+            "hlc_30rnd_556x45_sost_hk33",
+            "hlc_30rnd_556x45_tdim_HK33",
+            "hlc_30rnd_556x45_mdim_HK33",
+            "hlc_30rnd_556x45_SPR_HK33",
+            QGVAR(30Rnd_556x45_HK33_M855),
+            QGVAR(30Rnd_556x45_HK33_M856_Tracer_Red),
+            QGVAR(30Rnd_556x45_HK33_M855A1)
+        };
+    };
+    class hlc_rifle_hk33a2: hlc_g3_base {
+        magazines[] = {
+            "hlc_30rnd_556x45_b_hk33",
+            "hlc_30rnd_556x45_t_hk33",
+            "hlc_30rnd_556x45_epr_hk33",
+            "hlc_30rnd_556x45_sost_hk33",
+            "hlc_30rnd_556x45_tdim_HK33",
+            "hlc_30rnd_556x45_mdim_HK33",
+            "hlc_30rnd_556x45_SPR_HK33",
+            QGVAR(30Rnd_556x45_HK33_M855),
+            QGVAR(30Rnd_556x45_HK33_M856_Tracer_Red),
+            QGVAR(30Rnd_556x45_HK33_M855A1)
+        };
+    };
+    
+    class CUP_arifle_Mk16_CQC;
+    class CUP_arifle_Mk16_CQC_EGLM: CUP_arifle_Mk16_CQC {
+        magazineWell[] = {
+            "CBA_556x45_STANAG",
+            "CBA_556x45_STANAG_L",
+            "CBA_556x45_STANAG_XL",
+            "CBA_556x45_STANAG_2D",
+            "CBA_556x45_STANAG_2D_XL",
+            "STANAG_556x45",
+            "STANAG_556x45_Large",
+            "CBA_556x45_SCAR_EGLM"
+        };
+    };
+    class CUP_arifle_Mk16_STD;
+    class CUP_arifle_Mk16_STD_EGLM: CUP_arifle_Mk16_STD {
+        magazineWell[] = {
+            "CBA_556x45_STANAG",
+            "CBA_556x45_STANAG_L",
+            "CBA_556x45_STANAG_XL",
+            "CBA_556x45_STANAG_2D",
+            "CBA_556x45_STANAG_2D_XL",
+            "STANAG_556x45",
+            "STANAG_556x45_Large",
+            "CBA_556x45_SCAR_EGLM"
+        };
+    };
+    class CUP_arifle_Mk17_CQC;
+    class CUP_arifle_Mk17_CQC_EGLM: CUP_arifle_Mk17_CQC {
+        magazineWell[] = {
+            "CBA_762x51_SCAR",
+            "CBA_762x51_SCAR_EGLM"
+        };
+    };
+    class CUP_arifle_Mk17_STD;
+    class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_STD {
+        magazineWell[] = {
+            "CBA_762x51_SCAR",
+            "CBA_762x51_SCAR_EGLM"
+        };
+    };
 };

@@ -53,7 +53,7 @@ class r : baseMan
 {
     displayName = "Rifleman";
     primaryWeapon[] = {"rhs_weap_hk416d145_grip3"};
-    scope[] = {"rhsusf_acc_ELCAN"};
+    scope[] = {"tm_c79"};
     attachment[] = {"rhsusf_acc_anpeq16a"};
     bipod[] = {"rhsusf_acc_rvg_blk"};
     magazines[] =
@@ -198,7 +198,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"CUP_arifle_HK417_20"};
-    scope[] = {"optic_DMS"};
+    scope[] = {"tm_c79"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
     magazines[] =
     {

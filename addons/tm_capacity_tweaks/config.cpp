@@ -20,7 +20,11 @@ class CfgPatches
 			"rhs_c_weapons",
             "CUP_Weapons_MG3",
             "CUP_Weapons_Backpacks",
+			"CUP_Creatures_Military_USArmy",
+			"CUP_Creatures_Military_USMC",
+			"CUP_Creatures_Military_Russia",
 			"CUP_Creatures_Military_Taki",
+			"CUP_Creatures_Military_PMC",
             "hlcweapons_core",
 			"lbtt_Vest_config"
 		};

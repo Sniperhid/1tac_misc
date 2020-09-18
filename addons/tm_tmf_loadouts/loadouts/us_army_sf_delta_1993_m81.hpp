@@ -6,7 +6,7 @@ class baseMan {// Weaponless baseclass
     uniform[] = {"usm_bdu_bti_wdl"};
     vest[] = {};
     backpack[] = {};
-    headgear[] = {"rhsusf_protech_helmet_rhino_ess", "rhsusf_protech_helmet_rhino", "rhsusf_protech_helmet_ess", "rhsusf_protech_helmet"};
+    headgear[] = {"rhsusf_protech_helmet_rhino_ess", "rhsusf_protech_helmet_rhino"};
     goggles[] = {"usm_kneepads_safariland"};
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
@@ -51,11 +51,11 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    vest[] = {"CUP_V_B_Ciras_Black4"};
+    vest[] = {"CUP_V_MBSS_PACA2_Black"};
     backpack[] = {"B_Battle_Belt_F"};
     primaryWeapon[] = {"CUP_arifle_Colt727"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
-    scope[] = {"rhsusf_acc_t1_low"};
+    scope[] = {"cup_optic_aimpoint_5000"};
     attachment[] = {"CUP_acc_Flashlight"};
     magazines[] =
     {
@@ -87,7 +87,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    scope[] = {};
 };
 class m : r
 {
@@ -110,11 +109,11 @@ class m : r
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"CUP_smg_MP5A5_flashlight"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_5("CUP_30Rnd_9x19_MP5"),
+        LIST_5("tac1_tm_mag_compat_30Rnd_9x19mm_MP5_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -159,7 +158,7 @@ class ar : r
     displayName = "Marksman";
     primaryWeapon[] = {"rhs_weap_m14_rail"};
     bipod[] = {};
-    scope[] = {"rhsusf_acc_compm4"};
+    scope[] = {"cup_optic_aimpoint_5000"};
     magazines[] =
     {
         LIST_11("rhsusf_20Rnd_762x51_m80_Mag"),
@@ -342,14 +341,14 @@ class samag : car
 class sn : dm
 {
     displayName = "Sniper";
-    primaryWeapon[] = {"CUP_srifle_M14_DMR"};
-    scope[] = {"optic_sos"};
+    primaryWeapon[] = {"CUP_srifle_M21"};
+    scope[] = {"cup_optic_artel_m14"};
     bipod[] = {"cup_bipod_harris_1a2_l_blk"};
     silencer[] = {};
     magazines[] =
     {
-        LIST_8("CUP_20Rnd_762x51_DMR"),
-        LIST_2("rhs_mag_m67"),
+        LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
+        "rhs_mag_m67",
         LIST_4("rhsusf_mag_7x45acp_MHP")
     };
     backpack[] = {};
@@ -384,6 +383,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_simc_USMC65_M41"};
     headgear[] = {"tm_hgu56p_visor_cav"};
     goggles[] = {};
@@ -396,6 +397,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
     backpack[] = {"B_simc_USMC65_M41"};
     headgear[] = {"tm_hgu56p_visor_cav"};
     goggles[] = {};
@@ -411,6 +414,8 @@ class pc : pcc
 class jp : pp
 {
     displayName = "Jet pilot";
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_PilotVest"};
 };
 class eng : car
 {

@@ -3,7 +3,7 @@ class CfgVehicles
 	class Bag_Base;
 	class B_AssaultPack_Base: Bag_Base 
 	{
-		maximumLoad = 180;
+		maximumLoad = 200;
 	};
 	class B_Battle_Belt_F: B_AssaultPack_Base {
 		scope = 2;
@@ -48,13 +48,13 @@ class CfgVehicles
 	};
 	class usm_pack_abag_m60: Bag_Base
 	{
-		maximumLoad = 120;
+		maximumLoad = 180;
 	};
 	
 	// RHS AFRF
 	class rhs_assault_umbts: B_AssaultPack_Base
 	{
-		maximumLoad = 200;
+		maximumLoad = 240;
 	};
 	class rhs_rpg: B_AssaultPack_Base
 	{
@@ -72,12 +72,12 @@ class CfgVehicles
 	// RHS USF
 	class rhsusf_assault_eagleaiii_ucp: B_AssaultPack_Base
 	{
-		maximumLoad = 200;
+		maximumLoad = 240;
 	};
 	class rhsusf_assault_eagleaiii_ocp: rhsusf_assault_eagleaiii_ucp {};
 	class rhsusf_assault_eagleaiii_ocp_engineer: rhsusf_assault_eagleaiii_ocp
 	{
-		maximumLoad = 200;
+		maximumLoad = 240;
 	};
     
     // CUP

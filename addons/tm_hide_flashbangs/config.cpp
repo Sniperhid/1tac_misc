@@ -10,7 +10,10 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {
-			"rhs_c_weapons","rhsusf_c_weapons",
+			"rhs_c_weapons",
+            "rhsusf_c_weapons",
+            "rhsgref_c_weapons",
+            "rhssaf_c_weapons",
 			"ace_grenades"
 		};
 		requiredVersion = REQUIRED_VERSION;

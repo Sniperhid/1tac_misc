@@ -143,11 +143,11 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
     magazines[] =
     {
         "ACE_HandFlare_White",
-        LIST_5("30Rnd_556x45_Stanag"),
+        LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };

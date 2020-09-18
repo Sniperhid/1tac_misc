@@ -15,6 +15,7 @@ class CfgPatches {
             "rhs_c_weapons","rhs_c_heavyweapons","rhs_c_airweapons","rhsusf_c_weapons","rhsusf_c_heavyweapons","rhsgref_c_weapons",
             "hlcweapons_g3",
 			"CUP_Weapons_AK",
+			"CUP_Weapons_M16",
 			"CUP_Weapons_FNFAL",
 			"CUP_Weapons_Galil",
 			"CUP_Weapons_LeeEnfield",

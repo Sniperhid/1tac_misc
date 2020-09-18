@@ -250,7 +250,7 @@ class ar : r
     bipod[] = {};
     magazines[] =
     {
-        LIST_10("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_10("tac1_tm_mag_compat_40Rnd_762x39")
     };
     uniform[] = {
         "U_I_C_Soldier_Bandit_5_F",
@@ -272,7 +272,7 @@ class aar : r
     backpack[] = {"B_Battle_Belt_F"};
     backpackItems[] =
     {
-        LIST_5("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_5("tac1_tm_mag_compat_40Rnd_762x39")
     };
     
     linkedItems[] += {"Binocular"};

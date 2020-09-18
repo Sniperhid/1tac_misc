@@ -59,7 +59,7 @@ class r : baseMan
         "rhssaf_helmet_m97_oakleaf",
         "rhssaf_helmet_m97_oakleaf"
     };
-    vest[] = {"rhssaf_vest_md99_woodland_rifleman", "rhssaf_vest_md99_md2camo_rifleman"};
+    vest[] = {"rhssaf_vest_md99_woodland_rifleman", "rhssaf_vest_md99_md2camo_rifleman", "rhssaf_vest_md98_rifleman"};
     backpack[] = {"rhssaf_alice_md2camo", "rhssaf_alice_smb"};
     primaryWeapon[] =
     {
@@ -141,7 +141,7 @@ class smg : r
 class ftl : g
 {
     displayName = "Fireteam Leader";
-    vest[] = {"rhssaf_vest_md99_woodland_rifleman_radio", "rhssaf_vest_md99_md2camo_rifleman_radio"};
+    vest[] = {"rhssaf_vest_md99_woodland_rifleman_radio", "rhssaf_vest_md99_md2camo_rifleman_radio", "rhssaf_vest_md98_rifleman"};
     magazines[] +=
     {
         LIST_2("rhs_GRD40_Green"),

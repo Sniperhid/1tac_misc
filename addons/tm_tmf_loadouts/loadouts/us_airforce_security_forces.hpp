@@ -494,7 +494,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    vest[] = {"rhsusf_spcs_ucp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {
         "rhsusf_hgu56p_black",
@@ -514,7 +515,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    vest[] = {"rhsusf_spcs_ucp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {
         "rhsusf_hgu56p_visor_mask_black",
@@ -543,7 +545,8 @@ class pc : pcc
 class jp : baseMan
 {
     displayName = "Jet pilot";
-    vest[] = {"rhsusf_spcs_ucp_crewman"};
+    uniform[] = {"CUP_U_B_USArmy_PilotOverall"};
+    vest[] = {"CUP_V_B_USArmy_PilotVest"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     headgear[] = {"RHS_jetpilot_usaf"};
     goggles[] = {"default"};

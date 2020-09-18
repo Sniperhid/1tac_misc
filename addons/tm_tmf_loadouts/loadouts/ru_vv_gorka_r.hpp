@@ -563,7 +563,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    vest[] = {"rhs_6b23_digi_vydra_3m"};
+    vest[] = {"rhs_6b23_vydra_3m"};
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] = {
         "MineDetector",
@@ -576,7 +576,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    vest[] = {"rhs_6b23_digi_vydra_3m"};
+    vest[] = {"rhs_6b23_vydra_3m"};
     backpack[] = {"B_Carryall_oli"};
     items[] +=
     {

@@ -133,7 +133,7 @@ class smg : r
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_6("CUP_30Rnd_9x19_MP5"),
+        LIST_6("tac1_tm_mag_compat_30Rnd_9x19mm_MP5_FMJ"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };

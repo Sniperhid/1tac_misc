@@ -59,7 +59,7 @@ class r : baseMan
     };
     vest[] = {"usm_vest_rba_lbv_rm"};
     backpack[] = {"usm_pack_alice"};
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
     scope[] = {};
     attachment[] = {};
     magazines[] =
@@ -82,7 +82,7 @@ class g : r
 {
     displayName = "Grenadier";
     vest[] = {"usm_vest_rba_lbv_gr"};
-    primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
+    primaryWeapon[] = {"CUP_arifle_M16A2_GL"};
     magazines[] +=
     {
         LIST_5("rhs_mag_M441_HE"),
@@ -114,10 +114,10 @@ class m : car
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"CUP_smg_MP5A5"};
+    primaryWeapon[] = {"CUP_hgun_TEC9"};
     magazines[] =
     {
-        LIST_4("CUP_30Rnd_9x19_MP5"),
+        LIST_5("CUP_32Rnd_9x19_TEC9"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
     };

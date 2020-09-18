@@ -7,7 +7,17 @@ class baseMan {// Weaponless baseclass
     uniform[] = {"CUP_U_O_TK_Green"};
     vest[] = {};
     backpack[] = {"rhs_sidor","CUP_B_SLA_Medicbag"};
-    headgear[] = {"rhssaf_helmet_m59_85_nocamo","H_Booniehat_tan", "H_Hat_Safari_sand_F", "H_Hat_Safari_olive_F"};
+    headgear[] = {
+        "rhssaf_helmet_m59_85_nocamo",
+        "H_Booniehat_tan",
+        "H_Hat_Safari_sand_F",
+        "H_Hat_Safari_olive_F",
+        "ASI_RiceHat",
+        "ASI_RiceHat",
+        "ASI_PithHelmet_khk",
+        "ASI_PithHelmet_oli",
+        "ASI_PithHelmet"
+    };
     goggles[] = {"default"};
     hmd[] = {};
     faces[] = {"faceset:asian"};
@@ -48,7 +58,16 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
     {
-        "rhssaf_helmet_m59_85_nocamo","rhssaf_helmet_m59_85_nocamo","H_Booniehat_tan","H_Hat_Safari_olive_F","H_Hat_Safari_olive_F"
+        "rhssaf_helmet_m59_85_nocamo",
+        "rhssaf_helmet_m59_85_nocamo",
+        "H_Booniehat_tan",
+        "H_Hat_Safari_olive_F",
+        "H_Hat_Safari_olive_F",
+        "ASI_RiceHat",
+        "ASI_RiceHat",
+        "ASI_PithHelmet_khk",
+        "ASI_PithHelmet_oli",
+        "ASI_PithHelmet"
     };
     vest[] = {"CUP_V_RUS_Smersh_1"};
     primaryWeapon[] = {"rhs_weap_akmn",};

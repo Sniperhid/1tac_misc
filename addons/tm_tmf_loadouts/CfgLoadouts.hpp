@@ -78,6 +78,12 @@ class CfgLoadouts
         category = "Armaverse Factions";
         #include "loadouts\racs_1990.hpp"
     };
+    class RACS_2000_GALIL
+    {
+        displayName = "RACS (2000, Galil)";
+        category = "Armaverse Factions";
+        #include "loadouts\racs_2000_galil.hpp"
+    };
     class SLA_1980_FELDGRAU
     {
         displayName = "SLA (1980, Feldgrau)";
@@ -92,15 +98,21 @@ class CfgLoadouts
     };
     class HIDF_1990
     {
-        displayName = "Horizon Island Defence Force (1990)";
+        displayName = "Horizon Island Defence Force (1990, ERDL)";
         category = "Armaverse Factions";
         #include "loadouts\hidf_1990.hpp"
     };
     class HIDF_2000
     {
-        displayName = "Horizon Island Defence Force (2000)";
+        displayName = "Horizon Island Defence Force (2000, ERDL)";
         category = "Armaverse Factions";
         #include "loadouts\hidf_2000.hpp"
+    };
+    class HIDF_2000_TTS
+    {
+        displayName = "Horizon Island Defence Force (2000, TTS)";
+        category = "Armaverse Factions";
+        #include "loadouts\hidf_2000_tts.hpp"
     };
     class RU_SPETSNAZ_CONTACT
     {
@@ -136,57 +148,75 @@ class CfgLoadouts
     
     class GB_WOOD_1980
     {
-        displayName = "GB Woodland DPM (1980)";
+        displayName = "UK Woodland DPM (1980)";
         category = "UK";
-        #include "loadouts\gb_wood_1980.hpp"
+        #include "loadouts\uk_wood_1980.hpp"
     };
     class GB_WOOD_1985
     {
-        displayName = "GB Woodland DPM (1985)";
+        displayName = "UK Woodland DPM (1985)";
         category = "UK";
-        #include "loadouts\gb_wood_1985.hpp"
+        #include "loadouts\uk_wood_1985.hpp"
     };
     class GB_DES_1985
     {
-        displayName = "GB Desert DPM (1985)";
+        displayName = "UK Desert DPM (1985)";
         category = "UK";
-        #include "loadouts\gb_des_1985.hpp"
+        #include "loadouts\uk_des_1985.hpp"
     };
     class GB_WOOD_1990
     {
-        displayName = "GB Woodland DPM (1990)";
+        displayName = "UK Woodland DPM (1990)";
         category = "UK";
-        #include "loadouts\gb_wood_1990.hpp"
+        #include "loadouts\uk_wood_1990.hpp"
     };
     class GB_DES_1990
     {
-        displayName = "GB Desert DPM (1990)";
+        displayName = "UK Desert DPM (1990)";
         category = "UK";
-        #include "loadouts\gb_des_1990.hpp"
+        #include "loadouts\uk_des_1990.hpp"
     };
     class GB_WOOD_2000
     {
-        displayName = "GB Woodland DPM (2000)";
+        displayName = "UK Woodland DPM (2000)";
         category = "UK";
-        #include "loadouts\gb_wood_2000.hpp"
+        #include "loadouts\uk_wood_2000.hpp"
     };
     class GB_DES_2000
     {
-        displayName = "GB Desert DPM (2000)";
+        displayName = "UK Desert DPM (2000)";
         category = "UK";
-        #include "loadouts\gb_des_2000.hpp"
+        #include "loadouts\uk_des_2000.hpp"
     };
     class GB_MTP_2015
     {
-        displayName = "GB MTP (2015)";
+        displayName = "UK MTP (2015)";
         category = "UK";
-        #include "loadouts\gb_mtp_2015.hpp"
+        #include "loadouts\uk_mtp_2015.hpp"
+    };
+    class GB_MTP_2015_L85A3
+    {
+        displayName = "UK MTP (2015, L85A3)";
+        category = "UK";
+        #include "loadouts\uk_mtp_2015_l85a3.hpp"
     };
     class GB_MTP_2015_H
     {
-        displayName = "GB MTP LARGE BACKPACKS (2015)";
+        displayName = "UK MTP (2015) (Large Backpacks)";
         category = "UK";
-        #include "loadouts\gb_mtp_2015_H.hpp"
+        #include "loadouts\uk_mtp_2015_h.hpp"
+    };
+    class GB_MTP_2015_H_L85A3
+    {
+        displayName = "UK MTP (2015, L85A3) (Large Backpacks)";
+        category = "UK";
+        #include "loadouts\uk_mtp_2015_h_l85a3.hpp"
+    };
+    class UK_SAS_BLACK
+    {
+        displayName = "UK Special Air Service (Black)";
+        category = "UK";
+        #include "loadouts\uk_sas_black.hpp"
     };
     class UK_SAS_MULTICAM
     {
@@ -202,6 +232,43 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_airforce_security_forces.hpp"
     };
+    
+    class US_ARMY_1970_ODGREEN
+    {
+        displayName = "US Army (1970, OD GREEN)";
+        category = "USA";
+        #include "loadouts\us_army_1970_odgreen.hpp"
+    };
+    class US_ARMY_1980_DESERT
+    {
+        displayName = "US Army (1980, Desert)";
+        category = "USA";
+        #include "loadouts\us_army_1980_desert.hpp"
+    };
+    class US_ARMY_1980_DESERT_ARMOR
+    {
+        displayName = "US Army (1980, Desert, body armor)";
+        category = "USA";
+        #include "loadouts\us_army_1980_desert_armor.hpp"
+    };
+    class US_ARMY_1980_ERDL
+    {
+        displayName = "US Army (1980, ERDL)";
+        category = "USA";
+        #include "loadouts\us_army_1980_erdl.hpp"
+    };
+    class US_ARMY_1980_ERDL_ARMOR
+    {
+        displayName = "US Army (1980, ERDL, body armor)";
+        category = "USA";
+        #include "loadouts\us_army_1980_erdl_armor.hpp"
+    };
+    class US_ARMY_1985_M81
+    {
+        displayName = "US Army (1985, M81)";
+        category = "USA";
+        #include "loadouts\us_army_1985_m81.hpp"
+    };
     class US_ARMY_UCP
     {
         displayName = "US Army (2008, UCP)";
@@ -216,15 +283,15 @@ class CfgLoadouts
     };
     class US_ARMY_AIRBORNE_OCP
     {
-        displayName = "US Army Airborne (2015-, OCP)";
+        displayName = "US Army (2015-, OCP)";
         category = "USA";
-        #include "loadouts\us_army_airborne_ocp.hpp"
+        #include "loadouts\us_army_ocp.hpp"
     };
     class US_ARMY_AIRBORNE_OEFCP
     {
-        displayName = "US Army Airborne (2011-, OEFCP)";
+        displayName = "US Army (2011-, OEFCP)";
         category = "USA";
-        #include "loadouts\us_army_airborne_oefcp.hpp"
+        #include "loadouts\us_army_oefcp.hpp"
     };
     class US_ARMY_RANGERS_1990_M81
     {
@@ -240,21 +307,21 @@ class CfgLoadouts
     };
     class US_ARMY_RANGERS_2007_ACU
     {
-        displayName = "US Army Rangers (2007, ACU)";
+        displayName = "US Army Rangers (2007, UCP)";
         category = "USA";
-        #include "loadouts\us_army_rangers_2007_acu.hpp"
+        #include "loadouts\us_army_rangers_2007_ucp.hpp"
     };
     class US_ARMY_RANGERS_OEFCP
     {
-        displayName = "US Army Rangers (OEFCP)";
+        displayName = "US Army Rangers (2011, OEFCP)";
         category = "USA";
-        #include "loadouts\us_army_rangers_oefcp.hpp"
+        #include "loadouts\us_army_rangers_2011_oefcp.hpp"
     };
     class US_ARMY_RANGERS_2013_MC_MK17
     {
-        displayName = "US Army Rangers (OEFCP, SCAR-Hs)";
+        displayName = "US Army Rangers (2011, OEFCP, SCAR-Hs)";
         category = "USA";
-        #include "loadouts\us_army_rangers_oefcp_mk17.hpp"
+        #include "loadouts\us_army_rangers_2011_oefcp_mk17.hpp"
     };
     class US_ARMY_SF_DELTA_1993_DCU
     {
@@ -268,11 +335,23 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_sf_delta_1993_m81.hpp"
     };
+    class US_ARMY_SF_DELTA_AOR1
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (2017-, AOR1)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_aor1.hpp"
+    };
     class US_ARMY_SF_DELTA_MC
     {
         displayName = "US Army SFOD-D (CAG/Delta) (2017-, Multicam)";
         category = "USA";
         #include "loadouts\us_army_sf_delta_mc.hpp"
+    };
+    class US_ARMY_SF_DELTA_MC_ARID
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (2017-, Multicam Arid)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_mc_arid.hpp"
     };
     class US_ARMY_SF_DELTA_MC_TROPIC
     {
@@ -280,72 +359,31 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_sf_delta_mc_tropic.hpp"
     };
+    class US_ARMY_SF_GREEN_BERETS_DCU
+    {
+        displayName = "US Army SFOD-A (Green Berets) (2008, DCU)";
+        category = "USA";
+        #include "loadouts\us_army_sf_green_berets_dcu.hpp"
+    };
+    class US_ARMY_SF_GREEN_BERETS_MC
+    {
+        displayName = "US Army SFOD-A (Green Berets) (2011, Multicam)";
+        category = "USA";
+        #include "loadouts\us_army_sf_green_berets_mc.hpp"
+    };
+    class US_ARMY_SF_GREEN_BERETS_UCP
+    {
+        displayName = "US Army SFOD-A (Green Berets) (2008, UCP)";
+        category = "USA";
+        #include "loadouts\us_army_sf_green_berets_ucp.hpp"
+    };
     class US_MACV_SOG
     {
         displayName = "US MACV SOG (Tigerstripe)";
         category = "USA";
         #include "loadouts\us_macv_sog.hpp"
     };
-    class US_MARINES_MARPAT_DES
-    {
-        displayName = "US Marines (2008-, Desert MARPAT)";
-        category = "USA";
-        #include "loadouts\us_marines_marpat_des.hpp"
-    };
-    class US_MARINES_MARPAT_WDL
-    {
-        displayName = "US Marines (2008-, Woodland MARPAT)";
-        category = "USA";
-        #include "loadouts\us_marines_marpat_wdl.hpp"
-    };
-    class US_MARINES_RECON_MARPAT_DES
-    {
-        displayName = "US Recon Marines (2010-, Desert MARPAT)";
-        category = "USA";
-        #include "loadouts\us_marines_recon_marpat_des.hpp"
-    };
-    class US_MARINES_RECON_MARPAT_WDL
-    {
-        displayName = "US Recon Marines (2010-, Woodland MARPAT)";
-        category = "USA";
-        #include "loadouts\us_marines_recon_marpat_wdl.hpp"
-    };
-    class US_MARSOC_M81
-    {
-        displayName = "US Marine Raiders (MARSOC) (M81)";
-        category = "USA";
-        #include "loadouts\us_marsoc_m81.hpp"
-    };
-    class US_NSWC_SEAL_AOR1
-    {
-        displayName = "US NSWC SEAL (AOR1)";
-        category = "USA";
-        #include "loadouts\us_nswc_seal_aor1.hpp"
-    };
-    class US_NSWC_SEAL_AOR2
-    {
-        displayName = "US NSWC SEAL (AOR2)";
-        category = "USA";
-        #include "loadouts\us_nswc_seal_aor2.hpp"
-    };
-    class US_ARMY_1970_ODGREEN
-    {
-        displayName = "US Army (1970, OD GREEN)";
-        category = "USA";
-        #include "loadouts\us_army_1970_odgreen.hpp"
-    };
-    class US_ARMY_1980_ERDL
-    {
-        displayName = "US Army (1980, ERDL)";
-        category = "USA";
-        #include "loadouts\us_army_1980_erdl.hpp"
-    };
-    class US_ARMY_1985_M81
-    {
-        displayName = "US Army (1985, M81)";
-        category = "USA";
-        #include "loadouts\us_army_1985_m81.hpp"
-    };
+    
     class US_MARINES_1985_M81
     {
         displayName = "US Marines (1985, M81)";
@@ -364,19 +402,140 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_marines_2003_oif_dcu.hpp"
     };
+    class US_MARINES_MARPAT_DES
+    {
+        displayName = "US Marines (2008-, MARPAT Desert)";
+        category = "USA";
+        #include "loadouts\us_marines_2008_marpat_des.hpp"
+    };
+    class US_MARINES_MARPAT_WDL
+    {
+        displayName = "US Marines (2008-, MARPAT Woodland)";
+        category = "USA";
+        #include "loadouts\us_marines_2008_marpat_wdl.hpp"
+    };
+    class US_MARINES_2014_MARPAT_DES
+    {
+        displayName = "US Marines (2014-, MARPAT Desert)";
+        category = "USA";
+        #include "loadouts\us_marines_2014_marpat_des.hpp"
+    };
+    class US_MARINES_2014_MARPAT_WDL
+    {
+        displayName = "US Marines (2014-, MARPAT Woodland)";
+        category = "USA";
+        #include "loadouts\us_marines_2014_marpat_wdl.hpp"
+    };
+    class US_MARINES_RECON_MARPAT_DES
+    {
+        displayName = "US Marines Recon (2013-, MARPAT Desert)";
+        category = "USA";
+        #include "loadouts\us_marines_2013_recon_marpat_des.hpp"
+    };
+    class US_MARINES_RECON_MARPAT_WDL
+    {
+        displayName = "US Marines Recon (2013-, MARPAT Woodland)";
+        category = "USA";
+        #include "loadouts\us_marines_2013_recon_marpat_wdl.hpp"
+    };
+    class US_MARSOC_M81
+    {
+        displayName = "US Marines Raiders (MARSOC) (2010, M81)";
+        category = "USA";
+        #include "loadouts\us_marines_raiders_2010_m81.hpp"
+    };
+    class US_MARINES_RAIDERS_2010_MARPAT_DES
+    {
+        displayName = "US Marines Raiders (MARSOC) (2010, MARPAT Desert)";
+        category = "USA";
+        #include "loadouts\us_marines_raiders_2010_marpat_des.hpp"
+    };
+    class US_MARINES_RAIDERS_2010_MARPAT_WDL
+    {
+        displayName = "US Marines Raiders (MARSOC) (2010, MARPAT Woodland)";
+        category = "USA";
+        #include "loadouts\us_marines_raiders_2010_marpat_wdl.hpp"
+    };
+    class US_MARINES_RAIDERS_2015_M81
+    {
+        displayName = "US Marines Raiders (MARSOC) (2015, M81)";
+        category = "USA";
+        #include "loadouts\us_marines_raiders_2015_m81.hpp"
+    };
+    class US_MARINES_RAIDERS_2015_MARPAT_DES
+    {
+        displayName = "US Marines Raiders (MARSOC) (2015, MARPAT Desert)";
+        category = "USA";
+        #include "loadouts\us_marines_raiders_2015_marpat_des.hpp"
+    };
+    class US_MARINES_RAIDERS_2015_MARPAT_WDL
+    {
+        displayName = "US Marines Raiders (MARSOC) (2015, MARPAT Woodland)";
+        category = "USA";
+        #include "loadouts\us_marines_raiders_2015_marpat_wdl.hpp"
+    };
+    
+    class US_NAVY_SEAL_2009_TIGERSTRIPE
+    {
+        displayName = "US Navy SEALs (2009, Tigerstripe)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2009_tigerstripe.hpp"
+    };
+    class US_NAVY_SEAL_2009_TIGERSTRIPE_DESERT
+    {
+        displayName = "US Navy SEALs (2009, Tigerstripe Desert)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2009_tigerstripe_desert.hpp"
+    };
+    class US_NSWC_SEAL_2010_AOR1
+    {
+        displayName = "US Navy SEALs (2010, AOR1)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2010_aor1.hpp"
+    };
+    class US_NSWC_SEAL_2010_AOR2
+    {
+        displayName = "US Navy SEALs (2010, AOR2)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2010_aor2.hpp"
+    };
+    class US_NSWC_SEAL_AOR1
+    {
+        displayName = "US Navy SEALs (2015, AOR1)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2015_aor1.hpp"
+    };
+    class US_NSWC_SEAL_AOR2
+    {
+        displayName = "US Navy SEALs (2015, AOR2)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2015_aor2.hpp"
+    };
+    class US_NAVY_SEAL_2015_TIGERSTRIPE
+    {
+        displayName = "US Navy SEALs (2015, Tigerstripe)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2015_tigerstripe.hpp"
+    };
+    class US_NAVY_SEAL_2015_TIGERSTRIPE_DESERT
+    {
+        displayName = "US Navy SEALs (2015, Tigerstripe Desert)";
+        category = "USA";
+        #include "loadouts\us_navy_seal_2015_tigerstripe_desert.hpp"
+    };
     
     
+    class RUS_MSV_6SH119_WINTER
+    {
+        displayName = "RU Ground Forces (6Sh119 Winter)";
+        category = "Russia";
+        #include "loadouts\ru_msv_6sh119_winter.hpp"
+    };
     class RUS_MSV_EMR
     {
         displayName = "RU Ground Forces (2013, EMR)";
         category = "Russia";
         #include "loadouts\ru_msv_emr.hpp"
-    };
-    class RUS_MSV_EMR_WINTER
-    {
-        displayName = "RU Ground Forces (2015, EMR-Winter)";
-        category = "Russia";
-        #include "loadouts\ru_msv_emr_winter.hpp"
     };
     class RUS_MSV_FLORA_2000
     {
@@ -396,35 +555,42 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_msv_flora_2010.hpp"
     };
-    class RUS_SSO_ATACS_AU
+    
+    class RUS_VDV_6SH122_AUTUMN
     {
-        displayName = "RU Special Operations Forces (2016, A-TACS AU)";
+        displayName = "RU Airborne Troops (6Sh122 Autumn)";
         category = "Russia";
-        #include "loadouts\ru_sso_atacs_au.hpp"
+        #include "loadouts\ru_vdv_6sh122_autumn.hpp"
     };
-    class RUS_SSO_ATACS_FG
+    class RUS_VDV_6SH122_AUTUMN_AK74MR
     {
-        displayName = "RU Special Operations Forces (2016, A-TACS FG)";
+        displayName = "RU Airborne Troops (6Sh122 Autumn, AK-74MR)";
         category = "Russia";
-        #include "loadouts\ru_sso_atacs_fg.hpp"
+        #include "loadouts\ru_vdv_6sh122_autumn_ak74mr.hpp"
     };
-    class RUS_SPETSNAZ_SS_SUMMER
+    class RUS_VDV_6SH122_SUMMER
     {
-        displayName = "RU Spetsnaz (2005, SS-Summer)";
+        displayName = "RU Airborne Troops (6Sh122 Summer)";
         category = "Russia";
-        #include "loadouts\ru_spetsnaz_ss_summer.hpp"
+        #include "loadouts\ru_vdv_6sh122_summer.hpp"
+    };
+    class RUS_VDV_6SH122_SUMMER_AK74MR
+    {
+        displayName = "RU Airborne Troops (6Sh122 Summer, AK-74MR)";
+        category = "Russia";
+        #include "loadouts\ru_vdv_6sh122_summer_ak74mr.hpp"
     };
     class RUS_VDV_DETACHED_RECON_EMR
     {
-        displayName = "RU Airborne Troops Detached Recon (2015, EMR)";
+        displayName = "RU Airborne Detached Recon (2015, EMR)";
         category = "Russia";
         #include "loadouts\ru_vdv_detached_recon_emr.hpp"
     };
-    class RUS_VDV_EMR_RATNIK
+    class RUS_VDV_EMR
     {
         displayName = "RU Airborne Troops (2015, EMR)";
         category = "Russia";
-        #include "loadouts\ru_vdv_emr_ratnik.hpp"
+        #include "loadouts\ru_vdv_emr.hpp"
     };
     class RUS_VDV_EMR_GORKA_R
     {
@@ -432,23 +598,11 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_vdv_emr_gorka_r.hpp"
     };
-    class RUS_VDV_EMR_RATNIK_AK74MR
-    {
-        displayName = "RU Airborne Troops (2020, EMR, AK-74MR)";
-        category = "Russia";
-        #include "loadouts\ru_vdv_emr_ratnik_ak74mr.hpp"
-    };
     class RUS_VDV_MOUNTAIN_FLORA_RATNIK
     {
-        displayName = "RU Airborne Mountain Troops (2014, Mountain Flora)";
+        displayName = "RU Airborne Mountain Troops (2015, Mountain Flora)";
         category = "Russia";
-        #include "loadouts\ru_vdv_mountain_flora_ratnik.hpp"
-    };
-    class RUS_VDV_VSR
-    {
-        displayName = "RU Airborne Troops (1999, VSR)";
-        category = "Russia";
-        #include "loadouts\ru_vdv_vsr.hpp"
+        #include "loadouts\ru_vdv_mountain_flora.hpp"
     };
     class RUS_VDV_2000_BEREZKA
     {
@@ -462,35 +616,117 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_vdv_2000_berezka_yellow.hpp"
     };
-    class RUS_VMF_EMR_DESERT_RATNIK
+    class RUS_VDV_VSR
     {
-        displayName = "RU Naval Infantry (2016, EMR-Desert)";
+        displayName = "RU Airborne Troops (2000, VSR)";
         category = "Russia";
-        #include "loadouts\ru_vmf_emr_desert_ratnik.hpp"
+        #include "loadouts\ru_vdv_2000_vsr.hpp"
+    };
+    
+    class RUS_VMF_6SH122_DESERT_BEIGE
+    {
+        displayName = "RU Naval Infantry (6Sh122 Desert Beige)";
+        category = "Russia";
+        #include "loadouts\ru_vmf_6sh122_desert_beige.hpp"
+    };
+    class RUS_VMF_6SH122_DESERT_BEIGE_AK74MR
+    {
+        displayName = "RU Naval Infantry (6Sh122 Desert Beige, AK-74MR)";
+        category = "Russia";
+        #include "loadouts\ru_vmf_6sh122_desert_beige_ak74mr.hpp"
+    };
+    class RUS_VMF_6SH122_DESERT_PINK
+    {
+        displayName = "RU Naval Infantry (6Sh122 Desert Pink)";
+        category = "Russia";
+        #include "loadouts\ru_vmf_6sh122_desert_pink.hpp"
+    };
+    class RUS_VMF_6SH122_DESERT_PINK_AK74MR
+    {
+        displayName = "RU Naval Infantry (6Sh122 Desert Pink, AK-74MR)";
+        category = "Russia";
+        #include "loadouts\ru_vmf_6sh122_desert_pink_ak74mr.hpp"
     };
     class RUS_VMF_FLORA_RATNIK
     {
-        displayName = "RU Naval Infantry (2014, Flora)";
+        displayName = "RU Naval Infantry (2013, Flora)";
         category = "Russia";
-        #include "loadouts\ru_vmf_flora_ratnik.hpp"
+        #include "loadouts\ru_vmf_flora.hpp"
     };
     class RUS_VMF_RECON_CADPAT_ARCTIC
     {
-        displayName = "RU Naval Infantry Recon (2016, CADPAT Arctic)";
+        displayName = "RU Naval Infantry Recon (2014, CADPAT Arctic)";
         category = "Russia";
         #include "loadouts\ru_vmf_recon_cadpat_arctic.hpp"
     };
+    
     class RUS_VV_GORKA_R
     {
-        displayName = "RU Internal Troops (2013, Gorka-R)";
+        displayName = "RU Internal Troops (2012, Gorka-R)";
         category = "Russia";
         #include "loadouts\ru_vv_gorka_r.hpp"
     };
 	class RUS_VV_IZLOM
     {
-        displayName = "RU Internal Troops (2013, Izlom)";
+        displayName = "RU Internal Troops (2012, Izlom)";
         category = "Russia";
         #include "loadouts\ru_vv_izlom.hpp"
+    };
+    
+    class RUS_SSO_ATACS_AU
+    {
+        displayName = "RU Special Operations Forces (2017, A-TACS AU, night vision)";
+        category = "Russia";
+        #include "loadouts\ru_sso_atacs_au.hpp"
+    };
+    class RUS_SSO_ATACS_AU_4X
+    {
+        displayName = "RU Special Operations Forces (2017, A-TACS AU, 4x optics)";
+        category = "Russia";
+        #include "loadouts\ru_sso_atacs_au_4x.hpp"
+    };
+    class RUS_SSO_ATACS_FG
+    {
+        displayName = "RU Special Operations Forces (2017, A-TACS FG, night vision)";
+        category = "Russia";
+        #include "loadouts\ru_sso_atacs_fg.hpp"
+    };
+    class RUS_SSO_ATACS_FG_4X
+    {
+        displayName = "RU Special Operations Forces (2017, A-TACS FG, 4x optics)";
+        category = "Russia";
+        #include "loadouts\ru_sso_atacs_fg_4x.hpp"
+    };
+    class RUS_SSO_ATACS_IX
+    {
+        displayName = "RU Special Operations Forces (2017, A-TACS IX, night vision)";
+        category = "Russia";
+        #include "loadouts\ru_sso_atacs_ix.hpp"
+    };
+    class RUS_SSO_ATACS_IX_4X
+    {
+        displayName = "RU Special Operations Forces (2017, A-TACS IX, 4x optics)";
+        category = "Russia";
+        #include "loadouts\ru_sso_atacs_ix_4x.hpp"
+    };
+    class RUS_SSO_MULTICAM
+    {
+        displayName = "RU Special Operations Forces (2017, Multicam, night vision)";
+        category = "Russia";
+        #include "loadouts\ru_sso_mc.hpp"
+    };
+    class RUS_SSO_MULTICAM_4X
+    {
+        displayName = "RU Special Operations Forces (2017, Multicam, 4x optics)";
+        category = "Russia";
+        #include "loadouts\ru_sso_mc_4x.hpp"
+    };
+    
+    class RUS_SPETSNAZ_SS_SUMMER
+    {
+        displayName = "RU Spetsnaz (2005, SS-Summer)";
+        category = "Russia";
+        #include "loadouts\ru_spetsnaz_ss_summer.hpp"
     };
     
     
@@ -508,7 +744,7 @@ class CfgLoadouts
     };
     class USSR_MOTOR_RIFLES_1985_KHAKI
     {
-        displayName = "USSR Motor Rifles (1985, Khaki)";
+        displayName = "USSR Motor Rifles (1985, Khaki, body armor)";
         category = "USSR";
         #include "loadouts\ussr_motor_rifles_1985_khaki.hpp"
     };
@@ -535,6 +771,12 @@ class CfgLoadouts
         displayName = "USSR Airborne Troops (1985, Berezka, body armor)";
         category = "USSR";
         #include "loadouts\ussr_vdv_berezka_armor.hpp"
+    };
+    class USSR_VDV_1985_TTSKO
+    {
+        displayName = "USSR Airborne Troops (1985, TTsKO, body armor)";
+        category = "USSR";
+        #include "loadouts\ussr_vdv_1985_ttsko.hpp"
     };
     
     
@@ -728,17 +970,23 @@ class CfgLoadouts
     };
     
     
-    class AFGH_NATIONAL_ARMY_SPEC4CE_AF
+    class AFGHAN_NATIONAL_ARMY_SPEC4CE_AF
     {
-        displayName = "Afghan National Army (2010-, Spec4ce Afghan Forest)";
+        displayName = "Afghan National Army (Spec4ce Afghan Forest)";
         category = "Other";
         #include "loadouts\afghan_national_army_spec4ce_af.hpp"
     };
+    class AFGHAN_NATIONAL_ARMY_COMMANDO_M81
+    {
+        displayName = "Afghan National Army Commando (M81)";
+        category = "Other";
+        #include "loadouts\afghan_national_army_commando_m81.hpp"
+    };
     class AFGHAN_NATIONAL_POLICE
     {
-        displayName = "Afghan National Police (2005)";
+        displayName = "Afghan National Police";
         category = "Other";
-        #include "loadouts\afghan_national_police_2005.hpp"
+        #include "loadouts\afghan_national_police.hpp"
     };
     class AFR_MILITIA
     {
@@ -766,39 +1014,39 @@ class CfgLoadouts
     };
     class GENERIC_PARAMILITARY_OLIVE_AKM
     {
-        displayName = "Generic Paramilitary (1980-, Olive, AKMs)";
+        displayName = "Paramilitary (1980-, Olive, AKMs)";
         category = "Other";
-        #include "loadouts\generic_paramilitary_olive_akm.hpp"
+        #include "loadouts\paramilitary_olive_akm.hpp"
     };
     class GENERIC_PARAMILITARY_OLIVE_GALIL
     {
-        displayName = "Generic Paramilitary (1980-, Olive, Galils)";
+        displayName = "Paramilitary (1980-, Olive, Galils)";
         category = "Other";
-        #include "loadouts\generic_paramilitary_olive_galil.hpp"
+        #include "loadouts\paramilitary_olive_galil.hpp"
     };
 	class GENERIC_PARAMILITARY_OLIVE_M16
     {
-        displayName = "Generic Paramilitary (1980-, Olive, M16s)";
+        displayName = "Paramilitary (1980-, Olive, M16s)";
         category = "Other";
-        #include "loadouts\generic_paramilitary_olive_m16.hpp"
+        #include "loadouts\paramilitary_olive_m16.hpp"
     };
     class GENERIC_PARAMILITARY_PORTUGUESE_DPM_AKM
     {
-        displayName = "Generic Paramilitary (1980-, Portugese DPM, AKMs)";
+        displayName = "Paramilitary (1980-, Portugese DPM, AKMs)";
         category = "Other";
-        #include "loadouts\generic_paramilitary_portuguese_dpm_akm.hpp"
+        #include "loadouts\paramilitary_portuguese_dpm_akm.hpp"
     };
     class GENERIC_PARAMILITARY_TIGERSTRIPE_M16
     {
-        displayName = "Generic Paramilitary (1980-, Tigerstripe, M16s)";
+        displayName = "Paramilitary (1980-, Tigerstripe, M16s)";
         category = "Other";
-        #include "loadouts\generic_paramilitary_tigerstripe_m16.hpp"
+        #include "loadouts\paramilitary_tigerstripe_m16.hpp"
     };
     class GENERIC_PARAMILITARY_TIGERSTRIPE_DESERT
     {
-        displayName = "Generic Paramilitary (2000-, Desert Tigerstripe)";
+        displayName = "Paramilitary (2000-, Desert Tigerstripe)";
         category = "Other";
-        #include "loadouts\generic_paramilitary_tigerstripe_desert.hpp"
+        #include "loadouts\paramilitary_tigerstripe_desert.hpp"
     };
     class IDF
     {
@@ -830,11 +1078,23 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\kpa_2020.hpp"
     };
+    class PMC_CZ805
+    {
+        displayName = "PMC (CZ805)";
+        category = "Other";
+        #include "loadouts\pmc_cz805.hpp"
+    };
     class PMC_FAL
     {
         displayName = "PMC (SA58 OSW/M1A)";
         category = "Other";
         #include "loadouts\pmc_fal.hpp"
+    };
+    class PMC_HK33
+    {
+        displayName = "PMC (HK33)";
+        category = "Other";
+        #include "loadouts\pmc_hk33.hpp"
     };
     class PMC_WINTER
     {
@@ -865,6 +1125,12 @@ class CfgLoadouts
         displayName = "Serbian Army Special Brigade (2010-, Digital, G36s)";
         category = "Other";
         #include "loadouts\saf_kov_para_m10_digital.hpp"
+    };
+    class SERBIAN_ARMY_PARA_M10_DIGITAL_DESERT
+    {
+        displayName = "Serbian Army Special Brigade (2010-, Digital Desert, G36s)";
+        category = "Other";
+        #include "loadouts\saf_kov_para_m10_digital_desert.hpp"
     };
     class SOUTH_AFRICAN_NDF_S2000
     {

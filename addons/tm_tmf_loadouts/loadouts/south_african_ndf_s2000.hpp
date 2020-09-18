@@ -71,8 +71,8 @@ class r : baseMan
     scope[] = {};
     attachment[] = {};
     magazines[] = {
-        LIST_7("CUP_35Rnd_556x45_Galil_Mag"),
-        LIST_2("CUP_35Rnd_556x45_Green_Tracer_Galil_Mag"),
+        LIST_7("tac1_tm_mag_compat_35Rnd_556x45_Galil_M855"),
+        LIST_2("tac1_tm_mag_compat_35Rnd_556x45_Galil_M856_Tracer"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -90,11 +90,6 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    magazines[] = {
-        LIST_7("CUP_35Rnd_556x45_Galil_Mag"),
-        "rhs_mag_m67",
-        "rhs_mag_an_m8hc"
-    };
 };
 class m : car
 {
@@ -119,7 +114,7 @@ class smg : r
     displayName = "Submachinegunner";
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] = {
-        LIST_6("CUP_30Rnd_9x19_MP5"),
+        LIST_6("tac1_tm_mag_compat_30Rnd_9x19mm_MP5_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };

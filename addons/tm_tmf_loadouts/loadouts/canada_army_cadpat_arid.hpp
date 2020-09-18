@@ -55,7 +55,7 @@ class r : baseMan
     vest[] = {"bear_otv_tan"};
     primaryWeapon[] = {"bear_diemaco_c8"};
     bipod[] = {};
-    scope[] = {"rhsusf_acc_elcan"};
+    scope[] = {"tm_c79"};
     attachment[] = {"cup_acc_flashlight"};
     magazines[] =
     {
@@ -210,7 +210,7 @@ class dm : r
 {
     displayName = "Designated Marksman";
     primaryWeapon[] = {"rhs_weap_sr25_ec"};
-    scope[] = {"rhsusf_acc_LEUPOLDMK4"};
+    scope[] = {"tm_c79"};
     bipod[] = {"rhsusf_acc_harris_bipod"};
     magazines[] =
     {
@@ -429,7 +429,7 @@ class sn : r
 class sp : sn
 {
     displayName = "Spotter";
-    scope[] = {"rhsusf_acc_elcan"};
+    scope[] = {"tm_c79"};
     primaryWeapon[] = {"bear_diemaco_c8"};
     silencer[] = {};
     sidearmWeapon[] = {};

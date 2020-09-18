@@ -190,7 +190,7 @@ class ar : r
     magazines[] =
     {
         "rhs_75Rnd_762x39mm",
-        LIST_7("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
+        LIST_7("tac1_tm_mag_compat_40Rnd_762x39"),
         "rhs_mag_f1",
         "rhs_mag_rdg2_white"
     };
@@ -201,7 +201,7 @@ class aar : r
     secondaryWeapon[] = {"rhs_weap_rshg2"};
     backpackItems[] =
     {
-        LIST_4("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_4("tac1_tm_mag_compat_40Rnd_762x39")
     };
     linkedItems[] += {"Binocular"};
 };

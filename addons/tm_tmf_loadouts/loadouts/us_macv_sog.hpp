@@ -53,7 +53,7 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman M4";
-    primaryWeapon[] = {"CUP_arifle_M4A1"};
+    primaryWeapon[] = {"CUP_arifle_Colt727"};
     magazines[] =
     {
         LIST_8("CUP_20Rnd_556x45_Stanag"),

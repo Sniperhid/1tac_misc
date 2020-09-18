@@ -102,7 +102,8 @@ class g : r
     primaryWeapon[] = {"CUP_arifle_OTS14_GROZA_GL"};
     magazines[] =
     {
-        LIST_8("CUP_20Rnd_9x39_SP5_GROZA_M"),
+        LIST_5("tac1_tm_mag_compat_20Rnd_9x39mm_Groza_SP5"),
+        LIST_5("tac1_tm_mag_compat_20Rnd_9x39mm_Groza_SP6"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),
         LIST_6("rhs_VOG25"),
@@ -183,7 +184,8 @@ class co : sl
         "rhs_mag_nspd",
         LIST_3("rhs_VOG25"),
         LIST_2("rhs_VG40OP_white"),
-        LIST_6("CUP_20Rnd_9x39_SP5_GROZA_M"),
+        LIST_4("tac1_tm_mag_compat_20Rnd_9x39mm_Groza_SP5"),
+        LIST_3("tac1_tm_mag_compat_20Rnd_9x39mm_Groza_SP6"),
         "rhs_mag_rdg2_white"
     };
     backpackItems[] = {};
@@ -216,12 +218,12 @@ class ar : r
     primaryWeapon[] = {"CUP_arifle_RPK74M"};
     scope[] = {"rhs_acc_ekp8_02"};
     bipod[] = {};
-    silencer[] = {};
+    silencer[] = {"cup_muzzle_pbs4"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_7("rhs_45Rnd_545X39_7N10_AK"),
-        LIST_3("rhs_45Rnd_545X39_7N22_AK"),
+        LIST_5("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N10"),
+        LIST_4("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N22"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -235,7 +237,7 @@ class aar : r
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
-        LIST_7("rhs_45Rnd_545X39_7N10_AK")
+        LIST_5("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N10")
     };
     linkedItems[] += {"Binocular"};
 };

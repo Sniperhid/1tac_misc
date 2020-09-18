@@ -105,7 +105,7 @@ class r : baseMan
     displayName = "Rifleman";
     vest[] = {"usm_vest_pasgt_lbe_rm_m"};
     headgear[] = {"usm_helmet_pasgt_w_m","usm_helmet_pasgt_g_w_m"};
-    primaryWeapon[] = {"mbg_m16a2"};
+    primaryWeapon[] = {"CUP_arifle_M16A2"};
     magazines[] =
     {
         LIST_5("rhs_mag_30Rnd_556x45_M855_Stanag"),
@@ -348,40 +348,24 @@ class samag : ftl
 class sn : r
 {
     displayName = "Sniper";
-    headgear[] = {"usm_bdu_boonie_erdl"};
-    primaryWeapon[] = {"rhs_weap_m24sws"};
-    bipod[] = {"rhsusf_acc_harris_swivel"};
-    scope[] = {"rhsusf_acc_m8541_low_wd"};
+    primaryWeapon[] = {"CUP_srifle_M21"};
+    bipod[] = {"cup_bipod_harris_1a2_l_blk"};
+    scope[] = {"cup_optic_artel_m14"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     items[] += {"ACE_Tripod"};
     magazines[] =
     {
         LIST_2("rhsusf_mag_7x45acp_MHP"),
-        LIST_8("rhsusf_5Rnd_762x51_m993_Mag"),
-        LIST_2("rhs_mag_m67"),
-        "rhs_mag_an_m8hc",
-        "Chemlight_green"
-    };
-};
-class sp : ftl
-{
-    displayName = "Spotter";
-    headgear[] = {"usm_bdu_boonie_erdl"};
-    items[] += {"ACE_SpottingScope"};
-    magazines[] =
-    {
-        LIST_3("rhs_mag_30Rnd_556x45_M855_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
+        LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc",
         "Chemlight_green"
     };
-    linkedItems[] =
-    {
-        "ItemMap",
-        "ItemCompass",
-        "ItemWatch"
-    };
+};
+class sp : r
+{
+    displayName = "Spotter";
+    linkedItems[] += {"Binocular"};
 };
 class vc : sl
 {
