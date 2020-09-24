@@ -1,7 +1,7 @@
 // If you want to base a loadout on an existing one, this repository contains them all:
 // https://github.com/Sniperhid/1tac_misc/tree/master/addons/tm_tmf_loadouts/loadouts
 
-tooltip = "Author: Luka Stark";
+tooltip = "NOTE: UNDER ARMED LOADOUT, 5 mags/rifleman, Author: Luka Stark";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
@@ -52,7 +52,7 @@ class r : baseMan
     scope[] = {};
     magazines[] =
     {
-        LIST_3("rhssaf_30Rnd_762x39mm_M67"),
+        LIST_5("rhssaf_30Rnd_762x39mm_M67"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -76,7 +76,7 @@ class car : r
     primaryWeapon[] = {"rhs_weap_kar98k"};
 	magazines[] = 
 	{
-		LIST_3("rhsgref_5rnd_792x57_kar98k"),
+		LIST_5("rhsgref_5rnd_792x57_kar98k"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -107,7 +107,7 @@ class smg : r
     primaryWeapon[] = {"rhs_weap_m3a1"};
     magazines[] =
     {
-        LIST_3("rhsgref_30rnd_1143x23_M1T_SMG"),
+        LIST_5("rhsgref_30rnd_1143x23_M1T_SMG"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -151,7 +151,7 @@ class ar : r
 	backpack[] = {"rhs_sidor"};
     magazines[] =
     {
-        LIST_2("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
+        LIST_5("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -165,7 +165,7 @@ class aar : r
 	backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_3("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_5("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -181,7 +181,7 @@ class dm : r
     scope[] = {"hlc_optic_zf95base"};
     magazines[] =
     {
-        LIST_4("rhsgref_5rnd_792x57_kar98k"),
+        LIST_5("rhsgref_5rnd_792x57_kar98k"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
@@ -194,7 +194,7 @@ class mmgg : ar
     displayName = "MMG Gunner";
     magazines[] +=
     {
-        LIST_2("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
+        LIST_5("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"),
     };
 };
 class mmgac : r
@@ -203,7 +203,7 @@ class mmgac : r
 	backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
-        LIST_2("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_5("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
 };
 class mmgag : aar
@@ -219,7 +219,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_3("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
+        LIST_5("CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")
     };
 };
 class hmgg : car
@@ -253,8 +253,8 @@ class matg : car
 	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_2("rhs_rpg7_PG7V_mag"),
-	LIST_1("rhs_rpg7_PG7VL_mag")
+        LIST_3("rhs_rpg7_PG7V_mag"),
+		LIST_2("rhs_rpg7_PG7VL_mag")
     };
 };
 class matac : r
@@ -263,7 +263,7 @@ class matac : r
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("rhs_rpg7_PG7V_mag")
+        LIST_5("rhs_rpg7_PG7V_mag")
     };
 };
 class matag : car
@@ -280,7 +280,7 @@ class matag : car
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("rhs_rpg7_PG7V_mag")
+        LIST_5("rhs_rpg7_PG7V_mag")
     };
 };
 class hatg : car
@@ -345,7 +345,7 @@ class samg : car
 	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_2("rhs_mag_9k38_rocket")
+        LIST_5("rhs_mag_9k38_rocket")
     };
 };
 class samag : car
@@ -362,7 +362,7 @@ class samag : car
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("rhs_mag_9k38_rocket")
+        LIST_5("rhs_mag_9k38_rocket")
     };
 };
 class sn : dm

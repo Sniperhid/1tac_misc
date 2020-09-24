@@ -54,8 +54,8 @@ class r : baseMan
     scope[] = {""};
     magazines[] =
     {
-        LIST_3("rhsgref_30rnd_556x45_vhs2"),
-        LIST_2("rhsgref_30rnd_556x45_vhs2_t"),
+        LIST_8("rhsgref_30rnd_556x45_vhs2"),
+        LIST_4("rhsgref_30rnd_556x45_vhs2_t"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),
 		LIST_5("ACE_fieldDressing"),
@@ -71,7 +71,7 @@ class g : r
     primaryWeapon[] = {"rhs_weap_vhsd2_bg_ct15x"};
     magazines[] +=
     {
-        LIST_8("1Rnd_HE_Grenade_shell"),
+        LIST_10("1Rnd_HE_Grenade_shell"),
         LIST_4("1Rnd_Smoke_Grenade_shell")
     };
 };
@@ -104,7 +104,7 @@ class smg : r
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_5("CUP_30Rnd_9x19_MP5"),
+        LIST_12("CUP_30Rnd_9x19_MP5"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),
 		LIST_5("ACE_fieldDressing"),
@@ -156,7 +156,7 @@ class ar : r
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_2("rhsusf_100Rnd_556x45_soft_pouch"),
+        LIST_4("rhsusf_100Rnd_556x45_soft_pouch"),
         "rhsusf_100Rnd_556x45_mixed_soft_pouch",
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white",
@@ -173,7 +173,7 @@ class aar : r
     displayName = "Assistant Automatic Rifleman";
     backpackItems[] =
     {
-        LIST_3("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -190,7 +190,7 @@ class dm : r
     scope[] = {"CUP_optic_SB_3_12x50_PMII"};
     magazines[] =
     {
-        LIST_3("20Rnd_762x51_Mag"),
+        LIST_12("20Rnd_762x51_Mag"),
         LIST_2("rhs_mag_rgd5"),
         LIST_2("rhs_mag_rdg2_white"),
 		LIST_5("ACE_fieldDressing"),
@@ -206,7 +206,7 @@ class mmgg : ar
     primaryWeapon[] = {"rhs_weap_m240B"};
     magazines[] =
     {
-        LIST_3("rhsusf_100Rnd_762x51"),
+        LIST_5("rhsusf_100Rnd_762x51"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white",
         LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
@@ -222,7 +222,7 @@ class mmgac : r
     displayName = "MMG Ammo Carrier";
     backpackItems[] =
     {
-        LIST_3("rhsusf_100Rnd_762x51")
+        LIST_5("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -275,7 +275,7 @@ class matg : car
     magazines[] +=
     {
         LIST_2("MRAWS_HEAT_F"),
-		LIST_1("MRAWS_HE_F")
+		LIST_2("MRAWS_HE_F")
     };
 };
 class matac : r
@@ -284,7 +284,7 @@ class matac : r
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("MRAWS_HEAT_F")
+        LIST_4("MRAWS_HEAT_F")
     };
 };
 class matag : car
@@ -302,7 +302,7 @@ class matag : car
     };
     backpackItems[] =
     {
-        LIST_2("MRAWS_HEAT_F")
+        LIST_4("MRAWS_HEAT_F")
     };
 };
 class hatg : car
@@ -386,7 +386,7 @@ class samag : car
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_2("Titan_AA")
+        LIST_4("Titan_AA")
     };
 };
 class sn : r
@@ -401,7 +401,7 @@ class sn : r
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_5("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
+        LIST_12("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
         LIST_2("rhs_mag_rgd5"),
         LIST_4("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
@@ -423,7 +423,7 @@ class sn1 : r
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_5("rhsusf_mag_10Rnd_STD_50BMG_M33"),
+        LIST_12("rhsusf_mag_10Rnd_STD_50BMG_M33"),
         LIST_2("rhs_mag_rgd5"),
         LIST_4("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
@@ -501,13 +501,13 @@ class eng : car
     displayName = "Combat Engineer (Explosives)";
     magazines[] +=
     {
-        "ClaymoreDirectionalMine_Remote_Mag"
+        LIST_2("ClaymoreDirectionalMine_Remote_Mag")
     };
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        "DemoCharge_Remote_Mag",
-        "SLAMDirectionalMine_Wire_Mag"
+        LIST_2("DemoCharge_Remote_Mag"),
+        LIST_2("SLAMDirectionalMine_Wire_Mag")
     };
 };
 class engm : car
@@ -515,13 +515,13 @@ class engm : car
     displayName = "Combat Engineer (Mines)";
     items[] +=
     {
-        "APERSBoundingMine_Range_Mag",
-        "APERSTripMine_Wire_Mag"
+        LIST_2("APERSBoundingMine_Range_Mag"),
+        LIST_2("APERSTripMine_Wire_Mag")
     };
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
-        "ATMine_Range_Mag"
+        LIST_2("ATMine_Range_Mag")
     };
 };
 class UAV : car
