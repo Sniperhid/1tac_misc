@@ -84,8 +84,12 @@ class r : baseMan
     primaryWeapon[] = {"rhs_weap_mk17_CQC"};
     scope[] = 
     {
-		"cup_optic_elcan_specterdr_rmr_coyote",
-        "cup_optic_elcan_specterdr_kf_rmr_coyote"
+		"cup_optic_elcan_specterdr_black",
+		"cup_optic_elcan_specterdr_kf_black",
+		"cup_optic_elcan_specterdr_coyote",
+		"cup_optic_elcan_specterdr_coyote",
+        "cup_optic_elcan_specterdr_kf_coyote",
+        "cup_optic_elcan_specterdr_kf_coyote"
     };
     attachment[] = {"rhsusf_acc_anpeq15side"};
     bipod[] = {"rhsusf_acc_grip2_tan", "rhsusf_acc_grip3"};
