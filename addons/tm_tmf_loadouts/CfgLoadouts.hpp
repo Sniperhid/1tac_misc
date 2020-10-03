@@ -527,7 +527,7 @@ class CfgLoadouts
     
     class RUS_MSV_6SH119_WINTER
     {
-        displayName = "RU Ground Forces (6Sh119 Winter)";
+        displayName = "RU Ground Forces (6Sh119 Winter, 2x optics)";
         category = "Russia";
         #include "loadouts\ru_msv_6sh119_winter.hpp"
     };
@@ -558,7 +558,7 @@ class CfgLoadouts
     
     class RUS_VDV_6SH122_AUTUMN
     {
-        displayName = "RU Airborne Troops (6Sh122 Autumn)";
+        displayName = "RU Airborne Troops (6Sh122 Autumn, 2x optics)";
         category = "Russia";
         #include "loadouts\ru_vdv_6sh122_autumn.hpp"
     };
@@ -570,7 +570,7 @@ class CfgLoadouts
     };
     class RUS_VDV_6SH122_SUMMER
     {
-        displayName = "RU Airborne Troops (6Sh122 Summer)";
+        displayName = "RU Airborne Troops (6Sh122 Summer, 2x optics)";
         category = "Russia";
         #include "loadouts\ru_vdv_6sh122_summer.hpp"
     };
@@ -625,7 +625,7 @@ class CfgLoadouts
     
     class RUS_VMF_6SH122_DESERT_BEIGE
     {
-        displayName = "RU Naval Infantry (6Sh122 Desert Beige)";
+        displayName = "RU Naval Infantry (6Sh122 Desert Beige, 2x optics)";
         category = "Russia";
         #include "loadouts\ru_vmf_6sh122_desert_beige.hpp"
     };
@@ -637,7 +637,7 @@ class CfgLoadouts
     };
     class RUS_VMF_6SH122_DESERT_PINK
     {
-        displayName = "RU Naval Infantry (6Sh122 Desert Pink)";
+        displayName = "RU Naval Infantry (6Sh122 Desert Pink, 2x optics)";
         category = "Russia";
         #include "loadouts\ru_vmf_6sh122_desert_pink.hpp"
     };
