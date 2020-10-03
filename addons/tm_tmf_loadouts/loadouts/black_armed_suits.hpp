@@ -56,14 +56,14 @@ class r : baseMan
 	flashlight[] = {"UK3CB_BAF_LLM_Flashlight_Black"};
     magazines[] =
     {
-        LIST_12("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
-        "rhs_mag_m67",
         "SmokeShell",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
 		"ACE_morphine",
-		"ACE_tourniquet"
+		"ACE_tourniquet",
+		LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        "rhs_mag_m67"
     };
 };
 class g : r
@@ -105,14 +105,14 @@ class smg : r
     primaryWeapon[] = {"CUP_smg_MP5A5"};
     magazines[] =
     {
-        LIST_12("CUP_30Rnd_9x19_MP5"),
-        "rhs_mag_m67",
-        "SmokeShell",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
 		"ACE_morphine",
-		"ACE_tourniquet"
+		"ACE_tourniquet",
+		LIST_8("CUP_30Rnd_9x19_MP5"),
+        "rhs_mag_m67",
+        "SmokeShell"
     };
 };
 class ftl : g
@@ -157,16 +157,16 @@ class ar : r
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_3("rhsusf_100Rnd_556x45_soft_pouch"),
-        LIST_2("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
-        "rhs_mag_m67",
-        "SmokeShell",
-        LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
 		"ACE_morphine",
-		"ACE_tourniquet"
+		"ACE_tourniquet",
+		LIST_2("rhsusf_100Rnd_556x45_soft_pouch"),
+        LIST_2("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
+        "rhs_mag_m67",
+        "SmokeShell",
+        LIST_2("rhsusf_mag_17Rnd_9x19_JHP")
     };
 };
 class aar : r
@@ -174,7 +174,7 @@ class aar : r
     displayName = "Assistant Automatic Rifleman";
     backpackItems[] =
     {
-        LIST_5("rhsusf_100Rnd_556x45_soft_pouch")
+        LIST_4("rhsusf_100Rnd_556x45_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -191,14 +191,14 @@ class dm : r
     scope[] = {"RKSL_optic_PMII_525"};
     magazines[] =
     {
-        LIST_12("rhsusf_5Rnd_762x51_m118_special_Mag"),
-        "rhs_mag_m67",
-        "SmokeShell",
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
 		"ACE_morphine",
-		"ACE_tourniquet"
+		"ACE_tourniquet",
+		LIST_8("rhsusf_5Rnd_762x51_m118_special_Mag"),
+        "rhs_mag_m67",
+        "SmokeShell"
     };
 };
 class mmgg : ar
@@ -207,15 +207,15 @@ class mmgg : ar
     primaryWeapon[] = {"rhs_weap_m240B"};
     magazines[] =
     {
-        LIST_5("rhsusf_100Rnd_762x51"),
-        "rhs_mag_m67",
-        "SmokeShell",
-        LIST_4("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
 		"ACE_morphine",
-		"ACE_tourniquet"
+		"ACE_tourniquet",
+		LIST_4("rhsusf_100Rnd_762x51"),
+        "rhs_mag_m67",
+        "SmokeShell",
+        LIST_4("rhsusf_mag_17Rnd_9x19_JHP")
     };
 };
 class mmgac : r
@@ -223,7 +223,7 @@ class mmgac : r
     displayName = "MMG Ammo Carrier";
     backpackItems[] =
     {
-        LIST_5("rhsusf_100Rnd_762x51")
+        LIST_4("rhsusf_100Rnd_762x51")
     };
 };
 class mmgag : aar
@@ -240,7 +240,7 @@ class mmgag : aar
     };
     backpackItems[] =
     {
-        LIST_5("rhsusf_100Rnd_762x51")
+        LIST_4("rhsusf_100Rnd_762x51")
     };
 };
 class hmgg : car
@@ -275,7 +275,7 @@ class matg : car
 	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_3("MRAWS_HEAT_F"),
+        LIST_2("MRAWS_HEAT_F"),
 		LIST_2("MRAWS_HE_F")
     };
 };
@@ -285,7 +285,7 @@ class matac : r
 	backpack[] = {"rhs_rpg_empty"};
     backpackItems[] =
     {
-        LIST_5("MRAWS_HEAT_F")
+        LIST_4("MRAWS_HEAT_F")
     };
 };
 class matag : car
@@ -303,7 +303,7 @@ class matag : car
     };
     backpackItems[] =
     {
-        LIST_5("MRAWS_HEAT_F")
+        LIST_4("MRAWS_HEAT_F")
     };
 };
 class hatg : car
@@ -369,7 +369,7 @@ class samg : car
 	backpack[] = {"rhs_rpg_empty"};
     magazines[] +=
     {
-        LIST_5("Titan_AA")
+        LIST_4("Titan_AA")
     };
 };
 class samag : car
@@ -387,7 +387,7 @@ class samag : car
     };
     backpackItems[] =
     {
-        LIST_5("Titan_AA")
+        LIST_4("Titan_AA")
     };
 };
 class sn : r
@@ -402,14 +402,14 @@ class sn : r
     sidearmWeapon[] = {"rhsusf_weap_glock17g4"};
     magazines[] =
     {
-        LIST_12("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
-        "rhs_mag_m67",
-        LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_5("ACE_fieldDressing"),
 		LIST_3("ACE_quikclot"),
 		LIST_2("ACE_Splint"),
 		"ACE_morphine",
-		"ACE_tourniquet"
+		"ACE_tourniquet",
+		LIST_8("rhsusf_5Rnd_762x51_AICS_m118_special_Mag"),
+        "rhs_mag_m67",
+        LIST_2("rhsusf_mag_17Rnd_9x19_JHP")
     };
 };
 class sp : g
@@ -507,6 +507,6 @@ class engm : car
 class UAV : car
 {
     displayName = "UAV Operator";
-    backpack[] = {"I_UAV_01_backpack_F"};
-    linkedItems[] += {"I_UavTerminal"};
+    backpack[] = {"B_UAV_01_backpack_F"};
+    linkedItems[] += {"B_UavTerminal"};
 };
