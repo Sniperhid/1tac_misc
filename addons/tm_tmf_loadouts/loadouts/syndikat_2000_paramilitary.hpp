@@ -429,7 +429,7 @@ class sn : r
     {
         LIST_3("rhs_mag_9x18_8_57N181S"),
         LIST_6("CUP_5Rnd_127x108_KSVK_M"),
-        LIST_2("rhs_mag_rgo")
+        LIST_2("rhs_mag_f1")
     };
 };
 class sp : ftl
