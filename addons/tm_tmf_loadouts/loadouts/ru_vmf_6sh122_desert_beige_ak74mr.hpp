@@ -69,8 +69,7 @@ class r : baseMan
         LIST_8("rhs_30Rnd_545x39_7N22_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_plum_green"),
         LIST_2("rhs_18rnd_9x21mm_7BT3"),
-        "rhs_mag_rgn",
-        "rhs_mag_rgo",
+        LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white"
     };
     items[] =
@@ -92,8 +91,7 @@ class r_ak762 : r
         LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
         LIST_2("rhs_30Rnd_762x39mm_polymer_tracer"),
         LIST_2("rhs_18rnd_9x21mm_7BT3"),
-        "rhs_mag_rgn",
-        "rhs_mag_rgo",
+        LIST_2("rhs_mag_rgd5"),
         "rhs_mag_rdg2_white"
     };
 };
@@ -144,7 +142,7 @@ class smg : r
     magazines[] =
     {
         LIST_5("rhs_30Rnd_545x39_7N22_AK"),
-        "rhs_mag_rgn",
+        "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
 };
@@ -189,7 +187,7 @@ class co : sl
         LIST_6("rhs_30Rnd_545x39_7N22_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_plum_green"),
         LIST_2("rhs_18rnd_9x21mm_7BT3"),
-        "rhs_mag_rgn",
+        "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
     backpackItems[] = {};
@@ -228,7 +226,7 @@ class ar : r
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
         LIST_2("rhs_18rnd_9x21mm_7BT3"),
-        "rhs_mag_rgn",
+        "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
 };
@@ -438,7 +436,7 @@ class sn : r
     magazines[] =
     {
         LIST_6("rhs_5Rnd_338lapua_t5000"),
-        "rhs_mag_rgn",
+        "rhs_mag_rgd5",
         LIST_3("rhs_18rnd_9x21mm_7BT3")
     };
     backpack[] = {};
