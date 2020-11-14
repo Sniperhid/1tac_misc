@@ -2,6 +2,9 @@ class tmf_adminmenu_authorized_players {
     class Bear {
         uid = "76561198014669991";
     };
+    class Hinds {
+        uid = "76561198006711050";
+    };
     class Nick {
         uid = "76561198031183429";
     };
