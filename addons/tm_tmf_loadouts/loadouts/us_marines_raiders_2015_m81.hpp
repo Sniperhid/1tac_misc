@@ -352,7 +352,8 @@ class ar_m249 : r
     vest[] = {"rhsusf_mbav_mg"};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"),
+        LIST_3("rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"),
+        LIST_3("rhsusf_100Rnd_556x45_M995_soft_pouch_coyote"),
         LIST_2("rhsusf_mag_7x45acp_MHP"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
@@ -365,7 +366,8 @@ class aar_m249 : r
     backpack[] = {"rhsusf_assault_eagleaiii_coy", "bear_eagleaiii_marpat_wd", "bear_eagleaiii_m81"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote")
+        LIST_2("rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"),
+        LIST_2("rhsusf_100Rnd_556x45_M995_soft_pouch_coyote")
     };
     linkedItems[] += {"Binocular"};
     secondaryWeapon[] = {};

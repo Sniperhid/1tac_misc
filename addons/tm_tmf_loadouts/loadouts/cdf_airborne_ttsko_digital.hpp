@@ -433,12 +433,12 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_svdp"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
-    sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
+    sidearmWeapon[] = {"rhs_weap_cz99"};
     magazines[] =
     {
         LIST_13("rhs_10Rnd_762x54mmR_7N1"),
         "rhs_mag_rgd5",
-        LIST_3("rhs_mag_9x18_12_57N181S")
+        LIST_3("rhssaf_mag_15Rnd_9x19_FMJ")
     };
     backpack[] = {};
 };
@@ -521,10 +521,10 @@ class jp : baseMan
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
-    sidearmWeapon[] = {"rhs_weap_makarov_pmm"};
+    sidearmWeapon[] = {"rhs_weap_cz99"};
     magazines[] =
     {
-        LIST_4("rhs_mag_9x18_12_57N181S")
+        LIST_4("rhssaf_mag_15Rnd_9x19_FMJ")
     };
     items[] =
     {

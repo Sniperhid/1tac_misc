@@ -110,7 +110,7 @@ class r : baseMan
     sidearmAttachments[] = {"rhsusf_acc_omega9k", "cup_acc_mlpls_laser"};
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_8("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_PMAG"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
@@ -250,7 +250,8 @@ class ar : r
     vest[] = {"bear_mbav_mg_green", "tac1_tm_rhs_extra_content_plateframe_aor2_machinegunner", "tac1_tm_rhs_extra_content_plateframe_black_machinegunner", "tac1_tm_rhs_extra_content_plateframe_black_machinegunner"};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
+        LIST_3("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
+        LIST_3("rhsusf_100Rnd_556x45_M995_soft_pouch"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
@@ -262,7 +263,8 @@ class aar : r
     backpack[] = {"rhs_assault_umbts", "bear_eagleaiii_aor2"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_556x45_mixed_soft_pouch")
+        LIST_2("rhsusf_100Rnd_556x45_mixed_soft_pouch"),
+        LIST_2("rhsusf_100Rnd_556x45_M995_soft_pouch")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -557,7 +559,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {};
     backpackItems[] = {};
 };
 class pp : smg

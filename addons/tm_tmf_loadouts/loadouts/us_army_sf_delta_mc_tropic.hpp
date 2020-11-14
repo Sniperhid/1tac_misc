@@ -130,7 +130,7 @@ class r : baseMan
     sidearmAttachments[] = {"acc_flashlight_pistol"};
     magazines[] =
     {
-        LIST_9("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_9("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_PMAG"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
@@ -165,7 +165,7 @@ class car : r
     displayName = "Carabinier";
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_8("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_PMAG"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
@@ -202,7 +202,7 @@ class smg : r
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_4("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_PMAG"),
         "rhs_mag_m67"
     };
 };
@@ -240,7 +240,7 @@ class co : sl
         LIST_2("rhs_mag_m18_purple"),
         LIST_3("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-        LIST_5("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_5("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_PMAG"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         "rhs_mag_m67",
@@ -666,7 +666,7 @@ class eng : car
     backpack[] = {"B_Carryall_oli"};
     magazines[] =
     {
-        LIST_5("rhs_mag_30Rnd_556x45_Mk262_PMAG"),
+        LIST_5("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_PMAG"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
         LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
         LIST_2("rhs_mag_an_m8hc"),        

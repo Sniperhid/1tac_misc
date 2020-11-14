@@ -19,28 +19,10 @@ class baseMan {// Weaponless baseclass
         "bear_eagleaiii_atacs_au"
     };
     headgear[] = {};
-    /*goggles[] = {
+    goggles[] = {
         "tac1_tm_rhs_extra_content_Ratnik_GSSh01_black",
         "tac1_tm_rhs_extra_content_Ratnik_GSSh01_green",
-        "tac1_tm_rhs_extra_content_Ratnik_GSSh01_grey",
-        "tac1_tm_rhs_extra_content_Ratnik_GSSh01_green_Balaclava_v2_green"
-    };*/
-    goggles[] = {
-        "rhs_scarf",
-        "G_Bandanna_khk",
-        "G_Bandanna_tan",
-        "G_Bandanna_oli",
-        "rhs_balaclava",
-        "rhs_balaclava",
-        "bear_balaclava1_black",
-        "bear_balaclava1_black",
-        "rhs_googles_orange",
-        "rhs_googles_yellow",
-        "rhs_googles_clear",
-        "rhs_googles_black",
-        "CUP_FR_NeckScarf",
-        "CUP_TK_NeckScarf",
-        LIST_5("")
+        "tac1_tm_rhs_extra_content_Ratnik_GSSh01_grey"
     };
     hmd[] = {
         "rhs_1PN138"
@@ -83,20 +65,9 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman (AS Val)";
-    /*headgear[] = {
-        "bear_6b47_bala_atacs_au",
-        "bear_6b47_bala_atacs_au",
-        "bear_6b47_bala_multicam"
-    };*/
     headgear[] = {
-        "bear_opscore_paint2_pelt",
-        "bear_opscore_paint3_pelt",
-        "rhsusf_opscore_ut_pelt_cam",
-        "bear_opscore_tan_pelt",
-        "bear_opscore_tan_pelt_cam",
-        "bear_opscore_multicam5_cover_pelt",
-        "bear_opscore_multicam6_cover_pelt",
-        "bear_opscore_multicam4_cover_pelt_nsw"
+        "bear_6b47_atacs_au",
+        "bear_6b47_multicam"
     };
     vest[] = {
         "bear_ciras1_atacs_fg",

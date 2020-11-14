@@ -250,8 +250,8 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_m240B"};
-    scope[] = {"rhsusf_acc_ACOG"};
+    primaryWeapon[] = {"rhs_weap_fnmag"};
+    scope[] = {};
     magazines[] =
     {
         LIST_4("rhsusf_100Rnd_762x51"),
