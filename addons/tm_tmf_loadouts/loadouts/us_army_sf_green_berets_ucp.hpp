@@ -54,10 +54,10 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {
-        "rhsusf_ach_helmet_headset_ucp",
+        /*"rhsusf_ach_helmet_headset_ucp",
         "rhsusf_ach_helmet_headset_ucp_alt",
         "rhsusf_ach_helmet_headset_ess_ucp",
-        "rhsusf_ach_helmet_headset_ess_ucp_alt",
+        "rhsusf_ach_helmet_headset_ess_ucp_alt",*/
         "rhsusf_mich_bare_norotos_arc_alt",
         "rhsusf_mich_bare_norotos_arc_alt_headset",
         "rhsusf_mich_bare_norotos_arc_headset",
@@ -97,7 +97,8 @@ class r : baseMan
     bipod[] = {"rhsusf_acc_grip1"};
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_Stanag_Pull"),
+        LIST_4("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
@@ -130,7 +131,8 @@ class car : r
     displayName = "Carabinier";
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_4("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_Stanag_Pull"),
+        LIST_4("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -205,7 +207,8 @@ class co : sl
         LIST_2("rhs_mag_m18_purple"),
         LIST_3("rhs_mag_M441_HE"),
         LIST_2("rhs_mag_m714_White"),
-        LIST_5("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
+        LIST_3("tac1_tm_mag_compat_30Rnd_556x45_M995_AP_Stanag_Pull"),
+        LIST_2("rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull"),
         LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
         "rhs_mag_m67",
         LIST_2("rhs_mag_an_m8hc")
@@ -242,7 +245,8 @@ class ar : r
     attachment[] = {};
     magazines[] =
     {
-        LIST_6("rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp"),
+        LIST_2("rhsusf_100Rnd_556x45_M995_soft_pouch_ucp"),
+        LIST_4("rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp"),
         "rhs_mag_m67",
         "rhs_mag_an_m8hc"
     };
@@ -253,7 +257,8 @@ class aar : r
     backpack[] = {"B_Kitbag_sgg"};
     backpackItems[] =
     {
-        LIST_4("rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp")
+        LIST_2("rhsusf_100Rnd_556x45_M995_soft_pouch_ucp"),
+        LIST_2("rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp")
     };
     linkedItems[] += {"Binocular"};
 };

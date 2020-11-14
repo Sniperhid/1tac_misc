@@ -222,7 +222,7 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_m240B"};
+    primaryWeapon[] = {"rhs_weap_fnmag"};
     magazines[] =
     {
         LIST_5("rhsusf_100Rnd_762x51"),

@@ -6,7 +6,19 @@ class CfgMagazineWells {
             QGVAR(30Rnd_556x45_M855A1_EMAG),
             QGVAR(30Rnd_556x45_M856A1_EMAG_Tracer_Red),
             QGVAR(30Rnd_556x45_Mk318_EMAG),
-            QGVAR(30Rnd_556x45_Mk262_EMAG)
+            QGVAR(30Rnd_556x45_Mk262_EMAG),
+            
+            QGVAR(30Rnd_556x45_M995_AP_Stanag),
+            QGVAR(30Rnd_556x45_M995_AP_Stanag_Pull),
+            QGVAR(30Rnd_556x45_M995_AP_Stanag_Ranger),
+            QGVAR(30Rnd_556x45_M995_AP_EPM),
+            QGVAR(30Rnd_556x45_M995_AP_EPM_Pull),
+            QGVAR(30Rnd_556x45_M995_AP_EPM_Ranger),
+            QGVAR(30Rnd_556x45_M995_AP_PMAG),
+            QGVAR(30Rnd_556x45_M995_AP_PMAG_Tan),
+            QGVAR(30Rnd_556x45_M995_AP_SCAR),
+            QGVAR(30Rnd_556x45_M995_AP_SCAR_Pull),
+            QGVAR(30Rnd_556x45_M995_AP_SCAR_Ranger)
         };
     };
     

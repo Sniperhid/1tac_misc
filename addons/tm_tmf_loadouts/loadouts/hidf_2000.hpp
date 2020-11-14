@@ -245,7 +245,7 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    primaryWeapon[] = {"rhs_weap_m240G"};
+    primaryWeapon[] = {"rhs_weap_fnmag"};
     backPack[] = {"usm_pack_762x51_ammobelts"};
     magazines[] =
     {

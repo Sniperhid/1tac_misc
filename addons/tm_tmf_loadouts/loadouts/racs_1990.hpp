@@ -222,7 +222,7 @@ class mmgg : ar
 {
     displayName = "MMG Gunner";
     backpack[] = {"usm_pack_762x51_ammobelts"};
-    primaryWeapon[] = {"rhs_weap_m240G"};
+    primaryWeapon[] = {"rhs_weap_fnmag"};
     scope[] = {};
     magazines[] =
     {

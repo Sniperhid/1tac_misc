@@ -1,10 +1,11 @@
-/*class rhs_mag_30Rnd_556x45_M855A1_Stanag;
+class rhs_mag_30Rnd_556x45_M855A1_Stanag;
 class GVAR(30Rnd_556x45_M995_AP_Stanag): rhs_mag_30Rnd_556x45_M855A1_Stanag {
     author = "1TAC_MISC";
     displayname = "30rnd STANAG M995 AP";
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -15,6 +16,7 @@ class GVAR(30Rnd_556x45_M995_AP_Stanag_Pull): rhs_mag_30Rnd_556x45_M855A1_Stanag
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -25,6 +27,7 @@ class GVAR(30Rnd_556x45_M995_AP_Stanag_Ranger): rhs_mag_30Rnd_556x45_M855A1_Stan
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -36,6 +39,7 @@ class GVAR(30Rnd_556x45_M995_AP_EPM): rhs_mag_30Rnd_556x45_M855A1_EPM {
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -46,6 +50,7 @@ class GVAR(30Rnd_556x45_M995_AP_EPM_Pull): rhs_mag_30Rnd_556x45_M855A1_EPM_Pull 
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -56,6 +61,7 @@ class GVAR(30Rnd_556x45_M995_AP_EPM_Ranger): rhs_mag_30Rnd_556x45_M855A1_EPM_Ran
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -67,6 +73,7 @@ class GVAR(30Rnd_556x45_M995_AP_PMAG): rhs_mag_30Rnd_556x45_M855A1_PMAG {
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -78,6 +85,7 @@ class GVAR(30Rnd_556x45_M995_AP_PMAG_Tan): rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan 
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
 };
@@ -90,9 +98,9 @@ class GVAR(30Rnd_556x45_M995_AP_SCAR): rhs_mag_30Rnd_556x45_Mk318_SCAR {
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
-	initSpeed = 960;
 };
 class rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull: rhs_mag_30Rnd_556x45_Mk318_SCAR {};
 class GVAR(30Rnd_556x45_M995_AP_SCAR_Pull): rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull {
@@ -101,9 +109,9 @@ class GVAR(30Rnd_556x45_M995_AP_SCAR_Pull): rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
-	initSpeed = 960;
 };
 class rhs_mag_30Rnd_556x45_Mk318_SCAR_Ranger: rhs_mag_30Rnd_556x45_Mk318_SCAR {};
 class GVAR(30Rnd_556x45_M995_AP_SCAR_Ranger): rhs_mag_30Rnd_556x45_Mk318_SCAR_Ranger {
@@ -112,10 +120,10 @@ class GVAR(30Rnd_556x45_M995_AP_SCAR_Ranger): rhs_mag_30Rnd_556x45_Mk318_SCAR_Ra
     displayNameShort = "M995 AP";
 	descriptionShort = "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Cartridge: M995 AP";
     ammo = "rhs_ammo_556x45_M995_AP";
+    initSpeed = 1024;
     tracersEvery = 5;
     lastRoundsTracer = 0;
-	initSpeed = 960;
-};*/
+};
 
 class CUP_60Rnd_556x45_SureFire;
 class GVAR(60Rnd_556x45_M855A1_Surefire): CUP_60Rnd_556x45_SureFire {
