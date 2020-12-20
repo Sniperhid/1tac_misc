@@ -20,6 +20,7 @@ class baseMan {// Weaponless baseclass
         "bear_uniform_gorka_r_mountain_flora",
         "bear_uniform_gorka_r_mountain_flora",
         "bear_uniform_gorka_r_emr_summer",
+        "rhs_uniform_afghanka_wdl",
         "UK3CB_BAF_U_Smock_MTP_DDPM",
         "UK3CB_BAF_U_Smock_MTP_DPMW",
         "UK3CB_BAF_U_Smock_DPMW_OLI",
@@ -513,7 +514,7 @@ class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
     backpack[] = {
-        "bear_rd54_vsr",
+        "rhs_rd54",
         "CUP_B_CivPack_WDL",
         "bear_carryall_dpm",
         "B_Carryall_khk"

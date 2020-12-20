@@ -526,19 +526,20 @@ class sp : r_ak74
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_msv_emr"};
-    vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_light"};
+    uniform[] = {"rhs_uniform_vkpo"};
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_msv_emr"};
-    vest[] = {"rhs_6b13_EMR"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_light"};
+    uniform[] = {"rhs_uniform_vkpo"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -546,7 +547,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     backpackItems[] = {};
 };
 class pp : smg

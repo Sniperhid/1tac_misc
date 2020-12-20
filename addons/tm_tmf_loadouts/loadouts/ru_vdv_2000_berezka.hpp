@@ -52,8 +52,8 @@ class r : baseMan
 {
     displayName = "Rifleman";
     headgear[] = {
+        "rhs_ssh68_2",
         "bear_ssh68_olive",
-        "rhs_ssh68",
         "ssh68_khaki",
         "ssh68_camo_green",
         "ssh68_camo_yel",
@@ -243,7 +243,7 @@ class mmgg : ar
     displayName = "MMG Gunner";
     primaryWeapon[] = {"rhs_weap_pkm"};
     sidearmWeapon[] = {};
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     scope[] = {};
     magazines[] =
     {
@@ -255,7 +255,7 @@ class mmgg : ar
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -264,7 +264,7 @@ class mmgac : car
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     linkedItems[] =
     {
         "ItemMap",
@@ -452,7 +452,7 @@ class sp : r
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_m88_patchless"};
+    uniform[] = {"rhs_uniform_afghanka_spetsodezhda"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
@@ -461,7 +461,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_m88_patchless"};
+    uniform[] = {"rhs_uniform_afghanka_spetsodezhda"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};

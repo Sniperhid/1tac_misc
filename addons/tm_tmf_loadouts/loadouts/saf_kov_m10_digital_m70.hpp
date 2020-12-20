@@ -436,7 +436,7 @@ class sn : r
     primaryWeapon[] = {"rhs_weap_m76"};
     scope[] = {"rhs_acc_pso1m2"};
     bipod[] = {};
-    sidearmWeapon[] = {"rhs_weap_cz99"};
+    sidearmWeapon[] = {"rhs_weap_cz99_etched"};
     magazines[] =
     {
         LIST_7("rhsgref_10Rnd_792x57_m76"),
@@ -507,7 +507,7 @@ class jp : baseMan
     vest[] = {"rhs_vydra_3m"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
-    sidearmWeapon[] = {"rhs_weap_cz99"};
+    sidearmWeapon[] = {"rhs_weap_cz99_etched"};
     magazines[] =
     {
         LIST_4("rhssaf_mag_15Rnd_9x19_FMJ")

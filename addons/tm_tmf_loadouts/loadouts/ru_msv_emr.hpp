@@ -5,7 +5,10 @@ tooltip = "Author: Bear";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_msv_emr"};
+    uniform[] = {
+        "rhs_uniform_vkpo",
+        "rhs_uniform_vkpo_alt"
+    };
     vest[] = {};
     backpack[] = {"rhs_assault_umbts"};
     headgear[] = {};
@@ -72,7 +75,8 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "rhs_vkpo_cap"
     };
 };
 class g : r
@@ -438,8 +442,6 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_g"};
-    vest[] = {"rhs_6sh92_digi_headset"};
     headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_svdp"};
@@ -477,18 +479,18 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
-    backpack[] = {"rhs_sidor"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    vest[] = {"rhs_6sh117_rifleman"};
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
+    headgear[] = {"rhs_6b48"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    vest[] = {"rhs_6b13_EMR"};
+    vest[] = {"rhs_6sh117_rifleman"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -496,7 +498,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     backpackItems[] = {};
 };
 class pp : smg

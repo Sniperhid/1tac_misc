@@ -6,7 +6,7 @@ tooltip = "Author: Bear\n\nArma 2 CDF as interpreted by RHS: GREF. 5.45 mm Zasta
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhsgref_uniform_ttsko_mountain","rhsgref_uniform_ttsko_forest","rhsgref_uniform_ttsko_forest"};
+    uniform[] = {"rhs_uniform_afghanka_ttsko","rhs_uniform_afghanka_ttsko_2"};
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -52,7 +52,7 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
     {
-        "rhs_ssh68","bear_ssh68","bear_ssh68_olive"
+        "rhs_ssh68_2","bear_ssh68","bear_ssh68_olive"
     };
     vest[] = {"rhs_6b5","rhs_6b5_ttsko","rhs_6b5_khaki"};
     backpack[] = {"rhs_sidor"};
@@ -429,7 +429,6 @@ class sn : r
 {
     displayName = "Sniper";
     vest[] = {"rhs_6b5_sniper","rhs_6b5_sniper_ttsko","rhs_6b5_sniper_khaki"};
-    uniform[] = {"rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_g"};
     headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_svdp"};

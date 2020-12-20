@@ -5,7 +5,10 @@ tooltip = "Author: Bear\n\nSimilar to Russian forces seen in Crimea, Syria.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_vdv_emr"};
+    uniform[] = {
+        "rhs_uniform_vkpo",
+        "rhs_uniform_vkpo_alt"
+    };
     vest[] = {};
     backpack[] = {"rhs_assault_umbts", "rhs_assault_umbts", "CUP_O_RUS_Patrol_bag_Summer"};
     headgear[] = {};
@@ -56,9 +59,16 @@ class r : baseMan
         "rhs_6b47_ess_bala",
         "rhs_6b47_ess",
         "rhs_6b47_bala",
-        "rhs_6b47"
+        "rhs_6b47",
+        "rhs_6b47_6m2_1",
+        "rhs_6b47_6m2",
+        "rhs_6b47_6B50",
+        "rhs_6b47_2"
     };
-    vest[] = {"rhs_6b23_6sh116"};
+    vest[] = {
+        "rhs_6b45_rifleman",
+        "rhs_6b45_rifleman_2",
+    };
     primaryWeapon[] = {"rhs_weap_ak74m"};
     silencer[] = {"rhs_acc_dtk"};
     scope[] = {"rhs_acc_1p78"};
@@ -77,13 +87,16 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "rhs_vkpo_cap"
     };
 };
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"rhs_6b23_6sh116_vog"};
+    vest[] = {
+        "rhs_6b45_grn"
+    };
     primaryWeapon[] = {"rhs_weap_ak74m_gp25"};
     magazines[] +=
     {
@@ -98,7 +111,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
-    vest[] = {"rhs_6b23_digi_medic"};
+    backpack[] = {"rhs_medic_bag"};
     backpackItems[] =
     {
         LIST_15("ACE_fieldDressing"),
@@ -147,6 +160,11 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
+    vest[] = {
+        "rhs_6b45_grn",
+        "rhs_6b45_off",
+        "rhs_6b45_off"
+    };
     items[] += {"ACE_Maptools"};
     linkedItems[] =
     {
@@ -198,6 +216,9 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
+    vest[] = {
+        "rhs_6b45_mg"
+    };
     primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     bipod[] = {};
     silencer[] = {};
@@ -416,9 +437,6 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_g"};
-    vest[] = {"rhs_6sh92_headset"};
-    headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_svdp"};
     scope[] = {"rhs_acc_pso1m2"};
@@ -436,7 +454,6 @@ class sn : r
 class sp : sn
 {
     displayName = "Spotter";
-    vest[] = {"rhs_6sh92_radio"};
     scope[] = {"rhs_acc_1p78"};
     silencer[] = {"rhs_acc_dtk"};
     primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_2mag","rhs_weap_ak74m_plummag","rhs_weap_ak74m_camo","rhs_weap_ak74m_2mag_camo"};
@@ -454,19 +471,26 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_emr_patchless"};
-    vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    uniform[] = {
+        "rhs_uniform_vkpo",
+        "rhs_uniform_vkpo_alt"
+    };
+    vest[] = {"rhs_6sh117_rifleman"};
+    headgear[] = {"rhs_6b48"};
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_emr_patchless"};
-    vest[] = {"rhs_6b13_EMR"};
+    uniform[] = {
+        "rhs_uniform_vkpo",
+        "rhs_uniform_vkpo_alt"
+    };
+    vest[] = {"rhs_6sh117_rifleman"};
+    headgear[] = {"rhs_6b48"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -474,7 +498,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     backpackItems[] = {};
 };
 class pp : smg
@@ -533,7 +556,6 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    vest[] = {"rhs_6b23_digi_vydra_3m"};
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] = {
         "MineDetector",
@@ -546,7 +568,6 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    vest[] = {"rhs_6b23_digi_vydra_3m"};
     backpack[] = {"B_Carryall_oli"};
     items[] +=
     {

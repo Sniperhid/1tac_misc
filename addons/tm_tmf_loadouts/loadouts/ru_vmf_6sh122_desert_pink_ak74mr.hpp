@@ -449,20 +449,24 @@ class sp : g
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_emr_des_patchless"};
-    vest[] = {"rhs_6b23_digi_crewofficer"};
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_desert"};
+    uniform[] = {
+        "rhs_uniform_emr_des_patchless"
+    };
+    backpack[] = {"CUP_O_RUS_Patrol_bag_Desert"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_emr_des_patchless"};
-    vest[] = {"rhs_6b23_digi"};
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_desert"};
+    uniform[] = {
+        "rhs_uniform_emr_des_patchless"
+    };
+    backpack[] = {"CUP_O_RUS_Patrol_bag_Desert"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};

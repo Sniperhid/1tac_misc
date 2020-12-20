@@ -7,9 +7,7 @@ class baseMan {// Weaponless baseclass
     // All randomized.
     uniform[] = 
     {
-        "rhsgref_uniform_para_ttsko_mountain",
-        "rhsgref_uniform_para_ttsko_oxblood",
-        "rhsgref_uniform_para_ttsko_urban"
+        "rhs_uniform_afghanka_ttsko_2"
     };
     vest[] = {};
     backpack[] = {"B_FieldPack_oli"};
@@ -427,7 +425,6 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_g"};
     headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_svdp"};

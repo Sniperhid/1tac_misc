@@ -2,12 +2,12 @@
 //Compatible with ACE Advanced Medical
 
 // dependencies: RHS: AFRF + GREF, Bearskins
-tooltip = "Author: Bear\n\nAK-74Ms, 6B5 body armor. Yellow-dominant Berezka.";
+tooltip = "Author: Bear\n\nAK-74Ms, 6B5 body armor.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_gorka_1_b"}; // needs the VSR uniform from GREF
+    uniform[] = {"rhs_uniform_afghanka_spetsodezhda"};
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -53,7 +53,7 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = {
         "bear_ssh68_olive",
-        "rhs_ssh68",
+        "rhs_ssh68_2",
         "ssh68_khaki",
         "ssh68_camo_green",
         "ssh68_camo_yel",
@@ -243,7 +243,7 @@ class mmgg : ar
     displayName = "MMG Gunner";
     primaryWeapon[] = {"rhs_weap_pkm"};
     sidearmWeapon[] = {};
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     scope[] = {};
     magazines[] =
     {
@@ -255,7 +255,7 @@ class mmgg : ar
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -264,7 +264,7 @@ class mmgac : car
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     linkedItems[] =
     {
         "ItemMap",
@@ -452,7 +452,6 @@ class sp : r
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_m88_patchless"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
@@ -461,7 +460,6 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_m88_patchless"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};

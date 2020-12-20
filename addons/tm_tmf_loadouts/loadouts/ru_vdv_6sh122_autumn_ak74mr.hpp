@@ -5,7 +5,7 @@ tooltip = "Author: Bear\n\n6Sh122 oversuit and Ratnik gear. Upgraded AK-74MRs.";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_cup_ratnik_autumn"};
+    uniform[] = {"rhs_uniform_6sh122_gloves_v2"};
     vest[] = {};
     backpack[] = {};
     headgear[] = {};
@@ -23,7 +23,7 @@ class baseMan {// Weaponless baseclass
         "",
         ""
     };
-    hmd[] = {/*"rhs_1PN138"*/};
+    hmd[] = { "usm_nvg_gigloves" /*"rhs_1PN138"*/ };
     // Leave empty to remove all. "Default" > leave original item.
 
     // All randomized
@@ -497,20 +497,26 @@ class sp : g
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_emr_patchless"};
-    vest[] = {"rhs_6b23_digi_crewofficer"};
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Green"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_light"};
+    uniform[] = {
+        "rhs_uniform_vkpo",
+        "rhs_uniform_vkpo_alt"
+    };
+    backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_emr_patchless"};
-    vest[] = {"rhs_6b23_digi"};
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Green"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_light"};
+    uniform[] = {
+        "rhs_uniform_vkpo",
+        "rhs_uniform_vkpo_alt"
+    };
+    backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
