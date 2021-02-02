@@ -908,6 +908,11 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\czech_army_sf_wd.hpp"
     };
+    class SWEDISH_ARMY_2015 {
+        displayName = "Swedish Army (2015)";
+        category = "Western Factions";
+        #include "loadouts\swedish_army_2015.hpp"
+    }
     class DANISH_ARMY_2018
     {
         displayName = "Danish Army (2018)";
