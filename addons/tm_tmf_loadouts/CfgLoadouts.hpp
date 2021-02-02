@@ -912,7 +912,7 @@ class CfgLoadouts
         displayName = "Swedish Army (2015)";
         category = "Western Factions";
         #include "loadouts\swedish_army_2015.hpp"
-    }
+    };
     class DANISH_ARMY_2018
     {
         displayName = "Danish Army (2018)";
