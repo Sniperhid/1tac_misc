@@ -919,6 +919,12 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\danish_army_2018.hpp"
     };
+    class FINNISH_ARMY_2020
+    {
+        displayName = "Finnish Army (2020)";
+        category = "Western Factions";
+        #include "loadouts\finnish_army_2020.hpp"
+    };
     class FRENCH_ARMY_2018_FAMAS
     {
         displayName = "French Army (2018, FAMAS)";
