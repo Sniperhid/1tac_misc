@@ -6,8 +6,8 @@ class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
     uniform[] = {
-        "rhs_uniform_vkpo",
-        "rhs_uniform_vkpo_alt"
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
     };
     vest[] = {};
     backpack[] = {"rhs_assault_umbts"};

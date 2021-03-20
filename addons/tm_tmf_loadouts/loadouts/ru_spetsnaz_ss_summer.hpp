@@ -215,15 +215,14 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"CUP_arifle_RPK74M"};
+    primaryWeapon[] = {"rhs_weap_rpk74m"};
     scope[] = {"rhs_acc_ekp8_02"};
     bipod[] = {};
     silencer[] = {"cup_muzzle_pbs4"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_5("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N10"),
-        LIST_4("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N22"),
+        LIST_9("rhs_45Rnd_545X39_7N10_AK"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -237,7 +236,7 @@ class aar : r
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
-        LIST_5("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N10")
+        LIST_5("rhs_45Rnd_545X39_7N10_AK")
     };
     linkedItems[] += {"Binocular"};
 };

@@ -76,24 +76,24 @@ class CfgWeapons
     
     #include "CfgWeapons_RHSAFRF_ColdWar.hpp"
 
-    VEST_SUPPLY1(rhs_6b43, rhs_6b23, "Supply100")
+    VEST_SUPPLY1(rhs_6b43, rhs_6b23, "Supply150")
     
-    VEST_SUPPLY1(rhs_6b45, rhs_6b43, "Supply100")
+    VEST_SUPPLY1(rhs_6b45, rhs_6b43, "Supply150")
     VEST_SUPPLY1(rhs_6b45_grn, rhs_6b45, "Supply160")
-    VEST_SUPPLY1(rhs_6b45_holster, rhs_6b45, "Supply100")
-    VEST_SUPPLY1(rhs_6b45_light, rhs_6b45, "Supply100")
+    VEST_SUPPLY1(rhs_6b45_holster, rhs_6b45, "Supply150")
+    VEST_SUPPLY1(rhs_6b45_light, rhs_6b45, "Supply150")
     VEST_SUPPLY1(rhs_6b45_mg, rhs_6b45, "Supply180")
     VEST_SUPPLY1(rhs_6b45_off, rhs_6b45, "Supply160")
     VEST_SUPPLY1(rhs_6b45_rifleman, rhs_6b45, "Supply160")
     VEST_SUPPLY1(rhs_6b45_rifleman_2, rhs_6b45, "Supply160")
 
-    VEST_SUPPLY1(rhs_6sh117_rifleman, Vest_Camo_Base, "Supply140")
+    VEST_SUPPLY1(rhs_6sh117_rifleman, Vest_Camo_Base, "Supply150")
     VEST_SUPPLY1(rhs_6sh117_nco, rhs_6sh117_rifleman, "Supply160")
     VEST_SUPPLY1(rhs_6sh117_nco_azart, rhs_6sh117_rifleman, "Supply160")
     VEST_SUPPLY1(rhs_6sh117_mg, rhs_6sh117_rifleman, "Supply180")
     VEST_SUPPLY1(rhs_6sh117_ar, rhs_6sh117_rifleman, "Supply160")
-    VEST_SUPPLY1(rhs_6sh117_svd, rhs_6sh117_rifleman, "Supply140")
-    VEST_SUPPLY1(rhs_6sh117_val, rhs_6sh117_rifleman, "Supply140")
+    VEST_SUPPLY1(rhs_6sh117_svd, rhs_6sh117_rifleman, "Supply150")
+    VEST_SUPPLY1(rhs_6sh117_val, rhs_6sh117_rifleman, "Supply150")
     VEST_SUPPLY1(rhs_6sh117_grn, rhs_6sh117_rifleman, "Supply160")
 	
 	// RHS GREF

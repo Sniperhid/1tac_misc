@@ -511,8 +511,8 @@ class vc : smg
     headgear[] = {"rhs_6b48"};
     vest[] = {"rhs_6b45_light"};
     uniform[] = {
-        "rhs_uniform_vkpo",
-        "rhs_uniform_vkpo_alt"
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
     };
     backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
     goggles[] = {};
@@ -524,8 +524,8 @@ class vd : smg
     headgear[] = {"rhs_6b48"};
     vest[] = {"rhs_6b45_light"};
     uniform[] = {
-        "rhs_uniform_vkpo",
-        "rhs_uniform_vkpo_alt"
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
     };
     backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
     goggles[] = {};

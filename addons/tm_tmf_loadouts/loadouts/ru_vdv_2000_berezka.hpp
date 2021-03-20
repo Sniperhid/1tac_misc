@@ -205,9 +205,9 @@ class ar : r
 {
     displayName = "Automatic Rifleman";
     vest[] = {"rhs_6b5_rifleman", "bear_6b5_berezka_y_rifleman"};
-    primaryWeapon[] = {"CUP_arifle_RPK74M"};
+    primaryWeapon[] = {"rhs_weap_rpk74m"};
     bipod[] = {};
-    silencer[] = {};
+    silencer[] = {"rhs_acc_dtkrpk"};
     sidearmWeapon[] = {};
     magazines[] =
     {

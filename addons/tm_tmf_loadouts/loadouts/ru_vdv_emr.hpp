@@ -6,8 +6,8 @@ class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
     uniform[] = {
-        "rhs_uniform_vkpo",
-        "rhs_uniform_vkpo_alt"
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
     };
     vest[] = {};
     backpack[] = {"rhs_assault_umbts", "rhs_assault_umbts", "CUP_O_RUS_Patrol_bag_Summer"};
@@ -56,14 +56,11 @@ class r : baseMan
     displayName = "Rifleman";
     headgear[] = 
     {
-        "rhs_6b47_ess_bala",
-        "rhs_6b47_ess",
-        "rhs_6b47_bala",
-        "rhs_6b47",
-        "rhs_6b47_6m2_1",
-        "rhs_6b47_6m2",
         "rhs_6b47_6B50",
-        "rhs_6b47_2"
+        "rhs_6b47_6B50",
+        "rhs_6b47_emr",
+        "rhs_6b47_emr_1",
+        "rhs_6b47_emr_2"
     };
     vest[] = {
         "rhs_6b45_rifleman",
@@ -472,8 +469,8 @@ class vc : smg
 {
     displayName = "Vehicle Commander";
     uniform[] = {
-        "rhs_uniform_vkpo",
-        "rhs_uniform_vkpo_alt"
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
     };
     vest[] = {"rhs_6sh117_rifleman"};
     headgear[] = {"rhs_6b48"};
@@ -485,8 +482,8 @@ class vd : smg
 {
     displayName = "Vehicle Driver";
     uniform[] = {
-        "rhs_uniform_vkpo",
-        "rhs_uniform_vkpo_alt"
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
     };
     vest[] = {"rhs_6sh117_rifleman"};
     headgear[] = {"rhs_6b48"};

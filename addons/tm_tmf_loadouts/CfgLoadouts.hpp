@@ -323,6 +323,12 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_rangers_2011_oefcp_mk17.hpp"
     };
+    class US_ARMY_SF_DELTA_1993_BLACK
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (1993, Black)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_1993_black.hpp"
+    };
     class US_ARMY_SF_DELTA_1993_DCU
     {
         displayName = "US Army SFOD-D (CAG/Delta) (1993, DCU)";

@@ -513,6 +513,7 @@ class jp : baseMan
     displayName = "Jet pilot";
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
+    backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
     sidearmWeapon[] = {"rhs_weap_6p53"};
@@ -533,8 +534,9 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    headgear[] = {"rhs_6b47_bare_d"};
     uniform[] = {"CUP_U_O_RUS_Ratnik_Pink"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"UK3CB_BAF_B_Carryall_TAN"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -546,8 +548,9 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    headgear[] = {"rhs_6b47_bare_d"};
     uniform[] = {"CUP_U_O_RUS_Ratnik_Pink"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"UK3CB_BAF_B_Carryall_TAN"};
     items[] +=
     {
         "ACE_DefusalKit"

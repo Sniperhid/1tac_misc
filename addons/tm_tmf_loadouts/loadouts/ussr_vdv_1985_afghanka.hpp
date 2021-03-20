@@ -219,7 +219,7 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    backpack[] = {"rhs_6b3_RPK"};
+    vest[] = {"rhs_6b3_RPK"};
     primaryWeapon[] = {"CUP_arifle_RPK74_45"};
     bipod[] = {};
     silencer[] = {};

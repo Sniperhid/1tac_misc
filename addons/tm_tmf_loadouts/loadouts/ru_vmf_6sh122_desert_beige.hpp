@@ -524,8 +524,9 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    headgear[] = {"rhs_6b47_bare_d"};
     uniform[] = {"CUP_U_O_RUS_Ratnik_Pink"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"UK3CB_BAF_B_Carryall_TAN"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -537,8 +538,9 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    headgear[] = {"rhs_6b47_bare_d"};
     uniform[] = {"CUP_U_O_RUS_Ratnik_Pink"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"UK3CB_BAF_B_Carryall_TAN"};
     items[] +=
     {
         "ACE_DefusalKit"
