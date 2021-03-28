@@ -23,7 +23,7 @@ class baseMan {// Weaponless baseclass
         "",
         ""
     };
-    hmd[] = { "usm_nvg_gigloves" /*"rhs_1PN138"*/ };
+    hmd[] = { /*"rhs_1PN138"*/ };
     // Leave empty to remove all. "Default" > leave original item.
 
     // All randomized

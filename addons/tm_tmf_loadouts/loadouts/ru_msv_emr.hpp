@@ -479,7 +479,7 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"rhs_6sh117_rifleman"};
+    vest[] = {"rhs_6b23_crewofficer"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
     headgear[] = {"rhs_6b48"};
     goggles[] = {};
@@ -488,7 +488,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    vest[] = {"rhs_6sh117_rifleman"};
+    vest[] = {"rhs_6b23_crew"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
     headgear[] = {"rhs_6b48"};
     goggles[] = {};

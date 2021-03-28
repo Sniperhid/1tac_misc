@@ -472,7 +472,7 @@ class vc : smg
         "rhs_uniform_vkpo_gloves",
         "rhs_uniform_vkpo_gloves_alt"
     };
-    vest[] = {"rhs_6sh117_rifleman"};
+    vest[] = {"rhs_6b45_holster"};
     headgear[] = {"rhs_6b48"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
@@ -485,7 +485,7 @@ class vd : smg
         "rhs_uniform_vkpo_gloves",
         "rhs_uniform_vkpo_gloves_alt"
     };
-    vest[] = {"rhs_6sh117_rifleman"};
+    vest[] = {"rhs_6b45_holster"};
     headgear[] = {"rhs_6b48"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};

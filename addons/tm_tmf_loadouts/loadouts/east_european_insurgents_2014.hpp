@@ -212,7 +212,8 @@ class r : baseMan
     magazines[] =
     {
         LIST_9("rhs_30Rnd_545x39_7N6_AK"),
-        LIST_2("rhs_mag_f1"),
+        "rhs_grenade_khattabka_vog25_mag",
+        "rhs_grenade_khattabka_vog17_mag",
         LIST_2("rhs_mag_rdg2_white")
     };
     items[] =

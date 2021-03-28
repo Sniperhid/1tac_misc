@@ -84,12 +84,7 @@ class r : baseMan
     primaryWeapon[] = {"rhs_weap_mk17_CQC"};
     scope[] = 
     {
-		"cup_optic_elcan_specterdr_black",
-		"cup_optic_elcan_specterdr_kf_black",
-		"cup_optic_elcan_specterdr_coyote",
-		"cup_optic_elcan_specterdr_coyote",
-        "cup_optic_elcan_specterdr_kf_coyote",
-        "cup_optic_elcan_specterdr_kf_coyote"
+		"rhsusf_acc_eotech"
     };
     attachment[] = {"rhsusf_acc_anpeq15side"};
     bipod[] = {"rhsusf_acc_grip2_tan", "rhsusf_acc_grip3"};
@@ -166,8 +161,8 @@ class smg : r
 {
     displayName = "Submachinegunner";
     primaryWeapon[] = {"rhs_weap_m4_carryhandle"};
+    scope[] = {"rhsusf_acc_eotech_xps3"};
     vest[] = {"CUP_V_CPC_lightbelt_rngr"};
-    scope[] = {};
     magazines[] =
     {
         LIST_5("rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"),
@@ -244,7 +239,7 @@ class ar : r
     backpack[] = {"bear_eagleaiii_multicam"};
     primaryWeapon[] = {"CUP_lmg_Mk48"};
     bipod[] = {};
-    scope[] = {"rhsusf_acc_acog_rmr"};
+    scope[] = {"rhsusf_acc_eotech_xps3"};
     vest[] = {"bear_mbav_mg_green"};
     attachment[] = {"rhsusf_acc_anpeq15side_bk"};
     magazines[] =

@@ -452,9 +452,9 @@ class vc : smg
     headgear[] = {"rhs_6b48"};
     vest[] = {"rhs_6b45_desert"};
     uniform[] = {
-        "rhs_uniform_emr_des_patchless"
+        "rhs_uniform_vkpo"
     };
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Desert"};
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
@@ -464,9 +464,9 @@ class vd : smg
     headgear[] = {"rhs_6b48"};
     vest[] = {"rhs_6b45_desert"};
     uniform[] = {
-        "rhs_uniform_emr_des_patchless"
+        "rhs_uniform_vkpo"
     };
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Desert"};
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
