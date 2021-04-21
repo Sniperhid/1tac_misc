@@ -502,7 +502,7 @@ class mmgac : r
     displayName = "MMG Ammo Carrier";
     backpack[] = {
         "bear_rd54_vsr",
-        "CUP_B_CivPack_WDL",
+        "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
     };
@@ -516,7 +516,7 @@ class mmgag : aar
     displayName = "MMG Assistant Gunner";
     backpack[] = {
         "rhs_rd54",
-        "CUP_B_CivPack_WDL",
+        "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
     };
@@ -655,7 +655,7 @@ class samg : car
     secondaryWeapon[] = {"rhs_weap_igla"};
     backpack[] = {
         "bear_rd54_vsr",
-        "CUP_B_CivPack_WDL",
+        "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
     };
@@ -669,7 +669,7 @@ class samag : car
     displayName = "AA Assistant Missile Specialist";
     backpack[] = {
         "bear_rd54_vsr",
-        "CUP_B_CivPack_WDL",
+        "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
     };
@@ -800,7 +800,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    backpack[] = {"bear_carryall_dpm","B_Carryall_khk"};
+    backpack[] = {"bear_carryall_dpm","B_Carryall_khk","rhsgref_tortila_specter"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -812,7 +812,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    backpack[] = {"bear_carryall_dpm","B_Carryall_khk"};
+    backpack[] = {"bear_carryall_dpm","B_Carryall_khk","rhsgref_tortila_specter"};
     items[] +=
     {
         "ACE_DefusalKit"

@@ -197,12 +197,10 @@ class rat : r
 {
     displayName = "Rifleman (AT)";
     secondaryWeapon[] = {"rhs_weap_rpg7"};
-	secondaryAttachments[] = {"rhs_acc_pgo7v"};
 	backPack[] = {"rhs_rpg_empty"};
 	backPackItems[] =
 	{
-        LIST_3("rhs_rpg7_PG7V_mag"),
-		LIST_2("rhs_rpg7_OG7V_mag"),
+        LIST_2("rhs_rpg7_PG7V_mag")
 	};
 };
 class dm : r

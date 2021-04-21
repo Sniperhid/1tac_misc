@@ -284,7 +284,7 @@ class rat : car
     secondaryWeapon[] = 
     {
         "rhs_weap_m72a7",
-        "rhs_weap_rpg26"
+        "rhs_weap_rpg18"
     };
 };
 class dm : r

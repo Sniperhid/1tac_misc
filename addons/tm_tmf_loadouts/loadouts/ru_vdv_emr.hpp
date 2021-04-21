@@ -10,7 +10,7 @@ class baseMan {// Weaponless baseclass
         "rhs_uniform_vkpo_gloves_alt"
     };
     vest[] = {};
-    backpack[] = {"rhs_assault_umbts", "rhs_assault_umbts", "CUP_O_RUS_Patrol_bag_Summer"};
+    backpack[] = {"rhs_rk_sht_30_emr", "rhs_rk_sht_30_olive", "CUP_O_RUS_Patrol_bag_Summer"};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = 
@@ -219,7 +219,7 @@ class ar : r
     primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     bipod[] = {};
     silencer[] = {};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive", "rhs_tortila_emr"};
     magazines[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR"),
@@ -231,7 +231,7 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive", "rhs_tortila_emr"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -261,7 +261,7 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive", "rhs_tortila_emr"};
     primaryWeapon[] = {"CUP_lmg_Pecheneg"};
     magazines[] =
     {
@@ -274,7 +274,7 @@ class mmgg : ar
 class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive", "rhs_tortila_emr"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -474,7 +474,7 @@ class vc : smg
     };
     vest[] = {"rhs_6b45_holster"};
     headgear[] = {"rhs_6b48"};
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
+    backpack[] = {"rhs_rk_sht_30_emr_engineer_empty", "rhs_rk_sht_30_olive_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
@@ -487,7 +487,7 @@ class vd : smg
     };
     vest[] = {"rhs_6b45_holster"};
     headgear[] = {"rhs_6b48"};
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
+    backpack[] = {"rhs_rk_sht_30_emr_engineer_empty", "rhs_rk_sht_30_olive_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -553,7 +553,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive", "rhs_tortila_emr"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -565,7 +565,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive", "rhs_tortila_emr"};
     items[] +=
     {
         "ACE_DefusalKit"

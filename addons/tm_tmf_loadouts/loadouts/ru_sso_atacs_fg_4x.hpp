@@ -11,8 +11,9 @@ class baseMan {// Weaponless baseclass
         "B_AssaultPack_khk",
         "B_AssaultPack_khk",
         "B_AssaultPack_khk",
-        "rhs_assault_umbts",
-        "rhs_assault_umbts_engineer_empty",
+        "rhs_rk_sht_30_emr", "rhs_rk_sht_30_olive",
+        "rhs_rk_sht_30_emr_engineer_empty", "rhs_rk_sht_30_olive_engineer_empty",
+        "bear_eagleaiii_atacs_fg",
         "bear_eagleaiii_atacs_fg",
         "bear_eagleaiii_atacs_fg",
         "bear_eagleaiii_atacs_fg"
@@ -603,7 +604,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -615,7 +616,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     items[] +=
     {
         "ACE_DefusalKit"

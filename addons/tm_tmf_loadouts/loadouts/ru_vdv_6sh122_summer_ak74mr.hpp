@@ -498,7 +498,7 @@ class pcc : smg
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
+    backpack[] = {"rhs_rk_sht_30_emr_engineer_empty"};
     backpackItems[] = {"ToolKit"};
     magazines[] += {
         LIST_2("rhs_mag_nspd")
@@ -535,7 +535,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_emr"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -547,7 +547,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_emr"};
     items[] +=
     {
         "ACE_DefusalKit"

@@ -787,7 +787,7 @@ class CfgLoadouts
     
     class USSR_VDV_AFGHANKA
     {
-        displayName = "USSR Airborne Troops (1985, Afghanka, 6B3)";
+        displayName = "USSR Airborne Troops (1985, Gorka, 6B3)";
         category = "USSR";
         #include "loadouts\ussr_vdv_1985_afghanka.hpp"
     };
