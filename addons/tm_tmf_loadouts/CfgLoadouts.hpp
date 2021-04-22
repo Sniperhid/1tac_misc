@@ -809,6 +809,12 @@ class CfgLoadouts
         category = "USSR";
         #include "loadouts\ussr_vdv_berezka_armor.hpp"
     };
+    class USSR_VDV_BEREZKA_BERETS
+    {
+        displayName = "USSR Airborne Troops (1985, Berezka, VDV Berets)";
+        category = "USSR";
+        #include "loadouts\ussr_vdv_berezka_berets.hpp"
+    };
     class USSR_VDV_1985_TTSKO
     {
         displayName = "USSR Airborne Troops (1985, TTsKO)";
