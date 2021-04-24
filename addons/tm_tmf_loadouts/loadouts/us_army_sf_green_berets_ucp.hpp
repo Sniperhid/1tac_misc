@@ -1,12 +1,9 @@
-/* assignGear specific macros */ 
-//Compatible with ACE Advanced Medical
-
 tooltip = "Author: Bear";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_acu_ucp"}; /* after rhs update: rhs_uniform_acu_ucp2 */
+    uniform[] = {"rhs_uniform_acu_ucp2"};
     vest[] = {};
     backpack[] = {"B_AssaultPack_khk"};
     headgear[] = {};

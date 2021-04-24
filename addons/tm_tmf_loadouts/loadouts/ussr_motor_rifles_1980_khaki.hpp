@@ -1,13 +1,11 @@
 // in case of fire, tell Bear
-//Compatible with ACE Advanced Medical
 
-// dependencies: RHS: AFRF + GREF, Bearskins
-tooltip = "Author: Bear\n\nAK-74s, no body armor.";
+tooltip = "Author: Bear\n\nAK-74s, Lifchik rig.";
 
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"bear_uniform_m88_tan"};
+    uniform[] = {"rhs_uniform_afghanka"};
     vest[] = {};
     backpack[] = {"rhs_sidor"};
     headgear[] = {};
@@ -51,9 +49,12 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"rhs_ssh68"};
-    vest[] = {"bear_6sh92_khaki"};
-    backpack[] = {"rhs_sidor"};
+    headgear[] = {"rhs_ssh68_2"};
+    vest[] = {
+        "rhs_lifchik",
+        "rhs_lifchik_light"
+    };
+    backpack[] = {"rhs_sidor", "rhs_rd54_vest"};
     primaryWeapon[] =
     {
         "rhs_weap_ak74"
@@ -73,14 +74,16 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "rhs_fieldcap_early"
     };
 };
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"bear_6sh92_khaki_vog"};
-    backpack[] = {"rhs_sidor"};
+    vest[] = {
+        "rhs_lifchik_vog"
+    };
     primaryWeapon[] = {"rhs_weap_aks74_gp25"};
     magazines[] +=
     {
@@ -103,6 +106,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+    backpack[] = {"rhs_medic_bag"};
     headgear[] = {"ssh68_reg"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
@@ -150,6 +154,9 @@ class ftl : g
 class sl : ftl
 {
     displayName = "Squad Leader";
+    vest[] = {
+        "rhs_lifchik_NCO"
+    };
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] +=
     {
@@ -209,7 +216,6 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-    backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
         LIST_4("rhs_45Rnd_545X39_AK"),
@@ -220,21 +226,22 @@ class aar : r
 class rat : car
 {
     displayName = "Rifleman (AT)";
-    secondaryWeapon[] = {"rhs_weap_rpg26"};
+    secondaryWeapon[] = {"rhs_weap_rpg18"};
 };
 class dm : r
 {
     displayName = "Designated Marksman";
-    primaryWeapon[] = {"40th_weap_svd_wood"};
-    silencer[] = {};
-    scope[] = {"rhs_acc_pso1m2"};
-    bipod[] = {};
+    vest[] = {"rhs_suspender_SKS", "rhs_belt_sks", "rhs_belt_svd"};
+    primaryWeapon[] = {"CUP_SKS"};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
+    silencer[] = {};
+    scope[] = {};
+    bipod[] = {};
     magazines[] =
     {
-        LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_15("CUP_10Rnd_762x39_SKS_M"),
         "rhs_mag_rdg2_white",
-        LIST_3("rhs_mag_9x18_8_57N181S")
+        LIST_2("rhs_mag_9x18_8_57N181S")
     };
 };
 class mmgg : ar
@@ -242,7 +249,7 @@ class mmgg : ar
     displayName = "MMG Gunner";
     primaryWeapon[] = {"rhs_weap_pkm"};
     sidearmWeapon[] = {};
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     scope[] = {};
     magazines[] =
     {
@@ -255,7 +262,7 @@ class mmgg : ar
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -264,7 +271,7 @@ class mmgac : car
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     linkedItems[] =
     {
         "ItemMap",
@@ -304,7 +311,7 @@ class matg : car
 {
     displayName = "MAT Gunner";
     secondaryWeapon[] = {"rhs_weap_rpg7"};
-    backpack[] = {"rhs_rpg"};
+    backpack[] = {"rhs_rpg_6b2"};
     magazines[] +=
     {
         "rhs_rpg7_PG7VR_mag",
@@ -314,7 +321,7 @@ class matg : car
 class matac : car
 {
     displayName = "MAT Ammo Carrier";
-    backpack[] = {"rhs_rpg"};
+    backpack[] = {"rhs_rpg_6b2"};
     backpackItems[] =
     {
         LIST_2("rhs_rpg7_PG7VR_mag"),
@@ -324,7 +331,7 @@ class matac : car
 class matag : car
 {
     displayName = "MAT Assistant Gunner";
-    backpack[] = {"rhs_rpg"};
+    backpack[] = {"rhs_rpg_6b2"};
     linkedItems[] =
     {
         "ItemMap",
@@ -422,20 +429,18 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    headgear[] = {"rhs_fieldcap_khk"};
-    goggles[] = {};
-    primaryWeapon[] = {"40th_weap_svd_wood"};
-    scope[] = {"rhs_acc_pso1m2"};
+    vest[] = {"rhs_suspender_SKS", "rhs_belt_sks", "rhs_belt_svd"};
+    primaryWeapon[] = {"CUP_srifle_Mosin_Nagant"};
+    scope[] = {"cup_optic_pem"};
     bipod[] = {};
     sidearmWeapon[] = {"rhs_weap_makarov_pm"};
     magazines[] =
     {
-        LIST_8("rhs_10Rnd_762x54mmR_7N1"),
+        LIST_10("rhsgref_5Rnd_762x54_m38"),
         "rhs_mag_rdg2_white",
         LIST_3("rhs_mag_9x18_8_57N181S")
     };
     backpack[] = {};
-    linkedItems[] += {"Binocular"};
 };
 class sp : r
 {
@@ -452,7 +457,6 @@ class sp : r
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_m88_patchless"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};
@@ -461,7 +465,6 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_m88_patchless"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4","rhs_tsh4_bala"};
     goggles[] = {};

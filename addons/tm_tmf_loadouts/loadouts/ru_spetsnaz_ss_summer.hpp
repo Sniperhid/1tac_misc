@@ -75,7 +75,8 @@ class r : baseMan
     {
         LIST_7("rhs_30Rnd_545x39_7N10_plum_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
-        LIST_2("rhs_mag_rgd5"),
+        "rhs_mag_rgd5",
+        "rhs_grenade_khattabka_vog25_mag",
         LIST_2("rhs_mag_rdg2_white")
     };
     items[] =
@@ -104,7 +105,8 @@ class g : r
     {
         LIST_5("tac1_tm_mag_compat_20Rnd_9x39mm_Groza_SP5"),
         LIST_5("tac1_tm_mag_compat_20Rnd_9x39mm_Groza_SP6"),
-        LIST_2("rhs_mag_rgd5"),
+        "rhs_mag_rgd5",
+        "rhs_grenade_khattabka_vog25_mag",
         LIST_2("rhs_mag_rdg2_white"),
         LIST_6("rhs_VOG25"),
         LIST_4("rhs_VG40OP_white")
@@ -215,15 +217,14 @@ class fac : co
 class ar : r
 {
     displayName = "Automatic Rifleman";
-    primaryWeapon[] = {"CUP_arifle_RPK74M"};
+    primaryWeapon[] = {"rhs_weap_rpk74m"};
     scope[] = {"rhs_acc_ekp8_02"};
     bipod[] = {};
     silencer[] = {"cup_muzzle_pbs4"};
     sidearmWeapon[] = {};
     magazines[] =
     {
-        LIST_5("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N10"),
-        LIST_4("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N22"),
+        LIST_9("rhs_45Rnd_545X39_7N10_AK"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
@@ -237,7 +238,7 @@ class aar : r
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] =
     {
-        LIST_5("tac1_tm_mag_compat_45Rnd_545x39_RPK74M_7N10")
+        LIST_5("rhs_45Rnd_545X39_7N10_AK")
     };
     linkedItems[] += {"Binocular"};
 };
@@ -251,7 +252,8 @@ class rat : car
     magazines[] =
     {
         LIST_8("rhs_30Rnd_762x39mm_polymer_89"),
-        LIST_2("rhs_mag_rgd5"),
+        "rhs_mag_rgd5",
+        "rhs_grenade_khattabka_vog25_mag",
         LIST_2("rhs_mag_rdg2_white")
     };
 };
@@ -492,7 +494,8 @@ class sp : car
     magazines[] =
     {
         LIST_7("rhs_30Rnd_545x39_7N10_plum_AK"),
-        LIST_2("rhs_mag_rgd5"),
+        "rhs_mag_rgd5",
+        "rhs_grenade_khattabka_vog25_mag",
         LIST_2("rhs_mag_rdg2_white"),
         LIST_4("rhs_mag_9x18_8_57N181S")
     };

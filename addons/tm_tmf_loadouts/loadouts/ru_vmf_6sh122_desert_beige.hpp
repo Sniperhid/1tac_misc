@@ -438,20 +438,24 @@ class sp : g
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"rhs_uniform_emr_des_patchless"};
-    vest[] = {"rhs_6b23_digi_crewofficer"};
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_desert"};
+    uniform[] = {
+        "rhs_uniform_vkpo"
+    };
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"rhs_uniform_emr_des_patchless"};
-    vest[] = {"rhs_6b23_digi"};
-    backpack[] = {"CUP_O_RUS_Patrol_bag_Summer"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_6b48"};
+    vest[] = {"rhs_6b45_desert"};
+    uniform[] = {
+        "rhs_uniform_vkpo"
+    };
+    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -520,8 +524,9 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    headgear[] = {"rhs_6b47_bare_d"};
     uniform[] = {"CUP_U_O_RUS_Ratnik_Pink"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"UK3CB_BAF_B_Carryall_TAN"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -533,8 +538,9 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    headgear[] = {"rhs_6b47_bare_d"};
     uniform[] = {"CUP_U_O_RUS_Ratnik_Pink"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"UK3CB_BAF_B_Carryall_TAN"};
     items[] +=
     {
         "ACE_DefusalKit"

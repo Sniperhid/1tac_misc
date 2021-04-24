@@ -168,7 +168,8 @@ class co : sl
     headgear[] = {"CUP_H_TK_Beret"};
     vest[] = {"bear_chicom_m88_plate_drab", "bear_chicom_m88_plate_takistani"};
     goggles[] = {"UK3CB_BAF_G_Tactical_Black"};
-    primaryWeapon[] = {"CUP_arifle_AKS74U"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+    silencer[] = {"rhs_acc_pgs64_74u"};
     scope[] = {"cup_optic_pso_1_ak_open"};
     secondaryWeapon[] = {"rhs_weap_tt33"};
     magazines[] = {

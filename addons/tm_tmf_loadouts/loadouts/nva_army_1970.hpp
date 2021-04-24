@@ -228,7 +228,7 @@ class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
     vest[] = {"CUP_V_O_Ins_Carrier_Rig_MG"};
-    backpack[] = {"bear_rd54_sand"};
+    backpack[] = {"rhs_rd54"};
     backpackItems[] =
     {
         LIST_3("rhs_75Rnd_762x39mm")
@@ -275,7 +275,7 @@ class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
     vest[] = {"CUP_V_O_Ins_Carrier_Rig_MG"};
-    backpack[] = {"bear_rd54_sand"};
+    backpack[] = {"rhs_rd54"};
     backpackItems[] =
     {
         LIST_3("rhs_100Rnd_762x54mmR")
@@ -293,7 +293,7 @@ class mmgag : aar
         "ItemGPS"
     };
     vest[] = {"CUP_V_O_Ins_Carrier_Rig_MG"};
-    backpack[] = {"bear_rd54_sand"};
+    backpack[] = {"rhs_rd54"};
     backpackItems[] =
     {
         LIST_3("rhs_100Rnd_762x54mmR")

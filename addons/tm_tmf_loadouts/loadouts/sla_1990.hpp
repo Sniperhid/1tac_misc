@@ -235,7 +235,7 @@ class mmgg : ar
     displayName = "MMG Gunner";
     primaryWeapon[] = {"rhs_weap_pkm"};
     sidearmWeapon[] = {};
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     scope[] = {};
     magazines[] =
     {
@@ -247,7 +247,7 @@ class mmgg : ar
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -256,7 +256,7 @@ class mmgac : car
 class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
-    backpack[] = {"bear_rd54_green"};
+    backpack[] = {"rhs_rd54_vest"};
     magazines[] =
     {
         LIST_6("rhs_30Rnd_545x39_7N6M_AK"),

@@ -3,7 +3,7 @@ tooltip = "Author: Bear";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_acu_ucp"}; /* after rhs update: rhs_uniform_acu_ucp2 */
+    uniform[] = {"rhs_uniform_acu_ucp2"};
     vest[] = {};
     backpack[] = {"rhsusf_falconii_coy"};
     headgear[] = {};

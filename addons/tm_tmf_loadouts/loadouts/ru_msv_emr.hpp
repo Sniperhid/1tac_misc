@@ -5,9 +5,12 @@ tooltip = "Author: Bear";
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_msv_emr"};
+    uniform[] = {
+        "rhs_uniform_vkpo_gloves",
+        "rhs_uniform_vkpo_gloves_alt"
+    };
     vest[] = {};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_rk_sht_30_olive"};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = {};
@@ -72,7 +75,8 @@ class r : baseMan
         LIST_3("ACE_quikclot"),
         LIST_2("ACE_Splint"),
         "ACE_morphine",
-        "ACE_tourniquet"
+        "ACE_tourniquet",
+        "rhs_vkpo_cap"
     };
 };
 class g : r
@@ -200,7 +204,7 @@ class ar : r
     bipod[] = {};
     silencer[] = {};
     vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     sidearmWeapon[] = {};
     magazines[] =
     {
@@ -214,7 +218,7 @@ class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
     vest[] = {"rhs_6b23_digi_6sh92_radio"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -244,7 +248,7 @@ class dm : r
 class mmgg : ar
 {
     displayName = "MMG Gunner";
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     primaryWeapon[] = {"CUP_lmg_PKMN"};
     sidearmWeapon[] = {};
     scope[] = {"rhs_acc_1p29"};
@@ -260,7 +264,7 @@ class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
     vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -438,8 +442,6 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_g"};
-    vest[] = {"rhs_6sh92_digi_headset"};
     headgear[] = {"rhs_beanie","rhs_beanie_green"};
     goggles[] = {};
     primaryWeapon[] = {"rhs_weap_svdp"};
@@ -459,7 +461,7 @@ class sp : sn
 {
     displayName = "Spotter";
     vest[] = {"rhs_6sh92_digi_radio"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_rk_sht_30_olive"};
     scope[] = {"rhs_acc_1p78"};
     silencer[] = {"rhs_acc_dtk"};
     primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_2mag","rhs_weap_ak74m_plummag","rhs_weap_ak74m_camo","rhs_weap_ak74m_2mag_camo"};
@@ -477,18 +479,18 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
-    backpack[] = {"rhs_sidor"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    vest[] = {"rhs_6b23_crewofficer"};
+    backpack[] = {"rhs_rk_sht_30_olive_engineer_empty"};
+    headgear[] = {"rhs_6b48"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    vest[] = {"rhs_6b13_EMR"};
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    vest[] = {"rhs_6b23_crew"};
+    backpack[] = {"rhs_rk_sht_30_olive_engineer_empty"};
+    headgear[] = {"rhs_6b48"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -496,7 +498,6 @@ class vd : smg
 class vg : vd
 {
     displayName = "Vehicle Gunner";
-    backpack[] = {"rhs_assault_umbts_engineer_empty"};
     backpackItems[] = {};
 };
 class pp : smg
@@ -559,7 +560,7 @@ class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
     vest[] = {"rhs_6b23_digi_vydra_3m"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -572,7 +573,7 @@ class engm : car
 {
     displayName = "Combat Engineer (Mines)";
     vest[] = {"rhs_6b23_digi_vydra_3m"};
-    backpack[] = {"B_Carryall_oli"};
+    backpack[] = {"rhs_tortila_olive"};
     items[] +=
     {
         "ACE_DefusalKit"

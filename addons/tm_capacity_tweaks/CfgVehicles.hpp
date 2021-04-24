@@ -68,6 +68,13 @@ class CfgVehicles
 	{
 		maximumLoad = 200;
 	};
+    
+    /*class rhs_rd54: B_AssaultPack_Base {
+        maximumLoad = 240;
+    };*/
+    class rhs_r148: B_AssaultPack_Base {
+        maximumLoad = 180;
+    };
 	
 	// RHS USF
 	class rhsusf_assault_eagleaiii_ucp: B_AssaultPack_Base

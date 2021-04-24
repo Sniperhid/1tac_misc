@@ -74,7 +74,8 @@ class r : baseMan
     {
         LIST_11("rhs_30Rnd_545x39_7N10_AK"),
         LIST_2("rhs_30Rnd_545x39_AK_green"),
-        LIST_2("rhs_mag_rgd5"),
+        "rhs_mag_rgd5",
+        "rhs_grenade_khattabka_vog25_mag",
         LIST_2("rhs_mag_rdg2_white")
     };
     items[] =
@@ -212,7 +213,7 @@ class ar : r
     {
         LIST_4("rhs_45Rnd_545X39_AK"),
         LIST_2("rhs_45Rnd_545X39_7N22_AK"),
-        "rhs_mag_rgd5",
+        "rhs_grenade_khattabka_vog25_mag",
         "rhs_mag_rdg2_white"
     };
 };

@@ -111,9 +111,9 @@ class smg : r
 {
     displayName = "Submachinegunner";
     vest[] = {"bear_chicom_m88_plate_drab", "bear_chicom_m88_plate_takistani"};
-    silencer[] = {};
     scope[] = {"rhs_acc_1pn93_1"};
-    primaryWeapon[] = {"CUP_arifle_AKS74U"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+    silencer[] = {"rhs_acc_pgs64_74u"};
     magazines[] =
     {
         LIST_3("bear_orange_30Rnd_545x39_7N6M_AK"),
@@ -183,7 +183,8 @@ class co : sl
     headgear[] = {"CUP_H_TK_Beret"};
     vest[] = {"bear_chicom_m88_plate_drab", "bear_chicom_m88_plate_takistani"};
     goggles[] = {"UK3CB_BAF_G_Tactical_Black"};
-    primaryWeapon[] = {"CUP_arifle_AKS74U"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
+    silencer[] = {"rhs_acc_pgs64_74u"};
     scope[] = {"rhs_acc_1pn93_1"};
     secondaryWeapon[] = {"rhs_weap_tt33"};
     magazines[] = {

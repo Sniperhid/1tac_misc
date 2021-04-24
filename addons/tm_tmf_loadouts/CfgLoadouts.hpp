@@ -323,6 +323,12 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_rangers_2011_oefcp_mk17.hpp"
     };
+    class US_ARMY_SF_DELTA_1993_BLACK
+    {
+        displayName = "US Army SFOD-D (CAG/Delta) (1993, Black)";
+        category = "USA";
+        #include "loadouts\us_army_sf_delta_1993_black.hpp"
+    };
     class US_ARMY_SF_DELTA_1993_DCU
     {
         displayName = "US Army SFOD-D (CAG/Delta) (1993, DCU)";
@@ -555,6 +561,12 @@ class CfgLoadouts
         category = "Russia";
         #include "loadouts\ru_msv_flora_2010.hpp"
     };
+    class RUS_MSV_2000_VSR_WINTER
+    {
+        displayName = "RU Ground Forces (2000, VSR, Winter)";
+        category = "Russia";
+        #include "loadouts\ru_msv_2000_vsr_winter.hpp"
+    };
     
     class RUS_VDV_6SH122_AUTUMN
     {
@@ -618,9 +630,9 @@ class CfgLoadouts
     };
     class RUS_VDV_VSR
     {
-        displayName = "RU Airborne Troops (2000, VSR)";
+        displayName = "RU Airborne Troops (1995, VSR)";
         category = "Russia";
-        #include "loadouts\ru_vdv_2000_vsr.hpp"
+        #include "loadouts\ru_vdv_1995_vsr.hpp"
     };
     
     class RUS_VMF_6SH122_DESERT_BEIGE
@@ -675,7 +687,7 @@ class CfgLoadouts
     
     class RUS_SSO_ATACS_AU
     {
-        displayName = "RU Special Operations Forces (2017, A-TACS AU, night vision)";
+        displayName = "RU Special Operations Forces (2017, A-TACS AU, NVG and suppressed)";
         category = "Russia";
         #include "loadouts\ru_sso_atacs_au.hpp"
     };
@@ -687,7 +699,7 @@ class CfgLoadouts
     };
     class RUS_SSO_ATACS_FG
     {
-        displayName = "RU Special Operations Forces (2017, A-TACS FG, night vision)";
+        displayName = "RU Special Operations Forces (2017, A-TACS FG, NVG and suppressed)";
         category = "Russia";
         #include "loadouts\ru_sso_atacs_fg.hpp"
     };
@@ -699,7 +711,7 @@ class CfgLoadouts
     };
     class RUS_SSO_ATACS_IX
     {
-        displayName = "RU Special Operations Forces (2017, A-TACS IX, night vision)";
+        displayName = "RU Special Operations Forces (2017, A-TACS IX, NVG and suppressed)";
         category = "Russia";
         #include "loadouts\ru_sso_atacs_ix.hpp"
     };
@@ -711,7 +723,7 @@ class CfgLoadouts
     };
     class RUS_SSO_MULTICAM
     {
-        displayName = "RU Special Operations Forces (2017, Multicam, night vision)";
+        displayName = "RU Special Operations Forces (2017, Multicam, NVG and suppressed)";
         category = "Russia";
         #include "loadouts\ru_sso_mc.hpp"
     };
@@ -742,15 +754,40 @@ class CfgLoadouts
         category = "USSR";
         #include "loadouts\ussr_motor_rifles_1980_khaki.hpp"
     };
+    class USSR_MOTOR_RIFLES_1980_KHAKI_ARMOR
+    {
+        displayName = "USSR Motor Rifles (1980, Khaki, body armor)";
+        category = "USSR";
+        #include "loadouts\ussr_motor_rifles_1980_khaki_6b2.hpp"
+    };
     class USSR_MOTOR_RIFLES_1985_KHAKI
     {
-        displayName = "USSR Motor Rifles (1985, Khaki, body armor)";
+        displayName = "USSR Motor Rifles (1985, Khaki)";
         category = "USSR";
         #include "loadouts\ussr_motor_rifles_1985_khaki.hpp"
     };
+    class USSR_MOTOR_RIFLES_1985_KHAKI_ARMOR
+    {
+        displayName = "USSR Motor Rifles (1985, Khaki, body armor)";
+        category = "USSR";
+        #include "loadouts\ussr_motor_rifles_1985_khaki_6b3.hpp"
+    };
+    class USSR_MOTOR_RIFLES_1985_TTSKO_WINTER
+    {
+        displayName = "USSR Motor Rifles (1985, Winter, TTsKO)";
+        category = "USSR";
+        #include "loadouts\ussr_motor_rifles_1985_ttsko_winter.hpp"
+    };
+    class USSR_MOTOR_RIFLES_1985_TTSKO_WINTER_ARMOR
+    {
+        displayName = "USSR Motor Rifles (1985, Winter, TTsKO, body armor)";
+        category = "USSR";
+        #include "loadouts\ussr_motor_rifles_1985_ttsko_winter_6b3.hpp"
+    };
+    
     class USSR_VDV_AFGHANKA
     {
-        displayName = "USSR Airborne Troops (1985, Afghanka)";
+        displayName = "USSR Airborne Troops (1985, Gorka, 6B3)";
         category = "USSR";
         #include "loadouts\ussr_vdv_1985_afghanka.hpp"
     };
@@ -772,11 +809,30 @@ class CfgLoadouts
         category = "USSR";
         #include "loadouts\ussr_vdv_berezka_armor.hpp"
     };
+    class USSR_VDV_BEREZKA_BERETS
+    {
+        displayName = "USSR Airborne Troops (1985, Berezka, VDV Berets)";
+        category = "USSR";
+        #include "loadouts\ussr_vdv_berezka_berets.hpp"
+    };
     class USSR_VDV_1985_TTSKO
+    {
+        displayName = "USSR Airborne Troops (1985, TTsKO)";
+        category = "USSR";
+        #include "loadouts\ussr_vdv_1985_ttsko.hpp"
+    };
+    class USSR_VDV_1985_TTSKO_ARMOR
     {
         displayName = "USSR Airborne Troops (1985, TTsKO, body armor)";
         category = "USSR";
-        #include "loadouts\ussr_vdv_1985_ttsko.hpp"
+        #include "loadouts\ussr_vdv_1985_ttsko_6b3.hpp"
+    };
+    
+    class USSR_MVD_1990
+    {
+        displayName = "USSR MVD/Internal Troops (1990, Spetsodezhda, body armor)";
+        category = "USSR";
+        #include "loadouts\ussr_mvd_1990_spetsodezhda.hpp"
     };
     
     
