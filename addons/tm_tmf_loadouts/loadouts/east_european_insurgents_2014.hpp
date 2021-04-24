@@ -19,17 +19,16 @@ class baseMan {// Weaponless baseclass
         "bear_uniform_gorka_1_ss_autumn",
         "bear_uniform_gorka_r_mountain_flora",
         "bear_uniform_gorka_r_mountain_flora",
-        "bear_uniform_gorka_r_emr_summer",
         "rhs_uniform_afghanka_wdl",
         "UK3CB_BAF_U_Smock_MTP_DDPM",
         "UK3CB_BAF_U_Smock_MTP_DPMW",
         "UK3CB_BAF_U_Smock_DPMW_OLI",
         "UK3CB_BAF_U_Smock_DPMW_OLI",
         "rhs_uniform_gorka_r_y",
-        "rhs_uniform_gorka_r_y",
-        "rhs_uniform_gorka_r_g",
         "rhs_uniform_gorka_r_g",
         "rhs_uniform_mvd_izlom",
+        "bear_uniform_vkbo_spectre_s_novorossiya",
+        "bear_uniform_vkbo_spectre_s_novorossiya",
         "bear_uniform_vkbo_spectre_s_novorossiya",
         "bear_uniform_vkbo_spectre_s_novorossiya",
         "bear_uniform_vkbo_spectre_s_novorossiya",
@@ -501,7 +500,7 @@ class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
     backpack[] = {
-        "bear_rd54_vsr",
+        "rhsgref_tortila_specter",
         "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
@@ -515,7 +514,7 @@ class mmgag : aar
 {
     displayName = "MMG Assistant Gunner";
     backpack[] = {
-        "rhs_rd54",
+        "rhsgref_tortila_specter",
         "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
@@ -654,7 +653,7 @@ class samg : car
     displayName = "AA Missile Specialist";
     secondaryWeapon[] = {"rhs_weap_igla"};
     backpack[] = {
-        "bear_rd54_vsr",
+        "rhsgref_tortila_specter",
         "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
@@ -668,7 +667,7 @@ class samag : car
 {
     displayName = "AA Assistant Missile Specialist";
     backpack[] = {
-        "bear_rd54_vsr",
+        "rhsgref_tortila_specter",
         "rhsgref_tortila_specter",
         "bear_carryall_dpm",
         "B_Carryall_khk"
@@ -800,7 +799,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    backpack[] = {"bear_carryall_dpm","B_Carryall_khk","rhsgref_tortila_specter"};
+    backpack[] = {"bear_carryall_dpm","B_Carryall_khk","rhsgref_tortila_specter","rhsgref_tortila_specter"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -812,7 +811,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    backpack[] = {"bear_carryall_dpm","B_Carryall_khk","rhsgref_tortila_specter"};
+    backpack[] = {"bear_carryall_dpm","B_Carryall_khk","rhsgref_tortila_specter","rhsgref_tortila_specter"};
     items[] +=
     {
         "ACE_DefusalKit"
