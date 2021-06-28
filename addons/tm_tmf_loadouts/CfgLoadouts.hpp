@@ -842,6 +842,24 @@ class CfgLoadouts
         category = "Eastern Factions";
         #include "loadouts\cn_pla_type07_wdl.hpp"
     };
+    class CRO_ARMY_1992
+    {
+	displayName = "Croatian Ground Army 1992";
+	category = "Eastern Factions";
+	#include "loadouts/cro_army_1992.hpp"
+    };
+    class CRO_ARMY_WD
+    {
+	displayName = "Croatian Ground Army (Modern woodland)";
+	category = "Eastern Factions";
+	#include "loadouts/cro_army_wd.hpp"
+    };
+    class CRO_SF
+    {
+	displayName = "Croatian Special Forces";
+	category = "Eastern Factions";
+	#include "loadouts/cro_sf.hpp"
+    };
     class EAST_EUROPEAN_INSURGENTS
     {
         displayName = "Donbass Insurgents (2014-)";
@@ -1078,6 +1096,18 @@ class CfgLoadouts
         displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
         category = "Other";
         #include "loadouts\arvn_1966.hpp"
+    };
+    class BLACK_ARMED_SUITS
+    {
+	displayName = "Black suit Western PMC w/ M4";
+	category = "Other";
+	#include "loadouts/black_armed_suits.hpp"
+    };
+    class BROWN_ARMED_SUITS
+    {
+	displayName = "Brown suit Eastern PMC w/ AK-12";
+	category = "Other";
+	#include "loadouts/brown_armed_suits.hpp"
     };
     class GENERIC_PARAMILITARY_OLIVE_AKM
     {
