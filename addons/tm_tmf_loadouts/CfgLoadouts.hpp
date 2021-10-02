@@ -1223,12 +1223,6 @@ class CfgLoadouts
 	category = "Other";
 	#include "loadouts\taliban_regular_2021.hpp"
     };
-    class TALIBAN_ELITE_2021
-    {
-	displayName = "Taliban Elite Fighters (2021-, AKMs&M4s)";
-	category = "Other";
-	#include "loadouts\taliban_elite_2021.hpp"
-    };
     
     
     class LIVONIAN_DEFENCE_FORCE
