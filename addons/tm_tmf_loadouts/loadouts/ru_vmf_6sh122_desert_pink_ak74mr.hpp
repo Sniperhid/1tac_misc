@@ -256,7 +256,7 @@ class dm : r
     {
         LIST_4("rhs_20rnd_9x39mm_SP5"),
         LIST_4("rhs_20rnd_9x39mm_SP6"),
-        LIST_2("rhs_mag_9x19_17"),
+        LIST_2("rhs_18rnd_9x21mm_7BT3"),
         "rhs_mag_rgd5",
         "rhs_mag_rdg2_white"
     };
