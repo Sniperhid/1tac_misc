@@ -27,9 +27,7 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgBrains.hpp"
-#include "CfgAmmo.hpp"
-#include "CfgWeapons.hpp"
+
 
 // Disable AI prone stance on all(?) surfaces
 class CfgSurfaces {
