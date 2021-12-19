@@ -1247,14 +1247,18 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\syrian_arab_army_wdl.hpp"
     };
+    class TALIBAN_REGULAR_2021
+    {
+        displayName = "Taliban Regulars (2021-, AKMs&M4s)";
+        category = "Other";
+        #include "loadouts\taliban_regular_2021.hpp"
+    };
     class TALIBAN_SHOCK_2021
     {
-	displayName = "Taliban Shock Fighters (2021-, AKMs&M4s)";
-	category = "Other";
-	#include "loadouts\taliban_shock_2021.hpp"
+        displayName = "Taliban Shock Fighters (2021-, AKMs&M4s)";
+        category = "Other";
+        #include "loadouts\taliban_shock_2021.hpp"
     };
-    
-    
     class LIVONIAN_DEFENCE_FORCE
     {
         displayName = "Livonian Defence Force";
