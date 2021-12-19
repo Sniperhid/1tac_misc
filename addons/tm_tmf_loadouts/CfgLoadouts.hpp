@@ -853,12 +853,24 @@ class CfgLoadouts
         displayName = "GDR Army (1980, Strichtarn)";
         category = "Eastern Factions";
         #include "loadouts\gdr_nva_1980_strichtarn.hpp"
+    };    
+	class IRAQ_2003
+    {
+        displayName = "Iraqi Army (2003)";
+        category = "Eastern Factions";
+        #include "loadouts\iraq_2003.hpp"        
     };
     class NVA_ARMY
     {
         displayName = "North Vietnamese Army (1970)";
         category = "Eastern Factions";
         #include "loadouts\nva_army_1970.hpp"        
+    };
+	class NVA_2020
+    {
+        displayName = "People's Army of Vietnam (2020)";
+        category = "Eastern Factions";
+        #include "loadouts\nva_2020.hpp"        
     };
     class UA_VDV_MM14
     {
@@ -891,6 +903,12 @@ class CfgLoadouts
         displayName = "Australian Special Forces (AusMC)";
         category = "Western Factions";
         #include "loadouts\aus_sf_ausmc.hpp"
+    };    
+	class BUNDESHEER_2020
+    {
+        displayName = "Austrian Bundesheer (2020, Gray)";
+        category = "Western Factions";
+        #include "loadouts\bundesheer_2020.hpp"
     };
     class BUNDESWEHR_1983
     {
@@ -1073,11 +1091,23 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\arab_insurgents.hpp"
     };
+	class Argentina_1982
+    {
+        displayName = "Argentine Army (1982)";
+        category = "Other";
+        #include "loadouts\argentina_1982.hpp"
+    };
     class ARVN_1966
     {
         displayName = "Army of the Republic of Vietnam (1966, OD GREEN)";
         category = "Other";
         #include "loadouts\arvn_1966.hpp"
+    };
+	class FARC_2015
+    {
+        displayName = "Revolutionary Armed Forces of Columbia (2015)";
+        category = "Other";
+        #include "loadouts\farc_2015.hpp"
     };
     class GENERIC_PARAMILITARY_OLIVE_AKM
     {
@@ -1219,12 +1249,16 @@ class CfgLoadouts
     };
     class TALIBAN_REGULAR_2021
     {
-	displayName = "Taliban Regulars (2021-, AKMs&M4s)";
-	category = "Other";
-	#include "loadouts\taliban_regular_2021.hpp"
+        displayName = "Taliban Regulars (2021-, AKMs&M4s)";
+        category = "Other";
+        #include "loadouts\taliban_regular_2021.hpp"
     };
-    
-    
+    class TALIBAN_SHOCK_2021
+    {
+        displayName = "Taliban Shock Fighters (2021-, AKMs&M4s)";
+        category = "Other";
+        #include "loadouts\taliban_shock_2021.hpp"
+    };
     class LIVONIAN_DEFENCE_FORCE
     {
         displayName = "Livonian Defence Force";
