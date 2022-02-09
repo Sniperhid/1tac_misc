@@ -1285,4 +1285,131 @@ class CfgLoadouts
         category = "World War 2";
         #include "loadouts\wehrmacht_1945.hpp"
     };
+	
+	
+    //Blufor GM
+    class W_GER_80
+    {
+        displayName = "West Germany 1980s";
+        category = "Global Mobilization";
+        #include "loadouts\wger_80.hpp"
+    };
+    class W_GER_80W
+    {
+        displayName = "West Germany 1980s - Winter";
+        category = "Global Mobilization";
+        #include "loadouts\wger_80w.hpp"
+    };
+    class W_GER_80_SF
+    {
+        displayName = "West Germany 1980s - Special Forces";
+        category = "Global Mobilization";
+        #include "loadouts\wger_80_sf.hpp"
+    };
+    class W_GER_80_SFW
+    {
+        displayName = "West Germany 1980s - Special Forces Winter";
+        category = "Global Mobilization";
+        #include "loadouts\wger_80_sfw.hpp"
+    };
+    class W_GER_90
+    {
+        displayName = "West Germany 1990s";
+        category = "Global Mobilization";
+        #include "loadouts\wger_90.hpp"
+    };
+    class W_GER_90W
+    {
+        displayName = "West Germany 1990s - Winter";
+        category = "Global Mobilization";
+        #include "loadouts\wger_90w.hpp"
+    };
+
+    class DEN_80
+    {
+        displayName = "Denmark 1980s";
+        category = "Global Mobilization";
+        #include "loadouts\den_80.hpp"
+    };
+    class DEN_80W
+    {
+        displayName = "Denmark 1980s - Winter";
+        category = "Global Mobilization";
+        #include "loadouts\den_80w.hpp"
+    };
+    class DEN_80_SF
+    {
+        displayName = "Denmark 1980s - Special Forces";
+        category = "Global Mobilization";
+        #include "loadouts\den_80_sf.hpp"
+    };
+    class DEN_80_SFW
+    {
+        displayName = "Denmark 1980s - Special Forces Winter";
+        category = "Global Mobilization";
+        #include "loadouts\den_80_sfw.hpp"
+    };
+    class DEN_90
+    {
+        displayName = "Denmark 1990s";
+        category = "Global Mobilization";
+        #include "loadouts\den_90.hpp"
+    };
+    class DEN_90W
+    {
+        displayName = "Denmark 1990s - Winter";
+        category = "Global Mobilization";
+        #include "loadouts\den_90w.hpp"
+    };
+
+    //Opfor GM
+    class E_GER_80
+    {
+        displayName = "East Germany 1980s";
+        category = "Global Mobilization";
+        #include "loadouts\eger_80.hpp"
+    };
+    class E_GER_80W
+    {
+        displayName = "East Germany 1980s - Winter";
+        category = "Global Mobilization";
+        #include "loadouts\eger_80w.hpp"
+    };
+    class E_GER_80_SF
+    {
+        displayName = "East Germany 1980s - Special Forces";
+        category = "Global Mobilization";
+        #include "loadouts\eger_80_sf.hpp"
+    };
+    class E_GER_80_SFW
+    {
+        displayName = "East Germany 1980s - Special Forces Winter";
+        category = "Global Mobilization";
+        #include "loadouts\eger_80_sfw.hpp"
+    };
+
+    class POL_80
+    {
+        displayName = "Poland 1980s";
+        category = "Global Mobilization";
+        #include "loadouts\pol_80.hpp"
+    };
+    class POL_80W
+    {
+        displayName = "Poland 1980s - Winter";
+        category = "Global Mobilization";
+        #include "loadouts\pol_80w.hpp"
+    };
+    class POL_80_SF
+    {
+        displayName = "Poland 1980s - Special Forces";
+        category = "Global Mobilization";
+        #include "loadouts\pol_80_sf.hpp"
+    };
+    class POL_80_SFW
+    {
+        displayName = "Poland 1980s - Special Forces Winter";
+        category = "Global Mobilization";
+        #include "loadouts\pol_80_sfw.hpp"
+    };
 };
