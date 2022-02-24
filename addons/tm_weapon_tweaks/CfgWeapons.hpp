@@ -3,67 +3,9 @@ class Mode_FullAuto;
 
 class CfgWeapons {
     class Rifle_Base_F;
-    class arifle_MX_Base_F: Rifle_Base_F {};
-    class rhs_weap_m4_Base: arifle_MX_Base_F {
-        class Single: Mode_SemiAuto {
-            dispersion = 0.0015; // 0.0008727
-        };
-        class FullAuto: Mode_FullAuto {
-            dispersion = 0.002;
-        };
-    };
-    
-    /*class rhs_weap_saw_base: Rifle_Base_F {
-        class FullAuto;
-    };
-    class rhs_weap_lmg_minimipara: rhs_weap_saw_base {
-        recoil = "tm_recoil_m249"; // recoil_SAW
-        class FullAuto: FullAuto {
-            dispersion = 0.0014; // 0.00101
-        };
-    };*/
-    
-    /*class rhs_weap_M249_base;
-    class rhs_weap_m240_base: rhs_weap_M249_base {
-        recoil = "tm_recoil_m240"; // recoil_zafir
-        class manual: Mode_FullAuto {
-            dispersion = 0.00015; // 0.0008
-        };
-    };*/
-    
-    class rhs_weap_savz58_base: Rifle_Base_F {
-        recoil = "recoil_mxm"; // recoil_mk20
-    };
-    
-    class rhs_weap_ak74m_Base_F: Rifle_Base_F {
-        recoil = "recoil_mxm"; // from recoil_mk20 to same as m4
-        class Single: Mode_SemiAuto {
-            dispersion = 0.0015; // 0.00093
-        };
-        class FullAuto: Mode_FullAuto {
-            dispersion = 0.002; // 0.00093
-        };
-    };
-    
-    class Rifle_Long_Base_F: Rifle_Base_F {};
-    /*class rhs_pkp_base: Rifle_Long_Base_F {
-        recoil = "tm_recoil_m240"; // recoil_zafir
-        class FullAuto: Mode_FullAuto {
-            dispersion = 0.00101; // 0.00101
-        };
-    };
-    class rhs_weap_pkp: rhs_pkp_base {};
-    class rhs_weap_pkm: rhs_weap_pkp {
-        recoil = "tm_recoil_m240"; // recoil_zafir
-        class manual: FullAuto {
-            dispersion = 0.00101; // 0.00093
-        };
-    };*/
-    
     class hlc_g3_base: Rifle_Base_F {
         recoil = "tm_recoil_battlerifle"; // recoil_dmr_03
     };
-    
     class Pistol_Base_F;
     class CUP_hgun_TEC9: Pistol_Base_F {
         modes[] = {"Single", QGVAR(FullAuto)};
