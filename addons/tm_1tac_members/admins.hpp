@@ -20,4 +20,13 @@ class tmf_adminmenu_authorized_players {
     class Head {
         uid = "76561197975149309";
     };
+    class BedPleyar {
+        uid = "76561198049547782";
+    };
+    class HolyFrostFire {
+        uid = "76561198044054833";
+    };
+    class Savs {
+        uid = "76561198053363012";
+    };
 };
