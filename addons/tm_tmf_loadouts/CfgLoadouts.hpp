@@ -1247,6 +1247,12 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\syrian_arab_army_wdl.hpp"
     };
+    class SYRIAN_REBELS_WDL
+    {
+	displayName = "Syrian Rebels (2011-Present);
+	category = "Other";
+	#include "loadouts\syrian_rebels_wdl.hpp"
+    };
     class TALIBAN_REGULAR_2021
     {
         displayName = "Taliban Regulars (2021-, AKMs&M4s)";
