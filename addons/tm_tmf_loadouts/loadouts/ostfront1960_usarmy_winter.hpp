@@ -1,4 +1,4 @@
-tooltip = "Author: Käsmeister.\n\nAlt history WW2 US Army loadout (1960s, Winter)";
+tooltip = "Author: Käsmeister.\n\nAlt-history WW2 US Army loadout (1960s, Winter)";
 //Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
@@ -112,7 +112,7 @@ class m : car
         LIST_6("ACE_bloodIV"),
         LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit"),
-		LIST_2("rhs_grenade_m15_mag")
+		LIST_1("rhs_grenade_m15_mag")
 	};
 };
 class smg : r
@@ -260,24 +260,27 @@ class hmgag : car
 class matg : rat
 {
 	displayName = "MAT Gunner";
+	vest[] = {"usm_vest_pasgt_lbe_rmpr","usm_vest_pasgt_lbe_rm2"};
 	secondaryWeapon[] = {"gm_pzf84_oli"};
 	secondaryAttachments[] = {"gm_feroz2x17_pzf84_blk"};
 	backpackItems[] =
 	{
-		LIST_3("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
+		LIST_2("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
 	};
 };
 class matac : car
 {
 	displayName = "MAT Ammo Carrier";
+	vest[] = {"usm_vest_pasgt_lbe_rmpr","usm_vest_pasgt_lbe_rm2"};
 	backpackItems[] =
 	{
-		LIST_3("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
+		LIST_2("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
 	};
 };
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
+	vest[] = {"usm_vest_pasgt_lbe_rmpr","usm_vest_pasgt_lbe_rm2"};
 	linkedItems[] =
 	{
 		"ItemMap",
