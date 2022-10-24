@@ -1,4 +1,4 @@
-tooltip = "Author: Käsmeister.\n\nAlt history WW2 Soviet Army loadout (1960s, Winter)";
+tooltip = "Author: Käsmeister.\n\nAlt-history WW2 Soviet Army loadout (1960s, Winter)";
 //Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
@@ -292,13 +292,21 @@ class matag : car
 class hatg : matg
 {
     displayName = "HAT Gunner";
-    secondaryWeapon[] = {""};
+	secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
+	backpackItems[] =
+	{
+		""
+	};
 };
 class hatac : matac
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
+	backpackItems[] =
+	{
+		""
+	};
 };
 class hatag : r
 {
