@@ -29,4 +29,16 @@ class tmf_adminmenu_authorized_players {
     class Savs {
         uid = "76561198053363012";
     };
+    class Käsmeister{
+        uid = "76561198045563469";
+    };
+    class haxfar{
+        uid = "76561198016583436";
+    };
+    class Plankton{
+        uid = "76561197990137093";
+    };
+    class wookimonsta{
+        uid = "76561198003374120";
+    };
 };
