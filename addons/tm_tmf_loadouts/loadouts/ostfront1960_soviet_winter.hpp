@@ -292,6 +292,7 @@ class matag : car
 class hatg : matg
 {
     displayName = "HAT Gunner";
+    secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
 };
 class hatac : matac
