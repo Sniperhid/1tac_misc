@@ -1,4 +1,4 @@
-tooltip = "Author: Käsmeister.\n\nAlt history WW2 US Army loadout (1960s, Forest)";
+tooltip = "Author: Käsmeister.\n\nAlt-history WW2 US Army loadout (1960s, Forest)";
 //Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
@@ -112,7 +112,7 @@ class m : car
         LIST_6("ACE_bloodIV"),
         LIST_6("ACE_Splint"),
         LIST_1("ACE_surgicalKit"),
-		LIST_2("rhs_grenade_m15_mag")
+		LIST_1("rhs_grenade_m15_mag")
 	};
 };
 class smg : r
@@ -262,9 +262,9 @@ class matg : rat
 	displayName = "MAT Gunner";
 	secondaryWeapon[] = {"gm_pzf84_oli"};
 	secondaryAttachments[] = {"gm_feroz2x17_pzf84_blk"};
-	backpackItems[] =
+	magazines[] +=
 	{
-		LIST_3("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
+		LIST_2("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
 	};
 };
 class matac : car
@@ -272,7 +272,7 @@ class matac : car
 	displayName = "MAT Ammo Carrier";
 	backpackItems[] =
 	{
-		LIST_3("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
+		LIST_2("gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf")
 	};
 };
 class matag : car
