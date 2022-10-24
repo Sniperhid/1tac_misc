@@ -1,4 +1,4 @@
-tooltip = "Author: Käsmeister.\n\nAlt history WW2 German Army loadout (1960s, Forest)";
+tooltip = "Author: Käsmeister.\n\nAlt-history WW2 German Army loadout (1960s, Forest)";
 //Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
@@ -157,17 +157,23 @@ class fac : car
 class ar : r
 {
 	displayName = "Automatic Rifleman";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	primaryWeapon[] = {"rhs_weap_mg42"};
 	scope[] = {};
 	bipod[] = {};
 	magazines[] =
 	{
-		LIST_2("rhsgref_296Rnd_792x57_SmK_belt"),
+		LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
 	};
+	backpackItems[] =
+    {
+        LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
+    };
 };
 class aar : car
 {
     displayName = "Assistant Automatic Rifleman";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     backpackItems[] =
     {
         LIST_2("rhsgref_296Rnd_792x57_SmK_belt"),
@@ -176,6 +182,7 @@ class aar : car
 class rat : car
 {
     displayName = "Rifleman (AT)";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     secondaryWeapon[] = {"gm_pzf84_oli"};
 	backPackItems[] =
 	{
@@ -205,6 +212,7 @@ class mmgg : ar
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     backpackItems[] =
     {
         LIST_2("rhsgref_296Rnd_792x57_SmK_alltracers_belt")
@@ -213,6 +221,7 @@ class mmgac : car
 class mmgag : car
 {
 	displayName = "MMG Assistant Gunner";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -240,6 +249,7 @@ class hmgag : mmgag
 class matg : rat
 {
 	displayName = "MAT Gunner";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	backpackItems[] =
 	{
 		LIST_4("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
@@ -248,6 +258,7 @@ class matg : rat
 class matac : car
 {
 	displayName = "MAT Ammo Carrier";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	backpackItems[] =
 	{
 		LIST_4("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
@@ -256,6 +267,7 @@ class matac : car
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -271,7 +283,7 @@ class matag : car
 class hatg : matg
 {
     displayName = "HAT Gunner";
-    secondaryWeapon[] = {""};
+	secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
 };
 class hatac : matac
