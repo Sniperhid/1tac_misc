@@ -1,4 +1,4 @@
-tooltip = "Author: Käsmeister.\n\nAlt history WW2 German Army loadout (1960s, Winter)";
+tooltip = "Author: Käsmeister.\n\nAlt-history WW2 German Army loadout (1960s, Winter)";
 //Compatible with ACE Advanced Medical
 
 class baseMan {// Weaponless baseclass
@@ -157,17 +157,23 @@ class fac : car
 class ar : r
 {
 	displayName = "Automatic Rifleman";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	primaryWeapon[] = {"rhs_weap_mg42"};
 	scope[] = {};
 	bipod[] = {};
 	magazines[] =
 	{
-		LIST_2("rhsgref_296Rnd_792x57_SmK_belt"),
+		LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
 	};
+	backpackItems[] =
+    {
+        LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
+    };
 };
 class aar : car
 {
     displayName = "Assistant Automatic Rifleman";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     backpackItems[] =
     {
         LIST_2("rhsgref_296Rnd_792x57_SmK_belt"),
@@ -176,6 +182,7 @@ class aar : car
 class rat : car
 {
     displayName = "Rifleman (AT)";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     secondaryWeapon[] = {"gm_pzf84_win"};
 	backPackItems[] =
 	{
@@ -199,12 +206,17 @@ class mmgg : ar
 	displayName = "MMG Gunner";
 	magazines[] =
 	{
-		LIST_2("rhsgref_296Rnd_792x57_SmK_alltracers_belt")
+		LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
 	};
+	backpackItems[] =
+    {
+        LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
+    };
 };
 class mmgac : car
 {
     displayName = "MMG Ammo Carrier";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     backpackItems[] =
     {
         LIST_2("rhsgref_296Rnd_792x57_SmK_alltracers_belt")
@@ -213,6 +225,7 @@ class mmgac : car
 class mmgag : car
 {
 	displayName = "MMG Assistant Gunner";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -240,22 +253,25 @@ class hmgag : mmgag
 class matg : rat
 {
 	displayName = "MAT Gunner";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	backpackItems[] =
 	{
-		LIST_4("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
+		LIST_3("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
 	};
 };
 class matac : car
 {
 	displayName = "MAT Ammo Carrier";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	backpackItems[] =
 	{
-		LIST_4("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
+		LIST_3("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
 	};
 };
 class matag : car
 {
 	displayName = "MAT Assistant Gunner";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -265,19 +281,27 @@ class matag : car
 	};
 	backpackItems[] =
 	{
-		LIST_3("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
+		LIST_2("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
 	};
 };
 class hatg : matg
 {
     displayName = "HAT Gunner";
-    secondaryWeapon[] = {""};
+	secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
+	backpackItems[] =
+	{
+		""
+	};
 };
 class hatac : matac
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
+	backpackItems[] =
+	{
+		""
+	};
 };
 class hatag : r
 {
@@ -288,6 +312,10 @@ class hatag : r
 		"ItemCompass",
 		"ItemWatch",
 		"Binocular"
+	};
+	backpackItems[] =
+	{
+		""
 	};
 };
 class mtrg : car
@@ -322,6 +350,7 @@ class samg : car
 {
     displayName = "AA Missile Specialist";
     secondaryWeapon[] = {"gm_fim43_oli"};
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     backpackItems[] =
     {
 		LIST_2("gm_1Rnd_70mm_he_m585_fim43")
@@ -330,6 +359,7 @@ class samg : car
 class samag : car
 {
     displayName = "AA Assistant Missile Specialist";
+	backpack[] = {"gm_dk_army_backpack_73_oli"};
     linkedItems[] =
     {
         "ItemMap",
