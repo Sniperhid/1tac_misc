@@ -1199,6 +1199,18 @@ class CfgLoadouts
 	category = "Other";
 	#include "loadouts\ostfront1960_soviet_winter.hpp"
     };
+    class OSTFRONT1960_USARMY_FOREST
+    {
+	displayName = "US Army (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_usarmy_forest.hpp"
+    };
+    class OSTFRONT1960_USARMY_WINTER
+    {
+	displayName = "US Army (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_usarmy_winter.hpp"
+    };
     class PMC_CZ805
     {
         displayName = "PMC (CZ805)";
