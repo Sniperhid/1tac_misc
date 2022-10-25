@@ -374,33 +374,45 @@ class vc : car
 {
     displayName = "Vehicle Commander";
     headgear[] = {"rhs_tsh4_ess"};
+    goggles[] = {""};
+	hmd[] = {""};
     linkedItems[] += {"Binocular"};
 };
 class vd : car
 {
     displayName = "Vehicle Driver";
     headgear[] = {"rhs_tsh4_ess"};
+    goggles[] = {""};
+	hmd[] = {""};
     backpackItems[] = {"ToolKit"};
 };
 class vg : vd
 {
     displayName = "Vehicle Gunner";
 	headgear[] = {"rhs_tsh4_ess"};
+	goggles[] = {""};
+	hmd[] = {""};
 };
 class pp : car
 {
     displayName = "Helicopter Pilot";
+    goggles[] = {""};
+	hmd[] = {""};
     headgear[] = {"gm_ge_headgear_sph4_oli"};
 };
 class pcc : car
 {
     displayName = "Helicopter Crew Chief";
+    goggles[] = {""};
+	hmd[] = {""};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
 };
 class pc : pcc
 {
     displayName = "Helicopter Crew";
+    goggles[] = {""};
+	hmd[] = {""};
 	backpack[] = {};
     backpackItems[] = {};
 };
@@ -408,6 +420,8 @@ class jp : baseMan
 {
     displayName = "Jet pilot";
     headgear[] = {"gm_ge_headgear_sph4_oli"};
+    goggles[] = {""};
+	hmd[] = {""};
 	sidearmWeapon[] = {"gm_mp2a1_blk"};
     magazines[] =
     {
