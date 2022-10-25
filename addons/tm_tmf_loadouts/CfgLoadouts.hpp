@@ -1187,6 +1187,12 @@ class CfgLoadouts
 	category = "Other";
 	#include "loadouts\ostfront1960_germany_winter.hpp"
     };
+    class OSTFRONT1960_SAS
+    {
+	displayName = "UK SAS (Alt-History 1960s)";
+	category = "Other";
+	#include "loadouts\ostfront1960_sas.hpp"
+    };
     class OSTFRONT1960_SOVIET_FOREST
     {
 	displayName = "USSR (Alt-History 1960s, Forest)";
