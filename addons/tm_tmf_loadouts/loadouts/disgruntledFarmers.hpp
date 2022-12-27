@@ -312,7 +312,7 @@ class hatg : matg
     secondaryAttachments[] = {"rhs_acc_pgo7v2"};
 	backpackItems[] =
 	{
-		LIST_2("rhs_rpg7_PG7VR_mag"),
+		LIST_1("rhs_rpg7_PG7VR_mag"),
 		LIST_2("rhs_rpg7_PG7VL_mag")
 	};
 };
@@ -321,7 +321,7 @@ class hatac : matac
 	displayName = "HAT Ammo Carrier";
 	backpackItems[] =
 	{
-		LIST_2("rhs_rpg7_PG7VR_mag"),
+		LIST_1("rhs_rpg7_PG7VR_mag"),
 		LIST_2("rhs_rpg7_PG7VL_mag")
 	};
 };
@@ -482,6 +482,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+	backpack[] = {"CUP_B_HikingPack_Civ"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
