@@ -501,6 +501,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    backpack[] = {"B_Carryall_oli"};
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
@@ -512,6 +513,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    backpack[] = {"B_Carryall_oli"};
     items[] +=
     {
         "ACE_DefusalKit"
