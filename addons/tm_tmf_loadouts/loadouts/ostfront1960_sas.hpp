@@ -223,19 +223,13 @@ class hmgac : mmgac
 {
     displayName = "HMG Ammo Carrier";
 	backpack[] = {"RHS_M2_Tripod_Bag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 };
 class hmgag : mmgag
 {
 	displayName = "HMG Assistant Gunner";
 	backpack[] = {"RHS_M2_Tripod_Bag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -282,19 +276,20 @@ class hatg : matg
     displayName = "HAT Gunner";
 	secondaryWeapon[] = {""};
 	backpack[] = {"gm_milan_launcher_weaponBag"};
-	backpackItems[] =
-	{
-		""
-	};
+	magazines[] =
+    {
+        LIST_7("rhs_mag_20Rnd_762x51_m80_fnfal"),
+		LIST_2("CUP_13Rnd_9x19_Browning_HP"),
+        LIST_1("rhs_grenade_mkii_mag"),
+		LIST_1("rhs_grenade_m15_mag")
+    };
+	backpackItems[] = {};
 };
 class hatac : matac
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"gm_milan_launcher_weaponBag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 };
 class hatag : r
 {
