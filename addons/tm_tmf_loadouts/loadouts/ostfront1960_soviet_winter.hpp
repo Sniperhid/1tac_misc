@@ -241,11 +241,13 @@ class hmgac : mmgac
 {
     displayName = "HMG Ammo Carrier";
 	backpack[] = {"RHS_DShkM_TripodLow_Bag"};
+	backpackItems[] = {};
 };
 class hmgag : mmgag
 {
 	displayName = "HMG Assistant Gunner";
 	backpack[] = {"RHS_DShkM_TripodLow_Bag"};
+	backpackItems[] = {};
 	linkedItems[] =
 	{
 		"ItemMap",
@@ -294,19 +296,13 @@ class hatg : matg
     displayName = "HAT Gunner";
 	secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 };
 class hatac : matac
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 };
 class hatag : r
 {
