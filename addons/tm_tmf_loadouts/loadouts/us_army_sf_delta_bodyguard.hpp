@@ -274,6 +274,7 @@ class matg : car
 class matac : r
 {
     displayName = "MAT Ammo Carrier";
+    backpack[] = {"B_Kitbag_sgg"};
     backpackItems[] =
     {
         LIST_3("rhs_mag_maaws_HEDP")
@@ -282,6 +283,7 @@ class matac : r
 class matag : car
 {
     displayName = "MAT Assistant Gunner";
+    backpack[] = {"B_Kitbag_sgg"};
     linkedItems[] =
     {
         "ItemMap",
@@ -524,12 +526,6 @@ class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
     backpack[] = {"B_Carryall_oli"};
-    magazines[] =
-    {
-        LIST_6("rhs_mag_20Rnd_SCAR_762x51_m62_tracer_bk"),
-        LIST_2("rhs_mag_an_m8hc"),        
-        LIST_4("ClaymoreDirectionalMine_Remote_Mag")
-    };
     backpackItems[] = {
         "MineDetector",
         "ToolKit",
