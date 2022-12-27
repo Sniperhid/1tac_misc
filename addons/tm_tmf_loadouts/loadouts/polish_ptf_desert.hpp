@@ -404,6 +404,7 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
+    backpack[] = {"B_AssaultPack_khk"};
     headgear[] = {"rhsusf_cvc_helmet"};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -426,6 +427,7 @@ class pcc : smg
 {
 
     displayName = "Helicopter Crew Chief";
+    backpack[] = {"B_AssaultPack_khk"};
     headgear[] = {"rhsusf_hgu56p_visor_tan"};
     goggles[] = {"default"};
     linkedItems[] += {"ItemGPS"};
@@ -450,6 +452,7 @@ class jp : smg
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
+    backpack[] = {"B_AssaultPack_khk"};
     magazines[] +=
     {
         LIST_4("ClaymoreDirectionalMine_Remote_Mag")
@@ -464,6 +467,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
+    backpack[] = {"B_AssaultPack_khk"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
