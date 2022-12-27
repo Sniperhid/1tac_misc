@@ -289,19 +289,13 @@ class hatg : matg
     displayName = "HAT Gunner";
 	secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 };
 class hatac : matac
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
-	backpackItems[] =
-	{
-		""
-	};
+	backpackItems[] = {};
 };
 class hatag : r
 {
@@ -312,10 +306,6 @@ class hatag : r
 		"ItemCompass",
 		"ItemWatch",
 		"Binocular"
-	};
-	backpackItems[] =
-	{
-		""
 	};
 };
 class mtrg : car
