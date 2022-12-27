@@ -163,11 +163,11 @@ class ar : r
 	bipod[] = {};
 	magazines[] =
 	{
-		LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
+		LIST_1("rhsgref_296Rnd_792x57_SmK_belt")
 	};
 	backpackItems[] =
     {
-        LIST_1("rhsgref_296Rnd_792x57_SmK_belt"),
+        LIST_1("rhsgref_296Rnd_792x57_SmK_belt")
     };
 };
 class aar : car
@@ -176,7 +176,7 @@ class aar : car
 	backpack[] = {"gm_dk_army_backpack_73_oli"};
     backpackItems[] =
     {
-        LIST_2("rhsgref_296Rnd_792x57_SmK_belt"),
+        LIST_1("rhsgref_296Rnd_792x57_SmK_belt")
     };
 };
 class rat : car
@@ -252,7 +252,7 @@ class matg : rat
 	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	backpackItems[] =
 	{
-		LIST_4("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
+		LIST_3("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
 	};
 };
 class matac : car
@@ -261,7 +261,7 @@ class matac : car
 	backpack[] = {"gm_dk_army_backpack_73_oli"};
 	backpackItems[] =
 	{
-		LIST_4("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
+		LIST_3("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
 	};
 };
 class matag : car
@@ -277,7 +277,7 @@ class matag : car
 	};
 	backpackItems[] =
 	{
-		LIST_3("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
+		LIST_2("gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf")
 	};
 };
 class hatg : matg
@@ -285,11 +285,13 @@ class hatg : matg
     displayName = "HAT Gunner";
 	secondaryWeapon[] = {""};
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
+	backpackItems[] = {};
 };
 class hatac : matac
 {
 	displayName = "HAT Ammo Carrier";
 	backpack[] = {"gm_fagot_launcher_weaponBag"};
+	backpackItems[] = {};
 };
 class hatag : r
 {
