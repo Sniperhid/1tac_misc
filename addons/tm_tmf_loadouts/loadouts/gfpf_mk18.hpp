@@ -311,6 +311,7 @@ class matag : car
 class hatg : car
 {
     displayName = "HAT Gunner";
+    backpack[] = {"rhs_tortila_black"};
 	secondaryWeapon[] = {"gm_pzf3_blk"};
     magazines[] +=
     {
@@ -320,6 +321,7 @@ class hatg : car
 class hatac : r
 {
     displayName = "HAT Ammo Carrier";
+    backpack[] = {"rhs_tortila_black"};
 	backpackItems[] =
     {
         LIST_2("gm_1Rnd_60mm_heat_dm22_pzf3")
@@ -328,6 +330,7 @@ class hatac : r
 class hatag : car
 {
     displayName = "HAT Assistant Gunner";
+    backpack[] = {"rhs_tortila_black"};
 	backpackItems[] =
     {
         LIST_2("gm_1Rnd_60mm_heat_dm22_pzf3")
