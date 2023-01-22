@@ -58,7 +58,8 @@ class r : baseMan
     {
         LIST_8("rhsusf_20Rnd_762x51_m80_Mag"),
         LIST_2("rhs_grenade_mkii_mag"),
-        LIST_2("rhs_grenade_m15_mag")
+        LIST_2("rhs_grenade_m15_mag"),
+	LIST_1("gm_1Rnd_66mm_heat_m72a3")
     };
 	items[] =
 	{
@@ -155,6 +156,7 @@ class fac : car
     displayName = "FAC";
 	secondaryWeapon[] = {"gm_m72a3_oli"};
 	backpackItems[] = {};
+	magazines[] += {"gm_1Rnd_66mm_heat_m72a3"};
 	linkedItems[] = {
 		"ItemMap",
 		"ItemCompass",
@@ -197,6 +199,7 @@ class rat : r
 {
     displayName = "Rifleman (AT)";
     secondaryWeapon[] = {"gm_m72a3_oli"};
+    magazines[] += {"gm_1Rnd_66mm_heat_m72a3"};
 };
 class dm : r
 {
@@ -222,6 +225,7 @@ class mmgag : car
 {
 	displayName = "MMG Assistant Gunner";
 	secondaryWeapon[] = {"gm_m72a3_oli"};
+	magazines[] += {"gm_1Rnd_66mm_heat_m72a3"};
 	linkedItems[] =
 	{
 		"ItemMap",
