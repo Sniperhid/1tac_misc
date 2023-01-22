@@ -60,7 +60,8 @@ class r : baseMan
         LIST_9("rhs_mag_20Rnd_762x51_m80_fnfal"),
 		LIST_2("CUP_13Rnd_9x19_Browning_HP"),
         LIST_2("rhs_grenade_mkii_mag"),
-		LIST_2("rhs_grenade_m15_mag")
+		LIST_2("rhs_grenade_m15_mag"),
+		LIST_1("gm_1Rnd_66mm_heat_m72a3")
     };
 	items[] =
 	{
@@ -173,6 +174,7 @@ class rat : car
 {
     displayName = "Rifleman (AT)";
     secondaryWeapon[] = {"gm_m72a3_oli"};
+    magazines[] += {"gm_1Rnd_66mm_heat_m72a3"};
 };
 class dm : r
 {
@@ -184,7 +186,8 @@ class dm : r
 		LIST_8("CUP_10x_303_M"),
 		LIST_2("CUP_13Rnd_9x19_Browning_HP"),
 		LIST_2("rhs_grenade_mkii_mag"),
-		LIST_1("rhs_grenade_m15_mag")
+		LIST_1("rhs_grenade_m15_mag"),
+		LIST_1("gm_1Rnd_66mm_heat_m72a3")
 	};
 };
 class mmgg : ar
