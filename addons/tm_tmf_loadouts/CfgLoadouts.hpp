@@ -1187,6 +1187,48 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\kpa_2020.hpp"
     };
+    class OSTFRONT1960_GERMANY_FOREST
+    {
+	displayName = "Wehrmacht (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_germany_forest.hpp"
+    };
+    class OSTFRONT1960_GERMANY_WINTER
+    {
+	displayName = "Wehrmacht (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_germany_winter.hpp"
+    };
+    class OSTFRONT1960_SAS
+    {
+	displayName = "UK SAS (Alt-History 1960s)";
+	category = "Other";
+	#include "loadouts\ostfront1960_sas.hpp"
+    };
+    class OSTFRONT1960_SOVIET_FOREST
+    {
+	displayName = "USSR (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_soviet_forest.hpp"
+    };
+    class OSTFRONT1960_SOVIET_WINTER
+    {
+	displayName = "USSR (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_soviet_winter.hpp"
+    };
+    class OSTFRONT1960_USARMY_FOREST
+    {
+	displayName = "US Army (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_usarmy_forest.hpp"
+    };
+    class OSTFRONT1960_USARMY_WINTER
+    {
+	displayName = "US Army (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_usarmy_winter.hpp"
+    };
     class PMC_CZ805
     {
         displayName = "PMC (CZ805)";
