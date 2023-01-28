@@ -365,6 +365,12 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_sf_delta_mc_tropic.hpp"
     };
+    class US_ARMY_SF_DELTA_BODYGUARD
+    {
+	displayName = "US Army Delta Force Bodyguards (2020s-)";
+	category = "USA";
+	#include "loadouts\us_army_sf_delta_bodyguard.hpp"
+    };
     class US_ARMY_SF_GREEN_BERETS_DCU
     {
         displayName = "US Army SFOD-A (Green Berets) (2008, DCU)";
