@@ -1339,7 +1339,7 @@ class CfgLoadouts
     };
     class SYRIAN_REBELS_WDL
     {
-	displayName = "Syrian Rebels (2011-Present);
+	displayName = "Syrian Rebels (2011-Present)";
 	category = "Other";
 	#include "loadouts\syrian_rebels_wdl.hpp"
     };
