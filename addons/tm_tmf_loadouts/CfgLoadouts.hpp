@@ -1163,6 +1163,36 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\paramilitary_tigerstripe_desert.hpp"
     };
+    class GFPF_AK105
+    {
+        displayName = "Global Federation Police Force (2011-, AK-105s)";
+        category = "Other";
+        #include "loadouts\gfpf_ak105.hpp"
+    };
+    class GFPF_G36C
+    {
+        displayName = "Global Federation Police Force (2011-, G36Cs)";
+        category = "Other";
+        #include "loadouts\gfpf_g36c.hpp"
+    };
+    class GFPF_MK18
+    {
+        displayName = "Global Federation Police Force (2011-, Mk 18s)";
+        category = "Other";
+        #include "loadouts\gfpf_mk18.hpp"
+    };
+    class GFPF_SR3
+    {
+        displayName = "Global Federation Police Force (2011-, SR-3s)";
+        category = "Other";
+        #include "loadouts\gfpf_sr3.hpp"
+    };	
+    class GFPF_VZ58
+    {
+        displayName = "Global Federation Police Force (2011-, Vz 58s)";
+        category = "Other";
+        #include "loadouts\gfpf_vz58.hpp"
+    };
     class IDF
     {
         displayName = "Israeli Defence Forces (Olive)";
