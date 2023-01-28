@@ -1115,7 +1115,13 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\arvn_1966.hpp"
     };
-	class FARC_2015
+    class DISGRUNTLED_FARMERS
+    {
+	displayName = "Disgruntled Farmers";
+	category = "Other";
+	#include "loadouts\disgruntledFarmers.hpp"
+    };
+    class FARC_2015
     {
         displayName = "Revolutionary Armed Forces of Columbia (2015)";
         category = "Other";
