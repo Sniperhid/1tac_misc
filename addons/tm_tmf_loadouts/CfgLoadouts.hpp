@@ -1053,6 +1053,12 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\polish_sf_atacs_fg.hpp"
     };
+    class POLISH_PTF_DESERT
+    {
+	displayName = "Polish Task Force in Afghanistan (2004)";
+	category = "Western Factions";
+	#include "loadouts\polish_ptf_desert.hpp"
+    };
     
     
     class AFGHAN_NATIONAL_ARMY_SPEC4CE_AF
