@@ -365,6 +365,12 @@ class CfgLoadouts
         category = "USA";
         #include "loadouts\us_army_sf_delta_mc_tropic.hpp"
     };
+    class US_ARMY_SF_DELTA_BODYGUARD
+    {
+	displayName = "US Army Delta Force Bodyguards (2020s-)";
+	category = "USA";
+	#include "loadouts\us_army_sf_delta_bodyguard.hpp"
+    };
     class US_ARMY_SF_GREEN_BERETS_DCU
     {
         displayName = "US Army SFOD-A (Green Berets) (2008, DCU)";
@@ -1053,6 +1059,12 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\polish_sf_atacs_fg.hpp"
     };
+    class POLISH_PTF_DESERT
+    {
+	displayName = "Polish Task Force in Afghanistan (2004)";
+	category = "Western Factions";
+	#include "loadouts\polish_ptf_desert.hpp"
+    };
     
     
     class AFGHAN_NATIONAL_ARMY_SPEC4CE_AF
@@ -1103,7 +1115,13 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\arvn_1966.hpp"
     };
-	class FARC_2015
+    class DISGRUNTLED_FARMERS
+    {
+	displayName = "Disgruntled Farmers";
+	category = "Other";
+	#include "loadouts\disgruntledFarmers.hpp"
+    };
+    class FARC_2015
     {
         displayName = "Revolutionary Armed Forces of Columbia (2015)";
         category = "Other";
@@ -1145,6 +1163,36 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\paramilitary_tigerstripe_desert.hpp"
     };
+    class GFPF_AK105
+    {
+        displayName = "Global Federation Police Force (2011-, AK-105s)";
+        category = "Other";
+        #include "loadouts\gfpf_ak105.hpp"
+    };
+    class GFPF_G36C
+    {
+        displayName = "Global Federation Police Force (2011-, G36Cs)";
+        category = "Other";
+        #include "loadouts\gfpf_g36c.hpp"
+    };
+    class GFPF_MK18
+    {
+        displayName = "Global Federation Police Force (2011-, Mk 18s)";
+        category = "Other";
+        #include "loadouts\gfpf_mk18.hpp"
+    };
+    class GFPF_SR3
+    {
+        displayName = "Global Federation Police Force (2011-, SR-3s)";
+        category = "Other";
+        #include "loadouts\gfpf_sr3.hpp"
+    };	
+    class GFPF_VZ58
+    {
+        displayName = "Global Federation Police Force (2011-, Vz 58s)";
+        category = "Other";
+        #include "loadouts\gfpf_vz58.hpp"
+    };
     class IDF
     {
         displayName = "Israeli Defence Forces (Olive)";
@@ -1174,6 +1222,48 @@ class CfgLoadouts
         displayName = "North Korean People's Army (2020)";
         category = "Other";
         #include "loadouts\kpa_2020.hpp"
+    };
+    class OSTFRONT1960_GERMANY_FOREST
+    {
+	displayName = "Wehrmacht (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_germany_forest.hpp"
+    };
+    class OSTFRONT1960_GERMANY_WINTER
+    {
+	displayName = "Wehrmacht (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_germany_winter.hpp"
+    };
+    class OSTFRONT1960_SAS
+    {
+	displayName = "UK SAS (Alt-History 1960s)";
+	category = "Other";
+	#include "loadouts\ostfront1960_sas.hpp"
+    };
+    class OSTFRONT1960_SOVIET_FOREST
+    {
+	displayName = "USSR (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_soviet_forest.hpp"
+    };
+    class OSTFRONT1960_SOVIET_WINTER
+    {
+	displayName = "USSR (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_soviet_winter.hpp"
+    };
+    class OSTFRONT1960_USARMY_FOREST
+    {
+	displayName = "US Army (Alt-History 1960s, Forest)";
+	category = "Other";
+	#include "loadouts\ostfront1960_usarmy_forest.hpp"
+    };
+    class OSTFRONT1960_USARMY_WINTER
+    {
+	displayName = "US Army (Alt-History 1960s, Winter)";
+	category = "Other";
+	#include "loadouts\ostfront1960_usarmy_winter.hpp"
     };
     class PMC_CZ805
     {
@@ -1247,21 +1337,27 @@ class CfgLoadouts
         category = "Other";
         #include "loadouts\syrian_arab_army_wdl.hpp"
     };
+    class SYRIAN_REBELS_WDL
+    {
+	displayName = "Syrian Rebels (2011-Present)";
+	category = "Other";
+	#include "loadouts\syrian_rebels_wdl.hpp"
+    };
     class TALIBAN_REGULAR_2021
     {
-        displayName = "Taliban Regulars (2021-, AKMs&M4s)";
+        displayName = "Taliban Regulars (2021-, AKMs and M4s)";
         category = "Other";
         #include "loadouts\taliban_regular_2021.hpp"
     };
     class TALIBAN_SHOCK_2021
     {
-        displayName = "Taliban Shock Fighters (2021-, AKMs&M4s)";
+        displayName = "Taliban Shock Fighters (2021-, AKMs and M4s)";
         category = "Other";
         #include "loadouts\taliban_shock_2021.hpp"
     };
     class TALIBAN_ELITE_2021
     {
-        displayName = "Taliban Elite Fighters (2021-, AKMs&M4s)";
+        displayName = "Taliban Elite Fighters (2021-, AKMs and M4s)";
         category = "Other";
         #include "loadouts\taliban_elite_2021.hpp"
     };
