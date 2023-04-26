@@ -1029,6 +1029,24 @@ class CfgLoadouts
         category = "Western Factions";
         #include "loadouts\greek_army_2018.hpp"
     };
+class WGER_80_GSG9
+{
+	displayName = "GSG-9 (1980s)";
+	category = "Western Factions";
+	#include "loadouts\wger_80_gsg9.hpp"
+};
+class WGER_90_GSG9
+{
+	displayName = "GSG-9 (1990s)";
+	category = "Western Factions";
+	#include "loadouts\wger_90_gsg9.hpp"
+};
+class GSG9_2030
+{
+	displayName = "GSG-9 (2030s)";
+	category = "Western Factions";
+	#include "loadouts\gsg9_2030.hpp"
+};
     class NEW_ZEALAND_ARMY_2013_NZMCU
     {
         displayName = "New Zealand Army (2013, NZMCU, AUG)";
