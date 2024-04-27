@@ -29,4 +29,7 @@ class tmf_adminmenu_authorized_players {
     class Savs {
         uid = "76561198053363012";
     };
+    class BoinQ {
+        uid = "76561197968137316";
+    }
 };
