@@ -31,7 +31,7 @@ class tmf_adminmenu_authorized_players {
     };
     class BoinQ {
         uid = "76561197968137316";
-    }
+    };
 	class Kaesmeister {
 	    uid = "76561198045563469";
     };
